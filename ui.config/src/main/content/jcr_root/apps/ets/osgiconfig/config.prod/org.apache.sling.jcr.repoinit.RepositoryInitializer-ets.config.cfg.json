@@ -1,0 +1,9 @@
+{
+"scripts":[
+    "create service user etsservice",
+	"set ACL on /content/dam/ets-org\r\n   allow jcr:all for etsservice\r\n  end",
+	"set ACL on /content/ets-org\r\n   allow jcr:all for etsservice\r\n  end",
+	"set ACL on /conf/ets\r\n   allow jcr:read for etsservice\r\n  end",
+	"set ACL on /var/workflow\r\n   allow jcr:all for etsservice\r\n  end"
+   ]
+}

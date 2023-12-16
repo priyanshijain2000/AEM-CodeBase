@@ -1,0 +1,59 @@
+<sly data-sly-use.allProducts="org.ets.core.models.AllProductsFilterModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !allProducts.sourcePath,classAppend='cmp-text'}"></sly>
+<div data-sly-test="${allProducts.sourcePath}" class="all-products cmp-container--body-small">
+	<div class="all-products__select">
+		<div class="all-products__select__container">
+			<form>
+				<i class="all-products__select__search-icon"><img src="/content/dam/ets-org/icons/commons/searchIcon_blue.svg" alt="${allProducts.searchAlt || true}"></i>
+				<label for="searchField" class="visually-hidden">${allProducts.searchBoxText}</label>
+				<input type="search" aria-label="${allProducts.searchAriaLabel}" id="searchField" name="searchField" placeholder="${allProducts.searchBoxText}">
+				<a class="cta-btn-primary" id="productSearchButton" href="javascript:;">
+					<span class="d-none d-md-block">${allProducts.searchText}</span>
+					<i class="d-block d-md-none state-search__select__left-arrow" ></i>
+				</a>
+			</form>
+		</div>
+	</div>
+	<div data-cf-path="${allProducts.sourcePath}" data-products-text="${allProducts.allProductsText}" class="all-products__input__container">
+		<div class="all-products__input__container--wrapper">
+			<div class="all-products__input__container--resultDisplay">
+				<div class="dataFilter">
+					<div class="all-products__input__container__resultsData"></div>
+					<div class="all-products__input__container__filter">
+						<div class="field-group all-products-filter__filter">
+							<div class="searchDetails">
+								<div class="searchInfo"> </div>
+								<form class="field without-search">
+									<div class="field-groups">
+										<label for='selectTest' class="form-label form-label-text">${allProducts.filterText}</label>
+										<div class="customselectAllProductsFilter">
+											<select class="all-products-dropdown" aria-label="Select a level category" data-placeholder="${allProducts.filterBoxText}"><option></option></select>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="all-products__results">
+					<div class="all-products__results__description">
+					</div>
+					<div class="noProduct d-none py-5">${allProducts.noResultText}</div>
+					<div class="litePagination allProductsPagination cmp-button--tertiary d-none">
+                        <a href="#" class="previous button cmp-button hover--primary cmp-button-arrow" aria-label="${allProducts.prevAriaLabel || 'previous page'}" data-action="previous">
+                        	<span class="cmp-button__icon--leftArrowBlue" aria-hidden="true"></span>${allProducts.prevLabel || 'Previous'}
+                        </a>
+                        <input aria-label="${allProducts.inputPaginationAriaLabel || 'Enter page number'}" type="text" />
+                        <div class="page-result-text">
+                        	<span class="current-page d-none">0</span> ${allProducts.countTextLabel || 'of'} <span class="max-page">0</span>
+                        </div>
+                        <a href="#" class="next button cmp-button hover--primary" aria-label="${allProducts.nextAriaLabel || 'next page'}" data-action="next">
+                        	${allProducts.nextLabel || 'Next'}<span class="cmp-button__icon--rightArrowBlue" aria-hidden="true"></span>
+                        </a>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

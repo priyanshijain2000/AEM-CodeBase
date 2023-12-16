@@ -1,0 +1,146 @@
+/*v2*/
+.cmp-newsbanner {
+    &--blackText{
+        color :#151515;
+    }
+    &--whiteText {
+        color :#fff;
+    }
+    .cmp-teaser {
+        position: relative;
+        display: block;
+        width: 100%;
+        &__content {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            min-height: auto;
+            min-width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }   
+        &__title {
+                font-weight: 300;
+                font-size: 21px;
+                line-height: 32px;
+                padding-bottom: 10px;
+                @include viewport(tablet-desktop) {
+                    font-size: 26px;
+                    line-height: 42px;
+                }
+        }
+        &__description {
+                p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                @include viewport(tablet-desktop) {
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+              }
+        }
+        &__image {
+                .cmp-image {
+                position: relative;
+                img {
+                    width: 100vw;
+                    position: relative;
+                    left: calc(-50vw + 50%);
+                    object-fit: cover;
+                    object-position: center;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+/*V2*/
+.bannerLeftParallex {
+    display: none;
+}
+
+@include viewport(tablet-desktop) {
+    .bannerLeftParallex {
+        position: absolute;
+        left: -90px;
+        top: 150px;
+        z-index: 1;
+        display: block;
+    }
+}
+
+@include viewport(tablet-portrait) {
+        .bannerLeftParallex {
+           top: 108px;
+           left:-95px;
+    }
+}
+
+.banner-layout {
+    background: linear-gradient(90deg, #3B5686 54.83%, #37A8C0 108.19%);
+    overflow: hidden;
+    &-container {
+        padding: 3.125rem 0;
+        h2, .heading2 {
+            color: $color-white;
+            margin-bottom: 0.625rem;
+        }
+        .body-text {
+            color: $color-white;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .bannerRightParallex {
+        display: none;
+    }
+    @include viewport(tablet-desktop) {
+        &-container {
+            padding: 5.125rem 20rem 5.125rem 6.75rem;
+        }
+        .bannerRightParallex {
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 1;
+        }
+        @media (min-width: 2001px) {
+            .bannerRightParallex {
+                right: -230px;
+                top: -93px;
+            }
+            .banner-pill-half {
+                display: none;
+            }
+            .banner-pill-large {
+                display: block;
+                text-align: right;
+            }
+        }
+        @media (max-width: 2000px) {
+            .bannerRightParallex {
+                right: -245px;
+                top: -93px;
+            }
+            .banner-pill-half {
+                display: none;
+            }
+            .banner-pill-large {
+                display: block;
+            }
+        }
+    }
+}
+
+.banner-image {
+    background: var(--banner-backgorund-image);
+    min-height: 16.25rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

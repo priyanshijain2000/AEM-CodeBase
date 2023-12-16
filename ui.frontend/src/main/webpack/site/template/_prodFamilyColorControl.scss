@@ -1,0 +1,504 @@
+/*Product family component*/
+@mixin productListBackground($selected-color, $text-color, $focus-color){
+	.product--list{
+		background: $selected-color;
+		.list-group-item a{
+			color: $text-color;
+			&:focus {
+				color:$focus-color;
+			}
+		}
+	}
+	@media (max-width: 992px){
+		.product--list__item {
+		    background-color: $selected-color;
+		}
+		.product--list{
+			background: transparent;
+		}
+	}
+}
+
+@mixin productListTitle($selected-color){
+	.product--list__title{
+		color: $selected-color;
+	}
+}
+
+@mixin productBackground($selected-color, $title-color){
+	.product{
+		&--theme{
+			background: linear-gradient(270deg,transparent 40%,$selected-color 0);
+			&--bg{
+				background: linear-gradient(270deg,transparent 27%,$selected-color 0);
+			}
+		}
+		&--img__title{
+			color: $title-color;
+		}
+		&--list{
+			box-shadow: -90px 0 50px rgba(21, 21, 21, 0.1);
+		}
+		@media (max-width: 992px){
+			&--theme{
+				background: linear-gradient(0deg,#fff 10%,$selected-color 0);
+				&--bg{
+					background: linear-gradient(0deg,#fff 10%,$selected-color 0);
+				}
+			}
+		}
+	}
+}
+
+@mixin productBackgroundGradient($gradient-color, $mobile-gradient-color, $title-color){
+	.product{
+		&--theme{
+			background: $gradient-color;
+			&--bg{
+				background: none;
+			}
+		}
+		&--img__title{
+			color: $title-color;
+		}
+		&--list{
+			box-shadow: -90px 0 50px rgba(21, 21, 21, 0.1);
+		}
+		@media (max-width: 992px){
+			&--theme{
+				background: $mobile-gradient-color;
+				&--bg{
+					background: none;
+				}
+			}
+		}
+	}
+}
+
+@mixin productTitle($selected-color){
+	.product--img__title{
+		color: $selected-color;
+	}
+}
+
+/*Product family component*/
+/*Praxis*/
+.product-family-list{
+	&.bgcolor{/*bgcolor*/
+		&-praxis{
+			&-red{
+				@include productBackground($color-Praxis-red,#FFF);
+			}
+			&-dark-red{
+				@include productBackground(#642D11,#FFF);
+			}
+			&-blue{
+				@include productBackground(rgba(0, 48, 130, 1),#fff);
+			}
+			&-grey{
+				@include productBackground(rgba(193, 183, 175, 1),$color-Praxis-red);
+			}
+			&-light-grey{
+				@include productBackground(#f3f1ef,$color-Praxis-red);
+			}
+			&-gradient{
+				@include productBackgroundGradient(linear-gradient(270deg,transparent 40%, rgba(175,31,35,1) 0%, rgba(69,3,3,1) 100%),linear-gradient(0deg,transparent 10%, rgba(175,31,35,1) 0%, rgba(69,3,3,1) 100%),#fff);
+			}
+		}
+		&-gre{
+			&-purple{
+				@include productBackground($color-GRE-primary,#FFF);
+			}
+			&-light-purple{
+				@include productBackground(rgba(193, 159, 187, 1),#151515);
+			}
+			&-dark-purple{
+				@include productBackground(rgba(56, 0, 46, 1),#fff);
+			}
+			&-orange{
+				@include productBackground($color-GRE-orange,#fff);
+			}
+			&-dark-orange{
+				@include productBackground(rgba(184, 58, 30, 1),#fff);
+			}
+			&-blue{
+				@include productBackground(rgba(184, 204, 229, 1),#151515);
+			}
+			&-light-blue{
+				@include productBackground(rgba(222, 236, 252, 1),#151515);
+			}
+			&-dark-blue{
+				@include productBackground(rgba(31, 40, 65, 1),#fff);
+			}
+			&-ivory{
+				@include productBackground(rgba(244, 234, 230, 1),#151515);
+			}
+			&-gradient{
+				@include productBackgroundGradient(linear-gradient(270deg,transparent 40%,#7c3265 0,#38002e),linear-gradient(0deg,transparent 10%, #7c3265 0%, #38002e 100%),#fff);
+			}
+		}
+		&-toeic{
+			&-green{
+				@include productBackground(#165736,#FFF);
+			}
+			&-lime{
+				@include productBackground(rgba(181, 190, 15, 1),#151515);
+			}
+			&-light-lime{
+				@include productBackground(rgba(181, 190, 15, 0.3),#151515);
+			}
+			&-lighter-lime{
+				@include productBackground(rgba(181, 190, 15, 0.12),#151515);
+			}
+			&-dark-green{
+				@include productBackground(rgba(20, 43, 28, 1),#fff);
+			}
+			&-gradient{
+				@include productBackgroundGradient(linear-gradient(270deg,transparent 40%,#b4bd10 0,#2b6f2b 60%,#004d2e),linear-gradient(0deg,transparent 10%, #b4bd10 0,#2b6f2b 60%,#004d2e),#fff);
+			}
+		}
+		&-toefl{
+			&-teal{
+				@include productBackground(#377D82,#FFF);
+			}
+			&-orange{
+				@include productBackground(#EF7000,#151515);
+			}
+			&-gold{
+				@include productBackground(#F7B524,#151515);
+			}
+			&-dark-green{
+				@include productBackground(#163234,#fff);
+			}
+			&-dark-teal{
+				@include productBackground(#27585B,#fff);
+			}
+			&-grey{
+				@include productBackground(#E7EFF0,#151515);
+			}
+			&-gradient{
+				@include productBackgroundGradient(linear-gradient(270deg,transparent 40%,#27585b 0,#255457 11%,#163234 96%),linear-gradient(0deg,transparent 10%, #27585b 0,#255457 11%,#163234 96%),#fff);
+			}
+		}
+		&-corp{
+			&-midnight{
+				@include productBackground(rgba(0, 51, 86, 1),#FFF);
+			}
+			&-navy-blue{
+				@include productBackground(rgba(0, 48, 130, 1),#FFF);
+			}
+			&-azure-blue{
+				@include productBackground(rgba(48, 114, 190, 1),#FFF);
+			}
+			&-sky-blue{
+				@include productBackground(rgba(42, 172, 226, 1),#FFF);
+			}
+			&-gold{
+				@include productBackground(rgba(253, 185, 19, 1),#151515);
+			}
+			&-pear{
+				@include productBackground(rgba(222, 209, 79, 1),#151515);
+			}
+			&-emerald{
+				@include productBackground(rgba(105, 204, 151, 1),#151515);
+			}
+			&-hunter{
+				@include productBackground(rgba(47, 126, 97, 1),#151515);
+			}
+			&-gradient{
+				@include productBackgroundGradient(linear-gradient(270deg,transparent 40%,rgba(0,51,86,1) 0%, rgba(48,114,190,1) 100%),linear-gradient(0deg,transparent 10%, rgba(0,51,86,1) 0%, rgba(48,114,190,1) 100%),#fff);
+			}
+		}
+	}
+	&.title{/*main title*/
+		&-white{
+			@include productTitle(#FFF);
+		}
+		&-praxis{
+			&-red{
+				@include productTitle($color-Praxis-red);
+			}
+			&-dark-red{
+				@include productTitle(rgba(100, 45, 17, 1));
+			}
+			&-blue{
+				@include productTitle(rgba(0, 48, 130, 1));
+			}
+		}
+		&-gre{
+			&-purple{
+				@include productTitle(#630F54);
+			}
+			&-blue{
+				@include productTitle(#1F2841);
+			}
+			&-orange{
+				@include productTitle(#B83A1E);
+			}
+		}
+		&-toeic{
+			&-green{
+				@include productTitle(rgba(22, 87, 54, 1));
+			}
+			&-dark-green{
+				@include productTitle(rgba(20, 43, 28, 1));
+			}
+		}
+		&-toefl{
+			&-teal{
+				@include productTitle(#377D82);
+			}
+			&-orange{
+				@include productTitle(#EF7000);
+			}
+			&-gold{
+				@include productTitle(#F7B524);
+			}
+			&-dark-green{
+				@include productTitle(#163234);
+			}
+			&-dark-teal{
+				@include productTitle(#27585B);
+			}
+			&-dark-teal{
+				@include productTitle(#27585B);
+			}
+			&-grey{
+				@include productTitle(#E7EFF0);
+			}
+		}
+		&-corp{
+			&-midnight{
+				@include productTitle(rgba(0, 51, 86, 1));
+			}
+			&-navy-blue{
+				@include productTitle(rgba(0, 48, 130, 1));
+			}
+			&-azure-blue{
+				@include productTitle(rgba(48, 114, 190, 1));
+			}
+			&-sky-blue{
+				@include productTitle(rgba(42, 172, 226, 1));
+			}
+			&-gold{
+				@include productTitle(rgba(253, 185, 19, 1));
+			}
+			&-pear{
+				@include productTitle(rgba(222, 209, 79, 1));
+			}
+			&-emerald{
+				@include productTitle(rgba(105, 204, 151, 1));
+			}
+			&-hunter{
+				@include productTitle(rgba(47, 126, 97, 1));
+			}
+		}
+	}
+	&.list-title{/*list title*/
+		&-white{
+			@include productListTitle(#FFF);
+		}
+		&-praxis{
+			&-red{
+				@include productListTitle($color-Praxis-red);
+			}
+			&-dark-red{
+				@include productListTitle(rgba(100, 45, 17, 1));
+			}
+			&-blue{
+				@include productListTitle(rgba(0, 48, 130, 1));
+			}
+		}
+		&-gre{
+			&-purple{
+				@include productListTitle(#630F54);
+			}
+			&-blue{
+				@include productListTitle(#1F2841);
+			}
+			&-orange{
+				@include productListTitle(#B83A1E);
+			}
+		}
+		&-toeic{
+			&-green{
+				@include productListTitle(rgba(22, 87, 54, 1));
+			}
+			&-dark-green{
+				@include productListTitle(rgba(20, 43, 28, 1));
+			}
+		}
+		&-toefl{
+			&-teal{
+				@include productListTitle(#377D82);
+			}
+			&-orange{
+				@include productListTitle(#EF7000);
+			}
+			&-gold{
+				@include productListTitle(#F7B524);
+			}
+			&-dark-green{
+				@include productListTitle(#163234);
+			}
+			&-dark-teal{
+				@include productListTitle(#27585B);
+			}
+			&-dark-teal{
+				@include productListTitle(#27585B);
+			}
+			&-grey{
+				@include productListTitle(#E7EFF0);
+			}
+		}
+		&-corp{
+			&-midnight{
+				@include productListTitle(rgba(0, 51, 86, 1));
+			}
+			&-navy-blue{
+				@include productListTitle(rgba(0, 48, 130, 1));
+			}
+			&-azure-blue{
+				@include productListTitle(rgba(48, 114, 190, 1));
+			}
+			&-sky-blue{
+				@include productListTitle(rgba(42, 172, 226, 1));
+			}
+			&-gold{
+				@include productListTitle(rgba(253, 185, 19, 1));
+			}
+			&-pear{
+				@include productListTitle(rgba(222, 209, 79, 1));
+			}
+			&-emerald{
+				@include productListTitle(rgba(105, 204, 151, 1));
+			}
+			&-hunter{
+				@include productListTitle(rgba(47, 126, 97, 1));
+			}
+		}
+	}
+	&.list-bgcolor{/*list box bgcolor*/
+		&-praxis{
+			&-red{
+				@include productListBackground($color-Praxis-red,#FFF,#151515);
+			}
+			&-blue{
+				@include productListBackground(rgba(0, 48, 130, 1),#fff,#151515);
+			}
+			&-grey{
+				@include productListBackground(rgba(193, 183, 175, 1),#151515,#fff );
+			}
+			&-light-grey{
+				@include productListBackground(#f3f1ef,#151515,#fff);
+			}
+			&-gradient{
+				@include productListBackground(linear-gradient(270deg,rgba(175,31,35,1) 0%, rgba(69,3,3,1) 100%),#fff,#151515);
+			}
+		}
+		&-gre{
+			&-purple{
+				@include productListBackground($color-GRE-primary,#FFF,#151515);
+			}
+			&-light-purple{
+				@include productListBackground(rgba(193, 159, 187, 1),#151515,#fff);
+			}
+			&-dark-purple{
+				@include productListBackground(rgba(56, 0, 46, 1),#fff,#151515);
+			}
+			&-orange{
+				@include productListBackground($color-GRE-orange,#fff,#151515);
+			}
+			&-dark-orange{
+				@include productListBackground(rgba(184, 58, 30, 1),#fff,#151515);
+			}
+			&-blue{
+				@include productListBackground(rgba(184, 204, 229, 1),#151515,#fff);
+			}
+			&-light-blue{
+				@include productListBackground(rgba(222, 236, 252, 1),#151515,#fff);
+			}
+			&-dark-blue{
+				@include productListBackground(rgba(31, 40, 65, 1),#fff,#151515);
+			}
+			&-ivory{
+				@include productListBackground(rgba(244, 234, 230, 1),#151515,#fff);
+			}
+			&-gradient{
+				@include productListBackground(linear-gradient(270deg,#7c3265 0,#38002e),#fff,#151515);
+			}
+		}
+		&-toeic{
+			&-green{
+				@include productListBackground(#165736,#FFF,#151515);
+			}
+			&-lime{
+				@include productListBackground(rgba(181, 190, 15, 1),#151515,#fff);
+			}
+			&-light-lime{
+				@include productListBackground(rgba(181, 190, 15, 0.3),#151515,#fff);
+			}
+			&-lighter-lime{
+				@include productListBackground(rgba(181, 190, 15, 0.12),#151515,#fff);
+			}
+			&-dark-green{
+				@include productListBackground(rgba(20, 43, 28, 1),#fff,#151515);
+			}
+			&-gradient{
+				@include productListBackground(linear-gradient(270deg,#b4bd10 0,#2b6f2b 60%,#004d2e),#fff,#151515);
+			}
+		}
+		&-toefl{
+			&-teal{
+				@include productListBackground(#377D82,#FFF,#151515);
+			}
+			&-orange{
+				@include productListBackground(#EF7000,#151515,#fff);
+			}
+			&-gold{
+				@include productListBackground(#F7B524,#151515,#fff);
+			}
+			&-dark-green{
+				@include productListBackground(#163234,#fff,#151515);
+			}
+			&-dark-teal{
+				@include productListBackground(#27585B,#fff,#151515);
+			}
+			&-grey{
+				@include productListBackground(#E7EFF0,#151515,#fff);
+			}
+			&-gradient{
+				@include productListBackground(linear-gradient(270deg,#27585b 0,#255457 11%,#163234 96%),#fff,#151515);
+			}
+		}
+		&-corp{
+			&-midnight{
+				@include productListBackground(rgba(0, 51, 86, 1),#FFF,#151515);
+			}
+			&-navy-blue{
+				@include productListBackground(rgba(0, 48, 130, 1),#FFF,#151515);
+			}
+			&-azure-blue{
+				@include productListBackground(rgba(48, 114, 190, 1),#FFF,#151515);
+			}
+			&-sky-blue{
+				@include productListBackground(rgba(42, 172, 226, 1),#FFF,#151515);
+			}
+			&-gold{
+				@include productListBackground(rgba(253, 185, 19, 1),#151515,#fff);
+			}
+			&-pear{
+				@include productListBackground(rgba(222, 209, 79, 1),#151515,#fff);
+			}
+			&-emerald{
+				@include productListBackground(rgba(105, 204, 151, 1),#FFF,#151515);
+			}
+			&-hunter{
+				@include productListBackground(rgba(47, 126, 97, 1),#FFF,#151515);
+			}
+			&-gradient{
+				@include productListBackground(linear-gradient(270deg,rgba(0,51,86,1) 0%, rgba(48,114,190,1) 100%),#fff,#151515);
+			}
+		}
+	}
+}

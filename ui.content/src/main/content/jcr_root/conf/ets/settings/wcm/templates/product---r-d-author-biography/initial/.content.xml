@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-12-07T15:18:38.427Z"
+        cq:lastModifiedBy="mssar95@gmail.com"
+        cq:template="/conf/ets/settings/wcm/templates/product---r-d-author-biography"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="ets/components/generic-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="simple">
+            <container
+                jcr:lastModified="{Date}2022-11-30T11:53:53.298Z"
+                jcr:lastModifiedBy="mssar95@gmail.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                id="content"
+                layout="simple">
+                <author_bio
+                    jcr:description="&lt;p>&lt;b>Designation here&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Details here&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2022-12-07T15:18:38.422Z"
+                    jcr:lastModifiedBy="mssar95@gmail.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/author-bio"
+                    altValueFromDAM="false"
+                    descriptionFromPage="false"
+                    imageFromPageImage="false"
+                    isDecorative="false"
+                    linkTarget="_self"
+                    textIsRich="true"/>
+                <title
+                    jcr:lastModified="{Date}2022-11-30T12:02:36.768Z"
+                    jcr:lastModifiedBy="mssar95@gmail.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/title/v2/title"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

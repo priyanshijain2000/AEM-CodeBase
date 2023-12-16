@@ -1,0 +1,6 @@
+src/main/content/jcr_root/apps/ets/clientlibs/clientlib-site
+src/main/content/jcr_root/apps/ets/clientlibs/clientlib-chatbot
+src/main/content/jcr_root/apps/ets/clientlibs/clientlib-chatbot-ap
+src/main/content/jcr_root/apps/ets/clientlibs/clientlib-chatbot-config-dev
+src/main/content/jcr_root/apps/ets/clientlibs/clientlib-chatbot-config-prod
+src/main/content/jcr_root/apps/ets/clientlibs/clientlib-chatbot-config-qa

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Predict Score"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[ets.predictscore]">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <properties
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Properties"
+                sling:resourceType="granite/ui/components/coral/foundation/container"
+                margin="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <columns
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <types
+                                        granite:class="cq-dialog-dropdown-showhide"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                        fieldLabel="Type of conversion"
+                                        name="./type">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <h1
+                                                jcr:primaryType="nt:unstructured"
+                                                text="GRE > GMAT"
+                                                value="GRE > GMAT"/>
+                                            <h2
+                                                jcr:primaryType="nt:unstructured"
+                                                text="GRE > LSAT"
+                                                value="GRE > LSAT"/>
+                                        </items>
+                                        <granite:data
+                                            jcr:primaryType="nt:unstructured"
+                                            cq-dialog-dropdown-showhide-target=".showhidetargets"/>
+                                    </types>
+                                    <GREInputs
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Labels For Input Fields"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/fieldset">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <greVerbal
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Label For GRE Verbal Score"
+                                                name="./greVerbal"/>
+                                            <greQuant
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Label For GRE Quantitative Score"
+                                                name="./greQuant"/>
+                                        </items>
+                                    </GREInputs>
+									<greVerbalAriaLabel
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="GRE Verbal Aria Label"
+                                                name="./greVerbalAria"/>
+									<greQuantAriaLabel
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="GRE Quant Aria Label"
+                                                name="./greQuantAria"/>
+                                    <GREError
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Error Message For Input Fields"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/fieldset">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <errorGRE
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Error Message For Invalid Scores"
+                                                name="./inputError"/>
+                                        </items>
+                                    </GREError>
+                                    <GMATOutputs
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Labels For Output Fields"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/fieldset">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <gmat
+                                                granite:class="showhidetargets"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                <granite:data
+                                                    jcr:primaryType="nt:unstructured"
+                                                    showhidetargetvalue="GRE > GMAT"/>
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <totalScore
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                        fieldLabel="Label For GMAT Total Score"
+                                                        name="./totalScoreGMAT"/>
+                                                    <verbalScore
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                        fieldLabel="Label For GMAT Verbal Score"
+                                                        name="./verbalScore"/>
+                                                    <quantScore
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                        fieldLabel="Label For GMAT Quantitative Score"
+                                                        name="./quantScore"/>
+                                                </items>
+                                            </gmat>
+                                            <lsat
+                                                granite:class="showhidetargets"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                <granite:data
+                                                    jcr:primaryType="nt:unstructured"
+                                                    showhidetargetvalue="GRE > LSAT"/>
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <totalScore
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                        fieldLabel="Label For LSAT Total Score"
+                                                        name="./totalScoreLSAT"/>
+                                                </items>
+                                            </lsat>
+                                        </items>
+                                    </GMATOutputs>
+                                </items>
+                            </column>
+                        </items>
+                    </columns>
+                </items>
+            </properties>
+        </items>
+    </content>
+</jcr:root>

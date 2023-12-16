@@ -1,0 +1,60 @@
+<sly data-sly-use.scoreReport="org.ets.core.models.ScoreReportGREModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !false,classAppend='cmp-text'}"></sly>
+
+<section class="cmp-container--body">
+    <div id="gre-score-report" class="scorereport mx-auto">
+        <div class="row">
+            <div class="col-12">
+                <form class="field">
+                    <div class="field--date">
+                        <div class="form-label"><span class="mandatory">*</span> ${scoreReport.dateLabel}</div>
+                        <div class="field--date__block d-flex">
+                            <div class="field-groups">
+                                <label for='dateMonth-gre' class="form-label visually-hidden">${scoreReport.monthLabel}</label>
+                                <div class="customselect-data medium-dropdown" id="selectMonthid-gre">
+                                    <select id="dateMonth-gre" class="form-control ets-dropdown" autocomplete="off" data-placeholder="${scoreReport.monthPlaceholder}" aria-label="${scoreReport.monthAriaLabel}">
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                           <div class="field--date__sub-block">
+                                <div class="field-groups">
+                                    <label for='dateDay-gre' class="form-label visually-hidden">${scoreReport.dateLabel}</label>
+                                    <div class="customselect-data small-dropdown disabled" id="selectDayid-gre">
+                                        <select id="dateDay-gre" class="form-control ets-dropdown" autocomplete="off" data-placeholder="${scoreReport.datePlaceholder}" aria-label="${scoreReport.dateAriaLabel}" disabled>
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="field-groups">
+                                    <label for='dateYear-gre' class="form-label visually-hidden">${scoreReport.yearLabel}</label>
+                                    <div class="customselect-data small-dropdown disabled" id="selectYearid-gre">
+                                        <select id="dateYear-gre" class="form-control ets-dropdown" autocomplete="off" data-placeholder="${scoreReport.yearPlaceholder}" aria-label="${scoreReport.yearAriaLabel}" disabled>
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="scoreresult gre-score-valid ${wcmmode.edit?'':'d-none'}">
+                    <section class="cmp-container--body disclaimer disclaimer--blue">
+                        <section class="disclaimer-content" role="alert">
+                            <div class="disclaimer-exclamation"><img src="/content/dam/ets-org/icons/commons/info-icon.svg" alt="${scoreReport.disclaimerAlt}"></div>
+                            <div class="scoreresulttext">${scoreReport.desc1 @context='html'}</div>
+                        </section>
+                    </section>
+                </div>
+                <div class="scoreresult gre-score-invalid ${wcmmode.edit?'':'d-none'}">
+                    <section class="cmp-container--body disclaimer disclaimer--blue">
+                        <section class="disclaimer-content gre-report" role="alert">
+                            <div class="disclaimer-exclamation"><img src="/content/dam/ets-org/icons/commons/info-icon.svg" alt="${scoreReport.disclaimerAlt}"></div>
+                            <p>${scoreReport.desc2 @context='html'}</p>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

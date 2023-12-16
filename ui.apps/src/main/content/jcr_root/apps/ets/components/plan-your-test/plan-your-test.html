@@ -1,0 +1,13 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !properties.description, classAppend='cmp-text'}"></sly>
+<div data-sly-test="${properties.title}" class="header-image d-flex" alt="${properties.altText}" style="--tab-header-background-image: url('${properties.fileReference @ context='styleString'}')">
+	<h1>${properties.title}</h1>
+</div>
+<div data-sly-test="${properties.description}" class="tab-item-content-container">
+	<div class="cmp-container--body">
+		<div class="item-main-content">${properties.description @ context='html'}</div>
+		<div class="tab-item-content-separator"></div>
+		<div data-sly-test="${properties.logo}" class="state-logo">
+			<img src="${properties.logo}" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" alt="${properties.altText2}">
+		</div>
+	</div>
+</div>

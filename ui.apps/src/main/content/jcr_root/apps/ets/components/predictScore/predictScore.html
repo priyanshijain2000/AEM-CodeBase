@@ -1,0 +1,62 @@
+<section class="">
+    <div class="cmp-container--body predictivescore mx-auto mobile-no-margin">
+        
+        <div class="row">
+           <div class="col-12"> 
+                <div class="predictivescore-inputs">
+                    <div class="predictivescore-input-section">
+                        <label for="gre-verbal">${properties.greVerbal}</label>
+						<input name="predictinputleft" aria-label="${properties.greVerbalAria}" min="130" max="170" step="1" id="gre-verbal" maxlength="3" type="number">   
+						<div class="error" id="errorField" data-err="${properties.inputError}" data-field="gre-verbal" role="alert"></div> 
+						
+                    </div>
+                    <div class="predictivescore-input-section">
+                        <label for="gre-quant">${properties.greQuant}</label>
+						<input name="predictinputright" aria-label="${properties.greQuantAria}" min="130" max="170" step="1" id="gre-quant" maxlength="3" type="number">
+						<div class="error" id="errorField" data-err="${properties.inputError}" data-field="gre-quant" role="alert"></div> 
+                    </div>  
+                </div>
+            </div>
+
+            <div class="col-12"> 
+                <div class="down-arrow">
+                    <img alt="arrow-down" src="/content/dam/ets-org/icons/commons/arrow-down.png" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12"> 
+                <div class="scoreresult predictedscore-results" data-initial-path="/src/main/webpack/static/components/disclaimer.html">
+                    <section class="cmp-container--body disclaimer disclaimer--blue mobile-no-margin">
+                        <section class="disclaimer-content text-center">
+                            <div class="disclaimer-exclamation">
+                                <img alt="info" src="/content/dam/ets-org/icons/commons/info-icon.svg" />
+                            </div>
+							<sly data-sly-test.convert="${properties.type=='GRE > GMAT'}">
+                                <div class="heading5">${properties.totalScoreGMAT}</div>
+
+							<p id="gmatT-conversion" class="predictedscore-value"></p>
+                             <div class="predictedscore-section">
+                                <p class="predictedscore-top">${properties.verbalScore}
+                                    <span id="gmatV-conversion"></span>
+                                </p>
+                                <p class="predictedscore-bottom">${properties.quantScore}
+                                    <span id="gmatQ-conversion"></span>
+                                </p>
+                            </div>
+							</sly>
+							<sly data-sly-test="${properties.type=='GRE > LSAT'}">
+                                <div class="heading5"> ${properties.totalScoreLSAT}</div>
+                                <p class="predictedscore-value" id="lsat-conversion"></p>
+							</sly>
+                        </section>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+ <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+	<sly data-sly-call="${clientlib.js @ categories='ets.predictscore'}"/>
+</sly>

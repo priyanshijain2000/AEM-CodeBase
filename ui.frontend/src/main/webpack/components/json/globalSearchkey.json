@@ -1,0 +1,49 @@
+{
+    "states": [
+        {
+            "stateKey": "ETS",
+            "stateName": "Fairness",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page/pa"
+        },
+        {
+            "stateKey": "ETS",
+            "stateName": "Equity",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page/al"
+        },
+        {
+            "stateKey": "ETS",
+            "stateName": "Praxis",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page/pa"
+        },
+        {
+            "stateKey": "ETS",
+            "stateName": "GRE",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page/al"
+        },
+        {
+            "stateKey": "ETS",
+            "stateName": "Alabama",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page/pa"
+        },
+        {
+            "stateKey": "ETS",
+            "stateName": "New York",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page/al"
+        },
+        {
+            "stateKey": "ETS",
+            "stateName": "TOFEL",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page/al"
+        },
+        {
+            "stateKey": "ETS",
+            "stateName": "TOEIC",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page/al"
+        },
+        {
+            "stateKey": "ETS",
+            "stateName": "Testing",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page/al"
+        }
+    ]
+}

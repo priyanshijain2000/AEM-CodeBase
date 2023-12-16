@@ -1,0 +1,15 @@
+{
+	"interior-panel": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"description": "ETS maintains offices across the United States and around the world to better serve you.",
+		"jcr:lastModifiedBy": "admin",
+		"altText": "background Image",
+		"jcr:created": "Fri Sep 01 2023 02:57:00 GMT-0400",
+		"bgImage": "/content/dam/ets-org/corporate/background-image/bg-image.jpg",
+		"title": "Our Location",
+		"jcr:lastModified": "Fri Sep 01 2023 03:18:49 GMT-0400",
+		"sling:resourceType": "ets/components/locationBanner",
+		"textIsRich": "true"
+	}
+}

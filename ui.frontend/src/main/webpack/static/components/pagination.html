@@ -1,0 +1,68 @@
+<div class="cmp-container--body">
+    <div class="test-info">
+        <div class="error-info">
+            <p role="alert"><i><img width="18px" height="18px" src="/src/main/webpack/resources/images/error-exclamation-new.svg" alt="error-image"/></i>
+                 Finding a test center is unavailable at the moment. Please check back shortly</p>
+        </div>
+        <div class="test-info__title">Find a Test Center</div>
+        <div class="search-band">
+            <form class="field">
+                <div class="field-groups">
+                    <label class="form-label form-label-text required-field">Test</label>
+                    <select class="where-to-test-dropdown" id="where-to-test-dropdown" aria-label="this is a required field" data-test-json-path="/src/main/webpack/components/json/test.json" data-placeholder="Search All Tests">
+                    </select>
+                </div>
+            </form>
+            <form class="field">
+                <div class="field-groups">
+                    <label class="form-label form-label-text required-field">Location</label>
+                    <div class="customselectlocationsearch">
+                        <div class="select__selected" aria-label="unselected listbox" role="listbox" aria-live="polite" tabindex="0">
+                            <i class="dropdown-search-icon"><img src="/src/main/webpack/resources/images/searchIcon_blue.png"/></i>
+                            <input type="search" id="locationautocomplete" placeholder="Search by State or Zip Code">
+                            <button class="ets-dropdown-button" tabindex="-1"><img src="/src/main/webpack/resources/images/right-arrow-white.svg"/></button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <form class="field without-search">
+                <div class="field-groups">
+                    <label class="form-label form-label-text">Distance</label>
+                    <input type="radio" name="distance" id="mileRadio" value="Mi">
+                    <label for="mileRadio" class="radio-distance-label">mi</label>
+                    <input type="radio" name="distance" id="kmRadio" value="Km">
+                    <label for="kmRadio" class="radio-distance-label">km</label>
+                    <select class="distance-dropdown" id="distance-dropdown" data-placeholder="Distance">
+                        <option  selected data-distance="25">25</option>
+                            <option data-distance="50">50</option>
+                            <option data-distance="300">300</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="test-info__results">
+            <div class="body-text test-info__summary" aria-live="polite">Showing Location Results for <span class="">Agriculture</span> near <span class="">1105</span></div>
+            <div class="loader" role="status" aria-busy="false">
+                <div class="loader--container">
+                    <img src="/src/main/webpack/resources/images/ets-preloader-sm-1x.gif" alt="ets preloader" />
+                    <label>Loading</label>
+                </div>
+            </div>
+            <span id="loaderLiveRegion" class="hiddenStatus" aria-live="polite"></span>
+            <div class="test-info__results__centers" data-schedule-button-label="Schedule Test" data-schedule-button-url="#" data-days="180">
+            </div>
+            <div class="litePagination testInfoPagination cmp-button--tertiary d-none">
+                <a href="#" class="previous button cmp-button hover--primary cmp-button-arrow" data-action="previous"><span class="cmp-button__icon--leftArrowBlue" aria-hidden="true"></span>Prev</a>
+                <input type="text" /> <div class="page-result-text"><span class="current-page d-none">0</span> of <span class="max-page">0</span></div>
+                <a href="#" class="next button cmp-button hover--primary" data-action="next">Next<span class="cmp-button__icon--rightArrowBlue" aria-hidden="true"></span></a>
+            </div>
+            <!-- <div class="test-info-load-more d-none">
+                <a id="testInfoLoadmoreBtn" class="cta-btn-primary disabled" tabindex="-1" href="javascript:;"><span class="d-block">Load More</span></a>
+            </div> -->
+
+        </div>
+        <!-- <div class="test-from-home-btn">
+            <a class="cta-btn-primary test-from-center" data-sitcode="STN00207A" href="javascript:">Schedule Test</a>
+        </div> -->
+    </div>
+</div>

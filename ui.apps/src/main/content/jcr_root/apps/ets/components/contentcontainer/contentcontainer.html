@@ -1,0 +1,14 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !properties.containerType, classAppend='cmp-text'}"></sly>
+<div data-sly-test="${properties.color}" class="cmp-container--body mobile-no-margin">
+    <div data-sly-test="${properties.containerType =='secondary'}" class="horizontal-single-menu__content-container" style="--horizontal-single-menu-container-background-color: ${properties.color @context='styleToken'}">
+        <sly data-sly-resource="${@path=contentContainer,  resourceType ='wcm/foundation/components/parsys'}"></sly>
+    </div>
+    <div data-sly-test="${properties.containerType =='tertiary'}" class="horizontal-menu__content-container" style="--horizontal-menu-container-background-color: ${properties.color @context='styleToken'}">
+        <div data-sly-test="${properties.statename}" data-background-image-path="${properties.mimage}" class="header-image d-flex" style="--tab-header-background-image: url('${properties.dimage @ context='styleString'}')">
+            <div class="heading1">${properties.statename}</div>
+        </div>
+        <div class="tab-item-content-container item-main-content interior">
+            <sly data-sly-resource="${@path=container,  resourceType ='wcm/foundation/components/parsys'}"></sly>
+        </div>
+    </div>
+</div>

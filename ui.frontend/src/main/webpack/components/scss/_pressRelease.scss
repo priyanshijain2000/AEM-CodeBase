@@ -1,0 +1,231 @@
+.press-release-cards {
+    background-color: inherit;
+    row-gap: 1.25rem;
+    column-gap: 1.25rem;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 4.375rem 0 3rem 0;
+    flex-wrap: wrap;
+    @include for-size(only-mobile) {
+        margin: 0;
+        row-gap: 0;
+        padding: 1.25rem 0;
+    }
+    @media (min-width: 768px) and (max-width: 1200px) {
+        justify-content: flex-start;
+        row-gap: 1.25rem;
+        margin: 4.375rem 0 2.5rem 0;
+    }
+    .card {
+        flex: 0 0 calc(33.3333% - 13.4px);
+        border-radius: 1rem;
+        border: none;
+        z-index: 1;
+        background-color: $color-white;
+        @include viewport(only-mobile) {
+            flex: 0 0 100%;
+            border-radius: 0rem;
+            background: none;
+        }
+        @include viewport(tablet-portrait) {
+            flex: 0 0 calc(50% - 10px);
+        }
+        &-img-top {
+            // height: 232px;
+            width: 100%;
+            border-top-left-radius: 1rem !important;
+            border-top-right-radius: 1rem !important;
+            @include viewport(only-mobile) {
+                // height: 184px;
+                border-top-left-radius: 0 !important;
+                border-top-right-radius: 0 !important;
+            }
+        }
+        &-body {
+            padding: 3.125rem;
+            padding-bottom: 0;
+            background: none;
+            p {
+                padding-top: 1.875rem;
+                @include for-size(only-mobile) {
+                    padding-top: 1.25rem;
+                }
+            }
+            @include viewport(only-mobile) {
+                padding: 0;
+                padding-top: 1.25rem;
+            }
+        }
+        &-footer {
+            padding: 0 0 3.125rem 3.125rem;
+            border: none;
+            background: none;
+            @include viewport(only-mobile) {
+                padding: 0;
+            }
+        }
+        .press-release-date {
+            text-transform: uppercase;
+            padding: 0;
+            margin-bottom: 0.625rem;
+        }
+    }
+    @include for-size(only-mobile) {
+        flex-flow: column;
+    }
+    &-translucent {
+        // background: linear-gradient(214.25deg, rgba(242, 242, 242, 0.6) -60.4%, rgba(242, 242, 242, 0.2) 130.64%);
+        // border: 1px solid rgba(255, 255, 255, 0.2);
+        // box-sizing: border-box;
+        // backdrop-filter: blur(2.5rem);
+        background: linear-gradient(214.25deg, rgba(242, 242, 242, 0.6) -60.4%, rgba(242, 242, 242, 0.2) 130.64%);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-sizing: border-box;
+        backdrop-filter: blur(40px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 16px;
+    }
+    &-white {
+        background: $color-white;
+    }
+    &-container {
+        h5,
+        .heading5 {
+            margin: 0;
+        }
+        @media (min-width: 992px) and (max-width: 1200px) {
+            max-width: 350px;
+        }
+        //width: 0;
+        //flex: 1 1 0;
+        @include for-size(only-mobile) {
+            padding: 1.875rem 1.625rem;
+            //max-width: 20.438rem;
+        }
+        &-content {
+            margin: 0;
+            padding: 1.875rem 0 0 0;
+            @include for-size(only-mobile) {
+                padding: 1.25rem 0 0 0;
+            }
+        }
+        .press-release-button-band {
+            display: flex;
+            margin: 2.5rem 0 6.25rem 4.375rem;
+            padding: 2.25rem 0 0 0;
+            align-items: center;
+            a {
+                margin-right: 24px;
+            }
+            .cta-btn-primary {
+                white-space: nowrap;
+            }
+            @include for-size(only-mobile) {
+                padding: 1.25rem 0 0 0;
+            }            
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .card-group.press-release-cards>.card:not(:last-child) {
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    .card-group.press-release-cards>.card:not(:first-child) {
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+}
+
+.press-release-load-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 66px;
+    @include viewport(only-mobile) {
+        margin-bottom: 70px;
+        margin-top: 10px;
+    }
+    .load-more-button {
+        &:focus-visible,
+        &:focus {
+            outline: 4px solid $btn-focus;
+            outline-offset: 2px;
+        }
+    }
+}
+
+.pressreleasePagination {
+    padding-top: 0 !important;
+    margin-bottom: 66px;
+    @include viewport(only-mobile) {
+        margin-bottom: 70px;
+    }
+}
+
+.press-release-filters {
+    display: flex;
+    justify-content: end;
+    margin-top: 3.125rem;
+    margin-bottom: 2.5rem;
+    @include viewport(only-mobile) {
+        margin: 2.5rem 0 0 0;
+        flex-direction: column;
+    }
+    .select {
+        @include viewport(only-mobile) {
+            min-width: auto;
+        }
+    }
+    .filter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+        @include fontsize(16px, 22px, $normal, $color-ETS-bodyblack, initial);
+        text-align: right;
+        img {
+            padding-right: 5px;
+        }
+        padding-right: 20px;
+    }
+}
+
+.ets {
+    &-dropdown {
+        &-container {
+            display: flex;
+            position: relative;
+        }
+        background: none;
+        background-color: #FFFFFF;
+        height: 46px;
+        text-overflow: ellipsis;
+        padding-right: 46px;
+    }
+    &-dropdown-button {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        background-color: $color-ETS-midnight;
+        border: 0;
+        outline: 0;
+        height: 46px;
+        width: 46px;
+        border-radius: 0px 8px 8px 0px;
+        pointer-events: none;
+        top: 0;
+    }
+}
+
+.ets-dropdown {
+    min-width: 254px;
+    border-radius: 8px;
+    background-color: $color-accordian-background;
+    @media (min-width: 200px) and (max-width: 400px) {
+        min-width: 150px;
+    }
+}

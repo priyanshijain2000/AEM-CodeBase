@@ -1,0 +1,18 @@
+<sly data-sly-use.model="org.ets.core.models.EventListModel" />
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+	 data-sly-call="${templates.placeholder @ isEmpty = !model.parentPath ,classAppend='cmp-text'}"></sly>
+<sly data-sly-list.map="${model.cfLists}">
+<p>
+	<b data-sly-test="${map.institutionname}">${map.institutionname}</b><br>
+	${map.stateregion}${map.stateregion[0]==""? '' : ', '}${map.institutioncountry}<br>
+	${map.programname}<br> <i data-sly-test="${map.eventname}">${map.eventname}</i>
+</p>
+<p style="margin-left: 40px;">
+	<sly data-sly-test="${map.rsvpurloremailaddressformoreinformation}" data-sly-list=${map.rsvpurloremailaddressformoreinformation}>
+	${itemList.count >= 2 ? 'AND' : ''} <a style="font-weight: 400;"
+		href="${map.rsvpurloremailaddressformoreinformation[itemList.index]}"
+		target="_blank">${map.urltext[itemList.index]}</a> </sly>
+	<br> ${map.eventtype} event: ${map.eventdate}.
+</p>
+<hr>
+</sly>

@@ -1,0 +1,18 @@
+<sly data-sly-test="${!properties.navigationType}">
+    <div class="cmp-secnavigation">
+        <div data-sly-include="${'navigation.html'}"></div>
+    </div>
+</sly>
+<sly data-sly-test="${properties.navigationType}">
+    <div class="cmp-secnavigation--thirdnav" style="background-image:url('${properties.bgimage @ context='styleString'}');" >
+     <div class="dropdown">
+        <div class="btn-secondary dropdown-toggle" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
+            <input aria-label="child tabs" type="text" placeholder="${currentPage.title}" list="sideMenuList" name="menu" onkeydown="return false">
+            <button aria-label="dropdown" type="submit"><i class="dropdown-downarrow"></i></button>
+        </div>
+        <div data-sly-include="${'navigation.html'}" class="dropdown-menu"></div>
+    </div>
+
+
+    </div>
+</sly>

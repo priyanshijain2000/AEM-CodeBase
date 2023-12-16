@@ -1,0 +1,8 @@
+{
+  "getEpnEndpoint":"https://ets2-org.my.salesforce.com/services/data/v53.0/query/?q=SELECT+Name,prol_City__c,prol_Country_Name__c,prol_Contact_Info_Label_1__c,prol_Contact_Info_Label_2__c,prol_Email_1__c,prol_Email_2__c,prol_Email_2_Label__c,prol_Fax_1__c,prol_Fax_2__c,prol_Fax_2_Label__c,Id,prol_Office_Type__c,prol_Published_Address__c,prol_Phone_1__c,prol_Phone_2__c,prol_Phone_2_Label__c,prol_Product_Description__c,prol_Province__c,prol_Type__c,prol_Website_1__c,prol_Website_2__c,prol_Website_3__c,prol_Supported_Countries__c,prol_Supported_Products__c,prol_Supported_Product_Groups__c+FROM+ETS_Preferred_Network_Office__c+WHERE+prol_Publish__c=true+AND+prol_Country_Name__c!=null",
+  "getUsername":"integrationuser@ets.org",
+  "getClientId":"3MVG96hCAx1bhPaiU.XLVSLJ__EdZFuC1sxtjbYGDr.nahMKvBAXyGm3A5zQ4sVlkqI6H6C8cXc2fbv5fcBzD",
+  "getPassword":"Spring2022!!JibuUv5OJcAlmQn02EWoyThmw",
+  "getTokenApiEndpoint":"https://login.salesforce.com/services/oauth2/token",
+  "getSecret":"6194E13C99F5BDCB946FDC9E27721A1CAD8061A56A901E4A147D887644CE1E4E"
+}

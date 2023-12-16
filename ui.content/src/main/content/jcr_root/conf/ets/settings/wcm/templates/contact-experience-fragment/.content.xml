@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2022-11-18T05:29:28.528Z"
+        cq:lastModifiedBy="PJAIN003@ets.org"
+        cq:lastReplicated="{Date}2022-11-18T05:29:39.367Z"
+        cq:lastReplicated_publish="{Date}2022-11-18T05:29:39.367Z"
+        cq:lastReplicatedBy="PJAIN003@ets.org"
+        cq:lastReplicatedBy_publish="PJAIN003@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:templateType="/conf/ets/settings/wcm/template-types/xf"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Contact Experience Fragment"
+        status="enabled"/>
+</jcr:root>

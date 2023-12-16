@@ -1,0 +1,17 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !properties.acctitle,classAppend='cmp-text'}"></sly>
+<div data-sly-test="${properties.acctitle}" class="cmp-container--body accordion-container" style="--accordian-plus-icon:url('/content/dam/ets-org/icons/commons/accordion_plus.svg');--accordian-minus-icon:url('/content/dam/ets-org/icons/commons/accordion_minus.svg')">
+    <div class="accordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header body-text">
+                <button class="accordion-button ${(wcmmode.disabled && !properties.openDefault)?'collapsed':''}" type="button" data-bs-toggle="collapse" data-bs-target="#${currentNode.getName}" aria-expanded="true" aria-controls="collapseOne">
+                    ${properties.acctitle}
+                </button>
+            </h2>
+            <div id="${currentNode.getName}" class="accordion-collapse collapse ${wcmmode.disabled?(properties.openDefault?'show':''):'show'}" aria-label="${properties.ariaLabel}">
+                <div class="accordion-body">
+                    <sly data-sly-resource="${@ path='accordionContent', resourceType='wcm/foundation/components/parsys'}" data-sly-unwrap></sly>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

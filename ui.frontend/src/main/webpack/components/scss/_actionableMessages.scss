@@ -1,0 +1,82 @@
+.action-warn-message,
+.action-alert-message,
+.action-inform-message,
+.action-affrim-message{
+    height: fit-content;
+    width: 439px;
+    background-color: #FFFFFF;
+    position: relative;
+    border-top-right-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
+    padding: 24px 32px 32px 24px;
+    border-top: 1px solid #D7D7D7;
+    border-bottom: 1px solid #D7D7D7;
+    border-right: 1px solid #D7D7D7;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3176470588235294);
+    display: flex;
+    font-size: 1em;
+    line-height: 1.5em;
+    .close-action-message{
+        border: none;
+        background: transparent;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 12px;
+        padding-right: 12px;
+    }
+    .close-action-message:hover{
+        img{
+            content: url("/content/dam/ets-org/icons/commons/close-button-hover.svg");
+        }
+    } 
+    .close-action-message:focus{
+        img{
+            content: url("/content/dam/ets-org/icons/commons/close-button-hover.svg");
+            outline: 2px solid  #2AACE2;
+            border-radius: 50%;
+        }
+    }
+    .close-action-message:disabled{
+        img{
+            content: url("/content/dam/ets-org/icons/commons/close-disable-image.svg");
+        }
+    }
+       
+}
+.action-warn-message{
+    border-left:  4px solid #A80005;
+}
+.action-warn-message::before{
+    content: url("/content/dam/ets-org/icons/commons/circle-exclamation-image.svg");
+    padding-right: 20px;
+    position: relative;
+    bottom: 3px;
+}
+.action-alert-message{
+    border-left: 4px  solid #D7A80E;
+}
+.action-alert-message::before{
+    content: url("/content/dam/ets-org/icons/commons/new-bell-image.svg");
+    padding-right: 20px;
+    position: relative;
+    bottom: 3px;
+}
+.action-inform-message{
+    border-left: 4px solid #3072BE;
+} 
+.action-inform-message::before{
+    content: url("/content/dam/ets-org/icons/commons/circle-inform-image.svg");
+    padding-right: 20px;
+    position: relative;
+    bottom: 3px;
+} 
+.action-affrim-message{
+    border-left: 4px solid #2F7E61;
+}
+.action-affrim-message::before{
+    content: url("/content/dam/ets-org/icons/commons/circle-check-image.svg");
+    padding-right: 20px;
+    position: relative;
+    bottom: 3px;
+}

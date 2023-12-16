@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-04-26T08:27:06.018Z"
+        cq:lastModifiedBy="pselvam@ets.org"
+        cq:lastReplicated_preview="{Date}2023-04-11T13:04:12.405Z"
+        cq:lastReplicatedBy_preview="saravanan.a.ms@accenture.com"
+        cq:lastReplicationAction_preview="Activate"
+        cq:template="/conf/ets/settings/wcm/templates/news-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="ets/components/generic-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="simple">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                layout="simple">
+                <title
+                    cq:styleIds="[1655976998275]"
+                    jcr:lastModified="{Date}2023-04-26T08:20:02.641Z"
+                    jcr:lastModifiedBy="pselvam@ets.org"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Add Title content for the news page here"
+                    sling:resourceType="ets/components/title/v2/title"
+                    linkTarget="_self"
+                    type="h1"/>
+                <text_1544629497_copy
+                    jcr:lastModified="{Date}2023-04-26T08:24:27.290Z"
+                    jcr:lastModifiedBy="pselvam@ets.org"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/text/v2/text"
+                    text="&lt;h2>Add description contents here&lt;/h2>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+            </container>
+            <banner_top
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container">
+                <news_banner_copy
+                    jcr:lastModified="{Date}2023-04-26T08:27:06.008Z"
+                    jcr:lastModifiedBy="pselvam@ets.org"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/news-banner/v2/news-banner"
+                    alt="Default Banner Image (To be replaced)"
+                    altValueFromDAM="false"
+                    altValueFromPageImage="false"
+                    descriptionFromPage="false"
+                    disableLazyLoading="false"
+                    fileReference="/content/dam/ets-org/general/placeholders/img-plchldr-article.jpg"
+                    imageFromPageImage="false"
+                    isDecorative="false"
+                    textIsRich="true"
+                    titleFromPage="false"/>
+            </banner_top>
+        </root>
+    </jcr:content>
+</jcr:root>

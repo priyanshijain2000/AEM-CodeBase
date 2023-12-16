@@ -1,0 +1,30 @@
+{
+  "resource.resolver.map.observation":[
+    "/libs",
+    "/apps",
+    "/content",
+    "/etc",
+    "/conf"
+  ],
+  "resource.resolver.manglenamespaces":true,
+  "resource.resolver.vanitypath.whitelist":[
+    "/apps/",
+    "/libs/",
+    "/content/"
+  ],
+  "resource.resolver.vanitypath.blacklist":[
+    "/content/usergenerated"
+  ],
+  "resource.resolver.map.location":"/etc/map",
+  "resource.resolver.searchpath":[
+    "/apps",
+    "/libs"
+  ],
+  "resource.resolver.mapping":[
+    "/:/",
+    "/content/dam/ets-org/:/",
+    "/content/ets-org/language-master/en/home/:/",
+    "^/content/ets-org/language-master/en/home\\.html</"
+  ],
+  "resource.resolver.log.unclosed":false
+}

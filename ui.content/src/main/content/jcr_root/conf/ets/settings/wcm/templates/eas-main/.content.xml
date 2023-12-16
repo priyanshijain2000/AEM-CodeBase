@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:isDelivered="{Boolean}true"
+        cq:lastModified="{Date}2023-09-07T11:16:14.234Z"
+        cq:lastModifiedBy="PJAIN003@ets.org"
+        cq:lastReplicated="{Date}2023-09-19T10:44:47.684Z"
+        cq:lastReplicated_publish="{Date}2023-09-19T10:44:47.684Z"
+        cq:lastReplicatedBy="PJAIN003@ets.org"
+        cq:lastReplicatedBy_publish="PJAIN003@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:templateType="/conf/ets/settings/wcm/template-types/generic-page"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="EAS Main"
+        status="enabled"/>
+</jcr:root>

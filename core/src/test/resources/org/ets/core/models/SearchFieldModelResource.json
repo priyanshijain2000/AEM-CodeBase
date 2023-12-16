@@ -1,0 +1,12 @@
+{
+	"search-field": {
+		"jcr:primaryType": "nt:unstructured",
+		"dropdownAriaLabel": "select from list",
+		"ctaButtonAriaLabel": "go to results",
+		"ctaLabel": "Go",
+		"placeHolderText": "Search here...",
+		"path": "/content/dam/ets-org/s/gre/gre_info_session.json",
+		"sling:resourceType": "ets/components/state-search",
+		"inputAriaLabel": "type here to search"
+	}
+}

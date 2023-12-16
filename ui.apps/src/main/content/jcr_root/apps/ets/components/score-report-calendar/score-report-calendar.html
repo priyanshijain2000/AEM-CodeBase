@@ -1,0 +1,87 @@
+<sly data-sly-use.scoreCalendar="org.ets.core.models.ScoreReportCalendarModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !scoreCalendar.json,classAppend='cmp-text'}"></sly>
+<sly data-sly-test.mindate="${'MM/dd/yyyy' @ format=scoreCalendar.minDate}"></sly>
+<sly data-sly-test.maxdate="${'MM/dd/yyyy' @ format=scoreCalendar.maxDate}"></sly>
+<section data-sly-test="${scoreCalendar.json}">
+    <div id="score-report" data-mindate="${mindate}" data-maxdate="${maxdate}" class="scorereport mx-auto" data-report-json="${scoreCalendar.json}">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="heading3" data-sly-test="${scoreCalendar.title}">${scoreCalendar.title}</h2>
+                <div class="heading4 midnight-color">${scoreCalendar.subtitle}</div>
+                <p>${scoreCalendar.infoDescription}</p>
+                <form class="field">
+                    <div class="field-groups field--test">
+                        <div class="form-label"><span class="mandatory">*</span> ${scoreCalendar.testLabel}</div>
+                        <div class="field-groups">
+                            <label for="selectTest" class="form-label visually-hidden">Select your test name</label>
+                            <div class="customselect-data" id="selectTestid">
+                                <select id="selectTest" name="select" class="form-select ets-dropdown" autocomplete="off" data-placeholder="${scoreCalendar.testPlaceHolder}" aria-label="${scoreCalendar.testAriaLabel}">
+                                    <option ></option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field--date">
+                        <div class="form-label"><span class="mandatory">*</span> ${scoreCalendar.dateLabel}</div>
+                        <div class="field--date__block d-flex">
+                            <div class="field-groups">
+                                <label for='dateMonth' class="form-label visually-hidden">${scoreCalendar.monthLabel}</label>
+                                <div class="customselect-data disabled" id="selectMonthid">
+                                    <select id="dateMonth" class="form-control ets-dropdown" autocomplete="off" data-placeholder="${scoreCalendar.monthPlaceholder}" aria-label="${scoreCalendar.monthAriaLabel}" disabled>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="field--date__sub-block">
+                                <div class="field-groups">
+                                    <label for='dateDay' class="form-label visually-hidden">${scoreCalendar.dateLabel}</label>
+                                    <div class="customselect-data disabled" id="selectDayid">
+                                        <select id="dateDay" class="form-control ets-dropdown" autocomplete="off" data-placeholder="${scoreCalendar.datePlaceholder}" aria-label="${scoreCalendar.dateAriaLabel}" disabled>
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="field-groups">
+                                    <label for='dateYear' class="form-label visually-hidden">${scoreCalendar.yearLabel}</label>
+                                    <div class="customselect-data disabled" id="selectYearid">
+                                        <select id="dateYear" class="form-control ets-dropdown" autocomplete="off" data-placeholder="${scoreCalendar.yearPlaceholder}" aria-label="${scoreCalendar.yearAriaLabel}" disabled>
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="scoreresult ${wcmmode.edit?'':'d-none'}">
+                    <section class="cmp-container--body disclaimer disclaimer--blue">
+                        <section class="disclaimer-content" role="alert">
+                            <div class="disclaimer-exclamation"><img src="/content/dam/ets-org/icons/commons/info-icon.svg" alt="${scoreCalendar.disclaimerAlt}"></div>
+                            <p class="heading5">${scoreCalendar.disclaimerTitle}</p>
+                            <p>${scoreCalendar.desc1 @context='html'}</p>
+                        </section>
+                    </section>
+                </div>
+                <div class="score-error ${wcmmode.edit?'':'d-none'}">
+                    <section class="cmp-container--body disclaimer disclaimer--blue">
+                        <section class="disclaimer-content" role="alert">
+                            <div class="disclaimer-exclamation"><img src="/content/dam/ets-org/icons/commons/info-icon.svg" alt="${scoreCalendar.disclaimerAlt}"></div>
+                            <p>${scoreCalendar.desc2 @context='html'}</p>
+                        </section>
+                    </section>
+                </div>
+                <div class="invalid-date ${wcmmode.edit?'':'d-none'}">
+                    <section class="cmp-container--body disclaimer disclaimer--blue">
+                        <section class="disclaimer-content" role="alert">
+                            <div class="disclaimer-exclamation"><img src="/content/dam/ets-org/icons/commons/info-icon.svg" alt="${scoreCalendar.disclaimerAlt}"></div>
+                            <sly data-sly-test.mindatedisp="${'MMMM dd, yyyy' @ format=scoreCalendar.minDate}"></sly>
+							<sly data-sly-test.maxdatedisp="${'MMMM dd, yyyy' @ format=scoreCalendar.maxDate}"></sly>
+                            <p>${scoreCalendar.desc3 @context='html'} <span class="fw-bold">${mindatedisp} - ${maxdatedisp}</span></p>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

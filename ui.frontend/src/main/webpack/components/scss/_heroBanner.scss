@@ -1,0 +1,367 @@
+.heroBannerComponent {
+    .mainBannerHeading {
+        z-index: 1;
+
+        @media only screen and (min-width: 1200px) {
+            .banner-title {
+                padding: 4.688rem 0 2.5rem 2px;
+            }
+        }
+
+        @include for-size(only-tablet) {
+            .banner-title {
+                padding: 3.125rem 0 2.5rem 2px;
+            }
+        }
+
+        .banner-title {
+            background: linear-gradient(98.25deg, #0093B4 -14.62%, #1D3561 89.95%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+    }
+
+    .journeyContainer {
+        .journeyTitle {
+            margin-bottom: 0;
+            text-align: left;
+            z-index: 2;
+            padding-bottom: 30px;
+        }
+
+        .journeyTabs {
+            z-index: 2;
+
+            ul {
+                padding: 0;
+                margin-bottom: 0;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            li {
+                font-size: 18px;
+                font-style: normal;
+                line-height: 1.277em;
+                letter-spacing: 0em;
+                margin: 0 0.75rem 0.75rem 0;
+                width: 11.389em;
+                height: 10.389em;
+                background: linear-gradient(214.25deg, rgba(255, 255, 255, 0.6) -60.4%, rgba(255, 255, 255, 0.2) 130.64%);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                box-sizing: border-box;
+                backdrop-filter: blur(10px);
+                border-radius: 0.888em;
+                display: inline-block;
+                list-style: none;
+                text-align: center;
+
+                a,
+                button,
+                .panelJourney {
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    background-color: transparent;
+                    border: 0px;
+                    color: $color-navy;
+                    font-weight: $bolder;
+                    text-align: center;
+                    padding: 0;
+                    margin: 0;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 0.888em;
+                    &:focus {
+                        outline: -webkit-focus-ring-color auto 1px;
+                    }
+
+                    img {
+                        width: 4.1666em;
+                        height: 4.166em;
+                        user-select: none;
+                        &.onover {
+                            // display: none;
+                            opacity: 0;
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+
+                    .journeyIcons {
+                        padding: 1.11em 0px;
+                        display: flex;
+                        justify-content: center;
+                        position: relative;
+                    }
+
+                    span {
+                        font-size: 18px;
+                        font-style: normal;
+                        line-height: 1.277em;
+                        padding: 0 12px;
+                    }
+                }
+            }
+
+            li:hover {
+                background: none;
+                border: 1px solid #0066ac;
+
+                a,
+                button,
+                .panelJourney {
+                    color: $color-white;
+
+                    img {
+                        // display: none;
+                        opacity: 0;
+                        &.onover {
+                            // display: block;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .viewMoreJourney {
+        position: relative;
+        z-index: 2;
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 37px;
+        color: #2e2e2e;
+
+        a {
+            margin: 8px;
+            padding: 2px;
+            color: $ets-link;
+            font-weight: 600;
+            text-decoration: underline;
+
+            &:hover,
+            &:focus {
+                color: $color-navy;
+                text-decoration: none;
+                background-color: $ets-link-hover;
+                border-radius: 4px;
+            }
+
+            &:focus {
+                outline: 2px solid $ets-link;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+.heroBannerBackground {
+    position: relative;
+    background: $color-background;
+
+    @include for-size(only-desktop) {
+        //  overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .heroBannerComponent .journeyContainer .journeyTabs ul li {
+        &:nth-child(even) {
+            margin-right: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .heroBannerComponent .mainBannerHeading .banner-title {
+        font-size: 40px;
+        line-height: 1.1em;
+        padding: 2.143rem 0 1.25rem;
+    }
+
+    .heroBannerComponent {
+        .journeyContainer {
+            .journeyTabs {
+                margin-top: 16.2rem;
+
+                li {
+                    font-size: 15px;
+                    line-height: 1.33em;
+                    width: 10rem;
+                    margin-right: 7px;
+                    margin-top: 7px;
+                    margin-bottom: 0;
+
+                    a,
+                    button,
+                    .panelJourney {
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        background-color: transparent;
+                        border: 0px;
+                        color: #003082;
+                        font-weight: 800;
+                        text-align: center;
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 0.888em;
+
+                        img {
+                            width: 3.1666em;
+                            height: 3.166em;
+                        }
+
+                        .journeyIcons {
+                            padding: 1em 0px;
+                        }
+
+                        span {
+                            font-size: 15px;
+                            line-height: 1.33em;
+                            padding: 0 12px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .viewMoreJourney {
+        font-size: 14px;
+        line-height: 19px;
+        padding-top: 30px;
+        padding-bottom: 56px;
+    }
+}
+
+.heroBannerBackground {
+    position: relative;
+}
+
+.mainParallexImage {
+    position: absolute;
+    z-index: 01;
+}
+
+@media only screen and (max-width: 767.98px) {
+    .mainParallexImage {
+        top: 16%;
+        right: 0px;
+        text-align: right;
+
+        img {
+            width: 392px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .mainParallexImage {
+        top: 0;
+        right: 0px;
+        text-align: right;
+
+        img {
+            max-width: 60%;
+            margin-top: -40px !important;
+            margin-right: -15% !important;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .mainParallexImage {
+        top: -8%;
+        right: -9.5%;
+        text-align: right;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .heroBannerComponent .mainBannerHeading .banner-title {
+        font-size: 4.6875rem;
+        line-height: 4.6875rem;
+        padding: 3.125rem 0 2.5rem 2px;
+    }
+
+    .heroBannerComponent {
+        .journeyContainer {
+            .journeyTabs {
+                li {
+
+                    a,
+                    button,
+                    .panelJourney {
+                        padding: 0 0.5555em;
+
+                        .journeyIcons {
+                            padding: 1em 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1500px) {
+    .halfbanner {
+        display: none;
+    }
+
+    .largebanner {
+        display: block;
+        top: -46px;
+        text-align: right;
+
+        img {
+            width: 80%;
+        }
+    }
+}
+
+@media (min-width: 1700px) {
+    .halfbanner {
+        display: none;
+    }
+
+    .largebanner {
+        display: block;
+        top: -46px;
+        text-align: right;
+
+        img {
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 1499px) {
+    .halfbanner {
+        display: block;
+    }
+
+    .largebanner {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .mainParallexImage {
+        right: -1.625rem;
+    }
+
+    .heroBannerBackground {
+        overflow: hidden;
+    }
+}

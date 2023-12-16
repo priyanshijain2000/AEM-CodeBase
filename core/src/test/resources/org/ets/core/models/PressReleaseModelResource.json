@@ -1,0 +1,20 @@
+{
+	"press-release": {
+		"jcr:primaryType": "nt:unstructured",
+		"buttontitle": "Load More",
+		"dropdownAriaLabel": "Select from dropdown",
+		"learnButtonTitle": "Read More",
+		"inputPaginationAriaLabel": "enter page number",
+		"ctaButtonAriaLabel": "Button",
+		"prevLabel": "Previous",
+		"contentType": "ets-org:news/press-release",
+		"allCategoryLabel": "All Category",
+		"path": "/content/ets-org/language-master/en",
+		"isDisplayDate": "false",
+		"countTextLabel": "of",
+		"nextAriaLabel": "next",
+		"nextLabel": "Next",
+		"sling:resourceType": "ets/components/press-release",
+		"prevAriaLabel": "previous"
+	}
+}

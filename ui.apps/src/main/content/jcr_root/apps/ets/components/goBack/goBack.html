@@ -1,0 +1,11 @@
+<div data-sly-test="${properties.includeBreadcrumb}" class="go-back-breadcrumb" data-sly-resource="${'breadcrumb' @resourceType='/apps/ets/components/breadcrumb/v2/breadcrumb'}"></div>
+
+<nav data-sly-use.template="core/wcm/components/commons/v1/templates.html" class="cmp-breadcrumb go-back" aria-label="${properties.linkAriaLabel || 'Go back' @ i18n}">
+	<ol class="cmp-breadcrumb__list">
+		<li class='cmp-breadcrumb__item cmp-breadcrumb__item--active'>
+			<a href='javascript:history.back()' class='cmp-breadcrumb__item-link'>
+			<span class='back-icon'>${properties.btitle || currentStyle.btitle || 'Go back'}</span></a>
+		</li>
+	</ol>
+</nav>
+<sly data-sly-call="${template.placeholder @ isEmpty=true, classAppend='cmp-breadcrumb'}"></sly>

@@ -1,0 +1,11 @@
+<sly data-sly-use.embedHtml="org.ets.core.models.EmbedOpenHtmlModel"/>
+<sly data-sly-test.editor="${wcmmode.edit}">
+	<p>
+        Embed open HTML - this text will appear in edit mode only.
+	</p>
+</sly>
+
+<!-- Open HTML component -->
+<!-- This should wrap inside the container -->
+${embedHtml.embedopenhtml @ context='unsafe'}
+<!-- end of Open HTML component -->

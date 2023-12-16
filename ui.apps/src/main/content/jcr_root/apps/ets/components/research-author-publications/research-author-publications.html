@@ -1,0 +1,18 @@
+<sly data-sly-use.researchAuthor="org.ets.core.models.ResearchAuthorModel"/>
+<section class="research-results-template author-bio-template">
+    <div id="researchresultswrap" class="research-results--wrap">
+        <div class="research-results--body">
+            <div id="authorBioTemplateHead" class="research-results--head d-none">
+                <h2 class="heading3" id="author-title">Publications by this author</h2>
+            </div>
+            <div class="research-result--data-container" data-author-name="${currentPage.getTitle}" data-research-result-path="/bin/ets/researcher-solr.json">
+                <div id="authorBioResults" class="results-list--body"></div>
+                <div class="litePagination abtPagination cmp-button--tertiary d-none">
+                    <a href="#" class="previous button cmp-button hover--primary cmp-button-arrow" aria-label="${researchAuthor.prevAriaLabel}" data-action="previous"><span class="cmp-button__icon--leftArrowBlue" aria-hidden="true"></span>${researchAuthor.prevLabel ? researchAuthor.prevLabel : 'Previous'}</a>
+                    <input aria-label="${researchAuthor.inputPaginationAriaLabel}" type="text" /> <div class="page-result-text"><span class="current-page d-none">0</span> ${researchAuthor.countText ? researchAuthor.countText : 'of'} <span class="max-page">0</span></div>
+                    <a href="#" class="next button cmp-button hover--primary" aria-label="${researchAuthor.nextAriaLabel}" data-action="next">${researchAuthor.nextLabel ? researchAuthor.nextLabel : 'Next' }<span class="cmp-button__icon--rightArrowBlue" aria-hidden="true"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,312 @@
+.tofel-destinations-search-template {
+    padding: 2.5em 0px;
+    .heading1 {
+        margin-bottom: 0.9em;
+        + p {
+            font-weight: $light;
+            font-size: 1.625rem;
+            margin-bottom: 0.769rem;
+            // line-height: 1.615rem;
+        }
+    }
+    .tofel-destinations-results--head {
+        h3, .td-result-count-text {
+            font-size: 1.125em;
+            margin-bottom: 2.5rem;
+            font-weight: 700;
+        }
+        p {
+            margin-bottom: 0px;
+        }
+    }
+    .tofel-destinations-results--body {
+        background-color: #FFF;
+        padding: 2.5em 0px;
+        .td-empty-result, .td-initial-content {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            text-align: center;
+        }
+    }
+    .accordion-container .accordion-item .accordion-button.collapsed {
+        &:focus-visible, &:focus {
+            font-weight: $bold;
+        }
+    }
+    .accordion-header {
+        small {
+            display: block;
+            color: $color-font;
+            padding-top: 7px;
+            font-weight: $normal;
+        }
+    }
+    .tofel-destinations-result-content {
+        // padding: 20px;
+        // .table-scroll {
+        //     max-width: 100%;
+        //     overflow: auto;
+        // }
+        h4 + p{
+            padding-top: 1rem;
+        }
+        > p {
+            font-size: 0.875rem;
+            padding-top: 2.5rem;
+            line-height: 1.5;
+        }
+        > ul {
+            font-size: 1.125rem;
+            padding-left: 1.7rem;
+            margin-bottom: 2.5rem;
+            > li {
+                margin-bottom: 0.8rem;
+                word-break: break-all;
+                strong {
+                    white-space: nowrap;
+                }
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+        h4, .score-table-title {
+            font-size: 1.625rem;
+            color: $color-ETS-midnight;
+            margin-bottom: 0;
+            line-height: 1.462;
+            font-weight: $normal;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        table {
+            // min-width: 500px;
+            th {
+                font-weight: $bold;
+                padding: 1.250rem 17px 1.250rem 0px;
+                border-bottom: 5px solid $color-font;
+            }
+            td {
+                padding: 1rem 17px 1rem 0px;
+                border-bottom: 5px solid $color-font;
+                &:first-child {
+                    max-width: 170px;
+                }
+                &:nth-child(2) {
+                    width: 27%;
+                }
+                ul {
+                    margin-bottom: 0;
+                    padding-left: 1.7rem;
+                }
+            }
+        }
+        @media (max-width: 500px) {
+            table {
+                thead, th {
+                    display: none;
+                }
+                tbody {
+                    tr {
+                        &:nth-child(3n) {
+                            background-color: rgba($color: $color-bg, $alpha: 0.3);
+                        }
+                    }
+                }
+                td {
+                    float: left;
+                    display: flex;
+                    clear: both;
+                    align-items: flex-start;
+                    width: 100% !important;
+                    max-width: 100% !important;
+                    border-bottom: 0;
+                    padding: 0.2rem 0.5rem;
+                    &:first-child {
+                        padding-top: 0.5rem;
+                    }
+                    &:last-child {
+                        padding-bottom: 0.5rem;
+                    }
+                    &:before {
+                        content: attr(data-td-label)": ";
+                        font-weight: $bold;
+                        white-space: nowrap;
+                        margin-right: 5px;
+                        min-width: 5.8rem;
+                    }
+                    &:last-child {
+                        border-bottom: 2px solid $color-font;
+                    }
+                    ul {
+                        padding-left: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+    .tofel-destinations-note {
+        padding-top: 1.25rem;
+        p {
+            font-size: 1.125rem;
+        }
+    }
+    .tofel-destinations-load-more {
+        text-align: center;
+        padding-top: 2rem;
+        .cta-btn-primary {
+            display: inline-block;
+        }
+    }
+    @include viewport(only-mobile){
+        .heading1 {
+            margin-bottom: 30px;
+        }
+        .tofel-destinations-search__select {
+            .destinations-search-by .field .field-groups {
+                margin-bottom: 0;
+            }
+        }
+        .tofel-destinations-search {
+            &__select__container {
+			    flex-direction: column;
+                width: 90%;
+                margin: 0 auto;
+                // flex-direction: column;
+                // align-items: center;
+                // form {
+                //     flex-grow: 1;
+                // }
+            }
+        }
+        .tofel-destinations-results--body {
+            margin: 0vw -5vw;
+            padding: 2.5em 5%;
+        }
+    }
+    @include viewport(tablet-desktop){
+        .heading1 {
+            text-align: center;
+            margin-bottom: 0.9em;
+            + p {
+                text-align: center;
+            }
+        }
+        .tofel-destinations-search {
+            margin-bottom: 4em;
+            &__select {
+                .cmp-button--tertiary {
+                    margin-left: 20px;
+                }
+            }
+            &__select__container {
+                width: 100%;
+                max-width: 738px;
+                margin: 0 auto;
+				flex-direction: column;
+                form {
+                    flex-grow: 1;
+                    width: auto;
+                }
+            }
+        }
+        .tofel-destinations-results--head {
+            h3, .td-result-count-text {
+                font-size: 1.4em;
+            }
+        }
+        .tofel-destinations-results--wrap {
+            position: relative;
+            max-width: 1064px;
+            margin: 0 auto;
+        }
+        .tofel-destinations-results--body {
+            border-radius: 1em;
+            padding: 2.5em;
+            box-shadow: 10px 4px 170px rgba(75, 78, 78, 0.11);
+        }
+        .tofel-destinations-note {
+            padding-top: 2.5rem;
+        }
+    }
+    @include viewport(only-desktop){
+        .tofel-destinations-results--body {
+            padding: 100px 108px;
+        }
+        .tofel-destinations-results--head {
+            h3, .td-result-count-text {
+                font-size: 30px;
+                line-height: 1.4;
+            }
+        }
+        .tofel-destinations-result-content {
+            // padding: 60px;
+            > ul {
+                margin-bottom: 3.750rem;
+            }
+        }
+    }
+    @include for-size(big-desktop){
+        padding: 2.5em 0em 5em 0em;
+    }
+	.tofel-destination-search-radio {
+	margin-bottom: 10px;
+	display: flex;
+	column-gap: 10px;
+	.tofel-destination-radio-label {
+	cursor: pointer;
+    @include fontsize(1rem, 1.375rem, $normal, $color-ETS-bodyblack, initial);
+    }
+	.tofel-radiogroup {
+	border-radius: 8px;
+	padding: 5px;
+	border: 2px solid transparent;
+	cursor: pointer;
+	input[type='radio']:after {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        top: -3px;
+        left: 0px;
+        position: relative;
+        background-color: white;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 1px solid $color-ETS-bodyblack;
+		cursor: pointer;
+    }
+	input[type='radio']:checked:after {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        top: -3px;
+        left: 0px;
+        position: relative;
+        background-color: $color-ETS-midnight;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid $color-ETS-midnight;
+    }
+	input[type='radio']:focus {
+	outline: none;
+	
+	}
+	&:hover{
+	background-color: $color-ETS-azure-extra-light;
+	border: 2px solid transparent;
+	.tofel-destination-radio-label {
+    @include fontsize(1rem, 1.375rem, $normal, $color-navy, initial);
+    }
+	}
+	&:focus-within{
+	background-color: $color-ETS-azure-extra-light;
+	border: 2px solid $color-ETSAzure;
+	.tofel-destination-radio-label {
+    @include fontsize(1rem, 1.375rem, $normal, $color-navy, initial);
+    }
+	}
+	}
+    }
+}

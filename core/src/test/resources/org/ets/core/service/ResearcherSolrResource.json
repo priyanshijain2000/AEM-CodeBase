@@ -1,0 +1,53 @@
+{
+  "ets-org":{
+    "jcr:primaryType": "cq:Page",
+    "language-master":{
+      "jcr:primaryType": "cq:Page",
+      "en":{
+        "jcr:primaryType": "cq:Page",
+        "home":{
+          "jcr:primaryType": "cq:Page",
+          "research":{
+            "jcr:primaryType": "cq:Page",
+            "author-bio":{
+              "jcr:primaryType": "cq:Page",
+              "john":{
+                "jcr:primaryType": "cq:Page",
+                "jcr:content":{
+                  "sling:resourceType":"ets/components/generic-page",
+                  "jcr:title":"John",
+                  "cq:template":"/conf/ets/settings/wcm/templates/product---r-d-author-biography",
+                  "jcr:created":"Fri Dec 16 2022 08:40:22 GMT+0000",
+                  "articlePublishDate":"Mon Dec 12 2022 00:00:00 GMT+0530",
+                  "jcr:primaryType":"cq:PageContent"
+                }
+              },
+              "peter":{
+                "jcr:primaryType": "cq:Page",
+                "jcr:content":{
+                  "sling:resourceType":"ets/components/generic-page",
+                  "jcr:title":"Peter",
+                  "cq:template":"/conf/ets/settings/wcm/templates/product---r-d-author-biography",
+                  "jcr:created":"Fri Dec 16 2022 08:40:22 GMT+0000",
+                  "articlePublishDate":"Mon Dec 12 2022 00:00:00 GMT+0530",
+                  "jcr:primaryType":"cq:PageContent"
+                }
+              },
+              "chris":{
+                "jcr:primaryType": "cq:Page",
+                "jcr:content":{
+                  "sling:resourceType":"ets/components/generic-page",
+                  "jcr:title":"Chris",
+                  "cq:template":"/conf/ets/settings/wcm/templates/product---r-d-author-biography",
+                  "jcr:created":"Fri Dec 16 2022 08:40:22 GMT+0000",
+                  "articlePublishDate":"Mon Dec 12 2022 00:00:00 GMT+0530",
+                  "jcr:primaryType":"cq:PageContent"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

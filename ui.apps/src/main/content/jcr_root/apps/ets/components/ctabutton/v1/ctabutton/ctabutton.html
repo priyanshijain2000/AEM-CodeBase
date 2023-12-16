@@ -1,0 +1,11 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !properties.buttontitle,classAppend='cmp-text'}"></sly>
+<div class="cmp-container--body">
+    <div data-sly-test="${properties.buttontitle}" class="cta-container pt-${properties.marginTop} pb-${properties.marginBottom} ${properties.balign}" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=properties.buttonlink}">
+        <a class="${properties.bstyles}" href="${linkValidate.link}" target="${properties.newTab ? '_blank' : ''}" rel="${properties.newTab ? 'noopener noreferrer' : ''}" aria-label="${properties.ctaButtonAriaLabel}" data-sly-test="${!properties.spa}">
+        <i data-sly-test="${properties.bstyles=='cta-btn-teritary'}" class="cta-btn-icon" style="--cta-icon-url:url('${properties.icon @context='styleString'}');"></i>
+        ${properties.buttontitle}</a>
+        <a class="${properties.bstyles} panelJourney" href="javascript:void(0)" data-panel-path="${linkValidate.link}" target="${properties.newTab ? '_blank' : ''}" rel="${properties.newTab ? 'noopener noreferrer' : ''}" aria-label="${properties.ctaButtonAriaLabel}" data-sly-test="${properties.spa}">
+        <i data-sly-test="${properties.bstyles=='cta-btn-teritary'}" class="cta-btn-icon" style="--cta-icon-url:url('${properties.icon @context='styleString'}');"></i>
+        ${properties.buttontitle}</a>
+    </div>
+</div>

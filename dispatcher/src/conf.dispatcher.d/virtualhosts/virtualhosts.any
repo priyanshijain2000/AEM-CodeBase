@@ -1,0 +1,15 @@
+#
+# This file contains the list of virtual hosts (or domain names) that the dispatcher
+# will handle.
+#
+# By default, it includes the default list of virtual hosts.
+#
+
+$include "./default_virtualhosts.any"
+"www-vantage-dev-publish.ets.org"
+"www-vantage-dev-preview.ets.org"
+"www-vantage-qa-publish.ets.org"
+"publish-p53802-e553105.adobeaemcloud.com"
+"www-vantage-stg-publish.ets.org"
+"www-vantage-stg-preview.ets.org"
+"www.ets.org"

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Grid"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[ets.dropdownshowhide]">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <cards
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Grid"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <alignment
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                fieldLabel="Card Alignment"
+                                                name="./alignment">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <center
+                                                        jcr:primaryType="nt:unstructured"
+                                                        selected="{Boolean}true"
+                                                        text="Center"
+                                                        value="card-align-center"/>
+                                                    <left
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Left"
+                                                        value="card-align-left"/>
+                                                    <right
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Right"
+                                                        value="card-align-right"/>
+                                                </items>
+                                            </alignment>
+                                            <column
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                fieldLabel="Number of Columns"
+                                                name="./numberOfColumns">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <onecol
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="1"
+                                                        value="one"/>
+                                                    <twocol
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="2"
+                                                        value="two"/>
+                                                    <threecol
+                                                        jcr:primaryType="nt:unstructured"
+                                                        selected="{Boolean}true"
+                                                        text="3"
+                                                        value="three"/>
+                                                    <fourcol
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="4"
+                                                        value="four"/>
+                                                </items>
+                                            </column>
+                                            <numberOfItems
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                                                fieldLabel="Number of Cards"
+                                                max="{Long}16"
+                                                min="{Long}1"
+                                                name="./numberOfItems"
+                                                value="{Long}3"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </cards>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

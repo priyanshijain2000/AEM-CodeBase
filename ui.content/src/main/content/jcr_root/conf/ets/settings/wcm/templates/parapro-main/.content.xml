@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2022-12-09T17:12:03.835Z"
+        cq:lastModifiedBy="PJAIN003@ets.org"
+        cq:lastReplicated="{Date}2022-11-23T05:48:56.252Z"
+        cq:lastReplicated_publish="{Date}2022-11-23T05:48:56.252Z"
+        cq:lastReplicatedBy="PREDDY002@ets.org"
+        cq:lastReplicatedBy_publish="PREDDY002@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:templateType="/conf/ets/settings/wcm/template-types/generic-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Product - Parapro Main"
+        status="enabled"/>
+</jcr:root>

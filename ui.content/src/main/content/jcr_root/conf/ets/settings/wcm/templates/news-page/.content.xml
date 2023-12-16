@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2023-04-26T08:27:06.018Z"
+        cq:lastModifiedBy="pselvam@ets.org"
+        cq:lastReplicated="{Date}2023-04-26T08:29:50.253Z"
+        cq:lastReplicated_preview="{Date}2023-04-11T13:04:12.405Z"
+        cq:lastReplicated_publish="{Date}2023-04-26T08:29:50.253Z"
+        cq:lastReplicatedBy="pselvam@ets.org"
+        cq:lastReplicatedBy_preview="saravanan.a.ms@accenture.com"
+        cq:lastReplicatedBy_publish="pselvam@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:templateType="/conf/ets/settings/wcm/template-types/generic-page"
+        jcr:description="For News and Insights and Press Release inner pages"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="News Page"
+        status="enabled"/>
+</jcr:root>

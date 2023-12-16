@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2023-01-05T10:16:55.550Z"
+        cq:lastModifiedBy="PREDDY002@ets.org"
+        cq:lastReplicated="{Date}2022-11-15T09:47:55.415Z"
+        cq:lastReplicated_publish="{Date}2022-11-15T09:47:55.415Z"
+        cq:lastReplicatedBy="PREDDY002@ets.org"
+        cq:lastReplicatedBy_publish="PREDDY002@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:templateType="/conf/ets/settings/wcm/template-types/toefl-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Product – TOEFL iBT Test Takers"
+        status="enabled"/>
+</jcr:root>

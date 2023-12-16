@@ -1,0 +1,76 @@
+<div class="cmp-container--body ">
+    <div class="school-acceptance">
+        <div class="school-acceptance--search">
+            <form class="field without-search">
+                <div class="field-groups">
+                    <label class="form-label form-label-text">Entries</label>
+                    <div class="customselectpagecountsearch">
+                        <select class="page-count-dropdown" aria-label="Entries">
+                            <option>10</option>
+                                <option>25</option>
+                                <option>50</option>
+                                <option>100</option>   
+                            </select>
+                    </div>
+                </div>
+            </form>
+            <form class="field">
+                <div class="field-groups">
+                    <label class="form-label form-label-text">Search</label>
+                    <div class="customselectresultsearch">
+                        <div class="select__selected" aria-label="unselected listbox" role="listbox" aria-live="polite" tabindex="0">
+                            <i class="dropdown-search-icon"><img src="/src/main/webpack/resources/images/searchIcon_blue.png"></i>
+                            <input type="search" id="search" placeholder="Search" class="pac-target-input" autocomplete="off">
+                            <!-- <button class="ets-dropdown-button" tabindex="-1"><img src="/src/main/webpack/resources/images/right-arrow-white.svg"></button> -->
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="school-acceptance__table" id="school-acceptance" data-school-acceptance-path="/src/main/webpack/components/json/mybest_scores_acceptance.json">
+            <div class="school-acceptance__table--overflow">
+                <table>
+                    <thead>
+                        <tr class="sortingimages">
+                            <th class="sort_both" aria-sort="none" data-key="Country">
+                                <button aria-label="Sort by Country" data-column-index="0">
+                                    <img  alt="sorting" src="/src/main/webpack/resources/images/arrows.svg"/>
+                                    <b>Country</b>
+                                </button>                                
+                            </th>
+                            <th class="sort_both" aria-sort="none" data-key="State/Province">
+                                <button aria-label="Sort by State" data-column-index="1">
+                                    <img  alt="sorting" src="/src/main/webpack/resources/images/arrows.svg"/>
+                                    <b>State</b>
+                                </button> 
+                            </th>
+                            <th class="sort_both" aria-sort="none" data-key="Institution">
+                                <button aria-label="Sort by Institution" data-column-index="2">
+                                    <img  alt="sorting" src="/src/main/webpack/resources/images/arrows.svg"/>
+                                    <b>Institution</b>
+                                </button> 
+                            </th>
+                            <th class="sort_both" aria-sort="none" data-key="Program">
+                                <button aria-label="Sort by Program" data-column-index="3">
+                                    <img  alt="sorting" src="/src/main/webpack/resources/images/arrows.svg"/>
+                                    <b>Program</b>
+                                </button> 
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>                    
+                </table>
+                <span id="liveRegion" aria-live="polite" readcaptions="false" class="visuallyhidden"></span>
+            </div>
+            <div class="litePagination acceptancePagination cmp-button--tertiary d-none">
+                <a href="#" class="previous button cmp-button hover--primary cmp-button-arrow" data-action="previous"><span class="cmp-button__icon--leftArrowBlue" aria-hidden="true"></span>Prev</a>
+                <input type="text" /> <div class="page-result-text"><span class="current-page d-none">0</span> of <span class="max-page">0</span></div>
+                <a href="#" class="next button cmp-button hover--primary" data-action="next">Next<span class="cmp-button__icon--rightArrowBlue" aria-hidden="true"></span></a>
+            </div>
+            <div class="school-acceptance__noresults d-none">
+                No matching records found.
+            </div>
+        </div>
+    </div>
+</div>

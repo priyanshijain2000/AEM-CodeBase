@@ -1,0 +1,30 @@
+{
+  "dam": {
+    "jcr:primaryType": "sling:Folder",
+    "sample-image.png": {
+      "jcr:primaryType": "dam:Asset",
+      "jcr:content": {
+        "jcr:primaryType": "dam:AssetContent",
+        "metadata": {
+          "jcr:primaryType": "nt:unstructured",
+          "dc:description": "Sample alt txt"
+        }
+      }
+    },
+    "sample-image.svg": {
+      "jcr:primaryType": "dam:Asset",
+      "jcr:content": {
+        "jcr:primaryType": "dam:AssetContent",
+        "metadata": {
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "renditions":{
+        	"jcr:primaryType":"nt:folder",
+        	"original":{
+        		"jcr:primaryType":"nt:file"
+        	}
+        }
+      }
+    }
+  }
+}

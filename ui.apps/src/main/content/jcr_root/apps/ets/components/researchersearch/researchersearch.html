@@ -1,0 +1,17 @@
+<sly data-sly-use.researcherSearch="org.ets.core.models.ResearcherSearchModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !researcherSearch.path,classAppend='cmp-text'}"></sly>
+
+<section class="research-search-template">
+        <h2>${researcherSearch.sectionTitle}</h2>
+        <div class="research-search">
+            <div class="research-search__select">
+                <div class="research-search__select__container">
+                    <form id="research-search-form">
+                        <i class="research-search__select__search-icon"><img src="/content/dam/ets-org/icons/commons/searchIcon_blue.svg" alt="${researcherSearch.searchAlt}"></i>
+                        <input id="research-search-form-input" aria-label="${researcherSearch.searchAriaLabel}" type="search" placeholder="${researcherSearch.placeHolderText}">
+                        <a id="researchSearchButton" class="cta-btn-primary" aria-label="${researcherSearch.ctaButtonAriaLabel}" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=researcherSearch.link}" data-research-result-url="${linkValidate.link}" href="javascript:;"><span class="d-none d-md-block">${researcherSearch.ctaLabel}</span><i class="d-block d-md-none state-search__select__left-arrow"></i> </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+</section>

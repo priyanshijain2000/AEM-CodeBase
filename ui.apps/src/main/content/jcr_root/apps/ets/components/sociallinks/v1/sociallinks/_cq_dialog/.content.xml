@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Social following"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Main Content"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <title
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Description Text"
+                                                name="./maintitle"/>
+                                            <linkdetails
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                composite="{Boolean}true"
+                                                fieldLabel="Social Link Details"
+                                                required="{Boolean}false">
+                                                <field
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                    name="./socialdetails">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <layout
+                                                            jcr:primaryType="nt:unstructured"
+                                                            jcr:title="Expand/Collapse Item"
+                                                            sling:resourceType="granite/ui/components/foundation/layouts/collapsible">
+                                                            <items jcr:primaryType="nt:unstructured">
+                                                                <title
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldLabel="Social title"
+                                                                    name="./socialtitle"/>
+                                                                <subscription
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                                    checked="{Boolean}false"
+                                                                    fieldDescription="When checked, it will register your email for subscription"
+                                                                    name="./subscription"
+                                                                    text="Register yourself for the subscription"
+                                                                    uncheckedValue="false"
+                                                                    value="{Boolean}true"/>
+                                                                <link
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                                    fieldLabel="Social Link"
+                                                                    name="./sociallink"
+                                                                    rootPath="/content/ets-org"/>
+                                                                <ctalinkarialabel
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldLabel="CTA Link Aria Label"
+                                                                    name="./ctaLinkAriaLabel"/>
+                                                                <target
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                                    name="./newTab"
+                                                                    text="Link target to new window"
+                                                                    uncheckedValue="{Boolean}false"
+                                                                    value="{Boolean}true"/>
+                                                                <icon
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                                    fieldLabel="Social Icon"
+                                                                    name="./socialicon"
+                                                                    rootPath="/content/dam/ets-org"/>
+                                                                <alttext
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Textual alternative of the meaning or function of the image, for visually impaired readers."
+                                                                    fieldLabel="Alternative text for accessibility"
+                                                                    name="./altText"/>
+                                                            </items>
+                                                        </layout>
+                                                    </items>
+                                                </field>
+                                            </linkdetails>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </properties>
+                    <socialcards
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Property"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                        	<bgStyle
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/form/select"
+                                                class="cq-dialog-dropdown-showhide"
+                                                cq-dialog-dropdown-showhide-target=".background-type-hide-show"
+                                                fieldLabel="Background type"
+                                                name="./bgStyle">
+                                                <items jcr:primaryType="cq:WidgetCollection">
+                                                	<color
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Solid color"
+                                                        value="theme-color"/>
+                                                    <gradient
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Gradient"
+                                                        value="theme-gradient"/>
+                                                </items>
+                                            </bgStyle>
+                                            <solid-color
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/container"
+                                                class="hide background-type-hide-show"
+                                                showhidetargetvalue="theme-color">
+                                                <items jcr:primaryType="nt:unstructured">
+                                        	<brand
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/form/select"
+                                                class="cq-dialog-dropdown-showhide"
+                                                cq-dialog-dropdown-showhide-target=".device-type-hide-show"
+                                                fieldLabel="Select brand"
+                                                name="./brand">
+                                                <items jcr:primaryType="cq:WidgetCollection">
+                                                	<corp
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Corporate"
+                                                        value="corp"/>
+                                                    <praxis
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Praxis"
+                                                        value="praxis"/>
+                                                    <gre
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="GRE"
+                                                        value="gre"/>
+                                                    <toeic
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="TOEIC"
+                                                        value="toeic"/>
+                                                    <toefl
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="TOEFL"
+                                                        value="toefl"/>
+                                                </items>
+                                            </brand>
+                                            <corp
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/container"
+                                                class="hide device-type-hide-show"
+                                                showhidetargetvalue="corp">
+                                                <items jcr:primaryType="nt:unstructured">
+		                                            <color-picker
+		                                                jcr:primaryType="nt:unstructured"
+		                                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/colorfield"
+		                                                fieldLabel="Corporate colors"
+		                                                name="./bgcolorCorp"
+		                                                showDefaultColors="{Boolean}false"
+		                                                showProperties="{Boolean}false"
+		                                                variant="swatch">
+		                                                <items jcr:primaryType="nt:unstructured">
+		                                                    <color1 jcr:primaryType="nt:unstructured" value="rgba(0, 51, 86, 1)"/>
+		                                                    <color2 jcr:primaryType="nt:unstructured" value="rgba(0, 48, 130, 1)"/>
+		                                                    <color3 jcr:primaryType="nt:unstructured" value="rgba(48, 114, 190, 1)"/>
+		                                                    <color4 jcr:primaryType="nt:unstructured" value="rgba(42, 172, 226, 1)"/>
+		                                                    <color5 jcr:primaryType="nt:unstructured" value="rgba(253, 185, 19, 1)"/>
+		                                                    <color6 jcr:primaryType="nt:unstructured" value="rgba(222, 209, 79, 1)"/>
+		                                                    <color7 jcr:primaryType="nt:unstructured" value="rgba(105, 204, 151, 1)"/>
+		                                                    <color8 jcr:primaryType="nt:unstructured" value="rgba(47, 126, 97, 1)"/>
+		                                                </items>
+		                                            </color-picker>
+                                            	</items>
+                                            </corp>
+                                            <praxis
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/container"
+                                                class="hide device-type-hide-show"
+                                                showhidetargetvalue="praxis">
+                                                <items jcr:primaryType="nt:unstructured">
+		                                            <praxis-color-picker
+		                                                jcr:primaryType="nt:unstructured"
+		                                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/colorfield"
+		                                                fieldLabel="Praxis colors"
+		                                                name="./bgcolorPraxis"
+		                                                showDefaultColors="{Boolean}false"
+		                                                showProperties="{Boolean}false"
+		                                                variant="swatch">
+		                                                <items jcr:primaryType="nt:unstructured">
+		                                                    <color1
+		                                                        jcr:primaryType="nt:unstructured"
+		                                                        value="#401416"/>
+		                                                    <color2
+		                                                        jcr:primaryType="nt:unstructured"
+		                                                        value="#A03137"/>
+		                                                    <color3
+		                                                        jcr:primaryType="nt:unstructured"
+		                                                        value="#003082"/>
+		                                                    <color4
+		                                                        jcr:primaryType="nt:unstructured"
+		                                                        value="#C1B7AF"/>
+"/>
+		                                                </items>
+		                                            </praxis-color-picker>
+                                            	</items>
+                                            </praxis>
+                                            <gre
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/container"
+                                                class="hide device-type-hide-show"
+                                                showhidetargetvalue="gre">
+                                                <items jcr:primaryType="nt:unstructured">
+		                                            <gre-color-picker
+		                                                jcr:primaryType="nt:unstructured"
+		                                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/colorfield"
+		                                                fieldLabel="GRE colors"
+		                                                name="./bgcolorGre"
+		                                                showDefaultColors="{Boolean}false"
+		                                                showProperties="{Boolean}false"
+		                                                variant="swatch">
+		                                                <items jcr:primaryType="nt:unstructured">
+		                                                    <color1
+		                                                        jcr:primaryType="nt:unstructured"
+		                                                        value="#630F54"/>
+		                                                    <color2
+		                                                        jcr:primaryType="nt:unstructured"
+		                                                        value="#DA4727"/>
+		                                                    <color3 jcr:primaryType="nt:unstructured" value="#7C3265"/>
+		                                                    <color4 jcr:primaryType="nt:unstructured" value="#B8CCE5"/>
+		                                                    <color5 jcr:primaryType="nt:unstructured" value="#C19FBB"/>
+		                                                    <color6 jcr:primaryType="nt:unstructured" value="#F4EAE6"/>
+		                                                    <color7 jcr:primaryType="nt:unstructured" value="#DEECFC"/>
+		                                                    <color8 jcr:primaryType="nt:unstructured" value="#38002E"/>
+		                                                    <color9 jcr:primaryType="nt:unstructured" value="#1F2841"/>
+		                                                    <color10 jcr:primaryType="nt:unstructured" value="#B83A1E"/>
+		                                                </items>
+		                                            </gre-color-picker>
+	                                            </items>
+                                            </gre>
+                                            <toeic
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/container"
+                                                class="hide device-type-hide-show"
+                                                showhidetargetvalue="toeic">
+                                                <items jcr:primaryType="nt:unstructured">
+		                                            <toeic-color-picker
+		                                                jcr:primaryType="nt:unstructured"
+		                                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/colorfield"
+		                                                fieldLabel="TOEIC colors"
+		                                                name="./bgcolorToeic"
+		                                                showDefaultColors="{Boolean}false"
+		                                                showProperties="{Boolean}false"
+		                                                variant="swatch">
+		                                                <items jcr:primaryType="nt:unstructured">
+		                                                	<color1 jcr:primaryType="nt:unstructured" value="#142B1C"/>
+		                                                    <color2 jcr:primaryType="nt:unstructured" value="#165736"/>
+		                                                    <color3 jcr:primaryType="nt:unstructured" value="#B5BE0F"/>
+		                                                    <color4 jcr:primaryType="nt:unstructured" value="rgba(181, 190, 15, 0.3)"/>
+		                                                    <color5 jcr:primaryType="nt:unstructured" value="rgba(181, 190, 15, 0.12)"/>
+		                                                </items>
+		                                            </toeic-color-picker>
+	                                            </items>
+                                            </toeic>
+                                            <toefl
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/container"
+                                                class="hide device-type-hide-show"
+                                                showhidetargetvalue="toefl">
+                                                <items jcr:primaryType="nt:unstructured">
+		                                            <toefl-color-picker
+		                                                jcr:primaryType="nt:unstructured"
+		                                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/colorfield"
+		                                                fieldLabel="TOEFL colors"
+		                                                name="./bgcolorToefl"
+		                                                showDefaultColors="{Boolean}false"
+		                                                showProperties="{Boolean}false"
+		                                                variant="swatch">
+		                                                <items jcr:primaryType="nt:unstructured">
+		                                                    <color1 jcr:primaryType="nt:unstructured" value="rgba(55, 125, 130, 1)"/>
+		                                                    <color2 jcr:primaryType="nt:unstructured" value="rgba(239, 112, 0, 1)"/>
+		                                                    <color3 jcr:primaryType="nt:unstructured" value="rgba(247, 181, 36, 1)"/>
+		                                                    <color4 jcr:primaryType="nt:unstructured" value="rgba(231, 239, 240, 1)"/>
+		                                                    <color5 jcr:primaryType="nt:unstructured" value="rgba(22, 50, 52, 1)"/>
+		                                                    <color6 jcr:primaryType="nt:unstructured" value="rgba(39, 88, 91, 1)"/>
+		                                                </items>
+		                                            </toefl-color-picker>
+                                            	</items>
+                                            </toefl>
+                                            </items>
+                                            </solid-color>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </socialcards>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

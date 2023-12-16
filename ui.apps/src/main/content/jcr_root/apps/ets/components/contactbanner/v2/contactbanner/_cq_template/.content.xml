@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+            <teaser
+                jcr:created="{Date}2022-06-06T09:54:40.986-07:00"
+                jcr:createdBy="admin"
+                jcr:description="&lt;p>Description Goes Here&lt;/p>&#xd;&#xa;"
+                jcr:lastModified="{Date}2022-06-06T09:55:45.894-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Title Goes Here"
+                sling:resourceType="ets/components/teaser/v2/teaser"
+                altValueFromDAM="true"
+                descriptionFromPage="false"
+                imageFromPageImage="false"
+                isDecorative="false"
+                linkTarget="_self"
+                textIsRich="true"
+                titleFromPage="false">
+                <actions jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        link="/content/ets-org"
+                        linkTarget="_self"
+                        text="Button"/>
+                </actions>
+            </teaser>
+</jcr:root>

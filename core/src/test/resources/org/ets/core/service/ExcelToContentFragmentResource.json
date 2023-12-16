@@ -1,0 +1,297 @@
+{
+	"cf-folder": {
+		"jcr:primaryType": "sling:Folder",
+		"jcr:content": {
+			"jcr:primaryType": "nt:unstructured",
+			"jcr:title": "Info Session"
+		}
+	},
+	"model-path": {
+		"jcr:primaryType": "cq:Template",
+		"jcr:createdBy": "admin",
+		"allowedPaths": [
+			"/content/entities(/.*)?"
+		],
+		"jcr:created": "Fri Aug 11 2023 08:35:02 GMT-0400",
+		"ranking": 100,
+		"jcr:content": {
+			"jcr:primaryType": "cq:PageContent",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Info Session",
+			"status": "enabled",
+			"jcr:created": "Fri Aug 11 2023 08:35:02 GMT-0400",
+			"cq:lastModified": "Fri Jul 21 2023 13:20:50 GMT-0400",
+			"sling:resourceSuperType": "dam/cfm/models/console/components/data/entity",
+			"cq:scaffolding": "content/model-path/jcr:content/model",
+			"cq:templateType": "/libs/settings/dam/cfm/model-types/fragment",
+			"sling:resourceType": "dam/cfm/models/console/components/data/entity/default",
+			"cq:lastModifiedBy": "admin",
+			"metadata": {
+				"jcr:primaryType": "nt:unstructured"
+			},
+			"model": {
+				"jcr:primaryType": "cq:PageContent",
+				"jcr:createdBy": "admin",
+				"jcr:created": "Fri Aug 11 2023 08:35:02 GMT-0400",
+				"dataTypesConfig": "/mnt/overlay/settings/dam/cfm/models/formbuilderconfig/datatypes",
+				"sling:resourceType": "wcm/scaffolding/components/scaffolding",
+				"maxGeneratedOrder": "20",
+				"cq:targetPath": "/content/entities",
+				"cq:dialog": {
+					"jcr:primaryType": "nt:unstructured",
+					"sling:resourceType": "cq/gui/components/authoring/dialog",
+					"content": {
+						"jcr:primaryType": "nt:unstructured",
+						"jcr:lastModifiedBy": "admin",
+						"jcr:lastModified": "Fri Jul 21 2023 13:20:50 GMT-0400",
+						"sling:resourceType": "granite/ui/components/coral/foundation/fixedcolumns",
+						"items": {
+							"jcr:primaryType": "nt:unstructured",
+							"maxGeneratedOrder": "21",
+							"1691729197398": {
+								"jcr:primaryType": "nt:unstructured",
+								"listOrder": "1",
+								"valueType": "string",
+								"showEmptyInReadOnly": "true",
+								"metaType": "text-single",
+								"name": "sessionid",
+								"maxlength": "255",
+								"fieldLabel": "SessionID",
+								"sling:resourceType": "granite/ui/components/coral/foundation/form/textfield",
+								"renderReadOnly": "false",
+								"granite:data": {
+									"jcr:primaryType": "nt:unstructured"
+								}
+							},
+							"1689788502626": {
+								"jcr:primaryType": "nt:unstructured",
+								"listOrder": "1",
+								"valueType": "string",
+								"showEmptyInReadOnly": "true",
+								"metaType": "text-single",
+								"name": "institutionname",
+								"maxlength": "255",
+								"fieldLabel": "Institution Name",
+								"sling:resourceType": "granite/ui/components/coral/foundation/form/textfield",
+								"renderReadOnly": "false",
+								"granite:data": {
+									"jcr:primaryType": "nt:unstructured"
+								}
+							},
+							"1689788546949": {
+								"jcr:primaryType": "nt:unstructured",
+								"listOrder": "1",
+								"valueType": "string",
+								"showEmptyInReadOnly": "true",
+								"metaType": "text-single",
+								"name": "stateregion",
+								"maxlength": "255",
+								"fieldLabel": "State/Region",
+								"sling:resourceType": "granite/ui/components/coral/foundation/form/textfield",
+								"renderReadOnly": "false",
+								"granite:data": {
+									"jcr:primaryType": "nt:unstructured"
+								}
+							},
+							"1689788598517": {
+								"jcr:primaryType": "nt:unstructured",
+								"listOrder": "1",
+								"valueType": "string",
+								"showEmptyInReadOnly": "true",
+								"metaType": "text-single",
+								"name": "institutioncountry",
+								"maxlength": "255",
+								"fieldLabel": "Institution Country",
+								"sling:resourceType": "granite/ui/components/coral/foundation/form/textfield",
+								"renderReadOnly": "false",
+								"granite:data": {
+									"jcr:primaryType": "nt:unstructured"
+								}
+							},
+							"1689951811367": {
+								"jcr:primaryType": "nt:unstructured",
+								"listOrder": "1",
+								"valueType": "string",
+								"showEmptyInReadOnly": "true",
+								"metaType": "text-single",
+								"name": "programname",
+								"maxlength": "255",
+								"fieldLabel": "Program Name",
+								"sling:resourceType": "granite/ui/components/coral/foundation/form/textfield",
+								"renderReadOnly": "false",
+								"granite:data": {
+									"jcr:primaryType": "nt:unstructured"
+								}
+							},
+							"1689951832435": {
+								"jcr:primaryType": "nt:unstructured",
+								"listOrder": "1",
+								"valueType": "string",
+								"showEmptyInReadOnly": "true",
+								"metaType": "text-single",
+								"name": "eventname",
+								"maxlength": "255",
+								"fieldLabel": "Event Name",
+								"sling:resourceType": "granite/ui/components/coral/foundation/form/textfield",
+								"renderReadOnly": "false",
+								"granite:data": {
+									"jcr:primaryType": "nt:unstructured"
+								}
+							},
+							"1689951861881": {
+								"jcr:primaryType": "nt:unstructured",
+								"listOrder": "1",
+								"valueType": "string",
+								"showEmptyInReadOnly": "true",
+								"metaType": "text-single",
+								"name": "rsvpurloremailaddressformoreinformation",
+								"maxlength": "255",
+								"fieldLabel": "RSVP URL or Email Address for more information",
+								"sling:resourceType": "granite/ui/components/coral/foundation/form/textfield",
+								"renderReadOnly": "false",
+								"granite:data": {
+									"jcr:primaryType": "nt:unstructured"
+								}
+							},
+							"1689788903871": {
+								"jcr:primaryType": "nt:unstructured",
+								"listOrder": "1",
+								"valueType": "string",
+								"showEmptyInReadOnly": "true",
+								"metaType": "text-single",
+								"name": "eventtype",
+								"maxlength": "255",
+								"fieldLabel": "Event Type",
+								"sling:resourceType": "granite/ui/components/coral/foundation/form/textfield",
+								"renderReadOnly": "false",
+								"granite:data": {
+									"jcr:primaryType": "nt:unstructured"
+								}
+							},
+							"1691749655269": {
+								"jcr:primaryType": "nt:unstructured",
+								"valueFormat": "YYYY-MM-DD",
+								"emptyText": "YYYY-MM-DD",
+								"listOrder": "21",
+								"valueType": "calendar/date",
+								"displayedFormat": "YYYY-MM-DD",
+								"showEmptyInReadOnly": "true",
+								"metaType": "date",
+								"name": "eventdate",
+								"type": "date",
+								"fieldLabel": "Event Date",
+								"sling:resourceType": "dam/cfm/models/editor/components/datatypes/datepicker",
+								"renderReadOnly": "false",
+								"granite:data": {
+									"jcr:primaryType": "nt:unstructured",
+									"typeHint": "Date"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"cf": {
+		"6574675": {
+			"jcr:primaryType": "dam:Asset",
+			"jcr:mixinTypes": [
+				"mix:referenceable"
+			],
+			"jcr:createdBy": "etsservice",
+			"jcr:created": "Fri Aug 11 2023 08:45:50 GMT-0400",
+			"jcr:uuid": "381e9525-0319-4587-9f96-d71ad475bfaa",
+			"jcr:content": {
+				"jcr:primaryType": "dam:AssetContent",
+				"jcr:title": "6574675",
+				"jcr:lastModifiedBy": "etsservice",
+				"contentFragment": true,
+				"jcr:lastModified": "Mon Aug 14 2023 07:46:10 GMT-0400",
+				"renditions": {
+					"jcr:primaryType": "nt:folder",
+					"jcr:createdBy": "etsservice",
+					"jcr:created": "Fri Aug 11 2023 08:45:50 GMT-0400"
+				},
+				"related": {
+					"jcr:primaryType": "nt:unstructured"
+				},
+				"indexedData": {
+					"jcr:primaryType": "nt:unstructured",
+					"master": {
+						"jcr:primaryType": "nt:unstructured",
+						"jcr:mixinTypes": [
+							"dam:IndexedFragmentData"
+						],
+						"@string@model": "/conf/ets/settings/dam/cfm/models/gre-info-session",
+						"string@institutionname": "ESB Business school",
+						"string@stateregion": "7",
+						"@stringArray@variations": [],
+						"calendar@eventdate": "Fri Jun 23 2023 00:00:00 GMT+0000",
+						"string@eventname": "MBA Full-Time Info Session",
+						"string@eventtype": "Online",
+						"string@sessionid": "6574675",
+						"string@institutioncountry": "Germany",
+						"jcr:uuid": "004a117b-761b-40e5-a2d3-ac0631e36e4a",
+						"string@programname": "MBA International ",
+						"string@rsvpurloremailaddressformoreinformation": "https://www.linkedin.com/events/mbainternationalmanagementfull-7031256081603416064/about/  OR  https://www.esb-business-school.de/en/news-1/events/virtuelle-info-sessions"
+					}
+				},
+				"metadata": {
+					"jcr:primaryType": "nt:unstructured",
+					"jcr:mixinTypes": [
+						"cq:Taggable"
+					]
+				},
+				"data": {
+					"jcr:primaryType": "nt:unstructured",
+					"_strucVersion": 1,
+					"cq:model": "/conf/ets/settings/dam/cfm/models/gre-info-session",
+					"master": {
+						"jcr:primaryType": "nt:unstructured",
+						"jcr:mixinTypes": [
+							"dam:cfVariationNode",
+							"cq:Taggable"
+						],
+						"institutionname@LastModified": "Fri Aug 11 2023 08:45:50 GMT-0400",
+						"sessionid@LastModified": "Fri Aug 11 2023 08:45:50 GMT-0400",
+						"institutionname": "ESB Business school",
+						"institutioncountry@ContentType": "text/plain",
+						"eventdate@LastModified": "Mon Aug 14 2023 07:46:10 GMT-0400",
+						"rsvpurloremailaddressformoreinformation": "https://www.linkedin.com/events/mbainternationalmanagementfull-7031256081603416064/about/  OR  https://www.esb-business-school.de/en/news-1/events/virtuelle-info-sessions",
+						"institutionname@ContentType": "text/plain",
+						"eventtype@ContentType": "text/plain",
+						"eventdate@ContentType": "text/plain",
+						"rsvpurloremailaddressformoreinformation@ContentType": "text/plain",
+						"stateregion@ContentType": "text/plain",
+						"rsvpurloremailaddressformoreinformation@LastModified": "Fri Aug 11 2023 08:45:50 GMT-0400",
+						"programname@ContentType": "text/plain",
+						"eventdate": "Fri Jun 23 2023 00:00:00 GMT+0000",
+						"eventname": "MBA Full-Time Info Session",
+						"eventtype": "Online",
+						"institutioncountry@LastModified": "Fri Aug 11 2023 08:45:50 GMT-0400",
+						"programname@LastModified": "Fri Aug 11 2023 08:45:50 GMT-0400",
+						"stateregion@LastModified": "Fri Aug 11 2023 08:45:50 GMT-0400",
+						"sessionid": "6574675",
+						"programname": "MBA International ",
+						"sessionid@ContentType": "text/plain",
+						"eventname@LastModified": "Fri Aug 11 2023 08:45:50 GMT-0400",
+						"eventname@ContentType": "text/plain",
+						"institutioncountry": "Germany",
+						"eventtype@LastModified": "Fri Aug 11 2023 08:45:50 GMT-0400",
+						"stateregion": "7"
+					}
+				}
+			}
+		},
+		"jcr:primaryType": "sling:Folder",
+		"jcr:createdBy": "admin",
+		"jcr:created": "Fri Aug 11 2023 07:15:13 GMT-0400",
+		"jcr:content": {
+			"jcr:primaryType": "nt:unstructured",
+			"jcr:title": "Test2",
+			"dam:noThumbnail": true,
+			"sourcing": "false"
+		}
+	}
+}

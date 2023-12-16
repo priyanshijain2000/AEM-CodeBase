@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastReplicated_preview="{Date}2022-04-06T12:31:50.184Z"
+    cq:lastReplicatedBy_preview="karthika.pichandi@accenture.com"
+    cq:lastReplicationAction_preview="Activate"
+    jcr:description=""
+    jcr:primaryType="cq:Tag"
+    jcr:title="TOEFL® Essentials™ Test"
+    sling:resourceType="cq/tagging/components/tag"/>

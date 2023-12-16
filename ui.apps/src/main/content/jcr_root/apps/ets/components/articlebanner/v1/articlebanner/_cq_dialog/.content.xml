@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Article Banner"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <Image
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Background Image"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+											<image
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="Image"
+                                                name="./image"
+                                                rootPath="/content/dam/ets-org"/>
+                                            <alt
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Textual alternative of the meaning or function of the image, for visually impaired readers."
+                                                fieldLabel="Alternative text for accessibility"
+                                                emptyText="Leave it Blank to fetch AltText from DAM"
+                                                name="./altText"/>
+                                             <deviceType
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/form/select"
+                                                class="cq-dialog-dropdown-showhide"
+                                                cq-dialog-dropdown-showhide-target=".device-type-hide-show"
+                                                fieldLabel="Select Device Type"
+                                                name="./deviceType">
+                                                <items jcr:primaryType="cq:WidgetCollection">
+                                                    <desktop
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Desktop"
+                                                        value="desktop"/>
+                                                    <tablet
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Tablet"
+                                                        value="tablet"/>
+                                                    <mobile
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Mobile"
+                                                        value="mobile"/>
+                                                </items>
+                                            </deviceType>
+                                            <desktop
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/container"
+                                                class="hide device-type-hide-show"
+                                                showhidetargetvalue="desktop">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <well
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/foundation/container">
+                                                        <layout
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/foundation/layouts/well"/>
+                                                        <items jcr:primaryType="nt:unstructured">
+                                                            <adjustLeftRight
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                emptyText="Provide Custom Left(-) and Right(+) position(in px) for Image"
+                                                                fieldDescription="Provide Custom Left(-) and Right(+) position(in px) for Image focal point adjustments"
+                                                                fieldLabel="Image Position for Desktop(Left/Right)"
+                                                                name="./adjustLeftRight"/>
+                                                            <adjustTopBottom
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                emptyText="Provide Custom Top(+) and Bottom(-) position(in px) for Image"
+                                                                fieldDescription="Provide Custom Top(+)and Bottom(-) position(in px) for Image focal point adjustments"
+                                                                fieldLabel="Image Position for Desktop (Top/Bottom)"
+                                                                name="./adjustTopBottom"/>
+                                                        </items>
+                                                    </well>
+                                                </items>
+                                            </desktop>
+                                            <tablet
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/container"
+                                                class="hide device-type-hide-show"
+                                                showhidetargetvalue="tablet">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <well
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/foundation/container">
+                                                        <layout
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/foundation/layouts/well"/>
+                                                        <items jcr:primaryType="nt:unstructured">
+                                                            <adjustLeftRightTab
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                emptyText="Provide Custom Left(-) and Right(+) position(in px) for Image"
+                                                                fieldDescription="Provide Custom Left(-) and Right(+) position(in px) for Image focal point adjustments"
+                                                                fieldLabel="Image Position for Tab(Left/Right)"
+                                                                name="./adjustLeftRightTab"/>
+                                                            <adjustTopBottomTab
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                emptyText="Provide Custom Top(+) and Bottom(-) position(in px) for Image"
+                                                                fieldDescription="Provide Custom Top(+) and Bottom(-) position(in px) for Image focal point adjustments"
+                                                                fieldLabel="Image Position for Tab (Top/Bottom)"
+                                                                name="./adjustTopBottomTab"/>
+                                                        </items>
+                                                    </well>
+                                                </items>
+                                            </tablet>
+                                            <mobile
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/container"
+                                                class="hide device-type-hide-show"
+                                                showhidetargetvalue="mobile">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <well
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/foundation/container">
+                                                        <layout
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/foundation/layouts/well"/>
+                                                        <items jcr:primaryType="nt:unstructured">
+                                                            <adjustLeftRightMobile
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                emptyText="Provide Custom Left(-) and Right(+) position(in px) for Image"
+                                                                fieldDescription="Provide Custom Left(-) and Right(+) position(in px) for Image focal point adjustments"
+                                                                fieldLabel="Image Position for Mobile(Left/Right)"
+                                                                name="./adjustLeftRightMobile"/>
+                                                            <adjustTopBottomMobile
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                emptyText="Provide Custom Top(+) and Bottom(-) position(in px) for Image"
+                                                                fieldDescription="Provide Custom Top(+) and Bottom(-) position(in px) for Image focal point adjustments"
+                                                                fieldLabel="Image Position for Mobile (Top/Bottom)"
+                                                                name="./adjustTopBottomMobile"/>
+                                                        </items>
+                                                    </well>
+                                                </items>
+                                            </mobile>
+                                            <animation-image
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="Animation Image"
+                                                name="./animationimage"
+                                                rootPath="/content/dam/ets-org"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </Image>
+                    <maincontent
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Main Content"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <contentalign
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                fieldLabel="Content Alignment"
+                                                name="./align">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <option1
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Left"
+                                                        value="left"/>
+                                                    <option2
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Right"
+                                                        value="right"/>
+                                                </items>
+                                            </contentalign>
+                                            <title
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Title"
+                                                name="./articletitle"/>
+                                            <subtitle
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Subtitle"
+                                                name="./articlesubtitle"/>
+                                            <color-picker
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/colorfield"
+                                                fieldLabel="Text color of description"
+                                                name="./color"
+                                                showDefaultColors="{Boolean}false"
+                                                showProperties="{Boolean}false"
+                                                showSwatches="{Boolean}true">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <color1
+                                                        jcr:primaryType="nt:unstructured"
+                                                        value="#3072be"/>
+                                                    <color2
+                                                        jcr:primaryType="nt:unstructured"
+                                                        value="#151515"/>
+                                                    <color3
+                                                    jcr:primaryType="nt:unstructured"
+                                                    value="#003356"/>
+                                                </items>
+                                            </color-picker>
+                                            <description
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                fieldLabel="Description"
+                                                name="./articledesc"
+                                                removeSingleParagraphContainer="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true">
+                                                <rte
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/include"
+                                                    path="/apps/ets/commons/rte-plugins"/>
+                                            </description>
+                                            <ctabuttontitle
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="CTA Button Label"
+                                                name="./ctaButtonLabel"/>
+                                            <ctabuttonlink
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="CTA Button Link"
+                                                name="./ctaButtonLink"
+                                                rootPath="/content/ets-org"/>
+											<ctabuttonarialabel
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="CTA Button Aria Label"
+                                                name="./ctaButtonAriaLabel"/>
+                                            <target
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                name="./newTab"
+                                                text="Link target to new window"
+                                                uncheckedValue="{Boolean}false"
+                                                value="{Boolean}true"/>
+                                            <ctatitle
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="CTA Text Label"
+                                                name="./ctaText"/>
+                                            <ctalink
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="CTA Text Link"
+                                                name="./ctaLink"
+                                                rootPath="/content/ets-org"/>
+											<ctalinkarialabel
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="CTA Link Aria Label"
+                                                name="./ctaLinkAriaLabel"/>
+                                            <target1
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                name="./newTab1"
+                                                text="Link target to new window"
+                                                uncheckedValue="{Boolean}false"
+                                                value="{Boolean}true"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </maincontent>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

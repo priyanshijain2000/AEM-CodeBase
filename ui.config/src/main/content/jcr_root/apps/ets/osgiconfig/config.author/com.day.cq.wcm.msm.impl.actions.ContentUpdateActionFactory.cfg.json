@@ -1,0 +1,10 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "cq.wcm.msm.action.excludedprops":[
+    "jcr:.*",
+    "sling:(?!(resourceType|resourceSuperType)$).*",
+    "cq:(?!(designPath|template|lastTranslationUpdate|targetEngine)$).*",
+    "cq:robotsTags",
+    "publishCampaignId"
+  ]
+}

@@ -1,0 +1,17 @@
+# Custom TOEIC Rewrite Rules
+
+RewriteRule ^/toeic/listening_reading/?$ https://%{SERVER_NAME}/toeic.html [R=301,L]
+RewriteRule ^/toeic/propell/?$ https://%{SERVER_NAME}/toeic/organizations/resources/propell [R=301,L]
+RewriteRule ^/toeicbridge/?$ https://%{SERVER_NAME}/toeic/ [R=301,L]
+RewriteRule ^/toeic/bridge?$ https://%{SERVER_NAME}/toeic.html [R=301,L]
+RewriteRule ^/toeic/test-takers/listening-reading/preparation/?$ https://%{SERVER_NAME}/toeic/test-takers/prepare.html [R=301,L]
+RewriteRule ^/toeic/test-takers/speaking-writing/preparation/?$ https://%{SERVER_NAME}/toeic/test-takers/prepare.html [R=301,L]
+RewriteRule ^/toeic/redesigned-bridge-tests/resources/?$ https://%{SERVER_NAME}/toeic/test-takers/prepare.html [R=301,L]
+RewriteRule ^/toeic/organizations/listening-reading/about/?$ https://%{SERVER_NAME}/toeic/test-takers/about/listening-reading.html [R=301,L]
+RewriteRule ^/toeic/organizations/speaking-writing/about/?$ https://%{SERVER_NAME}/toeic/test-takers/about/speaking-writing.html [R=301,L]
+RewriteRule ^/toeic/organizations/propell/about/?$ https://%{SERVER_NAME}/toeic/organizations/resources/propell.html [R=301,L]
+RewriteRule ^/toeic/organizations/listening-reading/?$ https://%{SERVER_NAME}/toeic/organizations/about/listening-reading.html [R=301,L]
+RewriteRule ^/toeic/organizations/speaking-writing/?$ https://%{SERVER_NAME}/toeic/organizations/about/speaking-writing.html [R=301,L]
+RewriteRule ^/toeic/redesigned-bridge-tests/?$ https://%{SERVER_NAME}/toeic/organizations/about/bridge.html [R=301,L]
+RewriteRule ^/toeic/organizations/research/?$ https://%{SERVER_NAME}/toeic/research.html [R=301,L]
+RewriteRule ^/toeic/organizations/listening-reading/preparation/?$ https://%{SERVER_NAME}/toeic/test-takers/prepare.html#accordion-313cdde0f2-item-8b70a48c79 [R=301,L]

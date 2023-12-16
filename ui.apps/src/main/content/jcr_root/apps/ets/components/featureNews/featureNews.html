@@ -1,0 +1,28 @@
+<sly data-sly-use.featureNewsObj="org.ets.core.models.FeatureNewsModel"></sly>
+<sly data-sly-test.featureNewsList=${featureNewsObj.getPageList}></sly>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = featureNewsList.isEmpty,classAppend='cmp-text'}"></sly>
+<section>
+    <div class="cmp-container--body row">
+		<div class="col-lg-10 mx-auto p-0">
+			<div class="card-group bordered-info-card" data-sly-list.pagelists=${featureNewsObj.getPageList}>
+				<div class="card bordered-info-card-container">
+					<div class="card-body">
+						<h3 class="heading5" data-sly-test="${pagelists.title}">${pagelists.title}</h3>
+						<div class="card-heading-seperator">
+							<span class="card-heading-seperator-stroke-big"></span>
+							<span class="card-heading-seperator-stroke-small"></span>
+						</div>
+						<p data-sly-test="${pagelists.description}" class="info-card-container-content body-text">${pagelists.description @context = 'html'}</p>
+					</div>
+					<div class="card-footer">
+						<div class="article-banner-button-band m-0">
+							<a class="cta-btn-primary"
+							   data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=pagelists.path}"
+							   href="${linkValidate.link}" aria-label="${featureNewsObj.ctaButtonAriaLabel}">${featureNewsObj.learntitle ? featureNewsObj.learntitle : 'Read Story'}</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+</section>

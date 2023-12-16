@@ -1,0 +1,12 @@
+body {
+    .oda-chat-wrapper {
+        right: 20px;
+        bottom: 40px;
+        &.move-top {
+            bottom: 120px;
+        }
+        @include viewport(only-desktop) {
+            right: 8px;
+        }
+    }
+}

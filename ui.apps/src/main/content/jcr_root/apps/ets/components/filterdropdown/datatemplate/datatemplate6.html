@@ -1,0 +1,12 @@
+
+<template data-sly-template.variation3="${@ inputData}">
+    <section class="gre-mba-filter cmp-container--body">
+        <div data-sly-test="${inputData.sectionTitle}" class="gre-mba-filter__title">${inputData.sectionTitle @context='html'}</div>
+        <select class="gre-mba-dropdown" id="gre-mba" data-gre-mba-path="${inputData.json}" data-placeholder="${inputData.placeholderText}" aria-label="${inputData.inputAriaLabel}"><option></option></select>
+        <table class="gre-mba-filter__table">
+            <tbody class="gre-mba-filter__table__content" role="presentation">
+
+            </tbody>
+        </table>
+    </section>
+</template>

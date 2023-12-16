@@ -1,0 +1,73 @@
+/*v2*/
+.cmp-praxisTable {
+    .cmp-separator__horizontal-rule {
+        height: 5px;
+        background-color: black;
+        opacity: unset;
+    }
+    p {
+        font-size: 14px !important;
+        padding-bottom: 0px;
+        b {
+            font-size:16px;
+        }
+    }
+    /*div table {
+        border-bottom: 5px solid black;
+        th {
+            border-bottom: 5px solid black;
+            font-size: 16px;
+            line-height: 22px;
+            // padding-bottom: 2.5%;
+            // padding-left: 10px;
+            padding: 10px;
+        }
+        tbody {
+            td {
+                font-size: 14px;
+                border-right: 1px solid rgba(21,21,21,0.3);
+                border-bottom: 1px solid rgba(21,21,21,0.3);
+                // line-height: 21px;
+                // border-bottom: unset;
+                padding: 5px 10px;
+                // &[rowspan] ~ td {
+                //     border-bottom: none;
+                //     padding-bottom: 0px;
+                // }
+                &.no-border-bottom {
+                    border-bottom: none;
+                }
+                &.no-padding-bottom {
+                    padding-bottom: 0px;
+                }
+                &.no-padding-top {
+                    padding-top: 0px;
+                }
+                &.no-padding-y {
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                }
+                //padding-left: 10px !important;
+            }
+            tr {
+                &:first-child {
+                    td {
+                        padding-top: 10px;
+                    }
+                }
+                &:last-child {
+                    td {
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+            td:last-of-type {
+                border-right: none;
+            }
+        }
+    }*/
+    // tr:last-of-type td {
+    //     border-bottom: 5px solid black;
+    // }
+
+}

@@ -1,0 +1,7 @@
+{
+	"spa": {
+		"jcr:primaryType": "nt:unstructured",
+		"sling:resourceType": "ets/components/spaContainer",
+		"initialpath": "/content/ets-org/language-master/en/home/_renderer/hero-panel/jcr:content/root/container"
+	}
+}

@@ -1,0 +1,12 @@
+#base=js
+jquery-3.6.0.min.js
+jquery-ui.min.js
+jquery.ui.touch-punch.min.js
+jquery.jqpagination.js
+mobiscroll.jquery.min.js
+bootstrap.bundle.min.js
+rellax.min.js
+moment.min.js
+chance.min.js
+select2.js
+fontawesome.js

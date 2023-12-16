@@ -1,0 +1,94 @@
+.praxis-fee-filter {
+   
+      
+    &__title {
+        @include fontsize(1.125rem, 1.5rem, $bold, $color-ETS-bodyblack, initial);
+        margin-bottom: 40px;
+    }
+    &__table {
+         margin-top: 40px;
+        border-top: 0.0625rem solid $color-ETS-bodyblack;
+        border-bottom: 0.0625rem solid $color-ETS-bodyblack;
+        margin-bottom: 1.25rem;
+        width:100%;
+        @include viewport(only-mobile) {
+            width:100%;
+        }
+        @include viewport(tablet) {
+            width:100%;
+        }
+        tbody td:nth-child(2) {
+            padding-left: 0.625rem;
+            border-right: 0.0625rem solid #D7D7D7;
+        }
+        tbody td:nth-child(3) {
+            padding-left: 0.625rem;
+        }
+        tr {
+            th {
+                @include fontsize(1.125rem, 2rem, $bold, $color-ETS-bodyblack, initial);
+                border-right: 0.0625rem solid #D7D7D7;
+                padding-left: 0.625rem;
+                border-bottom: 0.0625rem solid #D7D7D7;
+                &:first-child {
+                    border-right: 0.0625rem solid #D7D7D7;
+                    padding-left: 0;
+                    width: 30%;
+                }
+                &:last-child {
+                    padding-left: 0.625rem;
+                    border-right: 0;
+                }
+            }
+            td {
+                padding: 0;
+                border-right: 1px solid #D7D7D7;
+                &:last-child {
+                    border-right: 0;
+                }
+            }
+        }
+        // thead {
+        //     padding: 0;
+        //     @include fontsize(1.125rem, 2rem, $bold, $color-ETS-bodyblack, initial);
+        //     th {
+        //         border-right: 0.0625rem solid #D7D7D7;
+        //         padding-left: 0.625rem;
+        //     }
+        //     th:first-child {
+        //         border-right: 0.0625rem solid #D7D7D7;
+        //         padding-left: 0;
+        //         width: 30%;
+        //     }
+        //     th:last-child {
+        //         padding-left: 0.625rem;
+        //         border-right: 0;
+        //     }
+        // }
+        // &__content {
+        //     tr {
+        //         padding: 0;
+        //         border: 0.0625rem solid #D7D7D7;
+        //         td {
+        //             padding: 0;
+        //         }
+        //         td:first-child {
+        //             border-right: 1px solid #D7D7D7;
+        //             width: 30%;
+        //         }
+                
+        //     }
+        //     tr:first-child {
+        //         td {
+        //             border-top: 1px solid #D7D7D7;
+        //         }
+        //     }
+        //     tr:last-child {
+        //         border-bottom: 0;
+        //         td {
+        //             border-bottom: 0;
+        //         }
+        //     }
+        // }
+    }
+}

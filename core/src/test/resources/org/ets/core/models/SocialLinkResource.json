@@ -1,0 +1,67 @@
+{
+	"praxis": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "harish.paidisetty@accenture.com",
+		"animationimage": "/content/dam/ets-org/icons/rellax-images/socialLinkPiles.png",
+		"jcr:lastModifiedBy": "admin",
+		"jcr:created": "Tue Jan 11 2022 12:42:33 GMT+0000",
+		"maintitle": "GET THE LATEST FROM ETS",
+		"bgStyle": "theme-color",
+		"brand": "praxis",
+		"bgcolorGre": "#F4EAE6",
+		"jcr:lastModified": "Tue May 23 2023 07:12:46 GMT-0400",
+		"sling:resourceType": "ets/components/sociallinks"
+	},
+	"gre": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "harish.paidisetty@accenture.com",
+		"animationimage": "/content/dam/ets-org/icons/rellax-images/socialLinkPiles.png",
+		"jcr:lastModifiedBy": "admin",
+		"jcr:created": "Tue Jan 11 2022 12:42:33 GMT+0000",
+		"maintitle": "GET THE LATEST FROM ETS",
+		"bgStyle": "theme-color",
+		"brand": "gre",
+		"bgcolorGre": "#F4EAE6",
+		"jcr:lastModified": "Tue May 23 2023 07:12:46 GMT-0400",
+		"sling:resourceType": "ets/components/sociallinks"
+	},
+	"toeic": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "harish.paidisetty@accenture.com",
+		"animationimage": "/content/dam/ets-org/icons/rellax-images/socialLinkPiles.png",
+		"jcr:lastModifiedBy": "admin",
+		"jcr:created": "Tue Jan 11 2022 12:42:33 GMT+0000",
+		"maintitle": "GET THE LATEST FROM ETS",
+		"bgStyle": "theme-color",
+		"brand": "toeic",
+		"bgcolorGre": "#F4EAE6",
+		"jcr:lastModified": "Tue May 23 2023 07:12:46 GMT-0400",
+		"sling:resourceType": "ets/components/sociallinks"
+	},
+	"toefl": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "harish.paidisetty@accenture.com",
+		"animationimage": "/content/dam/ets-org/icons/rellax-images/socialLinkPiles.png",
+		"jcr:lastModifiedBy": "admin",
+		"jcr:created": "Tue Jan 11 2022 12:42:33 GMT+0000",
+		"maintitle": "GET THE LATEST FROM ETS",
+		"bgStyle": "theme-color",
+		"brand": "toefl",
+		"bgcolorGre": "#F4EAE6",
+		"jcr:lastModified": "Tue May 23 2023 07:12:46 GMT-0400",
+		"sling:resourceType": "ets/components/sociallinks"
+	},
+	"corp": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "harish.paidisetty@accenture.com",
+		"animationimage": "/content/dam/ets-org/icons/rellax-images/socialLinkPiles.png",
+		"jcr:lastModifiedBy": "admin",
+		"jcr:created": "Tue Jan 11 2022 12:42:33 GMT+0000",
+		"maintitle": "GET THE LATEST FROM ETS",
+		"bgStyle": "theme-color",
+		"brand": "corp",
+		"bgcolorGre": "#F4EAE6",
+		"jcr:lastModified": "Tue May 23 2023 07:12:46 GMT-0400",
+		"sling:resourceType": "ets/components/sociallinks"
+	}
+}

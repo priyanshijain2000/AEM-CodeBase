@@ -1,0 +1,281 @@
+// v2
+.cmp-contactbanner {
+    margin: 0 auto;
+    .cmp-container {
+        .teaser {
+            .cmp-teaser {
+                display: flex;
+                column-gap: 40px;
+                justify-content: center;
+                padding: 40px 9.2%;
+                align-items: center;
+                background-color: $color-background;
+                border-radius: 8px;
+                @media (max-width: 1200px) {
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    row-gap: 20px;
+                }
+                &__content {
+                    display: flex;
+                    flex-wrap: wrap;
+                    order: 2;
+                    column-gap: 60px;
+                    .cmp-teaser {
+                        &__title {
+                            color: $color-ETS-midnight;
+                            font-size: 21px;
+                            line-height: 28px;
+                            font-weight: 700;
+                            width: 100%;
+                            margin-bottom: 15px;
+                            @media (max-width: 1200px) {
+                                margin-bottom: 10px;
+                            }
+                            @include viewport(only-mobile) {
+                                font-size: 16px;
+                            }
+                        }
+                        &__description {
+                            flex: 1;
+                            @include viewport(only-mobile) {
+                                flex: none;
+                            }
+                            .cmp-teaser__description {
+                                &__para {
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                    @include viewport(only-mobile) {
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                            @media (max-width: 1200px) {
+                                width: 100%;
+                                margin-bottom: 30px;
+                                flex: none;
+                            }
+                            @include viewport(only-mobile) {
+                                width: 100%;
+                            }
+                        }
+                        /*&__action-container {
+                            .cmp-teaser {
+                                &__action-link {
+                                    font-weight: 700;
+                                    border-radius: 48px;
+                                    color: $color-white;
+                                    background: $btn-primary;
+                                    font-size: 16px;
+                                    text-decoration: none;
+                                    padding: 12px 26px;
+                                    display: inline-block;
+                                    text-align: center;
+                                    &:hover {
+                                        color: #FFF;
+                                        background-color: #003356;
+                                    }
+                                }
+                            }
+                        }*/
+                    }
+                }
+            }
+        }
+        > div {
+            &:nth-child(2) > div > div {
+                float: none !important;
+                // width: 100% !important;
+                margin-left: 0 !important;
+                > div {
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    column-gap: 16px;
+                    @include for-size(only-mobile) {
+                        flex-direction: column;
+                    }
+                    .ctabutton {
+                        padding-right: 0;
+                    }
+                }
+            }
+            
+        }
+    }
+    &--whitebg {
+        .cmp-container {
+            .teaser {
+                .cmp-teaser {
+                    background-color: $color-white;
+                }
+            }
+        }
+    }
+    .gre-promo &{
+        .cmp-container {
+            .teaser {
+                .cmp-teaser {
+                    background-color: #dfecfc;
+                    border-radius: 0px;
+                    overflow: hidden;
+                    position: relative;
+                    &:after, &:before {
+                        background: url('/content/dam/ets-org/icons/commons/dollar-sign.svg') no-repeat center;
+                        background-size: contain;
+                        position: absolute;
+                        content: "";
+                    }
+                    &::after {
+                        width: 3.45rem;
+                        height: 3.25rem;
+                        right: -0.4rem;
+                        bottom: 1rem;
+                    }
+                    &::before {
+                        width: 2.7rem;
+                        height: 2.7rem;
+                        right: 23%;
+                        top: -0.7rem;
+                    }
+                    &__description {
+                        .cmp-teaser__description {
+                            &__para {
+                                line-height: 1.8;
+                            }
+                        }
+                    }
+                    &__image {
+                        img{
+                            width: 7.15rem;
+                            height: 7.15rem;
+                        }
+                    }
+                    @include viewport(tablet) {
+                        &__content {
+                            flex-direction: column;
+                            flex-basis: calc(62%);
+                            padding: 10px;
+                        }
+                        &__image {
+                            img{
+                                width: 8.75rem;
+                                height: 8.75rem;
+                            }
+                        }
+                        &::after {
+                            width: 3.85rem;
+                            height: 3.85rem;
+                        }
+                        &::before {
+                            right: 30%;
+                        }
+                    }
+                    @include for-size(only-mobile) {
+                        &__content {
+                            padding: 10px;
+                        }
+                        &__image {
+                            display: none;
+                        }
+                        &::after {
+                            width: 3.95rem;
+                            height: 3.95rem;
+                        }
+                        &::before {
+                            width: 2.8rem;
+                            height: 2.8rem;
+                            left: 3%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.cmp-contactbanner {
+    &--fixed-width {
+        max-width: 1280px;
+        width: 90%;
+    }
+    &--fluid-width {
+        width: 100%;
+    }
+}
+
+// v1
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    &-banner {
+        padding: 2.5rem 1.375rem 2.5rem 1.875rem;
+        background-color: $color-background;
+        justify-content: center;
+        margin: 0;
+        flex-wrap: nowrap;
+        row-gap: 20px;
+        display: flex;
+        border-radius: 8px;
+        align-items: start;
+        &.margin-y {
+            margin: 2.5rem 0;
+        }
+        @include viewport(only-desktop) {
+            &.margin-y {
+                margin: 4.375rem 0;
+            }
+        }
+        &-image-container {
+            padding: 0;
+            img {
+                float: left;
+                width: 3.375rem;
+                height: 2.813rem;
+            }
+            @include viewport(only-desktop) {
+                padding: 0;
+                img {
+                    float: right;
+                    width: 4.375rem;
+                    height: 3.75rem;
+                }
+            }
+        }
+        &-text-container {
+            padding: 0;
+            span {
+                color: $color-ETS-midnight;
+                margin: 0;
+            }
+            p {
+                color: $color-ETS-bodyblack;
+                margin: 8px 0 0 0;
+                padding: 0;
+            }
+            @include viewport(only-desktop) {
+                padding: 0;
+                p {
+                    margin: 1rem 0 0 0;
+                }
+            }
+        }
+        &-button-container {
+            padding: 10px 0 0 0;
+            @include viewport(only-desktop) {
+                padding: 0 0 0 1.25rem;
+            }
+            .cta-btn-primary {
+                white-space: nowrap;
+            }
+        }
+        @include viewport(only-desktop) {
+            padding: 2.875rem 6.938rem;
+            flex-flow: row;
+            column-gap: 40px;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,2590 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "siteCode": "APCN-4235",
+            "schedulingSystemCode": "AP",
+            "siteName": "Brooklyn NY - Bridge Street",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "384 Bridge St.",
+                    "addressLine2": "4th Floor, Suite 4A",
+                    "city": "Brooklyn",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "11201",
+                    "latitude": "40.692029999999995",
+                    "longitude": "-73.98528"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "1.80"
+                    },
+                    {
+                        "adminDate": "2023-10-28",
+                        "distance": "1.80"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4236",
+            "schedulingSystemCode": "AP",
+            "siteName": "Brooklyn NY - Bridge Street",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "384 Bridge St.",
+                    "addressLine2": "4th Floor, Suite 4A",
+                    "city": "Brooklyn",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "11201",
+                    "latitude": "40.692029999999995",
+                    "longitude": "-73.98528"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "1.80"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "1.80"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "1.80"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "1.80"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4251",
+            "schedulingSystemCode": "AP",
+            "siteName": "NYC MegaCenter - Broadway (Lab 1)",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1250 Broadway, Suite 2500",
+                    "city": "New York",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "10001",
+                    "latitude": "40.747840000000004",
+                    "longitude": "-73.98796"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "2.61"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4252",
+            "schedulingSystemCode": "AP",
+            "siteName": "NYC MegaCenter - Broadway (Lab 2)",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1250 Broadway, Suite 2500",
+                    "city": "New York",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "10001",
+                    "latitude": "40.747840000000004",
+                    "longitude": "-73.98796"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": "2.61"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4253",
+            "schedulingSystemCode": "AP",
+            "siteName": "NYC MegaCenter - Broadway (Lab 3)",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1250 Broadway, Suite 2500",
+                    "city": "New York",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "10001",
+                    "latitude": "40.747840000000004",
+                    "longitude": "-73.98796"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-10-30",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "2.61"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4254",
+            "schedulingSystemCode": "AP",
+            "siteName": "NYC MegaCenter - Broadway (Lab 4)",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1250 Broadway, Suite 2500",
+                    "city": "New York",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "10001",
+                    "latitude": "40.747840000000004",
+                    "longitude": "-73.98796"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-10-28",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "2.61"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "2.61"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4212",
+            "schedulingSystemCode": "AP",
+            "siteName": "Queens 59-17 Junction Blvd",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "59-17 Junction Blvd",
+                    "addressLine2": "Suite 0202A",
+                    "city": "Queens",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "11368",
+                    "latitude": "40.73481",
+                    "longitude": "-73.86448999999999"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "7.59"
+                    },
+                    {
+                        "adminDate": "2023-10-28",
+                        "distance": "7.59"
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": "7.59"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "7.59"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "7.59"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "7.59"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4213",
+            "schedulingSystemCode": "AP",
+            "siteName": "Queens 59-17 Junction Blvd",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "59-17 Junction Blvd",
+                    "addressLine2": "Suite 0202A",
+                    "city": "Queens",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "11368",
+                    "latitude": "40.73481",
+                    "longitude": "-73.86448999999999"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "7.59"
+                    },
+                    {
+                        "adminDate": "2023-10-28",
+                        "distance": "7.59"
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": "7.59"
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": "7.59"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "7.59"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "7.59"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4102",
+            "schedulingSystemCode": "AP",
+            "siteName": "Fair Lawn",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "33-00 BROADWAY (RT4)",
+                    "addressLine2": "Suite 202",
+                    "city": "Fair Lawn",
+                    "state": "NJ",
+                    "country": "USA",
+                    "postalCode": "07410",
+                    "latitude": "40.92539",
+                    "longitude": "-74.10028"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-10-28",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-10-30",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-10-31",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "15.50"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4120",
+            "schedulingSystemCode": "AP",
+            "siteName": "New Jersey - Fairlawn",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "33-00 BROADWAY (RT 4)",
+                    "addressLine2": "Suite 202",
+                    "city": "Fair Lawn",
+                    "state": "NJ",
+                    "country": "USA",
+                    "postalCode": "07410",
+                    "latitude": "40.92539",
+                    "longitude": "-74.10028"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-10-30",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-10-31",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "15.50"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "15.50"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-0033",
+            "schedulingSystemCode": "AP",
+            "siteName": "New Jersey - Fairlawn",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "33-00 BROADWAY (RT4)",
+                    "addressLine2": "SUITE 205",
+                    "city": "FAIRLAWN",
+                    "state": "NJ",
+                    "country": "USA",
+                    "postalCode": "07410",
+                    "latitude": "40.924659999999996",
+                    "longitude": "-74.10246"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-10-28",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-10-30",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-10-31",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "15.51"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4119",
+            "schedulingSystemCode": "AP",
+            "siteName": "Fairlawn",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "33-00 BROADWAY (RT4)",
+                    "addressLine2": "Suite 205",
+                    "city": "FAIRLAWN",
+                    "state": "NJ",
+                    "country": "USA",
+                    "postalCode": "07410-4603",
+                    "latitude": "40.92469",
+                    "longitude": "-74.10240999999999"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-10-30",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-10-31",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "15.51"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "15.51"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-5858",
+            "schedulingSystemCode": "AP",
+            "siteName": "New Jersey - Clark",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "100 WALNUT AVE.",
+                    "addressLine2": "Suite 105",
+                    "city": "CLARK",
+                    "state": "NJ",
+                    "country": "USA",
+                    "postalCode": "07066",
+                    "latitude": "40.63011",
+                    "longitude": "-74.30323"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": "16.61"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-5871",
+            "schedulingSystemCode": "AP",
+            "siteName": "New Jersey - Clark",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "100 WALNUT AVE.",
+                    "addressLine2": "Suite 105",
+                    "city": "CLARK",
+                    "state": "NJ",
+                    "country": "USA",
+                    "postalCode": "07066",
+                    "latitude": "40.63011",
+                    "longitude": "-74.30323"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-10-30",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-10-31",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": "16.61"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "16.61"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4214",
+            "schedulingSystemCode": "AP",
+            "siteName": "Long Island - Westbury",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "865 Merrick Ave. Suite 70N",
+                    "city": "Westbury",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "11590",
+                    "latitude": "40.74469",
+                    "longitude": "-73.58806"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-10-29",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-10-30",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-11",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-19",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-24",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-25",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "22.04"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4215",
+            "schedulingSystemCode": "AP",
+            "siteName": "Long Island - Westbury",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "865 Merrick Ave.. Suite 70N",
+                    "city": "Westbury",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "11590",
+                    "latitude": "40.74475",
+                    "longitude": "-73.58784"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-11",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "22.04"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "22.04"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4203",
+            "schedulingSystemCode": "AP",
+            "siteName": "New York - Purchase",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "2975 Westchester Ave",
+                    "addressLine2": "Suite 112",
+                    "city": "Purchase",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "10577",
+                    "latitude": "41.00638",
+                    "longitude": "-73.69482"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-10-31",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "26.04"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "26.04"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-2416",
+            "schedulingSystemCode": "AP",
+            "siteName": "New York City - Norwalk",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "444 WESTPORT AVE",
+                    "city": "NORWALK",
+                    "state": "CT",
+                    "country": "USA",
+                    "postalCode": "06851",
+                    "latitude": "41.12658",
+                    "longitude": "-73.38806000000001"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "43.16"
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "43.16"
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": "43.16"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "43.16"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "43.16"
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": "43.16"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "43.16"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "43.16"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "43.16"
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": "43.16"
+                    },
+                    {
+                        "adminDate": "2023-11-25",
+                        "distance": "43.16"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "43.16"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "43.16"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4113",
+            "schedulingSystemCode": "AP",
+            "siteName": "Central New Jersey - Hamilton",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1 AAA DRIVE",
+                    "addressLine2": "SUITE 202",
+                    "city": "HAMILTON TOWNSHIP",
+                    "state": "NJ",
+                    "country": "USA",
+                    "postalCode": "08691",
+                    "latitude": "40.20571",
+                    "longitude": "-74.63099"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-11",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "48.10"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4114",
+            "schedulingSystemCode": "AP",
+            "siteName": "Central New Jersey - Hamilton",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1 AAA DRIVE",
+                    "addressLine2": "SUITE 202",
+                    "city": "HAMILTON TOWNSHIP",
+                    "state": "NJ",
+                    "country": "USA",
+                    "postalCode": "08691",
+                    "latitude": "40.20571",
+                    "longitude": "-74.63099"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "48.10"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "48.10"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-4258",
+            "schedulingSystemCode": "AP",
+            "siteName": "Poughkeepsie - South Ave.",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "201 South Avenue.",
+                    "addressLine2": "Suite 501",
+                    "city": "Poughkeepsie",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "12601",
+                    "latitude": "41.69164",
+                    "longitude": "-73.93154"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-10-28",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-10-31",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-11",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-18",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "67.85"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "67.85"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-2401",
+            "schedulingSystemCode": "AP",
+            "siteName": "New Haven",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "Prometric Test Centre",
+                    "addressLine2": "NorthHaven Shopping Ctr - 117 Washington Ave",
+                    "city": "North Haven",
+                    "state": "CT",
+                    "country": "USA",
+                    "postalCode": "06473",
+                    "latitude": "41.39607",
+                    "longitude": "-72.85701999999999"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-10-28",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-10-31",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-11-11",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-11-18",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "76.35"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "76.35"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-1726",
+            "schedulingSystemCode": "AP",
+            "siteName": "Philadelphia - Walnut Street",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "601 WALNUT STREET",
+                    "addressLine2": "CURTIS CENTER SUITE 150 WEST",
+                    "city": "PHILADELPHIA",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19106",
+                    "latitude": "39.94819",
+                    "longitude": "-75.15152"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-18",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "80.27"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-0021",
+            "schedulingSystemCode": "AP",
+            "siteName": "Philadelphia - Walnut Street",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "601 WALNUT STREET",
+                    "addressLine2": "CURTIS CENTER SUITE 150 WEST",
+                    "city": "PHILADELPHIA",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19106",
+                    "latitude": "39.94817",
+                    "longitude": "-75.15153000000001"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-10-30",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-18",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "80.27"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "80.27"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-0020",
+            "schedulingSystemCode": "AP",
+            "siteName": "Philadelphia - Walnut Street",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "601 WALNUT ST.",
+                    "addressLine2": "CURTIS CENTER, SUITE 150 WEST",
+                    "city": "PHILADELPHIA",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19106",
+                    "latitude": "39.948159999999994",
+                    "longitude": "-75.15174"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-10-31",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "80.30"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "80.30"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-1709",
+            "schedulingSystemCode": "AP",
+            "siteName": "Allentown PA",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "3500 Winchester Rd.",
+                    "addressLine2": "Suite 402",
+                    "city": "Allentown",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "18104",
+                    "latitude": "40.61018",
+                    "longitude": "-75.53858"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-10-30",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-10-31",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-18",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-25",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "80.74"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "80.74"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-1701",
+            "schedulingSystemCode": "AP",
+            "siteName": "Philadelphia - King of Prussia",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1017 W 9th Ave",
+                    "addressLine2": "Suite D",
+                    "city": "King of Prussia",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19406",
+                    "latitude": "40.10056",
+                    "longitude": "-75.41474000000001"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-10-30",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-10-31",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "85.44"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-1702",
+            "schedulingSystemCode": "AP",
+            "siteName": "Philadelphia - King of Prussia",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1017 W 9th Ave",
+                    "addressLine2": "Suite D",
+                    "city": "King of Prussia",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19406",
+                    "latitude": "40.10056",
+                    "longitude": "-75.41474000000001"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": "85.44"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "85.44"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "schedulingSystemCode": "RP",
+            "siteName": "Home Edition",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "Home Edition",
+                    "city": "Kansas City",
+                    "state": "MO",
+                    "country": "USA",
+                    "postalCode": "63011",
+                    "latitude": "39.0997265",
+                    "longitude": "-94.5785667"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-25",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-10-26",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-10-28",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-10-29",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-10-30",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-10-31",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-01",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-05",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-11",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-12",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-18",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-19",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-23",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-24",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-25",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-26",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": null
+                    }
+                ]
+            },
+            "isRemoteTestCenter": true
+        },
+        {
+            "siteCode": "STN20404A",
+            "schedulingSystemCode": "ST",
+            "siteName": "Brainseed Testing - Times Square",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "566 7th Avenue",
+                    "addressLine2": "Suite 703",
+                    "city": "New York",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "10018",
+                    "latitude": "40.755236",
+                    "longitude": "-73.9880113"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-25",
+                        "distance": "3.09"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "3.09"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "STN20404B",
+            "schedulingSystemCode": "ST",
+            "siteName": "Brainseed Testing - Times Square",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "566 7th Avenue",
+                    "addressLine2": "Suite 703",
+                    "city": "New York",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "10018",
+                    "latitude": "40.755236",
+                    "longitude": "-73.9880113"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "3.09"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "STN20259A",
+            "schedulingSystemCode": "ST",
+            "siteName": "Brainseed Testing - Staten Island",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1911 Richmond Avenue",
+                    "addressLine2": "Suite 130",
+                    "city": "Staten Island",
+                    "state": "NY",
+                    "country": "USA",
+                    "postalCode": "10314",
+                    "latitude": "40.6011837",
+                    "longitude": "-74.1625763"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "11.27"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "11.27"
+                    },
+                    {
+                        "adminDate": "2023-11-24",
+                        "distance": "11.27"
+                    },
+                    {
+                        "adminDate": "2023-11-25",
+                        "distance": "11.27"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "STN10153A",
+            "schedulingSystemCode": "ST",
+            "siteName": "Humanetric",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "4201 Church Road",
+                    "addressLine2": "Suite #12, Second Floor",
+                    "addressLine3": "In Ellipse Shopping Center building beside Columbia Bank",
+                    "addressLine4": "Across the street on Route 73 is Holman Cadillac Dealers",
+                    "city": "Mt. Laurel",
+                    "state": "NJ",
+                    "country": "USA",
+                    "postalCode": "08054",
+                    "latitude": "39.9232967",
+                    "longitude": "-74.9503474"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-30",
+                        "distance": "73.84"
+                    },
+                    {
+                        "adminDate": "2023-11-05",
+                        "distance": "73.84"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "73.84"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "73.84"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "73.84"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "STN15260A",
+            "schedulingSystemCode": "ST",
+            "siteName": "BCY Solution - PA",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "961 Marcon Blvd",
+                    "addressLine2": "Suite 101",
+                    "addressLine3": "Face Mask Required",
+                    "city": "ALLENTOWN",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "18109",
+                    "latitude": "40.6441507",
+                    "longitude": "-75.4394799"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-10-27",
+                        "distance": "75.27"
+                    },
+                    {
+                        "adminDate": "2023-10-30",
+                        "distance": "75.27"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "75.27"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "75.27"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "75.27"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "75.27"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "75.27"
+                    },
+                    {
+                        "adminDate": "2023-11-25",
+                        "distance": "75.27"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "75.27"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "75.27"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "STN10106C",
+            "schedulingSystemCode": "ST",
+            "siteName": "Temple University",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1803 N Broad Street",
+                    "addressLine2": "715 Carnell Hall",
+                    "addressLine3": "SEE DIRECTIONS",
+                    "city": "Philadelphia",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19122",
+                    "latitude": "39.980359",
+                    "longitude": "-75.1568393"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "78.96"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "78.96"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        }
+    ],
+    "errorMessage": "No results found with search criteria, try again..."
+}

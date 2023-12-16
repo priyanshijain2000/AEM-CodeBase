@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2023-01-13T11:37:56.575Z"
+        cq:lastModifiedBy="PJAIN003@ets.org"
+        cq:lastReplicated="{Date}2023-01-13T11:38:04.100Z"
+        cq:lastReplicated_publish="{Date}2023-01-13T11:38:04.100Z"
+        cq:lastReplicatedBy="PJAIN003@ets.org"
+        cq:lastReplicatedBy_publish="PJAIN003@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:templateType="/conf/ets/settings/wcm/template-types/toefl-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="TOEFL Form Template"
+        status="enabled"/>
+</jcr:root>

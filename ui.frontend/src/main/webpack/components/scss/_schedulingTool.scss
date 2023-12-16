@@ -1,0 +1,583 @@
+.search-band {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    @include viewport(tablet-desktop) {
+        flex-flow: row;
+        column-gap: 25px;
+    }
+    .form-label {
+        margin-bottom: 1.25rem;
+    }
+    .field .customselecttestsearch {
+        max-width: none;
+        min-width: auto;
+    }
+    form {
+        width: 100%;
+        @include viewport(tablet-desktop) {
+            width: 35%;
+        }
+    }
+    .select2 {
+        width: 100% !important;
+    }
+    form:last-child {
+        width: 100%;
+        @include viewport(tablet-desktop) {
+            width: 21%;
+        }
+    }
+    @include viewport(tablet) {
+        .form-distance-label {
+            margin: 0;
+            display: block;
+        }
+    }
+}
+
+.test-info {
+    &__title {
+        @include fontsize( 1rem, 1.375rem, $bold, $color-ETS-bodyblack, initial);
+        margin-bottom: 0.688rem;
+        @include viewport(tablet-desktop) {
+            @include fontsize( 1.313rem, 1.75rem, $bold, $color-ETS-bodyblack, initial);
+            margin-bottom: 1.25rem;
+        }
+    }
+    .body-text {
+        font-weight: $bold;
+        color: $color-ETS-bodyblack;
+        margin-top: 2.5rem;
+    }
+    &__results {
+        &__centers {
+            display: flex;
+            flex-flow: column;
+            row-gap: 1.875rem;
+            margin-top: 1.25rem;
+            @include viewport(tablet-desktop) {
+                margin-top: 1.875rem;
+            }
+            &__card {
+                display: flex;
+                flex-flow: column;
+                row-gap: 1.25rem;
+                @include viewport(tablet-desktop) {
+                    flex-flow: row;
+                    column-gap: 8.125rem;
+                }
+                padding-bottom: 1.875rem;
+                border-bottom: 1px solid rgba($color: $color-ETS-darknavy, $alpha: 0.2);
+                &__description {
+                    display: flex;
+                    flex-flow: column;
+                    row-gap: 0.563rem;
+                    .heading5 {
+                        @include fontsize( 1rem, 1.75rem, $bold, $color-ETS-midnight, initial);
+                        @include viewport(tablet-desktop) {
+                            @include fontsize( 1.313rem, 1.75rem, $bold, $color-ETS-midnight, initial);
+                        }
+                        @include viewport(only-mobile) {
+                            span {
+                                display: block;
+                            }
+                        }
+                    }
+                    &__text {
+                        @include fontsize( 0.875rem, 1.313rem, $normal, $color-ETS-bodyblack, initial);
+                        @include viewport(tablet-desktop) {
+                            @include fontsize( 1rem, 1.75rem, $normal, $color-ETS-bodyblack, initial);
+                        }
+                    }
+                }
+                .cta-btn-primary {
+                    margin: 0 auto 0 0;
+                    @include viewport(tablet-desktop) {
+                        margin: 0 0 0 auto;
+                    }
+                }
+            }
+        }
+        .test-info-load-more {
+            text-align: center;
+            padding: 2rem 0em;
+            .cta-btn-primary {
+                display: inline-block;
+            }
+        }
+    }
+    &__summary {
+        display: none;
+    }
+}
+
+.page-navigation {
+    margin: 2.5rem 0 1.25rem 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    @include viewport(tablet-desktop) {
+        margin: 2.5rem 0;
+    }
+    &__item-count-text {
+        @include fontsize(0.875rem, 1.188rem, $semibold, $color-ETS-bodyblack, initial);
+    }
+    .page-item.disabled, .page-item[aria-disabled="true"] {
+        pointer-events: none;
+        .page-link {
+            color: #6c757d;
+            background-color: transparent;
+            border: 2px solid transparent;
+        }
+        &.page-number .page-link {
+            color: $color-ETS-midnight;
+        }
+    }
+    .pagination {
+        column-gap: 1rem;
+    }
+    .page-link {
+        border: 2px solid transparent;
+        background-color: transparent;
+        padding: 0.5px 2px;
+        @include fontsize(1.125rem, 1.563rem, $semibold, $color-ETS-midnight, initial);
+        &:hover,
+        &:active,
+        &__active {
+            background-color: transparent;
+            color: $color-ETS-bodyblack;
+            border: 2px solid transparent;
+            text-decoration: underline;
+        }
+        &:focus {
+            box-shadow: none;
+            // border: 2px solid $color-ETS-bodyblack;
+            // border-radius: 5px;
+        }
+    }
+    &__left-arrow {
+        border: solid $color-ETS-bodyblack;
+        border-width: 0 1.5px 1.5px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(-225deg);
+    }
+    &__previous-button {
+        .page-link {
+            border-radius: 2px;
+            background-color: $color-lite-grey;
+            padding: 0.625rem 0.563rem 0.625rem 0.688rem;
+            display: flex;
+            &:hover,
+            &:active {
+                background-color: $color-ETS-midnight;
+                .page-navigation__left-arrow {
+                    border-color: $color-white;
+                }
+            }
+        }
+    }
+    &__next-button {
+        .page-link {
+            border-radius: 2px;
+            background-color: $color-lite-grey;
+            padding: 0.625rem 0.688rem 0.625rem 0.563rem;
+            display: flex;
+            &:hover,
+            &:active {
+                background-color: $color-ETS-midnight;
+                .page-navigation__right-arrow {
+                    border-color: $color-white;
+                }
+            }
+        }
+    }
+    .page-item:first-child .page-link {
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+    .page-item:last-child .page-link {
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+    &__right-arrow {
+        border: solid $color-ETS-bodyblack;
+        border-width: 0 1.5px 1.5px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(-45deg);
+    }
+    .page-item.page-navigation__next-button.disabled .page-link,
+    .page-item.page-navigation__next-button[aria-disabled="true"] .page-link,
+    .page-item.page-navigation__previous-button.disabled .page-link,
+    .page-item.page-navigation__previous-button[aria-disabled="true"] .page-link {
+        background-color: $color-lite-grey;
+        opacity: 0.5;
+    }
+}
+
+.error-info {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0.594rem 2.5rem;
+    gap: 10px;
+    width: 100%;
+    background: $color-required-font;
+    margin-bottom: 2.5rem;
+    @include viewport(only-mobile) {
+        align-items: start;
+        padding: 0.594rem 0.625rem;
+        margin-bottom: 1.25rem;
+    }
+    p {
+        @include fontsize(0.875rem, 1.313rem, $bold, $color-white, initial);
+        text-align: center;
+    }
+}
+
+.single-day-event {
+    @include fontsize(0.75rem, 1rem, $bold, initial, initial);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mbsc-calendar-button.mbsc-calendar-button-today.mbsc-calendar-header-today.mbsc-reset {
+    margin-left: auto;
+    @include fontsize(0.875rem, 1.188rem, $semibold, $ets-link, initial);
+    text-decoration: underline;
+    &:hover {
+        color: $color-navy;
+        text-decoration: none;
+        background-color: $ets-link-hover;
+    }
+}
+
+.mbsc-calendar-button-prev {
+    order: 1;
+    .mbsc-icon>svg {
+        fill: $color-ETS-bodyblack;
+    }
+}
+
+.mbsc-calendar-title-wrapper {
+    order: 2;
+    max-width: 270px;
+    justify-content: center;
+    pointer-events: none;
+    @include viewport(only-mobile) {
+        max-width: 160px;
+    }
+    .mbsc-ios.mbsc-button {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .mbsc-calendar-title.mbsc-calendar-month,
+    .mbsc-calendar-title.mbsc-calendar-year {
+        @include fontsize(1.875rem, 2.625rem, $bold, $color-ETS-bodyblack, initial);
+        @include viewport(only-mobile) {
+            @include fontsize(1.125rem, 2rem, $bold, $color-ETS-bodyblack, initial);
+        }
+    }
+}
+
+.mbsc-calendar-button-next {
+    order: 3;
+    .mbsc-icon>svg {
+        fill: $color-ETS-bodyblack;
+    }
+}
+
+.mbsc-calendar-button-today {
+    order: 4;
+}
+
+.mbsc-calendar-button.mbsc-calendar-button-prev.mbsc-reset {
+    padding-left: 0;
+    justify-content: start;
+}
+
+.mbsc-ios.mbsc-calendar-controls {
+    padding: 2px 0;
+}
+
+.mbsc-event-list.mbsc-event-list-scroll {
+    display: none;
+}
+
+.mbsc-ios.mbsc-selected .mbsc-calendar-cell-text {
+    background-color: $ets-link;
+    border-color: $ets-link;
+}
+
+.mbsc-ios.mbsc-calendar-cell {
+    @include viewport(only-mobile) {
+        border: 0;
+    }
+}
+
+.mbsc-calendar-day-inner {
+    @include viewport(only-mobile) {
+        border: 0;
+    }
+}
+
+.mbsc-ios.mbsc-eventcalendar .mbsc-calendar-wrapper {
+    @include viewport(only-mobile) {
+        border: 0;
+    }
+}
+
+.mbsc-ios.mbsc-eventcalendar .mbsc-calendar-header,
+.mbsc-ios.mbsc-eventcalendar .mbsc-calendar-week-days {
+    background-color: $color-white;
+}
+
+.mbsc-ios.mbsc-calendar-height-md .mbsc-calendar-day:after {
+    @include viewport(only-mobile) {
+        border: 0;
+    }
+}
+
+.mbsc-ios.mbsc-calendar-height-md.mbsc-calendar-width-md .mbsc-calendar-day.mbsc-ltr {
+    @include viewport(only-mobile) {
+        text-align: center;
+        height: 50px;
+    }
+}
+
+.mbsc-calendar-text.mbsc-ltr {
+    @include viewport(only-mobile) {
+        text-align: center;
+    }
+}
+
+.mbsc-ios.mbsc-calendar-height-md.mbsc-calendar-width-md .mbsc-calendar-week-day.mbsc-ltr {
+    text-align: center;
+    @include viewport(tablet-desktop) {
+        text-align: left;
+        @include fontsize(0.875rem, 1.188rem, $semibold, $color-ETS-bodyblack, initial);
+    }
+}
+
+.mbsc-ios.mbsc-calendar-week-day {
+    @include viewport(only-mobile) {
+        @include fontsize(1.125rem, 1.563rem, $semibold, $color-ETS-bodyblack, initial);
+    }
+}
+
+.mbsc-calendar-row {
+    .mbsc-calendar-cell {
+        @include viewport(tablet-desktop) {
+            height: 8.125rem;
+        }
+    }
+}
+
+.mbsc-calendar-width-md .mbsc-calendar-month-name {
+    display: none;
+}
+
+.mbsc-ios.mbsc-calendar-height-md.mbsc-calendar-width-md .mbsc-calendar-day.mbsc-ltr {
+    @include viewport(tablet-desktop) {
+        text-align: left;
+    }
+}
+
+.mbsc-ios.mbsc-eventcalendar .mbsc-calendar-day.mbsc-disabled {
+    background: $color-white;
+}
+
+.mbsc-calendar-day-labels.mbsc-disabled {
+    [role=button] {
+        cursor: auto;
+    }
+}
+
+.mbsc-ios.mbsc-hover .mbsc-calendar-cell-text {
+    background-color: $ets-link;
+    color: $color-white;
+}
+
+.mbsc-button:disabled {
+    cursor: auto;
+}
+
+.mbsc-ios.mbsc-calendar-day-text {
+    pointer-events: none;
+    @include fontsize(0.875rem, 1.188rem, $normal, $color-ETS-bodyblack, initial);
+    @include viewport(only-mobile) {
+        @include fontsize(1rem, 1.375rem, $normal, $color-ETS-bodyblack, initial);
+    }
+}
+
+.mbsc-ios.mbsc-calendar-width-md .mbsc-calendar-day-text {
+    @include viewport(tablet-desktop) {
+        @include fontsize(0.875rem, 1.188rem, $normal, $color-ETS-bodyblack, initial);
+    }
+}
+
+.showtest {
+    .mbsc-ios.mbsc-calendar-width-md .mbsc-calendar-day-text {
+        @include viewport(tablet-desktop) {
+            @include fontsize(0.875rem, 1.188rem, $bold, $color-ETS-bodyblack, initial);
+        }
+    }
+    .mbsc-ios.mbsc-calendar-day-text {
+        @include fontsize(0.875rem, 1.188rem, $semibold, $color-ETS-bodyblack, initial);
+        @include viewport(only-mobile) {
+            @include fontsize(1rem, 1.375rem, $semibold, $color-ETS-bodyblack, initial);
+            margin-bottom: 0;
+            border-bottom: 0;
+        }
+    }
+}
+
+.mbsc-ios.mbsc-hover,
+.mbsc-selected {
+    .mbsc-ios.mbsc-calendar-width-md .mbsc-calendar-day-text {
+        @include viewport(tablet-desktop) {
+            @include fontsize(0.875rem, 1.188rem, $normal, $color-white, initial);
+        }
+    }
+    .mbsc-ios.mbsc-calendar-day-text {
+        @include fontsize(0.875rem, 1.188rem, $normal, $color-white, initial);
+        @include viewport(only-mobile) {
+            @include fontsize(1rem, 1.375rem, $normal, $color-white, initial);
+        }
+    }
+}
+
+.mbsc-ios.mbsc-hover,
+.mbsc-selected {
+    .showtest {
+        .mbsc-ios.mbsc-calendar-width-md .mbsc-calendar-day-text {
+            @include viewport(tablet-desktop) {
+                @include fontsize(0.875rem, 1.188rem, $bold, $color-white, initial);
+            }
+        }
+        .mbsc-ios.mbsc-calendar-day-text {
+            @include fontsize(0.875rem, 1.188rem, $bold, $color-white, initial);
+            @include viewport(only-mobile) {
+                @include fontsize(1rem, 1.375rem, $bold, $color-white, initial);
+                margin-bottom: 0;
+                border-bottom: 0;
+            }
+        }
+    }
+}
+
+.mbsc-calendar-day-labels.mbsc-calendar-day-outer {
+    pointer-events: none;
+    [role=button] {
+        cursor: auto;
+    }
+    .mbsc-calendar-labels {
+        display: none;
+    }
+    .showtest {
+        .mbsc-ios.mbsc-calendar-width-md .mbsc-calendar-day-text {
+            @include viewport(tablet-desktop) {
+                @include fontsize(0.875rem, 1.188rem, $normal, $color-ETS-bodyblack, initial);
+            }
+        }
+        .mbsc-ios.mbsc-calendar-day-text {
+            @include fontsize(0.875rem, 1.188rem, $normal, $color-ETS-bodyblack, initial);
+            @include viewport(only-mobile) {
+                @include fontsize(1rem, 1.375rem, $normal, $color-ETS-bodyblack, initial);
+                margin-bottom: 0;
+                border-bottom: 0;
+            }
+        }
+    }
+}
+
+.mbsc-calendar-day-labels.mbsc-calendar-day-outer.mbsc-hover {
+    .mbsc-calendar-cell-text {
+        background-color: $color-white;
+        color: $color-ETS-bodyblack;
+    }
+    .showtest {
+        .mbsc-ios.mbsc-calendar-width-md .mbsc-calendar-day-text {
+            @include viewport(tablet-desktop) {
+                @include fontsize(0.875rem, 1.188rem, $normal, $color-ETS-bodyblack, initial);
+            }
+        }
+        .mbsc-ios.mbsc-calendar-day-text {
+            @include fontsize(0.875rem, 1.188rem, $normal, $color-ETS-bodyblack, initial);
+            @include viewport(only-mobile) {
+                @include fontsize(1rem, 1.375rem, $normal, $color-ETS-bodyblack, initial);
+                margin-bottom: 0;
+                border-bottom: 0;
+            }
+        }
+    }
+}
+
+.mbsc-disabled .mbsc-calendar-cell-text {
+    opacity: 0.5;
+}
+.scheduleTool {
+    position: relative;
+    .schedule-alert-popup {
+        max-width: 500px;
+        width: 100%;
+        z-index: 12;
+        position: absolute;
+        left: 50%;
+        top: 35%;
+        will-change: transform;
+        box-sizing: border-box;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+        animation: FromTopFadeIn 0.5s ease-in-out;
+        animation-fill-mode: both;
+        animation-delay: 0.2s;
+        .action-warn-message, 
+        .action-alert-message {
+            width: 100%;
+            button:focus-visible {
+                outline: none;
+            }
+            .close-alert {
+                border: 1px solid #000;
+                width: 20px;
+                height: 20px;
+                color: #000;
+                border-radius: 50%;
+                position: absolute;
+                right: 12px;
+                top: 12px;
+                background: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 0;
+                padding: 0;
+                &:hover{
+                    img{
+                        content: url("/content/dam/ets-org/icons/commons/close-button-hover.svg");
+                    }
+                } 
+                &:focus{
+                    img{
+                        content: url("/content/dam/ets-org/icons/commons/close-button-hover.svg");
+                        outline: 2px solid  #2AACE2;
+                        border-radius: 50%;
+                    }
+                }
+                &:disabled{
+                    img{
+                        content: url("/content/dam/ets-org/icons/commons/close-disable-image.svg");
+                    }
+                }
+            }
+        }
+    }
+}
+@keyframes FromTopFadeIn {
+    0%{ opacity: 0;transform: translate(-50%, -100%); }
+    100%{ opacity: 1;transform: translate(-50%, -50%); }
+}

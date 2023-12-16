@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="This is the util tool for bulk import of tags and keywords into pages."
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Import Page Tags and Keywords from Excel"
+    href="/apps/ets/components/content/import-metadata.html"
+    icon="pageGear"
+    id="metadata-import"
+    target="_blank"/>

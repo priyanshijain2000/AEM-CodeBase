@@ -1,0 +1,45 @@
+<sly data-sly-use.globalSearch="org.ets.core.models.GlobalSearchModel"/>
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+<div class="global-search-solr">
+    <div  class="global-search-solr-form-wrap">
+        <div class="global-search-solr-form-wrap__select">
+            <div class="global-search-solr-form-wrap__select__container">
+                <form>
+                    <i class="global-search-solr-form-wrap__select__search-icon"><img alt="" src="/content/dam/ets-org/icons/commons/searchIcon_blue.png"></i>
+                    <input id="gssResultsInput" aria-label="${globalSearch.inputAriaLabel}" role="search" type="search" placeholder="${globalSearch.placeholder}" autocomplete="off">
+                    <a id="gssResultsButton" class="cta-btn-primary" href="javascript:;"><span class="d-none d-md-block">${globalSearch.searchButtonText}</span><i class="d-block d-md-none state-search__select__left-arrow"></i> </a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="gss-results-wrap" class="global-search-solr--wrap">
+        <div class="global-search-solr--body">
+            <p class="global-search-no-keyword-msg">${globalSearch.noKeywordMsg}</p>
+            <h1 aria-live="polite" class="gss-result-heading d-none" id="gss-have-results"></h1>
+            <div id="gss-filter-wrap" class="global-search-solr-filter-container-dropdown d-none">
+                <form id="gss-filter-select-form" class="filter-dropdown filter-dropdown-gss">
+                    <div>
+                        <label name="Filter">${globalSearch.filterLabel}</label>
+                        <select class="js-example-basic-single js-states form-control" id="gss-filter-select" data-placeholder="Select Filter" data-sly-list.filter="${multifieldMap.searchFilter.listChildren}" aria-label="TOELF iBT input, this is a required field">
+                            <option value="${filter.value}">${filter.text}</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <p class="gss-result-om d-none">${globalSearch.noResultMsg}</p>
+            
+            <div class="global-search--data-container" data-global-solr-path="${globalSearch.endpoint}">
+                <div class="quick-links-gss-title d-none">${globalSearch.quickLink}</div>
+                <div id="quick-links-global-search-solr-result" class="results-list--body quick-links-results-list d-none"></div>
+                <div id="global-search-solr-result" class="results-list--body with-number"></div>
+                <div class="litePagination gssPagination cmp-button--tertiary d-none">
+                    <a href="#" class="previous button cmp-button hover--primary cmp-button-arrow" aria-label="${globalSearch.prevAriaLabel}" data-action="previous"><span class="cmp-button__icon--leftArrowBlue" aria-hidden="true"></span>${globalSearch.prevLabel}</a>
+                    <input aria-label="${globalSearch.inputPaginationAriaLabel}" type="text" /> <div class="page-result-text"><span class="current-page d-none">0</span> ${globalSearch.countTextLabel} <span class="max-page">0</span></div>
+                    <a href="#" class="next button cmp-button hover--primary" aria-label="${globalSearch.nextAriaLabel}" data-action="next">${globalSearch.nextLabel}<span class="cmp-button__icon--rightArrowBlue" aria-hidden="true"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

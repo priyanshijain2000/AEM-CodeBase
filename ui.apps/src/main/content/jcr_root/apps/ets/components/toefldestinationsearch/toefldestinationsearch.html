@@ -1,0 +1,47 @@
+<sly data-sly-use.destinationSearch="org.ets.core.models.DestinationSearchModel"/>
+<section class="tofel-destinations-search-template">
+    <div id="" class="tofel-destinations-search">
+        <div class="tofel-destinations-search__select">
+            <div class="tofel-destinations-search__select__container">
+                <div class="tofel-destination-search-radio">
+                    <div class="tofel-radiogroup">
+                        <input type="radio" name="tofelSearchType" id="institutionRadio" value="name">
+                        <label for="institutionRadio" class="tofel-destination-radio-label">${destinationSearch.institutionsRadioLabel}</label>
+                    </div>
+                    <div class="tofel-radiogroup">
+                        <input type="radio" name="tofelSearchType" id="locationRadio" value="loc">
+                        <label for="locationRadio" class="tofel-destination-radio-label">${destinationSearch.locationsRadioLabel}</label>
+                    </div>
+                </div>
+                <form id="tofel-destinations-form">
+                    <i class="research-search__select__search-icon"><img src="/content/dam/ets-org/icons/commons/searchIcon_blue.png" alt=""></i>
+                    <input id="tofelSearchInput" type="search" placeholder="${destinationSearch.placeHolderText}" aria-label="${destinationSearch.placeholderAriaLabel}">
+                    <a id="tofelSearchButton" class="cta-btn-primary" aria-label="${destinationSearch.ctaButtonAriaLabel}" href="javascript:;"><span class="d-none d-md-block">${destinationSearch.ctaLabel}</span><i class="d-block d-md-none state-search__select__left-arrow"></i> </a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="tofel-destinations-results--wrap d-none" >
+        <div class="tofel-destinations-results--body">
+            <div class="tofel-destinations-results--head">
+                <p id="td-empty-result" class="td-empty-result d-none">${destinationSearch.errormsg1}</p>
+                <div id="td-result-count-text" aria-live="polite" class="td-result-count-text d-none"></div>
+                <p id="td-no-results" class="d-none">${destinationSearch.errormsg2}</p>
+            </div>
+            <div class="tofel-destinations-result--data-container accordion-container" style="--accordian-plus-icon:url('/content/dam/ets-org/icons/commons/accordion_plus.svg');--accordian-minus-icon:url('/content/dam/ets-org/icons/commons/accordion_minus.svg')" data-td-result-path="${destinationSearch.destinationAPI}?">
+                <div id="tofelDestinationsResults" class="tofel-destinations-list--body accordion">
+                    <p class="td-initial-content">${destinationSearch.initialContent @context='html'}</p>
+                </div>
+                <div class="litePagination tdsPagination cmp-button--tertiary d-none">
+                    <a href="#" class="previous button cmp-button hover--primary cmp-button-arrow" aria-label="${destinationSearch.prevAriaLabel}" data-action="previous"><span class="cmp-button__icon--leftArrowBlue" aria-hidden="true"></span>${destinationSearch.prevLabel}</a>
+                    <input aria-label="${destinationSearch.inputPaginationAriaLabel}" type="text" /> <div class="page-result-text"><span class="current-page d-none">0</span> ${destinationSearch.countText} <span class="max-page">0</span></div>
+                    <a href="#" class="next button cmp-button hover--primary" aria-label="${destinationSearch.nextAriaLabel}" data-action="next">${destinationSearch.nextLabel}<span class="cmp-button__icon--rightArrowBlue" aria-hidden="true"></span></a>
+                </div>
+
+                <div class="tofel-destinations-note d-none">
+                    <p>${destinationSearch.resultDisclaimer @context='html'}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

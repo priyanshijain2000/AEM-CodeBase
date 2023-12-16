@@ -1,0 +1,6 @@
+{
+  "schedulerName":"ETS Weekday Configuration",
+  "jsonPayload":"/content/dam/ets-org/s/epn/epn_directory.json",
+  "modelName":"/var/workflow/models/contact-epn-json-creation",
+  "cronExpression":"0 0 1 ? * MON-FRI *"
+}

@@ -1,0 +1,7 @@
+{
+  "getLocationAvailabilityEndpoint":"https://essa-api.ets.org/v1/site-availabilities",
+  "getUsername":"1n3ukb8i3gtpp72kbgtne2iich",
+  "getPassword":"alh8583nh2h2crhh34rju9uue0607e4pf2sfnp8bo7qib36oarp",
+  "getTokenApiEndpoint":"https://essa-rest-api-prd.auth.us-east-1.amazoncognito.com/oauth2/token",
+  "getSeatsAvailabilityEndpoint":"https://essa-api.ets.org/v1/seats"
+}

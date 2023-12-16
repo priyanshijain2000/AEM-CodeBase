@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2022-12-01T13:00:49.226Z"
+        cq:lastModifiedBy="mssar95@gmail.com"
+        cq:lastReplicated="{Date}2022-12-01T13:16:56.603Z"
+        cq:lastReplicated_publish="{Date}2022-12-01T13:16:56.603Z"
+        cq:lastReplicatedBy="mssar95@gmail.com"
+        cq:lastReplicatedBy_publish="mssar95@gmail.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:templateType="/conf/ets/settings/wcm/template-types/gre-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Product - GRE TT Admissions Resources"
+        status="enabled"/>
+</jcr:root>

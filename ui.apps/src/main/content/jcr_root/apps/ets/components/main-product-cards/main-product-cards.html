@@ -1,0 +1,32 @@
+<sly data-sly-use.mainProduct="org.ets.core.models.MainProductCardsModel"/>
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = multifieldMap.isEmpty,classAppend='cmp-text'}"></sly>
+
+<section data-sly-test="${!multifieldMap.isEmpty}">
+    <div class="cmp-container--body">
+        <div class="main-product">
+            <div id="main-cards" class="d-flex align-items-center">
+                <div class="main-product--cards"  data-sly-list.option="${multifieldMap.products.listChildren}">
+                    <a class="main-product__container" data-inviewport="${wcmmode.edit?'':'scale-in'}" style="--product-card-color:${option.color @ context='styleString'}" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=option.productlink}" href="${linkValidate.link}" target="${option.newTab ? '_blank' : ''}" rel="${option.newTab ? 'noopener noreferrer' : ''}" aria-label="${option.ctaLinkAriaLabel}" data-sly-element="${mainProduct.elementStyle ? 'div' : 'a'}">
+                        <div class="main-product__inner ${mainProduct.buttonStyle}">
+                            <div data-sly-test="${option.heading}" class="main-product__container__title">${option.heading}</div>
+                            <div class="heading5">${option.productname}</div>
+                            <span class="body-text">${option.description}</span>
+                            <div data-sly-test="${option.ctaText}" class="ctabutton button pt-3">
+                                <a class="cmp-button" href="${option.ctaLink}" aria-label="${option.ctaAriaLabel}" target="${option.ctaNewTab ? '_blank' : ''}" rel="${option.ctaNewTab ? 'noopener noreferrer' : ''}">
+                                    <span class="cmp-button__text">${option.ctaText}</span>
+                                </a>
+                            </div>
+                            <div data-sly-test="${option.linkText}" class="cta-text-link">
+                                <a href="${option.textLink}" aria-label="${option.textLinkAriaLabel}" target="${option.textNewTab ? '_blank' : ''}" rel="${option.textNewTab ? 'noopener noreferrer' : ''}">
+                                    <span>${option.linkText}</span>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,33 @@
+{
+	"copyrights": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "saravanan.a.ms@accenture.com",
+		"jcr:lastModifiedBy": "admin",
+		"cookiePlaceholder": "cookie",
+		"texttitle": "Follow ETS:",
+		"copyrightdesc": "Copyright © 2022 by ETS. All rights reserved. All trademarks are the property of their respective owners.",
+		"jcr:created": "Mon Jan 10 2022 11:40:40 GMT+0000",
+		"jcr:lastModified": "Tue Aug 29 2023 13:46:27 GMT-0400",
+		"sling:resourceType": "ets/components/footercopyrights",
+		"textIsRich": "true",
+		"logodetails": {
+			"jcr:primaryType": "nt:unstructured",
+			"item0": {
+				"jcr:primaryType": "nt:unstructured",
+				"sociallogo": "/content/dam/ets-org/socials/Twitter_icon.svg",
+				"newTab": "false",
+				"altText": "twitter",
+				"linkurl": "#"
+			}
+		},
+		"copyrightdetails": {
+			"jcr:primaryType": "nt:unstructured",
+			"item0": {
+				"jcr:primaryType": "nt:unstructured",
+				"newTab": "false",
+				"textlink": "#",
+				"text": "Legal"
+			}
+		}
+	}
+}

@@ -1,0 +1,144 @@
+{
+	"product-page": {
+		"jcr:primaryType": "cq:Page",
+		"jcr:content": {
+			"jcr:primaryType": "cq:PageContent",
+			"jcr:title": "Product page",
+			"articlePublishDate":"Mon Dec 06 2021 00:00:00 GMT-0800",
+			"author":["/cf/steve","/cf/mary-brown"],
+			"category":["ets-org:brands/corporate"],
+			"contentType":"ets-org:brands/corporate"
+		}
+	},
+	"cf":{
+    "jcr:primaryType": "sling:Folder",
+    "steve": {
+      "jcr:primaryType": "dam:Asset",
+      "jcr:createdBy": "admin",
+      "jcr:content": {
+        "jcr:primaryType": "dam:AssetContent",
+        "jcr:title": "Header menu",
+        "contentFragment": true,
+        "cq:name": "header-menu",
+        "cq:parentPath": "/content/content-fragment/header-menu",
+        "data": {
+          "jcr:primaryType": "nt:unstructured",
+          "cq:model": "/content/cf-models/header-menu",
+          "master": {"jcr:primaryType":"nt:unstructured","jcr:mixinTypes":["cq:Taggable","dam:cfVariationNode"],"name@LastModified":"Thu Mar 10 2022 03:12:49 GMT+0000","image@LastModified":"Tue Apr 05 2022 09:25:16 GMT+0000","alternativeTextForAccessibility@LastModified":"Sun Mar 20 2022 08:00:52 GMT+0000","profile":"Co-Founder & Executive Director of Life Pieces To Masterpieces","profile@LastModified":"Thu Mar 10 2022 03:12:49 GMT+0000","alternativetextforaccessibility@LastModified":"Sun Mar 20 2022 07:58:13 GMT+0000","name":"Mary Brown","image":"/content/dam/ets-org/corporate/profile-pictures/mary-brown.png","alternativetextforaccessibility":"Mary","alternativeTextForAccessibility":"Mary"}
+        },
+        "metadata":{"jcr:primaryType":"nt:unstructured","jcr:mixinTypes":["cq:Taggable"]}
+      }
+    },
+    "mary-brown": {
+      "jcr:primaryType": "dam:Asset",
+      "jcr:createdBy": "admin",
+      "jcr:content": {
+        "jcr:primaryType": "dam:AssetContent",
+        "jcr:title": "Header menu",
+        "contentFragment": true,
+        "cq:name": "header-menu",
+        "cq:parentPath": "/content/content-fragment/header-menu",
+        "data": {
+          "jcr:primaryType": "nt:unstructured",
+          "cq:model": "/content/cf-models/header-menu",
+          "master": {"jcr:primaryType":"nt:unstructured","jcr:mixinTypes":["cq:Taggable","dam:cfVariationNode"],"name@LastModified":"Thu Mar 10 2022 03:12:49 GMT+0000","image@LastModified":"Tue Apr 05 2022 09:25:16 GMT+0000","alternativeTextForAccessibility@LastModified":"Sun Mar 20 2022 08:00:52 GMT+0000","profile":"Co-Founder & Executive Director of Life Pieces To Masterpieces","profile@LastModified":"Thu Mar 10 2022 03:12:49 GMT+0000","alternativetextforaccessibility@LastModified":"Sun Mar 20 2022 07:58:13 GMT+0000","name":"Mary Brown","image":"/content/dam/ets-org/corporate/profile-pictures/mary-brown.png","alternativetextforaccessibility":"Mary","alternativeTextForAccessibility":"Mary"}
+        },
+        "metadata":{"jcr:primaryType":"nt:unstructured","jcr:mixinTypes":["cq:Taggable"]}
+      }
+    }
+  },
+  "category-page": {
+	"jcr:primaryType": "cq:Page",
+	"jcr:content": {
+		"jcr:primaryType": "cq:PageContent",
+		"jcr:title": "Product page",
+		"author":["/cf/steve","/cf/mary-brown"],
+		"category":["ets-org:brands/corporate"],
+		"contentType": "ets-org:brands/corporate"
+	},
+	"page-depth1": {
+		"jcr:primaryType": "cq:Page",
+		"jcr:content": {
+			"jcr:primaryType": "cq:PageContent",
+			"jcr:title": "Product page",
+			"pageTitle":"GRE",
+			"articlePublishDate": "Mon Dec 06 2021 00:00:00 GMT-0800",
+			"author":["/cf/steve","/cf/mary-brown"],
+			"category":["ets-org:brands/corporate"],
+			"contentType": "ets-org:brands/corporate"
+		},
+		"page-depth2": {
+			"jcr:primaryType": "cq:Page",
+			"jcr:content": {
+				"jcr:primaryType": "cq:PageContent",
+				"jcr:title": "Product page",
+				"pageTitle":"GRE",
+				"articlePublishDate": "Mon Dec 06 2021 00:00:00 GMT-0800",
+				"author":["/cf/steve","/cf/mary-brown"],
+				"category":["ets-org:brands/corporate"],
+				"contentType": "ets-org:brands/corporate"
+			},
+			"page-depth3": {
+				"jcr:primaryType": "cq:Page",
+				"jcr:content": {
+					"jcr:primaryType": "cq:PageContent",
+					"jcr:title": "Product page",
+					"pageTitle":"GRE",
+					"articlePublishDate": "Mon Dec 06 2021 00:00:00 GMT-0800",
+					"author":["/cf/steve","/cf/mary-brown"],
+					"category":["ets-org:brands/corporate"],
+					"contentType": "ets-org:brands/corporate"
+				},
+				"page-depth4": {
+					"jcr:primaryType": "cq:Page",
+					"jcr:content": {
+						"jcr:primaryType": "cq:PageContent",
+						"jcr:title": "Product page",
+						"pageTitle":"GRE",
+						"articlePublishDate": "Mon Dec 06 2021 00:00:00 GMT-0800",
+						"author":["/cf/steve","/cf/mary-brown"],
+						"category":["ets-org:brands/corporate"],
+						"contentType": "ets-org:brands/corporate"
+					},
+					"page-depth5": {
+						"jcr:primaryType": "cq:Page",
+						"jcr:content": {
+							"jcr:primaryType": "cq:PageContent",
+							"jcr:title": "Product page",
+							"pageTitle":"GRE",
+							"articlePublishDate": "Mon Dec 06 2021 00:00:00 GMT-0800",
+							"author":["/cf/steve","/cf/mary-brown"],
+							"category":["ets-org:brands/corporate"],
+							"contentType": "ets-org:brands/corporate"
+						},
+						"page-depth6": {
+							"jcr:primaryType": "cq:Page",
+							"jcr:content": {
+								"jcr:primaryType": "cq:PageContent",
+								"jcr:title": "Product page",
+								"pageTitle":"GRE",
+								"articlePublishDate": "Mon Dec 06 2021 00:00:00 GMT-0800",
+								"author":["/cf/steve","/cf/mary-brown"],
+								"category":["ets-org:brands/corporate"],
+								"contentType": "ets-org:brands/corporate"
+							},
+							"page-depth7": {
+								"jcr:primaryType": "cq:Page",
+								"jcr:content": {
+									"jcr:primaryType": "cq:PageContent",
+									"jcr:title": "Product page",
+									"pageTitle":"GRE",
+									"articlePublishDate": "Mon Dec 06 2021 00:00:00 GMT-0800",
+									"author":["/cf/steve","/cf/mary-brown"],
+									"category":["ets-org:brands/corporate"],
+									"contentType": "ets-org:brands/corporate"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+}

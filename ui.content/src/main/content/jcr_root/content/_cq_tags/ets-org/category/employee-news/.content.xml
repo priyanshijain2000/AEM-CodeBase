@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastReplicated="{Date}2022-04-20T07:30:52.672Z"
+    cq:lastReplicated_preview="{Date}2022-04-20T07:28:27.218Z"
+    cq:lastReplicated_publish="{Date}2022-04-20T07:30:52.672Z"
+    cq:lastReplicatedBy="kpichandi@ets.org"
+    cq:lastReplicatedBy_preview="bpandurangan@ets.org"
+    cq:lastReplicatedBy_publish="kpichandi@ets.org"
+    cq:lastReplicationAction="Activate"
+    cq:lastReplicationAction_preview="Activate"
+    cq:lastReplicationAction_publish="Activate"
+    jcr:description=""
+    jcr:mixinTypes="[cq:ReplicationStatus]"
+    jcr:primaryType="cq:Tag"
+    jcr:title="Employee News"
+    sling:resourceType="cq/tagging/components/tag"/>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Upload xls, xlsx or csv file and get it converted in to content fragments."
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Excel / CSV to Content Fragment Converter"
+    href="/apps/ets/components/content/excel-cf-conversion.html"
+    icon="fileExcel"
+    id="custom-excel-cf-conversion"
+    target="_blank"/>

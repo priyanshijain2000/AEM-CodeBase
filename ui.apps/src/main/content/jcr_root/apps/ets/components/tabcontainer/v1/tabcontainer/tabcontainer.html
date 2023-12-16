@@ -1,0 +1,32 @@
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = multifieldMap.isEmpty,classAppend='cmp-text'}"></sly>
+
+<div class="tab-component" data-placeholder-text="${wcmmode.edit && 'Please drag Tab item components here' @ i18n}">
+	<div class="mobile-tab-dropdown d-md-none" style="--subtab-background-image: url(/content/dam/ets-org/background-image/pennsylvania.png)" data-sly-test="${properties.btnStyle=='cta-btn-white-bg-tab'}">
+        <div class="dropdown">
+            <div class="btn-secondary dropdown-toggle" data-bs-display="static" id="TabDropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                <input type="text" placeholder="" list="sideMenuList" name="menu" onkeydown="return false">
+                <button type="submit"><i class="dropdown-downarrow"></i></button>
+            </div>
+            <ul class="dropdown-menu" aria-labelledby="TabDropdownMenu" data-sly-list.tab="${multifieldMap.tablist.listChildren}">
+                <li><a class="tab-dropdown dropdown-item body-text ${tabList.first?'tab-dropdown-item-active':''}" href="javascript:;" id="${tab.id}" aria-label="${tab.ctaButtonAriaLabel}">${tab.tabname}</a></li>
+            </ul>
+        </div>
+	</div>
+	<div class="cmp-container--body">
+		<div class="tab-container ${properties.btnStyle=='cta-btn-white-bg-tab'?'d-none d-md-flex':''} pb-0" style="--tab-background:${properties.color @ context='styleString'}" data-sly-list.tab="${multifieldMap.tablist.listChildren}">
+			<a class="${properties.btnStyle || 'cta-btn-white-bg-tab'} ${tabList.first?'active':''}" href="javascript:;" id="${tab.id}" aria-label="${tab.ctaButtonAriaLabel}">${tab.tabname}</a>
+		</div>
+		<div class="tab-content-container" style="--tab-Container-background-color:" data-sly-list.tab="${multifieldMap.tablist.listChildren}">
+			<div id="${tab.id}" class="tab-container-item" style="display: ${tabList.first?'block':'none' @context='styleString'};">
+				 <div data-sly-test="${properties.btnStyle=='cta-btn-white-bg-tab'}" class="header-image d-flex" style="--tab-header-background-image: url(/content/dam/ets-org/background-image/tabHeaderImage.png)">
+                    <div class="heading1">Pennsylvania</div>
+                </div>
+				<div class="tab-item-content-container" style="${(properties.btnStyle!='cta-btn-white-bg-tab')?'padding:0px':'' @context='styleString'}">
+					<sly data-sly-resource="${@path=tab.id,  resourceType ='wcm/foundation/components/parsys'}"></sly>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,544 @@
+{
+  "request":{
+     "text":"grade",
+     "searchType":null,
+     "applied":null,
+     "resultsPerPage":"10",
+     "resultsStart":"0"
+  },
+  "filters":{
+     "subjects":{
+        "Student Evaluation":16,
+        "Scores":19,
+        "Test Bias":20,
+        "Predictive Measurement":31,
+        "Test Construction":31,
+        "Test Format":18,
+        "Statistical Analysis":15,
+        "Higher Education":39,
+        "Biographical Inventories":15,
+        "Test Reliability":24,
+        "Cognitively Based Assessment of, for, and as Learning (CBAL)":19,
+        "Reading Assessment":14,
+        "Automated Scoring and Natural Language Processing":19,
+        "Comparative Analysis":20,
+        "College Students":41,
+        "Writing Assessment":17,
+        "Mathematics Tests":13,
+        "Correlation":24,
+        "Student Characteristics":33,
+        "Scoring":21,
+        "Student Attitudes":17,
+        "Middle School Students":11,
+        "Grade Point Average (GPA)":90,
+        "College Freshmen":22,
+        "Performance Factors":26,
+        "Law Students":18,
+        "Socioeconomic Status (SES)":20,
+        "Questionnaires":12,
+        "Graduate Record Examinations (GRE)":35,
+        "Grading":33,
+        "Majors (Students)":20,
+        "Strong Vocational Interest Blank":11,
+        "College Entrance Examinations":58,
+        "Law School Admission Council (LSAC)":38,
+        "Grades (Scholastic)":55,
+        "Validity":17,
+        "Academic Evaluation Council (AEC)":12,
+        "Secondary Education":17,
+        "Preliminary Scholastic Aptitude Test (PSAT)":11,
+        "Predictor Variables":16,
+        "College Board":74,
+        "Longitudinal Studies":27,
+        "Admission Criteria":22,
+        "Achievement Tests":34,
+        "Racial Differences":18,
+        "Interest Inventories":28,
+        "Writing Evaluation":14,
+        "Essay Tests":33,
+        "Item Response Theory (IRT)":32,
+        "National Institute for Child Health and Human Development (NICHD)":18,
+        "Validity Study Service (VSS)":11,
+        "Aptitude Tests":43,
+        "Academic Achievement":96,
+        "Validity Studies":20,
+        "Graduate Record Examination (GRE)":15,
+        "Predictive Validity":138,
+        "Law School Admission Test (LSAT)":47,
+        "Evaluation Methods":14,
+        "Catholic Schools":12,
+        "Elementary School Students":37,
+        "Factor Structure":22,
+        "Prediction":21,
+        "Differential Item Functioning (DIF)":12,
+        "Response Style (Tests)":11,
+        "Elementary Education":27,
+        "Grade Prediction":144,
+        "Elementary Secondary Education":25,
+        "Test Scores":15,
+        "Automated Essay Scoring (AES)":13,
+        "Reading Comprehension":13,
+        "Computer Assisted Testing":12,
+        "High School Students":28,
+        "Trend Analysis":15,
+        "High Schools":11,
+        "SAT":28,
+        "Test Validity":96,
+        "Mathematics":36,
+        "Graduate Record Examinations Board":34,
+        "Personality Measures":17,
+        "National Assessment of Educational Progress (NAEP)":52,
+        "Personality Traits":16,
+        "Test Items":12,
+        "Scholastic Aptitude Test (SAT)":80,
+        "Minority Groups":19,
+        "Sex Differences":35,
+        "Grade 4":24,
+        "Factor Analysis":20,
+        "Grade 7":11,
+        "Grade 8":46,
+        "Office of Naval Research":14,
+        "Surveys":11,
+        "Law Schools":16,
+        "Graduate Study":24,
+        "Mathematics Assessment":11,
+        "Grade 9":11,
+        "Parochial Schools":13,
+        "Item Analysis":18,
+        "Interrater Reliability":15,
+        "Females":14,
+        "Reliability":11
+     },
+     "authors":{
+        "Rock, Donald A.":32,
+        "Frederiksen, Norman O.":17,
+        "Jacobs, Paul I.":5,
+        "Angoff, William H.":5,
+        "Myers, Robert C.":5,
+        "Deane, Paul":9,
+        "Braswell, James S.":4,
+        "Schultz, Douglas G.":14,
+        "Livingston, Samuel A.":4,
+        "Mollenkopf, William G.":14,
+        "Ricciuti, Henry N.":6,
+        "Skager, Rodney W.":6,
+        "Messick, Samuel J.":6,
+        "Pitcher, Barbara":11,
+        "Hills, John R.":9,
+        "Tannenbaum, Richard J.":8,
+        "Raine, Walter J.":7,
+        "Attali, Yigal":10,
+        "Centra, John A.":8,
+        "Coley, Richard J. (Ed.)":4,
+        "Burstein, Jill":9,
+        "Liu, Ou Lydia":6,
+        "Laughlin, James E":4,
+        "Freeberg, Norman E.":4,
+        "Findley, Warren G.":8,
+        "Kaplan, Bruce A.":10,
+        "Xu, Jun":5,
+        "Burton, Nancy W.":17,
+        "Olsen, Marjorie A.":6,
+        "Grandy, Jerilee E.":7,
+        "Chittenden, Edward A.":5,
+        "Halpern, Gerald":5,
+        "Morgan, Rick":9,
+        "Bruce, Kelly":4,
+        "Weeks, Jonathan P.":6,
+        "Evans, Franklin R.":6,
+        "Ekstrom, Ruth B.":6,
+        "Bejar, Isaac I.":4,
+        "Trapani, Catherine S.":5,
+        "Schrader, William B.":18,
+        "Wainer, Howard":11,
+        "Young, John W.":6,
+        "French, John Winslow, 1918-":29,
+        "Stricker, Lawrence J.":18,
+        "Lewis, Charles":15,
+        "Willingham, Warren W.":13,
+        "Davis, Junius A.":8,
+        "Bochenek, Jennifer":4,
+        "Ragosta, Marjorie":5,
+        "Bridgeman, Brent":36,
+        "Saunders, David R.":10,
+        "Hilton, Thomas L.":8,
+        "Sheehan, Kathleen M.":5,
+        "Educational Testing Service":9,
+        "French, John W.":7,
+        "O'Reilly, Tenaha":5,
+        "Steinberg, Jonathan":11,
+        "ETS":9,
+        "Ling, Guangming":4,
+        "Klein, Stephen P.":14,
+        "Lipnevich, Anastasiya A.":4,
+        "Braun, Henry I.":15,
+        "Holtzman, Steven":7,
+        "Coley, Richard J.":9,
+        "Roberts, Richard D.":7,
+        "Wilson, Kenneth M.":15,
+        "Lord, Frederic M.":9,
+        "Bennett, Randy Elliot":11,
+        "Hart, Frederick M.":6,
+        "Klieger, David M.":8,
+        "Powers, Donald E.":25,
+        "Melville, S. Donald":5,
+        "Chodorow, Martin":4,
+        "Maier, Milton H.":4,
+        "MacCann, Carolyn":4,
+        "Fowles, Mary E.":7,
+        "Rosenfeld, Michael":9,
+        "Sabatini, John P.":11,
+        "Zwick, Rebecca J.":14,
+        "Coffman, William E.":5,
+        "Kevelson, Marisol J. C.":4,
+        "Breland, Hunter M.":15,
+        "Linn, Robert L.":12,
+        "Pollack, Judith M.":11,
+        "Rosenhan, David L.":5,
+        "Boldt, Robert F.":12,
+        "Jones, Douglas H.":5,
+        "Cline, Frederick":14,
+        "Baird, Leonard L.":6,
+        "Katz, Martin R.":4,
+        "Myers, Charles T.":8,
+        "Barton, Paul E.":5,
+        "Burrus, Jeremy":5,
+        "Kannan, Priya":4,
+        "Norris, Lila":9,
+        "Kogan, Nathan":5,
+        "Diederich, Paul B.":6,
+        "Roberts, James S.":5,
+        "Donoghue, John R.":9,
+        "Fu, Jianbin":5
+     },
+     "docTypes":{
+        "chapter":56,
+        "patent":10,
+        "paper":1,
+        "periodical":10,
+        "book":8,
+        "publication":2,
+        "report":636,
+        "article":170
+     },
+     "years":{
+        "1976":10,
+        "1975":5,
+        "1974":12,
+        "1973":12,
+        "1972":8,
+        "1971":15,
+        "1970":22,
+        "1979":3,
+        "1978":7,
+        "1977":7,
+        "1990":32,
+        "2001":9,
+        "2000":5,
+        "1987":6,
+        "1986":14,
+        "1985":9,
+        "1984":11,
+        "1983":9,
+        "1982":22,
+        "1981":8,
+        "1980":8,
+        "1949":10,
+        "1948":9,
+        "1989":11,
+        "1988":11,
+        "2012":16,
+        "2011":12,
+        "2010":18,
+        "2009":14,
+        "1954":11,
+        "1998":6,
+        "2008":16,
+        "1953":15,
+        "1997":7,
+        "1952":17,
+        "2007":12,
+        "1996":8,
+        "1951":14,
+        "1995":11,
+        "2006":6,
+        "1950":35,
+        "1994":20,
+        "2005":4,
+        "1993":11,
+        "2004":11,
+        "1992":19,
+        "2003":4,
+        "1991":21,
+        "2002":8,
+        "1959":3,
+        "1958":7,
+        "1957":4,
+        "1956":6,
+        "1955":10,
+        "1999":4,
+        "2022":3,
+        "2021":7,
+        "2020":15,
+        "1965":12,
+        "1964":16,
+        "2019":12,
+        "2018":17,
+        "1963":11,
+        "2017":11,
+        "1962":4,
+        "2016":19,
+        "1961":5,
+        "2015":13,
+        "1960":6,
+        "2014":19,
+        "2013":14,
+        "1969":18,
+        "1968":26,
+        "1967":20,
+        "1966":21
+     }
+  },
+  "numberOfResults":894,
+  "results":[
+     {
+        "heading":"Regional Differences in Grading Practices",
+        "authors":[
+           {
+              "name":"Pinchak, Barbara Moretti",
+              "bio":null
+           }
+        ],
+        "year":"1974",
+        "source":"ETS Research Bulletin",
+        "docType":"Report",
+        "subjects":[
+           "Grading",
+           "High Schools",
+           "Office of Education",
+           "Regional Characteristics",
+           "School Surveys"
+        ],
+        "url":"https://www.ets.org/research/policy_research_reports/publications/report/1974/hrnj"
+     },
+     {
+        "heading":"College Grading Practices: An Overview",
+        "authors":[
+           {
+              "name":"Warren, Jonathan R.",
+              "bio":null
+           }
+        ],
+        "year":"1971",
+        "source":"ETS Research Bulletin",
+        "docType":"Report",
+        "subjects":[
+           "Academic Achievement",
+           "Evaluation Methods",
+           "Grades (Scholastic)",
+           "Higher Education"
+        ],
+        "url":"https://www.ets.org/research/policy_research_reports/publications/report/1971/hqrs"
+     },
+     {
+        "heading":"Grading Practices in American High Schools",
+        "authors":[
+           {
+              "name":"Breland, Hunter M.",
+              "bio":null
+           },
+           {
+              "name":"Pinchak, Barbara Moretti",
+              "bio":null
+           }
+        ],
+        "year":"1973",
+        "source":"ETS Research Bulletin",
+        "docType":"Report",
+        "subjects":[
+           "Grades (Scholastic)",
+           "High Schools",
+           "Office of Education",
+           "Secondary Education",
+           "Surveys"
+        ],
+        "url":"https://www.ets.org/research/policy_research_reports/publications/report/1973/hrjh"
+     },
+     {
+        "heading":"Grade Conversion: A Table for Transforming Grades Reported with Different Grading Systems",
+        "authors":[
+           {
+              "name":"Breland, Hunter M.",
+              "bio":null
+           }
+        ],
+        "year":"1975",
+        "source":"Journal of Educational Research, v68 n6 p211-215, Feb 1975",
+        "docType":"Article",
+        "subjects":[
+           "Grade Point Average (GPA)",
+           "Grading & Marking  (Students)",
+           "High School Students",
+           "High Schools",
+           "Percentage"
+        ],
+        "url":"https://www.ets.org/research/policy_research_reports/publications/article/1975/itep"
+     },
+     {
+        "heading":"The Positive Functions of Grades",
+        "authors":[
+           {
+              "name":"Feldmesser, Robert A.",
+              "bio":null
+           }
+        ],
+        "year":"1971",
+        "source":"ETS Research Memorandum",
+        "docType":"Report",
+        "subjects":[
+           "Academic Achievement",
+           "College Students",
+           "Grades (Scholastic)",
+           "Student Evaluation"
+        ],
+        "url":"https://www.ets.org/research/policy_research_reports/publications/report/1971/ibug"
+     },
+     {
+        "heading":"College Major and Gender Differences in the Prediction of College Grades",
+        "authors":[
+           {
+              "name":"Pennock-Roman, Maria",
+              "bio":null
+           }
+        ],
+        "year":"1994",
+        "source":"ETS Research Report",
+        "docType":"Report",
+        "subjects":[
+           "College Students",
+           "Grades (Scholastic)",
+           "Majors (Students)",
+           "Prediction",
+           "Scholastic Assessment Test",
+           "Sex Differences"
+        ],
+        "url":"https://www.ets.org/research/policy_research_reports/publications/report/1994/hxog"
+     },
+     {
+        "heading":"Gender Differences in High School Grades: An Exploratory Study",
+        "authors":[
+           {
+              "name":"Ekstrom, Ruth B.",
+              "bio":null
+           }
+        ],
+        "year":"1994",
+        "source":"ETS Research Report",
+        "docType":"Report",
+        "subjects":[
+           "English",
+           "Grades (Scholastic)",
+           "High School and Beyond (HS&B)",
+           "High School Students",
+           "Mathematics",
+           "Performance Factors",
+           "Sex Differences"
+        ],
+        "url":"https://www.ets.org/research/policy_research_reports/publications/report/1994/hxoh"
+     },
+     {
+        "heading":"Intercorrelations of Cooper Union Art School Data",
+        "authors":[
+           {
+              "name":"Frederiksen, Norman O.",
+              "bio":null
+           },
+           {
+              "name":"Schrader, William B.",
+              "bio":null
+           }
+        ],
+        "year":"1949",
+        "source":"ETS Research Memorandum",
+        "docType":"Report",
+        "subjects":[
+           "Art Education",
+           "Cooper Union",
+           "Correlation",
+           "Grade Prediction",
+           "Grades (Scholastic)"
+        ],
+        "url":"https://www.ets.org/research/policy_research_reports/publications/report/1949/ibny"
+     },
+     {
+        "heading":"The Nature of Essay Grades in Law School",
+        "authors":[
+           {
+              "name":"Klein, Stephen P.",
+              "bio":null
+           },
+           {
+              "name":"Hart, Frederick M.",
+              "bio":null
+           }
+        ],
+        "year":"1968",
+        "source":"ETS Research Bulletin",
+        "docType":"Report",
+        "subjects":[
+           "Essay Tests",
+           "Grading",
+           "Law School Admission Council (LSAC)",
+           "Law School Admission Test (LSAT)",
+           "Law Schools",
+           "Test Reliability"
+        ],
+        "url":"https://www.ets.org/research/policy_research_reports/publications/report/1968/ikri"
+     },
+     {
+        "heading":"Early Childhood Longitudinal Study, Kindergarten Class of 2010-11 (ECLS-K:2011): Third-Grade, Fourth-Grade, and Fifth-Grade Psychometric Report",
+        "authors":[
+           {
+              "name":"Najarian, Michelle",
+              "bio":null
+           },
+           {
+              "name":"Tourangeau, Karen",
+              "bio":null
+           },
+           {
+              "name":"Wallner-Allen, Kathleen",
+              "bio":null
+           },
+           {
+              "name":"Vaden-Kiernan, Nancy",
+              "bio":null
+           }
+        ],
+        "year":"2020",
+        "source":"NCES Report",
+        "docType":"Report",
+        "subjects":[
+           "Cognitive Assessment",
+           "Differential Item Functioning (DIF)",
+           "Early Childhood Education",
+           "Field Test",
+           "Grade 3",
+           "Grade 4",
+           "Grade 5",
+           "Item Response Theory (IRT)",
+           "Longitudinal Study",
+           "Mathematics Tests",
+           "National Center for Education Statistics (NCES)",
+           "Psychometrics",
+           "Reading Tests",
+           "Reliability",
+           "Science Tests",
+           "Test Administration",
+           "Test Scores",
+           "Test Specifications"
+        ],
+        "url":"https://www.ets.org/research/policy_research_reports/publications/report/2020/kbwn"
+     }
+  ]
+}

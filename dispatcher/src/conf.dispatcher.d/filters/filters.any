@@ -1,0 +1,47 @@
+#
+# This file contains the filter ACL, and can be customized.
+#
+# By default, it includes the default filter ACL.
+#
+
+$include "./default_filters.any"
+
+# Allow components JSON model
+/0101 { 
+/type "allow" /extension "json" /selectors "model" /path "/content/*" 
+}
+
+# Allow manifest.webmanifest files located in the content
+/0102 { 
+/type "allow" /extension "webmanifest" /path "/content/*/manifest" 
+}
+
+#Allow press release servlet json
+/0103 { 
+/type "allow" /extension "json" /path "/bin/ets/*" 
+}
+
+# Allow components JSON/PDF/Document model
+/0104 { 
+/type "allow" /path "/content/dam/ets-org/*" /extension '(pdf|json|docx|doc|txt|zip|mp3|mp4|xlsx|pptx|PDF)'
+}
+
+# Allow AEM sitemaps
+/0108 { 
+/type "allow" /path "/content/*" /selectors '(sitemap-index|sitemap)' /extension "xml" 
+}
+
+# Allow Static Resource js
+/0109 { 
+/type "allow" /path "/content/dam/static-resources/r3cc/rsc/*" /extension "js" 
+}
+
+# Allow Static Resource JS/JSON/PDF/Document model
+/0110 { 
+/type "allow" /path "/content/dam/static-resources/*" /extension '(pdf|json|docx|doc|txt|js|jpe|jpeg|gif|mov|mp3|mp4|png|svg|xml|zip|map|otf|PDF)'
+}
+
+# Allow Dam images from core component
+/0111 { 
+/type "allow" /path "*/_jcr_content/root/*" /extension '(pdf|json|docx|doc|txt|js|jpe|jpeg|gif|mov|mp3|mp4|png|svg|xml)'
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-06-28T10:05:01.621Z"
+        cq:lastModifiedBy="PJAIN003@ets.org"
+        cq:template="/conf/ets/settings/wcm/templates/product-_-gre-su"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="ets/structure/gre-page"
+        disableBreadcrumb="false"
+        enableLanguage="false"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="simple">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                layout="simple"/>
+            <container_1757380985
+                jcr:lastModified="{Date}2022-06-28T07:57:40.194Z"
+                jcr:lastModifiedBy="RCHOUDHARY@ets.org"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"/>
+        </root>
+    </jcr:content>
+</jcr:root>

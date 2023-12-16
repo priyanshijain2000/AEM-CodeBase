@@ -1,0 +1,73 @@
+<!-- <div class="cmp-container--body">
+    <div class="form-container">
+        <form>
+            <i class="search-icon"><img src="/src/main/webpack/resources/images/searchIcon_blue.png"></i>
+            <input type="search" placeholder="Search by State">
+            <div class="search-pill">
+                <span>Pennsylvania</span>
+                <i class="search-close"><img src="/src/main/webpack/resources/images/searchClose.png"></i>
+            </div>
+            <button class="search-btn"><a class="cta-btn-primary">Search </a></button>
+        </form>
+    </div>
+</div> -->
+<div class="cmp-container--body">
+    <div class="state-search">
+        <div class="state-search__select" search-data-path="/src/main/webpack/components/js/praxisSearch.json">
+            <select name="select" class="" aria-label="dropdown" id='stateSearch'>
+        <option class="" value=""><a class="" href="javascript:;">Pennsylvania</a></option>
+        <option value=""><a class="" href="javascript:;">Alabama</a></option>
+        <option value=""><a class="" href="javascript:;">Arizona</a></option>
+        <option value=""><a class="" href="javascript:;">New York</a></option>
+        </select>
+            <div class="state-search__select__container">
+                <form>
+                    <div class="state-search__select__search-pill">
+                        <span></span>
+                        <i tabindex='0' class="state-search__select__search-close"><img src="/src/main/webpack/resources/images/searchClose.png" alt=""></i>
+                    </div>
+                    <i class="state-search__select__search-icon"><img src="/src/main/webpack/resources/images/searchIcon_blue.png" alt=""></i>
+                    <input aria-label="Search" role="combobox" type="search" placeholder="Search by State" autocomplete="off"
+                    aria-owns="selectBoxContainer" aria-expanded="false" aria-activedescendant="">
+                    <a class="cta-btn-primary" tabindex="-1" href="javascript:;"><span class="d-none d-md-block">Search</span><i class="d-block d-md-none state-search__select__left-arrow"></i> </a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <form class="field">
+        <div class="field-groups">
+            <label for='selectTest' class="form-label form-label-text">Select the Praxis® test you are taking from the
+                dropdown</label>
+            <div class="customselectsearch">
+                <!--<i class="dropdown-search-icon"><img src="/src/main/webpack/resources/images/searchIcon_blue.png"/></i>
+                <select name="select" class="form-select ets-dropdown d-none" aria-label="dropdown">
+                  <option class="select__item--selected" selected="true" value='0' disabled="disabled">Algebra</option>
+                  <option class="" selected="false" value='0' disabled="disabled">Trignometry</option>
+                </select>
+                <button class="ets-dropdown-button" tabindex="-1"><img src="/content/dam/ets-org/icons/commons/down-arrow-white.png"/></button>
+                <div class="select__selected" aria-label="unselected listbox" role="listbox" aria-live="polite">
+                    <div class="search-placeholder-text">Select your test</div>
+                    <div class="search-inner-text">Select your test</div>
+                </div>
+                <div class="select__options" id="searchMatrial" role="listbox">
+                    <div class="select__item select__item--selected" role="option" path="/content/experience-fragments/ets-org/language_master/en/test/algebra/master/jcr:content/root.html" data-testid="11">Algebra(11)
+                    </div>
+                    <div class="select__item " role="option" path="/content/experience-fragments/ets-org/language_master/en/test/trignometry/master/jcr:content/root.html" data-testid="10">Trignometry(10)
+                    </div>
+               
+            </div> -->
+                <select class="preparation-material-dropdown">
+                <option path="/content/experience-fragments/ets-org/language_master/en/test/trignometry/master/jcr:content/root.html" data-testid="11">Algebra
+                </option>
+                <option path="/content/experience-fragments/ets-org/language_master/en/test/trignometry/master/jcr:content/root.html" data-testid="10">Trignometry
+                </option>
+            </select>
+            </div>
+            <div class="search-result-title-text">Select your test</div>
+        </div>
+    </form>
+    <div id="preparationMaterial" class="search-result-container"></div>
+</div>
+
+
+

@@ -1,0 +1,167 @@
+//== Font
+$font-family: 'Open Sans';
+$font-size: 16px;
+$font-height: 1.5;
+//== Color
+// Normal mode ETS color
+$color-bg: #f2f2f2;
+$color--body-bg: #f8f8f8;
+$color-font: #151515;
+$color-nav-bg: #E6E9F0;
+//Primary
+$color-ETS-midnight: #003356;
+$color-navy: #003082;
+$color-ETS-azure: rgba(48, 114, 190, 0.2); //#3072BE + 20% Opacity 
+$color-ETS-cerulean: #2AACE2;
+//Secondary
+$color-yellow: #FDB913;
+$color-pear: #DED14F;
+$color-emerald: #69CC97;
+$color-hunter: #2F7E61;
+$color-ETS-bodyblack: #151515;
+$color-ETS-darknavy: #2E2E2E;
+//toefl
+$color-toefl-Green: #377D82;
+$color-orange: #EF7000;
+$color-marigold: #F7B524;
+$color-toefl-title: #27585B;
+$color-toefl-dk-green-off: #163234;
+$color-toefl-Sec-Bg:#E7EFF0;
+//GRE
+$color-gre-primary: #630F54;
+$color-gre-listbg: #F4EAE6;
+$color-gre-dark-blue:#1F2841;
+//R3CC
+$color-r3cc-primary:  #00aaaa;
+$color-r3cc-listbg: #f2f2f2;
+$color-r3cc-theme-color: #f2f2f2;
+$color-r3cc-black: #333333;
+$color-r3cc-yellow-sociallink: #ff8a27;
+$color-r3cc-dark-theme: #014747;
+$color-r3cc-lightWineRed: #ad3652;
+$color-r3cc-contentText: #fff;
+//TOEIC
+$color-toeic-primary: #165736;
+$color-toeic-listbg: #F4EAE6;
+//--TO DO--//
+//MFT
+$color-mft-primary:#512E7F;
+$color-mft-listbg:#FDB913;
+$color-mft-dark-violet: #311C4C;
+//PRAXIS
+$color-Praxis-red: #A03137;
+$color-Praxis-blue: $color-navy;
+$color-Praxis-grey: #C1B7AF;
+$color-Praxis-listbg: #F3F1EF;
+//background: rgb(175,31,35);
+//background: linear-gradient(180deg, rgba(175,31,35,1) 0%, rgba(167,33,33,1) 21%, rgba(144,37,28,1) 53%, rgba(107,44,19,1) 93%, rgba(100,45,17,1) 100%);
+//GRE
+$color-GRE-primary: #630F54;
+$color-GRE-orange: #B83A1E;
+$color-GRE-Dark-Purple :#38002E;
+$color-GRE-Light-Blue :#DEECFC;
+//TOEIC
+$color-TOEIC-Dark-Green: #165736;
+$color-TOEIC-Extra-Dark: #142B1C;
+$color-TOEIC-Green :#B5BE0F;
+//other
+$color-navlinks: #737373;
+$color-navlinkhover: #2C68AE;
+$color-foreground: #202020;
+$color-search: #002945;
+$color-background: #f8f8f8;
+$color-link: #2020E0;
+$color-seperator: #003356;
+$color-gray-text: #3D3D3D;
+$color-white: #ffffff;
+$color-Praxis-maroon: #401416;
+$color-accordian-background: #f2f2f2;
+$color-TOEIC-darkBlue: #23477E;
+$color-Praxis-dark-red: #722024;
+$color-gray-background: #ECE9E7;
+$color-yellow: #FDB913;
+$color-darkYellow: #D7A80E;
+$color-discalmer-blue:#3072BE;
+$color-paraxis-gradient-stop:#642D11;
+$color-slider-fill: #A8BDD6;
+$color-button-bg: #f0f0f0;
+$color-calendar-font: #949494;
+$color-required-font: #A80005;
+$color-discalmer-yellow-background:#FFECBE;
+$color-discalmer-lightYellow-background:#FCEDCA;
+$color-discalmer-red-background:#F4DCDD;
+$color-discalmer-blue-background:#D8EAFF;
+$color-gre-button-focus:#7CAADE;
+$dropdown-highlight:#D8EAFF;
+$color-generic-button-focus:#BFD3EE;
+$color-primary-button-bg:#FEFEFE;
+$color-carousel-indicator:#FCCA4A;
+$color-ETS-navy-link:#A6BADD;
+// Dark mode
+$color-foreground-dark: invert($color-foreground);
+$color-background-dark: invert($color-background);
+$color-link-dark: invert($color-link);
+//font
+$open-sans: 'Open Sans';
+//weight
+$light: 300;
+$normal: 400;
+$semibold: 600;
+$bold: 700;
+$bolder: 800;
+//border
+$border-color: #2e2e2e;
+$border: 1px solid #B5B5B5;
+$border-lite: 1px solid #D7D7D7;
+$border-button-blue: 1px solid #0066AC;
+$border-discalmer-blue: 2px solid #3072BE;
+$border-discalmer-red:2px solid #A80005;
+$border-discalmer-yellow:2px solid #FDB913;
+$border-discalmer-darkYellow:2px solid #D7A80E;
+//gradiants
+$color-cerulean-gradiant: linear-gradient(270deg, #3072BE -34.18%, #3B5686 70.65%);
+$color-ETS-dk-to-light-gradiant: linear-gradient(90deg, #3B5686 54.83%, #37A8C0 108.19%);
+$color-Praxis-gradiant:linear-gradient(96.97deg, #AF1F23 -5.45%, #642D11 106.78%);
+$color-toefl-gradiant:linear-gradient(107.37deg, #377D82 12.55%, #2F7E61 102.92%);
+$accordian-border: 1px solid rgba(0, 0, 0, .125);
+$footer-border: 1px solid rgba(21, 21, 21, 0.5);
+$color-GRE-gradiant:linear-gradient(133.69deg, #7C3265 -17.94%, #38002E 131.12%);
+$color-r3cc-gradiant:linear-gradient(133.69deg, #00aaaa -17.94%, #014747 131.12%);
+$footer-border: 1px solid rgba(21, 21, 21, 0.5);
+$color-toeic-gradiant:linear-gradient(46.7deg, #B4BD10 0%, #005734 70.03%, #005734 100.09%);
+//rnd
+$color-rnd-azure: linear-gradient(0deg, rgba(48, 30, 30, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, #3072BE, #3072BE);
+$color-required-field-red: #A80005;
+$color-lite-grey:#D7D7D7;
+//buttons
+$btn-primary: #315276;
+$btn-focus: #3072BE;
+//Input
+$input-hover: #3072BE;
+$input-focus: #e0eafa;
+//link
+//$ets-link: #3072BE;
+$ets-link: #003082;
+$ets-link-hover: #D8EAFF;
+$ets-border-grey:#D0D0D0;
+//dropdown border
+$dropdown-border: #D0D0D0;
+$ets-border-grey:#D0D0D0;
+$color-header-bg:#e6e9f0;
+$color-ETS-azure-light:#9AC9FF;
+$color-ETS-azure-extra-light:#D8EAFF;
+$color-ETSAzure:#3072BE;
+$color-ETS-Black:#000000;
+$color-ETS-gray-medium-dark:#595959;
+$color-ETS-PSQ-orange-sorbet: #ffa45e;
+$color-ETS-PSQ-dark-blue: #022841;
+$color-ETS-PSQ-medium-dark-blue: #034673;
+$color-ETS-PSQ-sage-green: #8ca67e;
+$color-ETS-PSQ-gradiant: linear-gradient(97deg, #420755 -5%, #420755 107%);
+$color-ETS-PSQ-purple-dark: #420755;
+$color-toefl-bg-half-gradient: linear-gradient(270deg, transparent 40%, rgba(39, 88, 91, 1) 2%, rgba(37, 84, 87, 1) 11%, rgba(22, 50, 52, 1) 96%);
+$color-toefl-bg-half-gradient-reverse-content: linear-gradient(90deg, transparent 40%, rgba(39, 88, 91, 1) 2%, rgba(37, 84, 87, 1) 11%, rgba(22, 50, 52, 1) 96%);
+$color-toefl-title-orange:#f7b524;
+$color-toefl-desc-white: #ffffff;
+$color-toefl-bg-full-gradient:linear-gradient(261.0989393977395deg, rgba(39, 88, 91, 1) 2%, rgba(37, 84, 87, 1) 11%, rgba(22, 50, 52, 1) 96%);

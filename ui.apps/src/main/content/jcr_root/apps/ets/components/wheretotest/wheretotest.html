@@ -1,0 +1,68 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = true,classAppend='cmp-text'}"></sly>
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+<div class="cmp-container--body">
+    <div class="test-info">
+        <div class="test-info__title">${properties.mainTitle}</div>
+		<div class="error-info">
+            <p role="alert"><i><img width="18px" height="18px" src="/content/dam/ets-org/icons/commons/error-exclamation-new.svg" alt="error-image"/></i>
+             </p>
+        </div>
+        <div class="search-band">
+            <form class="field">
+                <div class="field-groups">
+                    <label class="form-label form-label-text required-field">${properties.testLabel}</label>
+                    <select class="where-to-test-dropdown" id="where-to-test-dropdown" data-test-json-path="${properties.testJsonPath}" 
+                    data-placeholder="${properties.testPlaceholder}" aria-label="${properties.testAriaLabel}">
+                    </select>
+                </div>
+            </form>
+            <form class="field">
+                <div class="field-groups">
+                    <label class="form-label form-label-text required-field">${properties.locationLabel}</label>
+                    <div class="customselectlocationsearch">
+                        <div class="select__selected">
+                            <i class="dropdown-search-icon">
+                            <img src="/content/dam/ets-org/icons/commons/searchIcon_blue.svg" alt=""/>
+                            </i>
+                            <input type="search" id="locationautocomplete" placeholder="${properties.locationPlaceholder}" aria-label="${properties.locationSearchAriaLabel}"
+                            role="combobox" aria-expanded="false" aria-owns="locationautocomplete__listbox" aria-autocomplete="none" autocomplete="off" >
+                            <button class="ets-dropdown-button" tabindex="-1"><img src="/content/dam/ets-org/icons/commons/right-arrow-white.svg" alt=""/></button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <form class="field without-search">
+                <div class="field-groups">
+                    <label class="form-label form-label-text form-distance-label">${properties.distanceLabel}</label>
+                    <input type="radio" name="distance" id="mileRadio" aria-label="miles" value="Mi">
+                    <label for="mileRadio" class="radio-distance-label">mi</label>
+                    <input type="radio" name="distance" id="kmRadio" aria-label="kilometers" value="Km">
+                    <label for="kmRadio" class="radio-distance-label">km</label>
+
+                    <select class="distance-dropdown" id="distance-dropdown" data-placeholder="Distance" aria-label="${properties.distanceAriaLabel}" data-sly-list.distanceItem="${multifieldMap.distance.listChildren}">
+                         <option data-sly-test="${distanceItemList.first}" selected data-distance='${distanceItem.value}'>${distanceItem.value}</option>
+                         <option data-sly-test="${!distanceItemList.first}" data-distance='${distanceItem.value}'>${distanceItem.value}</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="test-info__results">
+        	<div class="body-text test-info__summary"  aria-live="polite">${properties.desc @context='html'}</div>
+            <div class="loader" role="status" aria-busy="false">
+			<div class="loader--container">
+                <img src="/content/dam/ets-org/icons/commons/ets-preloader-sm-1x.gif" alt="ets preloader" />
+				<label>${properties.loader}</label>
+				</div>
+            </div>
+            <span id="loaderLiveRegion" class="hiddenStatus" aria-live="polite"></span>
+            <div class="test-info__results__centers" data-days="${properties.days || '180'}" data-schedule-button-label="${properties.scheduleTestButton}" data-schedule-button-url="${properties.scheduleTestUrl @extension='html'}">
+            </div>
+			<div class="litePagination testInfoPagination cmp-button--tertiary d-none">
+                <a href="#" class="previous button cmp-button hover--primary cmp-button-arrow" aria-label="${properties.prevAriaLabel || 'previous page'}" data-action="previous"><span class="cmp-button__icon--leftArrowBlue" aria-hidden="true"></span>${properties.prevLabel || 'Previous'}</a>
+                <input aria-label="${properties.inputPaginationAriaLabel || 'Enter page number'}" type="text" /> <div class="page-result-text"><span class="current-page d-none">0</span> ${properties.countTextLabel || 'of'} <span class="max-page">0</span></div>
+                <a href="#" class="next button cmp-button hover--primary" aria-label="${properties.nextAriaLabel || 'next page'}" data-action="next">${properties.nextLabel || 'Next'}<span class="cmp-button__icon--rightArrowBlue" aria-hidden="true"></span></a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,111 @@
+.error-message-layout {
+    background: linear-gradient(107.37deg, #2E95B0 12.55%, #2F7E61 102.92%);
+    padding: 4.125rem 0 5.125rem 0;
+    @media (min-width: 768px) and (max-width: 1180px) {
+        overflow: hidden;
+    }
+    .errorLeftParallex {
+        position: absolute;
+        left: -85px;
+        top: -115px;
+        z-index: 1;
+        img {
+            width: auto;
+        }
+        @include for-size(only-mobile) {
+            display: none;
+        }
+        @media (min-width: 768px) and (max-width: 1000px) {
+            left: -200px;
+        }
+        @media (min-width: 1001px) and (max-width: 1180px) {
+            left: -150px;
+        }
+    }
+    .errorRightParallex{
+        position: absolute;
+        right: 0px;
+        top: -116px;
+        z-index: 1;
+        img {
+            width: auto;
+        }
+        @include for-size(only-mobile) {
+            top: 210px;
+            right: 0;
+            img {
+                height: 300px;
+            }
+        }
+        @include for-size(only-tablet) {
+            right: -113px;
+        }
+        @media (min-width: 768px) and (max-width: 1180px) {
+            right: -113px;
+        }
+        @media (max-width: 505px){
+            top: 290px;
+            right: -10px;
+        }
+    }
+    &-container {
+        display: flex;
+        flex-flow: column;
+        row-gap: 2.5rem;
+        align-items: center;
+        text-align: center;
+        h1, .heading1 {
+            font-size: 75px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 75px;
+            color: $color-white;
+            margin: 0;
+        }
+        h4, .heading4 {
+            color: $color-white;
+            font-weight: 700;
+            margin: 0;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            }
+        @include for-size(only-mobile) {
+            padding: 0;
+            row-gap: 1.875rem;
+            align-items: start;
+            text-align: left;
+            h1 {
+                font-size: 40px;
+                line-height: 44px;
+            }
+            img{
+            width: 75px;
+            height: 75px;
+            }
+        }
+    }
+    @include for-size(only-mobile) {
+        padding: 4.375rem 0;
+    }
+    
+    @media (min-width: 2001px) {
+        .error-pill-half {
+            display: none;
+        }
+        .error-pill-large {
+            display: block;
+            text-align: right;
+        }
+    }
+    
+    @media (max-width: 2000px) {
+        .error-pill-half {
+            display: block;
+        }
+        .error-pill-large {
+            display: none;
+        }
+    }
+}

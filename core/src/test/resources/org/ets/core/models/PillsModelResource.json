@@ -1,0 +1,18 @@
+{
+	"pills": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"jcr:lastModifiedBy": "admin",
+		"praxisPill": "praxis/pills1-secnav.html",
+		"toeflPill": "toefl/essentials-pill-toefl.html",
+		"toeicPill": "toeic/pillsleft.html",
+		"jcr:created": "Tue Sep 05 2023 04:38:36 GMT-0400",
+		"psqPill": "psq/pillsleft.html",
+		"grePill": "gre/pillsleft.html",
+		"pageType": "psq",
+		"jcr:lastModified": "Tue Sep 05 2023 04:45:57 GMT-0400",
+		"genericPill": "home/article-pills.html",
+		"sling:resourceType": "ets/components/pills-component",
+		"rndPill": "rnd/rnd-banner.html"
+	}
+}

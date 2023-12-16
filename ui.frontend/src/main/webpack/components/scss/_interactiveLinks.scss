@@ -1,0 +1,66 @@
+/*v2*/
+@import "_button.scss";
+.cmp-interactivelinks {
+    ul {
+        list-style: none;
+        padding-left: 0;
+        margin-top: 25px;
+        display: inline-block;
+        @include for-size(only-mobile){
+            display: block;
+        }
+        li {
+            margin-bottom: 25px;
+            a {
+                @include btn;
+                color: #fefefe ;
+                background: #375B85;
+                width: 580px;
+                position: relative;
+                padding: 0.75rem 2rem;
+                border:1px solid $btn-primary;
+                @include viewport(only-mobile){
+                    font-size: 12px;
+                    padding: 12px 20px;
+                    white-space: break-spaces;
+                    text-align: left;
+                    width: 100%;
+                }
+                @include btn-text;
+                &:after {
+                    content: "";
+                    border: solid #fefefe;
+                    border-width: 0 1px 1px 0;
+                    display: inline-block;
+                    padding: 5px;
+                    transform: rotate(-45deg);
+                    -webkit-transform: rotate(-45deg);
+                    margin-left: 6px;
+                    position:absolute;
+                    right: 20px;
+                }
+                &:hover {
+                    background:#000000;
+                    &:after {
+                        border: solid #fefefe;
+                        border-width: 0 1px 1px 0;
+                    }
+                }
+                &:focus, &:focus-visible {
+                    color:#ffffff;
+                    background: #000000;
+                    outline: 4px solid #3072be;
+                    outline-offset: 2px;
+                    &:focus:after {
+                        border: solid #fefefe;
+                        border-width: 0 1px 1px 0;
+                    }
+                }
+            }
+        }
+    }
+
+}
+.cmp-button--tertiary .cmp-button__text:hover {
+    background: #000;
+}

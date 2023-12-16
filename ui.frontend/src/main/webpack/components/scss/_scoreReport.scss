@@ -1,0 +1,149 @@
+.scorereport {
+    padding: 0;
+    .heading3 {
+        margin: 40px 0 30px;
+        @include viewport(only-mobile) {
+            margin: 40px 0 20px;
+        }
+    }
+    .heading4 {
+        margin-bottom: 20px;
+        @include viewport(only-mobile) {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+p.text-desc {
+    padding-bottom: 40px;
+}
+
+.scoreresult,
+.score-error,
+.invalid-date {
+    max-width: 760px;
+}
+
+.select,
+.customselect-data,
+.customselectsearch {
+    &__selected {
+        background: $color-background;
+        color: $color-font;
+        display: flex;
+        align-items: center;
+        display: block;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        @include viewport(only-mobile) {
+            padding: 0.438rem 2.9rem 0.438rem 0.8906rem;
+        }
+    }
+}
+
+.field {
+    &--date {
+        margin: 40px 0 40px;
+        &__block {
+            display: flex;
+            column-gap: 20px;
+            @include viewport(mobile-tab-portrait) {
+                flex-direction: column;
+            }
+        }
+        &__sub-block {
+            display: flex;
+            column-gap: 20px;
+            @include viewport(mobile-tab-portrait) {
+                width: 100%;
+            }
+            // .field-groups {
+            //     width: 45%;
+            //     min-width: 45%;
+            // }
+        }
+        .form-label {
+            @include fontsize(1rem, 1.375rem, $bold, $color-font, initial);
+            margin-bottom: 10px;
+            @include viewport(only-mobile) {
+                @include fontsize(1.143rem, 2rem, $bold, $color-font, initial);
+            }
+        }
+    }
+    &--test {
+        @include viewport(mobile-tab-portrait) {
+            max-width: 100%;
+        }
+        .form-label {
+            @include fontsize(1rem, 1.375rem, $bold, $color-font, initial);
+            margin-bottom: 20px;
+            @include viewport(mobile-tab-portrait) {
+                margin-bottom: 10px;
+                @include fontsize(1.143rem, 2rem, $bold, $color-font, initial);
+            }
+        }
+    }
+    .customselect-data {
+            max-width: fit-content;
+            min-width: fit-content;
+        &#selectTestid { 
+            max-width: 410px;
+            .select2{
+                max-width: 410px;
+                min-width: auto;
+                 @include viewport(mobile-tab-portrait) {
+                    min-width: 100%!important;
+                }
+            }
+        }
+        &#selectMonthid, &.medium-dropdown {
+            .select2{    
+            max-width: 300px;
+            min-width: auto;
+             @include viewport(mobile-tab-portrait) {
+                min-width: 100%!important;
+            }
+            }
+        }
+        &#selectDayid,
+        &#selectYearid, &.small-dropdown {
+            .select2{
+                max-width: 150px;
+                min-width: 150px;
+                 @include viewport(mobile-tab-portrait) {
+                    min-width: 100%!important;
+                }
+            }
+        }
+        @include viewport(mobile-tab-portrait) {
+            min-width: 100%!important;
+        }
+        &.disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+       
+        &#selectMonthid {
+            .select2{
+                min-width: 300px;
+            }
+        }
+    }
+    .field-groups {
+        //margin-right: 20px;
+        @include viewport(mobile-tab-portrait) {
+            //margin-right: 20px;
+            flex: 1;
+            margin-bottom: 20px;
+        }
+    }
+}
+.mandatory{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    display: inline;
+    align-items: center;
+    color: $color-required-font;
+}

@@ -1,0 +1,50 @@
+<div class="global-search-solr">
+    <div  class="global-search-solr-form-wrap">
+        <div class="global-search-solr-form-wrap__select">
+            <div class="global-search-solr-form-wrap__select__container">
+                <form>
+                    <i class="global-search-solr-form-wrap__select__search-icon"><img alt="Search"  src="/src/main/webpack/resources/images/searchIcon_blue.png"></i>
+                    <input id="gssResultsInput" aria-label="Input for global search of ETS documents" role="search" type="search" placeholder="Search for…" autocomplete="off">
+                    <a id="gssResultsButton" class="cta-btn-primary" href="javascript:;"><span class="d-none d-md-block">Search</span><i class="d-block d-md-none state-search__select__left-arrow"></i> </a>
+                </form>
+                <p id="searchcompleted">search completed</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="gss-results-wrap" class="global-search-solr--wrap">
+        <div class="global-search-solr--body">
+            <p class="global-search-no-keyword-msg">Please select a keyword</p>
+            <h1 aria-live="polite" class="gss-result-heading d-none" id="gss-have-results"></h1>
+            <div id="gss-filter-wrap" class="global-search-solr-filter-container-dropdown d-none">
+                <form id="gss-filter-select-form" class="filter-dropdown filter-dropdown-gss">
+                    <div>
+                        <label name="Filter">Filter by</label>
+                        <select autocomplete="off" class="js-example-basic-single js-states form-control" id="gss-filter-select" data-placeholder="Select Filter" aria-label="TOELF iBT input, this is a required field">
+                            <option value="all">All</option>
+                            <option value="gre">GRE</option>
+                            <option value="praxis">PRAXIS</option>
+                            <option value="toeic">TOEIC</option>
+                            <option value="toefl">TOEFL</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <p class="gss-result-om d-none">Optional message: Try your search again. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin ultrices orci. Nam a luctus purus. Aliquam viverra leo nec posuere congue. In ut urna velit.</p>
+            
+            <div class="global-search--data-container" data-global-solr-path="https://www-tr.ets.org/sitesearch/etsorg/search">
+                <div class="quick-links-gss-title d-none">Quick Links:</div>
+                <div id="quick-links-global-search-solr-result" class="results-list--body quick-links-results-list d-none"></div>
+                <div id="global-search-solr-result" class="results-list--body with-number"></div>
+                <div class="litePagination gssPagination cmp-button--tertiary d-none">
+                    <!-- <a href="#" class="first" data-action="first">&laquo;</a> -->
+                    <a href="#" class="previous button cmp-button hover--primary cmp-button-arrow" data-action="previous"><span class="cmp-button__icon--leftArrowBlue" aria-hidden="true"></span>Prev</a>
+                    <input type="text" /> <div class="page-result-text"><span class="current-page d-none">0</span> of <span class="max-page">0</span></div>
+                    <a href="#" class="next button cmp-button hover--primary" data-action="next">Next<span class="cmp-button__icon--rightArrowBlue" aria-hidden="true"></span></a>
+                    <!-- <a href="#" class="last" data-action="last">&raquo;</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

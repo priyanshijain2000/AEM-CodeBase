@@ -1,0 +1,28 @@
+{
+    "states": [{
+            "stateKey": "pa",
+            "stateName": "Pennsylvania",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page/pa"
+        },
+        {
+            "stateKey": "al",
+            "stateName": "Alabama",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page/al"
+        },
+        {
+            "stateKey": "ar",
+            "stateName": "Arizona",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page/ar"
+        },
+        {
+            "stateKey": "ny",
+            "stateName": "New York",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page/ny"
+        },
+        {
+            "stateKey": "praxis_landing_page",
+            "stateName": "PRAXIS",
+            "pagePath": "/content/ets-org/language-master/en/home/praxis_landing_page"
+        }
+    ]
+}

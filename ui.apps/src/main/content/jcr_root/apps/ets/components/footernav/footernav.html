@@ -1,0 +1,38 @@
+<sly data-sly-use.footerNav="org.ets.core.models.FooterNavigationModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !footerNav.logo, classAppend='cmp-text'}"></sly>
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+<div class="ComponentContent">
+   <div class="row footertop">
+       <div class="col-md-3 footer-logo">
+           <img alt="${footerNav.altText}" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" aria-label="${footerNav.logoAriaLabel}" src="${footerNav.logo ? footerNav.logo : '/content/dam/ets-org/general/placeholders/img-plchldr-icon.jpg'}">
+       </div>
+       <div class="col-md-3 footer-content">
+           <div class="fw-bold pb-3">${footerNav.navtitle1}</div>
+           <nav class="nav">
+               <ul data-sly-list.nav_1="${multifieldMap.nav1.listChildren}">
+					<li><a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=nav_1.navlink1}"
+                           href="${linkValidate.link}" target="${nav_1.newTab1 ? '_blank' : ''}" rel="${nav_1.newTab1 ? 'noopener noreferrer' : ''}" aria-label="${nav_1.linkAriaLabel1}"> ${nav_1.navtext1} </a></li>
+				</ul>
+           </nav>
+       </div>
+       <div class="col-md-3 footer-content">
+           <div class="fw-bold pb-3">${footerNav.navtitle2}</div>
+           <nav class="nav">
+               <ul data-sly-list.nav_2="${multifieldMap.nav2.listChildren}">
+					<li><a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=nav_2.navlink2}"
+                           href="${linkValidate.link}"target="${nav_2.newTab2 ? '_blank' : ''}" rel="${nav_2.newTab2 ? 'noopener noreferrer' : ''}" aria-label="${nav_2.linkAriaLabel2}"> ${nav_2.navtext2} </a></li>
+				</ul>
+           </nav>
+       </div>
+       <div class="col-md-3 footer-content">
+           <div class="fw-bold pb-3">${footerNav.navtitle3}</div>
+           <nav class="nav">
+				<ul data-sly-list.nav_3="${multifieldMap.nav3.listChildren}">
+					<li><a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=nav_3.navlink3}"
+                           href="${linkValidate.link}" target="${nav_3.newTab3 ? '_blank' : ''}" rel="${nav_3.newTab3 ? 'noopener noreferrer' : ''}" aria-label="${nav_3.linkAriaLabel3}"> ${nav_3.navtext3}</a></li>
+				</ul>
+           </nav>
+       </div>
+   </div>
+</div>

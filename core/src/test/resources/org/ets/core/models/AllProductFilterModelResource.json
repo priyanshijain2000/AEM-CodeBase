@@ -1,0 +1,25 @@
+{
+	"allProductFilter": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"filterText": "Filter by",
+		"jcr:lastModifiedBy": "admin",
+		"sourcePath": "/content/dam/ets-org/ets-content-fragment/product-directory",
+		"inputPaginationAriaLabel": "enter page number",
+		"prevLabel": "Previous",
+		"searchText": "Search",
+		"filterBoxText": "All Categories",
+		"jcr:created": "Wed Aug 23 2023 05:47:28 GMT-0400",
+		"countTextLabel": "of",
+		"noResultText": "No results matching your criteria were found.",
+		"jcr:lastModified": "Wed Aug 23 2023 07:05:47 GMT-0400",
+		"allProductsText": "All Product",
+		"nextAriaLabel": "next",
+		"nextLabel": "Next",
+		"sling:resourceType": "ets/components/allproductsfilter",
+		"searchBoxText": "Search All Product",
+		"searchAriaLabel": "Type the product you need",
+		"prevAriaLabel": "previous",
+		"searchAlt": "search"
+	}
+}

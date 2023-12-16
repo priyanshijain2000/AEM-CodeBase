@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-04-20T12:18:02.903Z"
+        cq:lastModifiedBy="reference-adjustment-service"
+        cq:lastReplicated="{Date}2022-04-20T12:18:04.274Z"
+        cq:lastReplicated_preview="{Date}2022-04-20T14:32:15.240Z"
+        cq:lastReplicated_publish="{Date}2022-04-20T12:18:04.274Z"
+        cq:lastReplicatedBy="saravanan.a.ms@accenture.com"
+        cq:lastReplicatedBy_preview="bpandurangan@ets.org"
+        cq:lastReplicatedBy_publish="saravanan.a.ms@accenture.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/ets/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Footer"
+        jcr:uuid="c838f818-198c-4ef5-81a6-a3bd2ef23400"
+        sling:resourceType="ets/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="responsiveGrid">
+            <sociallinks_copy_cop
+                jcr:created="{Date}2022-01-11T12:42:33.174Z"
+                jcr:createdBy="harish.paidisetty@accenture.com"
+                jcr:lastModified="{Date}2022-04-19T12:16:51.605Z"
+                jcr:lastModifiedBy="RCHOUDHARY@ets.org"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/sociallinks"
+                animationimage="/content/dam/ets-org/icons/rellax-images/socialLinkPiles.png"
+                maintitle="GET THE LATEST FROM ETS">
+                <socialdetails jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        altText="Linkedin_icon"
+                        newTab="true"
+                        socialicon="/content/dam/ets-org/socials/Linkedin-white.svg"
+                        sociallink="#"
+                        socialtitle="Connect"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        altText="Twitter_icon"
+                        newTab="true"
+                        socialicon="/content/dam/ets-org/socials/Twitter-white.svg"
+                        sociallink="https://twitter.com/"
+                        socialtitle="Follow"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        altText="Email_icon"
+                        newTab="true"
+                        socialicon="/content/dam/ets-org/socials/Email-white.svg"
+                        sociallink="#"
+                        socialtitle="Subscribe"/>
+                </socialdetails>
+            </sociallinks_copy_cop>
+            <footernav
+                jcr:created="{Date}2022-01-10T11:40:06.331Z"
+                jcr:createdBy="saravanan.a.ms@accenture.com"
+                jcr:lastModified="{Date}2022-04-19T12:17:29.088Z"
+                jcr:lastModifiedBy="RCHOUDHARY@ets.org"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/footernav"
+                logo="/content/dam/ets-org/logo/ETS_LOGO.svg"
+                navtitle1="ETS"
+                navtitle2="Solutions"
+                navtitle3="Products">
+                <nav1 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink1="/content/ets-org/language-master/en/home/about"
+                        navtext1="About ETS"
+                        newTab1="false"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink1="#"
+                        navtext1="Careers"
+                        newTab1="false"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink1="/content/ets-org/language-master/en/home/contact.html"
+                        navtext1="Contact Us"
+                        newTab1="false"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navlink1="#"
+                        navtext1="Disabilities"
+                        newTab1="false"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        navlink1="#"
+                        navtext1="ETS Store"
+                        newTab1="false"/>
+                    <item5
+                        jcr:primaryType="nt:unstructured"
+                        navlink1="#"
+                        navtext1="News: Open Notes"
+                        newTab1="false"/>
+                    <item6
+                        jcr:primaryType="nt:unstructured"
+                        navlink1="#"
+                        navtext1="Research"
+                        newTab1="false"/>
+                </nav1>
+                <nav2 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink2="#"
+                        navtext2="Educator Licensure"
+                        newTab2="false"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink2="#"
+                        navtext2="English Language Learning"
+                        newTab2="false"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink2="#"
+                        navtext2="ETS Accelerate"
+                        newTab2="false"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navlink2="#"
+                        navtext2="Higher Education"
+                        newTab2="false"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        navlink2="#"
+                        navtext2="K-12 Student Programs"
+                        newTab2="false"/>
+                    <item5
+                        jcr:primaryType="nt:unstructured"
+                        navlink2="#"
+                        navtext2="Workplace &amp; Training"
+                        newTab2="false"/>
+                </nav2>
+                <nav3 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink3="https://www.ets.org/"
+                        navtext3="GRE"
+                        newTab3="false"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink3="#"
+                        navtext3="Praxis"
+                        newTab3="false"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink3="#"
+                        navtext3="TOEFL"
+                        newTab3="false"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navlink3="#"
+                        navtext3="TOEIC"
+                        newTab3="false"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        navlink3="#"
+                        navtext3="View All"
+                        newTab3="false"/>
+                </nav3>
+            </footernav>
+            <footercopyrights
+                jcr:created="{Date}2022-01-10T11:40:40.335Z"
+                jcr:createdBy="saravanan.a.ms@accenture.com"
+                jcr:lastModified="{Date}2022-04-19T12:18:59.667Z"
+                jcr:lastModifiedBy="RCHOUDHARY@ets.org"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/footercopyrights"
+                copyrightdesc="Copyright © 2022 by ETS. All rights reserved. All trademarks are the property of their respective owners."
+                textIsRich="true"
+                texttitle="Follow ETS:">
+                <logodetails jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        altText="twitter"
+                        linkurl="#"
+                        newTab="false"
+                        sociallogo="/content/dam/ets-org/socials/Twitter_icon.svg"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        altText="linked in"
+                        linkurl="#"
+                        newTab="false"
+                        sociallogo="/content/dam/ets-org/socials/Linkedin_icon.svg"/>
+                </logodetails>
+                <copyrightdetails jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        newTab="false"
+                        text="Legal"
+                        textlink="#"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        newTab="false"
+                        text="Privacy &amp; Security"
+                        textlink="#"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        newTab="false"
+                        text="ETS Trademarks"
+                        textlink="#"/>
+                </copyrightdetails>
+            </footercopyrights>
+        </root>
+    </jcr:content>
+</jcr:root>

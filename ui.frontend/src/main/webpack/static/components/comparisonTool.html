@@ -1,0 +1,77 @@
+<div class="comparison-tool-table-draggable">
+    <div aria-hidden="true" class="wrap-draggable" id="comparison-wrap-draggable" >
+        <div class="handle-draggable" id="comparison-handle-draggable">
+            <span class="wrap-svg"><img alt="slide" class="grabber" height="45" src="https://www.ets.org/s/toefl/img/slide.svg" width="20"> </span>
+        </div>
+    </div>
+
+    <table class="table-has-draggable" id="comparison-table-has-draggable">
+        <thead>
+            <tr class="before-highlight">
+                <th scope="col">TOEFL Score</th>
+                <th scope="col">IELTS Band</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>0-31</th>
+                <td>0-4</td>
+            </tr>
+            <tr>
+                <th>32-34</th>
+                <td>4.5</td>
+            </tr>
+            <tr class="">
+                <th>35-45</th>
+                <td>5</td>
+            </tr>
+            <tr class="shade">
+                <th>46-59</th>
+                <td>5.5</td>
+            </tr>
+            <tr class="shade">
+                <th>60-78</th>
+                <td>6</td>
+            </tr>
+            <tr class="shade">
+                <th>79-93</th>
+                <td>6.5</td>
+            </tr>
+            <tr class="shade">
+                <th>94-101</th>
+                <td>7</td>
+            </tr>
+            <tr class="shade">
+                <th>102-109</th>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <th>110-114</th>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>115-117</th>
+                <td>8.5</td>
+            </tr>
+            <tr>
+                <th>118-120</th>
+                <td>9</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Use the slider above or enter your own score below.</p>
+
+    <div class="wrap-inputs compare-values">
+        <div class="compare-value">
+            <input autocomplete="off" class="compare-score" id="compare-current-score" maxlength="3" type="text" value="" placeholder="0-31">
+            <label for="compare-current-score">TOEFL <span class="compare-type">Score</span></label></div>
+
+        <div class="compare-value">
+            <input class="compare-score" disabled="disabled" id="compare-current-ielts" type="text" value="0-4" placeholder="0-4">
+            <label for="compare-current-ielts">IELTS <span class="compare-type">Score</span></label>
+        </div>
+    </div>
+    <div class="shaded-scores js not-confident" id="comparison-shaded-scores">Shading indicates score comparison ranges with the
+        highest degree of confidence</div>
+</div>

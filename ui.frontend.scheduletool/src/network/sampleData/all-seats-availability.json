@@ -1,0 +1,24 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "siteCode": "APCN-4235",
+            "seatCode": "gwgggcqLva2708iG002q2PLw00030DJz0",
+            "isPrivateAdmin": false,
+            "startTime": "2023-10-28T10:15:00-05:00"
+        },
+        {
+            "siteCode": "APCN-4235",
+            "seatCode": "gwgggd0Lva2708iG002q2QLw000I0DJz0",
+            "isPrivateAdmin": false,
+            "startTime": "2023-10-28T12:30:00-05:00"
+        },
+        {
+            "siteCode": "APCN-4235",
+            "seatCode": "gwgggdCLva2708iG002q2QLw000I0DJz0",
+            "isPrivateAdmin": false,
+            "startTime": "2023-10-28T14:45:00-05:00"
+        }
+    ],
+    "errorMessage": "No results found with search criteria, try again..."
+}

@@ -1,0 +1,18 @@
+
+<template data-sly-template.variation8="${@ inputData}">
+    <section class="praxis-fee-filter cmp-container--body">
+        <div data-sly-test="${inputData.sectionTitle}" class="praxis-fee-filter__title">${inputData.sectionTitle @context='html'}</div>
+        <select class="praxis-fee-dropdown" id="praxis-fee" data-praxis-fee-path="${inputData.json}" data-placeholder="${inputData.placeholderText}" aria-label="${inputData.inputAriaLabel}">
+            <option></option>
+        </select>
+        <table class="praxis-fee-filter__table" role="table">
+            <tbody class="praxis-fee-filter__table__content">
+                <tr>
+                    <th scope="col">Test Code</th>
+                    <th scope="col">Test Title</th>
+                    <th scope="col">Fee</th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</template>

@@ -1,0 +1,32 @@
+{
+	"results": {
+		"jcr:primaryType": "nt:unstructured",
+		"authorPlaceholder": "Search All Author",
+		"clearFiltersButton": "Clear Filter",
+		"subjectLabel": "Subjects",
+		"formatsPlaceholder": "Select formats",
+		"formatsLabel": "Formats",
+		"inputPaginationAriaLabel": "Enter page number",
+		"ctaButtonAriaLabel": "Search",
+		"filterLabel": "Filter",
+		"prevLabel": "Previous ",
+		"ctaLabel": "Search",
+		"placeHolderText": "Search topic, subject, author, title, etc",
+		"noResultMsg": "There are currently no results available for your search. Please check the spelling or refine your search and try again.",
+		"applyFiltersButton": "Apply Filters",
+		"path": "/bin/ets/researcher-solr.json",
+		"authorAriaLabel": "Author search by typing, or press enter to expand all the options.",
+		"subjectPlaceholder": "Search All Subjects",
+		"authorLabel": "Author",
+		"countTextLabel": "of",
+		"subjectAriaLabel": "Subject search by typing, or press enter to expand all the options.",
+		"nextAriaLabel": "next6",
+		"nextLabel": "Next",
+		"sling:resourceType": "ets/components/researchresult",
+		"publicationYear": "Publication Year",
+		"formatsAriaLabel": "Format search by typing, or press enter to expand all the options.",
+		"searchAriaLabel": "Search Input field",
+		"noKeywordMsg": "ETS RESEARCHER is a database that contains information on ETS-authored or published works, such as ETS Research Reports, ETS Research Memorandums, or publications written by ETS researchers and published by third parties, such as scholarly journals.",
+		"prevAriaLabel": "previous6"
+	}
+}

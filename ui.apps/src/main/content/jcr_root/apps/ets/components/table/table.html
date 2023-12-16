@@ -1,0 +1,10 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+  data-sly-call="${templates.placeholder @ isEmpty = !properties.tabledesc,classAppend='cmp-text'}"></sly>
+
+<div class="cmp-container--body pt-${properties.marginTop} pb-${properties.marginBottom}"> 
+
+<div class="${properties.layoutStyle}">
+
+${properties.tabledesc @context='html'}
+</div>
+</div>

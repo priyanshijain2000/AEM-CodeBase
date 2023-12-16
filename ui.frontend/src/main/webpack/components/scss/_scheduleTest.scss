@@ -1,0 +1,86 @@
+.schedule-test {
+    &__form{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 2.375rem;
+        row-gap: 2.5rem;
+        label{
+            @include fontsize(1rem, 1.5rem, $semibold, $color-ETS-bodyblack,capitalize);
+        }
+        @include for-size(desktop){
+            &__test{
+               width: 25.8125rem;
+            }
+            &__location{
+                justify-content: start;
+                    width: 25.8125rem;
+            }
+            &__distance{
+                width: 10.0625rem;
+            }
+            &__test-center{
+                width: 50.4375rem;
+            }
+        }
+
+    }
+    .select{
+        display: flex;
+        justify-content: center;
+        min-width: 100%;
+        @include for-size(only-mobile){
+            min-width: 100%;
+        }
+        .jAuto{
+            border: $border-lite;
+            height: 2.875rem;
+            width: 100%;
+            background: $color-background;
+            border-radius: 0.5rem;
+            padding-left: 4rem;
+            padding-right: 2.6875rem;
+            @include fontsize(1.125rem, 1.5rem, $semibold, $color-ETS-bodyblack,capitalize);
+            text-overflow: ellipsis;
+            @include for-size(only-mobile){
+                width: 100%;  
+            }
+            @include for-size(tablet){
+                width: 45%;
+            }
+        }
+        
+    }
+    .dropdown{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        .ets-dropdown-button{
+            .up-arrow{
+                display: none;
+            }
+            .down-arrow{
+                display: inline;
+            }
+        }
+        .form-control:focus{
+            box-shadow: none;
+            border: $border-lite;
+        }
+       
+    }
+    .active-dropdown{
+        .jAuto, .ets-dropdown-button{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        }
+            .ets-dropdown-button{
+                .up-arrow{
+                    display: inline;
+                }
+                .down-arrow{
+                    display:none;
+                }
+            }
+        
+    }
+}

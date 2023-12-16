@@ -1,0 +1,109 @@
+.product {
+    &--theme--bg {
+        padding-top: 136px;
+        padding-bottom: 136px;
+    }
+    &--img {
+        padding-right: 53px;
+        z-index: 5;
+        &__title {
+            padding-bottom: 50px;
+            color: $color-white;
+        }
+    }
+    &--list {
+        padding: 100px 60px;
+        display: flex;
+        column-gap: 20px;
+        box-shadow: 13px 17px 54px rgba(132, 132, 132, 0.33);
+        z-index: 6;
+        &__item {
+            flex: 1 50%;
+            .list-group {
+                &-item {
+                    background-color: transparent;
+                    padding: 0 10px 0 25px;
+                    border-bottom: 0 solid transparent;
+                    &:last-child a {
+                        border-bottom: none;
+                    }
+                    a {
+                        @include fontsize( 1rem, 1.375rem, $semibold, $color-ETS-bodyblack, initial);
+                        padding: 16px 0 9px;
+                        text-decoration: none;
+                        display: block;
+                        border-bottom: 1px dotted rgba(0, 0, 0, 0.4);
+                        &:hover {
+                            background: none;
+                        }
+                    }
+                    &.active,
+                    &:hover {
+                        background-color: $color-white;
+                        padding-left: 20px;
+                        a {
+                            padding: 13px 0;
+                            font-weight: $bold;
+                            border-bottom: 0 solid transparent;
+                        }
+                    }
+                }
+            }
+        }
+        &__title {
+            padding: 0 0 20px 25px;
+        }
+    }
+}
+
+@include viewport(mobile-tab-portrait) {
+    .product {
+        &--theme--bg {
+            padding: 0;
+            margin: 0;
+        }
+        &--img {
+            padding: 0;
+            display: flex;
+            flex-direction: column-reverse;
+            &__title {
+                padding: 40px 0 20px
+            }
+        }
+        &--list {
+            z-index: 3;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@include viewport(mobile-tab-portrait) {
+    .product {
+        &--list {
+            padding: 0 24px 40px;
+            flex-direction: column;
+            margin-bottom: 0;
+            &__item {
+                padding: 40px 0 0;
+                &:last-child {
+                    padding-bottom: 40px;
+                }
+                .list-group {
+                    &-item {
+                        padding: 0px 28px;
+                    }
+                }
+            }
+        }
+        &--img {
+            &__title {
+                padding-left: 24px;
+                padding-right: 24px;
+            }
+        }
+    }
+}
+
+.view-all-links {
+    margin: 10px 10px 0 25px;
+}

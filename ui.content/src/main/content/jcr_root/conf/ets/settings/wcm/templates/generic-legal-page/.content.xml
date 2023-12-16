@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2023-01-13T13:15:00.063Z"
+        cq:lastModifiedBy="PJAIN003@ets.org"
+        cq:lastReplicated="{Date}2022-10-28T12:37:40.176Z"
+        cq:lastReplicated_publish="{Date}2022-10-28T12:37:40.176Z"
+        cq:lastReplicatedBy="PREDDY002@ets.org"
+        cq:lastReplicatedBy_publish="PREDDY002@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:templateType="/conf/ets/settings/wcm/template-types/generic-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Legal Page"
+        status="enabled"/>
+</jcr:root>

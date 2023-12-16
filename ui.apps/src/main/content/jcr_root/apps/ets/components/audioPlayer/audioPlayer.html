@@ -1,0 +1,19 @@
+<sly data-sly-use.videoObj="org.ets.core.models.VideoModel" />
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+	data-sly-call="${templates.placeholder @ isEmpty = !properties.audioid,classAppend='cmp-text'}"></sly>
+
+<!--/*Display the player only if audioid is authored*/-->
+<section data-sly-test="${properties.audioid}" class="kalturaAudioPlayer">
+	<div id="kaltura_audio_player_${currentNode.getName}" style="width: 308px; height: 26px; overflow: hidden;"></div>
+	<!--/*Embed script for Kaltura Audio player*/-->
+	<script>
+		kWidget.embed({
+					"targetId" : "kaltura_audio_player_${currentNode.getName @ context='scriptString'}",
+					"wid" : "_1407311",
+					"uiconf_id" : 37033591,
+					"flashvars" : {},
+					"cache_st" : 1696523955,
+					"entry_id" : "${properties.audioid @ context='scriptString'}"
+				});
+	</script>
+</section>

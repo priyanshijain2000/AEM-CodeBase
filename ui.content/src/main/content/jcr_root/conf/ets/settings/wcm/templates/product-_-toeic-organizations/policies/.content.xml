@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-11-16T07:08:57.777Z"
+        cq:lastModifiedBy="mssar95@gmail.com"
+        cq:lastReplicated="{Date}2022-11-16T10:26:30.308Z"
+        cq:lastReplicated_preview="{Date}2023-02-13T02:48:46.484Z"
+        cq:lastReplicated_publish="{Date}2022-11-16T10:26:30.308Z"
+        cq:lastReplicatedBy="msriramulu001@ets.org"
+        cq:lastReplicatedBy_preview="RBOPPANA@ets.org"
+        cq:lastReplicatedBy_publish="msriramulu001@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:policy="ets/structure/toeic-page/policy_1647430530317"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="8cc6838f-3dce-416b-b345-bd138c437f52"
+        sling:resourceType="wcm/core/components/policies/mappings">
+        <root
+            cq:policy="ets/components/container/policy_1574694950110"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <container
+                cq:policy="ets/components/container/policy_1655744979296"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <ets jcr:primaryType="nt:unstructured">
+                    <components jcr:primaryType="nt:unstructured">
+                        <title jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <title
+                                    cq:policy="ets/components/title/v2/title/policy_1653510365523"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </v2>
+                        </title>
+                        <separator jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <separator
+                                    cq:policy="ets/components/separator/v2/separator/policy_1653520716359"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </v2>
+                        </separator>
+                        <infocards jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <infocards
+                                    cq:policy="ets/components/infocards/v2/infocards/policy_1653510183803"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </v2>
+                        </infocards>
+                        <text jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <text
+                                    cq:policy="ets/components/text/v2/text/policy_1653520770044"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </v2>
+                        </text>
+                        <ctabutton jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <ctabutton
+                                    cq:policy="ets/components/ctabutton/v2/ctabutton/policy_1653509891397"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </v2>
+                        </ctabutton>
+                        <accordion jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <accordion
+                                    cq:policy="ets/components/accordion/v2/accordion/policy_1653581984886"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </v2>
+                        </accordion>
+                        <container
+                            cq:policy="ets/components/container/policy_1574694950110"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                        <carousel-v2
+                            cq:policy="ets/components/carousel-v2/policy_1653581835587"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                        <image
+                            cq:policy="ets/components/image/policy_651483963895698"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                        <contactbanner jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <contactbanner
+                                    cq:policy="ets/components/contactbanner/v2/contactbanner/policy_1660649738676"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </v2>
+                        </contactbanner>
+                    </components>
+                </ets>
+                <wcm jcr:primaryType="nt:unstructured">
+                    <foundation jcr:primaryType="nt:unstructured">
+                        <components jcr:primaryType="nt:unstructured">
+                            <responsivegrid
+                                cq:policy="wcm/foundation/components/responsivegrid/policy_30397352935159"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                        </components>
+                    </foundation>
+                </wcm>
+            </container>
+            <container_1448755308
+                cq:policy="ets/components/container/policy_2512462386200"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
+            <container_758522293_
+                cq:policy="ets/components/container/policy_1966768336200"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
+            <container_bread
+                cq:policy="ets/components/container/policy_66184577469192"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
+            <container_top
+                cq:policy="ets/components/container/policy_1655745359865"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <ets jcr:primaryType="nt:unstructured">
+                    <components jcr:primaryType="nt:unstructured">
+                        <experiencefragment
+                            cq:policy="ets/components/experiencefragment/policy_38020688425064"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                        <contactbanner jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <contactbanner
+                                    cq:policy="ets/components/contactbanner/v2/contactbanner/policy_1660649738676"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </v2>
+                        </contactbanner>
+                    </components>
+                </ets>
+            </container_top>
+            <container_bottom
+                cq:policy="ets/components/container/policy_1665735368051"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <ets jcr:primaryType="nt:unstructured">
+                    <components jcr:primaryType="nt:unstructured">
+                        <articlebanner jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <articlebanner
+                                    cq:policy="ets/components/articlebanner/v2/articlebanner/policy_1657743507790"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </v2>
+                        </articlebanner>
+                        <contactbanner jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <contactbanner
+                                    cq:policy="ets/components/contactbanner/v2/contactbanner/policy_1660649738676"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </v2>
+                        </contactbanner>
+                        <separator jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <separator
+                                    cq:policy="ets/components/separator/v2/separator/policy_1653520716359"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </v2>
+                        </separator>
+                        <container
+                            cq:policy="ets/components/container/policy_1574694950110"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                    </components>
+                </ets>
+            </container_bottom>
+        </root>
+    </jcr:content>
+</jcr:root>

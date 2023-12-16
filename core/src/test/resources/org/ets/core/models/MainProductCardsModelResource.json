@@ -1,0 +1,16 @@
+{
+	"product-cards": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"buttonStyle": "cmp-button--primary",
+		"jcr:lastModifiedBy": "admin",
+		"elementStyle": "true",
+		"jcr:created": "Tue Sep 05 2023 02:07:59 GMT-0400",
+		"jcr:lastModified": "Tue Sep 05 2023 02:30:16 GMT-0400",
+		"sling:resourceType": "ets/components/main-product-cards",
+		"textIsRich": [
+			"true",
+			"true"
+		]
+	}
+}

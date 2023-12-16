@@ -1,0 +1,32 @@
+.researcher-template {
+    padding:40px 0;
+
+    dl.report-info{
+        margin: 25px 0 0.8em;
+        dt {
+            float: left;
+            clear: left;
+            width: 10em;
+            font-weight: 700;
+        }
+        dd.last {
+            padding: 0 0 1em;
+        }
+        dd{
+            margin: 0 0 0 11em;
+        }
+    }
+    h2{
+        color: #003082;
+    }
+    dd,
+    ul{
+        a{           
+            font-weight: 400;
+            font-size: 16px;
+        }
+        .break-all {
+            word-break: break-all;
+        }
+    }
+}

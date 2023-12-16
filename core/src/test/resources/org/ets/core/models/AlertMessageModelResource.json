@@ -1,0 +1,16 @@
+{
+	"alertmessage": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"alertdesc": "All services closed on July 28, 2021 for updates",
+		"jcr:lastModifiedBy": "admin",
+		"altText": "Bell Icon",
+		"ariaLabel": "test",
+		"jcr:created": "Thu Mar 30 2023 03:24:46 GMT-0400",
+		"icon": "/content/dam/ets-org/icons/commons/bell.svg",
+		"onoff": "true",
+		"jcr:lastModified": "Thu Mar 30 2023 03:39:03 GMT-0400",
+		"sling:resourceType": "ets/components/alertmessage/v1/alertmessage",
+		"textIsRich": "true"
+	}
+}

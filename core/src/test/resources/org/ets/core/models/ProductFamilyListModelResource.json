@@ -1,0 +1,33 @@
+{
+	"product-family-list": {
+		"jcr:primaryType": "nt:unstructured",
+		"allResourcesTitle1": "View All Resources",
+		"allResourcesTitle2": "All Resources Title",
+		"allResourcesLink1": "/content/ets-org/language-master/en/home",
+		"allResourcesLink2": "/content/ets-org/language-master/en/home",
+		"allResourcesTitle": "View All Resources",
+		"newTab": "false",
+		"altText": [
+			"groupicon"
+		],
+		"imagePath": "/content/dam/ets-org/sprintdemo/background-image/video.png",
+		"link": "/content/ets-org/language-master/en/home",
+		"text": "Transcript Text",
+		"title": "The Praxis Family of Products",
+		"allResourcesLink": "/content/ets-org/language-master/en/home",
+		"ctaLinkAriaLabel1": "CTA Link Aria Label 1",
+		"ctaLinkAriaLabel2": "CTA Link Aria Label 2",
+		"tabtwotitle": "Assessments",
+		"tabonetitle": "Preparation",
+		"sling:resourceType": "ets/components/product-family-list",
+		"assetType": "video",
+		"thumbnail": "/content/dam/ets-org/background-image/video.png",
+		"videoPath": "/content/dam/ets-org/socials/linkedin_icon.svg",
+		"textIsRich": [
+			"true",
+			"true"
+		],
+		"newTab1": "true",
+		"newTab2": "false"
+	}
+}

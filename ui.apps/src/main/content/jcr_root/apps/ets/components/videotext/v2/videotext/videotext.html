@@ -1,0 +1,49 @@
+<sly data-sly-use.videoList="org.ets.core.models.VideoListModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !videoList.url && !videoList.videoPath,classAppend='cmp-text'}"></sly>
+<sly data-sly-test="${videoList.url || videoList.videoPath || videoList.videoid}">
+    <div class="cmp-teaser--videotext">
+        <section class="videoText">
+            <div class="videoText__container">
+			<img src="/content/dam/ets-org/icons/commons/video-play-icon.svg" class="videoText__container__playButton" alt="Play video button" aria-label="Play video button">
+                <sly data-sly-test="${videoList.videoType == 'DamVideo'}"><img tabindex="0" data-video-id="video-element-${currentNode.getName}" data-bs-toggle="modal" data-src="${videoList.videoPath}" data-bs-target="#myModal_${currentNode.getName}" src="${videoList.thumbnail}" alt="${videoList.altText}" aria-label="${videoList.videoAriaLabel}"/></sly>
+                <sly data-sly-test="${videoList.videoType == 'UrlVideo'}"><img tabindex="0" data-video-id="video-element-${currentNode.getName}" data-bs-toggle="modal" data-src="${videoList.url}" data-bs-target="#myModal_${currentNode.getName}" src="${videoList.thumbnail}" alt="${videoList.altText}" aria-label="${videoList.videoAriaLabel}"/></sly>
+                <sly data-sly-test="${videoList.videoType == 'KalturaVideo'}"><img tabindex="0"  data-video-id="kaltura_player_289769231_${currentNode.getName}" data-bs-toggle="modal" data-bs-target="#myModal_${currentNode.getName}" data-video-type="${videoList.videoType}" data-w-id="${inheritedPageProperties.partnerID}" data-uiconf-id="${inheritedPageProperties.embedID}" data-kalturavideo-id="${videoList.videoid}" data-target-id="kaltura_player_289769231_${currentNode.getName}" data-node-name="${currentNode.getName}" src="${videoList.thumbnail}" alt="${videoList.altText}" aria-label="${videoList.videoAriaLabel}"/></sly>
+                <sly data-sly-test="${videoList.link}">
+                <a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=videoList.link}"
+                   href="${linkValidate.link}" class="view-transcript cta-link" target="${videoList.newTab ? '_blank' : ''}" rel="${videoList.newTab ? 'noopener noreferrer' : ''}">${videoList.text} </a></sly>
+            </div>
+            <div class="videoText__content">
+                <div data-sly-include="${'teaser.html'}"></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal Video Container -->
+    <div class="modal-container">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal_${currentNode.getName}" tabindex="-1" role="dialog" aria-labelledby="OpenVideo_${currentNode.getName}" aria-hidden="true">
+        	<span id="OpenVideo_${currentNode.getName}" class="d-none">${videoList.modalAriaLabel || 'Open video' }</span>
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="${videoList.closeButtonAriaLabel}"></span>
+                        </button>
+                        <!-- 16:9 aspect ratio -->
+                        <div id="modal-video-player_${currentNode.getName}" class="ratio ratio-16x9">
+                            <sly data-sly-test="${wcmmode.edit}">
+                                <sly data-sly-test="${videoList.videoType == 'DamVideo'}"><video controls id="video-element-${currentNode.getName}" src="${videoList.videoPath}" preload="auto"></video></sly>
+                                <sly data-sly-test="${videoList.videoType == 'UrlVideo'}"><iframe id="video-element-${currentNode.getName}" src="${videoList.url}" allow="fullscreen;autoplay" allowscriptaccess="always"></iframe></sly>
+                                <sly data-sly-test="${videoList.videoType == 'KalturaVideo'}"><div id="kaltura_player_289769231_${currentNode.getName}"></div></sly>
+                            </sly>
+                            <sly data-sly-test="${wcmmode.disabled}">
+                                <sly data-sly-test="${videoList.videoType == 'DamVideo'}"><video autoplay controls id="video-element-${currentNode.getName}" src="${videoList.videoPath}" preload="auto"></video></sly>
+                                <sly data-sly-test="${videoList.videoType == 'UrlVideo'}"><iframe id="video-element-${currentNode.getName}" src="${videoList.url}" allow="fullscreen;autoplay" allowscriptaccess="always"></iframe></sly>
+                                <sly data-sly-test="${videoList.videoType == 'KalturaVideo'}"><div id="kaltura_player_289769231_${currentNode.getName}"></div></sly>
+                            </sly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</sly>

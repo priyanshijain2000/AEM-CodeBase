@@ -1,0 +1,51 @@
+<sly data-sly-use.productFamily="org.ets.core.models.ProductFamilyListModel"/>
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+
+<sly
+        data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+        data-sly-call="${templates.placeholder @ isEmpty = !productFamily.title,classAppend='cmp-text'}">
+</sly>
+
+<section>
+    <div data-sly-test="${productFamily.title}" class="product product--theme">
+        <div class="cmp-container--body mobile-no-margin position-relative">
+            <div class="row product--theme--bg position-relative">
+                <div class="col-lg-6 product--img">
+                    <h2 class="label-title product--img__title">${productFamily.title}</h2>
+                    <sly data-sly-test="${productFamily.assetType=='image'}">
+                        <img src="${productFamily.imagePath ? productFamily.imagePath : '/content/dam/ets-org/general/placeholders/img-plchldr-featured-news.jpg'}" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" alt="${productFamily.altText || true}" width="100%" />
+                    </sly>
+                    <div data-sly-test="${productFamily.assetType=='video'}">
+                        <video controls id="video-element" src="${productFamily.videoPath}" preload="auto" alt="video-thumbnail" poster="${productFamily.thumbnail}"></video>
+                        <a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=productFamily.link}"
+                           href="${linkValidate.link}" class="view-transcript white" target="${productFamily.newTab ? '_blank' : ''}" rel="${productFamily.newTab ? 'noopener noreferrer' : ''}">${productFamily.text}</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 product--list">
+                    <div class="product--list__item">
+                        <div class="heading5 product--list__title">${productFamily.tabonetitle}</div>
+                        <ul class="list-group list-group-flush mb-2" data-sly-list.option="${multifieldMap.tabonedetails.listChildren}">
+                            <li class="list-group-item list-group-item-action">
+                                <a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=option.ctaButtonLink}" target="${option.newTab ? '_blank' : ''}" href="${linkValidate.link}" rel="${option.newTab ? 'noopener noreferrer' : ''}" aria-label="${option.ctaButtonAriaLabel1}">${option.buttonlabel @context='html'}</a>
+                            </li>
+                        </ul>
+                        <div data-sly-test="${productFamily.allResourcesTitle1}" class="view-all-links">
+                            <a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=productFamily.allResourcesLink1}" target="${productFamily.newTab1 ? '_blank' : ''}" rel="${productFamily.newTab1 ? 'noopener noreferrer' : ''}" href="${linkValidate.link}" class="cta-link" aria-label="${productFamily.ctaLinkAriaLabel1}">${productFamily.allResourcesTitle1}</a>
+                        </div>
+                    </div>
+                    <div class="product--list__item">
+                        <div class="heading5 product--list__title">${productFamily.tabtwotitle}</div>
+                        <ul class="list-group list-group-flush mb-2" data-sly-list.option="${multifieldMap.tabtwodetails.listChildren}">
+                            <li class="list-group-item list-group-item-action"><a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=option.ctaButtonLink}" target="${option.newTab ? '_blank' : ''}" rel="${option.newTab ? 'noopener noreferrer' : ''}" href="${linkValidate.link}" aria-label="${option.ctaButtonAriaLabel2}"> ${option.buttonlabel @context='html'}</a></li>
+                        </ul>
+                        <div data-sly-test="${productFamily.allResourcesTitle2}" class="view-all-links">
+                            <a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=productFamily.allResourcesLink2}" target="${productFamily.newTab2 ? '_blank' : ''}" rel="${productFamily.newTab2 ? 'noopener noreferrer' : ''}" href="${linkValidate.link}" class="cta-link" aria-label="${productFamily.ctaLinkAriaLabel2}">${productFamily.allResourcesTitle2}</a>
+                        </div>
+                    </div>
+                </div>
+                <sly data-sly-include="/apps/ets/components/pills-component/praxis/pills2.html"></sly>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,15 @@
+{
+	"publication": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:lastModifiedBy": "admin",
+		"inputPaginationAriaLabel": "enter page number",
+		"prevLabel": "Previous ",
+		"path": "/bin/ets/researcher-solr.json",
+		"jcr:lastModified": "Wed Sep 06 2023 10:28:16 GMT-0400",
+		"nextAriaLabel": "next",
+		"nextLabel": "Next",
+		"sling:resourceType": "ets/components/research-author-publications",
+		"countText": "Of",
+		"prevAriaLabel": "previous"
+	}
+}

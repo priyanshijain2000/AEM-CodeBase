@@ -1,0 +1,46 @@
+<sly data-sly-use.scoreRequirement="org.ets.core.models.ScoreRequirementModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = true,classAppend='cmp-text'}"></sly>
+<sly data-sly-test="${scoreRequirement.path}">
+    <section class="score-requirement cmp-container--body">
+        <section class="score-requirement-filters d-flex justify-content-center">
+            <div class="select2-wraper">
+                <select class="score-requirement-state-dropdown" data-placeholder="${scoreRequirement.stateph}" multiple="multiple" aria-label="${scoreRequirement.stateAriaLabel}" autocomplete="off">
+                    <option></option>
+                </select>
+                <div id="scorerequirementstatechips" class="multiple-select-chips d-none">
+                    <div class="clear-items"><a class="clear-chips stateChipsClear" href="#">Clear the selected items</a></div>
+                </div>
+                <div id="stateDropdownAnnouncement" aria-live="polite" class="dropdown-hidden"></div>
+            </div>
+            <div class="select2-wraper">
+                <select class="score-requirement-test-dropdown" data-placeholder="${scoreRequirement.testph}" multiple="multiple" aria-label="${scoreRequirement.testAriaLabel}" autocomplete="off">
+                    <option></option>
+                </select>
+                <div id="scorerequirementtestchips" class="multiple-select-chips d-none">
+                    <div class="clear-items"><a class="clear-chips testChipsClear" href="#">Clear the selected items</a></div>
+                </div>
+                <div id="testDropdownAnnouncement" aria-live="polite" class="dropdown-hidden"></div>
+            </div>
+        </section>
+        <div id="score-requirement-selected-list"></div>
+        <table id="score-requirement-table" data-score-requirement-path="${scoreRequirement.path}">
+            <thead>
+            <tr>
+                <th>${scoreRequirement.stateLabel}</th>
+                <th>${scoreRequirement.codeLabel}</th>
+                <th>${scoreRequirement.testLabel}</th>
+                <th><span class="d-none d-md-inline">Qualifying </span>${scoreRequirement.scoreLabel}</th>
+            </tr>
+            </thead>
+            <tbody class="score-requirement-table-content">
+            </tbody>
+        </table>
+        <section class="footnote">
+        </section>
+        <div class="litePagination scoreRequirementPagination cmp-button--tertiary d-none">
+            <a href="#" class="previous button cmp-button hover--primary cmp-button-arrow" aria-label="${scoreRequirement.prevAriaLabel || 'previous page'}" data-action="previous"><span class="cmp-button__icon--leftArrowBlue" aria-hidden="true"></span>${scoreRequirement.prevLabel || 'Previous'}</a>
+            <input aria-label="${scoreRequirement.inputPaginationAriaLabel || 'Enter page number'}" type="text" autocomplete="off"/> <div class="page-result-text"><span class="current-page d-none">0</span> ${scoreRequirement.countTextLabel || 'of'} <span class="max-page">0</span></div>
+            <a href="#" class="next button cmp-button hover--primary" aria-label="${scoreRequirement.nextAriaLabel || 'next page'}" data-action="next">${scoreRequirement.nextLabel || 'Next'}<span class="cmp-button__icon--rightArrowBlue" aria-hidden="true"></span></a>
+        </div>
+    </section>
+</sly>

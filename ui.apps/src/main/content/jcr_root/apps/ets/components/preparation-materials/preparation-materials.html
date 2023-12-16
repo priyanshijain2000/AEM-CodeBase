@@ -1,0 +1,27 @@
+<sly data-sly-use.prepareTestObj="org.ets.core.models.PrepareTestModel"></sly>
+<sly data-sly-test.prepareTestList=${prepareTestObj.getCsList}></sly>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = prepareTestList.isEmpty,classAppend='cmp-text'}"></sly>
+<sly data-sly-test="${prepareTestObj.path}">
+	<div class="preparation-container--body">
+		<form class="field">
+			<div class="field-groups">
+				<label class="form-label form-label-text">${prepareTestObj.description @context='html'}</label>
+				<div class="customselectsearch" tabindex="-1" role="button" aria-haspopup="listbox">
+					<select data-param-name="${prepareTestObj.pageParamsName}" data-prep-id="preparationMaterial_${currentNode.getName}"
+					 name="select" class="preparation-material-dropdown" aria-label="${prepareTestObj.prepAriaLabel}" 
+					  data-placeholder="${prepareTestObj.placeholderText}" autocomplete="off">
+					<option testid="" path="" ></option>
+					<sly data-sly-list.option=${prepareTestObj.getCsList}>
+						<option testid="${option.getName}" path="${option.getPath}" value="${option.getTitle}">${option.getTitle}</option>
+					</sly>
+					</select>
+				</div>
+				<div class="invalid-test-id-error form-label-text d-none errorpreparationMaterial_${currentNode.getName}">${prepareTestObj.errorMessage}</div>
+				<div data-sly-test="${!prepareTestObj.disableXfTitle}" class="search-result-title-text preparationMaterial_${currentNode.getName}"></div>
+			</div>
+		</form>
+		<div id="preparationMaterial_${currentNode.getName}" class="search-result-container"></div>
+	</div>
+</sly>
+
+

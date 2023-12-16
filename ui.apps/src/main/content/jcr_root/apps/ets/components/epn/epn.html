@@ -1,0 +1,16 @@
+<sly data-sly-use.epn="org.ets.core.models.EPNModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = true,classAppend='cmp-text'}"></sly>
+
+<section class="contact-epn cmp-container--body mobile-no-margin ">
+    <section class="contact-epn-filters d-flex justify-content-left">
+        <select class="epn-country-dropdown" aria-label="Select country name" data-placeholder="${epn.placeholder1}"><option></option></select>
+        <select class="epn-product-dropdown" aria-label="Select Product and services" data-placeholder="${epn.placeholder2}"><option></option></select>
+    </section>
+    <div id="contact-epn-selected-list"></div>
+    <div id="titleEpn"></div>
+    <div id="disclaimer" class=" result-desc"></div>
+    <table id="contact-epn-table" data-contact-epn-path="${epn.path}">
+
+    </table>
+
+</section>

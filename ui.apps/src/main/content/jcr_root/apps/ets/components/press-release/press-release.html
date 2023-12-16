@@ -1,0 +1,26 @@
+<sly data-sly-use.pressRelease="org.ets.core.models.PressReleaseModel">
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !pressRelease.learnButtonTitle,classAppend='cmp-text'}"></sly>
+
+<section>
+    <div class="cmp-container--body">
+        <div class="press-release-filters">
+            <select name="select" class="press-release-dropdown" aria-label="${pressRelease.dropdownAriaLabel}" id="filterdropDown">
+                <option class="select__item--selected" value="">${pressRelease.allCategoryLabel}</option>
+            </select>
+        </div>
+        <div class="card-group press-release-cards" id="press-release-group" data-content-type="${pressRelease.contentType || ''}" data-display-date="${pressRelease.isDisplayDate}" data-press-release-path="${pressRelease.path || '/content/ets-org/language-master/en'}" data-learn-more-text="${pressRelease.learnButtonTitle}">
+        </div>
+        <div class="litePagination pressreleasePagination cmp-button--tertiary d-none">
+             <a href="#" class="previous button cmp-button hover--primary cmp-button-arrow" aria-label="${pressRelease.prevAriaLabel || 'previous page'}" data-action="previous">
+             	<span class="cmp-button__icon--leftArrowBlue" aria-hidden="true"></span>${pressRelease.prevLabel || 'Previous'}
+             </a>
+             <input aria-label="${pressRelease.inputPaginationAriaLabel || 'Enter page number'}" type="text" />
+             <div class="page-result-text">
+             	<span class="current-page d-none">0</span> ${pressRelease.countTextLabel || 'of'} <span class="max-page">0</span>
+             </div>
+             <a href="#" class="next button cmp-button hover--primary" aria-label="${pressRelease.nextAriaLabel || 'next page'}" data-action="next">
+             	${pressRelease.nextLabel || 'Next'}<span class="cmp-button__icon--rightArrowBlue" aria-hidden="true"></span>
+             </a>
+         </div>
+    </div>
+</section>

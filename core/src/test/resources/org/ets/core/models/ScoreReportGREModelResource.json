@@ -1,0 +1,22 @@
+{
+	"score-report-gre": {
+		"jcr:primaryType": "nt:unstructured",
+		"monthLabel": "Month",
+		"monthPlaceholder": "Month",
+		"monthAriaLabel": "Select month",
+		"yearLabel": "Year",
+		"yearPlaceholder": "Year",
+		"dateLabel": "Select your test date",
+		"desc1": "<p>Your tested on <span class=\"testdatevalue\">[testdate] </span>:</p>\r\n<p>Your scores can be reported through <span class=\"reportdatevalue fw-bold\">[date]</span>.</p>\r\n",
+		"desc2": "Your test date is more than five years ago and your scores can no longer be reported.",
+		"disclaimerAlt": "Disclaimer Icon",
+		"dateAriaLabel": "Select date",
+		"yearAriaLabel": "Select year",
+		"sling:resourceType": "ets/components/score-report-gre",
+		"datePlaceholder": "Date",
+		"textIsRich": [
+			"true",
+			"true"
+		]
+	}
+}

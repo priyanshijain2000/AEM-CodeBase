@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2023-01-25T09:19:08.857Z"
+        cq:lastModifiedBy="PJAIN003@ets.org"
+        cq:lastReplicated="{Date}2023-01-25T11:35:59.284Z"
+        cq:lastReplicated_preview="{Date}2023-02-13T03:11:16.915Z"
+        cq:lastReplicated_publish="{Date}2023-01-25T11:35:59.284Z"
+        cq:lastReplicatedBy="PJAIN003@ets.org"
+        cq:lastReplicatedBy_preview="RBOPPANA@ets.org"
+        cq:lastReplicatedBy_publish="PJAIN003@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/conf/ets/settings/wcm/templates/sls-form-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:uuid="db165518-2d6e-478d-a7a8-445a58a55499"
+        sling:resourceType="ets/components/generic-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="responsiveGrid">
+            <container_1448755308
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                layout="simple">
+                <experiencefragment
+                    jcr:lastModified="{Date}2023-01-13T10:25:41.128Z"
+                    jcr:lastModifiedBy="PJAIN003@ets.org"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/ets-org/language_master/en/form_headers/sls-generic/master"
+                    text="Home GRE PRAXIS TOEIC TOEFL ALL PRODUCTS CONTACT Login / Register Close Products GRE PRAXIS TOEIC TOEFL ALL PRODUCTS RESOURCES SLLA TEST PREP SSA TEST PREP CONNECTICUT ADMINISTRATOR TEST PREP VIDEOS STATE REQUIREMENTS REGISTRATION WHERE TO TEST HOW TO REGISTER SCHEDULE YOUR TEST AT HOME TESTING REQUIREMENTS DISABILITY ACCOMMODATIONS TEST DAY AT HOME TESTING TEST CENTER TESTING SCORES GETTING YOUR SCORES SENDING YOUR SCORES UNDERSTANDING YOUR SCORES Login / Register CONTACT"/>
+            </container_1448755308>
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

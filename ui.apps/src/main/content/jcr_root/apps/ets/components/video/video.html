@@ -1,0 +1,60 @@
+<sly data-sly-use.videoObj="org.ets.core.models.VideoModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !videoObj.videoid,classAppend='cmp-text'}"></sly>
+<sly data-sly-test="${!inheritedPageProperties.partnerID || !inheritedPageProperties.embedID}">
+    *******************!!!KALTURA CONFIGURATIONS ARE MISSING. PLEASE CONFIGURE THEM TO VIEW THE VIDEO!!!*******************
+</sly>
+<div data-sly-test="${videoObj.videoid && inheritedPageProperties.partnerID && inheritedPageProperties.embedID}" class="cmp-container--body">
+    <section class="video-container row ${videoObj.layoutStyle}">
+        <div class="video-container__video ratio ratio-16x9">
+            <div id="kaltura_player_289769231_${currentNode.getName}"></div>
+        </div>
+        <div data-sly-test="${videoObj.link}">
+            <a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=videoObj.link}" href="${linkValidate.link}" class="view-transcript" alt="${videoObj.altText}" target="${videoObj.newTab ? '_blank' : ''}" rel="${videoObj.newTab ? 'noopener noreferrer' : ''}">${videoObj.text}</a>
+        </div>
+        <div class="videoText__content">
+            <h2>${videoObj.description @context='html'}</h2>
+        </div>
+    </section>
+    <div data-sly-test="${videoObj.caption}" class="video-caption">${videoObj.caption}</div>
+</div>
+
+<sly data-sly-test="${videoObj.videoid && inheritedPageProperties.partnerID && inheritedPageProperties.embedID && videoObj.thumbnail}">
+    <!-- start embed -->
+    <!-- kaltura api -->
+    <script>
+        try {
+            var kalturaPlayer = KalturaPlayer.setup({
+            targetId: "kaltura_player_289769231_${currentNode.getName @ context='scriptString'}",
+            provider: {
+              partnerId: ${inheritedPageProperties.partnerID @ context='scriptString'},
+              uiConfId: ${inheritedPageProperties.embedID @ context='scriptString'}
+            }
+            });
+          kalturaPlayer.loadMedia({entryId: "${videoObj.videoid @ context='scriptString'}"});
+          } catch (e) {
+          console.error(e.message);
+        }
+    </script>
+    <!-- kaltura api -->
+    <!-- VIDEO START -->
+</sly>
+<sly data-sly-test="${videoObj.videoid && inheritedPageProperties.partnerID && inheritedPageProperties.embedID && !videoObj.thumbnail}">
+    <!-- start embed -->
+    <!-- kaltura api -->
+    <script>
+        try {
+            var kalturaPlayer = KalturaPlayer.setup({
+            targetId: "kaltura_player_289769231_${currentNode.getName @ context='scriptString'}",
+            provider: {
+              partnerId: ${inheritedPageProperties.partnerID @ context='scriptString'},
+              uiConfId: ${inheritedPageProperties.embedID @ context='scriptString'}
+            }
+            });
+          kalturaPlayer.loadMedia({entryId: "${videoObj.videoid @ context='scriptString'}"});
+        } catch (e) {
+          console.error(e.message);
+        }
+    </script>
+    <!-- kaltura api -->
+    <!-- VIDEO START -->
+</sly>

@@ -1,0 +1,17 @@
+
+<template data-sly-template.variation7="${@ inputData}">
+    <section class="test-fee-filter cmp-container--body">
+        <div data-sly-test="${inputData.sectionTitle}" class="test-fee-filter__title">${inputData.sectionTitle @context='html'}</div>
+        <select class="test-fee-dropdown" id="test-fee" data-test-fee-path="${inputData.json}" data-placeholder="${inputData.placeholderText}" aria-label="${inputData.inputAriaLabel}">
+            <option></option>
+        </select>
+        <table class="test-fee-filter__table" role="table">
+            <tbody class="test-fee-filter__table__content">
+                <tr>
+                    <th scope="col">Country</th>
+                    <th scope="col">Test Fee (USD)</th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</template>

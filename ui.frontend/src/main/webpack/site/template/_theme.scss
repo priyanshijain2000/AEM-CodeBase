@@ -1,0 +1,1158 @@
+@mixin contentTheme( $theme-color: #003356, $theme-background: #003356, $theme-darkColor: 003356, $theme-card-tiles-color: $color-ETS-cerulean, $theme-gradiant: $color-cerulean-gradiant, $theme-border: $border-button-blue) {
+    .socialLinksBackground {
+        background: $theme-background;
+    }
+    .cmp-sociallinks {
+        background: $theme-background;
+    }
+    .heroBannerComponent {
+        .journeyContainer {
+            .journeyTitle {
+                color: $theme-color;
+            }
+            .journeyTabs {
+                li:hover {
+                    background-color: $theme-color;
+                    transform: scale(1.1);
+                    .svg-icon-fill-color {
+                        fill: #ffffff;
+                    }
+                    .svg-icon-stroke-color {
+                        stroke: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+    a.cta-btn-bg-tab:hover,
+    a.cta-btn-bg-tab:focus {
+        text-decoration: none;
+        color: #ffffff;
+        background: $theme-gradiant;
+        border-radius: 1rem;
+    }
+    .breadcrumb-lastchild-text {
+        color: $theme-color;
+    }
+    .cmp-breadcrumb {
+        &__item {
+            &:last-child {
+                span {
+                    color: $theme-color;
+                    &.back-icon {
+                        font-weight: 700;
+                        &:before {
+                            content: "";
+                            border: solid $theme-color;
+                            border-width: 0 2px 2px 0;
+                            display: inline-block;
+                            padding: 3px;
+                            transform: rotate(135deg);
+                            -webkit-transform: rotate(135deg);
+                            margin: 1px 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    a.cta-btn-white-bg-tab:hover,
+    a.cta-btn-white-bg-tab:focus {
+        text-decoration: none;
+        color: $theme-color;
+        border-bottom: 0.625rem solid $theme-color;
+        background-color: transparent;
+        border-radius: 0;
+    }
+    a.cta-btn-bg-tab:focus,
+    a.cta-btn-white-bg-tab:focus {
+        outline: -webkit-focus-ring-color auto 1px;
+    }
+    .cta-btn-white-bg-tab.active {
+        color: $theme-color;
+        border-bottom: 0.625rem solid $theme-color;
+    }
+    .cta-btn-bg-tab.active {
+        text-decoration: none;
+        color: #ffffff;
+        background: $theme-gradiant;
+    }
+    .cmp-secnavigation--thirdnav {
+        .cmp-navigation__item-link {
+            &:hover {
+                color: $theme-color;
+                border-bottom: 0.625rem solid $theme-color;
+                background-color: transparent;
+                border-radius: 0;
+                @include for-size(only-mobile) {
+                    border-bottom: none;
+                    color: #003356;
+                    background-color: #e9ecef;
+                }
+            }
+        }
+        .cmp-navigation__item--active {
+            .cmp-navigation__item-link {
+                color: $theme-color;
+                border-bottom: 0.625rem solid $theme-color;
+                background: transparent;
+                @include for-size(only-mobile) {
+                    border-bottom: none;
+                    color: #003356;
+                }
+            }
+        }
+    }
+    .cmp-secnavigation {
+        .cmp-navigation__item-link {
+            &:focus {
+                outline: -webkit-focus-ring-color auto 1px;
+                @include for-size(only-mobile) {
+                    outline-offset: -2px;
+                }
+            }
+            &:hover {
+                text-decoration: none;
+                color: #ffffff;
+                background: $theme-gradiant;
+                border-radius: 1rem;
+            }
+        }
+        .cmp-navigation__item--active {
+            .cmp-navigation__item-link {
+                text-decoration: none;
+                color: #ffffff;
+                background: $theme-gradiant;
+                &:focus {
+                    outline: -webkit-focus-ring-color auto 1px;
+                }
+            }
+        }
+    }
+    // table {
+    //     tbody {
+    //         tr:first-child {
+    //             border-bottom: 5px solid $theme-darkColor;
+    //         }
+    //         tr:last-child td,
+    //         tr:last-child th {
+    //             border-bottom: 3px solid $theme-darkColor;
+    //         }
+    //     }
+    // }
+    .reg-info {
+        .cards {
+            .card {
+                background: $theme-color;
+                &-body {
+                    &--count {
+                        border: 4px solid $theme-card-tiles-color;
+                    }
+                }
+                &:not(:last-child):after {
+                    border-left: 40px solid transparent;
+                    border-right: 40px solid transparent;
+                    border-top: 50px solid $theme-color;
+                    border-bottom: 0;
+                    @include viewport(tablet-desktop) {
+                        border-top: 40px solid transparent;
+                        border-left: 50px solid $theme-color;
+                        border-bottom: 40px solid transparent;
+                        border-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    .card-heading-seperator {
+        &-stroke {
+            &-big {
+                background: $theme-card-tiles-color;
+            }
+            &-small {
+                background: $theme-card-tiles-color;
+            }
+        }
+    }
+    .card-heading-separator {
+        &-stroke {
+            &-big {
+                background: $theme-card-tiles-color;
+            }
+            &-small {
+                background: $theme-card-tiles-color;
+            }
+        }
+    }
+    .info-card {
+        &-container {
+            h5,
+            .heading5 {
+                color: $theme-color;
+            }
+        }
+    }
+    .card-body {
+        h5,
+        .heading5 {
+            color: $theme-color;
+        }
+    }
+    .icon-button {
+        &-list {
+            &:hover {
+                background: $theme-color;
+                border: $theme-border;
+                .icon-button {
+                    &-list {
+                        &-link {
+                            &-text {
+                                color: $color-white;
+                            }
+                        }
+                    }
+                }
+                .svg-icon-fill-color {
+                    fill: #ffffff;
+                }
+                .svg-icon-stroke-color {
+                    stroke: #ffffff;
+                }
+            }
+        }
+        /*V2*/
+        .cmp-teaser--resource {
+            .cmp-teaser {
+                &__title {
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+    .text {
+        &.heading4 {
+            color: $theme-color;
+        }
+    }
+    .carousel-bg {
+        background-color: $theme-color;
+    }
+    .score-requirement {
+        table {
+            tbody {
+                tr:first-child {
+                    td {
+                        border-top: 5px solid $theme-darkColor;
+                    }
+                }
+                tr:last-child {
+                    td {
+                        border-bottom: 5px solid $theme-darkColor;
+                    }
+                }
+            }
+        }
+    }
+    .theme-color {
+        color: $theme-color;
+    }
+    .discription-rte-text-highlighter {
+        color: $theme-color;
+    }
+    .core-values {
+        h5,
+        .heading5 {
+            color: $theme-color;
+        }
+    }
+    .cmp-infocards {
+        .cmp-title__text {
+            color: $theme-color!important;
+        }
+    }
+    .cmp-title--brandtheme {
+        .cmp-title {
+            &__text {
+                color: $theme-color;
+            }
+        }
+    }
+    .test-info {
+        .body-text {
+            span {
+                color: $theme-color;
+            }
+        }
+    }
+    .calendar-popup-container {
+        &--testcenter {
+            &--title {
+                @include fontsize(1.313rem, 1.75rem, $bold, $theme-color, initial);
+            }
+        }
+    }
+    .schedule-calendar-component {
+        &--legends {
+            &--test-center {
+                color: $theme-color;
+            }
+        }
+        .test-center-label {
+            color: $theme-color;
+            border-bottom: 0.75px dashed $theme-color;
+        }
+    }
+    .svg-icon-fill-color {
+        fill: $theme-color;
+    }
+    .svg-icon-stroke-color {
+        stroke: $theme-color;
+    }
+    .toefl-modernization-dialog {
+        .copy-link-container {
+            background-color: $theme-background;
+        }
+    }
+}
+
+.theme {
+    &-generic {
+        @include contentTheme( $color-ETS-midnight, $color-ETS-midnight, $color-ETS-midnight, $color-ETS-cerulean, $color-cerulean-gradiant);
+        blockquote::after,
+        blockquote::before {
+            color: $color-ETS-cerulean;
+        }
+        .theme-gradient.socialLinksBackground,.theme-gradient.cmp-sociallinks{
+			background: linear-gradient(98deg, rgba(0,51,86,1) 0%, rgba(48,114,190,1) 100%);
+		}
+    }
+    &-praxis {
+        @include contentTheme( $color-Praxis-red, $color-Praxis-maroon, $color-Praxis-dark-red, $color-paraxis-gradient-stop, $color-Praxis-gradiant);
+        blockquote::after,
+        blockquote::before {
+            color: $color-Praxis-grey;
+        }
+        .theme-gradient.socialLinksBackground,.theme-gradient.cmp-sociallinks{
+			background: linear-gradient(98deg, rgba(175,31,35,1) 0%, rgba(69,3,3,1) 100%);
+		}
+    }
+    &-toefl {
+        @include contentTheme( $color-toefl-Green, $color-toefl-dk-green-off, $color-toefl-Green, $color-toefl-dk-green-off, $color-toefl-gradiant);
+        blockquote::after,
+        blockquote::before {
+            color: $color-orange;
+        }
+        .theme-gradient.socialLinksBackground,.theme-gradient.cmp-sociallinks{
+			background: linear-gradient(270deg,transparent 40%,#27585b 0,#255457 11%,#163234 96%);
+		}
+    }
+    &-gre {
+        @include contentTheme( $color-GRE-primary, $color-GRE-orange, $color-GRE-Dark-Purple, $color-GRE-Dark-Purple, $color-GRE-gradiant);
+        blockquote::after,
+        blockquote::before {
+            color: $color-gre-primary;
+        }
+        .theme-gradient.socialLinksBackground,.theme-gradient.cmp-sociallinks{
+        	background: linear-gradient(98deg, rgba(124,50,101,1) 0%, rgba(56,0,46,1) 100%);
+        }
+    }
+    &-toeic {
+        @include contentTheme( $color-TOEIC-Dark-Green, $color-TOEIC-Extra-Dark, $color-TOEIC-Dark-Green, $color-TOEIC-Green, $color-toeic-gradiant);
+        blockquote::after,
+        blockquote::before {
+            color: $color-TOEIC-Green;
+        }
+        .theme-cta {
+            background: $color-TOEIC-Dark-Green;
+        }
+        .theme-gradient.socialLinksBackground,.theme-gradient.cmp-sociallinks{
+        	background: linear-gradient(100deg, rgba(180,189,16,1) 0%, rgba(43,111,43,1) 41%, rgba(0,77,46,1) 100%);
+        }
+    }
+    &-r3cc {
+        @include contentTheme( $color-ETS-midnight, $color-r3cc-yellow-sociallink, $color-r3cc-dark-theme, $color-r3cc-dark-theme, $color-r3cc-gradiant);
+        blockquote::after,
+        blockquote::before {
+            color: $color-ETS-midnight;
+        }
+        .theme-gradient.socialLinksBackground,.theme-gradient.cmp-sociallinks{
+        	background: linear-gradient(98deg, rgba(255, 138, 39,1) 0%, rgb(152, 69, 2) 100%);
+        }
+        .cmp-sociallinks .cmp-container  {
+            .title .cmp-title__text {
+                color: #003356;
+            }
+            .socialteaser {
+                .cmp-socialteaser {
+                    .cmp-teaser {
+                        &__title {
+                            color: #003356;
+                        }
+                        &__link {
+                            color: #003356;
+                            &:hover {
+                                text-decoration: underline;
+                                color: #003356;
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }
+    &-psq {
+        @include contentTheme($color-ETS-PSQ-purple-dark, $color-ETS-PSQ-dark-blue, $color-ETS-PSQ-dark-blue, $color-ETS-PSQ-dark-blue, $color-ETS-PSQ-gradiant);
+        blockquote::after,
+        blockquote::before {
+            color: $color-ETS-PSQ-purple-dark;
+        }
+    }
+    &-mft {
+        @include contentTheme( $color-mft-primary, $color-mft-dark-violet, $color-ETS-midnight, $color-mft-dark-violet, $color-mft-dark-violet);
+        blockquote::after,
+        blockquote::before {
+            color: $color-mft-primary;
+        }
+    }
+    &-rnd {
+        @include contentTheme( $color-ETS-midnight, $color-ETS-midnight, $color-ETS-midnight, $color-ETS-midnight, $color-cerulean-gradiant);
+        blockquote::after,
+        blockquote::before {
+            color: $color-ETS-cerulean;
+        }
+        .heroBannerComponent {
+            .journeyContainer {
+                .journeyTitle {
+                    background: $color-rnd-azure;
+                    //-webkit-text-fill-color: transparent;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                }
+                .journeyTabs {
+                    li:hover {
+                        background: $color-rnd-azure;
+                    }
+                }
+            }
+        }
+        .info-card {
+            &-container {
+                h5,
+                .heading5 {
+                    background: $color-rnd-azure;
+                    //-webkit-text-fill-color: transparent;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                }
+            }
+        }
+        .card-body {
+            h5,
+            .heading5 {
+                background: $color-rnd-azure;
+                //-webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+            }
+        }
+        .reg-info {
+            .cards {
+                .card {
+                    &-body {
+                        &--count {
+                            border: 4px solid $color-ETS-cerulean;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*product Family theme*/
+
+@mixin productFamilyTheme( $theme-primary-bg, $list-bg, $list-color, $list-body-color) {
+    .product {
+        &--theme {
+            background: linear-gradient( to left, transparent 40%, $theme-primary-bg 40%);
+        }
+        &--theme--bg {
+            background: linear-gradient( to left, transparent 27%, $theme-primary-bg 27%);
+        }
+        &--list {
+            background-color: $list-bg;
+            &__item {
+                .list-group {
+                    &-item {
+                        &.active,
+                        &:hover {
+                            a {
+                                color: $list-color;
+                            }
+                            border-left: 5px solid $list-color;
+                        }
+                    }
+                }
+            }
+            &__title {
+                color: $list-color;
+            }
+        }
+    }
+    @include viewport(mobile-tab-portrait) {
+        .product {
+            &--theme {
+                background: linear-gradient( to top, $color-white 10%, $theme-primary-bg 10%);
+            }
+            &--theme--bg {
+                background: linear-gradient( to top, $color-white 10%, $theme-primary-bg 10%);
+            }
+            &--list {
+                background-color: $list-bg;
+            }
+        }
+    }
+    @include viewport(mobile-tab-portrait) {
+        .product {
+            &--list {
+                background-color: transparent;
+                &__item {
+                    background-color: $list-bg;
+                }
+            }
+        }
+    }
+}
+
+@mixin carouselTheme( $background, $title, $text, $button, $slider, $theme-color, $theme-font, $link: $color-white) {
+    .cmp-button--primary .carousel-indicators {
+        >button[data-bs-target] {
+            border: 1px solid $btn-primary;
+            background-color: transparent;
+            &.active,
+            &.cmp-carousel__indicator--active {
+                background: $btn-primary;
+                border: 1px solid $btn-primary;
+                &:hover,
+                &:focus,
+                &:focus-visible {
+                    background: $btn-primary;
+                    border: 1px solid $btn-primary;
+                }
+                &:focus,
+                &:focus-visible {
+                    outline: 4px solid $color-carousel-indicator;
+                    outline-offset: 2px;
+                }
+            }
+            &:hover,
+            &:focus,
+            &:focus-visible {
+                border: 1px solid $color-white;
+                background-color: $color-slider-fill;
+            }
+            &:focus,
+            &:focus-visible {
+                border: 1px solid $color-white;
+                background-color: $color-slider-fill;
+                outline: 4px solid $color-carousel-indicator;
+                outline-offset: 2px;
+            }
+        }
+    }
+    .carousel {
+        &-bg {
+            background: $background;
+            .content {
+                &-title {
+                    color: $title;
+                }
+                &-desc {
+                    color: $text;
+                }
+                &:not(.dark) {
+                    .article-banner-button-band {
+                        .cta-text-link-white {
+                            color: $color-white;
+                            font-weight: $semibold;
+                            padding: 2px;
+                            white-space: nowrap;
+                            &:hover,
+                            &:focus {
+                                color: $color-navy;
+                                text-decoration: none;
+                                background-color: rgba(255, 255, 255, 0.65);
+                                border: 0;
+                                border-radius: 4px;
+                            }
+                            &:focus {
+                                outline: 2px solid $color-white;
+                                border-radius: 4px;
+                            }
+                        }
+                    }
+                }
+            }
+            &.carousel-container__item__variation2 {
+                &.carousel-theme {
+                    background: $theme-color;
+                    .content {
+                        &-title {
+                            color: $color-white;
+                        }
+                        &-desc {
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+        }
+        @media only screen and (min-width: 992px) {
+            &-bg {
+                background: linear-gradient(to left, transparent 40%, $background 40%);
+                &.carousel-container__item__variation2 {
+                    .carousel-theme {
+                        background-color: $theme-color;
+                    }
+                }
+            }
+        }
+        &-indicators {
+            >button[data-bs-target] {
+                border: 1px solid $color-white;
+                background-color: transparent;
+                &.active,
+                &.cmp-carousel__indicator--active {
+                    background: $color-white;
+                    border: 1px solid $color-white;
+                    &:hover,
+                    &:focus,
+                    &:focus-visible {
+                        background: $color-white;
+                        border: 1px solid $color-white;
+                    }
+                    &:focus,
+                    &:focus-visible {
+                        outline: 4px solid $color-carousel-indicator;
+                        outline-offset: 2px;
+                    }
+                }
+                &:hover,
+                &:focus,
+                &:focus-visible {
+                    border: 1px solid $color-white;
+                    background-color: $color-slider-fill;
+                }
+                &:focus,
+                &:focus-visible {
+                    border: 1px solid $color-white;
+                    background-color: $color-slider-fill;
+                    outline: 4px solid $color-carousel-indicator;
+                    outline-offset: 2px;
+                }
+            }
+            &.dark {
+                >button[data-bs-target] {
+                    border: 1px solid $btn-primary;
+                    background-color: transparent;
+                    &.active,
+                    &.cmp-carousel__indicator--active {
+                        background: $btn-primary;
+                        border: 1px solid $btn-primary;
+                        &:hover,
+                        &:focus,
+                        &:focus-visible {
+                            background: $btn-primary;
+                            border: 1px solid $btn-primary;
+                        }
+                        &:focus,
+                        &:focus-visible {
+                            outline: 4px solid $color-white;
+                            background-color: $color-ETS-cerulean;
+                        }
+                    }
+                    &:hover,
+                    &:focus,
+                    &:focus-visible {
+                        border: 1px solid $color-white;
+                        background-color: $color-slider-fill;
+                    }
+                    &:focus,
+                    &:focus-visible {
+                        border: 1px solid $color-white;
+                        outline: 4px solid $color-white;
+                        background-color: $color-ETS-cerulean;
+                    }
+                }
+            }
+            &.light {
+                >button[data-bs-target] {
+                    border: 1px solid $color-white;
+                    background-color: transparent;
+                    &.active,
+                    &.cmp-carousel__indicator--active {
+                        background: $color-white;
+                        border: 1px solid $color-white;
+                        &:hover,
+                        &:focus,
+                        &:focus-visible {
+                            background: $color-white;
+                            border: 1px solid $color-white;
+                        }
+                        &:focus,
+                        &:focus-visible {
+                            outline: 4px solid $ets-link;
+                            background-color: $color-ETS-navy-link;
+                        }
+                    }
+                    &:hover,
+                    &:focus,
+                    &:focus-visible {
+                        border: 1px solid $color-white;
+                        background-color: $color-slider-fill;
+                    }
+                    &:focus,
+                    &:focus-visible {
+                        border: 1px solid $color-white;
+                        outline: 4px solid $ets-link;
+                        background-color: $color-ETS-navy-link;
+                    }
+                }
+            }
+        }
+    }
+    .reverse-content {
+        .carousel {
+            @media only screen and (min-width: 992px) {
+               &-bg {
+                   background: linear-gradient(to right, transparent 40%, $background 40%);
+               }
+           }
+       }
+   }
+}
+
+.theme {
+    &-generic {
+        @include productFamilyTheme( $color-ETS-midnight, $color-Praxis-listbg, $color-navy, $color-ETS-bodyblack);
+        @include carouselTheme( #265b98, $color-white, $color-white, $color-white, $color-white, #265b98, $color-white);
+        .product--list {
+            box-shadow: 13px 17px 54px rgba(132, 132, 132, 0.33);
+        }
+    }
+    &-praxis {
+        @include productFamilyTheme( $color-Praxis-red, $color-Praxis-listbg, $color-Praxis-blue, $color-ETS-bodyblack);
+        @include carouselTheme( rgba(236, 233, 231, 0.7), $color-Praxis-red, $color-ETS-bodyblack, $color-white, $color-white, $color-Praxis-red, $color-white);
+        .product--list {
+            box-shadow: -90px 0px 50px rgba(160, 49, 55, 0.21);
+        }
+    }
+    &-toefl {
+        @include productFamilyTheme( $color-toefl-title, $color-marigold, $color-toefl-title, $color-ETS-bodyblack);
+        @include carouselTheme( $color-toefl-bg-half-gradient, $color-toefl-title-orange, $color-toefl-desc-white, $color-ETS-midnight, $color-white, $color-toefl-title, $color-white);
+        .product--list {
+            box-shadow: -90px 0px 50px rgba(11, 100, 106, 0.21);
+        }
+        .cmp-articlebanner {
+            &--half-width {
+                .cmp-teaser {
+					background: $color-toefl-title;
+                    &__content {
+                        background: $color-toefl-title;
+                    }
+                }
+            }
+        }
+        .carousel {
+            &-bg {
+                @include viewport(mobile-tab-portrait) {
+                    background: $color-toefl-bg-full-gradient;
+                }
+            }
+        }
+        .reverse-content {
+            .carousel {
+                &-bg {
+                    @include viewport(tablet-land-desktop) {
+                        background: $color-toefl-bg-half-gradient-reverse-content;
+                    }
+
+                }
+            }
+        }
+    }
+    &-gre {
+        @include productFamilyTheme( $color-gre-primary, $color-gre-listbg, $color-gre-primary, $color-ETS-bodyblack);
+        @include carouselTheme( $color-gre-primary, $color-ETS-bodyblack, $color-ETS-bodyblack, $color-ETS-midnight, $btn-primary, $color-GRE-Light-Blue, $color-gre-dark-blue);
+        .product--list {
+            box-shadow: -90px 0px 50px rgba(99, 15, 84, 0.21);
+        }
+    }
+    &-toeic {
+        @include productFamilyTheme( $color-toeic-primary, $color-white, $color-navy, $color-ETS-bodyblack);
+        @include carouselTheme( rgba(181, 190, 15, 0.12), $color-TOEIC-Dark-Green, $color-ETS-midnight, $color-ETS-midnight, $color-white, $color-TOEIC-Dark-Green, $color-white);
+        .product--list {
+            box-shadow: -90px 0px 50px rgba(22, 87, 54, 0.21);
+        }
+        .product--list__item .list-group-item.active,
+        .product--list__item .list-group-item:hover {
+            background-color: $color-background;
+            border-left: 5px solid $color-TOEIC-Green;
+        }
+        .cmp-articlebanner {
+            &--half-width {
+                .cmp-teaser {
+					background: $color-toeic-primary;
+                    &__content {
+                        background: $color-toeic-primary;
+                    }
+                }
+            }
+        }
+    }
+    &-rnd {
+        @include productFamilyTheme( $color-ETS-midnight, $color-Praxis-listbg, $color-navy, $color-ETS-bodyblack);
+        @include carouselTheme( $color-white, $color-ETS-bodyblack, $color-ETS-bodyblack, $color-ETS-midnight, $color-ETS-midnight, #3072be, $color-white);
+        .product--list {
+            box-shadow: 13px 17px 54px rgba(132, 132, 132, 0.33);
+        }
+        .carousel {
+            @media only screen and (min-width: 992px) {
+                &-bg {
+                    background: linear-gradient( to right, $color-white 60%, $color-hunter 60%);
+                }
+            }
+        }
+        .cmp-articlebanner {
+            &--half-width {
+                .cmp-teaser {
+					background: #3072be;
+                    &__content {
+                        background: #3072be;
+                    }
+                }
+            }
+        }
+    }
+    &-mft {
+        @include productFamilyTheme( $color-mft-primary, $color-mft-listbg, $color-mft-primary, $ets-link);
+        @include carouselTheme( $color-mft-listbg, $color-mft-primary, $color-ETS-bodyblack, $color-ETS-midnight, $color-ETS-midnight, $color-ETS-midnight, $color-ETS-midnight, $color-ETS-midnight);
+        .cmp-articlebanner {
+            &--half-width {
+                .cmp-teaser {
+                    &__title {
+                        color: $color-mft-primary;
+                    }
+                    &__description {
+                        p {
+                            color: $color-font;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-r3cc {
+        @include productFamilyTheme( $color-r3cc-primary, $color-r3cc-listbg, $color-r3cc-primary, $color-bg);
+        @include carouselTheme( $color-r3cc-primary, $color-navy, $color-r3cc-contentText, $color-ETS-midnight, $btn-primary, $color-r3cc-theme-color, $color-r3cc-black);
+        .product--list {
+            box-shadow: -90px 0px 50px rgba(99, 15, 84, 0.21);
+        }
+    }
+    &-psq {
+        @include productFamilyTheme( $color-ETS-PSQ-dark-blue, $color-ETS-PSQ-orange-sorbet, $color-ETS-PSQ-dark-blue, $color-ETS-bodyblack);
+        @include carouselTheme( $color-ETS-PSQ-dark-blue, $color-white, $color-white, $color-ETS-midnight, $btn-primary, $color-ETS-PSQ-dark-blue, $color-ETS-PSQ-purple-dark);
+        .product--list {
+            box-shadow: -90px 0px 50px rgba(99, 15, 84, 0.21);
+        }
+        .cmp-articlebanner {
+            &--half-width {
+                .cmp-teaser {
+					background: $color-ETS-PSQ-sage-green;
+                    &__content {
+                        background: $color-ETS-PSQ-sage-green;
+                    }
+                    &__title {
+                        color: $color-ETS-PSQ-dark-blue;
+                    }
+                    &__description p {
+                        color: $color-ETS-PSQ-dark-blue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.theme-rnd,
+.theme-gre,
+.theme-toefl,
+.theme-toeic {
+    .carousel {
+        &-bg {
+            &.carousel-container__item__variation2 {
+                .content {
+                    .article-banner-button-band {
+                        .cta-text-link-white {
+                            padding: 2px;
+                            white-space: nowrap;
+                            &:hover,
+                            &:focus {
+                                color: $color-navy;
+                                text-decoration: none;
+                                background-color: rgba(255, 255, 255, 0.65);
+                                border: 0;
+                                border-radius: 4px;
+                            }
+                            &:focus {
+                                outline: 2px solid $ets-link;
+                                border-radius: 4px;
+                            }
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            .content {
+                .article-banner-button-band {
+                    .cta-text-link-white {
+                        color: $ets-link;
+                        font-weight: $semibold;
+                        padding: 2px;
+                        white-space: nowrap;
+                        &:hover,
+                        &:focus {
+                            color: $color-navy;
+                            text-decoration: none;
+                            background-color: $ets-link-hover;
+                            border: 0;
+                            border-radius: 4px;
+                        }
+                        &:focus {
+                            outline: 2px solid $ets-link;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.theme-praxis {
+    .carousel {
+        &-bg {
+            &:not(.carousel-container__item__variation2) {
+                .content {
+                    .article-banner-button-band {
+                        .cta-text-link-white {
+                            color: $ets-link;
+                            font-weight: $semibold;
+                            padding: 2px;
+                            white-space: nowrap;
+                            &:hover,
+                            &:focus {
+                                color: $color-navy;
+                                text-decoration: none;
+                                background-color: $ets-link-hover;
+                                border: 0;
+                                border-radius: 4px;
+                            }
+                            &:focus {
+                                outline: 2px solid $ets-link;
+                                border-radius: 4px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cmp-articlebanner {
+        &--half-width {
+            .cmp-teaser {
+				background: $color-Praxis-red;
+                &__content {
+                    background: $color-Praxis-red;
+                }
+            }
+        }
+    }
+}
+
+.theme-generic {
+    .carousel {
+        &-bg {
+            &.carousel-container__item__variation2 {
+                .content {
+                    .article-banner-button-band {
+                        .cta-text-link-white {
+                            padding: 2px;
+                            white-space: nowrap;
+                            &:hover,
+                            &:focus {
+                                color: $color-navy;
+                                text-decoration: none;
+                                background-color: rgba(255, 255, 255, 0.65);
+                                border: 0;
+                                border-radius: 4px;
+                            }
+                            &:focus {
+                                outline: 2px solid $color-white;
+                                border-radius: 4px;
+                            }
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            .content {
+                .article-banner-button-band {
+                    .cta-text-link-white {
+                        color: $color-white;
+                        font-weight: $semibold;
+                        padding: 2px;
+                        white-space: nowrap;
+                        &:hover,
+                        &:focus {
+                            color: $color-navy;
+                            text-decoration: none;
+                            background-color: rgba(255, 255, 255, 0.65);
+                            border: 0;
+                            border-radius: 4px;
+                        }
+                        &:focus {
+                            outline: 2px solid $color-white;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+            }
+            .content {
+                .article-banner-button-band {
+                    .cmp-button {
+                        &:focus {
+                            outline: 4px solid $color-generic-button-focus;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cmp-articlebanner {
+        &--half-width {
+            .cmp-teaser {
+				background: #265b98;
+                &__content {
+                    background: #265b98;
+                }
+            }
+        }
+    }
+}
+
+.theme-gre {
+    .carousel {
+        &-bg {
+            .content {
+                &-title {
+                    color: $color-white;
+                }
+                &-desc {
+                    color: $color-white;
+                }
+            }
+            &.carousel-container__item__variation2 {
+                &.carousel-theme {
+                    .content {
+                        &-title {
+                            color: $color-font;
+                        }
+                        &-desc {
+                            color: $color-font;
+                        }
+                    }
+                }
+            }
+            .content {
+                .article-banner-button-band {
+                    .cmp-button {
+                        outline: 4px solid $color-gre-button-focus;
+                        &:focus {
+                            outline: 4px solid $color-generic-button-focus;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cmp-articlebanner {
+        &--half-width {
+            .cmp-teaser {
+				background: $color-GRE-Light-Blue;
+                &__content {
+                    background: $color-GRE-Light-Blue;
+                }
+                &__title {
+                    color: $color-font;
+                }
+                &__description {
+                    p {
+                        color: $color-font;
+                    }
+                }
+                &__action-link {
+                    color: $color-navy;
+                }
+            }
+            &.cmp-button--primary {
+                .cmp-teaser__action-link {
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}
+
+.theme-toefl .breadcrumb-lastchild-text,
+.theme-toefl .cmp-breadcrumb__item:last-child span {
+    color: #163234;
+}
+
+.theme-psq {
+    .carousel {
+        &-bg {
+            .content {
+                &-title {
+                    color: $color-ETS-PSQ-orange-sorbet;
+                }
+                &-desc {
+                    color: $color-white;
+                }
+            }
+            &.carousel-container__item__variation2 {
+                &.carousel-theme {
+                    .content {
+                        &-title {
+                            color: $color-ETS-PSQ-orange-sorbet;
+                        }
+                        &-desc {
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+            .content {
+                .article-banner-button-band {
+                    .cmp-button {
+                        outline: 4px solid $color-ETS-PSQ-orange-sorbet;
+                        &:focus {
+                            outline: 4px solid $color-ETS-PSQ-sage-green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

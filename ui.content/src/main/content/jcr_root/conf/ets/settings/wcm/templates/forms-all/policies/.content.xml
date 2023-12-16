@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-01-25T09:46:54.344Z"
+        cq:lastModifiedBy="PJAIN003@ets.org"
+        cq:lastReplicated="{Date}2023-01-25T11:27:36.617Z"
+        cq:lastReplicated_preview="{Date}2023-02-13T03:11:23.797Z"
+        cq:lastReplicated_publish="{Date}2023-01-25T11:27:36.617Z"
+        cq:lastReplicatedBy="PJAIN003@ets.org"
+        cq:lastReplicatedBy_preview="RBOPPANA@ets.org"
+        cq:lastReplicatedBy_publish="PJAIN003@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:policy="ets/components/generic-page/policy_1660063412740"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="2238c715-ed19-49bf-84b7-a23b0f6f43e3"
+        sling:resourceType="wcm/core/components/policies/mappings">
+        <root
+            cq:policy="ets/components/container/policy_1574694950110"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <container
+                cq:policy="ets/components/container/policy_1574695586800"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <ets jcr:primaryType="nt:unstructured">
+                    <components jcr:primaryType="nt:unstructured">
+                        <separator jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <separator
+                                    cq:policy="ets/components/separator/v2/separator/policy_1653520716359"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </v2>
+                        </separator>
+                    </components>
+                </ets>
+            </container>
+            <container_1448755308
+                cq:policy="ets/components/container/policy_2512462386200"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
+        </root>
+    </jcr:content>
+</jcr:root>

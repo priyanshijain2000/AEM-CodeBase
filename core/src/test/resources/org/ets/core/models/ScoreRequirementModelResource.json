@@ -1,0 +1,22 @@
+{
+	"score-requirement": {
+		"jcr:primaryType": "nt:unstructured",
+		"stateph": "Search States",
+		"stateAriaLabel": "Search to search all states, you can select more than one option.",
+		"testLabel": "Test",
+		"codeLabel": "Code",
+		"inputPaginationAriaLabel": "Enter page number",
+		"testph": "Search All Tests",
+		"prevLabel": "Previous",
+		"stateLabel": "State/Province",
+		"testAriaLabel": "Search to search all test, you can select more than one option.",
+		"path": "/content/dam/ets-org/s/praxis/praxis-passing-scores-updated.json",
+		"label": "View More",
+		"countTextLabel": "of",
+		"nextAriaLabel": "Go to next page",
+		"nextLabel": "Next",
+		"sling:resourceType": "ets/components/score-requirement",
+		"scoreLabel": "Score",
+		"prevAriaLabel": "Go to previous page"
+	}
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/ets/clientlibs"/>
+    <filter root="/apps/ets/components"/>
+    <filter root="/apps/ets/structure"/>
+    <filter root="/apps/ets/i18n"/>
+	<filter root="/apps/ets/commons"/>
+	<filter root="/apps/sling"/>
+	<filter root="/apps/cq"/>
+</workspaceFilter>

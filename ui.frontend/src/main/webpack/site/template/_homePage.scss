@@ -1,0 +1,45 @@
+@import 'theme';
+/*
+.generic-page {
+    @include contentTheme($color-ETS-midnight, $color-ETS-midnight, $color-ETS-midnight, $color-ETS-cerulean);
+    .ComponentContent {
+        padding-left: 80px;
+        padding-right: 80px;
+        .ComponentContent {
+            padding: 0;
+        }
+    }
+    .screen-padding {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    @media only screen and (max-width: 767.98px) {
+        .ComponentContent {
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+        .screen-padding {
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+        .ComponentContent.mobile-no-margin {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .ComponentContent.mobile-no-margin .mobile-margin {
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .ComponentContent {
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+        .screen-padding {
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+    }
+}
+*/

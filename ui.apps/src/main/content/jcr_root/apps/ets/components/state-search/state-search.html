@@ -1,0 +1,25 @@
+<sly data-sly-use.searchField="org.ets.core.models.SearchFieldModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !searchField.path,classAppend='cmp-text'}"></sly>
+
+<sly data-sly-test="${searchField.path}">
+    <div class="cmp-container--body">
+        <div class="state-search">
+            <div class="state-search__select" search-data-path="${searchField.path}">
+                <select name="select" class="" aria-label="${searchField.dropdownAriaLabel}" id='stateSearch'>
+                </select>
+                <div class="state-search__select__container">
+                    <form>
+                        <div class="state-search__select__search-pill">
+                            <span></span>
+                            <i tabindex='0' class="state-search__select__search-close"><img src="/content/dam/ets-org/icons/commons/searchClose.svg" alt=""></i>
+                        </div>
+                        <i class="state-search__select__search-icon"><img src="/content/dam/ets-org/icons/commons/searchIcon_blue.svg" alt=""></i>
+                        <input type="search" placeholder="${searchField.placeHolderText}" aria-label="${searchField.inputAriaLabel}" role="combobox" autocomplete="off"
+                        aria-owns="selectBoxContainer" aria-expanded="false" aria-activedescendant="">                        
+                        <a class="cta-btn-primary" tabindex="-1" href="javascript:;" aria-label="${searchField.ctaButtonAriaLabel}"><span class="d-none d-md-block">${searchField.ctaLabel}</span><i class="d-block d-md-none state-search__select__left-arrow"></i> </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</sly>

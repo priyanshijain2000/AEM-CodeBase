@@ -1,0 +1,182 @@
+:root {
+    --duration-base: 2000;
+}
+
+.fadeInBottom {
+    animation-name: fadeInBottom;
+    animation-duration: calc(var(--duration-base) * .5ms);
+    //animation-duration: 1.5s;
+    animation-fill-mode: both;
+    &:nth-child(2) {
+        --duration-base: 2100;
+    }
+    &:nth-child(3) {
+        --duration-base: 2500;
+    }
+    &:nth-child(4) {
+        --duration-base: 3000;
+    }
+    &:nth-child(5) {
+        --duration-base: 3500;
+    }
+    &:nth-child(6) {
+        --duration-base: 4000;
+    }
+}
+
+@include viewport(tablet-desktop){
+    [data-inviewport="scale-in"] {
+        opacity: 0;
+    }
+
+    .is-inViewport[data-inviewport="scale-in"] {
+        animation-name: fadeInBottom;
+        animation-duration: calc(var(--duration-base) * .5ms);
+        opacity: 1;
+        //animation-duration: 1.5s;
+        animation-fill-mode: both;
+        &:nth-child(2) {
+            --duration-base: 2100;
+        }
+        &:nth-child(3) {
+            --duration-base: 2500;
+        }
+        &:nth-child(4) {
+            --duration-base: 3000;
+        }
+        &:nth-child(5) {
+            --duration-base: 3500;
+        }
+        &:nth-child(6) {
+            --duration-base: 4000;
+        }
+    }
+}
+[data-inviewport="fadeIn"] {
+    opacity: 0;
+}
+
+.is-inViewport[data-inviewport="fadeIn"] {
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    opacity: 1;
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        // transform: translateY(50%);
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@mixin growDownAnimation {
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+    @keyframes growDown {
+        0% {
+            transform: scaleY(0)
+        }
+        80% {
+            transform: scaleY(1.1)
+        }
+        100% {
+            transform: scaleY(1)
+        }
+    }
+}
+
+@mixin growRightAnimation {
+    animation: growRight 500ms ease-in-out forwards;
+    transform-origin: right center;
+    @keyframes growRight {
+        0% {
+            transform: scaleX(0)
+        }
+        80% {
+            transform: scaleX(1.1)
+        }
+        100% {
+            transform: scaleX(1)
+        }
+    }
+}
+
+[data-inviewport="scale-in-hover"] {
+    opacity: 0;
+}
+
+.is-inViewport[data-inviewport="scale-in-hover"] {
+    opacity: 1;
+    //animation-duration: 1.5s;
+    animation-fill-mode: both;
+   
+    &:hover{
+        transform: scaleY(0);
+        animation-name: hoverAnimate;
+    animation-duration: .25s;
+    }
+}
+
+@keyframes hoverAnimate {
+    from {
+        transform: scaleY(0);
+        transform: scale(1);
+        // transform: translateY(50%);
+    }
+    to {
+        transform: scaleY(0);
+        transform: scale(1.36);
+    }
+}
+
+.parallax {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    .mainParallexImage {
+        position: relative;
+        img {
+            margin-right: -16.25%;
+            z-index: 0;
+            margin-top: -150px;
+            @include for-size(only-tablet) {
+                margin-right: -10%;
+                margin-top: 20px;
+            }
+            @include for-size(only-mobile) {
+                width: 143%;
+                margin: 0;
+            }
+            @media screen and (min-width:1200px) and (max-width:1439px) {
+                margin-right: -25%;
+                //width: 90%;
+            }
+            @media screen and (min-width:1600px) {
+                margin-right: -20%;
+            }
+            @media screen and (min-width:1700px) {
+                margin-right: -10%;
+            }
+        }
+    }
+    @include for-size(only-mobile) {
+        position: relative;
+        margin-bottom: -55%;
+        margin-top: -15%;
+    }
+}

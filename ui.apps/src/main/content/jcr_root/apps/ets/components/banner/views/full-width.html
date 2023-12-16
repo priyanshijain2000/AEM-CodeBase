@@ -1,0 +1,39 @@
+
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+    <sly data-sly-list.parentCss="${componentContext.getParent.getCssClassNames}">
+		<sly data-sly-test.isDark="${parentCss=='dark'}"></sly>
+	</sly>
+    <div data-sly-test="${properties.title}" class="carousel-bg carousel-theme carousel-container__item__variation2">
+        <div class="row align-items-center cmp-container--body">
+            <div class=" col-12 col-sm-12 col-lg-5 order-2 order-sm-2 order-lg-1 mobile-margin carousel-theme">
+                <div class="carousel-container__item__variation2" data-inviewport="${wcmmode.edit?'':'fadeIn'}">
+                    <div>
+                        <div class="content">
+                            <h3 class="content-title mt-3 mt-md-5 mt-lg-0 animated bounceInRight">${properties.title}</h3>							
+	                              <p class="content-desc">${properties.desc @context='html'}</p>
+
+<sly data-sly-list.card="${multifieldMap.links.listChildren}">
+<div data-sly-test.var="${card.ctaText}" class="banner-button-band m-0 pt-4">
+<a data-sly-test="${card.ctaText}" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=card.ctaLink}" class="${card.buttonType}" target="${card.newTab1 ? '_blank' : ''}" rel="${card.newTab1 ? 'noopener noreferrer' : ''}" href="${linkValidate.link}" aria-label="${card.textAriaLabel}">${card.ctaText}</a>
+</div>
+
+</sly>	
+
+<div data-sly-test="${!var}">
+<div data-sly-test="${properties.ctaButtonLabel || properties.ctaText}" class="banner-button-band m-0 pt-4">
+<a data-sly-test="${properties.ctaButtonLabel}" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=properties.ctaButtonLink}" class="cmp-button" target="${properties.newTab ? '_blank' : ''}" rel="${properties.newTab ? 'noopener noreferrer' : ''}" href="${linkValidate.link}" aria-label="${properties.ctaAriaLabel}">${properties.ctaButtonLabel}</a>
+<a data-sly-test="${properties.ctaText}" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=properties.ctaLink}" class="cta-text-link" target="${properties.newTab1 ? '_blank' : ''}" rel="${properties.newTab1 ? 'noopener noreferrer' : ''}" href="${linkValidate.link}" aria-label="${properties.textAriaLabel}">${properties.ctaText}</a>
+</div>
+
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-img col-12 col-sm-12 col-lg-7 order-1 order-sm-1 order-lg-2">
+        	<sly data-sly-use.imgMetadata="${'org.ets.core.models.DamMetadataModel' @imgPath=properties.assetpath1}"></sly>
+            <img src="${properties.assetpath1 ? properties.assetpath1 : '/content/dam/ets-org/general/placeholders/img-plchldr-interior-third.jpg'}" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" alt="${properties.altText || true}" style="object-fit: cover;">
+         </div>    
+    </div>

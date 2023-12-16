@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/libs/settings/wcm/designs/default"
+        cq:lastModified="{Date}2022-06-17T13:33:52.271Z"
+        cq:lastModifiedBy="mssar95@gmail.com"
+        cq:template="/libs/cq/workflow/templates/model"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Researcher Page Creation"
+        sling:resourceType="cq/workflow/components/pages/model"
+        lastSynced="{Date}2022-06-17T13:34:54.579Z">
+        <flow
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <process
+                jcr:created="{Date}2022-06-15T06:32:09.573Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-06-15T08:16:56.531Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Process"
+                sling:resourceType="cq/workflow/components/model/process">
+                <metaData
+                    jcr:primaryType="nt:unstructured"
+                    PROCESS="org.ets.core.workflows.ResearcherPagesWorkflow"
+                    PROCESS_AUTO_ADVANCE="true"/>
+            </process>
+            <dynamic_participant
+                jcr:created="{Date}2022-06-17T13:32:23.186Z"
+                jcr:createdBy="mssar95@gmail.com"
+                jcr:lastModified="{Date}2022-06-17T13:33:38.985Z"
+                jcr:lastModifiedBy="mssar95@gmail.com"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Researcher page job done"
+                sling:resourceType="cq/workflow/components/model/dynamic_participant">
+                <metaData
+                    jcr:primaryType="nt:unstructured"
+                    DYNAMIC_PARTICIPANT="/libs/workflow/scripts/initiator-participant-chooser.ecma"/>
+            </dynamic_participant>
+            <noopprocess
+                jcr:created="{Date}2022-06-17T13:32:38.035Z"
+                jcr:createdBy="mssar95@gmail.com"
+                jcr:description="A no operation process"
+                jcr:lastModified="{Date}2022-06-17T13:33:52.253Z"
+                jcr:lastModifiedBy="mssar95@gmail.com"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Complete"
+                sling:resourceType="cq/workflow/components/workflow/noopprocess">
+                <metaData
+                    jcr:primaryType="nt:unstructured"
+                    PROCESS="/libs/workflow/scripts/noop.ecma"
+                    PROCESS_AUTO_ADVANCE="true"/>
+            </noopprocess>
+        </flow>
+    </jcr:content>
+</jcr:root>

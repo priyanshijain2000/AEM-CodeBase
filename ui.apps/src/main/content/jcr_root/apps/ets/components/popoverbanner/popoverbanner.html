@@ -1,0 +1,25 @@
+<sly data-sly-use.popOverBanner="org.ets.core.models.PopOverBannerModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = true,classAppend='cmp-text'}"></sly>
+<sly data-sly-test="${popOverBanner.optionsType== 'design1'}">
+<dialog data-sly-test="${popOverBanner.isEnabled}" data-mt="${popOverBanner.brandName}" data-session="${!popOverBanner.isSessionEnabled ? 'false' : 'true'}" id="toeflModernizationDailog" class="${wcmmode.edit ? '' : 'toefl-modernization-dialog'}" data-isEnabled="${wcmmode.edit ? false : properties.isEnabled}" style="background-image: url(${popOverBanner.fileReference ? popOverBanner.fileReference : '/content/dam/ets-org/general/placeholders/img-plchldr-quote.jpg' @context='styleString'});">
+    <button class="model-close-button"><img src="/content/dam/ets-org/icons/commons/circle-x.svg" alt="closeimage"></button>
+    <div class="toefl-modernization-dialog--container">
+        <div class="toefl-modernization-dialog--container--content">
+            ${popOverBanner.description @ context='html'}
+            <a data-sly-test="${popOverBanner.buttonText}" class="cmp-button" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=popOverBanner.link}" href="${linkValidate.link}" target="${popOverBanner.newTab ? '_blank' : ''}" rel="${popOverBanner.newTab ? 'noopener noreferrer' : ''}">${popOverBanner.buttonText}</a>
+        </div>
+    </div>
+</dialog>
+</sly>
+<sly data-sly-test="${popOverBanner.optionsType == 'design2'}">
+    <dialog data-sly-test="${popOverBanner.isEnabled}" data-mt="${popOverBanner.brandName}" data-session="${!popOverBanner.isSessionEnabled ? 'false' : 'true'}" id="toeflModernizationDailog" class="${wcmmode.edit ? '': 'toefl-modernization-dialog toefl-modernization-dialog--summer-save cmp-button--secondary'}" data-isEnabled="${wcmmode.edit ? false : properties.isEnabled}" style="background-image: url(${popOverBanner.fileReference ? popOverBanner.fileReference : '/content/dam/ets-org/general/placeholders/img-plchldr-quote.jpg' @context='styleString'});">
+        <button class="model-close-button"><img id="CloseModal" src="/content/dam/ets-org/icons/commons/circle-x-black.svg" alt="copyimage"></button>
+        <div class="toefl-modernization-dialog--container">
+            <div class="toefl-modernization-dialog--container--content">
+                ${popOverBanner.descriptionDesignTwo @ context='unsafe'}
+                <a data-sly-test="${popOverBanner.buttonText}" class="cmp-button" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=popOverBanner.link}" id="Register_today_and_save" href="${linkValidate.link}" target="${popOverBanner.newTab ? '_blank' : ''}" rel="${popOverBanner.newTab ? 'noopener noreferrer' : ''}">${popOverBanner.buttonText}</a>
+                ${popOverBanner.termsAndCondition @context='html'}
+            </div>
+        </div>
+    </dialog>
+</sly>

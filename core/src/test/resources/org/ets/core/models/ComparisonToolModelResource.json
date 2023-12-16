@@ -1,0 +1,32 @@
+{
+	"comparisonTool": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"jcr:lastModifiedBy": "admin",
+		"jcr:created": "Thu Aug 24 2023 06:36:16 GMT-0400",
+		"header1": "Column-1 Header",
+		"header2": "Column-2 Header",
+		"jcr:lastModified": "Thu Aug 24 2023 06:41:42 GMT-0400",
+		"sling:resourceType": "ets/components/comparisonTool",
+		"textIsRich": [
+			"true",
+			"true"
+		],
+		"infobox": "Information box",
+		"table": {
+			"jcr:primaryType": "nt:unstructured",
+			"item0": {
+				"jcr:primaryType": "nt:unstructured",
+				"greyshade": "false",
+				"data1": "Test-1",
+				"data2": "Test-2"
+			},
+			"item1": {
+				"jcr:primaryType": "nt:unstructured",
+				"greyshade": "true",
+				"data1": "Content-1",
+				"data2": "Content-2"
+			}
+		}
+	}
+}

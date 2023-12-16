@@ -1,0 +1,18 @@
+{
+	"button": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"jcr:title": "Toefl Button",
+		"jcr:lastModifiedBy": "admin",
+		"jcr:created": "Tue Aug 22 2023 04:45:38 GMT-0400",
+		"userType": "Test Taker Toefl",
+		"linkURL": "/content/ets-org/language-master/en/home/toefl/toefl-panel/jcr:content/root/container_1644917768",
+		"linkTarget": "_blank",
+		"jcr:lastModified": "Wed Aug 23 2023 08:39:41 GMT-0400",
+		"sling:resourceType": "ets/components/ctabutton-spa",
+		"cq:styleIds": [
+			"1673617796351",
+			"1692694107549"
+		]
+	}
+}

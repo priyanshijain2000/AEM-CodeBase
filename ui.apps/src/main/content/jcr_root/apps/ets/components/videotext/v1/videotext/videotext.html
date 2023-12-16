@@ -1,0 +1,47 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !properties.url && !properties.videoPath,classAppend='cmp-text'}"></sly>
+<sly data-sly-test="${properties.url || properties.videoPath || properties.videoid}">
+    <div class="cmp-container--body">
+        <section class="videoText">
+            <div class="videoText__container">
+                <sly data-sly-test="${properties.videoType == 'DamVideo'}"><input type="image" data-video-id="video-element-${currentNode.getName}" data-bs-toggle="modal" data-src="${properties.videoPath}" data-bs-target="#myModal_${currentNode.getName}" src="${properties.thumbnail}" alt="${properties.altText}" aria-label="${properties.videoAriaLabel}"/></sly>
+                <sly data-sly-test="${properties.videoType == 'UrlVideo'}"><input type="image" data-video-id="video-element-${currentNode.getName}" data-bs-toggle="modal" data-src="${properties.url}" data-bs-target="#myModal_${currentNode.getName}" src="${properties.thumbnail}" alt="${properties.altText}" aria-label="${properties.videoAriaLabel}"/></sly>
+                <sly data-sly-test="${properties.videoType == 'KalturaVideo'}"><input type="image" data-video-id="kaltura_player_289769231_${currentNode.getName}" data-bs-toggle="modal" data-bs-target="#myModal_${currentNode.getName}" data-video-type="${properties.videoType}" data-w-id="${inheritedPageProperties.partnerID}" data-uiconf-id="${inheritedPageProperties.embedID}" data-kalturavideo-id="${properties.videoid}" data-target-id="kaltura_player_289769231_${currentNode.getName}" data-node-name="${currentNode.getName}" src="${properties.thumbnail}" alt="${properties.altText}" aria-label="${properties.videoAriaLabel}"/></sly>
+                <sly data-sly-test="${properties.link}">
+                    <a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=properties.link}" href="${linkValidate.link}" class="view-transcript cta-link" target="${properties.newTab ? '_blank' : ''}" rel="${properties.newTab ? 'noopener noreferrer' : ''}">${properties.text} </a>
+                </sly>
+            </div>
+            <div class="videoText__content">
+                <h2>${properties.description @context='html'}</h2>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal Video Container -->
+    <div class="modal-container">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal_${currentNode.getName}" tabindex="-1" role="dialog" aria-labelledby="OpenVideo_${currentNode.getName}" aria-hidden="true">
+        	<span id="OpenVideo_${currentNode.getName}" class="d-none">${properties.modalAriaLabel || 'Open video' }</span>
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="${properties.closeButtonAriaLabel}">
+                        </button>
+                        <!-- 16:9 aspect ratio -->
+                        <div id="modal-video-player_${currentNode.getName}" class="ratio ratio-16x9">
+                            <sly data-sly-test="${wcmmode.edit}">
+                                <sly data-sly-test="${properties.videoType == 'DamVideo'}"><video controls id="video-element-${currentNode.getName}" src="${properties.videoPath}" preload="auto"></video></sly>
+                                <sly data-sly-test="${properties.videoType == 'UrlVideo'}"><iframe id="video-element-${currentNode.getName}" src="${properties.url}" allow="fullscreen;autoplay" allowscriptaccess="always"></iframe></sly>
+                                <sly data-sly-test="${properties.videoType == 'KalturaVideo'}"><div id="kaltura_player_289769231_${currentNode.getName}"></div></sly>
+                            </sly>
+                            <sly data-sly-test="${wcmmode.disabled}">
+                                <sly data-sly-test="${properties.videoType == 'DamVideo'}"><video autoplay controls id="video-element-${currentNode.getName}" src="${properties.videoPath}" preload="auto"></video></sly>
+                                <sly data-sly-test="${properties.videoType == 'UrlVideo'}"><iframe id="video-element-${currentNode.getName}" src="${properties.url}" allow="fullscreen;autoplay" allowscriptaccess="always"></iframe></sly>
+                                <sly data-sly-test="${properties.videoType == 'KalturaVideo'}"><div id="kaltura_player_289769231_${currentNode.getName}"></div></sly>
+                            </sly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</sly>

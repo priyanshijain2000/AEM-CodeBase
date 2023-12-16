@@ -1,0 +1,198 @@
+{
+	"model": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"jcr:lastModifiedBy": "admin",
+		"jcr:created": "Thu Jul 27 2023 03:31:04 GMT-0400",
+		"parentPath": "/content/cf",
+		"jcr:lastModified": "Thu Jul 27 2023 03:31:42 GMT-0400",
+		"sling:resourceType": "ets/components/eventList"
+	},
+	"cf": {
+		"jcr:primaryType": "sling:Folder",
+		"jcr:createdBy": "admin",
+		"jcr:created": "Fri Aug 11 2023 07:15:05 GMT-0400",
+		"1682080347_6442825b5abf51.10904176": {
+			"jcr:primaryType": "dam:Asset",
+			"jcr:mixinTypes": [
+				"mix:referenceable"
+			],
+			"jcr:createdBy": "etsservice",
+			"jcr:created": "Fri Aug 11 2023 08:11:26 GMT-0400",
+			"jcr:uuid": "a7ddbe1a-6a78-4dac-b6c4-b1725e21247a",
+			"jcr:content": {
+				"jcr:primaryType": "dam:AssetContent",
+				"jcr:title": "1682080347_6442825b5abf51.10904176",
+				"jcr:lastModifiedBy": "etsservice",
+				"contentFragment": true,
+				"jcr:lastModified": "Fri Aug 11 2023 08:11:26 GMT-0400",
+				"renditions": {
+					"jcr:primaryType": "nt:folder",
+					"jcr:createdBy": "etsservice",
+					"jcr:created": "Fri Aug 11 2023 08:11:26 GMT-0400"
+				},
+				"related": {
+					"jcr:primaryType": "nt:unstructured"
+				},
+				"indexedData": {
+					"jcr:primaryType": "nt:unstructured",
+					"master": {
+						"jcr:primaryType": "nt:unstructured",
+						"jcr:mixinTypes": [
+							"dam:IndexedFragmentData"
+						],
+						"@string@model": "/conf/ets/settings/dam/cfm/models/gre-info-session",
+						"string@institutionname": "ESB Business School, Reutlingen University",
+						"@stringArray@variations": [],
+						"calendar@eventdate": "Fri Jun 23 2023 00:00:00 GMT+0000",
+						"string@eventname": "MBA Full-Time Info Session",
+						"string@eventtype": "Online",
+						"string@sessionid": "1682080347_6442825b5abf51.10904176",
+						"string@institutioncountry": "Germany",
+						"jcr:uuid": "086f7718-7a0e-4473-b8ca-2fa9283d1b24",
+						"string@programname": "MBA International Management Full-Time",
+						"string@rsvpurloremailaddressformoreinformation": "https://www.linkedin.com/events/mbainternationalmanagementfull-7031256081603416064/about/  OR  https://www.esb-business-school.de/en/news-1/events/virtuelle-info-sessions"
+					}
+				},
+				"metadata": {
+					"jcr:primaryType": "nt:unstructured",
+					"jcr:mixinTypes": [
+						"cq:Taggable"
+					]
+				},
+				"data": {
+					"jcr:primaryType": "nt:unstructured",
+					"_strucVersion": 1,
+					"cq:model": "/conf/ets/settings/dam/cfm/models/gre-info-session",
+					"master": {
+						"jcr:primaryType": "nt:unstructured",
+						"jcr:mixinTypes": [
+							"dam:cfVariationNode",
+							"cq:Taggable"
+						],
+						"institutionname@LastModified": "Fri Aug 11 2023 08:11:26 GMT-0400",
+						"sessionid@LastModified": "Fri Aug 11 2023 08:11:26 GMT-0400",
+						"institutionname": "ESB Business School, Reutlingen University",
+						"institutioncountry@ContentType": "text/plain",
+						"eventdate@LastModified": "Fri Aug 11 2023 08:11:26 GMT-0400",
+						"rsvpurloremailaddressformoreinformation": "https://www.linkedin.com/events/mbainternationalmanagementfull-7031256081603416064/about/  OR  https://www.esb-business-school.de/en/news-1/events/virtuelle-info-sessions",
+						"institutionname@ContentType": "text/plain",
+						"eventtype@ContentType": "text/plain",
+						"eventdate@ContentType": "text/plain",
+						"rsvpurloremailaddressformoreinformation@ContentType": "text/plain",
+						"rsvpurloremailaddressformoreinformation@LastModified": "Fri Aug 11 2023 08:11:26 GMT-0400",
+						"programname@ContentType": "text/plain",
+						"eventdate": "Fri Jun 23 2023 00:00:00 GMT+0000",
+						"eventname": "MBA Full-Time Info Session",
+						"eventtype": "Online",
+						"institutioncountry@LastModified": "Fri Aug 11 2023 08:11:26 GMT-0400",
+						"programname@LastModified": "Fri Aug 11 2023 08:11:26 GMT-0400",
+						"stateregion@LastModified": "Fri Aug 11 2023 08:11:26 GMT-0400",
+						"sessionid": "1682080347_6442825b5abf51.10904176",
+						"programname": "MBA International Management Full-Time",
+						"sessionid@ContentType": "text/plain",
+						"eventname@LastModified": "Fri Aug 11 2023 08:11:26 GMT-0400",
+						"eventname@ContentType": "text/plain",
+						"institutioncountry": "Germany",
+						"eventtype@LastModified": "Fri Aug 11 2023 08:11:26 GMT-0400"
+					}
+				}
+			}
+		},
+		"jcr:content": {
+			"jcr:primaryType": "nt:unstructured",
+			"jcr:title": "Test",
+			"sourcing": "false"
+		},
+		"1686079905_647f89a18a7296.71235231": {
+			"jcr:primaryType": "dam:Asset",
+			"jcr:mixinTypes": [
+				"mix:referenceable"
+			],
+			"jcr:createdBy": "etsservice",
+			"jcr:created": "Fri Aug 11 2023 07:17:50 GMT-0400",
+			"jcr:uuid": "ce01f75b-9510-4152-b7e6-28d748042778",
+			"jcr:content": {
+				"jcr:primaryType": "dam:AssetContent",
+				"jcr:title": "1686079905_647f89a18a7296.71235231",
+				"jcr:lastModifiedBy": "etsservice",
+				"contentFragment": true,
+				"jcr:lastModified": "Fri Aug 11 2023 07:17:50 GMT-0400",
+				"renditions": {
+					"jcr:primaryType": "nt:folder",
+					"jcr:createdBy": "etsservice",
+					"jcr:created": "Fri Aug 11 2023 07:17:50 GMT-0400"
+				},
+				"related": {
+					"jcr:primaryType": "nt:unstructured"
+				},
+				"indexedData": {
+					"jcr:primaryType": "nt:unstructured",
+					"master": {
+						"jcr:primaryType": "nt:unstructured",
+						"jcr:mixinTypes": [
+							"dam:IndexedFragmentData"
+						],
+						"@string@model": "/conf/ets/settings/dam/cfm/models/gre-info-session",
+						"string@institutionname": "Schulich School of Business York University",
+						"string@stateregion": "ON",
+						"@stringArray@variations": [],
+						"calendar@eventdate": "Thu Jun 29 2023 00:00:00 GMT+0000",
+						"string@eventname": "ONLINE SESSION | Breaking Barriers: Forté Foundation @ Schulich",
+						"string@eventtype": "Online",
+						"string@sessionid": "1686079905_647f89a18a7296.71235231",
+						"string@institutioncountry": "Canada",
+						"jcr:uuid": "fe5cdece-f8fa-4764-94e6-b438e52882c5",
+						"string@programname": "MBA",
+						"string@rsvpurloremailaddressformoreinformation": "https://schulich.my.salesforce-sites.com/pmtx/evt__sitewebmeeting?id=a0b5b00004bd6tjAAA "
+					}
+				},
+				"metadata": {
+					"jcr:primaryType": "nt:unstructured",
+					"jcr:mixinTypes": [
+						"cq:Taggable"
+					]
+				},
+				"data": {
+					"jcr:primaryType": "nt:unstructured",
+					"_strucVersion": 1,
+					"cq:model": "/conf/ets/settings/dam/cfm/models/gre-info-session",
+					"master": {
+						"jcr:primaryType": "nt:unstructured",
+						"jcr:mixinTypes": [
+							"dam:cfVariationNode",
+							"cq:Taggable"
+						],
+						"institutionname@LastModified": "Fri Aug 11 2023 07:17:50 GMT-0400",
+						"sessionid@LastModified": "Fri Aug 11 2023 07:17:50 GMT-0400",
+						"institutionname": "Schulich School of Business York University",
+						"institutioncountry@ContentType": "text/plain",
+						"eventdate@LastModified": "Fri Aug 11 2023 07:17:50 GMT-0400",
+						"rsvpurloremailaddressformoreinformation": "https://schulich.my.salesforce-sites.com/pmtx/evt__sitewebmeeting?id=a0b5b00004bd6tjAAA ",
+						"institutionname@ContentType": "text/plain",
+						"eventtype@ContentType": "text/plain",
+						"eventdate@ContentType": "text/plain",
+						"rsvpurloremailaddressformoreinformation@ContentType": "text/plain",
+						"stateregion@ContentType": "text/plain",
+						"rsvpurloremailaddressformoreinformation@LastModified": "Fri Aug 11 2023 07:17:50 GMT-0400",
+						"programname@ContentType": "text/plain",
+						"eventdate": "Thu Jun 29 2023 00:00:00 GMT+0000",
+						"eventname": "ONLINE SESSION | Breaking Barriers: Forté Foundation @ Schulich",
+						"eventtype": "Online",
+						"institutioncountry@LastModified": "Fri Aug 11 2023 07:17:50 GMT-0400",
+						"programname@LastModified": "Fri Aug 11 2023 07:17:50 GMT-0400",
+						"stateregion@LastModified": "Fri Aug 11 2023 07:17:50 GMT-0400",
+						"sessionid": "1686079905_647f89a18a7296.71235231",
+						"programname": "MBA",
+						"sessionid@ContentType": "text/plain",
+						"eventname@LastModified": "Fri Aug 11 2023 07:17:50 GMT-0400",
+						"eventname@ContentType": "text/plain",
+						"institutioncountry": "Canada",
+						"eventtype@LastModified": "Fri Aug 11 2023 07:17:50 GMT-0400",
+						"stateregion": "ON"
+					}
+				}
+			}
+		}
+	}
+}

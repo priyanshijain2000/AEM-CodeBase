@@ -1,0 +1,6 @@
+/*Configuration*/
+{
+    "researcher.parent.path":"/content/ets-org/language-master/en/home/research/policy_research_reports/publications",
+    "researcher.json.storage.path":"/content/dam/ets-org/s/sydney/feeds",
+    "researcher.json.filename":"researcher.json"
+}

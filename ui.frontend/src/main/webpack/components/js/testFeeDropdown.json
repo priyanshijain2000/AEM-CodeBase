@@ -1,0 +1,834 @@
+{
+    "fees" : [ {
+      "country": "Afghanistan",
+      "fee": "110"
+    },
+    {
+      "country": "Albania",
+      "fee": "110"
+    },
+    {
+      "country": "Algeria",
+      "fee": "110"
+    },
+    {
+      "country": "American Samoa",
+      "fee": "110"
+    },
+    {
+      "country": "Andorra",
+      "fee": "110"
+    },
+    {
+      "country": "Angola",
+      "fee": "100"
+    },
+    {
+      "country": "Argentina ",
+      "fee": "110"
+    },
+    {
+      "country": "Armenia ",
+      "fee": "110"
+    },
+    {
+      "country": "Aruba",
+      "fee": "110"
+    },
+    {
+      "country": "Australia ",
+      "fee": "120"
+    },
+    {
+      "country": "Austria",
+      "fee": "120"
+    },
+    {
+      "country": "Azerbaijan",
+      "fee": "110"
+    },
+    {
+      "country": "Bahamas",
+      "fee": "110"
+    },
+    {
+      "country": "Bahrain",
+      "fee": "120"
+    },
+    {
+      "country": "Bangladesh ",
+      "fee": "110"
+    },
+    {
+      "country": "Barbados",
+      "fee": "100"
+    },
+    {
+      "country": "Belarus",
+      "fee": "110"
+    },
+    {
+      "country": "Belgium ",
+      "fee": "120"
+    },
+    {
+      "country": "Belize",
+      "fee": "100"
+    },
+    {
+      "country": "Benin",
+      "fee": "110"
+    },
+    {
+      "country": "Bermuda",
+      "fee": "110"
+    },
+    {
+      "country": "Bhutan ",
+      "fee": "100"
+    },
+    {
+      "country": "Bolivia",
+      "fee": "110"
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "fee": "110"
+    },
+    {
+      "country": "Botswana ",
+      "fee": "110"
+    },
+    {
+      "country": "Brazil ",
+      "fee": "100"
+    },
+    {
+      "country": "Brunei Darussalam",
+      "fee": "110"
+    },
+    {
+      "country": "Bulgaria ",
+      "fee": "110"
+    },
+    {
+      "country": "Burkina Faso",
+      "fee": "100"
+    },
+    {
+      "country": "Burundi",
+      "fee": "100"
+    },
+    {
+      "country": "Cambodia",
+      "fee": "110"
+    },
+    {
+      "country": "Cameroon ",
+      "fee": "110"
+    },
+    {
+      "country": "Canada",
+      "fee": "110"
+    },
+    {
+      "country": "Cape Verde",
+      "fee": "110"
+    },
+    {
+      "country": "Cayman Islands",
+      "fee": "110"
+    },
+    {
+      "country": "Central African Republic",
+      "fee": "100"
+    },
+    {
+      "country": "Chad",
+      "fee": "100"
+    },
+    {
+      "country": "Chile ",
+      "fee": "110"
+    },
+    {
+      "country": "China",
+      "fee": "120"
+    },
+    {
+      "country": "Colombia ",
+      "fee": "110"
+    },
+    {
+      "country": "Comoros",
+      "fee": "100"
+    },
+    {
+      "country": "Congo, The Democratic Republic",
+      "fee": "110"
+    },
+    {
+      "country": "Costa Rica",
+      "fee": "110"
+    },
+    {
+      "country": "Cote D'Ivoire",
+      "fee": "110"
+    },
+    {
+      "country": "Croatia ",
+      "fee": "120"
+    },
+    {
+      "country": "Cuba",
+      "fee": "110"
+    },
+    {
+      "country": "Cyprus ",
+      "fee": "110"
+    },
+    {
+      "country": "Czech Republic",
+      "fee": "120"
+    },
+    {
+      "country": "Denmark",
+      "fee": "120"
+    },
+    {
+      "country": "Djibouti",
+      "fee": "100"
+    },
+    {
+      "country": "Dominican Republic",
+      "fee": "110"
+    },
+    {
+      "country": "Ecuador ",
+      "fee": "110"
+    },
+    {
+      "country": "Egypt ",
+      "fee": "110"
+    },
+    {
+      "country": "El Salvador",
+      "fee": "110"
+    },
+    {
+      "country": "Equatorial Guinea",
+      "fee": "100"
+    },
+    {
+      "country": "Eritrea",
+      "fee": "100"
+    },
+    {
+      "country": "Estonia ",
+      "fee": "110"
+    },
+    {
+      "country": "Ethiopia ",
+      "fee": "110"
+    },
+    {
+      "country": "Faroe Islands",
+      "fee": "110"
+    },
+    {
+      "country": "Fiji",
+      "fee": "100"
+    },
+    {
+      "country": "Finland ",
+      "fee": "120"
+    },
+    {
+      "country": "France",
+      "fee": "120"
+    },
+    {
+      "country": "French Polynesia",
+      "fee": "110"
+    },
+    {
+      "country": "Gabon",
+      "fee": "110"
+    },
+    {
+      "country": "Gambia",
+      "fee": "110"
+    },
+    {
+      "country": "Gaza",
+      "fee": "110"
+    },
+    {
+      "country": "Georgia",
+      "fee": "110"
+    },
+    {
+      "country": "Germany ",
+      "fee": "120"
+    },
+    {
+      "country": "Ghana",
+      "fee": "110"
+    },
+    {
+      "country": "Greece ",
+      "fee": "120"
+    },
+    {
+      "country": "Greenland",
+      "fee": "110"
+    },
+    {
+      "country": "Grenada",
+      "fee": "110"
+    },
+    {
+      "country": "Guadeloupe",
+      "fee": "110"
+    },
+    {
+      "country": "Guam",
+      "fee": "110"
+    },
+    {
+      "country": "Guatemala",
+      "fee": "110"
+    },
+    {
+      "country": "Guinea",
+      "fee": "110"
+    },
+    {
+      "country": "Guinea Bissau",
+      "fee": "110"
+    },
+    {
+      "country": "Guyana",
+      "fee": "110"
+    },
+    {
+      "country": "Haiti",
+      "fee": "110"
+    },
+    {
+      "country": "Honduras ",
+      "fee": "110"
+    },
+    {
+      "country": "Hong Kong (China)",
+      "fee": "120"
+    },
+    {
+      "country": "Hungary ",
+      "fee": "110"
+    },
+    {
+      "country": "Iceland",
+      "fee": "120"
+    },
+    {
+      "country": "India ",
+      "fee": "100"
+    },
+    {
+      "country": "Indonesia ",
+      "fee": "110"
+    },
+    {
+      "country": "Iraq",
+      "fee": "110"
+    },
+    {
+      "country": "Ireland ",
+      "fee": "120"
+    },
+    {
+      "country": "Israel",
+      "fee": "120"
+    },
+    {
+      "country": "Italy",
+      "fee": "120"
+    },
+    {
+      "country": "Jamaica",
+      "fee": "110"
+    },
+    {
+      "country": "Japan",
+      "fee": "110"
+    },
+    {
+      "country": "Jordan",
+      "fee": "110"
+    },
+    {
+      "country": "Kazakhstan  ",
+      "fee": "110"
+    },
+    {
+      "country": "Kenya",
+      "fee": "110"
+    },
+    {
+      "country": "Kiribati",
+      "fee": "110"
+    },
+    {
+      "country": "Korea, Republic of  ",
+      "fee": "110"
+    },
+    {
+      "country": "Kosovo",
+      "fee": "110"
+    },
+    {
+      "country": "Kuwait",
+      "fee": "120"
+    },
+    {
+      "country": "Kyrgyzstan",
+      "fee": "100"
+    },
+    {
+      "country": "Laos, People's Democratic Rep",
+      "fee": "110"
+    },
+    {
+      "country": "Latvia ",
+      "fee": "110"
+    },
+    {
+      "country": "Lebanon",
+      "fee": "110"
+    },
+    {
+      "country": "Lesotho",
+      "fee": "110"
+    },
+    {
+      "country": "Liberia",
+      "fee": "100"
+    },
+    {
+      "country": "Libya ",
+      "fee": "100"
+    },
+    {
+      "country": "Lithuania",
+      "fee": "110"
+    },
+    {
+      "country": "Luxembourg ",
+      "fee": "120"
+    },
+    {
+      "country": "Macau (China)",
+      "fee": "120"
+    },
+    {
+      "country": "Macedonia, Fmr Yugoslav Rep",
+      "fee": "110"
+    },
+    {
+      "country": "Madagascar ",
+      "fee": "110"
+    },
+    {
+      "country": "Malawi",
+      "fee": "110"
+    },
+    {
+      "country": "Malaysia",
+      "fee": "110"
+    },
+    {
+      "country": "Maldives",
+      "fee": "110"
+    },
+    {
+      "country": "Mali",
+      "fee": "110"
+    },
+    {
+      "country": "Malta ",
+      "fee": "110"
+    },
+    {
+      "country": "Marshall Islands",
+      "fee": "110"
+    },
+    {
+      "country": "Martinique",
+      "fee": "110"
+    },
+    {
+      "country": "Mauritania",
+      "fee": "110"
+    },
+    {
+      "country": "Mauritius",
+      "fee": "110"
+    },
+    {
+      "country": "Mexico ",
+      "fee": "110"
+    },
+    {
+      "country": "Micronesia, Federated States",
+      "fee": "110"
+    },
+    {
+      "country": "Moldova, Republic Of",
+      "fee": "110"
+    },
+    {
+      "country": "Monaco",
+      "fee": "120"
+    },
+    {
+      "country": "Mongolia",
+      "fee": "110"
+    },
+    {
+      "country": "Montenegro",
+      "fee": "110"
+    },
+    {
+      "country": "Morocco ",
+      "fee": "110"
+    },
+    {
+      "country": "Mozambique",
+      "fee": "110"
+    },
+    {
+      "country": "Myanmar",
+      "fee": "100"
+    },
+    {
+      "country": "Namibia ",
+      "fee": "110"
+    },
+    {
+      "country": "Nepal ",
+      "fee": "100"
+    },
+    {
+      "country": "Netherlands ",
+      "fee": "120"
+    },
+    {
+      "country": "Netherlands Antilles",
+      "fee": "110"
+    },
+    {
+      "country": "New Caledonia",
+      "fee": "110"
+    },
+    {
+      "country": "New Zealand",
+      "fee": "120"
+    },
+    {
+      "country": "Nicaragua",
+      "fee": "110"
+    },
+    {
+      "country": "Niger",
+      "fee": "100"
+    },
+    {
+      "country": "Nigeria ",
+      "fee": "110"
+    },
+    {
+      "country": "Northern Ireland",
+      "fee": "110"
+    },
+    {
+      "country": "Northern Mariana Islands",
+      "fee": "110"
+    },
+    {
+      "country": "Norway ",
+      "fee": "120"
+    },
+    {
+      "country": "Oman",
+      "fee": "110"
+    },
+    {
+      "country": "Pakistan",
+      "fee": "110"
+    },
+    {
+      "country": "Palestinian Territory",
+      "fee": "110"
+    },
+    {
+      "country": "Panama ",
+      "fee": "110"
+    },
+    {
+      "country": "Papua New Guinea",
+      "fee": "110"
+    },
+    {
+      "country": "Paraguay",
+      "fee": "110"
+    },
+    {
+      "country": "Peru ",
+      "fee": "110"
+    },
+    {
+      "country": "Philippines",
+      "fee": "110"
+    },
+    {
+      "country": "Poland",
+      "fee": "110"
+    },
+    {
+      "country": "Portugal ",
+      "fee": "120"
+    },
+    {
+      "country": "Puerto Rico",
+      "fee": "110"
+    },
+    {
+      "country": "Qatar",
+      "fee": "120"
+    },
+    {
+      "country": "Reunion",
+      "fee": "110"
+    },
+    {
+      "country": "Romania",
+      "fee": "110"
+    },
+    {
+      "country": "Russia ",
+      "fee": "120"
+    },
+    {
+      "country": "Rwanda",
+      "fee": "110"
+    },
+    {
+      "country": "Saint Kitts and Nevis",
+      "fee": "110"
+    },
+    {
+      "country": "Saint Lucia",
+      "fee": "110"
+    },
+    {
+      "country": "Samoa",
+      "fee": "110"
+    },
+    {
+      "country": "Saudi Arabia",
+      "fee": "120"
+    },
+    {
+      "country": "Senegal",
+      "fee": "110"
+    },
+    {
+      "country": "Serbia",
+      "fee": "110"
+    },
+    {
+      "country": "Seychelles",
+      "fee": "110"
+    },
+    {
+      "country": "Sierra Leone ",
+      "fee": "100"
+    },
+    {
+      "country": "Singapore",
+      "fee": "120"
+    },
+    {
+      "country": "Slovakia ",
+      "fee": "110"
+    },
+    {
+      "country": "Slovenia ",
+      "fee": "120"
+    },
+    {
+      "country": "Solomon Islands",
+      "fee": "110"
+    },
+    {
+      "country": "South Africa ",
+      "fee": "110"
+    },
+    {
+      "country": "South Korea",
+      "fee": "110"
+    },
+    {
+      "country": "South Sudan",
+      "fee": "110"
+    },
+    {
+      "country": "Spain",
+      "fee": "120"
+    },
+    {
+      "country": "Sri Lanka",
+      "fee": "110"
+    },
+    {
+      "country": "Sudan ",
+      "fee": "100"
+    },
+    {
+      "country": "Suriname",
+      "fee": "100"
+    },
+    {
+      "country": "Swaziland",
+      "fee": "110"
+    },
+    {
+      "country": "Sweden ",
+      "fee": "120"
+    },
+    {
+      "country": "Switzerland",
+      "fee": "120"
+    },
+    {
+      "country": "Syria",
+      "fee": "100"
+    },
+    {
+      "country": "Tahiti",
+      "fee": "110"
+    },
+    {
+      "country": "Taiwan (China)",
+      "fee": "110"
+    },
+    {
+      "country": "Tajikistan",
+      "fee": "110"
+    },
+    {
+      "country": "Tanzania, United Republic Of  ",
+      "fee": "110"
+    },
+    {
+      "country": "Thailand",
+      "fee": "110"
+    },
+    {
+      "country": "Timor Leste",
+      "fee": "110"
+    },
+    {
+      "country": "Togo",
+      "fee": "100"
+    },
+    {
+      "country": "Tonga",
+      "fee": "100"
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "fee": "110"
+    },
+    {
+      "country": "Tunisia",
+      "fee": "110"
+    },
+    {
+      "country": "Turkey",
+      "fee": "110"
+    },
+    {
+      "country": "Turkmenistan",
+      "fee": "100"
+    },
+    {
+      "country": "Uganda",
+      "fee": "110"
+    },
+    {
+      "country": "Ukraine",
+      "fee": "110"
+    },
+    {
+      "country": "United Arab Emirates",
+      "fee": "120"
+    },
+    {
+      "country": "United Kingdom",
+      "fee": "120"
+    },
+    {
+      "country": "United States",
+      "fee": "110"
+    },
+    {
+      "country": "Uruguay",
+      "fee": "110"
+    },
+    {
+      "country": "Uzbekistan ",
+      "fee": "110"
+    },
+    {
+      "country": "Vanuatu",
+      "fee": "110"
+    },
+    {
+      "country": "Venezuela ",
+      "fee": "110"
+    },
+    {
+      "country": "Vietnam ",
+      "fee": "110"
+    },
+    {
+      "country": "Virgin Islands (British)",
+      "fee": "110"
+    },
+    {
+      "country": "Virgin Islands (U.S.)",
+      "fee": "110"
+    },
+    {
+      "country": "West Bank",
+      "fee": "110"
+    },
+    {
+      "country": "Yemen",
+      "fee": "110"
+    },
+    {
+      "country": "Zaire",
+      "fee": "100"
+    },
+    {
+      "country": "Zambia",
+      "fee": "100"
+    },
+    {
+      "country": "Zimbabwe",
+      "fee": "110"
+    }  ]
+}

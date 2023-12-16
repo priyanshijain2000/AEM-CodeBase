@@ -1,0 +1,35 @@
+<sly data-sly-use.footerCopyrights="org.ets.core.models.FooterCopyrightsModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !footerCopyrights.copyrightdesc, classAppend='cmp-text'}"></sly>
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+<div class="ComponentContent">
+	<div class="footer-copyrights d-flex">
+         <div class="footer-copyrights-followus"><span>${footerCopyrights.texttitle}</span>
+         	<sly data-sly-list.logo="${multifieldMap.logodetails.listChildren}">
+         		<a class="footer-socialicon"
+                   data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=logo.linkurl}"
+                   href="${linkValidate.link}" target="${logo.newTab ? '_blank' : ''}" rel="${logo.newTab ? 'noopener noreferrer' : ''}" aria-label="${logo.ctaLinkAriaLabel}"><img alt="${logo.altText}" src="${logo.sociallogo}"></a>
+         	</sly>
+         </div>
+         <div class="footer-copyrights-desc d-flex">
+             <div>${footerCopyrights.copyrightdesc @context='html'}</div>
+             <div class="copyPrivacy">
+                 <nav class="nav" >
+                     <ul>
+                         <sly data-sly-list.copyrights="${multifieldMap.copyrightdetails.listChildren}">
+                            <li>
+                                <a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=copyrights.textlink}"
+                                href="${linkValidate.link}" target="${copyrights.newTab ? '_blank' : ''}" rel="${copyrights.newTab ? 'noopener noreferrer' : ''}" aria-label="${copyrights.linkAriaLabel}">${copyrights.text}</a>
+                            </li>
+                         </sly>
+                         <li>
+                             <!-- OneTrust Cookies Settings button start -->
+                             <button id="ot-sdk-btn" class="ot-sdk-show-settings">${footerCopyrights.cookiePlaceholder}</button>
+                             <!-- OneTrust Cookies Settings button end -->
+                         </li>
+                    </ul>
+                 </nav>
+             </div>
+         </div>
+     </div>
+</div>

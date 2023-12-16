@@ -1,0 +1,36 @@
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = multifieldMap.isEmpty,classAppend='cmp-text'}"></sly>
+
+<section data-sly-test="${!multifieldMap.isEmpty}">
+        <div class="side-navigation d-none d-md-block">
+            <div class="cmp-container--body">
+                <ul class="side-navigation-container">
+                    <sly data-sly-list.nav="${multifieldMap.navmenu.listChildren}">
+                        <li>
+                            <a class="nav-bold-only body-text ${nav.targetpath == currentPage.getPath ? 'nav-arrow-bold body-text side-menu-item-active' : ''}"
+                               data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=nav.targetpath}"
+                               href="${linkValidate.link}" aria-label="${nav.ctaLinkAriaLabel}">${nav.title}</a>
+                        </li>
+                    </sly>
+                </ul>
+            </div>
+        </div>
+    <div data-sly-test="${!multifieldMap.isEmpty}" class="mobile-side-navigation d-md-none">
+        <div class="cmp-container--body">
+            <div class="dropdown">
+                <div class="btn-secondary dropdown-toggle" data-bs-display="static" id="SideNavigationMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                    <input type="text" placeholder="" list="sideMenuList" name="menu" onkeydown="return false">
+                    <button type="submit" list="sideMenuList"><i class="dropdown-downarrow"></i></button>
+                </div>
+                <ul class="dropdown-menu" aria-labelledby="${properties.sideNavAriaLabel}">
+                    <sly data-sly-list.nav="${multifieldMap.navmenu.listChildren}">
+                        <li><a class="side-menu dropdown-item ${nav.targetpath == currentPage.getPath ? 'side-menu-item-active' : ''}"
+                               data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=nav.targetpath}"
+                               href="${linkValidate.link}" aria-label="${nav.ctaLinkAriaLabel}">${nav.title}</a></li>
+                    </sly>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

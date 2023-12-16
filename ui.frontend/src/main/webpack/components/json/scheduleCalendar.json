@@ -1,0 +1,385 @@
+{
+    "essaschedulingSOAMessage": [{
+            "requestHeader": {
+                "action": "eSSA.FindAllAvailableSiteAndDates",
+                "transactionID": "123451705201806",
+                "messageID": "0",
+                "sessionID": "D2B9D9E18C04BC74D8A3F651B9DC5DDF",
+                "source": "VAN",
+                "userRoleType": "ROLE_TESTTAKER",
+                "programCode": "TEL",
+                "rollBack": true,
+                "hasAccommodation": false,
+                "requestsData": {
+                    "dataElements": [{
+                            "name": "FindAllAvailableSiteAndDates.StartDate",
+                            "data": {
+                                "stringType": "2022-04-01 14:15"
+                            }
+                        }, {
+                            "name": "FindAllAvailableSiteAndDates.EndDate",
+                            "data": {
+                                "stringType": "2022-06-21 14:15"
+                            }
+                        }, {
+                            "name": "FindAllAvailableSiteAndDates.ExamId",
+                            "data": {
+                                "stringType": "XML"
+                            }
+                        }, {
+                            "name": "FindAllAvailableSiteAndDates.Latitude",
+                            "data": {
+                                "doubleType": 40.0583238
+                            }
+                        }, {
+                            "name": "FindAllAvailableSiteAndDates.Longitude",
+                            "data": {
+                                "doubleType": -74.4056612
+                            }
+                        }, {
+                            "name": "FindAllAvailableSiteAndDates.MaxCutOffDistance",
+                            "data": {
+                                "intType": 100
+                            }
+                        }, {
+                            "name": "FindAllAvailableSiteAndDates.CountryCode",
+                            "data": {
+                                "stringType": "USA"
+                            }
+                        }, {
+                            "name": "FindAllAvailableSiteAndDates.TimeZoneId",
+                            "data": {
+                                "stringType": "Asia/Kolkata"
+                            }
+                        }, {
+                            "name": "FindAllAvailableSiteAndDates.DeliveryMode",
+                            "data": {
+                                "stringType": "ALL"
+                            }
+                        }
+                    ]
+                }
+            },
+            "responseHeader": {
+                "status": true,
+                "messages": {}
+            },
+            "availableDates": {
+                "availableDate": [{
+                        "testDate": "2022-05-06",
+                        "sites": {
+                            "site": [
+                                {
+                                    "siteCode": "STN00022A",
+                                    "distance": "25.91",
+                                    "supportsAccommodation": false,
+                                    "deliveryMode": "TESTCENTER",
+                                    "address": {
+                                        "addressLine1": "3600 Jerome Avenue",
+                                        "addressLine2": " ",
+                                        "city": "Memphis",
+                                        "state": "NY",
+                                        "country": "USA",
+                                        "postalCode": "11700",
+                                        "directions": {
+                                            "direction": [
+                                                "Go east and turn left at cross road "
+                                            ]
+                                        }
+                                    }
+                                }, 
+                                {
+                                    "siteCode": "STNRPUSA",
+                                    "distance": null,
+                                    "supportsAccommodation": false,
+                                    "deliveryMode": "REMOTE",
+                                    "address": null
+                                }, 
+                                {
+                                    "siteCode": "STNP0001A",
+                                    "distance": "36.91",
+                                    "supportsAccommodation": false,
+                                    "deliveryMode": "PAPER",
+                                    "address": {
+                                        "addressLine1": "3611 Jerome Avenue",
+                                        "addressLine2": " ",
+                                        "city": "Memphis",
+                                        "state": "NY",
+                                        "country": "USA",
+                                        "postalCode": "11787",
+                                        "directions": {
+                                            "direction": [
+                                                "Go east and turn left at cross road "
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                    "testDate": "2022-05-10",
+                    "sites": {
+                        "site": [
+                            {
+                                "siteCode": "STN00022A",
+                                "distance": "25.91",
+                                "supportsAccommodation": false,
+                                "deliveryMode": "TESTCENTER",
+                                "address": {
+                                    "addressLine1": "data check",
+                                    "addressLine2": " ",
+                                    "city": "Memphis",
+                                    "state": "NY",
+                                    "country": "USA",
+                                    "postalCode": "11700",
+                                    "directions": {
+                                        "direction": [
+                                            "Go east and turn left at cross road "
+                                        ]
+                                    }
+                                }
+                            }, 
+                            {
+                                "siteCode": "STNRPUSA",
+                                "distance": null,
+                                "supportsAccommodation": false,
+                                "deliveryMode": "REMOTE",
+                                "address": null
+                            }, 
+                            {
+                                "siteCode": "STNP0001A",
+                                "distance": "36.91",
+                                "supportsAccommodation": false,
+                                "deliveryMode": "PAPER",
+                                "address": {
+                                    "addressLine1": "3611 Jerome Avenue",
+                                    "addressLine2": " ",
+                                    "city": "Memphis",
+                                    "state": "NY",
+                                    "country": "USA",
+                                    "postalCode": "11787",
+                                    "directions": {
+                                        "direction": [
+                                            "Go east and turn left at cross road "
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                     }
+                    },
+                    {
+                        "testDate": "2022-06-15",
+                        "sites": {
+                            "site": [
+                                {
+                                    "siteCode": "STN00022A",
+                                    "distance": "25.91",
+                                    "supportsAccommodation": false,
+                                    "deliveryMode": "TESTCENTER",
+                                    "address": {
+                                        "addressLine1": "data check2",
+                                        "addressLine2": " ",
+                                        "city": "Memphis",
+                                        "state": "NY",
+                                        "country": "USA",
+                                        "postalCode": "11700",
+                                        "directions": {
+                                            "direction": [
+                                                "Go east and turn left at cross road "
+                                            ]
+                                        }
+                                    }
+                                }, 
+                                {
+                                    "siteCode": "STNRPUSA",
+                                    "distance": null,
+                                    "supportsAccommodation": false,
+                                    "deliveryMode": "REMOTE",
+                                    "address": null
+                                }, 
+                                {
+                                    "siteCode": "STNP0001A",
+                                    "distance": "36.91",
+                                    "supportsAccommodation": false,
+                                    "deliveryMode": "PAPER",
+                                    "address": {
+                                        "addressLine1": "3611 Jerome Avenue",
+                                        "addressLine2": " ",
+                                        "city": "Memphis",
+                                        "state": "NY",
+                                        "country": "USA",
+                                        "postalCode": "11787",
+                                        "directions": {
+                                            "direction": [
+                                                "Go east and turn left at cross road "
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                         }
+                        },
+                        {
+                            "testDate": "2022-05-23",
+                            "sites": {
+                                "site": [
+                                    {
+                                        "siteCode": "STN00022A",
+                                        "distance": "25.91",
+                                        "supportsAccommodation": false,
+                                        "deliveryMode": "TESTCENTER",
+                                        "address": {
+                                            "addressLine1": "data check2",
+                                            "addressLine2": " ",
+                                            "city": "Memphis",
+                                            "state": "NY",
+                                            "country": "USA",
+                                            "postalCode": "11700",
+                                            "directions": {
+                                                "direction": [
+                                                    "Go east and turn left at cross road "
+                                                ]
+                                            }
+                                        }
+                                    }, 
+                                    {
+                                        "siteCode": "STNRPUSA",
+                                        "distance": null,
+                                        "supportsAccommodation": false,
+                                        "deliveryMode": "REMOTE",
+                                        "address": null
+                                    }, 
+                                    {
+                                        "siteCode": "STNP0001A",
+                                        "distance": "36.91",
+                                        "supportsAccommodation": false,
+                                        "deliveryMode": "PAPER",
+                                        "address": {
+                                            "addressLine1": "3611 Jerome Avenue",
+                                            "addressLine2": " ",
+                                            "city": "Memphis",
+                                            "state": "NY",
+                                            "country": "USA",
+                                            "postalCode": "11787",
+                                            "directions": {
+                                                "direction": [
+                                                    "Go east and turn left at cross road "
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                             }
+                            },
+                            {
+                                "testDate": "2022-05-11",
+                                "sites": {
+                                    "site": [
+                                        {
+                                            "siteCode": "STN00022A",
+                                            "distance": "25.91",
+                                            "supportsAccommodation": false,
+                                            "deliveryMode": "TESTCENTER",
+                                            "address": {
+                                                "addressLine1": "data check2",
+                                                "addressLine2": " ",
+                                                "city": "Memphis",
+                                                "state": "NY",
+                                                "country": "USA",
+                                                "postalCode": "11700",
+                                                "directions": {
+                                                    "direction": [
+                                                        "Go east and turn left at cross road "
+                                                    ]
+                                                }
+                                            }
+                                        }, 
+                                        {
+                                            "siteCode": "STNRPUSA",
+                                            "distance": null,
+                                            "supportsAccommodation": false,
+                                            "deliveryMode": "REMOTE",
+                                            "address": null
+                                        }, 
+                                        {
+                                            "siteCode": "STNP0001A",
+                                            "distance": "36.91",
+                                            "supportsAccommodation": false,
+                                            "deliveryMode": "PAPER",
+                                            "address": {
+                                                "addressLine1": "3611 Jerome Avenue",
+                                                "addressLine2": " ",
+                                                "city": "Memphis",
+                                                "state": "NY",
+                                                "country": "USA",
+                                                "postalCode": "11787",
+                                                "directions": {
+                                                    "direction": [
+                                                        "Go east and turn left at cross road "
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    ]
+                                 }
+                                },
+                                {
+                                    "testDate": "2022-05-18",
+                                    "sites": {
+                                        "site": [
+                                            {
+                                                "siteCode": "STN00022A",
+                                                "distance": "25.91",
+                                                "supportsAccommodation": false,
+                                                "deliveryMode": "TESTCENTER",
+                                                "address": {
+                                                    "addressLine1": "data check2",
+                                                    "addressLine2": " ",
+                                                    "city": "Memphis",
+                                                    "state": "NY",
+                                                    "country": "USA",
+                                                    "postalCode": "11700",
+                                                    "directions": {
+                                                        "direction": [
+                                                            "Go east and turn left at cross road "
+                                                        ]
+                                                    }
+                                                }
+                                            }, 
+                                            {
+                                                "siteCode": "STNRPUSA",
+                                                "distance": null,
+                                                "supportsAccommodation": false,
+                                                "deliveryMode": "REMOTE",
+                                                "address": null
+                                            }, 
+                                            {
+                                                "siteCode": "STNP0001A",
+                                                "distance": "36.91",
+                                                "supportsAccommodation": false,
+                                                "deliveryMode": "PAPER",
+                                                "address": {
+                                                    "addressLine1": "3611 Jerome Avenue",
+                                                    "addressLine2": " ",
+                                                    "city": "Memphis",
+                                                    "state": "NY",
+                                                    "country": "USA",
+                                                    "postalCode": "11787",
+                                                    "directions": {
+                                                        "direction": [
+                                                            "Go east and turn left at cross road "
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                     }
+                                    }
+                    
+                ]
+            }
+        }
+    ]
+}

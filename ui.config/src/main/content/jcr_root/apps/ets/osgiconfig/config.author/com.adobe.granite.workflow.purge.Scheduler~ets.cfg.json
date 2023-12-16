@@ -1,0 +1,5 @@
+{
+  "scheduledpurge.name":"ETS Scheduled Purge Configuration",
+  "scheduledpurge.workflowStatus":"COMPLETED",
+  "scheduledpurge.daysold:Integer":60
+}

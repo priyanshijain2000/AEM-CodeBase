@@ -1,0 +1,7 @@
+{
+  "user.default": "",
+  "user.mapping": [
+    "ets-project.core:ets-resource-resolver=[etsservice]"
+  ]
+}
+

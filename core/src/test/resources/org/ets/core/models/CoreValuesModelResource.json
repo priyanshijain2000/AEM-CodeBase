@@ -1,0 +1,32 @@
+{
+	"coreValues": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"jcr:lastModifiedBy": "admin",
+		"altText": "Alternative text for accessibility",
+		"jcr:created": "Thu Aug 24 2023 07:49:21 GMT-0400",
+		"adjustTopBottomMobile": "6",
+		"adjustTopBottomTab": "2",
+		"adjustLeftRight": "2",
+		"image": "/content/dam/ets-org/brands/praxis/Praxis Quote Banner.png",
+		"title": "Title",
+		"deviceType": "mobile",
+		"adjustLeftRightTab": "1",
+		"jcr:lastModified": "Thu Aug 24 2023 07:57:21 GMT-0400",
+		"adjustLeftRightMobile": "6",
+		"sling:resourceType": "ets/components/corevalues",
+		"adjustTopBottom": "3",
+		"cards": {
+			"jcr:primaryType": "nt:unstructured",
+			"item0": {
+				"jcr:primaryType": "nt:unstructured",
+				"description": "Description",
+				"newTab": "false",
+				"ctaLinkAriaLabel": "CTA Link Aria Label",
+				"cardtitle": "Card Title",
+				"link": "/content/ets-org/language-master/en/home/2136_dre",
+				"linktext": "Link Text"
+			}
+		}
+	}
+}

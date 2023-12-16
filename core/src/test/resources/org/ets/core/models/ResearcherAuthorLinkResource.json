@@ -1,0 +1,20 @@
+{
+  "research-article": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:mixinTypes": [
+        "mix:versionable"
+      ],
+      "jcr:createdBy": "admin",
+      "jcr:title": "Select test",
+      "cq:template": "/conf/ets/settings/wcm/templates/generic-page",
+      "sling:resourceType": "ets/components/generic-page",
+      "researcher-patent":{
+		  "sling:resourceType":"ets/components/researcher-patent",
+		  "jcr:primaryType":"nt:unstructured",
+      "authors":["Hansen, Eric G.","Mislevy, Robert J.","Steinberg, Linda S."]
+		}
+    }
+  }
+}

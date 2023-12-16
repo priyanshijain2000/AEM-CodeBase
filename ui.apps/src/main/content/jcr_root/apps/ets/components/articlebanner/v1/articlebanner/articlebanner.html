@@ -1,0 +1,41 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+     data-sly-call="${templates.placeholder @ isEmpty = !properties.articletitle,classAppend='cmp-text'}"></sly>
+
+<div data-sly-test="${properties.articledesc}" class="article-banner-container position-relative">
+  <sly data-sly-use.imgMetadata="${'org.ets.core.models.DamMetadataModel' @imgPath=properties.image}"></sly>
+  <img class="d-none d-xl-block" src="${properties.image ? properties.image : '/content/dam/ets-org/general/placeholders/img-plchldr-full-width.jpg'}" style="object-position: ${properties.adjustLeftRight ? properties.adjustLeftRight : '0'@ context='styleString'}px ${properties.adjustTopBottom ? properties.adjustTopBottom : '0'@ context='styleString'}px" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" alt="${properties.altText ? properties.altText : imgMetadata.alttxt}">
+  <img class="d-none d-md-block d-xl-none" src="${properties.image ? properties.image : '/content/dam/ets-org/general/placeholders/img-plchldr-full-width.jpg'}" style="object-position: ${properties.adjustLeftRightTab ? properties.adjustLeftRightTab : '0'@ context='styleString'}px ${properties.adjustTopBottomTab ? properties.adjustTopBottomTab : '0'@ context='styleString'}px" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" alt="${properties.altText ? properties.altText : imgMetadata.alttxt}">
+
+  <div class="cmp-container--body mobile-no-margin row align-items-center cmp-container--body">
+    <sly data-sly-use.imgMetadata="${'org.ets.core.models.DamMetadataModel' @imgPath=properties.image}"></sly>
+    <img class="d-block d-md-none carousel-img" src="${properties.image ? properties.image : '/content/dam/ets-org/general/placeholders/img-plchldr-full-width.jpg'}" style="object-position: ${properties.adjustLeftRightMobile ? properties.adjustLeftRightMobile : '0'@ context='styleString'}px ${properties.adjustTopBottomMobile ? properties.adjustTopBottomMobile : '0'@ context='styleString'}px" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" alt="${properties.altText ? properties.altText : imgMetadata.alttxt}">
+    <div class=" col-12 mobile-margin content-align-${properties.align} position-relative">
+      <div class="rellax praxis-pills5" data-rellax-speed="1" data-rellax-percentage="-2">
+        <img src="/etc.clientlibs/ets/clientlibs/clientlib-site/resources/images/pills/praxis/pills5/praxis-article-pills.svg" alt=""></img>
+      </div>
+      <div class="article-banner-card">
+        <div class="article-title-band">
+          <h2 class="label-title heading3" data-sly-test="${properties.articlesubtitle}">${properties.articletitle} |
+            <span class="fw-normal">${properties.articlesubtitle}</span>
+          </h2>
+          <h2 class="label-title heading3" data-sly-test="${!properties.articlesubtitle}">${properties.articletitle}
+            <span class="fw-normal">${properties.articlesubtitle}</span>
+          </h2>
+        </div>
+        <div class="article-banner-description" style="--article-description-color: ${properties.color || '#3072be' @context='styleString'};">
+          <div class="heading4">${properties.articledesc @context='html'}</div>
+        </div>
+        <div class="article-banner-button-band">
+          <a data-sly-test="${properties.ctaButtonLabel}"
+             data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=properties.ctaButtonLink}"
+             class="cta-btn-primary" href="${linkValidate.link}"
+             target="${properties.newTab ? '_blank' : ''}" aria-label="${properties.ctaButtonAriaLabel}" rel="${properties.newTab ? 'noopener noreferrer' : ''}">${properties.ctaButtonLabel}</a>
+          <a data-sly-test="${properties.ctaText}"
+             data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=properties.ctaLink}"
+             class="cta-text-link" href="${linkValidate.link}"
+             target="${properties.newTab1 ? '_blank' : ''}" aria-label="${properties.ctaLinkAriaLabel}" rel="${properties.newTab1 ? 'noopener noreferrer' : ''}">${properties.ctaText}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

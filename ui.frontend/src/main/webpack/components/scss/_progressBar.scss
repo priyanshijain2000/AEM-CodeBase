@@ -1,0 +1,227 @@
+/* Mixins */
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Theme Variables */
+$base-background-color: $color-ETS-midnight;
+$base-active-bg: $color-yellow;
+
+.progress-bg {
+  background-color: rgba(198, 198, 198, 0.19);
+  height: 95px;
+  display: flex;
+  align-items: center;
+  .progress--breadcrumb {
+    cursor: pointer;
+    margin-top: 1.25rem;
+    height: 40px;
+    padding: 10px;
+    @include fontsize(
+      0.875rem,
+      1.1875rem,
+      $bold,
+      $color-ETS-midnight,
+      capitalize
+    );
+    > svg {
+      margin-right: 1rem;
+    }  
+  }
+}
+/* Animations */
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  33% {
+    transform: scale(0.9);
+  }
+
+  66% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+.progress--breadcrumb {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+/* Component Styles - Steps */
+.steps {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 2rem 0;
+  list-style: none;
+  justify-content: center;
+}
+
+@include viewport(tablet-desktop) {
+  .step {
+    @include flex-center;
+    flex-direction: column;
+    position: relative;
+    pointer-events: none;
+    padding: 0;
+    width: 20%;
+    height: 35px;
+    &--active,
+    &--complete {
+      cursor: pointer;
+      pointer-events: all;
+    }
+
+    &:not(:last-child) {
+      &:before,
+      &:after {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 0.25rem;
+        content: "";
+        transform: translateY(-50%);
+        will-change: width;
+      }
+    }
+
+    &:before {
+      width: 100%;
+      background-color: $base-background-color;
+    }
+
+    &:after {
+      width: 0;
+      background-color: $base-background-color;
+    }
+
+    &--complete {
+      &:after {
+        width: 100% !important;
+        opacity: 1;
+        transition: width 0.6s ease-in-out, opacity 0.6s ease-in-out;
+      }
+    }
+  }
+
+  .step__icon {
+    @include flex-center;
+    position: relative;
+    background-color: $base-background-color;
+    border-radius: 50%;
+    color: transparent;
+    z-index: 2;
+    width: 21px;
+    height: 21px;
+
+    .step--complete.step--active & {
+      transition: background-color 0.3s ease-in-out,
+        border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    .step--incomplete.step--active & {
+      background-color: $base-active-bg;
+      border: 4px solid $base-background-color;
+      width: 32px;
+      height: 32px;
+      transition-delay: 0.5s;
+      svg {
+        display: none;
+      }
+    }
+
+    .step--complete & {
+      animation: bounce 0.5s ease-in-out;
+      background-color: $base-active-bg;
+    }
+  }
+
+  .step__label {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 50%;
+    margin-top: 1rem;
+    cursor: text;
+    pointer-events: none;
+    @include fontsize(
+      0.875rem,
+      1.1875rem,
+      $normal,
+      $color-ETS-midnight,
+      initial
+    );
+    transform: translateX(-50%);
+    white-space: nowrap;
+    .step--incomplete.step--inactive & {
+      color: $base-background-color;
+    }
+
+    .step--incomplete.step--active & {
+      color: $base-background-color;
+      font-weight: $bold;
+      bottom: -1.7rem;
+    }
+
+    .step--active & {
+      transition: color 0.3s ease-in-out;
+      transition-delay: 0.5s;
+    }
+  }
+}
+@include viewport(only-mobile) {
+    .progress-bg {
+        height: 65px;
+    }
+    .progress--breadcrumb {
+        display: none;
+    }
+    .steps{
+        position: relative;
+        padding: 0;
+    }
+  .step {
+    border-radius: 7px;
+    height: 7px;
+    background-color: $base-background-color;
+    flex: 1;
+    margin: 0 13px;
+    padding: 0;
+   
+    &--active,
+    &--complete {
+        background-color: $base-active-bg;
+        // transition: background-color 0.8s ease-in-out;
+        // transition-delay: 0.5s;
+    }
+    &__icon,
+    &__label {
+      display: none;
+    }
+    &--active {
+        .step__label {
+            @include fontsize(
+                0.75rem,
+                1.0212rem,
+                $bold,
+                $color-ETS-midnight,
+                capitalize
+              );
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            top: -22px;
+            left: 0;
+            width: 100%;
+        }
+    }
+  }
+}

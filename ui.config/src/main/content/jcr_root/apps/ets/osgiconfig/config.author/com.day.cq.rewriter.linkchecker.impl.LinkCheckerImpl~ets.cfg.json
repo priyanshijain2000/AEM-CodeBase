@@ -1,0 +1,18 @@
+{
+  "service.special_link_patterns":[
+    ""
+  ],
+  "service.check_override_patterns":[
+    "^system/",
+    "^https?:\\/\\/www\\.ets\\.org",
+    "^https?:\\/\\/de\\.ets\\.org",
+    "^https?:\\/\\/jp\\.ets\\.org",
+    "^https?:\\/\\/es\\.ets\\.org",
+    "^https?:\\/\\/fr\\.ets\\.org",
+    "^https?:\\/\\/kr\\.ets\\.org",
+    "^https?:\\/\\/pt\\.ets\\.org",
+    "^https?:\\/\\/tr\\.ets\\.org",
+    "^https?:\\/\\/cn\\.ets\\.org",
+    "^https?:"
+  ]
+}

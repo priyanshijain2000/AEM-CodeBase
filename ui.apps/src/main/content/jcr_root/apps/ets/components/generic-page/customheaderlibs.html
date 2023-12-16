@@ -1,0 +1,36 @@
+<!--/*
+    Copyright 2017 Adobe Systems Incorporated
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<script src="https://cdnapi.kaltura.com/p/1407311/embedPlaykitJs/uiconf_id/${inheritedPageProperties.embedID}" crossorigin="anonymous"></script>
+<script src="https://cdnapisec.kaltura.com/p/1407311/sp/140731100/embedIframeJs/uiconf_id/13337211/partner_id/1407311"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.15.0/js/uikit.min.js" integrity="sha512-CXDPj8j/E5GFmthbCmbDO9C7wiB2KFpRG+7MuiVWJliI0R8nH+t1MuWRl5Slqf3Tn3ymveugjwiFC4xdwYWeAw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfkKOKOMCW-PdUzVjUThIr-Xb2tOJZ8xM&libraries=places"></script>
+
+<sly data-sly-test="${pageProperties.reactJSFilePath}">
+	<script type="module" src="${inheritedPageProperties.reactJSFilePath}"></script>
+</sly>
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.css @ categories='ets.base'}"/>
+</sly>
+<sly data-sly-test="${inheritedPageProperties.enableChatBot && inheritedPageProperties.chatbotClientLib}" data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.css @ categories=inheritedPageProperties.chatbotClientLib}"/>
+</sly>
+<sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
+
+<sly data-sly-test="${pageProperties.reactCSSFilePath}">
+    <link rel="stylesheet" href="${inheritedPageProperties.reactCSSFilePath}"/>
+</sly>

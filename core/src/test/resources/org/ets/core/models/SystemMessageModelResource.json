@@ -1,0 +1,18 @@
+{
+	"systemmessage": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:createdBy": "admin",
+        "jcr:lastModifiedBy": "admin",
+        "warnDescription": "<p>A typhoon will hault operations on Japan's Pacific coast. Please seek shelter. Visit&nbsp;<a href=\"http://localhost:8080/home.html\">[text link]</a>for more details.</p>\r\n",
+        "jcr:created": "Tue May 09 2023 04:28:25 GMT-0400",
+        "alertDescription": "<p>A typhoon will hault operations on Japan's Pacific coast. Please seek shelter. Visit&nbsp;<a href=\"http://localhost:8080/home.html\">[text link]</a>for more details.</p>\r\n",
+        "informDescription": "<p>A typhoon will hault operations on Japan's Pacific coast. Please seek shelter. Visit&nbsp;<a href=\"http://localhost:8080/home.html\">[text link]</a>for more details.</p>\r\n",
+        "jcr:lastModified": "Tue May 09 2023 04:57:06 GMT-0400",
+        "sling:resourceType": "ets/components/systemmessage",
+        "textIsRich": [
+        "true",
+        "true",
+        "true"
+        ]
+	}
+}

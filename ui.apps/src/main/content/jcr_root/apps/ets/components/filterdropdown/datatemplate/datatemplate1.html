@@ -1,0 +1,12 @@
+
+<template data-sly-template.variation1="${@ inputData}">
+    <section class="gre-contactus-filter cmp-container--body">
+        <div data-sly-test="${inputData.sectionTitle}" class="gre-contactus-filter__title">${inputData.sectionTitle @context='html'}</div>
+        <select class="gre-contactus-dropdown" id="gre-contactus" data-gre-contactus-path="${inputData.json}" data-placeholder="${inputData.placeholderText}" aria-label="${inputData.inputAriaLabel}"><option></option></select>
+        <table class="gre-contactus-filter__table">
+            <tbody class="gre-contactus-filter__table__content" role="presentation">
+
+            </tbody>
+        </table>
+    </section>
+</template>

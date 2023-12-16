@@ -1,0 +1,33 @@
+{
+	"globalSearch": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"searchButtonText": "Search",
+		"errorPagination": "Please enter valid page number",
+		"jcr:lastModifiedBy": "admin",
+		"inputPaginationAriaLabel": "enter page number",
+		"filterLabel": "Filter",
+		"prevLabel": "Previous",
+		"jcr:created": "Wed Jul 12 2023 01:20:52 GMT-0400",
+		"noResultMsg": "Please select a keyword",
+		"placeholder": "Search for ....",
+		"countTextLabel": "of",
+		"jcr:lastModified": "Wed Aug 30 2023 05:37:10 GMT-0400",
+		"nextAriaLabel": "next",
+		"nextLabel": "Next",
+		"sling:resourceType": "ets/components/globalsearch",
+		"quickLink": "Quick Links:",
+		"noKeywordMsg": "Please select a keyword",
+		"prevAriaLabel": "previous",
+		"endpoint": "https://sitesearch.ets.org/sitesearch/etsorg/search",
+		"inputAriaLabel": "Please select a keyword",
+		"searchFilter": {
+			"jcr:primaryType": "nt:unstructured",
+			"item0": {
+				"jcr:primaryType": "nt:unstructured",
+				"text": "All",
+				"value": "all"
+			}
+		}
+	}
+}

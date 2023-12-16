@@ -1,0 +1,82 @@
+<sly data-sly-use.acceptanceList="org.ets.core.models.AcceptanceListModel"/>
+<div class="cmp-container--body ">
+    <div class="school-acceptance">
+        <div class="school-acceptance--search">
+            <form class="field without-search">
+                <div class="field-groups">
+                    <label class="form-label form-label-text">${acceptanceList.entriesLabel}</label>
+                    <div class="customselectpagecountsearch">
+                        <select class="page-count-dropdown" aria-label="${acceptanceList.entriesAriaLabel}" autocomplete="off">
+                            <option>10</option>
+                            <option>25</option>
+                            <option>50</option>
+                            <option>100</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <form class="field">
+                <div class="field-groups">
+                    <label for="selectTest" class="form-label form-label-text">${acceptanceList.searchLabel}</label>
+                    <div class="customselectresultsearch">
+                        <div class="select__selected">
+                            <i class="dropdown-search-icon"><img src="/content/dam/ets-org/icons/commons/searchIcon_blue.svg" alt="${acceptanceList.searchAlt}"></i>
+                            <input type="search" id="search" placeholder="${acceptanceList.searchBoxPlaceholder}" aria-label="${acceptanceList.searchAriaLabel}" class="pac-target-input" autocomplete="off">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="school-acceptance__table" id="school-acceptance" data-school-acceptance-path="${acceptanceList.json}">
+            <div class="school-acceptance__table--overflow">
+                <table>
+                    <thead>
+                    <tr class="sortingimages">
+                        <th class="sort_both" aria-sort="none" data-key="Country">
+                            <button aria-label="Sort By ${acceptanceList.countryLabel}" data-column-index="0">
+                                <img alt="${acceptanceList.arrowAlt}" src="/content/dam/ets-org/icons/commons/arrows.svg"/>
+                                <b>${acceptanceList.countryLabel}</b>
+                            </button>
+                        </th>
+                        <th class="sort_both" aria-sort="none" data-key="State/Province">
+                            <button aria-label="Sort By ${acceptanceList.stateLabel}" data-column-index="1">
+                                <img alt="${acceptanceList.arrowAlt}" src="/content/dam/ets-org/icons/commons/arrows.svg"/>
+                                <b>${acceptanceList.stateLabel}</b>
+                            </button>
+                        </th>
+                        <th class="sort_both" aria-sort="none" data-key="Institution">
+                            <button aria-label="Sort By ${acceptanceList.institutionLabel}" data-column-index="2">
+                                <img alt="${acceptanceList.arrowAlt}" src="/content/dam/ets-org/icons/commons/arrows.svg"/>
+                                <b>${acceptanceList.institutionLabel}</b>
+                            </button>
+                        </th>
+                        <th class="sort_both" aria-sort="none" data-key="Program">
+                            <button aria-label="Sort By ${acceptanceList.programLabel}" data-column-index="3">
+                                <img alt="${acceptanceList.arrowAlt}" src="/content/dam/ets-org/icons/commons/arrows.svg"/>
+                                <b>${acceptanceList.programLabel}</b>
+                            </button>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <span id="liveRegion" aria-live="polite" readcaptions="false" class="visuallyhidden"></span>
+            </div>           
+            <div class="school-acceptance__noresults d-none">${acceptanceList.norecmsg}</div>
+            <p data-sly-test="${acceptanceList.footnote}">${acceptanceList.footnote @context='html'}</p>
+            <div class="litePagination acceptancePagination cmp-button--tertiary d-none">
+                <a href="#" class="previous button cmp-button hover--primary cmp-button-arrow" aria-label="${acceptanceList.prevAriaLabel || 'previous page'}" data-action="previous">
+                	<span class="cmp-button__icon--leftArrowBlue" aria-hidden="true"></span>${acceptanceList.prevLabel || 'Previous'}
+                </a>
+                <input aria-label="${acceptanceList.inputPaginationAriaLabel || 'Enter page number'}" type="text" autocomplete="off"/>
+                <div class="page-result-text">
+                	<span class="current-page d-none">0</span> ${acceptanceList.countTextLabel || 'of'} <span class="max-page">0</span>
+                </div>
+                <a href="#" class="next button cmp-button hover--primary" aria-label="${acceptanceList.nextAriaLabel || 'next page'}" data-action="next">
+                	${acceptanceList.nextLabel || 'Next'}<span class="cmp-button__icon--rightArrowBlue" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+<section class="score-requirement cmp-container--body">
+    <section class="score-requirement-filters d-flex justify-content-center">
+        <div class="select2-wraper">
+            <select class="score-requirement-state-dropdown" aria-label="State search box"  data-placeholder="Select a Country" multiple="multiple">
+                <option></option>
+            </select>
+            <div id="scorerequirementstatechips" class="multiple-select-chips d-none">
+                <div class="clear-items"><a class="clear-chips stateChipsClear" href="#">Clear the selected items</a></div>
+            </div>
+            <div id="stateDropdownAnnouncement" aria-live="polite" class="dropdown-hidden"></div>
+        </div>
+        <div class="select2-wraper">
+            <select class="score-requirement-test-dropdown" data-placeholder="Select a Test" multiple="multiple" 
+                aria-label="Test search box">
+                <option></option>
+            </select>
+            <div id="scorerequirementtestchips" class="multiple-select-chips d-none">
+                <div class="clear-items"><a class="clear-chips testChipsClear" href="#">Clear the selected items</a></div>
+            </div>
+            <div id="testDropdownAnnouncement" aria-live="polite" class="dropdown-hidden"></div>
+        </div>
+    </section>
+    <div id="score-requirement-selected-list"></div>
+    <table id="score-requirement-table"
+        data-score-requirement-path="/src/main/webpack/components/js/scoreRequirement2.json">
+        <thead>
+            <tr>
+                <th>State</th>
+                <th>Code</th>
+                <th>Test</th>
+                <th><span class="d-none d-md-inline">Qualifying </span>Score</th>
+            </tr>
+        </thead>
+        <tbody class="score-requirement-table-content">
+        </tbody>
+    </table>
+    <section class="footnote"></section>
+    <div class="litePagination scoreRequirementPagination cmp-button--tertiary d-none">
+        <a href="#" class="previous button cmp-button hover--primary cmp-button-arrow" data-action="previous"><span class="cmp-button__icon--leftArrowBlue" aria-hidden="true"></span>Prev</a>
+        <input type="text" /> <div class="page-result-text"><span class="current-page d-none">0</span> of <span class="max-page">0</span></div>
+        <a href="#" class="next button cmp-button hover--primary" data-action="next">Next<span class="cmp-button__icon--rightArrowBlue" aria-hidden="true"></span></a>
+    </div>
+</section>
+</div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/ets" mode="merge"/>
+    <filter root="/conf/global/settings/workflow/models" mode="merge"/>
+    <filter root="/content/experience-fragments/ets-org" mode="merge"/>
+	<filter root="/content/ets-org" mode="merge"/>
+	<filter root="/content/dam/ets-org" mode="merge"/>
+	<filter root="/content/cq:tags/ets-org" mode="merge"/>
+	<filter root="/etc/map.dev.publish" mode="replace"/>
+	<filter root="/etc/map.prod.publish" mode="replace"/>
+	<filter root="/etc/map.stage.publish" mode="replace"/>
+</workspaceFilter>

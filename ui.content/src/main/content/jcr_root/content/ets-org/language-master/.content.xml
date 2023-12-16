@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-03-31T18:21:52.015Z"
+        cq:lastModifiedBy="anand.a.bisht@avanade.com"
+        cq:lastReplicated="{Date}2022-04-14T14:44:49.358Z"
+        cq:lastReplicated_preview="{Date}2022-03-25T13:35:14.925Z"
+        cq:lastReplicated_publish="{Date}2022-04-14T14:44:49.358Z"
+        cq:lastReplicatedBy="anand.a.bisht@avanade.com"
+        cq:lastReplicatedBy_preview="anand.a.bisht@avanade.com"
+        cq:lastReplicatedBy_publish="anand.a.bisht@avanade.com"
+        cq:lastReplicationAction="Deactivate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Deactivate"
+        cq:template="/conf/ets/settings/wcm/templates/content-general"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Language-master"
+        jcr:uuid="3171c193-a429-46da-b427-5e3392a5a135"
+        sling:resourceType="ets/components/generic-page"
+        disableBreadcrumb="true"
+        hideInNav="true"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:lastModified="{Date}2022-03-04T08:17:17.456Z"
+            jcr:lastModifiedBy="parthiban.selvam.p@accenture.com"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:lastModified="{Date}2022-03-07T05:49:15.842Z"
+                jcr:lastModifiedBy="saravanan.a.ms@accenture.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                id="content"
+                layout="simple"/>
+        </root>
+    </jcr:content>
+    <en/>
+</jcr:root>

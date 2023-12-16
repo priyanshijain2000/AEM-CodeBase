@@ -1,0 +1,239 @@
+.carousel-container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    .carousel-inner {
+        margin: 0;
+    }
+    .carousel-theme {
+        padding: 0;
+    }
+    &__item {
+        margin: 0;
+        padding: 0;
+        &__variation2 {
+            .content-img {
+                height: 100%;
+                position: absolute;
+                right: 0;
+            }
+            @include viewport(mobile-tab-portrait) {
+                flex-direction: column-reverse;
+            }
+            @include for-size(only-tablet) {
+                .carousel-item .content-img img {
+                    height: 50%;
+                }
+                height:50%;
+            }
+            @include for-size(only-mobile) {
+                .content-img {
+                    height: auto;
+                    right: 0;
+                }
+                .carousel-item .content-img img {
+                    height: 50%;
+                }
+                height:50%;
+            }
+            @include viewport(mobile-tab-portrait) {
+                .content-img {
+                    position: relative;
+                    right: unset;
+                }
+            }
+        }
+    }
+    .cmp-carousel__indicator {
+        width: 50%;
+        padding: inherit;
+        text-align: var(--carosel-position);
+        margin-top: 50px;
+        left: 0px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 2;
+        @include for-size(only-mobile) {
+            position: absolute;
+            justify-content: flex-start;
+            margin-top: 530px;
+        }
+        @include for-size(only-tablet) {
+            justify-content: flex-start;
+            position: absolute;
+            margin-top: 880px;
+        }
+        >button[data-bs-target] {
+            opacity: 1;
+            border: 0.5px solid $btn-primary;
+            width: 30px;
+            height: 12px;
+            background-color: transparent;
+            border-radius: 30px;
+            &:hover,
+            &:focus,
+            &:focus-visible {
+                border: 1px solid #ffffff;
+                background-color: #A8BDD6;
+            }
+            &:focus,
+            &:focus-visible {
+                border: 1px solid #ffffff;
+                background-color: #A8BDD6;
+                outline: 2px solid #FDB913;
+            }
+        }
+        &--active {
+            width: 40px!important;
+            height: 12px!important;
+            background: $btn-primary;
+            border: 1px solid $btn-primary;
+            &:hover,
+            &:focus,
+            &:focus-visible {
+                background: $btn-primary;
+                border: 1px solid $btn-primary;
+            }
+            &:focus,
+            &:focus-visible {
+                outline: 2px solid #FDB913;
+            }
+        }
+    }
+    &__indicators {
+        padding: 0;
+        position: absolute;
+        text-align: inherit;
+        margin: 0;
+        left: 0px;
+        right: 0;
+        top: -40px;
+        bottom: 0;
+        z-index: 5;
+        width: 50%;
+        &.right {
+            left: unset;
+            display: flex;
+            width: 50%;
+            justify-content: center;
+        }
+        @include for-size(only-mobile) {
+            position: absolute;
+            justify-content: flex-start;
+            padding: 0;
+            left: 0px;
+            right: 0;
+            top: -25px;
+            width: 100%;
+            &.right {
+                left: unset;
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+        }
+        @include for-size(only-tablet) {
+            justify-content: flex-start;
+            padding: 0;
+            left: 0px;
+            right: 0;
+            top: -30px;
+        }
+        >button[data-bs-target] {
+            opacity: 1;
+            border: 0.5px solid $btn-primary;
+            width: 30px;
+            height: 12px;
+            /*background-color: transparent;*/
+            border-radius: 30px;
+            &:not(:last-child) {
+                margin: 0 25px 0 0;
+            }
+            &.active {
+                width: 40px;
+                height: 12px;
+                background: $btn-primary;
+                border: 1px solid $btn-primary;
+                &:hover,
+                &:focus,
+                &:focus-visible {
+                    background: $btn-primary;
+                    border: 1px solid $btn-primary;
+                }
+                &:focus,
+                &:focus-visible {
+                    outline: 2px solid #FDB913;
+                }
+            }
+            &:hover,
+            &:focus,
+            &:focus-visible {
+                border: 1px solid #ffffff;
+                background-color: #A8BDD6;
+            }
+            &:focus,
+            &:focus-visible {
+                border: 1px solid #ffffff;
+                background-color: #A8BDD6;
+                outline: 2px solid #FDB913;
+            }
+        }
+    }
+}
+
+@include viewport(desktop) {
+    .carousel-container__item__variation2 {
+        .cmp-carousel__indicator {
+            left: 10px;
+        }
+    }
+}
+
+.carousel-bg {
+    .content {
+        margin-top: 141px;
+        margin-bottom: 221px;
+        height: 290px;
+        @include for-size(only-tablet) {
+            margin-top: 10px;
+            margin-bottom: 70px;
+        }
+        @include for-size(only-mobile) {
+            margin-top: 40px;
+            margin-bottom: 70px;
+        }
+    }
+}
+
+.carousel-bg2 {
+    @include for-size(only-desktop) {
+        padding-right: 0 !important;
+    }
+    .content-img {
+        height: 100%;
+        @include for-size(only-tablet) {
+            height: auto;
+        }
+        @include for-size(only-mobile) {
+            height: auto;
+        }
+    }
+}
+
+.carousel-video-container {
+    .video-container,
+    .videoText__container {
+        @include viewport(only-mobile) {
+            padding: 0;
+        }
+        .videoText__container {
+            display: none;
+        }
+    }
+    .video-container__thumbnail {
+        img {
+            width: 100%;
+        }
+    }
+}

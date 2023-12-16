@@ -1,0 +1,54 @@
+.static-warn-message,
+.static-alert-message,
+.static-inform-message,
+.static-affirm-message{
+    height: auto;
+    border-top-right-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
+    display: flex;
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 14px 16px 12px 14px;
+    align-items: start;
+}
+.static-warn-message{
+    background-color: #F4DCDD;
+    border-left: 4px solid #A80005;
+    p::before{
+        content: url('/content/dam/ets-org/icons/commons/circle_exclamation.svg');
+        margin-right: 10px;
+        position: relative;
+        top: 3px;
+    }
+}
+.static-alert-message{
+    background-color: #fcedca;
+    border-left: 4px solid #d7a80e ;
+    p::before{
+        content: url('/content/dam/ets-org/icons/commons/bell-image.svg');
+        margin-right: 10px;
+        position: relative;
+        top: 3px;
+    }
+}
+.static-inform-message{
+    background-color: #D8EAFF;
+    border-left: 4px solid #3072be;
+    p::before{
+        content: url('/content/dam/ets-org/icons/commons/circle-info.svg');
+        margin-right: 10px;
+        position: relative;
+        top: 3px;
+    }
+}
+.static-affirm-message{
+    background-color: #D7FAED;
+    border-left: 4px solid #2F7E61;
+    p::before{
+        content: url('/content/dam/ets-org/icons/commons/circle-check.svg');
+        margin-right: 10px;
+        position: relative;
+        top: 3px;
+    }
+}
+

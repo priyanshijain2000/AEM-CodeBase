@@ -1,0 +1,284 @@
+<div class="mainheader">
+    <div class="d-none d-xl-block top-nav">
+        <div class="ComponentContent ">
+            <div class="header-top desktoponly">
+                <nav class="navbar p-0">
+                    <div class="collapse show navbar-collapse " id="topnav">
+                        <ul class="navbar-nav me-auto topnav-list">
+                            <li class="nav-item">
+                                <a class="nav-link active theme-gre-bar" aria-current="page" href="#">GRE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link theme-tofel-bar" href="#">tofel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link theme-toeic-bar" href="#">toeic</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link theme-praxis-bar" href="#">praxis</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link theme-generic-bar" href="#">all products</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="topnav-btns">
+                    <button class="header-button" onclick="onProductTabClick(event)"><img
+                            src="/src/main/webpack/resources/images/cart.svg" alt="cart"> <span class="header-store-title">ETS
+                    STORE</span></button>
+                    <div class="header-vertical-separator"></div>
+                    <div class="language-dropdown dropdown">
+                        <button class="header-button dropdown-toggle" aria-owns="laguangeDD" onclick="onProductTabClick(event)" aria-roledescription="Press Enter key or space bar to display available language options, you will be redirected to appropriate language page after choosing a language" id="language" role="combobox" data-bs-auto-close="true" data-bs-toggle="dropdown" data-bs-hover="dropdown" aria-expanded="false">
+
+                            <img class="language-image"
+                                 src="/src/main/webpack/resources/images/language.svg" alt="">    <span class="header-store-title" aria-label="Selected Page Language is English">ENGLISH </span><img class="language-down-arrow"
+                                                                                                                                                                                                      src="/src/main/webpack/resources/images/down_arrow.svg" alt="">
+                        </button>
+                        <ul role="listbox" id="laguangeDD" class="dropdown-menu" aria-labelledby="language">
+                            <li role="option"><a class="dropdown-item nav-menu-item" aria-label="Select Japanese" href="javascript:">japanese</a></li>
+                            <li role="option"><a class="dropdown-item nav-menu-item" aria-label="Select korean" href="javascript:">korean</a></li>
+                            <li role="option"><a class="dropdown-item nav-menu-item" aria-label="Select portuguese" href="javascript:">portuguese</a></li>
+                            <li role="option"><a class="dropdown-item nav-menu-item" aria-label="Select spanish" href="javascript:">spanish</a></li>
+                            <li role="option"><a class="dropdown-item nav-menu-item" aria-label="Select turkish" href="javascript:">turkish</a></li>
+                            <li role="option"><a class="dropdown-item nav-menu-item" aria-label="Select french" href="javascript:">french</a></li>
+                            <li role="option"><a class="dropdown-item nav-menu-item" aria-label="Select german" href="javascript:">german</a></li>
+                            <li role="option"><a class="dropdown-item nav-menu-item" aria-label="Select chinese" href="javascript:">chinese</a></li>
+                            <li role="option"><a class="dropdown-item nav-menu-item item-selected" href="javascript:">english</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-vertical-separator"></div>
+                    <a class="contactlink" href="">Contact</a>
+                    <div class="login-btn"><a class="cta-btn-quartenary" href="">Login / Register</a></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="mega-nav-bg">
+        <div class="ComponentContent ">
+            <div class="header-container">
+                <div class="header-logo px-0">
+                    <a href="http://www.google.com" title="ETS_logo"><img src="/src/main/webpack/resources/images/ETS_LOGO.svg" alt="ETS"></a>
+                </div>
+                <nav class="navbar navbar-expand-xl p-0">
+                    <div class="collapse navbar-collapse" id="megaMenu">
+                        <div class="mobileonly mobilelogo">
+                            <div class="header-logo">
+                                <a href="http://www.google.com" title="ETS_logo"><img src="/src/main/webpack/resources/images/ETS_LOGO.svg" alt="ETS"></a>
+                            </div>
+                            <button type="button" class="btn-close close-nav" aria-label="Close" data-bs-toggle="collapse" data-bs-target="#megaMenu">Close</button>
+                        </div>
+
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown mobileonly mobile-top-nav">
+                                <a class="nav-link dropdown-toggle" href="#" id="products" role="button" data-bs-auto-close="true" data-bs-toggle="dropdown" data-bs-hover="dropdown" aria-expanded="false">
+                                    Products</a>
+                                <ul class="dropdown-menu" aria-labelledby="products">
+                                    <li><a class="dropdown-item nav-menu-item" href="#">GRE</a></li>
+                                    <li><a class="dropdown-item nav-menu-item" href="#">TOEFL</a></li>
+                                    <li><a class="dropdown-item nav-menu-item" href="#">TOEIC</a></li>
+                                    <li><a class="dropdown-item nav-menu-item" href="#">PRAXIS</a></li>
+                                    <li><a class="dropdown-item nav-menu-item" href="#">ALL PRODUCTS</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <button type="button" class="nav-link dropdown-toggle" href="#" id="testTakers" aria-controls="testTakersDD"  aria-owns="testTakersDD" role="button" data-bs-auto-close="true" data-bs-toggle="dropdown" data-bs-hover="dropdown" aria-expanded="false">
+                                    test takers</button>
+                                <ul class="dropdown-menu" id="testTakersDD" role="listbox" aria-labelledby="testTakers">
+                                    <li class="nav-menu-header">I WANT TO :</li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">All Assessments</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">K-12 programs</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">higher education</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">ENGLISH LANGUAGE LEARNING</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">WORKPLACE & TRAINING</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">READ RESEARCH</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <button type="button" class="nav-link dropdown-toggle" href="#" id="educators" aria-controls="educatorsDD" role="button" data-bs-auto-close="true" data-bs-toggle="dropdown" data-bs-hover="dropdown" aria-expanded="false">
+                                    educators </button>
+                                <ul class="dropdown-menu" id="educatorsDD" role="listbox"  aria-labelledby="educators">
+                                    <li class="nav-menu-header">I WANT TO:</li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">gain teaching Licence</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">VIEW TEST RESOURCE FOR STUDENTS</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">ATTEND CONFERENCES</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">READ RESEARCH</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">WORKPLACE & TRAINING</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">READ RESEARCH</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <button type="button" class="nav-link dropdown-toggle" href="#" aria-controls="institutionsDD" aria-owns="institutionsDD" id="institutions" role="button" data-bs-auto-close="true" data-bs-toggle="dropdown" data-bs-hover="dropdown" aria-expanded="false">
+                                    institutions </button>
+                                <div class="dropdown-menu dropdown-large h-auto" id="institutionsDD" role="listbox"  aria-labelledby="institutions">
+                                    <div class="d-flex h-auto">
+                                        <ul>
+                                            <li class="nav-menu-header">I'M looking FOR:</li>
+                                            <li role="option"><a class="dropdown-item nav-menu-item" href="#">scoring services</a></li>
+                                            <li role="option"><a class="dropdown-item nav-menu-item" href="#">k-12 programs</a></li>
+                                            <li role="option"><a class="dropdown-item nav-menu-item" href="#">higher education</a></li>
+                                            <li role="option"><a class="dropdown-item nav-menu-item" href="#">workplace & training</a></li>
+                                            <li role="option"><a class="dropdown-item nav-menu-item" href="#">read research</a></li>
+                                        </ul>
+
+                                        <ul>
+                                            <li class="nav-menu-header">I WANT TO:</li>
+                                            <li role="option"><a class="dropdown-item nav-menu-item" href="#">plan admissions</a></li>
+                                            <li role="option"><a class="dropdown-item nav-menu-item" href="#">sign into ETS data manager</a></li>
+                                            <li role="option"><a class="dropdown-item nav-menu-item" href="#">interpret scores</a></li>
+                                            <li role="option"><a class="dropdown-item nav-menu-item" href="#">use scores</a></li>
+                                            <li role="option"><a class="dropdown-item nav-menu-item" href="#">view score policies</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <button type="button" class="nav-link dropdown-toggle" href="#" aria-controls="businessDD" aria-owns="businessDD" id="business" role="button" data-bs-auto-close="true" data-bs-toggle="dropdown" data-bs-hover="dropdown" aria-expanded="false">
+                                    BUSINESS </button>
+                                <ul class="dropdown-menu" id="businessDD" role="listbox"  aria-labelledby="business">
+                                    <li class="nav-menu-header">I WANT TO:</li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">find job candidates</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">interpret scores</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">use scores</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">collaborate with ETS</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">read research</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <button type="button" class="nav-link dropdown-toggle" href="#" aria-controls="governmentsDD" aria-owns="governmentsDD" id="governments" role="button" data-bs-auto-close="true" data-bs-toggle="dropdown" data-bs-hover="dropdown" aria-expanded="false">
+                                    GOVERNMENTS </button>
+                                <ul class="dropdown-menu" id="governmentsDD" role="listbox"  aria-labelledby="governments">
+                                    <li class="nav-menu-header">I WANT TO:</li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">sign into ETS data manager</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">read policy studies</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">view all research</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">view all solutions</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">view assessments tools</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">learn about test adoption</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">view praxis services & tools</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">view praxis resources</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <button type="button" class="nav-link dropdown-toggle" href="#" aria-controls="researchDD" id="research" aria-owns="researchDD" role="button" data-bs-auto-close="true" data-bs-toggle="dropdown" data-bs-hover="dropdown" aria-expanded="false">
+                                    research </button>
+                                <ul class="dropdown-menu dropdown-menu-end" id="researchDD" role="listbox"  aria-labelledby="research">
+                                    <li class="nav-menu-header">I'M looking FOR:</li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">all research</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">research centers</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">ETS AI labs</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">R&D consulting services</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">partners & projects</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">grants & strategic alliances</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">fairness & equity</a></li>
+                                    <li role="option"><a class="dropdown-item nav-menu-item" href="#">internships, fellowships & careers</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="nav-bottomlist mobileonly">
+                            <div class="login-btn"><a class="cta-btn-quartenary" href="">Login / Register</a></div>
+                            <div class="language-dropdown dropup">
+                                <button class="header-store-button dropdown-toggle d-flex" id="languageMobile" type="button" data-bs-auto-close="true" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img class="language-image"
+                                         src="/src/main/webpack/resources/images/language.svg" alt="Language">
+                                    <span
+                                            class="header-store-title">ENGLISH
+                            </span><img class="language-down-arrow"
+                                        src="/src/main/webpack/resources/images/down_arrow.svg" alt=""></button>
+                                <ul class="dropdown-menu" aria-labelledby="languageMobile">
+                                    <li><a class="dropdown-item nav-menu-item" href="javascript:">japanese</a></li>
+                                    <li><a class="dropdown-item nav-menu-item" href="javascript:">korean</a></li>
+                                    <li><a class="dropdown-item nav-menu-item" href="javascript:">portuguese</a></li>
+                                    <li><a class="dropdown-item nav-menu-item" href="javascript:">spanish</a></li>
+                                    <li><a class="dropdown-item nav-menu-item" href="javascript:">turkish</a></li>
+                                    <li><a class="dropdown-item nav-menu-item" href="javascript:">french</a></li>
+                                    <li><a class="dropdown-item nav-menu-item" href="javascript:">german</a></li>
+                                    <li><a class="dropdown-item nav-menu-item" href="javascript:">chinese</a></li>
+                                    <li><a class="dropdown-item nav-menu-item item-selected" href="javascript:">english</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <a href="#">contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="header-icons">
+                    <div class="">
+                        <img src="/src/main/webpack/resources/images/cart.svg" alt="ETS Store" class="search-image" tabindex="0">
+                    </div>
+                    <div class="d-none d-md-inline d-xl-none">
+                        <img src="/src/main/webpack/resources/images/world.svg" alt="Language" class="search-image" tabindex="0">
+                    </div>
+                    <!-- <div class="header-search-banner">
+                        <span class="searchbtn" style="--url-search:url(/src/main/webpack/resources/images/search.svg)"></span>
+                    </div> -->
+                    <div class="headerSearch header-search-banner">
+                        <div class="navsearchHeader">
+                            <div id="nav-box" class="onhover" tabindex="0" role="combobox">
+                                <i class="global-search__select__search-icon searchHeaderIcon">
+                                    <img alt="search" src="/src/main/webpack/resources/images/search.svg" />
+                                    <img src="/src/main/webpack/resources/images/search-icon-hover.svg" alt="search"/>
+                                    <img src="/src/main/webpack/resources/images/search-mobile.svg" alt="search"/>
+                                </i>
+                            </div>
+                            <dialog role="dialog" aria-modal="true" id="nav-search" class="hidden headerList">
+                                <div class="dialog-body">
+                                    <ul>
+                                        <li class="input animated fadeInRight">
+                                            <!-- <span class="animated fadeIn"><span class="searchbtn" style="--url-search:url(/src/main/webpack/resources/images/search.svg)"></span></span> -->
+
+                                            <span class="animated fadeIn onhover" id="gssResultPageUrl" data-gss-result-page-url="/search">
+                                <i class="global-search__select__search-icon searchHeaderIcon" tabindex="-1">
+                                  <img alt="" src="/src/main/webpack/resources/images/search.svg" />
+                                  <img src="/src/main/webpack/resources/images/search-icon-hover.svg" alt=""/>
+                                  <img src="/src/main/webpack/resources/images/search-mobile.svg" alt=""/>
+                                </i>
+                              </span>
+                                            <input aria-description="Type the word you want to search for and then press enter" type="text" id="searchhome" class="animated fadeInRight" autocomplete="off" placeholder="What are you looking for?" />
+
+
+                                        </li>
+                                        <!-- <li>
+                                <ul class="quick-links animated fadeInRight">
+                                  <li class="animated fadeInRight">
+                                    <p>SUGGESTED SEARCHES</p>
+                                  </li>
+                                  <li class="animated fadeInRight delay-1">
+                                    <a href="#">Praxis Test Scores</a>
+                                  </li>
+                                  <li class="animated fadeInRight delay-2">
+                                    <a href="#">Lorem Ipsum elor sum tudo</a>
+                                  </li>
+                                  <li class="animated fadeInRight delay-3">
+                                    <a href="#">Lorem Ipsum </a>
+                                  </li>
+                                  <li class="animated fadeInRight delay-4">
+                                    <a href="#">Lorem Ipsum elor sum tudo so lorem </a>
+                                  </li>
+                                  <li class="animated fadeInRight delay-5">
+                                    <a href="#">Lorem Ipsum elor sum tudo</a>
+                                  </li>
+                                </ul> -->
+                                        </li>
+                                    </ul>
+                                    <div aria-label="close" class="right animated fadeIn delay-1s headerClose" tabindex="0">
+                                        <i class="global-search__select__search-icon"></i>
+                                    </div>
+                                </div>
+                            </dialog>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#megaMenu" aria-controls="megaMenu" aria-expanded="false" aria-label="Toggle navigation">
+
+                        <img src="/src/main/webpack/resources/images/hamBurger.svg" alt="Navigation icon" class="hamburger-image-mobile" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

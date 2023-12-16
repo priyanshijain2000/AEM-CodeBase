@@ -1,0 +1,142 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = true,classAppend='cmp-text'}"></sly>
+<sly data-sly-use.schedule="org.ets.core.models.ScheduleCaledarModel"/>
+<sly data-sly-use.metaProperties="org.ets.core.models.PageMetadataModel"></sly>
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+<sly data-sly-test.mindate="${'MM/dd/yyyy' @ format=schedule.minTestDate}"></sly>
+<sly data-sly-test.maxdate="${'MM/dd/yyyy' @ format=schedule.maxTestDate}"></sly>
+<div class="cmp-container--body">
+    <div class="schedule-calendar-component m-t70x40 m-b70x40">
+		<div class="error-info">
+            <p role="alert"><i><img width="18px" height="18px" src="/content/dam/ets-org/icons/commons/error-exclamation-new.svg" alt="error-image"/></i>
+             </p>
+        </div>
+        <div class="field-groups-test">
+            <div class="search-band">
+                <form class="field">
+                    <div class="field-groups">
+                        <label for="select2-where-to-test-dropdown-container" class="form-label form-label-text required-field">${schedule.testLabel}</label>
+                        <select class="where-to-test-dropdown" id="where-to-test-dropdown" data-test-json-path="${schedule.testJsonPath}" 
+                        data-placeholder="${schedule.testPlaceholder}" aria-label="${schedule.testAriaLabel}" autocomplete="off">
+                        </select>
+                        <p role="alert" class="drop-down-preselect-label d-none">${schedule.preselectDescText}</p>
+                        <p role="alert" class="drop-down-error-label d-none">${schedule.testErrorDescText}</p>
+                    </div>
+                </form>
+                <form class="field">
+                    <div class="field-groups">
+                        <label for="locationautocomplete" class="form-label form-label-text required-field">${schedule.locationLabel}</label>
+                        <div class="customselectlocationsearch">
+                            <div class="select__selected">
+                                <i class="dropdown-search-icon"><img src="/content/dam/ets-org/icons/commons/searchIcon_blue.png" alt=""/></i>
+                                <input type="search" id="locationautocomplete" placeholder="${schedule.locationPlaceholder}" aria-required="true"
+                                role="combobox" aria-expanded="false" aria-autocomplete="none" autocomplete="off" >
+                                <button type="button" class="ets-dropdown-button d-none" tabindex="-1">
+                                    <span class="visually-hidden">dropdown-arrow</span>
+                                    <img src="/content/dam/ets-org/icons/commons/circle-exclamation.svg" alt="circle-exclamation"/></button>
+                            </div>
+                        </div>
+                        <p role="alert" class="drop-down-error-label d-none">${schedule.locationErrorDescText}</p>
+                    </div>
+                </form>
+                <form class="field without-search">
+                    <div class="field-groups">
+                        <label for="select2-distance-dropdown-container" class="form-label form-label-text form-distance-label">${schedule.distanceLabel}</label>
+                        <input type="radio" name="distance" id="mileRadio" aria-label="miles" value="Mi">
+                        <label for="mileRadio" class="radio-distance-label">mi</label>
+                        <input type="radio" name="distance" id="kmRadio" aria-label="kilometers" value="Km">
+                        <label for="kmRadio" class="radio-distance-label">km</label>
+                        <select class="distance-dropdown" id="distance-dropdown" aria-label="${schedule.distanceAriaLabel}" autocomplete="off" data-placeholder="Distance" data-sly-list.distanceItem="${multifieldMap.distance.listChildren}">
+                            <option data-sly-test="${distanceItemList.first}" selected data-distance='${distanceItem.value}'>${distanceItem.value}</option>
+	                            <option data-sly-test="${!distanceItemList.first}" data-distance='${distanceItem.value}'>${distanceItem.value}</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="field-groups-test">
+            <div class="field-groups-test__center">
+                <form class="field">
+                    <div class="field-groups">
+                        <label for="select2-testCenter-dropdown-container" class="form-label form-label-text required-field">${schedule.testCenter}</label>
+                        <select class="testCenter-dropdown" id="testCenter-dropdown" data-placeholder="${schedule.testCenterPlaceHolder}"
+                        aria-label="${schedule.testCenterAriaLabel}" autocomplete="off">
+                        </select>
+                        <p role="alert" class="drop-down-info-label">${schedule.testCenterInfo}</p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-check" tabindex="0" role="checkbox" id="testFromHomeTooltip" title="${schedule.tooltipText}" data-sly-test="${!schedule.disableTestFromHome}" aria-label="${schedule.testFromHome} ">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" tabindex="-1">
+                <label class="form-check-label" for="flexCheckDefault">${schedule.testFromHome}</label>
+                <div id="testFromHomeAnnouncement" aria-live="polite" class="dropdown-hidden"></div>
+            </div>
+        </div>
+        <div class="loader" role="status" aria-busy="false">
+		<div class="loader--container">
+            <img src="/content/dam/ets-org/icons/commons/ets-preloader-sm-1x.gif" alt="ets preloader" />
+			<label>${schedule.loader}</label>
+			</div>
+        </div>
+        <span id="loaderLiveRegion" class="hiddenStatus" aria-live="polite"></span>
+        <span id="dropdownLiveRegion" class="dropdownHiddenStatus" aria-live="polite"></span>
+        <!---- HTML for Schedule Calendar-->
+        <div class="calendar scheduleTool">
+		<div id="demo-custom-event-popover" data-test-announcement-testfromhome="${schedule.dataTestAnnouncementTestFromHome}" data-test-announcement-testcenter="${schedule.dataTestAnnouncementTestCenter}" data-test-announcement-distance="${schedule.dataTestAnnouncementDistance}" data-test-announcement-location="${schedule.dataTestAnnouncementLocation}" data-test-from-home-label="${schedule.testFromHome}" data-brand-name="${metaProperties.category @context='attribute'}" data-banner-text="${schedule.bannerText}" data-score-report-path="${schedule.jsonPath}"
+		data-test-from-home-description="${schedule.testFromHomeDescription}" data-schedule-button-text="${schedule.scheduleButtonText}" data-only-remote-test="${schedule.onlyRemoteTest}"
+		data-schedule-button-url="${schedule.scheduleButtonUrl}" data-test-from-home-requirement-text="${schedule.testFromHomeReqText}" 
+		data-test-from-home-requirement-url="${schedule.testFromHomeReqLink @extension='html'}" data-calendar-dialog-description="${schedule.dataCalendarDialogDescription}" data-calendar-focus-label="${schedule.dataCalendarFocusLabel}" data-address-label="${schedule.addressLabel}" data-available-time-label="${schedule.availTimeLabel}" 
+		data-seats-open-label="${schedule.seatsOpenLabel}" data-get-direction-label="${schedule.getDirectionAccessibleLabel || 'Get the Test Center direction, Opens in a new window tab'}" data-get-direction-text="${schedule.getDirectionLabel}" data-error-image-path="/content/dam/ets-org/icons/commons/error-exclamation.svg" 
+		data-address-image-path="/content/dam/ets-org/icons/commons/pin.svg" data-available-time-image-path="/content/dam/ets-org/icons/commons/calendar-clock.svg" 
+		data-schedule-url="${schedule.scheduleButtonUrl}" data-loader-image-path="/content/dam/ets-org/icons/commons/ets-preloader-sm-1x.gif" data-disclaimer-text="${schedule.praxisDisclaimerText}" 
+		data-minSchDate="${mindate}" data-maxSchDate="${maxdate}" data-days="${schedule.days || '180'}" class="schedule-calendar-component--calendar" style="height:100%"></div>
+			<div class="alert-popup schedule-alert-popup alert-error-info d-none">
+				<div class="action-warn-message">
+					<button class="close-alert alert-error-close"
+						aria-label="Close Message">
+						<img src="/content/dam/ets-org/icons/commons/close-black.svg"
+							alt="closingactionmesaage">
+					</button>
+					<div class="warn-text-message">
+						<p>
+							<b>${schedule.warnTitle || 'System Unavailable'}</b>
+						</p>
+						<p>${schedule.warnDescription || 'The system is temporarily unavailable. Please try again
+							later.'}</p>
+					</div>
+				</div>
+			</div>
+			<div class="alert-popup schedule-alert-popup alert-no-results d-none">
+				<div class="action-alert-message">
+					<button class="close-alert alert-no-result-close"
+						aria-label="Close Message">
+						<img src="/content/dam/ets-org/icons/commons/close-black.svg"
+							alt="closingactionmesaage">
+					</button>
+					<div class="alert-text-message">
+						<p>
+							<b>${schedule.alertTitle || 'We were unable to find any results that match your search'}</b>
+						</p>
+						<p>${schedule.alertDescription || 'Consider refining your search criteria to improve results.
+							Thank you.'}</p>
+						<a href="#" class="alert-change-the-area-date">${schedule.alertLinkText || 'Change the Test, Location
+							or Distance'}</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="d-flex d-md-none schedule-calendar-component--legends">
+            <div>
+                <span><span class="schedule-calendar-component--legends--test-center">${schedule.testCenterShortForm}</span> ${schedule.testCenterLegend}</span>
+            </div>
+            <div>
+                <span><span class="schedule-calendar-component--legends--test-from-home">${schedule.testFromHomeShortForm}</span> ${schedule.testFromHomeLegend}</span>
+            </div>
+            <div>
+                <span><span class="schedule-calendar-component--legends--both">${schedule.bothShortForm}</span> ${schedule.bothLegend}</span>
+            </div>
+        </div>
+    </div>
+</div>

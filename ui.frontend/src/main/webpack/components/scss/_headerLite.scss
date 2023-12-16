@@ -1,0 +1,39 @@
+.header-lite {
+    height: 64px;
+    &.sticky-header {
+        .header-wrap {
+            position: fixed;
+            width: 100%;
+            left: 0;
+            top: 0;
+            z-index: 999;
+            transform: translateY(-110%);
+            animation: headerLite 0.4s ease-in-out;
+            animation-fill-mode: both;
+        }
+    }
+    .header-wrap {
+        background: #FFF;
+        padding: 16px 0px;
+        box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.08);
+        height: inherit;
+        position: relative;
+        will-change: transform;
+    }
+    .header-container {
+        height: auto;
+    }
+    .header-logo {
+        padding: 0;
+        a {
+            padding: 0;
+            img {
+                max-height: 32px;
+            }
+        }
+    }
+}
+@keyframes headerLite {
+    0% { transform: translateY(-110%); }
+    100% { transform: translateY(0%); }
+}

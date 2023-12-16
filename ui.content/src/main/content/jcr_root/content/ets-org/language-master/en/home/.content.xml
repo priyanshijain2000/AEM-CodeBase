@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-04-25T05:53:18.980Z"
+        cq:lastModifiedBy="hpaidisetty@ets.org"
+        cq:lastReplicated="{Date}2022-04-20T07:30:01.169Z"
+        cq:lastReplicated_preview="{Date}2022-04-20T14:38:02.119Z"
+        cq:lastReplicated_publish="{Date}2022-04-20T07:30:01.169Z"
+        cq:lastReplicatedBy="kpichandi@ets.org"
+        cq:lastReplicatedBy_preview="kpichandi@ets.org"
+        cq:lastReplicatedBy_publish="kpichandi@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:tags="[ets:news,ets:category/employee-news]"
+        cq:template="/conf/ets/settings/wcm/templates/generic-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home"
+        jcr:uuid="41679a44-e568-4e06-bb61-06a571da56ef"
+        sling:resourceType="ets/components/generic-page"
+        disableBreadcrumb="true"
+        enablebreadcrumb="false"
+        navTitle="Home"
+        pageTitle="Home"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:lastModified="{Date}2022-03-14T04:26:21.674Z"
+                jcr:lastModifiedBy="saravanan.a.ms@accenture.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                layout="simple">
+                <spacontainer_copy
+                    jcr:created="{Date}2022-03-30T11:11:10.059-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-22T11:07:13.220Z"
+                    jcr:lastModifiedBy="kpichandi@ets.org"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/spaContainer"
+                    initialpath="/content/ets-org/language-master/en/home/demo/_renderer/ets-panels/jcr:content/root/container/container1"/>
+                <articlebanner_copy_c
+                    jcr:created="{Date}2022-01-12T11:34:59.470Z"
+                    jcr:createdBy="harish.paidisetty@accenture.com"
+                    jcr:lastModified="{Date}2022-04-25T05:53:18.942Z"
+                    jcr:lastModifiedBy="hpaidisetty@ets.org"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/articlebanner"
+                    align="left"
+                    altText="Logo"
+                    altValueFromDAM="true"
+                    animationimage="/content/dam/ets/rellax-images/articleBannerPiles.png"
+                    articledesc="School District Diversity Associated with Reductions in the Achievement Gap"
+                    articlesubtitle=" EQUITY"
+                    articletitle="FEATURED RESEARCH"
+                    ctaButtonLabel="Read more"
+                    ctaButtonLink="#"
+                    ctaLink="https://www.ets.org/research"
+                    ctaText="All Research"
+                    fileReference="/content/dam/ets-org/sprintdemo/background-image/article_banner.jpg"
+                    newTab="true"
+                    newTab1="false"
+                    textIsRich="true"/>
+                <carousel
+                    jcr:created="{Date}2022-02-07T04:51:07.452Z"
+                    jcr:createdBy="harish.paidisetty@accenture.com"
+                    jcr:lastModified="{Date}2022-02-07T13:55:02.335Z"
+                    jcr:lastModifiedBy="harish.paidisetty@accenture.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/carousel"
+                    textIsRich="[true,true,true]">
+                    <carouseldetails jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            ctaButtonLabel="Read more"
+                            ctaButtonLink="/content/ets-org/en/home"
+                            ctaLink="/content/ets-org/en/home/praxis"
+                            ctaText="ALL NEWS &amp; Insights"
+                            desc="&lt;p>A Finance and Technology Leader’s Perspective on Developing Students’ Passions in Academia&lt;/p>&#xd;&#xa;"
+                            imagepath="/content/dam/ets/background-image/video.svg"
+                            imagevideo="image"
+                            newTab="true"
+                            newTab1="true"
+                            title="FEATURED NEWS"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            ctaButtonLabel="ETS"
+                            ctaButtonLink="www.ets.org"
+                            ctaLink="www.ets.org/gre"
+                            ctaText="GRE"
+                            desc="&lt;p>A Finance and Technology Leader’s Perspective on Developing Students’ Passions in Academia A Finance and Technology Leader’s Perspective on Developing Students’ Passions in Academia A Finance and Technology Leader’s Perspective on Developing Students’ Passions in Academia&lt;/p>&#xd;&#xa;"
+                            imagevideo="video"
+                            newTab="true"
+                            newTab1="true"
+                            title="FEATURED NEWS"
+                            videopath="/content/dam/ets/videos/1. What is AEM.mp4"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            ctaButtonLabel="Load More"
+                            ctaButtonLink="/content/ets-org/en/home/praxis"
+                            ctaLink="/content/ets-org/en/home/basic-page/test"
+                            ctaText="new innovations"
+                            desc="&lt;p>Tesst&lt;/p>&#xd;&#xa;"
+                            imagevideo="video"
+                            newTab="false"
+                            newTab1="false"
+                            title="TEST"
+                            videopath="/content/dam/ets/videos/1. What is AEM.mp4"/>
+                    </carouseldetails>
+                </carousel>
+                <carouselcontainer
+                    jcr:created="{Date}2022-02-08T04:39:34.715Z"
+                    jcr:createdBy="harish.paidisetty@accenture.com"
+                    jcr:lastModified="{Date}2022-04-20T09:18:21.081Z"
+                    jcr:lastModifiedBy="PREDDY002@ets.org"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/carouselcontainer"
+                    animationimage="/content/dam/ets/rellax-images/graphic-carousel.png"
+                    textIsRich="[true,true,true]">
+                    <carouseldetails jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            assetpath="/content/dam/ets-org/sprintdemo/background-image/carousel_img.png"
+                            assettype="image"
+                            ctaButtonLabel="Read More"
+                            ctaButtonLink="www.ets.org"
+                            ctaLink="/content/ets-org/language-master/en/home/news"
+                            ctaText="All News &amp; Insights"
+                            desc="New Product Announcement from Praxis: Learning Paths Program&#xd;&#xa;"
+                            newTab="true"
+                            newTab1="true"
+                            title="FEATURED NEWS"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            assetpath="/content/dam/ets-org/sprintdemo/videos/ets-account-create.mp4"
+                            assettype="video"
+                            ctaButtonLabel="Read More"
+                            ctaButtonLink="/content/ets-org/language-master/en/home"
+                            ctaLink="/content/ets-org/language-master/en/home"
+                            ctaText="All News &amp; Insights"
+                            desc="A Finance and Technology Leader’s Perspective on Developing Students’ Passions in Academia&#xd;&#xa;"
+                            newTab="true"
+                            newTab1="true"
+                            title="FEATURED NEWS"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            assetpath="/content/dam/ets-org/sprintdemo/background-image/carousel_img_2.png"
+                            assettype="image"
+                            ctaButtonLabel="Read More"
+                            ctaButtonLink="www.ets.org/toefl"
+                            ctaLink="www.ets.org/praxis"
+                            ctaText="All News &amp; Insights"
+                            desc="It was very easy to sign up and register to take the Praxis test, and I knew exactly when I would get my scores back.&#xd;&#xa;"
+                            newTab="true"
+                            newTab1="true"
+                            title="FEATURED NEWS"/>
+                    </carouseldetails>
+                </carouselcontainer>
+                <quotesbanner_copy_12
+                    jcr:created="{Date}2022-01-12T11:37:06.993Z"
+                    jcr:createdBy="harish.paidisetty@accenture.com"
+                    jcr:lastModified="{Date}2022-04-20T08:42:54.702Z"
+                    jcr:lastModifiedBy="PREDDY002@ets.org"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/quotesbanner"
+                    altText="Logo"
+                    authorinfo="President &amp; CEO of ETS"
+                    authorname="Walt MacDonald"
+                    fileReference="/content/dam/ets-org/general/quote-banner.png"
+                    newTab="[true,true]"
+                    newTab1="false"
+                    newTab2="false"
+                    quotedesc="Through learning, people have the opportunity to make a difference. Research, assessment and measurement have valuable roles in helping everyone chart their unique paths to new possibilities."
+                    quoteinfo="&lt;p>&lt;b>Walt MacDonald&lt;/b>&lt;br>&#xd;&#xa;President &amp;amp; CEO Of ETS&lt;/p>&#xd;&#xa;"
+                    textIsRich="[true]"/>
+            </container>
+        </root>
+    </jcr:content>
+    <_x0034_04/>
+    <contact/>
+    <gre/>
+    <praxis/>
+    <toeic/>
+    <toefl/>
+    <demo/>
+    <about/>
+    <legal/>
+    <news/>
+    <_renderer/>
+</jcr:root>

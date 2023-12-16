@@ -1,0 +1,31 @@
+.cmp-teaser--author-bio {   
+    .cmp-teaser{
+        display: inline-flex;
+        flex-direction: column-reverse;
+        @include viewport(tablet-desktop) {
+           flex-direction: row-reverse;
+        }
+        padding: 3% 0;
+        justify-content: left;
+        width: 100%;
+        &__description{
+            p{
+                @include fontsize(16px, 22px, $normal, $color-font, inherit);
+            }
+            a{
+                font-weight: $normal;
+            }
+        }
+        &__image{
+            margin-right: 1.5%;
+            margin-bottom: 20px;
+            display: flex;
+            @include viewport(tablet-desktop) {
+                margin-bottom: 0px;
+            }
+            img{
+                height: auto;
+            }
+        }
+    }
+}

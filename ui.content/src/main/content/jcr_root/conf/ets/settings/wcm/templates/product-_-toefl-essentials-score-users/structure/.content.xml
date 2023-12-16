@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2022-11-11T05:44:38.970Z"
+        cq:lastModifiedBy="bkm@ets.org"
+        cq:lastReplicated="{Date}2022-11-14T12:02:22.480Z"
+        cq:lastReplicated_preview="{Date}2023-02-13T02:27:24.904Z"
+        cq:lastReplicated_publish="{Date}2022-11-14T12:02:22.480Z"
+        cq:lastReplicatedBy="launch-promote-service"
+        cq:lastReplicatedBy_preview="RBOPPANA@ets.org"
+        cq:lastReplicatedBy_publish="launch-promote-service"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/conf/ets/settings/wcm/templates/product-_-toefl-essentials-score-users"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:uuid="deaf527c-77e0-459e-b83a-5a1467198704"
+        sling:resourceType="ets/structure/toefl-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="responsiveGrid">
+            <container_1448755308
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                layout="simple">
+                <experiencefragment
+                    jcr:lastModified="{Date}2022-05-31T05:27:55.134Z"
+                    jcr:lastModifiedBy="PJAIN003@ets.org"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/ets-org/language_master/en/toefl/navigations/toefl-essentials-score-users"
+                    text="Home GRE PRAXIS TOEIC TOEFL ALL PRODUCTS CONTACT Login / Register Close Products GRE PRAXIS TOEIC TOEFL ALL PRODUCTS ABOUT WHY ACCEPT TOEFL ESSENTIALS? COMPARE TESTS TEST SECURITY SCORES &amp; ADMISSIONS SCORING OVERVIEW ACCEPTING SCORES SETTING SCORE REQUIREMENTS SCORE REPORTING Login / Register CONTACT"/>
+            </container_1448755308>
+            <container_bread
+                cq:styleIds="[1654963884115]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                layout="simple">
+                <breadcrumb
+                    jcr:lastModified="{Date}2022-06-13T14:26:06.936-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/breadcrumb/v2/breadcrumb"
+                    disableShadowing="true"
+                    hideCurrent="false"
+                    showHidden="false"
+                    startLevel="4"/>
+            </container_bread>
+            <container_top
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
+            <container_bottom
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
+            <container_758522293_
+                jcr:lastModified="{Date}2022-10-28T13:16:19.819Z"
+                jcr:lastModifiedBy="PREDDY002@ets.org"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                layout="simple">
+                <experiencefragment_c
+                    jcr:lastModified="{Date}2022-11-11T05:44:38.957Z"
+                    jcr:lastModifiedBy="bkm@ets.org"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/ets-org/language_master/en/site/footer/footer-with-social"
+                    text="ETS About ETS Careers Contact Us Disabilities News &amp; Insights Research Solutions Educator Licensure ETS Accelerate Higher Education K–12 Student Programs Products GRE Praxis TOEFL TOEIC View All Follow ETS: Copyright © 2023 by ETS. All rights reserved. All trademarks are property of their respective owners. Legal Privacy &amp; Security ETS Trademarks Cookie Settings"/>
+            </container_758522293_>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

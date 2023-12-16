@@ -1,0 +1,37 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !properties.maintitle,classAppend='cmp-text'}"/>
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"/>
+<sly data-sly-use.socialLinkObj="org.ets.core.models.SocialLink"/>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+<sly data-sly-use.model="org.ets.core.models.MultifieldListModel">
+	<div class="${properties.bgStyle} socialLinksBackground" style="${socialLinkObj.getBgcolor @context='styleString'}">
+		<div class="cmp-container--default position-relative">
+			<div class="socialLinksContainer">
+				<h2 class="socialLinksHeader text-center">
+					${properties.maintitle}
+				</h2>
+				<div class="socialLinksIconsContainer text-center" data-disable-subscribe="${pageProperties.disableSubscription}">
+					<div data-sly-list.social="${multifieldMap.socialdetails.listChildren}">
+						<a class="${social.subscription ? 'socialLinksIcons subscribe_link' : 'socialLinksIcons'}" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=social.sociallink}" href="${linkValidate.link}" target="${social.newTab ? '_blank' : ''}" rel="${social.newTab ? 'noopener noreferrer' : ''}" aria-label="${social.ctaLinkAriaLabel}">
+							<figure class="d-inline-block">
+								<img alt="${social.altText || true}" src="${social.socialicon ? social.socialicon : '/content/dam/ets-org/general/placeholders/img-plchldr-icon.jpg'}">
+								<figcaption>${social.socialtitle}</figcaption>
+							</figure>
+						</a>
+					</div>
+				</div>
+				<div id="subscribeSearch">
+					${pageProperties.formScript @ context='unsafe'}
+				</div>
+			</div>
+		</div>
+	</div>
+</sly>
+<sly data-sly-test="${!pageProperties.disableSubscription && pageProperties.formScript}">
+	<script>
+		MktoForms2.whenReady(function(mktoForm){
+		mktoForm.setValues({
+		LastMarketoFormURL : document.location.href
+		});
+		});
+	</script>
+</sly>

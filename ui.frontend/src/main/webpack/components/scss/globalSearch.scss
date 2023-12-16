@@ -1,0 +1,248 @@
+.global-search{
+    margin-bottom: 5rem;
+    &-header {
+        text-align: left;
+        padding-bottom: 30px;
+        margin-top: 40px;
+        @include viewport(tablet-desktop) {
+            text-align: center;
+            padding-bottom: 40px;
+    
+        }
+    }
+    #globalSearch{
+        display: none;
+    }
+    &__select{
+        position: relative;
+        &__container{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            margin-bottom: 80px;
+            @include viewport(tablet-desktop) {
+                margin-bottom: 40px;   
+            }
+            form {
+                display: flex;
+                align-items: center;
+                flex: 1;
+                @include viewport(tablet-desktop) {
+                    width:67%;
+                    flex: inherit;
+                }
+                input[type=search]{
+                    background: #ffffff;
+                    border: 0.125rem solid #003356;
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                    border-radius: 4.625rem;
+                    height: 2.875rem;
+                    outline: none;
+                    padding: 0.75rem 0 0.75rem 3.6rem;
+                    width: 100%;
+                    @include viewport(tablet-desktop) {
+                     padding-left: 4.313rem;
+                    }
+                }
+                .cta-btn-primary {
+                  border-radius: 0.8rem 4.625rem 4.625rem 0.8rem;
+                    min-width: 3.75rem;
+                    margin-left: -3.813rem;
+                    @include viewport(tablet-desktop) {
+                        border-radius:4.625rem;
+                       }
+                 }
+            }
+        }
+       &__search-icon{
+           position: absolute;
+           margin-left: 1.688rem;
+       }
+       &__left-arrow {
+        border: solid #FFFFFF;
+        border-width: 0 1.5px 1.5px 0;
+        display: inline-block;
+        padding: 3px;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+      }
+      
+
+      .global-select{
+          &__options{
+            width: 67%;
+            margin: 6px auto auto auto;
+            border-radius: 0.5rem;
+            padding: 1.625rem 23.938rem 1rem 1.938rem;
+          }
+      }
+    }
+    &__input{
+        &__container{
+
+            width:100% !important;
+            @include viewport(tablet-desktop) {
+                width:92% !important;
+            }
+            &--wrapper{
+                background-color: $color-white;
+                border-radius: 0;
+
+                @include viewport(tablet-desktop) {
+                  border-radius: 1rem;
+                   margin-bottom: 80px;
+                }
+            } 
+            &--resultDisplay{
+                display:none;
+                margin:0 auto;
+                width: 100%;
+                border-radius: 0;
+                padding:40px 24px 80px 24px;
+                @include viewport(tablet-desktop) {
+                    width:72%;
+                    padding:100px 0px;
+                }
+            }
+            &__resultsData{
+                &__text{
+                    @include fontsize(18px, 24px, $bold, $color-ETS-bodyblack, initial);
+                    padding-bottom: 1.25rem;
+                    @include viewport(tablet-desktop) {
+                        @include fontsize(30px, 42px, $bold, $color-ETS-bodyblack, initial);
+                        padding-bottom: 2.5rem;
+                    }
+                }
+            }
+            &__filter{
+                display:flex;
+                column-gap: 1.25rem;
+                flex-flow: column;
+                @include viewport(only-desktop) {
+                    flex-flow: row;
+                }
+            }
+            form {
+               .field{
+                   &-groups{
+                       display: flex;
+                       column-gap: 0.813rem;
+                       margin-bottom: 1.5rem;
+                       @include viewport(tablet-desktop) {
+                        column-gap: 1.281rem;
+                        align-items: center;
+                       }
+                       &__filter, &__sort{
+                            display: flex;
+                            column-gap: 1.313rem;
+                       }
+                       .form-label-text{
+                        padding: 1rem 0; 
+                        min-width: 60px;
+                        
+
+                        @include viewport(tablet-desktop) {
+                            flex: 0 1 12%;
+                            padding: 0.8rem 0 0 0; 
+                        }
+                         @include fontsize(16px, 22px, $normal, $color-ETS-bodyblack, initial);
+                       }
+                       .customselectglobalSearch{
+                           max-width: none;
+                           flex: 1;
+                        &.error-search{
+                            pointer-events: none;
+                            opacity: 0.6;
+                            .ets-dropdown-button{
+                                border-radius: 0px 8px 8px 0px;
+                            }
+                            .select__options{
+                                display: none;
+                            }
+                        }
+                         @include viewport(tablet-desktop) {
+                            flex: 1 1 70%;
+                        }
+                        img.__uparrow {
+                            display: none;
+                        }
+                         .select {
+                           &__item[categoryvalue="0"]{
+                             pointer-events: auto;
+                             opacity:1;
+                             
+                           }
+                           &--selected {
+                            font-weight: $bold;
+                        }
+                         }
+                         @include viewport(tablet-desktop) {
+                        }
+                        .search-inner-text{
+                            margin-left: 0.875rem;
+                        }
+                        .search-placeholder-text{
+                            margin-left: 0;
+                        }
+                        &.select {
+                            &--active{
+                                img.__uparrow {
+                                    margin-left: 0.5em;
+                                    display: block;
+                                }
+                                img.__downarrow {
+                                    display: none;
+                                }
+                                .select{
+                                    &__options{
+                                        padding-bottom: 1.688rem;
+                                        padding-right: 1.438rem;
+                                    }
+                                }
+                            }
+                        }
+                       }
+                   }
+
+               }
+            }
+        }
+    }
+    &__results{
+        &__description{
+            &__card {
+                padding: 2.5rem 0 2.5rem 0 ;
+                border-bottom: 1px solid rgba(46,46,46,0.2);
+                display: flex;
+                flex-flow: row nowrap;
+                column-gap: 2rem;
+                @include fontsize(18px, 24px, $bold, $color-navy, initial);
+                @include viewport(tablet-desktop) {
+                    padding: 3.75rem 0 2.5rem 0rem ;
+                    column-gap: 2.625rem;
+                    @include fontsize(21px, 28px, $bold, $color-navy, initial);
+                }
+                &__value{
+                    .heading5{
+                        font-weight: $bold;
+                    }
+                  &__text{
+                      color: #000;
+                      padding: 1.25rem 0 0.625rem 0;
+                      @include viewport(tablet-desktop) {
+                        padding: 0.625rem 0;
+                      }
+                  }
+                }
+                
+            }
+        }
+        .page-navigation {
+            margin: 3.75rem 0 1.25rem 0;
+        }
+    }
+    &__error{
+       display:none;
+    }
+}

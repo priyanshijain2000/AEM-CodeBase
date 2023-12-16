@@ -1,0 +1,41 @@
+.research-search-template {
+    padding: 1.25em 0px;
+    h2,h5 {
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    .research-search {
+        margin-bottom: 2.5em;
+    }
+    
+    @include viewport(only-mobile){
+        .research-search {
+            &__select__container {
+                display: block;
+                form {
+                    max-width: 330px;
+                }
+            }
+        }
+    }
+    @include viewport(tablet-desktop){
+        padding: 2.5em 0px;
+        h2,h5 {
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        .research-search {
+            margin-bottom: 4em;
+            &__select__container {
+                width: 100%;
+                max-width: 738px;
+                margin: 0 auto;
+                form {
+                    flex-grow: 1;
+                    width: auto;
+                }
+            }
+        }
+    }
+    
+}

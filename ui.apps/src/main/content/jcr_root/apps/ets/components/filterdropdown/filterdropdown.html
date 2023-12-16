@@ -1,0 +1,34 @@
+<sly data-sly-use.filterDropdown="org.ets.core.models.FilterDropdownModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !filterDropdown.json || !filterDropdown.dataTemplate, classAppend='cmp-text'}"></sly>
+
+<sly data-sly-test="${filterDropdown.dataTemplate == 'contactusgre'}" data-sly-use.htmlVariation="/apps/ets/components/filterdropdown/datatemplate/datatemplate1.html">
+    <sly data-sly-call="${htmlVariation.variation1 @inputData=filterDropdown}"></sly>
+</sly>
+
+<sly data-sly-test="${filterDropdown.dataTemplate == 'contactuspraxis'}" data-sly-use.htmlVariation="/apps/ets/components/filterdropdown/datatemplate/datatemplate2.html">
+    <sly data-sly-call="${htmlVariation.variation1 @inputData=filterDropdown}"></sly>
+</sly>
+
+<sly data-sly-test="${filterDropdown.dataTemplate == 'contactussls'}" data-sly-use.htmlVariation="/apps/ets/components/filterdropdown/datatemplate/datatemplate3.html">
+    <sly data-sly-call="${htmlVariation.variation1 @inputData=filterDropdown}"></sly>
+</sly>
+
+<sly data-sly-test="${filterDropdown.dataTemplate == 'contactustoefl'}" data-sly-use.htmlVariation="/apps/ets/components/filterdropdown/datatemplate/datatemplate4.html">
+    <sly data-sly-call="${htmlVariation.variation1 @inputData=filterDropdown}"></sly>
+</sly>
+
+<sly data-sly-test="${filterDropdown.dataTemplate == 'institutions'}" data-sly-use.htmlVariation="/apps/ets/components/filterdropdown/datatemplate/datatemplate5.html">
+    <sly data-sly-call="${htmlVariation.variation2 @inputData=filterDropdown}"></sly>
+</sly>
+
+<sly data-sly-test="${filterDropdown.dataTemplate == 'mbaPrograms'}" data-sly-use.htmlVariation="/apps/ets/components/filterdropdown/datatemplate/datatemplate6.html">
+    <sly data-sly-call="${htmlVariation.variation3 @inputData=filterDropdown}"></sly>
+</sly>
+
+<sly data-sly-test="${filterDropdown.dataTemplate == 'toeflfees'}" data-sly-use.htmlVariation="/apps/ets/components/filterdropdown/datatemplate/datatemplate7.html">
+    <sly data-sly-call="${htmlVariation.variation7 @inputData=filterDropdown}"></sly>
+</sly>
+
+<sly data-sly-test="${filterDropdown.dataTemplate == 'praxisfees'}" data-sly-use.htmlVariation="/apps/ets/components/filterdropdown/datatemplate/datatemplate8.html">
+    <sly data-sly-call="${htmlVariation.variation8 @inputData=filterDropdown}"></sly>
+</sly>

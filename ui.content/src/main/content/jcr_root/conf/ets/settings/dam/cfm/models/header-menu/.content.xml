@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Template"
+    allowedPaths="[/content/entities(/.*)?]"
+    ranking="{Long}100">
+    <jcr:content
+        cq:lastModified="{Date}2023-01-06T03:31:22.968-05:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2022-06-10T16:22:42.155Z"
+        cq:lastReplicated_preview="{Date}2022-04-25T08:55:08.510Z"
+        cq:lastReplicated_publish="{Date}2022-06-10T16:22:42.155Z"
+        cq:lastReplicatedBy="ndang@ets.org"
+        cq:lastReplicatedBy_preview="kpichandi@ets.org"
+        cq:lastReplicatedBy_publish="ndang@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:scaffolding="/conf/ets-org/settings/dam/cfm/models/header-menu/jcr:content/model"
+        cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Header menu"
+        sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
+        sling:resourceType="dam/cfm/models/console/components/data/entity/default"
+        isLocked="{Boolean}false"
+        status="enabled">
+        <metadata jcr:primaryType="nt:unstructured"/>
+        <model
+            cq:targetPath="/content/entities"
+            jcr:primaryType="cq:PageContent"
+            sling:resourceType="wcm/scaffolding/components/scaffolding"
+            dataTypesConfig="/mnt/overlay/settings/dam/cfm/models/formbuilderconfig/datatypes"
+            maxGeneratedOrder="20">
+            <cq:dialog
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/gui/components/authoring/dialog">
+                <content
+                    jcr:lastModified="{Date}2023-01-06T03:31:22.968-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+                    <items
+                        jcr:primaryType="nt:unstructured"
+                        maxGeneratedOrder="20">
+                        <_x0031_649305195490
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="ETS store label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="etsStoreLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            value="ETS STORE"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_649305195490>
+                        <_x0031_649307001968
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="ETS Store link"
+                            filter="hierarchy"
+                            listOrder="8"
+                            metaType="reference"
+                            name="etsStoreLink"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            rootPath="/content/ets-org/language-master"
+                            showEmptyInReadOnly="true"
+                            showThumbnail="false"
+                            valueType="string/reference">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                        </_x0031_649307001968>
+                        <_x0031_649304915060
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Contact us label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="contactUsLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            value="CONTACT"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_649304915060>
+                        <_x0031_649307022153
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="Contact page link"
+                            filter="hierarchy"
+                            listOrder="8"
+                            metaType="reference"
+                            name="contactPageLink"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            rootPath="/content/ets-org/language-master"
+                            showEmptyInReadOnly="true"
+                            showThumbnail="false"
+                            valueType="string/reference">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                        </_x0031_649307022153>
+                        <_x0031_672993378072
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Contact link aria label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="contactAriaLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_672993378072>
+                        <_x0031_649305188473
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Login label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="loginLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            value="Login / Register"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_649305188473>
+                        <_x0031_649307158152
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="Login url"
+                            filter="hierarchy"
+                            listOrder="8"
+                            metaType="reference"
+                            name="loginUrl"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            showThumbnail="false"
+                            valueType="string/reference">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                        </_x0031_649307158152>
+						<_x0031_652185602165
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Login Aria Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="loginAriaLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_652185602165>
+                    </items>
+                </content>
+            </cq:dialog>
+        </model>
+    </jcr:content>
+</jcr:root>

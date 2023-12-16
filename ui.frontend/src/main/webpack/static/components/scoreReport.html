@@ -1,0 +1,72 @@
+<section class="">
+    <div class="cmp-container--body scorereport mx-auto">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="heading3">Receiving Scores</h2>
+                <div class="heading4 midnight-color">When will my teacher candidates receive their scores?</div>
+                <p class="text-desc">The date that teacher candidates will receive scores is dependent on the test they take, as well as when they take the test.</p>
+                <form class="field">
+                    <div class="field-groups field--test">
+                        <div class="form-label"><span class="mandatory">*</span> Select the Praxis® test you are taking from the
+                            dropdown</div>
+                         <div class="field-groups">
+                            <label for="selectTest" class="form-label visually-hidden">Select your test name</label>
+                            <div class="customselect-data" id="selectTestid">
+                                <select id="selectTest" name="select" class="form-select ets-dropdown" data-placeholder="Select your test" aria-label="Select test dropdown">
+                                    <option ></option>
+                                </select>
+                            </div>
+                         </div>
+
+                        <div class="field--date">
+                            <div class="form-label"><span class="mandatory">*</span> Select your test date</div>
+                            <div class="field--date__block d-flex">
+                                <div class="field-groups">
+                                    <label for='dateMonth' class="form-label visually-hidden">Select your test month</label>
+                                    <div class="customselect-data disabled" id="selectMonthid">
+                                        <select id="dateMonth" class="form-control ets-dropdown" data-placeholder="month" aria-label="Select Month" disabled>
+                                            <option></option>
+                                        </select>
+                                    
+                                    </div>
+                                </div>
+                                <div class="field--date__sub-block">
+                                    <div class="field-groups">
+                                        <label for='dateDay' class="form-label visually-hidden">Select your test date</label>
+                                        <div class="customselect-data disabled" id="selectDayid">
+                                            <select id="dateDay" class="form-control ets-dropdown" data-placeholder="date" aria-label="Select Date" disabled>
+                                                <option></option>
+                                            </select>
+                                        
+                                        </div>
+                                    </div>
+                                    <div class="field-groups">
+                                        <label for='dateYear' class="form-label visually-hidden">Select your test year</label>
+                                        <div class="customselect-data disabled" id="selectYearid">
+                                            <select id="dateYear" class="form-control ets-dropdown" data-placeholder="Year" aria-label="Select Year" disabled>
+                                            <option></option>
+                                        </select>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </form>
+                <div class="scoreresult d-none" data-initial-path="/src/main/webpack/static/components/disclaimer.html">
+                    <section class="cmp-container--body disclaimer disclaimer--yellow" role="alert">
+                        <section class="disclaimer-content">
+                            <div class="disclaimer-exclamation"><img src="https://www-vantage-stg-publish.ets.org/content/dam/ets-org/icons/commons/info-icon.svg" alt=""></div>
+                            <p class="heading5">
+                                Disclosing Personal Test-taker information
+                            </p>
+                            <p ><span class="testvalue fw-bold"></span> <span class="datevalue fw-bold"></span> <span class="reportdatevalue fw-bold"></span>ETS Customer Service Representatives can give out personal information only to the test taker, as required by privacy laws. If you are not the test taker, our representatives can only help you with general information, such as score report mailing
+                                dates, yes or no answers to general questions and payment processing for outstanding balances.</p>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>

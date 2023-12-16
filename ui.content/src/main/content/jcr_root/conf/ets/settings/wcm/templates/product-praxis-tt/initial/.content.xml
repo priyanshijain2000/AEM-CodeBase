@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-04-22T10:14:33.646Z"
+        cq:lastModifiedBy="pselvam@ets.org"
+        cq:template="/conf/ets/settings/wcm/templates/product-praxis-tt"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="ets/components/generic-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                layout="responsiveGrid"/>
+            <container_546141936
+                jcr:lastModified="{Date}2022-03-30T05:40:07.415-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container">
+                <experiencefragment_c
+                    jcr:lastModified="{Date}2022-04-22T06:53:36.669Z"
+                    jcr:lastModifiedBy="pselvam@ets.org"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/ets-org/language_master/en/praxis/state/general-state-navigation/master"
+                    text="The Praxis® Tests The premier test of academic skills for entry into teacher education. Click any step to learn more about your Praxis® journey. Plan Your Test Where To Test Schedule your Test Prepare for the Test Test Day Check &amp; Use Scores"/>
+                <horizontalnavigation
+                    jcr:lastModified="{Date}2022-04-22T10:14:33.642Z"
+                    jcr:lastModifiedBy="pselvam@ets.org"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/horizontalNavigation"
+                    color="inherit"
+                    dimage="/content/dam/ets-org/sprintdemo/background-image/tabHeaderImage.png"
+                    mimage="/content/dam/ets-org/sprintdemo/background-image/pennsylvania.png"
+                    pagetype1="child"
+                    statename="State Name"
+                    tabStyle="underlined">
+                    <null
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/parsys">
+                        <plan_your_test_copy__2002227745
+                            jcr:lastModified="{Date}2022-04-22T10:10:55.526Z"
+                            jcr:lastModifiedBy="pselvam@ets.org"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ets/components/plan-your-test"
+                            altText="altt"
+                            altText2="state logo"
+                            description="&lt;h3>Overview of Pennsylvania Testing Requirements&lt;/h3>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;&lt;h4>How to Qualify for Certification&lt;/h4>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;&lt;h5>For initial certification in Pennsylvania, all candidates must:&lt;/h5>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>Earn a Baccalaureate degree (except for &lt;a title=&quot;link&quot; href=&quot;https://www.google.com/&quot;>career and technical instructional&lt;/a> areas)&lt;/li>&#xd;&#xa;&lt;li>Complete an approved educator preparation program&lt;/li>&#xd;&#xa;&lt;li>Pass the Praxis® &lt;a title=&quot;link&quot; href=&quot;https://www.google.com/&quot;>tests for their certification area&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>Submit the appropriate &lt;a title=&quot;link&quot; href=&quot;https://www.google.com/&quot;>certification form and fees&lt;/a>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p>For certification outside Pennsylvania, visit the &lt;a title=&quot;link&quot; href=&quot;https://www.google.com/&quot;>Pennsylvania Department of Education&lt;/a> website.&lt;/p>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;&lt;h5>Learn about:&lt;/h5>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;a title=&quot;link&quot; href=&quot;https://www.google.com/&quot;>Approved Certification Programs&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a title=&quot;link&quot; href=&quot;https://www.google.com/&quot;>Education Leadership Programs&lt;/a> (Administrative, Supervisory, Superintendent, etc.)&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;&lt;h4>Important Information&lt;/h4>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>If you test &lt;b>in Pennsylvania&lt;/b> at a testing center or using the &lt;i>Praxis&lt;/i>® at home solution, and your &lt;i>Praxis&lt;/i>® profile address is in Pennsylvania, your score report will be sent automatically to the Pennsylvania Department of Education.&lt;/li>&#xd;&#xa;&lt;li>If you test &lt;b>outside Pennsylvania or your &lt;i>Praxis&lt;/i> profile address is not in&lt;/b> Pennsylvania, your scores are &lt;b>NOT&lt;/b> automatically sent to the Pennsylvania Department of Education. To have your scores sent to the Pennsylvania Department of Education, &lt;b>you must select the Pennsylvania Department of Education (state code 8033) as a score recipient when you register.&lt;/b>&lt;/li>&#xd;&#xa;&lt;li>For all methods of &lt;i>Praxis&lt;/i>® testing, &lt;b>to request additional score reports  you must select the Pennsylvania Department of Education (state code 8033)&lt;/b> with each additional score report request.&lt;/li>&#xd;&#xa;&lt;li>ETS discontinued paper-delivered testing; however, &lt;i>Praxis®&lt;/i> tests will continue to be available in a paper-delivered format as required for ADA accommodations. All scores for previously administered paper-delivered tests are reportable for 10 years from the date the test was taken.&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;&lt;h4>Who must take the Tests?&lt;/h4>&#xd;&#xa;&lt;p>All teacher candidates or those wishing to become certified in Pennsylvania must take the &lt;i>Praxis&lt;/i>® tests.&lt;/p>&#xd;&#xa;&lt;p>If you are applying for a Career and Technical certificate (Career and Technical Instructional I or II), you are required to take the &lt;i>Praxis&lt;/i>® Core Academic Skill for Educators tests. Post baccalaureate candidates are no longer required to take the “basic skills” tests as a requirement for certification.&lt;/p>&#xd;&#xa;&lt;p>You must also take the appropriate &lt;i>Praxis&lt;/i>® Subject Assessments for each area of certification you seek.&lt;/p>&#xd;&#xa;&lt;p>&lt;b>Note&lt;/b>: Qualiying scores are subject to change. For candidates educated outside the commonwealth, view &lt;a title=&quot;link&quot; href=&quot;https://www.google.com/&quot;>interstate certifiction agreements&lt;/a>.&lt;/p>&#xd;&#xa;"
+                            fileReference="/content/dam/ets-org/background-image/tabHeaderImage.png"
+                            logo="/content/dam/ets-org/logo/stateLogo.png"
+                            textIsRich="true"/>
+                    </null>
+                </horizontalnavigation>
+            </container_546141936>
+        </root>
+    </jcr:content>
+</jcr:root>

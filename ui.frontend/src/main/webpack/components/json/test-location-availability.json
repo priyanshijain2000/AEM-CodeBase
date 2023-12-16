@@ -1,0 +1,1340 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "siteCode": "APCN-0020",
+            "schedulingSystemCode": "AP",
+            "siteName": "Philadelphia - Walnut Street",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "601 WALNUT ST.",
+                    "addressLine2": "CURTIS CENTER, SUITE 150 WEST",
+                    "city": "PHILADELPHIA",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19106",
+                    "latitude": "39.948159999999994",
+                    "longitude": "-75.15174"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-01",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-02",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-04",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-05",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-06",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-07",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-08",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-09",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-11",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-12",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-13",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-14",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-15",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-16",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-18",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-19",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-20",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-21",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-22",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-27",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-28",
+                        "distance": "0.75"
+                    },
+                    {
+                        "adminDate": "2023-12-29",
+                        "distance": "0.75"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-0021",
+            "schedulingSystemCode": "AP",
+            "siteName": "Philadelphia - Walnut Street",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "601 WALNUT STREET",
+                    "addressLine2": "CURTIS CENTER SUITE 150 WEST",
+                    "city": "PHILADELPHIA",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19106",
+                    "latitude": "39.94817",
+                    "longitude": "-75.15153000000001"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-18",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-01",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-02",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-04",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-05",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-06",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-07",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-08",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-09",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-11",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-12",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-13",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-14",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-15",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-16",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-18",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-19",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-20",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-21",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-22",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-27",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-28",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-29",
+                        "distance": "0.79"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-1726",
+            "schedulingSystemCode": "AP",
+            "siteName": "Philadelphia - Walnut Street",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "601 WALNUT STREET",
+                    "addressLine2": "CURTIS CENTER SUITE 150 WEST",
+                    "city": "PHILADELPHIA",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19106",
+                    "latitude": "39.94819",
+                    "longitude": "-75.15152"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-01",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-04",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-05",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-06",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-07",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-08",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-11",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-12",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-13",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-14",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-15",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-18",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-19",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-20",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-21",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-22",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-27",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-28",
+                        "distance": "0.79"
+                    },
+                    {
+                        "adminDate": "2023-12-29",
+                        "distance": "0.79"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-1701",
+            "schedulingSystemCode": "AP",
+            "siteName": "Philadelphia - King of Prussia",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1017 W 9th Ave",
+                    "addressLine2": "Suite D",
+                    "city": "King of Prussia",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19406",
+                    "latitude": "40.10056",
+                    "longitude": "-75.41474000000001"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-06",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-08",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-09",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-13",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-14",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-15",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-16",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-18",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-19",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-20",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-21",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-27",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-28",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-29",
+                        "distance": "16.75"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "APCN-1702",
+            "schedulingSystemCode": "AP",
+            "siteName": "Philadelphia - King of Prussia",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1017 W 9th Ave",
+                    "addressLine2": "Suite D",
+                    "city": "King of Prussia",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19406",
+                    "latitude": "40.10056",
+                    "longitude": "-75.41474000000001"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-01",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-06",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-07",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-08",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-12",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-13",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-14",
+                        "distance": "16.75"
+                    },
+                    {
+                        "adminDate": "2023-12-15",
+                        "distance": "16.75"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "schedulingSystemCode": "RP",
+            "siteName": "Home Edition",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "Home Edition",
+                    "city": "Kansas City",
+                    "state": "MO",
+                    "country": "USA",
+                    "postalCode": "63011",
+                    "latitude": "39.0997265",
+                    "longitude": "-94.5785667"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-02",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-03",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-04",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-05",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-11",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-12",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-18",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-19",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-23",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-24",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-25",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-26",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-27",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-28",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-29",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-11-30",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-01",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-02",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-03",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-04",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-05",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-06",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-07",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-08",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-09",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-10",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-11",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-12",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-13",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-14",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-15",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-16",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-17",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-18",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-19",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-20",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-21",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-22",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-23",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-24",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-25",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-26",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-27",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-28",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-29",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-30",
+                        "distance": null
+                    },
+                    {
+                        "adminDate": "2023-12-31",
+                        "distance": null
+                    }
+                ]
+            },
+            "isRemoteTestCenter": true
+        },
+        {
+            "siteCode": "STN10106C",
+            "schedulingSystemCode": "ST",
+            "siteName": "Temple University",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1803 N Broad Street",
+                    "addressLine2": "715 Carnell Hall",
+                    "addressLine3": "SEE DIRECTIONS",
+                    "city": "Philadelphia",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19122",
+                    "latitude": "39.980359",
+                    "longitude": "-75.1568393"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "1.97"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "1.97"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "1.97"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "1.97"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "1.97"
+                    },
+                    {
+                        "adminDate": "2023-11-18",
+                        "distance": "1.97"
+                    },
+                    {
+                        "adminDate": "2023-12-04",
+                        "distance": "1.97"
+                    },
+                    {
+                        "adminDate": "2023-12-08",
+                        "distance": "1.97"
+                    },
+                    {
+                        "adminDate": "2023-12-11",
+                        "distance": "1.97"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "STN10153A",
+            "schedulingSystemCode": "ST",
+            "siteName": "Humanetric",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "4201 Church Road",
+                    "addressLine2": "Suite #12, Second Floor",
+                    "addressLine3": "In Ellipse Shopping Center building beside Columbia Bank",
+                    "addressLine4": "Across the street on Route 73 is Holman Cadillac Dealers",
+                    "city": "Mt. Laurel",
+                    "state": "NJ",
+                    "country": "USA",
+                    "postalCode": "08054",
+                    "latitude": "39.9232967",
+                    "longitude": "-74.9503474"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-11-17",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-11-19",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-04",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-05",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-06",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-07",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-08",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-11",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-12",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-13",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-14",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-15",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-17",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-18",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-19",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-21",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-22",
+                        "distance": "11.57"
+                    },
+                    {
+                        "adminDate": "2023-12-23",
+                        "distance": "11.57"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "STN15174A",
+            "schedulingSystemCode": "ST",
+            "siteName": "Delaware County Community College",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "901 S Media Line Road",
+                    "addressLine2": "Academic Bldg Testing Ctr, Rm 4260",
+                    "city": "MEDIA",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19063",
+                    "latitude": "39.967469",
+                    "longitude": "-75.392869"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-11-10",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-11-14",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-11-15",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-11-20",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-11-21",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-11-22",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-12-04",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-12-05",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-12-06",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-12-07",
+                        "distance": "12.11"
+                    },
+                    {
+                        "adminDate": "2023-12-08",
+                        "distance": "12.11"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "STN14377A",
+            "schedulingSystemCode": "ST",
+            "siteName": "Rowan College at Burlington County",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "1500 College Circle",
+                    "addressLine2": "Student Success Building, 2nd Floor, Suite 202",
+                    "city": "Mt Laurel",
+                    "state": "NJ",
+                    "country": "USA",
+                    "postalCode": "08054",
+                    "latitude": "39.97093",
+                    "longitude": "-74.8933693"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "14.46"
+                    },
+                    {
+                        "adminDate": "2023-11-13",
+                        "distance": "14.46"
+                    },
+                    {
+                        "adminDate": "2023-11-16",
+                        "distance": "14.46"
+                    },
+                    {
+                        "adminDate": "2023-12-04",
+                        "distance": "14.46"
+                    },
+                    {
+                        "adminDate": "2023-12-07",
+                        "distance": "14.46"
+                    },
+                    {
+                        "adminDate": "2023-12-11",
+                        "distance": "14.46"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        },
+        {
+            "siteCode": "STN14888A",
+            "schedulingSystemCode": "ST",
+            "siteName": "West Chester University",
+            "supportsAccommodation": false,
+            "address": [
+                {
+                    "addressLine1": "25 W. Rosedale Avenue",
+                    "addressLine2": "Room 129 FHG Library",
+                    "city": "West Chester",
+                    "state": "PA",
+                    "country": "USA",
+                    "postalCode": "19383",
+                    "latitude": "39.951296",
+                    "longitude": "-75.597415"
+                }
+            ],
+            "deliveryMode": "CBT",
+            "seatAvailability": {
+                "availability": [
+                    {
+                        "adminDate": "2023-11-06",
+                        "distance": "22.90"
+                    },
+                    {
+                        "adminDate": "2023-11-07",
+                        "distance": "22.90"
+                    },
+                    {
+                        "adminDate": "2023-11-08",
+                        "distance": "22.90"
+                    },
+                    {
+                        "adminDate": "2023-11-09",
+                        "distance": "22.90"
+                    },
+                    {
+                        "adminDate": "2023-12-04",
+                        "distance": "22.90"
+                    },
+                    {
+                        "adminDate": "2023-12-05",
+                        "distance": "22.90"
+                    },
+                    {
+                        "adminDate": "2023-12-06",
+                        "distance": "22.90"
+                    },
+                    {
+                        "adminDate": "2023-12-07",
+                        "distance": "22.90"
+                    },
+                    {
+                        "adminDate": "2023-12-08",
+                        "distance": "22.90"
+                    },
+                    {
+                        "adminDate": "2023-12-11",
+                        "distance": "22.90"
+                    }
+                ]
+            },
+            "isRemoteTestCenter": false
+        }
+    ],
+    "errorMessage": "No results found with search criteria, try again..."
+}

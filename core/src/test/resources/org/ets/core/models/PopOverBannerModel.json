@@ -1,0 +1,84 @@
+{
+	"home": {
+		"jcr:primaryType": "cq:Page",
+		"jcr:content": {
+			"jcr:primaryType": "cq:PageContent",
+			"jcr:title": "Product page"
+		},
+		"page-depth1": {
+			"jcr:primaryType": "cq:Page",
+			"jcr:content": {
+				"jcr:primaryType": "cq:PageContent",
+				"jcr:title": "Product page",
+				"pageTitle": "GRE"
+			},
+			"page-depth2": {
+				"jcr:primaryType": "cq:Page",
+				"jcr:content": {
+					"jcr:primaryType": "cq:PageContent",
+					"jcr:title": "Product page",
+					"pageTitle": "GRE"
+				},
+				"page-depth3": {
+					"jcr:primaryType": "cq:Page",
+					"jcr:content": {
+						"jcr:primaryType": "cq:PageContent",
+						"jcr:title": "Product page",
+						"pageTitle": "GRE"
+					},
+					"page-depth4": {
+						"jcr:primaryType": "cq:Page",
+						"jcr:content": {
+							"jcr:primaryType": "cq:PageContent",
+							"jcr:title": "Product page",
+							"pageTitle": "GRE"
+						},
+						"page-depth5": {
+							"jcr:primaryType": "cq:Page",
+							"jcr:content": {
+								"jcr:primaryType": "cq:PageContent",
+								"jcr:title": "Product page",
+								"pageTitle": "GRE",
+								"popoverbanner1": {
+									"jcr:primaryType": "nt:unstructured",
+									"jcr:createdBy": "admin",
+									"description": "<p>Test content</p>\r\n",
+									"fileReference": "/content/dam/ets-org/brands/gre/Feature News.png",
+									"jcr:lastModifiedBy": "admin",
+									"newTab": "false",
+									"optionsType": "design1",
+									"jcr:created": "Tue Jul 11 2023 03:02:58 GMT-0400",
+									"link": "/content/ets-org/language-master/en/home/2136_dre",
+									"buttonText": "Learn More",
+									"jcr:lastModified": "Tue Jul 11 2023 03:05:02 GMT-0400",
+									"sling:resourceType": "ets/components/popoverbanner",
+									"textIsRich": "true",
+									"isEnabled": "true",
+									"isSessionEnabled": "true"
+								},
+								"popoverbanner2": {
+									"jcr:primaryType": "nt:unstructured",
+									"jcr:createdBy": "admin",
+									"description": "<p>Test content</p>\r\n",
+									"fileReference": "/content/dam/ets-org/brands/gre/Feature News.png",
+									"isSessionEnabled": "false",
+									"jcr:lastModifiedBy": "admin",
+									"newTab": "false",
+									"descriptionDesignTwo": "<p>test design2</p>\r\n",
+									"optionsType": "design2",
+									"jcr:created": "Tue Jul 11 2023 03:02:58 GMT-0400",
+									"link": "/content/ets-org/language-master/en/home/2136_dre",
+									"buttonText": "Learn More",
+									"jcr:lastModified": "Mon Jul 31 2023 12:18:26 GMT-0400",
+									"sling:resourceType": "ets/components/popoverbanner",
+									"isEnabled": "true",
+									"termsAndCondition": "<p>Terms and conditions</p>\r\n"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

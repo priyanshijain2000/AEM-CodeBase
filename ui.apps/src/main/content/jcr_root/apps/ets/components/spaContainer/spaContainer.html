@@ -1,0 +1,5 @@
+<sly data-sly-use.spa="org.ets.core.models.SPAContainerModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-use.shortInitialPath="${'org.ets.core.models.LinkValidatorModel' @link=spa.initialpath}" data-sly-call="${templates.placeholder @ isEmpty = !spa.initialpath,classAppend='cmp-text'}"></sly>
+<div aria-atomic= "true" aria-live="polite" id="panels" data-initial-path="${shortInitialPath.link}">
+	<!--Component will be included here-->
+</div>

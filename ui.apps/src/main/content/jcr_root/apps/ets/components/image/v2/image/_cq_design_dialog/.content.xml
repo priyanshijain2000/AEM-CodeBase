@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        granite:class="cmp-container__editor"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <documentation
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Documentation"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <container
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <notes
+                                        granite:class="coral-Form-fieldlabel"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/text"
+                                        text="NOTE: Not all style options below work together (example: left alignment on image may not work with certain alignments for the caption).  This is an OOTB Adobe Core Component."/>
+                                    <styleoptions
+                                        granite:class="coral-Form-fieldlabel"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/text"
+                                        text="Style Options"/>
+                                    <firstoption
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/well">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <layout
+                                                granite:class="coral-Form-fieldlabel"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                text="Image Alignment"/>
+                                            <firstinner
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/well">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <left
+                                                        granite:class="coral-Form-fieldlabel"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                        text="cmp-image-captionImage--left"/>
+                                                    <right
+                                                        granite:class="coral-Form-fieldlabel"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                        text="cmp-image-captionImage--right"/>
+                                                    <center
+                                                        granite:class="coral-Form-fieldlabel"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                        text="cmp-image-captionImage--center"/>
+                                                     </items>
+                                            </firstinner>
+                                        </items>
+                                    </firstoption>
+                                    <secondoption
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/well">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <layout
+                                                granite:class="coral-Form-fieldlabel"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                text="Text Position"/>
+                                                 <secondinner
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/well">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <left
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-image-captionText--left"/>
+                                                        <right
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-image-captionText--right"/>
+                                                        <bottom
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-image-captionText--bottom"/>
+                                                        <top
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-image-captionText--top"/>
+                                                    </items>
+                                                </secondinner>
+                                        </items>
+                                    </secondoption>
+                                    <thirdoption
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/well">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <layout
+                                                granite:class="coral-Form-fieldlabel"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                text="Font Style"/>
+                                                <thirdinner
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/well">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                    <normal
+                                                        granite:class="coral-Form-fieldlabel"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                        text="cmp-image-captionStyle--normal-14"/>
+                                                    <semi
+                                                        granite:class="coral-Form-fieldlabel"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                        text="cmp-image-captionStyle--semibold-14"/>
+                                                    <bold 
+                                                        granite:class="coral-Form-fieldlabel"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                        text="cmp-image-captionStyle--bold-14"/>
+                                                    <normallg
+                                                        granite:class="coral-Form-fieldlabel"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                        text="cmp-image-captionStyle--normal-16"/>
+                                                    <semilg
+                                                        granite:class="coral-Form-fieldlabel"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                        text="cmp-image-captionStyle--semibold-16"/>
+                                                    <boldlg 
+                                                        granite:class="coral-Form-fieldlabel"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                        text="cmp-image-captionStyle--bold-16"/>
+                                                        </items>
+                                                </thirdinner>
+                                        </items>
+                                    </thirdoption>
+                                    <fourthoption
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/well">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <layout
+                                                granite:class="coral-Form-fieldlabel"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                text="Misc Style(Image)"/>
+                                            <fourthinner
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/well">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <fitimage
+                                                        granite:class="coral-Form-fieldlabel"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                        text="fit-img"/>
+                                                </items>
+                                            </fourthinner>
+                                        </items>
+                                    </fourthoption>
+                                </items>
+                            </container>
+                        </items>
+                    </documentation>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

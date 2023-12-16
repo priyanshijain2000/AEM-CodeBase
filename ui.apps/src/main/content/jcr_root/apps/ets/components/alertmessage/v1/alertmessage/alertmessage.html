@@ -1,0 +1,9 @@
+<sly data-sly-use.alert="org.ets.core.models.AlertMessageModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = (!alert.alertdesc || !alert.onoff),classAppend='cmp-text'}"></sly>
+<div id="alertBox" data-sly-test="${alert.onoff}" class="alert alert-warning alert-dismissible fade show alert-dialog-background d-none" role="alert">
+    <img class="alert-bell-image" src="${alert.icon}" alt="${alert.altText}">
+    <div class="alert-dialog-text">
+        ${alert.alertdesc @context='html'}
+    </div>
+    <button type="button" class="btn-close alertmsgClose" data-bs-dismiss="alert" aria-label="${alert.ariaLabel}"></button>
+</div>

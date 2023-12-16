@@ -1,0 +1,38 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !properties.buttontitle,classAppend='cmp-text'}"></sly>
+
+<section>
+    <div data-sly-test="${properties.desc}" class="cmp-container--body" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=properties.buttonlink}">
+	<div class="contact-info text">
+	<sly data-sly-test="${properties.wstyles=='col-12'}">
+        <div class="${properties.wstyles} margin-y contact-info-banner">
+            <div class="contact-info-banner-image-container">
+            	<sly data-sly-use.imgMetadata="${'org.ets.core.models.DamMetadataModel' @imgPath=properties.contactimage}"></sly>
+                <sly data-sly-test="${properties.contactimage}"><img src="${properties.contactimage}" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" alt="${properties.altText ? properties.altText : imgMetadata.alttxt}"></sly>
+            </div>
+            <div class="contact-info-banner-text-container">
+				<span class="title21-28">${properties.contactTitle}</span>
+                <p class="body-text">${properties.desc @context='html'}</p>
+            </div>
+            <div data-sly-test="${properties.buttontitle}" class="contact-info-banner-button-container">
+                <a class="d-inline-block cta-btn-primary theme-cta" href="${linkValidate.link}" target="${properties.newTab ? '_blank' : ''}"  rel="${properties.newTab ? 'noopener noreferrer' : ''}" aria-label="${properties.ctaButtonAriaLabel}">${properties.buttontitle}</a>
+            </div>
+        </div>
+		</sly>
+		<sly data-sly-test="${properties.wstyles=='col-lg-10'}">
+        <div class="${properties.wstyles} contact-info-banner">
+            <div class="contact-info-banner-image-container">
+				<sly data-sly-use.imgMetadata="${'org.ets.core.models.DamMetadataModel' @imgPath=properties.contactimage}"></sly>
+                <sly data-sly-test="${properties.contactimage}"><img src="${properties.contactimage}" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" alt="${properties.altText ? properties.altText : imgMetadata.alttxt}"></sly>
+            </div>
+            <div class="contact-info-banner-text-container">
+				<h2 class="title21-28">${properties.contactTitle}</h2>
+                <p class="body-text">${properties.desc @context='html'}</p>
+            </div>
+            <div data-sly-test="${properties.buttontitle}" class="contact-info-banner-button-container">
+                <a class="d-inline-block cta-btn-primary theme-cta" href="${linkValidate.link}" target="${properties.newTab ? '_blank' : ''}" rel="${properties.newTab ? 'noopener noreferrer' : ''}" aria-label="${properties.ctaButtonAriaLabel}">${properties.buttontitle}</a>
+            </div>
+        </div>
+		</sly>
+	</div>
+    </div>
+</section>

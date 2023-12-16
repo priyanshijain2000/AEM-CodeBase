@@ -1,0 +1,131 @@
+{
+    "TOEFL": {
+        "TestSelector": [
+            {
+                "name": "TOEFL iBT<sup>®</sup>",
+                "selector": "Choose TOEFL iBT",
+                "description": "TOEFL iBT Test",
+                "gtmName": "TOEFL iBT",
+                "code": "XML",
+                "deliveryMode": "CBT",
+                "isHomeEdition": false
+            },
+            {
+                "name": "TOEFL iBT<sup>®</sup> Home Edition",
+                "selector": "Choose Home Edition",
+                "description": "Home Edition Test",
+                "gtmName": "TOEFL iBT Home Edition",
+                "code": "XML",
+                "deliveryMode": "CBT",
+                "isHomeEdition": true
+            },
+            {
+                "name": "TOEFL iBT<sup>®</sup> Paper Edition",
+                "selector": "Choose Paper Edition",
+                "description": "Paper Edition Test",
+                "gtmName": "TOEFL iBT Paper Edition",
+                "code": "MVP",
+                "deliveryMode": "PBT",
+                "isHomeEdition": false
+            }
+        ],
+        "brand": "TOEFL",
+        "dataLayerBrand": "TOEFL",
+        "programCode": "TEL",
+        "days": "62",
+        "MaxCutOffDistance": "100",
+        "baseURL": "https://v2.ereg.ets.org/ereg/seat/search"
+    },
+    "GRE General": {
+        "TestSelector": [
+            {
+                "name": "GRE<sup>®</sup> General Test",
+                "selector": "GRE General Test",
+                "description": "GRE General Test",
+                "gtmName": "GRE General Test",
+                "code": "GEN",
+                "deliveryMode": "CBT",
+                "isHomeEdition": false
+            },
+            {
+                "name": "GRE<sup>®</sup> General at Home",
+                "selector": "GRE General at Home",
+                "description": "GRE General At Home Test",
+                "gtmName": "GRE General Test at home",
+                "code": "GEN",
+                "deliveryMode": "CBT",
+                "isHomeEdition": true
+            }
+        ],
+        "brand": "GRE",
+        "dataLayerBrand": "GRE",
+        "programCode": "GRI",
+        "days": "62",
+        "MaxCutOffDistance": "100",
+        "baseURL": "https://ereg.ets.org/ereg/seat/seatSearch/"
+    },
+    "GRE Subject": {
+        "TestSelector": [
+            {
+                "name": "GRE<sup>®</sup> Mathematics Test",
+                "selector": "GRE Mathematics",
+                "description": "GRE Mathematics Test",
+                "gtmName": "GRE Mathematics Test",
+                "code": "MTH",
+                "deliveryMode": "CBT",
+                "isHomeEdition": false
+            },
+            {
+                "name": "GRE<sup>®</sup> Physics Test",
+                "selector": "GRE Physics",
+                "description": "GRE Physics Test",
+                "gtmName": "GRE Physics Test",
+                "code": "PHY",
+                "deliveryMode": "CBT",
+                "isHomeEdition": false
+            },
+            {
+                "name": "GRE<sup>®</sup> Psychology Test",
+                "selector": "GRE Psychology",
+                "description": "GRE Psychology Test",
+                "gtmName": "GRE Psychology Test",
+                "code": "PSY",
+                "deliveryMode": "CBT",
+                "isHomeEdition": false
+            },
+            {
+                "name": "GRE<sup>®</sup> Mathematics at Home",
+                "selector": "GRE Mathematics at home",
+                "description": "GRE Mathematics At Home Test",
+                "gtmName": "GRE Mathematics Test at home",
+                "code": "MTH",
+                "deliveryMode": "CBT",
+                "isHomeEdition": true
+            },
+            {
+                "name": "GRE<sup>®</sup> Physics at Home",
+                "selector": "GRE Physics at home",
+                "description": "GRE Physics At Home Test",
+                "gtmName": "GRE Physics Test at home",
+                "code": "PHY",
+                "deliveryMode": "CBT",
+                "isHomeEdition": true
+            },
+            {
+                "name": "GRE<sup>®</sup> Psychology at Home",
+                "selector": "GRE Psychology at home",
+                "description": "GRE Psychology At Home Test",
+                "gtmName": "GRE Psychology Test at home",
+                "code": "PSY",
+                "deliveryMode": "CBT",
+                "isHomeEdition": true
+            }
+        ],
+        "brand": "GRE",
+        "dataLayerBrand": "GRE",
+        "programCode": "GRI",
+        "days": "62",
+        "MaxCutOffDistance": "100",
+        "baseURL": "https://ereg.ets.org/ereg/seat/seatSearch/"
+    }
+}

@@ -1,0 +1,125 @@
+<sly data-sly-use.searchResult="org.ets.core.models.SearchResultModel"/>
+<section class="research-results-template">
+    <div id="researchresultssearch" class="research-results-search">
+        <div class="research-results-search__select" search-data-path="${searchResult.path}">
+            <div class="research-results-search__select__container">
+                <form id="research-results-form">
+                    <i class="research-results-search__select__search-icon"><img src="/content/dam/ets-org/icons/commons/searchIcon_blue.png" alt="Search"></i>
+                    <input id="research-results-form-input" aria-label="${searchResult.searchAriaLabel}" type="search" placeholder="${searchResult.placeHolderText}" autocomplete="off">
+                    <a id="researchResultsButton" class="cta-btn-primary" aria-label="${searchResult.ctaButtonAriaLabel}" href="javascript:;"><span class="d-none d-md-block">${searchResult.ctaLabel}</span>
+                    	<i class="d-block d-md-none state-search__select__left-arrow"></i>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="researchresultswrap" class="research-results--wrap">
+        <div class="research-results--body">
+            <p class="research-no-keyword-msg">${searchResult.noKeywordMsg}</p>
+            <div id="resear-chresults-head" class="research-results--head d-none">
+                <span aria-live="polite" id="total-result"></span>
+            </div>
+            <div id="research-no-results" class="research-noresults d-none">
+                <span class="d-block" aria-live="polite">0 Result for '<span id="no-search-result"></span>'</span>
+                <p>${searchResult.noResultMsg}</p>
+            </div>
+            <div class="filter-button-container">
+	            <div class="button rr-filter-button-wrap d-none cmp-button--tertiary cmp-button--leftIcon">
+	                <button aria-label="Filter by Publication Year, Subjects, Author and formats" type="button" id="researchResultsFilterButton" class="cmp-button" data-cmp-clickable="">
+	                    <span class="cmp-button__icon cmp-button__icon--filter" aria-hidden="true"><img alt="" src="/content/dam/ets-org/icons/commons/filter.svg"></span>
+	                    <span class="cmp-button__text">${searchResult.filterLabel}</span>
+	                </button>
+	            </div>
+	            <div class="button cmp-button--tertiary cmp-button--rightIcon d-none">
+                    <button type="button" id="resultClearFilterbutton" class="cmp-button" data-cmp-clickable="">
+                        <span class="cmp-button__icon cmp-button__icon--rightArrow" aria-hidden="true"></span>
+                        <span class="cmp-button__text">${searchResult.clearFiltersButton}</span>
+                    </button>
+	             </div>
+			</div>
+            <div class="research-result--filter-container d-none">
+                <div class="research-result--filter-container__filter">
+                    <div class="research-result--filter-container__slider">
+                        <label id="publicationYear" for="slider-range">${searchResult.publicationYear}</label>
+                        <div class="research-result--filter-container__slider--slider-container">
+                            <div class="research-result--filter-container__slider--slider-btn-left"></div>
+                            <div class="research-result--filter-container__slider--slider-range">
+                                <div class="research-result--filter-container__slider--slider-range-btn-left"></div>
+                                <div id="slider-range" class="research-result--filter-container__slider--slider-range-track"></div>
+                                <div class="research-result--filter-container__slider--slider-range-btn-right"></div>
+                            </div>
+                            <div class="research-result--filter-container__slider--slider-btn-right"></div>
+                        </div>
+                    </div>
+                    <div class="research-result--filter-container__dropdown">
+                        <form class="filter-dropdown filter-dropdown-research">
+                            <fieldset class="custom-multi-select-style">
+                                <label for="subjectMultiselect">${searchResult.subjectLabel}</label>
+                                <div>
+                                    <select class="js-example-basic-multiple js-states form-control" id="subjectMultiselect" aria-label="${searchResult.subjectAriaLabel}" multiple="multiple" data-placeholder="${searchResult.subjectPlaceholder}" autocomplete="off">
+                                        <option></option>
+                                    </select>
+                                    <div id="subjectchips" class="multiple-select-chips d-none">
+                                        <div class="clear-items"><a class="clear-chips subjectChipsClear" href="#">Clear the selected items</a></div>
+                                    </div>
+                                    <div id="subjectsDropdownAnnouncement" aria-live="polite" class="dropdown-hidden"></div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="research-result--filter-container__filter">
+                    <div class="research-result--filter-container__dropdown">
+                        <form class="filter-dropdown filter-dropdown-research">
+                            <fieldset class="custom-multi-select-style">
+                                <label for="authorMultiselect">${searchResult.authorLabel}</label>
+                                <div>
+                                    <select class="js-example-basic-multiple js-states form-control" id="authorMultiselect" aria-label="${searchResult.authorAriaLabel}" multiple="multiple" data-placeholder="${searchResult.authorPlaceholder}" autocomplete="off">
+                                        <option></option>
+                                    </select>
+                                    <div id="authorchips" class="multiple-select-chips d-none">
+                                        <div class="clear-items"><a class="clear-chips authorChipsClear" href="#">Clear the selected items</a></div>
+                                    </div>
+                                    <div id="authoursDropdownAnnouncement" aria-live="polite" class="dropdown-hidden"></div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="research-result--filter-container__dropdown">
+                        <form class="filter-dropdown filter-dropdown-research">
+                            <fieldset class="custom-multi-select-style">
+                                <label for="formatMultiselect">${searchResult.formatsLabel}</label>
+                                <div>
+                                    <select class="js-example-basic-multiple js-states form-control" id="formatMultiselect" aria-label="${searchResult.formatsAriaLabel}" multiple="multiple" data-placeholder="${searchResult.formatsPlaceholder}" autocomplete="off">
+                                    </select>
+                                    <div id="formatchips" class="multiple-select-chips d-none">
+                                        <div class="clear-items"><a class="clear-chips formatChipsClear" href="#">Clear the selected items</a></div>
+                                    </div>
+                                    <div id="formatsDropdownAnnouncement" aria-live="polite" class="dropdown-hidden"></div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="research-result--filter-container__cta-container">
+                    <div class="button cmp-button--primary cmp-button--rightIcon">
+                        <button type="button" id="resultApplyFilterbutton" class="cmp-button" data-cmp-clickable="" data-cmp-data-layer="{&quot;button-5487aab983&quot;:{&quot;@type&quot;:&quot;core-components-examples/components/button&quot;,&quot;dc:title&quot;:&quot;Button&quot;}}">
+                      <span class="cmp-button__icon cmp-button__icon--rightArrow" aria-hidden="true"></span>
+                      <span class="cmp-button__text">${searchResult.applyFiltersButton}</span>
+                    </button>
+                    </div>
+                </div>
+            </div>
+            <div class="research-result--data-container" data-research-result-path="${searchResult.path}">
+                <div id="research-results" class="results-list--body">
+                </div>
+                <div class="litePagination researchResultsPagination cmp-button--tertiary d-none">
+                    <a href="#" class="previous button cmp-button hover--primary cmp-button-arrow" aria-label="${searchResult.prevAriaLabel}" data-action="previous"><span class="cmp-button__icon--leftArrowBlue" aria-hidden="true"></span>${searchResult.prevLabel}</a>
+                    <input aria-label="${searchResult.inputPaginationAriaLabel}" type="text" autocomplete="off"/> <div class="page-result-text"><span class="current-page d-none">0</span> ${searchResult.countTextLabel} <span class="max-page">0</span></div>
+                    <a href="#" class="next button cmp-button hover--primary" aria-label="${searchResult.nextAriaLabel}" data-action="next">${searchResult.nextLabel}<span class="cmp-button__icon--rightArrowBlue" aria-hidden="true"></span></a>
+                </div>              
+            </div>
+        </div>
+    </div>
+</section>

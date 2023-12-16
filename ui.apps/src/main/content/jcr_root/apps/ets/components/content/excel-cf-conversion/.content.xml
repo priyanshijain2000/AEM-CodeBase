@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Excel / CSV to Content Fragment Tool"
+        sling:resourceType="granite/ui/components/shell/page"
+        consoleId="excel-cf-conversion">
+        <head jcr:primaryType="nt:unstructured">
+            <clientlibs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/includeclientlibs"
+                categories="[granite.ui.coral.foundation,excel-to-cf.base]"/>
+        </head>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/coral/foundation/container"
+            margin="{Boolean}true">
+            <items jcr:primaryType="nt:unstructured">
+                <columns
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                    margin="{Boolean}true">
+                    <items jcr:primaryType="nt:unstructured">
+                        <column
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                            margin="{Boolean}true">
+                            <items jcr:primaryType="nt:unstructured">
+                                <container
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                    margin="{Boolean}true">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <heading
+                                            granite:class="coral-Heading coral-Heading--2"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/heading"
+                                            level="{Long}2"
+                                            text="Excel / CSV to Content Fragment Converter"/>
+                                        <well
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/well"
+                                            margin="{Boolean}true">
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <container
+                                                    granite:id="fileUploadForm"
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form"
+                                                    enctype="multipart/form-data"
+                                                    foundationForm="{Boolean}true"
+                                                    loadingMask="{Boolean}true"
+                                                    margin="{Boolean}true"
+                                                    maximized="{Boolean}true"
+                                                    style="vertical">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <modelPath
+                                                            granite:id="modelPath"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                            emptyText="Select Content Fragment Model"
+                                                            fieldLabel="Model">
+                                                            <datasource
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="core/wcm/components/contentfragmentlist/v2/datasource/models"/>
+                                                        </modelPath>
+                                                        <destinationPath
+                                                            granite:id="destinationPath"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                            emptyText="Select a Path to Store Content Fragments"
+                                                            fieldLabel="Destination Path"
+                                                            required="{Boolean}true"
+                                                            rootPath="/content/dam/ets-org/ets-content-fragment"/>
+                                                        <fileUpload
+                                                            granite:id="xls"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/form/fileupload"
+                                                            autoStart="{Boolean}false"
+                                                            emptyText="Choose XLS / XLSX / CSV File"
+                                                            fieldLabel="Choose XLS / XLSX / CSV File"
+                                                            icon="upload"
+                                                            mimeTypes="[.xls,.xlsx,.csv]"
+                                                            multiple="{Boolean}false"
+                                                            name="xls"
+                                                            required="{Boolean}true"
+                                                            text="Choose File"
+                                                            validation="import-file-extension"/>
+                                                        <fileSelected
+                                                            granite:class="coral-Heading coral-Heading--4 color--primary font--normal"
+                                                            granite:id="selectedFile"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/heading"
+                                                            level="{Long}4"
+                                                            text="No file chosen"/>
+                                                        <container
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                            margin="{Boolean}true">
+                                                            <items jcr:primaryType="nt:unstructured">
+                                                                <submitButton
+                                                                    granite:id="btnSubmit"
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/button"
+                                                                    text="Convert to Content Fragment"
+                                                                    type="submit"/>
+                                                            </items>
+                                                        </container>
+                                                        <loadingGIF
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/form/field"
+                                                            fieldLabel="\0"
+                                                            wrapperClass="loading loading--hide"/>
+                                                        <resultMessage
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/form/field"
+                                                            fieldLabel="\0"
+                                                            wrapperClass="result"/>
+                                                    </items>
+                                                </container>
+                                            </items>
+                                        </well>
+                                    </items>
+                                </container>
+                            </items>
+                        </column>
+                    </items>
+                </columns>
+            </items>
+        </content>
+    </jcr:content>
+</jcr:root>

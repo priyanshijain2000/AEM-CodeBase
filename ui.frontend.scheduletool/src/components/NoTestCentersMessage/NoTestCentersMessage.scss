@@ -1,0 +1,84 @@
+#page-container {
+  .no-options-placeholder {
+    gap: 1.3em;
+    border-left: 4px  solid #D7A80E;
+    color: #151515;
+    background-color: #FFFFFF;
+    border-top-right-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
+    padding: 24px 32px 32px 24px;
+    border-top: 1px solid #D7D7D7;
+    border-bottom: 1px solid #D7D7D7;
+    border-right: 1px solid #D7D7D7;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3176470588235294);
+    display: flex;
+    font-size: 1em;
+    line-height: 1.5em;
+    max-width: 400px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    will-change: transform;
+    box-sizing: border-box;
+    p {
+      margin: 0;
+      &:not(:last-child) {
+        margin-bottom: 0.8em;
+      }
+    }
+    svg {
+      min-width: 24px;
+    }
+    button {
+      margin-top: -0.5em;
+    }
+    .closeMessage {
+      border: 1px solid #000;
+      width: 20px;
+      height: 20px;
+      color: #000000;
+      border-radius: 50%;
+      position: absolute;
+      right: 12px;
+      top: 12px;
+      background: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0;
+      padding: 0;
+      cursor: pointer;
+      .material-icons {
+        font-size: 12px;
+        font-weight: 700;
+      }
+      &:focus {
+        outline: 3px solid var(--primary-calendar);
+        outline-offset: 2px;
+        border-color: var(--primary-calendar);
+        color: var(--primary-calendar);
+      }
+      &:hover {
+        background-color: var(--primary-calendar);
+        border-color: transparent;
+        color: white;
+        font-weight: bolder;
+      }
+    }
+  }
+  .active .no-options-placeholder {
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    animation: FromTopFadeIn 0.5s ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: 0.2s;
+  }
+}
+
+@keyframes FromTopFadeIn {
+  0%{ opacity: 0;transform: translate(-50%, -100%); }
+  100%{ opacity: 1;transform: translate(-50%, -50%); }
+}

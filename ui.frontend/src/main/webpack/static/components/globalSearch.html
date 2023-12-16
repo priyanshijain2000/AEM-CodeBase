@@ -1,0 +1,91 @@
+<div class="global-search">
+        <div class="heading1 cmp-container--body global-search-header">Search Results</div>
+        <div class="cmp-container--body global-search__select" search-data-path="/content/dam/ets-org/json-files/globalSearchkey.json">
+            <select name="select" class="" aria-label="dropdown" id='globalSearch'>
+        <option class="" value=""><a class="" href="javascript:;">Pennsylvania</a></option>
+        <option value=""><a class="" href="javascript:;">Alabama</a></option>
+        <option value=""><a class="" href="javascript:;">Arizona</a></option>
+        <option value=""><a class="" href="javascript:;">New York</a></option>
+        </select>
+            <div class="global-search__select__container">
+                <form>
+                    <i class="global-search__select__search-icon"><img alt="" src="/content/dam/ets-org/icons/commons/searchIcon_blue.png"></i>
+                    <input type="search" placeholder="What are you looking for?">
+                    <a class="cta-btn-primary" id="globalSearchButton" href="javascript:;"><span class="d-none d-md-block">Search</span><i class="d-block d-md-none state-search__select__left-arrow"></i> </a>
+                </form>
+            </div>
+        </div>
+    <div class="cmp-container--body global-search__input__container">
+     <div class="global-search__input__container--wrapper">
+        <div class="global-search__input__container--resultDisplay">
+            <div class="global-search__input__container__resultsData"></div>
+            <div class="global-search__input__container__filter">
+                <form class="field">
+                    <div class="field-groups">
+                            <label for='selectTest' class="form-label form-label-text">Filter by</label>
+                            <div class="customselectglobalSearch">
+                                <select name="select" class="form-select ets-dropdown d-none" aria-label="dropdown">
+                                    <option class="select__item select__item--selected" selected="true" value='0' disabled="disabled">All</option>
+                                    <option class="" selected="false" value='0' disabled="disabled">GRE</option>
+                                    <option class="" selected="false" value='0' disabled="disabled">PRAXIS</option>
+                                    <option class="" selected="false" value='0' disabled="disabled">TOEIC</option>
+                                    <option class="" selected="false" value='0' disabled="disabled">TOFEL</option>
+                                </select>
+                                <button class="ets-dropdown-button"><img class="__downarrow" src="/content/dam/ets-org/icons/commons/down-arrow-white.png"/>
+                                    <img class="__uparrow"src="/content/dam/ets-org/icons/commons/up-arrow-white.png"/>
+                                </button>
+                                <div class="select__selected" aria-label="unselected listbox" role="listbox" aria-live="polite">
+                                    <div class="search-placeholder-text"> All </div>
+                                    <div class="search-inner-text"> All </div>
+                                </div>
+                                <div class="select__options" role="listbox">
+                                    <div class="select__item select__item--selected" role="option" path="/content/experience-fragments/ets-org/language_master/en/test/algebra/master/jcr:content/root.html">All
+                                    </div>
+                                    <div class="select__item" role="option" path="/content/experience-fragments/ets-org/language_master/en/test/trignometry/master/jcr:content/root.html">GRE
+                                    </div>
+                                    <div class="select__item" role="option" path="/content/experience-fragments/ets-org/language_master/en/test/algebra/master/jcr:content/root.html">PRAXIS
+                                    </div>
+                                    <div class="select__item" role="option" path="/content/experience-fragments/ets-org/language_master/en/test/trignometry/master/jcr:content/root.html">TOEIC
+                                    </div>
+                                    <div class="select__item" role="option" path="/content/experience-fragments/ets-org/language_master/en/test/trignometry/master/jcr:content/root.html">TOFEL</div>
+                                </div>
+                            </div>
+                        </div>
+                </form> 
+             
+                <form class="field">
+                    <div class="field-groups">
+                        <label for='selectTest' class="form-label form-label-text">Sort by</label>
+                        <div class="customselectglobalSearch">
+                            <select name="select" class="form-select ets-dropdown d-none" aria-label="dropdown">
+                        <option class="select__item--selected" selected="true" value='0' disabled="disabled">Most Relevant</option>
+                        <option class="" selected="false" value='0' disabled="disabled">Alphabetical</option>
+                        </select>
+                            <button class="ets-dropdown-button" tabindex="-1">
+                                <img class="__downarrow" src="/content/dam/ets-org/icons/commons/down-arrow-white.png"/>
+                                <img class="__uparrow" src="/content/dam/ets-org/icons/commons/up-arrow-white.png"/></button>
+                            <div class="select__selected" aria-label="unselected listbox" role="listbox" aria-live="polite" tabindex="0">
+                                <div class="search-placeholder-text">Most Relevant</div>
+                                <div class="search-inner-text">Most Relevant</div>
+                            </div>
+                            <div class="select__options" role="listbox">
+                                <div class="select__item select__item--selected" role="option" path="/content/experience-fragments/ets-org/language_master/en/test/algebra/master/jcr:content/root.html">Most Relevant
+                                </div>
+                                <div class="select__item" role="option" path="/content/experience-fragments/ets-org/language_master/en/test/trignometry/master/jcr:content/root.html">Alphabetical
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="global-search__results">
+                <div class="global-search__results__description">
+                </div>
+            </div>
+            <div class="global-search__error m-t70x40">
+                <p class="body-text">Optional message: Try your search again. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin ultrices orci. Nam a luctus purus. Aliquam viverra leo nec posuere congue. In ut urna velit.</p>
+            </div>
+        </div>
+     </div>
+    </div>
+</div>

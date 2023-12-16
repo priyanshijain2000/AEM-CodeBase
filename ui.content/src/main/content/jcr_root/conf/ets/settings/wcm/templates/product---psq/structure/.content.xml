@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2023-03-30T13:33:38.372-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/ets/settings/wcm/templates/product---psq"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="ets/structure/psq-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="responsiveGrid">
+            <container_1448755308
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                layout="simple">
+                <experiencefragment
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/ets-org/language_master/en/site/header-nav/gre"/>
+            </container_1448755308>
+            <container_bread_copy
+                cq:styleIds="[1655336800192]"
+                jcr:created="{Date}2022-06-16T10:56:47.111Z"
+                jcr:createdBy="PJAIN003@ets.org"
+                jcr:lastModified="{Date}2022-07-11T13:21:15.582Z"
+                jcr:lastModifiedBy="pakolnerkar@ets.org"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container">
+                <breadcrumb_copy
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/breadcrumb/v2/breadcrumb"
+                    disableShadowing="false"
+                    hideCurrent="false"
+                    showHidden="false"
+                    startLevel="4"/>
+            </container_bread_copy>
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
+            <container_758522293_
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                layout="simple"
+                roleAttribute="contentinfo">
+                <experiencefragment_c
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/ets-org/language_master/en/site/footer/master"
+                    text="GET THE LATEST FROM ETS Connect Follow Subscribe ETS About ETS Careers Contact Us Disabilities ETS Store News: Open Notes Research Solutions Educator Licensure English Language Learning ETS Accelerate Higher Education K-12 Student Programs Workplace &amp; Training Products GRE Praxis TOEFL TOEIC View All Follow ETS: Copyright © 2022 by ETS. All rights reserved. All trademarks are the property of their respective owners. Legal Privacy &amp; Security ETS Trademarks"/>
+            </container_758522293_>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

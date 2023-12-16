@@ -1,0 +1,551 @@
+{
+    "PRAXIS_fees" : [ {
+      "Fee" : "$130",
+      "Test Title" : "Agriculture",
+      "Test Code" : "5701"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Algebra I",
+      "Test Code" : "5162"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Art: Content and Analysis",
+      "Test Code" : "5135"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Art: Content Knowledge",
+      "Test Code" : "5134"
+    }, {
+      "Fee" : "$146",
+      "Test Title" : "Audiology",
+      "Test Code" : "5343"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Biology",
+      "Test Code" : "5236"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Biology: Content Knowledge",
+      "Test Code" : "5235"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Braille Proficiency",
+      "Test Code" : "0633"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Business Education",
+      "Test Code" : "5101"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Chemistry",
+      "Test Code" : "5246"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Chemistry: Content Knowledge",
+      "Test Code" : "5245"
+    }, {
+      "Fee" : "$170",
+      "Test Title" : "Chinese (Mandarin): World Language",
+      "Test Code" : "5665"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Citizenship Education: Content Knowledge",
+      "Test Code" : "5087"
+    }, {
+      "Fee" : "$110",
+      "Test Title" : "Communication and Literacy",
+      "Test Code" : "5753"
+    }, {
+      "Fee" : "$90",
+      "Test Title" : "Communication and Literacy: Reading",
+      "Test Code" : "5714"
+    }, {
+      "Fee" : "$90",
+      "Test Title" : "Communication and Literacy: Writing",
+      "Test Code" : "5724"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Computer Science",
+      "Test Code" : "5652"
+    }, {
+      "Fee" : "$150",
+      "Test Title" : "Core Academic Skills for Educators: Combined Test (Reading, Writing and Mathematics)",
+      "Test Code" : "5752"
+    }, {
+      "Fee" : "$90",
+      "Test Title" : "Core Academic Skills for Educators: Mathematics",
+      "Test Code" : "5733"
+    }, {
+      "Fee" : "$90",
+      "Test Title" : "Core Academic Skills for Educators: Reading",
+      "Test Code" : "5713"
+    }, {
+      "Fee" : "$90",
+      "Test Title" : "Core Academic Skills for Educators: Writing",
+      "Test Code" : "5723"
+    }, {
+      "Fee" : "$180",
+      "Test Title" : "Early Childhood Assessment",
+      "Test Code" : "5026"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Early Childhood Education",
+      "Test Code" : "5025"
+    }, {
+      "Fee" : "$100",
+      "Test Title" : "Early Childhood: Mathematics and Science",
+      "Test Code" : "5028"
+    }, {
+      "Fee" : "$100",
+      "Test Title" : "Early Childhood: Reading and Language Arts & Social Studies",
+      "Test Code" : "5027"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Earth and Space Sciences",
+      "Test Code" : "5572"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Earth and Space Sciences: Content Knowledge",
+      "Test Code" : "5571"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Economics",
+      "Test Code" : "5911"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Education of Young Children",
+      "Test Code" : "5024"
+    }, {
+      "Fee" : "$64",
+      "Test Title" : "Education: Social Studies Subtest",
+      "Test Code" : "5004"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Educational Leadership: Administration and Supervision (ELAS)",
+      "Test Code" : "5412"
+    }, {
+      "Fee" : "$209",
+      "Test Title" : "Elementary Education Assessment",
+      "Test Code" : "5006"
+    }, {
+      "Fee" : "$115",
+      "Test Title" : "Elementary Education Assessment: Mathematics and Science",
+      "Test Code" : "5008"
+    }, {
+      "Fee" : "$115",
+      "Test Title" : "Elementary Education Assessment: Reading and Language Arts & Social Studies",
+      "Test Code" : "5007"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Elementary Education: Content Knowledge",
+      "Test Code" : "5018"
+    }, {
+      "Fee" : "$209",
+      "Test Title" : "Elementary Education: Content Knowledge for Teaching",
+      "Test Code" : "7811"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Elementary Education: Curriculum, Instruction, and Assessment",
+      "Test Code" : "5017"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Elementary Education: Math Specialist",
+      "Test Code" : "5037"
+    }, {
+      "Fee" : "$64",
+      "Test Title" : "Elementary Education: Mathematics Subtest",
+      "Test Code" : "5003"
+    }, {
+      "Fee" : "$78",
+      "Test Title" : "Elementary Education: Mathematics—CKT",
+      "Test Code" : "7813"
+    }, {
+      "Fee" : "$180",
+      "Test Title" : "Elementary Education: Multiple Subjects",
+      "Test Code" : "5001"
+    }, {
+      "Fee" : "$64",
+      "Test Title" : "Elementary Education: Reading and Language Arts Subtest",
+      "Test Code" : "5002"
+    }, {
+      "Fee" : "$78",
+      "Test Title" : "Elementary Education: Reading and Language Arts—CKT",
+      "Test Code" : "7812"
+    }, {
+      "Fee" : "$64",
+      "Test Title" : "Elementary Education: Science Subtest",
+      "Test Code" : "5005"
+    }, {
+      "Fee" : "$64",
+      "Test Title" : "Elementary Education: Science—CKT",
+      "Test Code" : "7814"
+    }, {
+      "Fee" : "$64",
+      "Test Title" : "Elementary Education: Social Studies—CKT",
+      "Test Code" : "7815"
+    }, {
+      "Fee" : "$64",
+      "Test Title" : "Elementary Education: Three Subject Bundle—Mathematics",
+      "Test Code" : "5903"
+    }, {
+      "Fee" : "$150",
+      "Test Title" : "Elementary Education: Three Subject Bundle—Mathematics, Social Studies & Science",
+      "Test Code" : "5901"
+    }, {
+      "Fee" : "$64",
+      "Test Title" : "Elementary Education: Three Subject Bundle—Science",
+      "Test Code" : "5905"
+    }, {
+      "Fee" : "$64",
+      "Test Title" : "Elementary Education: Three Subject Bundle—Social Studies",
+      "Test Code" : "5904"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "English Language Arts: Content and Analysis",
+      "Test Code" : "5039"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "English Language Arts: Content Knowledge",
+      "Test Code" : "5038"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "English to Speakers of Other Languages (ESOL)",
+      "Test Code" : "5362"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Family and Consumer Sciences",
+      "Test Code" : "5122"
+    }, {
+      "Fee" : "$170",
+      "Test Title" : "French: World Language",
+      "Test Code" : "5174"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Fundamental Subjects: Content Knowledge",
+      "Test Code" : "5511"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "General Science",
+      "Test Code" : "5436"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "General Science: Content Knowledge",
+      "Test Code" : "5435"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Geography",
+      "Test Code" : "5921"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Geometry",
+      "Test Code" : "5163"
+    }, {
+      "Fee" : "$170",
+      "Test Title" : "German: World Language",
+      "Test Code" : "5183"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Gifted Education",
+      "Test Code" : "5358"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Government/Political Science",
+      "Test Code" : "5931"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Health and Physical Education: Content Knowledge",
+      "Test Code" : "5857"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Health Education",
+      "Test Code" : "5551"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Health Occupations",
+      "Test Code" : "5052"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Interdisciplinary Early Childhood Education",
+      "Test Code" : "5023"
+    }, {
+      "Fee" : "$170",
+      "Test Title" : "Japanese: World Language",
+      "Test Code" : "5661"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Journalism",
+      "Test Code" : "5224"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Latin",
+      "Test Code" : "5601"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Library Media Specialist",
+      "Test Code" : "5311"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Marketing Education",
+      "Test Code" : "5561"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Mathematics",
+      "Test Code" : "5165"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Mathematics: Content Knowledge",
+      "Test Code" : "5161"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Middle School English Language Arts",
+      "Test Code" : "5047"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Middle School Mathematics",
+      "Test Code" : "5164"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Middle School Mathematics -",
+      "Test Code" : "5169"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Middle School Science",
+      "Test Code" : "5442"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Middle School Social Studies",
+      "Test Code" : "5089"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Middle School: Content Knowledge",
+      "Test Code" : "5146"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Music: Content and Instruction",
+      "Test Code" : "5114"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Music: Content Knowledge",
+      "Test Code" : "5113"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Music: Instrumental and General Knowledge",
+      "Test Code" : "5115"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Music: Vocal and General Knowledge",
+      "Test Code" : "5116"
+    }, {
+      "Fee" : "$140",
+      "Test Title" : "PA Grades 4–8 Core Assessment",
+      "Test Code" : "5152"
+    }, {
+      "Fee" : "$50",
+      "Test Title" : "PA Grades 4–8 Core Assessment: English Language Arts and Social Studies",
+      "Test Code" : "5154"
+    }, {
+      "Fee" : "$50",
+      "Test Title" : "PA Grades 4–8 Core Assessment: Mathematics and Science",
+      "Test Code" : "5155"
+    }, {
+      "Fee" : "$50",
+      "Test Title" : "PA Grades 4–8 Core Assessment: Pedagogy",
+      "Test Code" : "5153"
+    }, {
+      "Fee" : "$75",
+      "Test Title" : "PA Grades 4–8 Subject Concentration: English Language Arts",
+      "Test Code" : "5156"
+    }, {
+      "Fee" : "$75",
+      "Test Title" : "PA Grades 4–8 Subject Concentration: Mathematics",
+      "Test Code" : "5158"
+    }, {
+      "Fee" : "$75",
+      "Test Title" : "PA Grades 4–8 Subject Concentration: Science",
+      "Test Code" : "5159"
+    }, {
+      "Fee" : "$75",
+      "Test Title" : "PA Grades 4–8 Subject Concentration: Social Studies",
+      "Test Code" : "5157"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Physical Education: Content and Design",
+      "Test Code" : "5095"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Physical Education: Content Knowledge",
+      "Test Code" : "5091"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Physical Science",
+      "Test Code" : "5485"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Physics: Content Knowledge",
+      "Test Code" : "5265"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Physics: Content Knowledge -",
+      "Test Code" : "5266"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Pre-Kindergarten Education",
+      "Test Code" : "5531"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Principles of Learning and Teaching: Early Childhood",
+      "Test Code" : "5621"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Principles of Learning and Teaching: Grades 5–9",
+      "Test Code" : "5623"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Principles of Learning and Teaching: Grades 7–12",
+      "Test Code" : "5624"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Principles of Learning and Teaching: Grades K–6",
+      "Test Code" : "5622"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Principles of Learning and Teaching: PreK–12",
+      "Test Code" : "5625"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Professional School Counselor",
+      "Test Code" : "5421"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Psychology",
+      "Test Code" : "5391"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Reading for Virginia Educators (RVE): Elementary and Special Education",
+      "Test Code" : "5306"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Reading for Virginia Educators (RVE): Reading Specialist",
+      "Test Code" : "5304"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Reading Specialist",
+      "Test Code" : "5301"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Reading Specialist -",
+      "Test Code" : "5302"
+    }, {
+      "Fee" : "$170",
+      "Test Title" : "Russian: World Language",
+      "Test Code" : "5671"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "School Counselor",
+      "Test Code" : "5422"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "School Librarian",
+      "Test Code" : "5312"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "School Psychologist",
+      "Test Code" : "5402"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "School Psychologist -",
+      "Test Code" : "5403"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Social Studies: Content and Interpretation",
+      "Test Code" : "5086"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Social Studies: Content Knowledge",
+      "Test Code" : "5081"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Sociology",
+      "Test Code" : "5952"
+    }, {
+      "Fee" : "$170",
+      "Test Title" : "Spanish: World Language",
+      "Test Code" : "5195"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Special Education: Core Knowledge and Applications",
+      "Test Code" : "5354"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Special Education: Core Knowledge and Mild to Moderate Applications",
+      "Test Code" : "5543"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Special Education: Core Knowledge and Severe to Profound Applications",
+      "Test Code" : "5545"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Special Education: Early Childhood/Early Intervention",
+      "Test Code" : "5692"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Special Education: Education of Deaf and Hard of Hearing Students",
+      "Test Code" : "5272"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Special Education: PreSchool/Early Childhood",
+      "Test Code" : "5691"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Special Education: Teaching Speech to Students with Language Impairments",
+      "Test Code" : "5881"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Special Education: Teaching Students with Intellectual Disabilities",
+      "Test Code" : "5322"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Special Education: Teaching Students with Learning Disabilities",
+      "Test Code" : "5383"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Special Education: Teaching Students with Visual Impairments",
+      "Test Code" : "5282"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Speech Communication: Content Knowledge",
+      "Test Code" : "5221"
+    }, {
+      "Fee" : "$146",
+      "Test Title" : "Speech-Language Pathology",
+      "Test Code" : "5331"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Teaching Reading: Elementary",
+      "Test Code" : "5205"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "Teaching Reading: K–12",
+      "Test Code" : "5206"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Teaching Students with Behavioral Disorders/Emotional Disturbances",
+      "Test Code" : "5372"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Technology Education",
+      "Test Code" : "5051"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "Theatre",
+      "Test Code" : "5641"
+    }, {
+      "Fee" : "$130",
+      "Test Title" : "World and U.S. History: Content Knowledge",
+      "Test Code" : "5941"
+    }, {
+      "Fee" : "$156",
+      "Test Title" : "World Languages Pedagogy",
+      "Test Code" : "5841"
+    } ]
+  }

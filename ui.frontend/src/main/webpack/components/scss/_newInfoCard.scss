@@ -1,0 +1,168 @@
+.new-info-card {
+    background-color: inherit;
+    row-gap: 1.5rem;
+    column-gap: 2rem;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    margin: 2.5rem 0 4.375rem 0;
+    flex-wrap: wrap;
+    &.card-align-left {
+        justify-content: flex-start;
+    }
+    &.card-align-right {
+        justify-content: flex-end;
+    }
+    &.card-align-center {
+        justify-content: center;
+    }
+    @include for-size(only-mobile) {
+        margin-bottom: 12px;
+    }
+    .card {
+        border-radius: 1rem;
+        border: none;
+        z-index: 1;
+        @include viewport(tablet-portrait) {
+            flex: 1 32.2%;
+            max-width: 48%;
+        }
+        @include viewport(tablet-landscape) {
+            flex: 1 31.2%;
+            max-width: 31%;
+        }
+        @include viewport(only-desktop) {
+            flex: 1 31.2%;
+            max-width: 31%;
+        }
+        &-body {
+            padding: 0;
+            background: none;
+            p {
+                padding-top: 1.875rem;
+                @include for-size(only-mobile) {
+                    padding-top: 1.25rem;
+                }
+            }
+        }
+        &-footer {
+            border: none;
+            padding: 0;
+            background: none;
+        }
+    }
+    @include for-size(only-mobile) {
+        flex-flow: column;
+    }
+    &-shadow {
+        box-shadow: 2px 2px 1pc 0 rgba(0,0,0,.08);
+    }
+    &-translucent {
+        background: linear-gradient(214.25deg, rgba(242, 242, 242, 0.6) -60.4%, rgba(242, 242, 242, 0.2) 130.64%);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-sizing: border-box;
+        backdrop-filter: blur(40px);
+        border-radius: 16px;
+    }
+    &-white {
+        background: $color-white;
+    }
+    &-container {
+        h5,
+        .heading5 {
+            margin: 0;
+        }
+        padding: 3.125rem;
+        @media (min-width: 768px) and (max-width: 1200px) {
+            max-width: 50%;
+        }
+        @media (min-width: 1201px) {
+            max-width: 415px;
+        }
+        @include for-size(only-mobile) {
+            padding: 1.875rem 1.625rem;
+        }
+        &-content {
+            margin: 0;
+            padding: 1.875rem 0 0 0;
+            @include for-size(only-mobile) {
+                padding: 1.25rem 0 0 0;
+            }
+        }
+        .article-banner-button-band {
+            padding: 2.25rem 0 0 0;
+            flex-wrap: wrap;
+            row-gap: 20px;
+            @include for-size(only-mobile) {
+                padding: 1.25rem 0 0 0;
+            }
+            .cta-btn-primary {
+                white-space: nowrap;
+                background-color: $color-white;
+                outline: 2px solid $color-ETS-midnight;
+                color: $color-ETS-midnight;
+                &:hover{
+                    background-color:$color-ETS-midnight;
+                    color: $color-primary-button-bg
+                }
+                &:focus-visible, &:focus{
+                    outline: 4px solid $color-discalmer-blue;
+                    outline-offset: 2px;
+                    background-color: $color-ETS-midnight;
+                    color: $color-primary-button-bg;
+                }
+            }
+        }
+    }
+    @media (min-width: 576px) {
+        &.card-group>.card:not(:last-child) {
+            border-top-right-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+        }
+        &.card-group>.card:not(:first-child) {
+            border-top-left-radius: 1rem;
+            border-bottom-left-radius: 1rem;
+        }
+    }
+    &.infocard-one-column {
+         .card {
+            @include viewport(tablet-desktop) {
+                max-width: 415px;
+                flex: 1 70%;
+            }
+        }
+    }
+    &.infocard-two-column {
+        .card {
+            flex: 1 50%;
+            @include for-size(only-desktop) {
+                max-width: 415px;
+            }
+            @include for-size(only-tablet) {
+                max-width: 45%;
+            }
+        }
+    }
+    &.infocard-three-column {
+        .card {
+            @include viewport(only-desktop) {
+                flex: 1 31.2%;
+            }
+            @include viewport(tablet) {
+                flex: 1 35%;
+            }
+        }
+    }
+    &.infocard-four-column {
+        .card {
+            @include viewport(only-desktop) {
+                max-width: 22%;
+                flex: 1 23%;
+            }
+            @include viewport(tablet) {
+                flex: 1 35%;
+            }
+        }
+    }
+}

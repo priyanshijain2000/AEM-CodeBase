@@ -1,0 +1,756 @@
+/*Photo card component*/
+/*Praxis*/
+.banner{
+	&.bgcolor{
+		&-praxis{
+			&-red{
+				.carousel-bg{
+					background: $color-Praxis-red;
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,$color-Praxis-red 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,$color-Praxis-red 0);
+					}
+				}
+			}
+			&-blue{
+				.carousel-bg{
+					background: rgba(0, 48, 130, 1);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(0, 48, 130, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(0, 48, 130, 1) 0);;
+					}
+				}
+			}
+			&-grey{
+				.carousel-bg{
+					background: rgba(193, 183, 175, 1);
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(193, 183, 175, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(193, 183, 175, 1) 0);
+					}
+				}
+			}
+			&-light-grey{
+				.carousel-bg{
+					background: rgba(193, 183, 175, 0.3);
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(193, 183, 175, 0.3) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(193, 183, 175, 0.3) 0);
+					}
+				}
+			}
+			&-gradient{
+				.carousel-bg{
+					background: linear-gradient(270deg,rgba(175,31,35,1) 0%, rgba(69,3,3,1) 100%);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%, rgba(175,31,35,1) 0%, rgba(69,3,3,1) 100%);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40% rgba(175,31,35,1) 0%, rgba(69,3,3,1) 100%);
+					}
+				}
+			}
+		}
+		&-gre{
+			&-purple{
+				.carousel-bg{
+					background: $color-GRE-primary;
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,$color-GRE-primary 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,$color-GRE-primary 0);
+					}
+				}
+			}
+			&-light-purple{
+				.carousel-bg{
+					background: rgba(193, 159, 187, 1);
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(193, 159, 187, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(193, 159, 187, 1) 0);
+					}
+				}
+			}
+			&-dark-purple{
+				.carousel-bg{
+					background: rgba(56, 0, 46, 1);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(56, 0, 46, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(56, 0, 46, 1) 0);
+					}
+				}
+			}
+			&-orange{
+				.carousel-bg{
+					background: $color-GRE-orange;
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,$color-GRE-orange 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,$color-GRE-orange 0);
+					}
+				}
+			}
+			&-dark-orange{
+				.carousel-bg{
+					background: rgba(184, 58, 30, 1);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(184, 58, 30, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(184, 58, 30, 1) 0);
+					}
+				}
+			}
+			&-blue{
+				.carousel-bg{
+					background: rgba(184, 204, 229, 1);
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(184, 204, 229, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(184, 204, 229, 1) 0);
+					}
+				}
+			}
+			&-light-blue{
+				.carousel-bg{
+					background: rgba(222, 236, 252, 1);
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(222, 236, 252, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(222, 236, 252, 1) 0);
+					}
+				}
+			}
+			&-dark-blue{
+				.carousel-bg{
+					background: rgba(31, 40, 65, 1);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(31, 40, 65, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(31, 40, 65, 1) 0);
+					}
+				}
+			}
+			&-ivory{
+				.carousel-bg{
+					background: rgba(244, 234, 230, 1);
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(244, 234, 230, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(244, 234, 230, 1) 0);
+					}
+				}
+			}
+			&-gradient{
+				.carousel-bg{
+					background: linear-gradient(270deg,rgba(124,50,101,1) 0%, rgba(56,0,46,1) 100%);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(124,50,101,1) 0%, rgba(56,0,46,1) 100%);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(124,50,101,1) 0%, rgba(56,0,46,1) 100%);
+					}
+				}
+			}
+		}
+		&-toeic{
+			&-green{
+				.carousel-bg{
+					background: #165736;
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,#165736 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,#165736 0);
+					}
+				}
+			}
+			&-lime{
+				.carousel-bg{
+					background: rgba(181, 190, 15, 1);
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(181, 190, 15, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(181, 190, 15, 1) 0);
+					}
+				}
+			}
+			&-light-lime{
+				.carousel-bg{
+					background: rgba(181, 190, 15, 0.3);
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(181, 190, 15, 0.3) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(181, 190, 15, 0.3) 0);
+					}
+				}
+			}
+			&-lighter-green{
+				.carousel-bg{
+					background: rgba(181, 190, 15, 0.12);
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(181, 190, 15, 0.12) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(181, 190, 15, 0.12) 0);
+					}
+				}
+			}
+			&-dark-green{
+				.carousel-bg{
+					background: rgba(20, 43, 28, 1);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(20, 43, 28, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(20, 43, 28, 1) 0);
+					}
+				}
+			}
+			&-gradient{
+				.carousel-bg{
+					background: linear-gradient(270deg,rgba(180,189,16,1) 0%, rgba(43,111,43,1) 41%, rgba(0,77,46,1) 100%);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(180,189,16,1) 0%, rgba(43,111,43,1) 41%, rgba(0,77,46,1) 100%);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(180,189,16,1) 0%, rgba(43,111,43,1) 41%, rgba(0,77,46,1) 100%);
+					}
+				}
+			}
+		}
+		&-toefl{
+			&-teal{
+				.carousel-bg{
+					background: #377D82;
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,#377D82 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,#377D82 0);
+					}
+				}
+			}
+			&-orange{
+				.carousel-bg{
+					background: #EF7000;
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,#EF7000 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,#EF7000 0);
+					}
+				}
+			}
+			&-gold{
+				.carousel-bg{
+					background: #F7B524;
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,#F7B524 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,#F7B524 0);
+					}
+				}
+			}
+			&-dark-green{
+				.carousel-bg{
+					background: #163234;
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,#163234 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,#163234 0);
+					}
+				}
+			}
+			&-dark-teal{
+				.carousel-bg{
+					background: #27585B;
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,#27585B 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,#27585B 0);
+					}
+				}
+			}
+			&-grey{
+				.carousel-bg{
+					background: #E7EFF0;
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,#E7EFF0 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,#E7EFF0 0);
+					}
+				}
+			}
+			&-gradient{
+				.carousel-bg{
+					background: linear-gradient(270deg,#27585b 0,#255457 11%,#163234 96%);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,#27585b 0,#255457 11%,#163234 96%);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,#27585b 0,#255457 11%,#163234 96%);
+					}
+				}
+			}
+		}
+		&-corp{
+			&-midnight{
+				.carousel-bg{
+					background: rgba(0, 51, 86, 1);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(0, 51, 86, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(0, 51, 86, 1) 0);
+					}
+				}
+			}
+			&-navy-blue{
+				.carousel-bg{
+					background: rgba(0, 48, 130, 1);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(0, 48, 130, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(0, 48, 130, 1) 0);
+					}
+				}
+			}
+			&-azure-blue{
+				.carousel-bg{
+					background: rgba(48, 114, 190, 1);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(48, 114, 190, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(48, 114, 190, 1) 0);
+					}
+				}
+			}
+			&-sky-blue{
+				.carousel-bg{
+					background: rgba(42, 172, 226, 1);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(42, 172, 226, 1) 0);
+					}
+					&.reverse-content .carousel-bg {
+						background: linear-gradient(90deg,transparent 40%,rgba(42, 172, 226, 1) 0);
+					}
+				}
+			}
+			&-gold{
+				.carousel-bg{
+					background: rgba(253, 185, 19, 1);
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(253, 185, 19, 1) 0);
+					}
+					&.reverse-content .carousel-bg{
+                        background: linear-gradient(90deg,transparent 40%,rgba(253, 185, 19, 1) 0);
+                    }
+				}
+			}
+			&-pear{
+				.carousel-bg{
+					background: rgba(222, 209, 79, 1);
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(222, 209, 79, 1) 0);
+					}
+					&.reverse-content .carousel-bg{
+                        background: linear-gradient(90deg,transparent 40%,rgba(222, 209, 79, 1) 0);
+                    }
+				}
+			}
+			&-emerald{
+				.carousel-bg{
+					background: rgba(105, 204, 151, 1);
+					.content-desc{
+						color: #151515;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(105, 204, 151, 1) 0);
+					}
+					&.reverse-content .carousel-bg{
+                        background: linear-gradient(90deg,transparent 40%,rgba(105, 204, 151, 1) 0);
+                    }
+				}
+			}
+			&-hunter{
+				.carousel-bg{
+					background: rgba(47, 126, 97, 1);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%,rgba(47, 126, 97, 1) 0);
+					}
+					&.reverse-content .carousel-bg{
+                        background: linear-gradient(90deg,transparent 40%,rgba(47, 126, 97, 1) 0);
+                    }
+				}
+			}
+			&-gradient{
+				.carousel-bg{
+					background: linear-gradient(270deg,rgba(0,51,86,1) 0%, rgba(48,114,190,1) 100%);
+					.content-desc{
+						color: #fff;
+					}
+				}
+				@media only screen and (min-width: 992px){
+					.carousel-bg{
+						background: linear-gradient(270deg,transparent 40%, rgba(0,51,86,1) 0%, rgba(48,114,190,1) 100%);
+					}
+					&.reverse-content .carousel-bg{
+                        background: linear-gradient(90deg,transparent 40%,rgba(0,51,86,1) 0%, rgba(48,114,190,1) 100%);
+                    }
+				}
+			}
+		}
+		&-r3cc {
+			&-wineRed {
+				.carousel-bg{
+					    background: $color-r3cc-lightWineRed;
+					    .content-desc{
+					        color: #fff;
+					    }
+						.content-title {
+							color: #fdb913;
+						}
+					}
+					@media only screen and (min-width: 992px){
+					    .carousel-bg{
+					        background: linear-gradient(270deg,transparent 40%,rgba(173, 54, 82, 1) 0);
+					    }
+					    &.reverse-content .carousel-bg {
+					        background: linear-gradient(90deg,transparent 40%,rgba(173, 54, 82, 1) 0);
+					    }
+					}
+			}
+		}
+	}
+	&.title-color{
+		&-praxis{
+			&-red{
+				.carousel-bg .content-title{
+					color: #a03137;
+				}
+			}
+			&-white{
+				.carousel-bg .content-title{
+					color: #fff;
+				}
+			}
+			&-blue{
+				.carousel-bg .content-title{
+					color: #003082;
+				}
+			}
+		}
+		&-gre{
+			&-purple{
+				.carousel-bg .content-title{
+					color: #630F54;
+				}
+			}
+			&-white{
+				.carousel-bg .content-title{
+					color: #fff;
+				}
+			}
+			&-blue{
+				.carousel-bg .content-title{
+					color: #1F2841;
+				}
+			}
+			&-orange{
+				.carousel-bg .content-title{
+					color: #B83A1E;
+				}
+			}
+		}
+		&-toeic{
+			&-green{
+				.carousel-bg .content-title{
+					color: rgba(22, 87, 54, 1);
+				}
+			}
+			&-dark-green{
+				.carousel-bg .content-title{
+					color: rgba(20, 43, 28, 1);
+				}
+			}
+		}
+		&-toefl{
+			&-teal{
+				.carousel-bg .content-title{
+					color: #377D82;
+				}
+			}
+			&-orange{
+				.carousel-bg .content-title{
+					color: #EF7000;
+				}
+			}
+			&-gold{
+				.carousel-bg .content-title{
+					color: #F7B524;
+				}
+			}
+			&-dark-green{
+				.carousel-bg .content-title{
+					color: #163234;
+				}
+			}
+			&-dark-teal{
+				.carousel-bg .content-title{
+					color: #27585B;
+				}
+			}
+			&-grey{
+				.carousel-bg .content-title{
+					color: #E7EFF0;
+				}
+			}
+		}
+		&-corp{
+			&-midnight{
+				.carousel-bg .content-title{
+					color: rgba(0, 51, 86, 1);
+				}
+			}
+			&-navy-blue{
+				.carousel-bg .content-title{
+					color: rgba(0, 48, 130, 1);
+				}
+			}
+			&-azure-blue{
+				.carousel-bg .content-title{
+					color: rgba(48, 114, 190, 1);
+				}
+			}
+			&-sky-blue{
+				.carousel-bg .content-title{
+					color: rgba(42, 172, 226, 1);
+				}
+			}
+			&-gold{
+				.carousel-bg .content-title{
+					color: rgba(253, 185, 19, 1);
+				}
+			}
+			&-pear{
+				.carousel-bg .content-title{
+					color: rgba(222, 209, 79, 1);
+				}
+			}
+			&-emerald{
+				.carousel-bg .content-title{
+					color: rgba(105, 204, 151, 1);
+				}
+			}
+			&-hunter{
+				.carousel-bg .content-title{
+					color: rgba(47, 126, 97, 1);
+				}
+			}
+		}
+	}
+}

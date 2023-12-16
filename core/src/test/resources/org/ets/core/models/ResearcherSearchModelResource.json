@@ -1,0 +1,13 @@
+{
+	"researcher-search": {
+		"jcr:primaryType": "nt:unstructured",
+		"ctaButtonAriaLabel": "Search button",
+		"ctaLabel": "Search",
+		"placeHolderText": "Type here",
+		"link": "/content/ets-org/language-master/en/home/researcher",
+		"sectionTitle": "Find a publication",
+		"sling:resourceType": "ets/components/researchersearch",
+		"searchAriaLabel": "Search here",
+		"searchAlt": "Search Icon"
+	}
+}

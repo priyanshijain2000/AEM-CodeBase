@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2023-01-25T09:46:54.344Z"
+        cq:lastModifiedBy="PJAIN003@ets.org"
+        cq:templateType="/conf/ets/settings/wcm/template-types/generic-page"
+        jcr:description="Alchemer/Marketo/SalesforceForm"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Forms-All"
+        status="enabled"/>
+</jcr:root>

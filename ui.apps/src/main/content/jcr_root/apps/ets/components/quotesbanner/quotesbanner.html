@@ -1,0 +1,28 @@
+<sly data-sly-use.quotesBanner="org.ets.core.models.QuotesBannerModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !quotesBanner.quotedesc,classAppend='cmp-text'}"></sly>
+<div class="quotes-background quotes-container-section d-flex" >
+    <div class="quotes-bgimg carousel-img d-flex" style="--background-image: url(${quotesBanner.fileReference ? quotesBanner.fileReference : '/content/dam/ets-org/general/placeholders/img-plchldr-quote.jpg' @context='styleString'});" alt="${quotesBanner.altText || true}"></div>
+    <div class="mobile-no-margin quotes-cont d-flex">
+        <div data-sly-test= "${quotesBanner.quotedesc}" class="quotes-banner">
+            <div class="row">
+                <div class="col-12 quotes-text-banner mobile-margin">
+                    <div class="quotes-text-container content" data-inviewport="${wcmmode.edit?'':'fadeIn'}">
+                        <div class="quotes-description">
+                            <blockquote>${quotesBanner.quotedesc @context='html'}</blockquote>
+                        </div>
+                        <p class="quotes-author-name">${quotesBanner.authorname}</p>
+                        <p class="quotes-author-info">${quotesBanner.authorinfo @context='html'}</p>
+                        <div class="quotes-banner-button-band">
+                            <a data-sly-test="${quotesBanner.ctaButtonLabel}" class="cta-btn-primary theme-cta"
+                               data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=quotesBanner.ctaButtonLink}"
+                               href="${linkValidate.link}" target="${quotesBanner.newTab1 ? '_blank' : ''}" rel="${quotesBanner.newTab1 ? 'noopener noreferrer' : ''}" aria-label="${quotesBanner.ctaButtonAriaLabel}">${quotesBanner.ctaButtonLabel}</a>
+                            <a data-sly-test="${quotesBanner.ctaText}" class="cta-text-link"
+                               data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=quotesBanner.ctaLink}"
+                               href="${linkValidate.link}" target="${quotesBanner.newTab2 ? '_blank' : ''}" rel="${quotesBanner.newTab2 ? 'noopener noreferrer' : ''}" aria-label="${quotesBanner.ctaLinkAriaLabel}">${quotesBanner.ctaText}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

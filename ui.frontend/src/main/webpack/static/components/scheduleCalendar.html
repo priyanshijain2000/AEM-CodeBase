@@ -1,0 +1,130 @@
+<div class="cmp-container--body">
+    <div class="schedule-calendar-component m-t70x40 m-b70x40">
+        <div class="error-info">
+            <p role="alert"><i><img width="18px" height="18px" src="/src/main/webpack/resources/images/error-exclamation-new.svg" alt="error-image"/></i> Finding a test center is unavailable at the moment. Please check back shortly</p>
+        </div>
+        <div class="field-groups-test">
+            <div class="search-band">
+                <form class="field">
+                    <div class="field-groups">
+                        <label for="select2-where-to-test-dropdown-container" class="form-label form-label-text required-field">Test</label>
+                        <select class="where-to-test-dropdown" data-test-announcement-text="test is selected, you can select the location" id="where-to-test-dropdown" aria-label="this is a required field" data-test-json-path="/src/main/webpack/components/json/test.json" data-placeholder="Search All Tests">
+                        </select>
+                        <p role="alert" class="drop-down-preselect-label d-none">This field is pre-selected for you</p>
+                        <p role="alert" class="drop-down-error-label d-none">Please select a test from the available options</p>
+                    </div>
+                </form>
+                <form class="field">
+                    <div class="field-groups">
+                        <label for="locationautocomplete" class="form-label form-label-text required-field">Location</label>
+                        <div class="customselectlocationsearch">
+                            <div class="select__selected" aria-label="unselected listbox">
+                                <i class="dropdown-search-icon"><img src="/src/main/webpack/resources/images/Vectors.svg" alt=""/></i>
+                                <input type="search" role="combobox" id="locationautocomplete" aria-required="true" placeholder="Search by State or Zip Code"
+                                role="combobox" aria-expanded="false" aria-owns="locationautocomplete__listbox" aria-autocomplete="both">
+                               <button class="ets-dropdown-button" tabindex="-1"><img src="/src/main/webpack/resources/images/right-arrow-white.svg" alt=""/></button>
+                            </div>
+                        </div>
+                        <p role="alert" class="drop-down-error-label d-none">Please provide your location</p>
+                    </div>
+                </form>
+                <form class="field without-search">
+                    <div class="field-groups">
+                        <label for="select2-distance-dropdown-container" class="form-label form-label-text form-distance-label">Distance</label>
+                        <input type="radio" name="distance" id="mileRadio" value="Mi">
+                        <label for="mileRadio" class="radio-distance-label">mi</label>
+                        <input type="radio" name="distance" id="kmRadio" value="Km">
+                        <label for="kmRadio" class="radio-distance-label">km</label>
+                        <select class="distance-dropdown" id="distance-dropdown" aria-label="Select distance" data-placeholder="Distance">
+                            <option  selected data-distance="25">25</option>
+                                <option data-distance="50">50</option>
+                                <option data-distance="75">75</option>
+                                <option data-distance="100">100</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="field-groups-test">
+            <div class="field-groups-test__center">
+                <form class="field">
+                    <div class="field-groups">
+                        <label for="select2-testCenter-dropdown-container" class="form-label form-label-text">Test Center</label>
+                        <select class="testCenter-dropdown" id="testCenter-dropdown" aria-label="Select Test Center" data-placeholder="Test Center">
+                        </select>
+                        <p role="alert" class="drop-down-info-label">Select a test center and available time in the next 60 days</p>
+                    </div>
+                </form>
+            </div>
+            <!-- <div class="field-groups-block">
+                <label for="state" class="form-label body-text">Test Center</label>
+                <div class="form-input-wrapper test-center-field">
+                    <i class="dropdown-search-icon"><img src="/src/main/webpack/resources/images/searchIcon_blue.png"/></i>
+                    <input type='' class='form-control' id='state' placeholder='Select Test Center'></input>
+                    <button class="ets-button-right" tabindex='-1'>
+          <img src="/src/main/webpack/resources/images/down-arrow-white.png"/>
+        </button>
+                </div>
+            </div> -->
+
+            <div class="form-check" tabindex="0" role="checkbox" aria-label="Test From Home " id="testFromHomeTooltip" title="In order to provide at-home testing according to your time zone, we need to know your location.">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" tabindex="-1">
+                <label class="form-check-label" for="flexCheckDefault">
+      Test from Home
+    </label>
+    <div id="testFromHomeAnnouncement" aria-live="polite" class="dropdown-hidden"></div>
+            </div>
+        </div>
+        <div class="loader" role="status" aria-busy="false">
+            <div class="loader--container">
+                <img src="/src/main/webpack/resources/images/ets-preloader-sm-1x.gif" alt="ets preloader" />                
+                <label>Loading</label>
+            </div>
+        </div>
+        <span id="loaderLiveRegion" class="hiddenStatus" aria-live="polite"></span>
+        <span id="dropdownLiveRegion" class="dropdownHiddenStatus" aria-live="polite"></span>
+        <!---- HTML for Schedule Calendar-->
+        <div class="calendar scheduleTool">
+            <div id="demo-custom-event-popover" data-test-announcement-testfromhome="test from home option is available, you can enable the option" data-test-announcement-testcenter="test center option is available, you can select the now" data-test-announcement-distance="distance option is available, you can select the now" data-test-announcement-location="location option is available, you can select the now" data-test-from-home-label="Test From Home" data-banner-text="If you take the Praxis {Test} on {TestDate}, your score report will be available in your Praxis account after 5 p.m. ET on {ScoreReportDate}." data-score-report-path="/src/main/webpack/components/json/scorereportcalendar.json"
+                data-test-from-home-description="Test from home requires specific equipment and environment requirements." data-schedule-button-text="schedule" data-schedule-button-url="" data-test-from-home-requirement-text="View Test from Home Requirements"
+                data-test-from-home-requirement-url="" data-address-label="Address" data-calendar-dialog-description="Event dialog is open, press the tab key to access the dialog and ESC key will close the dialog." data-calendar-focus-label="Use the tab key to access events and keyboard arrows to navigate in between the date cells of the calendar" data-available-time-label="Available Times" data-seats-open-label="Seats Open" data-get-direction-label="Get the Test Center direction, Opens in a new window tab" data-get-direction-text="Get Directions" data-error-image-path="/src/main/webpack/resources/images/error-exclamation.svg"
+                data-address-image-path="/src/main/webpack/resources/images/pin.svg" data-available-time-image-path="/src/main/webpack/resources/images/calendar-clock.svg" data-schedule-url="https://v2-tst.ereg.ets.org/ereg/seat/search" data-loader-image-path="/src/main/webpack/resources/images/ets-preloader-sm-1x.gif"
+                data-disclaimer-text="Please make a note of your preferred test date, time and location before proceeding." data-minSchDate="09/22/2022" data-maxSchDate="09/22/2023" data-only-remote-test="false" data-days="180" class="schedule-calendar-component--calendar"
+                style="height:100%"></div> 
+            <div class="alert-popup schedule-alert-popup alert-error-info d-none">
+                <div class="action-warn-message">
+                    <button class="close-alert alert-error-close" aria-label="Close Message">
+                        <img  src="/src/main/webpack/resources/images/close-black.svg" alt="closingactionmesaage">
+                    </button>
+                    <div class="warn-text-message">
+                        <p><b>System Unavailable</b></p>
+                        <p>The system is temporarily unavailable. Please try again later.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="alert-popup schedule-alert-popup alert-no-results d-none">
+                <div class="action-alert-message">
+                    <button class="close-alert alert-no-result-close" aria-label="Close Message">
+                        <img  src="/src/main/webpack/resources/images/close-black.svg" alt="closingactionmesaage">
+                    </button>
+                    <div class="alert-text-message">
+                        <p><b>We were unable to find any results that match your search</b></p>
+                        <p>Consider refining your search criteria to improve results. Thank you.</p>
+                        <a href="#" class="alert-change-the-area-date">Change the area and date range</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex d-md-none schedule-calendar-component--legends">
+            <div>
+                <span><span class="schedule-calendar-component--legends--test-center">TC</span> Test Center</span>
+            </div>
+            <div>
+                <span><span class="schedule-calendar-component--legends--test-from-home">TFH</span> Test from Home</span>
+            </div>
+            <div>
+                <span><span class="schedule-calendar-component--legends--both">B</span> Both</span>
+            </div>
+        </div>
+    </div>
+</div>

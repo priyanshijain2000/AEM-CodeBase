@@ -1,0 +1,37 @@
+.scrollToTopBtn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 48px;
+  width: 48px;
+  outline: transparent;
+  padding: 0;
+  /* place it at the bottom right corner */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+  /* hide with opacity */
+  opacity: 0;
+  /* also add a translate effect */
+
+  /* and a transition */
+  transition: all 0.5s ease;
+  height: 60px;
+  width: 60px;
+  @include viewport(only-desktop) {
+    right: 90px;
+  }
+}
+
+.showBtn {
+  opacity: 1;
+
+}
+
+// .scrollToTopBtn:focus-visible {
+//   outline: none;
+// }

@@ -1,0 +1,24 @@
+{
+	"videoList": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "padaikkalam@ets.org",
+		"closeButtonAriaLabel": "close",
+		"description": "<p> </p>\r\n<p>Last year was a year of tremendous challenges that forced the world of education to continually pivot and adapt. ETS’s mission – to advance quality and equity in education by providing fair and valid assessments, research and related services – has never been more critical.</p>\r\n",
+		"jcr:lastModifiedBy": "admin",
+		"newTab": "true",
+		"altText": "video",
+		"videoAriaLabel": "video list",
+		"jcr:created": "Fri May 20 2022 10:54:51 GMT+0000",
+		"url": "testurl",
+		"link": "/content/ets-org/language-master/en/home/demo/praxis_transcript/gre_transcript",
+		"text": "View Transcript",
+		"videoid": "test_029",
+		"jcr:lastModified": "Fri Sep 15 2023 08:02:53 GMT-0400",
+		"sling:resourceType": "ets/components/videotext",
+		"thumbnail": "/content/dam/ets-org/general/image-114.png",
+		"videoPath": "/content/dam/ets-org/sprintdemo/videos/1. What is AEM.mp4",
+		"videoType": "DamVideo",
+		"modalAriaLabel": "modal",
+		"textIsRich": "true"
+	}
+}

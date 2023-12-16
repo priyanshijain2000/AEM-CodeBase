@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Contact table"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <title
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Title and Label"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <title
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Title"
+                                                name="./title"/>
+                                            <fetchTitle
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                name="./fetchTitle"
+                                                text="Fetch title automatically"
+                                                uncheckedValue="{Boolean}false"
+                                                value="{Boolean}true"/>
+                                            <subtitle
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Subtitle"
+                                                name="./subtitle"/>
+                                            <note
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                fieldLabel="Note"
+                                                name="./note"
+                                                removeSingleParagraphContainer="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true">
+                                                <rte
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/include"
+                                                    path="/apps/ets/commons/rte-plugins"/>
+                                            </note>
+                                            <center
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Center"
+                                                name="./center"/>
+                                            <tddAccess
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="TDD Access"
+                                                name="./tddAccess"/>
+                                            <clo
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="CLO"
+                                                name="./clo"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </title>
+                    <contact
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Phone and e-mail"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                        	<email
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Email"
+                                                name="./email"/>
+                                            <emailNote
+                                                jcr:primaryType="nt:unstructured"
+                                                fieldLabel="Email notes"
+                                                name="./emailNote"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                removeSingleParagraphContainer="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true">
+                                                <rte
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/include"
+                                                    path="/apps/ets/commons/rte-plugins"/>
+                                            </emailNote>
+                                            <phone
+                                                jcr:primaryType="nt:unstructured"
+                                                fieldLabel="Phone"
+                                                name="./phone"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                removeSingleParagraphContainer="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true">
+                                                <rte
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/include"
+                                                    path="/apps/ets/commons/rte-plugins"/>
+                                            </phone>
+                                            <tollFreePhone
+                                                jcr:primaryType="nt:unstructured"
+                                                fieldLabel="Toll-free Phone"
+                                                name="./tollFreePhone"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                removeSingleParagraphContainer="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true">
+                                                <rte
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/include"
+                                                    path="/apps/ets/commons/rte-plugins"/>
+                                            </tollFreePhone>
+                                            <candidateCares
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Candidate Cares"
+                                                name="./candidateCares"/>
+                                            <tty
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="TTY"
+                                                name="./tty"/>
+                                            <fax
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Fax"
+                                                name="./fax"/>
+                                            <bureauOfCredentialing
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Bureau of Credentialing"
+                                                name="./bureauOfCredentialing"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </contact>
+                    <address
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Address Details"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <physicalAddress
+                                                jcr:primaryType="nt:unstructured"
+                                                fieldLabel="Physical Address"
+                                                name="./physicalAddress"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                removeSingleParagraphContainer="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true">
+                                                <rte
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/include"
+                                                    path="/apps/ets/commons/rte-plugins"/>
+                                            </physicalAddress>
+                                            <address
+                                                jcr:primaryType="nt:unstructured"
+                                                fieldLabel="Address"
+                                                name="./address"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                removeSingleParagraphContainer="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true">
+                                                <rte
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/include"
+                                                    path="/apps/ets/commons/rte-plugins"/>
+                                            </address>
+                                            <mail
+                                                jcr:primaryType="nt:unstructured"
+                                                fieldLabel="Mail"
+                                                name="./mail"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                removeSingleParagraphContainer="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true">
+                                                <rte
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/include"
+                                                    path="/apps/ets/commons/rte-plugins"/>
+                                            </mail>
+                                            <nationalOffice
+                                                jcr:primaryType="nt:unstructured"
+                                                fieldLabel="National Office"
+                                                name="./nationalOffice"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                removeSingleParagraphContainer="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true">
+                                                <rte
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/include"
+                                                    path="/apps/ets/commons/rte-plugins"/>
+                                            </nationalOffice>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </address>
+                    <link
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Links"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <websiteURL
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Website URL"
+                                                name="./websiteURL"/>
+                                            <website
+                                                jcr:primaryType="nt:unstructured"
+                                                fieldLabel="Website Title"
+                                                name="./websiteTitle"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                removeSingleParagraphContainer="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true">
+                                                <rte
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/include"
+                                                    path="/apps/ets/commons/rte-plugins"/>
+                                            </website>
+                                            <department
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Department"
+                                                name="./department"/>
+                                            <departmentURL
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Department URL"
+                                                name="./departmentURL"/>
+                                         </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </link>
+                    <hour
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Hours"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                        	<hours
+                                                jcr:primaryType="nt:unstructured"
+                                                fieldLabel="Hours"
+                                                name="./hours"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                removeSingleParagraphContainer="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true">
+                                                <rte
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/include"
+                                                    path="/apps/ets/commons/rte-plugins"/>
+                                            </hours>
+                                            <officeHours
+                                                jcr:primaryType="nt:unstructured"
+                                                fieldLabel="Office Hours"
+                                                name="./officeHours"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                removeSingleParagraphContainer="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true">
+                                                <rte
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/include"
+                                                    path="/apps/ets/commons/rte-plugins"/>
+                                            </officeHours>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </hour>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

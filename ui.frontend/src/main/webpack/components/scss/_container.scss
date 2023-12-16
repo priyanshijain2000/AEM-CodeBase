@@ -1,0 +1,1153 @@
+/*v2*/
+.cmp-page__skiptomaincontent{
+    z-index: 2;
+    .visually-hidden-focusable{
+        background-color: $color-white;
+        color: $color-ETS-midnight;
+    }
+}
+.cmp-container--default, .header-top, .header-container, .footertop, .footercopyrights .ComponentContent {
+        max-width: 1840px;
+        width: 100%;
+        margin: 0 auto !important;
+
+        @include viewport(only-mobile) {
+            width: 90% !important;;
+        }
+        @include viewport(tablet-portrait) {
+            width: 92% !important;;
+        }
+        @include viewport(tablet-landscape) {
+            width: 90% !important;;
+        }
+        @include viewport(desktop-small) {
+            width: 90% !important;;
+        }
+        @include viewport(desktop-large) {
+            width: 92% !important;;
+        }    
+    }
+.cmp-container--default {
+    float: none !important;
+    margin: 0 auto;
+    clear: both !important;
+}
+.cmp-container--body  {
+        max-width: 1280px;
+        width: 100%;
+        float: none !important;
+        margin: 0 auto;
+        clear: both !important;
+        position: relative;
+        @include viewport(only-mobile) {
+            width: 90% !important;
+            &.mobile-no-margin {
+                width: 100%!important;
+                padding: 0;
+                > img{
+                    padding: 0;
+                }
+                .mobile-margin{
+                    width: 90% !important;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                    padding: 0;
+                }
+            }
+        }
+        @include viewport(tablet-portrait) {
+            width: 92% !important;
+            &.mobile-no-margin {
+                width: 100%!important;
+                padding: 0;
+                > img{
+                    padding: 0;
+                }
+                .mobile-margin{
+                    width: 92% !important;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                    padding: 0;
+                }
+            }
+        }
+        @include viewport(tablet-landscape) {
+            width: 90%!important;
+        }
+        @include viewport(desktop-small) {
+            width: 90% !important;
+        }
+}
+.cmp-container--body-small  {
+    max-width: 1065px;
+    width: 100%;
+    margin: 0 auto;
+    float: none !important;
+    clear: both !important;
+    @include viewport(only-mobile) {
+        width: 90% !important;
+        &.mobile-no-margin {
+            width: 100%!important;
+            padding: 0;
+            > img{
+                padding: 0;
+            }
+            .mobile-margin{
+                width: 90% !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                padding: 0;
+            }
+        }
+    }
+    @include viewport(tablet-portrait) {
+        width: 92% !important;
+        &.mobile-no-margin {
+            width: 100%!important;
+            padding: 0;
+            > img{
+                padding: 0;
+            }
+            .mobile-margin{
+                width: 92% !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                padding: 0;
+            }
+        }
+    }
+}
+/*Margins and Padding*/
+.cmp-container--margin-top-xs {
+        margin-top: 1.5%;
+        @include viewport(only-mobile) {
+            margin-top: 4.5%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-top: 2.5%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-top: 2%;
+        }
+        @include viewport(desktop-small) {
+            margin-top: 1.5%;
+        }
+        @include viewport(desktop-large) {
+            margin-top: 1.5%;
+        }   
+}
+.cmp-container--margin-top-sm {
+        margin-top: 2%;
+        @include viewport(only-mobile) {
+            margin-top: 5.5%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-top: 4%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-top: 3%;
+        }
+        @include viewport(desktop-small) {
+            margin-top: 2.5%;
+        }
+        @include viewport(desktop-large) {
+            margin-top: 2%;
+        }   
+}
+.cmp-container--margin-top-med {
+        margin-top: 2.5%;
+        @include viewport(only-mobile) {
+            margin-top: 6%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-top: 5%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-top: 4%;
+        }
+        @include viewport(desktop-small) {
+            margin-top: 3%;
+        }
+        @include viewport(desktop-large) {
+            margin-top: 2.5%;
+        }  
+}
+.cmp-container--margin-top-lg {
+        margin-top: 3.5%;
+        @include viewport(only-mobile) {
+            margin-top: 12%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-top: 9%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-top: 7%;
+        }
+        @include viewport(desktop-small) {
+            margin-top: 5%;
+        }
+        @include viewport(desktop-large) {
+            margin-top: 3.5%;
+        }  
+}
+.cmp-container--margin-top-xl {
+        margin-top: 5.5%;
+        @include viewport(only-mobile) {
+            margin-top: 13%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-top: 9.5%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-top: 8.5%;
+        }
+        @include viewport(desktop-small) {
+            margin-top: 5.5%;
+        }
+        @include viewport(desktop-large) {
+            margin-top: 5.5%;
+        }  
+}
+.cmp-container--margin-bottom-xs {
+        margin-bottom: 1.5%;
+        @include viewport(only-mobile) {
+            margin-bottom: 4.5%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-bottom: 2.5%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-bottom: 2%;
+        }
+        @include viewport(desktop-small) {
+            margin-bottom: 1.5%;
+        }
+        @include viewport(desktop-large) {
+            margin-bottom: 1.5%;
+        }   
+}
+.cmp-container--margin-bottom-sm {
+        margin-bottom: 2%;
+        @include viewport(only-mobile) {
+            margin-bottom: 5.5%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-bottom: 4%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-bottom: 3%;
+        }
+        @include viewport(desktop-small) {
+            margin-bottom: 2.5%;
+        }
+        @include viewport(desktop-large) {
+            margin-bottom: 2%;
+        }  
+}
+.cmp-container--margin-bottom-med {
+        margin-bottom: 2.5%;
+        @include viewport(only-mobile) {
+            margin-bottom: 6%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-bottom: 5%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-bottom: 4%;
+        }
+        @include viewport(desktop-small) {
+            margin-bottom: 3%;
+        }
+        @include viewport(desktop-large) {
+            margin-bottom: 2.5%;
+        }  
+}
+.cmp-container--margin-bottom-lg {
+        margin-bottom: 3.5%;
+        @include viewport(only-mobile) {
+            margin-bottom: 12%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-bottom: 9%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-bottom: 7%;
+        }
+        @include viewport(desktop-small) {
+            margin-bottom: 5%;
+        }
+        @include viewport(desktop-large) {
+            margin-bottom: 3.5%;
+        }  
+}
+.cmp-container--margin-bottom-xl {
+        margin-bottom: 5.5%;
+        @include viewport(only-mobile) {
+            margin-bottom: 13%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-bottom: 9.5%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-bottom: 8.5%;
+        }
+        @include viewport(desktop-small) {
+            margin-bottom: 5.5%;
+        }
+        @include viewport(desktop-large) {
+            margin-bottom: 5.5%;
+        }  
+}
+.cmp-container--margin-left-xs {
+        margin-left: 1.5%;
+        @include viewport(only-mobile) {
+            margin-left: 4.5%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-left: 2.5%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-left: 2%;
+        }
+        @include viewport(desktop-small) {
+            margin-left: 1.5%;
+        }
+        @include viewport(desktop-large) {
+            margin-left: 1.5%;
+        }  
+}
+.cmp-container--margin-left-sm {
+        margin-top: 2%;
+        @include viewport(only-mobile) {
+            margin-left: 5.5%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-left: 4%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-left: 3%;
+        }
+        @include viewport(desktop-small) {
+            margin-left: 2.5%;
+        }
+        @include viewport(desktop-large) {
+            margin-left: 2%;
+        }  
+}
+.cmp-container--margin-left-med {
+        margin-left: 2.5%;
+        @include viewport(only-mobile) {
+            margin-left: 6%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-left: 5%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-left: 4%;
+        }
+        @include viewport(desktop-small) {
+            margin-left: 3%;
+        }
+        @include viewport(desktop-large) {
+            margin-left: 2.5%;
+        }  
+}
+.cmp-container--margin-left-lg {
+        margin-left: 3.5%;
+        @include viewport(only-mobile) {
+            margin-left: 12%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-left: 9%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-left: 7%;
+        }
+        @include viewport(desktop-small) {
+            margin-left: 5%;
+        }
+        @include viewport(desktop-large) {
+            margin-left: 3.5%;
+        }  
+}
+.cmp-container--margin-left-xl {
+        margin-left: 5.5%;
+        @include viewport(only-mobile) {
+            margin-left: 13%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-left: 9.5%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-left: 8.5%;
+        }
+        @include viewport(desktop-small) {
+            margin-left: 5.5%;
+        }
+        @include viewport(desktop-large) {
+            margin-left: 5.5%;
+        }  
+}
+.cmp-container--margin-right-xs {
+        margin-right: 1.5%;
+        @include viewport(only-mobile) {
+            margin-right: 4.5%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-right: 2.5%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-right: 2%;
+        }
+        @include viewport(desktop-small) {
+            margin-right: 1.5%;
+        }
+        @include viewport(desktop-large) {
+            margin-right: 1.5%;
+        }   
+}
+.cmp-container--margin-right-sm {
+        margin-right: 2%;
+        @include viewport(only-mobile) {
+            margin-right: 5.5%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-right: 4%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-right: 3%;
+        }
+        @include viewport(desktop-small) {
+            margin-right: 2.5%;
+        }
+        @include viewport(desktop-large) {
+            margin-right: 2%;
+        }  
+}
+.cmp-container--margin-right-med {
+        margin-right: 2.5%;
+        @include viewport(only-mobile) {
+            margin-right: 6%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-right: 5%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-right: 4%;
+        }
+        @include viewport(desktop-small) {
+            margin-right: 3%;
+        }
+        @include viewport(desktop-large) {
+            margin-right: 2.5%;
+        }    
+}
+.cmp-container--margin-right-lg {
+        margin-right: 3.5%;
+        @include viewport(only-mobile) {
+            margin-right: 12%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-right: 9%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-right: 7%;
+        }
+        @include viewport(desktop-small) {
+            margin-right: 5%;
+        }
+        @include viewport(desktop-large) {
+            margin-right: 3.5%;
+        }  
+}
+.cmp-container--margin-right-xl {
+        margin-right: 5.5%;
+        @include viewport(only-mobile) {
+            margin-right: 13%;
+        }
+        @include viewport(tablet-portrait) {
+            margin-right: 9.5%;
+        }
+        @include viewport(tablet-landscape) {
+            margin-right: 8.5%;
+        }
+        @include viewport(desktop-small) {
+            margin-right: 5.5%;
+        }
+        @include viewport(desktop-large) {
+            margin-right: 5.5%;
+        }   
+}
+.cmp-container--padding-top-xs {
+    & > .cmp-container {
+        padding-top: 1.5%;
+        @include viewport(only-mobile) {
+            padding-top: 4.5%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-top: 2.5%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-top: 2%;
+        }
+        @include viewport(desktop-small) {
+            padding-top: 1.5%;
+        }
+        @include viewport(desktop-large) {
+            padding-top: 1.5%;
+        } 
+    }
+}
+.cmp-container--padding-top-sm {
+    & > .cmp-container {
+        padding-top: 2%;
+        @include viewport(only-mobile) {
+            padding-top: 5.5%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-top: 4%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-top: 3%;
+        }
+        @include viewport(desktop-small) {
+            padding-top: 2.5%;
+        }
+        @include viewport(desktop-large) {
+            padding-top: 2%;
+        } 
+    }
+}
+.cmp-container--padding-top-med {
+    & > .cmp-container {
+        padding-top: 2.5%;
+        @include viewport(only-mobile) {
+            padding-top: 6%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-top: 5%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-top: 4%;
+        }
+        @include viewport(desktop-small) {
+            padding-top: 3%;
+        }
+        @include viewport(desktop-large) {
+            padding-top: 2.5%;
+        } 
+    } 
+}
+.cmp-container--padding-top-lg {
+    & > .cmp-container {
+        padding-top: 3.5%;
+        @include viewport(only-mobile) {
+            padding-top: 12%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-top: 9%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-top: 7%;
+        }
+        @include viewport(desktop-small) {
+            padding-top: 5%;
+        }
+        @include viewport(desktop-large) {
+            padding-top: 3.5%;
+        }
+    }  
+}
+.cmp-container--padding-top-xl {
+    & > .cmp-container {
+        padding-top: 5.5%;
+        @include viewport(only-mobile) {
+            padding-top: 13%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-top: 9.5%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-top: 8.5%;
+        }
+        @include viewport(desktop-small) {
+            padding-top: 5.5%;
+        }
+        @include viewport(desktop-large) {
+            padding-top: 5.5%;
+        }  
+    }
+}
+.cmp-container--padding-bottom-xs {
+    & > .cmp-container {
+        padding-bottom: 1.5%;
+        @include viewport(only-mobile) {
+            padding-bottom: 4.5%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-bottom: 2.5%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-bottom: 2%;
+        }
+        @include viewport(desktop-small) {
+            padding-bottom: 1.5%;
+        }
+        @include viewport(desktop-large) {
+            padding-bottom: 1.5%;
+        }  
+    }
+}
+.cmp-container--padding-bottom-sm {
+    & > .cmp-container {
+        padding-bottom: 2%;
+        @include viewport(only-mobile) {
+            padding-bottom: 5.5%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-bottom: 4%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-bottom: 3%;
+        }
+        @include viewport(desktop-small) {
+            padding-bottom: 2.5%;
+        }
+        @include viewport(desktop-large) {
+            padding-bottom: 2%;
+        } 
+    } 
+}
+.cmp-container--padding-bottom-med {
+    & > .cmp-container {
+        padding-bottom: 2.5%;
+        @include viewport(only-mobile) {
+            padding-bottom: 6%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-bottom: 5%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-bottom: 4%;
+        }
+        @include viewport(desktop-small) {
+            padding-bottom: 3%;
+        }
+        @include viewport(desktop-large) {
+            padding-bottom: 2.5%;
+        }
+    }  
+}
+.cmp-container--padding-bottom-lg {
+    & > .cmp-container {
+        padding-bottom: 3.5%;
+        @include viewport(only-mobile) {
+            padding-bottom: 12%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-bottom: 9%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-bottom: 7%;
+        }
+        @include viewport(desktop-small) {
+            padding-bottom: 5%;
+        }
+        @include viewport(desktop-large) {
+            padding-bottom: 3.5%;
+        }
+    }  
+}
+.cmp-container--padding-bottom-xl {
+    & > .cmp-container {
+        padding-bottom: 5.5%;
+        @include viewport(only-mobile) {
+            padding-bottom: 13%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-bottom: 9.5%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-bottom: 8.5%;
+        }
+        @include viewport(desktop-small) {
+            padding-bottom: 5.5%;
+        }
+        @include viewport(desktop-large) {
+            padding-bottom: 5.5%;
+        }  
+    }
+}
+.cmp-container--padding-left-xs {
+    & > .cmp-container {
+        padding-left: 1.5%;
+        @include viewport(only-mobile) {
+            padding-left: 4.5%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-left: 2.5%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-left: 2%;
+        }
+        @include viewport(desktop-small) {
+            padding-left: 1.5%;
+        }
+        @include viewport(desktop-large) {
+            padding-left: 1.5%;
+        } 
+    } 
+}
+.cmp-container--padding-left-sm {
+    & > .cmp-container {
+        padding-left: 2%;
+        @include viewport(only-mobile) {
+            padding-left: 5.5%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-left: 4%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-left: 3%;
+        }
+        @include viewport(desktop-small) {
+            padding-left: 2.5%;
+        }
+        @include viewport(desktop-large) {
+            padding-left: 2%;
+        } 
+    } 
+}
+.cmp-container--padding-left-med {
+    & > .cmp-container {
+        padding-left: 2.5%;
+        @include viewport(only-mobile) {
+            padding-left: 6%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-left: 5%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-left: 4%;
+        }
+        @include viewport(desktop-small) {
+            padding-left: 3%;
+        }
+        @include viewport(desktop-large) {
+            padding-left: 2.5%;
+        }  
+    }
+}
+.cmp-container--padding-left-lg {
+    & > .cmp-container {
+        padding-left: 3.5%;
+        @include viewport(only-mobile) {
+            padding-left: 12%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-left: 9%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-left: 7%;
+        }
+        @include viewport(desktop-small) {
+            padding-left: 5%;
+        }
+        @include viewport(desktop-large) {
+            padding-left: 3.5%;
+        }
+    }  
+}
+.cmp-container--padding-left-xl {
+    & > .cmp-container {
+        padding-left: 5.5%;
+        @include viewport(only-mobile) {
+            padding-left: 13%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-left: 9.5%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-left: 8.5%;
+        }
+        @include viewport(desktop-small) {
+            padding-left: 5.5%;
+        }
+        @include viewport(desktop-large) {
+            padding-left: 5.5%;
+        }  
+    }
+}
+.cmp-container--padding-right-xs {
+    & > .cmp-container {
+        padding-right: 1.5%;
+        @include viewport(only-mobile) {
+            padding-right: 4.5%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-right: 2.5%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-right: 2%;
+        }
+        @include viewport(desktop-small) {
+            padding-right: 1.5%;
+        }
+        @include viewport(desktop-large) {
+            padding-right: 1.5%;
+        }
+    }  
+}
+.cmp-container--padding-right-sm {
+    & > .cmp-container {
+        padding-right: 2%;
+        @include viewport(only-mobile) {
+            padding-right: 5.5%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-right: 4%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-right: 3%;
+        }
+        @include viewport(desktop-small) {
+            padding-right: 2.5%;
+        }
+        @include viewport(desktop-large) {
+            padding-right: 2%;
+        }
+    }  
+}
+.cmp-container--padding-right-med {
+    & > .cmp-container {
+        padding-right: 2.5%;
+        @include viewport(only-mobile) {
+            padding-right: 6%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-right: 5%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-right: 4%;
+        }
+        @include viewport(desktop-small) {
+            padding-right: 3%;
+        }
+        @include viewport(desktop-large) {
+            padding-right: 2.5%;
+        } 
+    } 
+}
+.cmp-container--padding-right-lg {
+    & > .cmp-container {
+        padding-right: 3.5%;
+        @include viewport(only-mobile) {
+            padding-right: 12%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-right: 9%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-right: 7%;
+        }
+        @include viewport(desktop-small) {
+            padding-right: 5%;
+        }
+        @include viewport(desktop-large) {
+            padding-right: 3.5%;
+        }  
+    } 
+}
+.cmp-container--padding-right-xl {
+    & > .cmp-container {
+        padding-right: 5.5%;
+        @include viewport(only-mobile) {
+            padding-right: 13%;
+        }
+        @include viewport(tablet-portrait) {
+            padding-right: 9.5%;
+        }
+        @include viewport(tablet-landscape) {
+            padding-right: 8.5%;
+        }
+        @include viewport(desktop-small) {
+            padding-right: 5.5%;
+        }
+        @include viewport(desktop-large) {
+            padding-right: 5.5%;
+        }  
+    }
+}
+.cmp-container--margin-top-mobilenone {
+    @include viewport(only-mobile) {
+        margin-top: 0;
+    }
+}
+.cmp-container--margin-bottom-mobilenone {
+        @include viewport(only-mobile) {
+            margin-bottom: 0;
+        }
+}
+.cmp-container--margin-right-mobilenone {
+        @include viewport(only-mobile) {
+            margin-right: 0;
+        }
+}
+.cmp-container--roundededge {
+    & > .cmp-container {
+        border-radius: 1rem;
+    }
+}
+/*To Be Used on Full Screen*/
+.cmp-container--opaque {
+    & > .cmp-container {
+    background-color: white;
+        @include viewport(only-mobile) {
+            border-radius: 0;
+        }
+    }
+    @include viewport(only-mobile) {
+        width: 100% !important
+    }
+}
+/*To be used on full screen*/
+.cmp-container--padding-superlarge {
+    & > .cmp-container {
+        padding: 8%;
+        @include viewport(only-mobile) {
+            padding: 5%;
+        }
+    }
+}
+/*For Cards Only*/
+.cmp-container--card-1-seperator {
+    .columnone {
+        margin-bottom: 1.875rem;
+            &:after {
+                content: "";
+                border-bottom: 1px solid #d7d7d7;
+                width: 93%;
+                display: block;
+                padding-bottom: 1.875rem;
+            }
+
+            
+    }
+}
+.cmp-container--card-2-seperator {
+    .columnone, .columntwo {
+        margin-bottom: 1.875rem;
+        &:after {
+            content: "";
+            border-bottom: 1px solid #d7d7d7;
+            width: 93%;
+            display: block;
+            padding-bottom: 1.875rem;
+        }
+    }
+}
+.cmp-container--card-3-seperator {
+    margin-bottom: 1.875rem;
+    .columnone, .columntwo, .columnthree {
+        &:after {
+            content: "";
+            border-bottom: 1px solid #d7d7d7;
+            width: 93%;
+            display: block;
+            padding-bottom: 1.875rem;
+        }
+    }
+}
+.cmp-container--card-1 {
+     .cmp-container:first-of-type {
+            background-color: inherit;
+            row-gap: 1.25rem;
+            -webkit-column-gap: 1.25rem;
+            -moz-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: row;
+            flex-flow: row;
+            width: 100%;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            margin: 2.5rem 0 4.375rem;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .columnone, .columntwo, .columnthree, .columnfour {
+            padding: 3.125rem;
+            border-radius: 1rem;
+            border: none;
+            @include viewport(tablet-desktop) {
+                flex: 1 32%;
+                max-width: 32%;
+            }
+            @media (min-width: 768px) and (max-width: 1200px) {
+                max-width: 50%;
+            }
+            @media (min-width: 1201px) {
+                max-width: 415px;
+            }
+            @include for-size(only-mobile) {
+                padding: 1.875rem 1.625rem;
+            }
+        /*Needed to overwrite inner container*/
+        .cmp-container {
+            display: inline;
+            margin: auto;
+        }
+    }
+    &.cmp-container--card-opaque .columnone, .cmp-infocards .columnone {
+        background-color: white;
+    }
+    &.cmp-container--card-translucent .columnone {
+        background: linear-gradient(214.25deg, rgba(242, 242, 242, 0.6) -60.4%, rgba(242, 242, 242, 0.2) 130.64%);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-sizing: border-box;
+        backdrop-filter: blur(40px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 16px;
+    }
+    &.cmp-container--card-transparent .columnone {
+        background-color: transparent;
+    }
+    &.cmp-container--card-green .columnone {
+        background-color: #2f7e61;
+    }
+    &.cmp-container--card-blue .columnone {
+        background-color: #3072bc;
+    }
+}
+.cmp-container--card-2 {
+    @extend .cmp-container--card-1;
+    &.cmp-container--card-opaque .columnone, .cmp-infocards .columnone,
+    &.cmp-container--card-opaque .columntwo, .cmp-infocards .columntwo  {
+        background-color: white;
+    }
+    &.cmp-container--card-translucent .columnone,
+    &.cmp-container--card-translucent .columntwo  {
+        background: linear-gradient(214.25deg, rgba(242, 242, 242, 0.6) -60.4%, rgba(242, 242, 242, 0.2) 130.64%);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-sizing: border-box;
+        backdrop-filter: blur(40px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 16px;
+    }
+    &.cmp-container--card-transparent .columnone,
+    &.cmp-container--card-transparent .columntwo  {
+        background-color: transparent;
+    }
+    &.cmp-container--card-green .columnone,
+    &.cmp-container--card-green .columntwo  {
+        background-color: #2f7e61;
+    }
+    &.cmp-container--card-blue .columnone,
+    &.cmp-container--card-blue .columntwo  {
+        background-color: #3072bc;
+    }
+}
+.cmp-container--card-3 {
+    @extend .cmp-container--card-1;
+    &.cmp-container--card-opaque .columnone, .cmp-infocards .columnone,
+    &.cmp-container--card-opaque .columntwo, .cmp-infocards .columntwo,
+    &.cmp-container--card-opaque .columnthree, .cmp-infocards .columnthree  {
+        background-color: white;
+    }
+    &.cmp-container--card-translucent .columnone,
+    &.cmp-container--card-translucent .columntwo,
+    &.cmp-container--card-translucent .columnthree  {
+        background: linear-gradient(214.25deg, rgba(242, 242, 242, 0.6) -60.4%, rgba(242, 242, 242, 0.2) 130.64%);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-sizing: border-box;
+        backdrop-filter: blur(40px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 16px;
+    }
+    &.cmp-container--card-transparent .columnone,
+    &.cmp-container--card-transparent .columntwo,
+    &.cmp-container--card-transparent .columnthree  {
+        background-color: transparent;
+    }
+    &.cmp-container--card-green .columnone,
+    &.cmp-container--card-green .columntwo,
+    &.cmp-container--card-green .columnthree  {
+        background-color: #2f7e61;
+    }
+    &.cmp-container--card-blue .columnone,
+    &.cmp-container--card-blue .columntwo,
+    &.cmp-container--card-blue .columnthree  {
+        background-color: #3072bc;
+    }
+}
+.cmp-container--card-4 {
+    .cmp-container:first-of-type {
+        background-color: inherit;
+        row-gap: 1.25rem;
+        column-gap: 1.25rem; 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+		&.row {
+				margin: 2.5rem 0 4.375rem;
+			}
+        @include viewport(tablet) {
+            grid-template-columns: repeat(2, 1fr); 
+        }
+        @include viewport(only-desktop) {
+            grid-template-columns: repeat(4, 1fr); 
+        }
+    }
+    .infoCard_Column {
+        padding: 3rem 3rem 3.125rem 3rem;;
+        border-radius: 0.625rem;
+        background-color: #FFF;
+        transition: box-shadow 0.4s;
+        &:hover, &:focus-within {
+            box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.16);
+        }
+        @include for-size(only-mobile) {
+            padding: 1.875rem 1.5rem;
+        }
+    }
+    .cmp-infocards {
+        .cmp-title__text {
+            font-weight: 700 !important;
+        }
+        .ctabutton {
+            .cmp-button {
+                margin-bottom: 0px !important;
+                &__text {
+                    @media only screen and (max-width: 1200px){
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+        .cmp-text {
+            p {
+                font-size: 1rem;
+            }
+        } 
+    }
+}
+
+
+/*Overwrites to V1 Component*/
+.footercopyrights .ComponentContent {
+    margin: 0 auto !important;
+}
+.breadcrumb {
+    display: inline;
+}
+
+.root.container.responsivegrid{
+    .container.responsivegrid.cmp-container--margin-bottom-med.cmp-container--body {
+        max-width:90% !important;
+    }
+}

@@ -1,0 +1,39 @@
+.gridCard {
+    .gridCardlist {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1.5rem;
+        row-gap: 2rem;
+        margin-bottom: 1.5rem;
+        .singleGrid {
+            padding: 1.5em;
+            border-radius: 1rem;
+            background-color: rgba(255, 255, 255, 0.94);
+            box-sizing: border-box;
+            box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.08);
+            font-family: "OpenSans-Regular", "Open Sans", sans-serif;
+            h3 {
+                font-weight: 700;
+                margin-bottom: 1.5rem;
+                line-height: 1.5;
+            }
+            p {
+                font-size: 1rem;
+                line-height: 1.5;
+                &:not(:last-child) {
+                    padding-bottom: 1.6rem;
+                }
+            }
+        }
+    }
+    @include viewport(mobile-tab-portrait) {
+        .gridCardlist {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @include viewport(only-mobile) {
+        .gridCardlist {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}

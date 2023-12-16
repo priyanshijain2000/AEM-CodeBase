@@ -1,0 +1,162 @@
+//v2
+.cmp-teaser {
+    &--videotext {
+        .videoText {
+            column-gap: 20px;
+            .videoText {
+                &__container {
+                    padding: 0;
+					position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img{
+                        &:focus{
+                            outline-offset: 4px;
+                        }
+                    }
+                    input {
+                        padding: 0;
+                    }
+					&__playButton {
+					position: absolute;
+                    pointer-events: none;
+					}
+                }
+                &__content {
+                    .cmp-teaser {
+                        &__content {
+                            .cmp-teaser {
+                                &__title {
+                                    @include fontsize(21px, 28px, $bold, $color-ETS-midnight, inherit);
+                                    margin-bottom: 10px;
+                                }
+                                &__description {
+                                    p {
+                                        @include fontsize(16px, 22px, $normal, $color-font, inherit);
+                                    }
+                                    a {
+                                        font-weight: $normal;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//v1
+
+/* for video container css*/
+
+.videoText {
+    display: flex;
+    row-gap: 1.5rem;
+    flex-direction: column;
+    @include viewport(tablet-desktop) {
+        flex-direction: row;
+        column-gap: 2.5rem;
+    }
+    &__container {
+        padding: 3rem 0 0 0;
+        input {
+            display: block;
+            width: 100%;
+            padding-bottom: 1.25rem;
+            @include viewport(tablet-desktop) {
+                width: auto;
+            }
+        }
+        a {
+            // color: $color-ETS-midnight;
+            font-weight: 600;
+        }
+    }
+}
+
+
+/* for video container css*/
+
+
+/* for modal css*/
+
+.modal-dialog {
+    padding: 5rem 1rem;
+    @include viewport(tablet-desktop) {
+        margin: 0px auto;
+        padding: 2.5rem 3.125rem;
+        max-width: 1000px;
+    }
+    .modal-content {
+        background-color: transparent;
+        border: 0px;
+        .modal-body {
+            position: relative;
+            padding: 0px;
+            .btn-close {
+                position: absolute;
+                opacity: 1;
+                top: -1.5rem;
+                right: -1rem;
+                opacity: 1;
+                transform: translate(0, -100%);
+                color: $color-white;
+                &:focus {
+                    outline: auto;
+                    outline-color: $color-ETS-bodyblack;
+                }
+                @include viewport(tablet-desktop) {
+                    right: -2.5rem;
+                    top: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+.videoText__container > img {
+    cursor: pointer;
+    padding: 3px;
+    @include viewport(only-mobile) {
+        max-width: 100%;
+        height: auto;
+    }
+    &:focus{
+        outline: 4px solid #3072be;
+        outline-offset: 2px;
+    }
+}
+
+/* for modal css*/
+
+#video-element {
+    height: 100%;
+    width: 100%;
+}
+
+.view-transcript {
+    float: right;
+    padding: 2px;
+    color: $ets-link;
+    &:hover,
+    &:focus {
+        color: $color-navy;
+        text-decoration: none;
+        background-color: $ets-link-hover;
+        border: 0;
+        border-radius: 4px;
+    }
+    &:focus {
+        outline: 2px solid $ets-link;
+        border-radius: 4px;
+    }
+    @include viewport(only-mobile) {
+        float: left;
+    }
+    &.white {
+        color: $color-white;
+    }
+}

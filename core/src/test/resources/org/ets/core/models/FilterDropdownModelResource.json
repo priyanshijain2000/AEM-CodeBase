@@ -1,0 +1,15 @@
+{
+	"filter-dropdown": {
+		"jcr:primaryType": "nt:unstructured",
+		"secondaryLabel": "Fellowship Sponsor",
+		"primaryLabel": "Select Institution",
+		"json": "/content/dam/ets-org/s/gre/institutions_and_fellowship_sponsors.json",
+		"dataTemplate": "institutions",
+		"secondaryPlaceholderText": "Fellowship Sponsor",
+		"sectionTitle": "Institutions and Fellowship Sponsor",
+		"sling:resourceType": "ets/components/filterdropdown",
+		"textIsRich": "true",
+		"placeholderText": "Institution Name",
+		"inputAriaLabel": "institutions and Fellowship Sponsor"
+	}
+}

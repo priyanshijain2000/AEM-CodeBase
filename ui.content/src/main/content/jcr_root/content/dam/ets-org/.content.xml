@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="EDUCATIONAL TESTING SERVICES">
+    <corporate/>
+    <general/>
+    <icons/>
+    <logo/>
+    <pdfs/>
+    <rd/>
+    <jcr:content
+        cq:conf="/conf/ets"
+        cq:lastReplicated="{Date}2022-04-05T12:15:08.578Z"
+        cq:lastReplicated_publish="{Date}2022-04-05T12:15:08.578Z"
+        cq:lastReplicatedBy="karthika.pichandi@accenture.com"
+        cq:lastReplicatedBy_publish="karthika.pichandi@accenture.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="EDUCATIONAL TESTING SERVICES">
+        <folderThumbnail/>
+    </jcr:content>
+    <rep:policy/>
+    <demo/>
+    <standards/>
+    <download/>
+    <sprintdemo/>
+    <socials/>
+    <json-files/>
+    <brands/>
+    <researcher/>
+    <ets-content-fragment/>
+    <s/>
+	<robots.txt/>
+</jcr:root>

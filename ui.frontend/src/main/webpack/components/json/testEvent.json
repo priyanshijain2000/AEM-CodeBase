@@ -1,0 +1,167 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T00:00:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T00:30:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T01:30:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T09:00:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T12:30:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T13:00:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T13:30:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T14:00:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T14:30:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T15:00:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T15:30:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T16:00:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T16:30:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T17:00:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T17:30:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T18:00:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T18:30:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T19:00:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T19:30:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T20:00:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T20:30:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T21:00:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        },
+        {
+            "siteCode": "STNRPUSA",
+            "isPrivateAdmin": false,
+            "startTime": "2023-09-30T21:30:00-05:00",
+            "adminID": "EXAMITY",
+            "vendorCode": "EY"
+        }
+    ],
+    "errorMessage": "No results found with search criteria, try again..."
+}

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Benefits tiles"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[ets.disablefields]">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <cards
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Cards"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <infocards
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                composite="{Boolean}true"
+                                                fieldLabel="Card List"
+                                                required="{Boolean}false">
+                                                <field
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                    name="./cards">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <layout
+                                                            jcr:primaryType="nt:unstructured"
+                                                            jcr:title="Expand/Collapse Item"
+                                                            sling:resourceType="granite/ui/components/foundation/layouts/collapsible">
+                                                            <items jcr:primaryType="nt:unstructured">
+                                                                <icon
+                                                                    granite:class="cmp-path-url"
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                                    fieldLabel="Card Icon"
+                                                                    name="./icon"
+                                                                    rootPath="/content/dam/ets-org"
+                                                                    validation="ets-disablefields"/>
+                                                                <alttext
+                                                                    granite:class="cmp-alt-label"
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Textual alternative of the meaning or function of the image, for visually impaired readers."
+                                                                    fieldLabel="Alternative text for accessibility"
+                                                                    name="./altText"/>
+                                                                <description
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                                    fieldLabel="Description"
+                                                                    name="./description"
+                                                                    removeSingleParagraphContainer="{Boolean}true"
+                                                                    useFixedInlineToolbar="{Boolean}true">
+                                                                    <rtePlugins jcr:primaryType="nt:unstructured">
+                                                                        <format
+                                                                            jcr:primaryType="nt:unstructured"
+                                                                            features="*"/>
+                                                                        <subsuperscript
+                                                                            jcr:primaryType="nt:unstructured"
+                                                                            features="*"/>
+                                                                        <misctools
+                                                                            jcr:primaryType="nt:unstructured"
+                                                                            features="*">
+                                                                            <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                                                                <chars jcr:primaryType="nt:unstructured">
+                                                                                    <default_copyright
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        entity="&amp;copy;"
+                                                                                        name="copyright"/>
+                                                                                    <default_euro
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        entity="&amp;euro;"
+                                                                                        name="euro"/>
+                                                                                    <default_registered
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        entity="&amp;reg;"
+                                                                                        name="registered"/>
+                                                                                    <default_trademark
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        entity="&amp;trade;"
+                                                                                        name="trademark"/>
+                                                                                </chars>
+                                                                            </specialCharsConfig>
+                                                                        </misctools>
+                                                                    </rtePlugins>
+                                                                    <uiSettings jcr:primaryType="nt:unstructured">
+                                                                        <cui jcr:primaryType="nt:unstructured">
+                                                                            <inline
+                                                                                jcr:primaryType="nt:unstructured"
+                                                                                toolbar="[format#bold,format#italic,format#underline,subsuperscript#subscript,subsuperscript#superscript,misctools#specialchars]">
+                                                                                <popovers jcr:primaryType="nt:unstructured">
+                                                                                    <justify
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        items="[justify#justifyleft,justify#justifycenter,justify#justifyright,justify#justifyjustify]"
+                                                                                        ref="justify"/>
+                                                                                </popovers>
+                                                                            </inline>
+                                                                            <dialogFullScreen
+                                                                                jcr:primaryType="nt:unstructured"
+                                                                                toolbar="[format#bold,format#italic,format#underline,subsuperscript#subscript,subsuperscript#superscript,misctools#specialchars]">
+                                                                                <popovers jcr:primaryType="nt:unstructured"/>
+                                                                            </dialogFullScreen>
+                                                                        </cui>
+                                                                    </uiSettings>
+                                                                </description>
+                                                            </items>
+                                                        </layout>
+                                                    </items>
+                                                </field>
+                                            </infocards>
+                                            <ctabuttontitle
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="CTA Button Label"
+                                                name="./ctaButtonLabel"/>
+                                            <ctabuttonlink
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="CTA Button Link"
+                                                name="./ctaButtonLink"
+                                                rootPath="/content/ets-org"/>
+											<ctabuttonarialabel
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="CTA Button Aria Label"
+                                                name="./ctaButtonAriaLabel"/>
+                                            <target
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                name="./newTab1"
+                                                text="Link target to new window"
+                                                uncheckedValue="{Boolean}false"
+                                                value="{Boolean}true"/>
+                                            <ctatitle
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="CTA Text Label"
+                                                name="./ctaText1"/>
+                                            <ctalink
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="CTA Text Link"
+                                                name="./ctaLink1"
+                                                rootPath="/content/ets-org"/>
+											<ctalinkarialabel1
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="CTA Link Aria Label 1"
+                                                name="./ctaLinkAriaLabel1"/>
+                                            <target1
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                name="./newTab2"
+                                                text="Link target to new window"
+                                                uncheckedValue="{Boolean}false"
+                                                value="{Boolean}true"/>
+                                            <ctatitle2
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="CTA Text Label"
+                                                name="./ctaText2"/>
+                                            <ctalink2
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="CTA Text Link"
+                                                name="./ctaLink2"
+                                                rootPath="/content/ets-org"/>
+											<ctalinkarialabel2
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="CTA Link Aria Label 2"
+                                                name="./ctaLinkAriaLabel2"/>
+                                            <target2
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                name="./newTab3"
+                                                text="Link target to new window"
+                                                uncheckedValue="{Boolean}false"
+                                                value="{Boolean}true"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </cards>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

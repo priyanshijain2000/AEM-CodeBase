@@ -1,0 +1,97 @@
+#
+# This file contains the rewrite rules, and can be customized.
+#
+# By default, it includes just the rewrite rules. You can
+# add rewrite rules to this file but you should still include
+# the default rewrite rules.
+RewriteRule ^/dispatcher/invalidate.cache$ /dispatcher/invalidate.cache [PT,L]
+
+Include conf.d/rewrites/default_rewrite.rules
+Include conf.d/rewrites/static_resource_rewrite.rules
+Include conf.d/rewrites/direct_path_rewrite.rules
+RewriteRule ^/praxis/?$ https://%{SERVER_NAME}/praxis/site.html [R=301,L]
+RewriteRule ^/gre/?$ https://%{SERVER_NAME}/gre.html [R=301,L]
+RewriteRule ^/toefl/?$ https://%{SERVER_NAME}/toefl.html [R=301,L]
+RewriteRule ^/toeic/?$ https://%{SERVER_NAME}/toeic.html [R=301,L]
+RewriteRule ^/sls/?$ https://%{SERVER_NAME}/sls.html [R=301,L]
+RewriteRule ^/products/?$ https://%{SERVER_NAME}/products.html [R=301,L]
+
+# rewrite for root redirect
+RewriteRule ^/?$ /content/ets-org/language-master/en/home.html [PT,L]
+
+RewriteCond %{REQUEST_URI} !^/apps
+RewriteCond %{REQUEST_URI} !^/bin
+RewriteCond %{REQUEST_URI} !^/content
+RewriteCond %{REQUEST_URI} !^/etc
+RewriteCond %{REQUEST_URI} !^/home
+RewriteCond %{REQUEST_URI} !^/libs
+RewriteCond %{REQUEST_URI} !^/saml_login
+RewriteCond %{REQUEST_URI} !^/system
+RewriteCond %{REQUEST_URI} !^/tmp
+RewriteCond %{REQUEST_URI} !^/var
+RewriteCond %{REQUEST_URI} .*\.(html|jpe?g|png|svg|gif)$
+RewriteRule ^/(.*)$ /content/ets-org/language-master/en/home/$1 [PT,L]
+
+#Shorten the URL
+RewriteRule ^/content/ets-org/language-master/en/home/(.*).html$ https://%{SERVER_NAME}/$1.html [R=301,L]
+RewriteRule ^/content/ets-org/language-master/en/home.html$ https://%{SERVER_NAME}/ [R=301,L]
+	
+Include conf.d/rewrites/custom_rewrite.rules
+Include conf.d/rewrites/gre_rewrite.rules
+Include conf.d/rewrites/praxis_rewrite.rules
+Include conf.d/rewrites/toefl_rewrite.rules
+Include conf.d/rewrites/toeic_rewrite.rules
+Include conf.d/rewrites/ppa_rewrite.rules
+Include conf.d/rewrites/sls_rewrite.rules
+Include conf.d/rewrites/korea_rewrite.rules
+Include conf.d/rewrites/chinese_rewrite.rules
+Include conf.d/rewrites/french_rewrite.rules
+Include conf.d/rewrites/portuguese_rewrite.rules
+Include conf.d/rewrites/german_rewrite.rules
+Include conf.d/rewrites/spanish_rewrite.rules
+Include conf.d/rewrites/japanese_rewrite.rules
+Include conf.d/rewrites/turkish_rewrite.rules
+
+RewriteRule ^/sitemap.xml /content/ets-org/language-master/en/home.sitemap.xml [PT,L]
+RewriteRule ^/robots.txt$ /content/dam/ets-org/robots.txt [PT,L]
+
+RewriteCond %{REQUEST_URI} !^/apps
+RewriteCond %{REQUEST_URI} !^/bin
+RewriteCond %{REQUEST_URI} !^/content
+RewriteCond %{REQUEST_URI} !^/etc
+RewriteCond %{REQUEST_URI} !^/home
+RewriteCond %{REQUEST_URI} !^/libs
+RewriteCond %{REQUEST_URI} !^/saml_login
+RewriteCond %{REQUEST_URI} !^/system
+RewriteCond %{REQUEST_URI} !^/tmp
+RewriteCond %{REQUEST_URI} !^/var
+RewriteCond %{REQUEST_URI} .*\.(jpe?g|png|svg|json|xml|pdf|gif|mov|mp3|mp4|ico|webp|xlsx|xls|pptx|ppt|doc|docx|csv|txt|gif|css|js|zip)$
+RewriteRule ^/(.*)$ /content/dam/ets-org/$1 [PT,L]
+
+RewriteCond %{REQUEST_URI} !^/apps
+RewriteCond %{REQUEST_URI} !^/bin
+RewriteCond %{REQUEST_URI} !^/content
+RewriteCond %{REQUEST_URI} !^/etc
+RewriteCond %{REQUEST_URI} !^/home
+RewriteCond %{REQUEST_URI} !^/libs
+RewriteCond %{REQUEST_URI} !^/saml_login
+RewriteCond %{REQUEST_URI} !^/system
+RewriteCond %{REQUEST_URI} !^/tmp
+RewriteCond %{REQUEST_URI} !^/var
+RewriteCond %{REQUEST_URI} !.*\.(html|css|eot|gif|ico|jpeg|jpg|js|gif|pdf|png|svg|swf|ttf|woff|woff2|xlsx|xls|pptx|ppt|doc|docx|csv|xml|txt|json)$
+#RewriteCond %{REQUEST_URI} ^/(.+)/$
+RewriteRule ^(.*)/$ https://%{SERVER_NAME}/$1.html [R=301,L]
+
+RewriteCond %{REQUEST_URI} !^/apps
+RewriteCond %{REQUEST_URI} !^/bin
+RewriteCond %{REQUEST_URI} !^/content
+RewriteCond %{REQUEST_URI} !^/etc
+RewriteCond %{REQUEST_URI} !^/home
+RewriteCond %{REQUEST_URI} !^/libs
+RewriteCond %{REQUEST_URI} !^/saml_login
+RewriteCond %{REQUEST_URI} !^/system
+RewriteCond %{REQUEST_URI} !^/tmp
+RewriteCond %{REQUEST_URI} !^/var
+RewriteCond %{REQUEST_URI} !.*\.(html|css|eot|gif|ico|jpeg|jpg|js|gif|pdf|png|svg|swf|ttf|woff|woff2|xlsx|xls|pptx|ppt|doc|docx|csv|xml|txt|json)$
+RewriteCond %{REQUEST_URI} ^/(.+)$
+RewriteRule ^ https://%{SERVER_NAME}/%1.html [R=301,L]

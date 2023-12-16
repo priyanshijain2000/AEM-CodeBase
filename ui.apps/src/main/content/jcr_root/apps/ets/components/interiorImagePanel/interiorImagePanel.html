@@ -1,0 +1,14 @@
+<sly data-sly-use.interiorPanel="org.ets.core.models.InteriorImagePanelModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+	 data-sly-call="${templates.placeholder @ isEmpty = !interiorPanel.bgImage ,classAppend='cmp-text'}"></sly>
+<div data-sly-test="${interiorPanel.bgImage}" class="cardBanner">
+	<div class="imgWrap">
+		<figure>
+			<img uk-parallax="y: 0, -50%;end: 40vh + 10%;" src="${interiorPanel.bgImage}" alt="${interiorPanel.altText}"/>
+		</figure>
+	</div>
+	<div class="cardWrap">
+		<h1 data-sly-test="${interiorPanel.title}">${interiorPanel.title}</h1>
+		<p data-sly-test="${interiorPanel.description}">${interiorPanel.description @context='html'}</p>
+	</div>
+</div>

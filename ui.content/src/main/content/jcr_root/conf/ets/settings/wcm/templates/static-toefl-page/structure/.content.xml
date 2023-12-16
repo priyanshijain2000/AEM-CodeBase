@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2023-06-22T18:26:40.960Z"
+        cq:lastModifiedBy="PJAIN003@ets.org"
+        cq:lastReplicated_preview="{Date}2023-04-11T13:04:18.970Z"
+        cq:lastReplicatedBy_preview="saravanan.a.ms@accenture.com"
+        cq:lastReplicationAction_preview="Activate"
+        cq:template="/conf/ets/settings/wcm/templates/static-toefl-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="ets/structure/toefl-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="responsiveGrid">
+            <container_1448755308
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                layout="simple">
+                <container_copy
+                    cq:styleIds="[1687455472143]"
+                    jcr:lastModified="{Date}2023-06-22T06:15:05.448Z"
+                    jcr:lastModifiedBy="PJAIN003@ets.org"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/container"
+                    backgroundColor="#e6e9f0">
+                    <responsivegrid
+                        jcr:lastModified="{Date}2023-06-22T06:12:19.849Z"
+                        jcr:lastModifiedBy="PJAIN003@ets.org"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <image
+                            jcr:lastModified="{Date}2023-06-22T06:15:42.445Z"
+                            jcr:lastModifiedBy="PJAIN003@ets.org"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ets/components/image/v2/image"
+                            fileReference="/content/dam/ets-org/static-page-images/desktop/ETS-TOEFL-iBT-navy-RGB.png"
+                            imageFromPageImage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="8"/>
+                            </cq:responsive>
+                        </image>
+                        <text
+                            jcr:lastModified="{Date}2023-06-22T06:22:37.507Z"
+                            jcr:lastModifiedBy="PJAIN003@ets.org"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ets/components/text/v2/text"
+                            text="&lt;p>&lt;a class=&quot;contactlink&quot; aria-label=&quot;ETS Contact Information&quot; href=&quot;/content/ets-org/language-master/en/home/contact.html&quot;>CONTACT&lt;/a>&lt;/p>&#xd;&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="1"/>
+                            </cq:responsive>
+                        </text>
+                        <ctabutton
+                            cq:styleIds="[1653510050197]"
+                            jcr:lastModified="{Date}2023-06-22T06:16:25.944Z"
+                            jcr:lastModifiedBy="PJAIN003@ets.org"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Login / Register"
+                            sling:resourceType="ets/components/ctabutton/v2/ctabutton"
+                            linkTarget="_self"
+                            linkURL="/content/ets-org/language-master/en/home/login">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </ctabutton>
+                    </responsivegrid>
+                </container_copy>
+            </container_1448755308>
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
+            <container_758522293_
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                layout="simple"
+                roleAttribute="contentinfo">
+                <container_copy_copy
+                    jcr:lastModified="{Date}2022-08-30T12:27:36.302Z"
+                    jcr:lastModifiedBy="mssar95@gmail.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/container"
+                    id="page-footer">
+                    <footernav
+                        jcr:lastModified="{Date}2023-06-21T16:55:50.294Z"
+                        jcr:lastModifiedBy="PJAIN003@ets.org"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ets/components/footernav"
+                        altText="ETS"
+                        logo="/content/dam/ets-org/static-page-images/desktop/ets-logo-blk.png"/>
+                    <footercopyrights
+                        jcr:lastModified="{Date}2023-06-21T07:48:23.588Z"
+                        jcr:lastModifiedBy="PJAIN003@ets.org"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ets/components/footercopyrights"
+                        cookiePlaceholder="Cookie Settings"
+                        copyrightdesc="Copyright © 2023 by ETS. All rights reserved. All trademarks are property of their respective owners."
+                        textIsRich="true">
+                        <copyrightdetails jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                newTab="false"
+                                text="Legal"
+                                textlink="/content/ets-org/language-master/en/home/legal/home"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                newTab="false"
+                                text="Privacy &amp; Security"
+                                textlink="/content/ets-org/language-master/en/home/legal/privacy"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                newTab="false"
+                                text="ETS Trademarks"
+                                textlink="/content/ets-org/language-master/en/home/legal/trademarks/owned"/>
+                        </copyrightdetails>
+                    </footercopyrights>
+                </container_copy_copy>
+            </container_758522293_>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

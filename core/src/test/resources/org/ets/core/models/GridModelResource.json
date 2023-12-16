@@ -1,0 +1,10 @@
+{
+	"grid-component": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"numberOfColumns": "three",
+		"numberOfItems": "4",
+		"sling:resourceType": "ets/components/grid-component",
+		"alignment": "card-align-right"
+	}
+}

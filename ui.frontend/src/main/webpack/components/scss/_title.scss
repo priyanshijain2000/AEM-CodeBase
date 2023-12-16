@@ -1,0 +1,351 @@
+.cmp-title--h1, .cmp-title--heading-1 {
+  .cmp-title {
+    &__text {
+      font-size: 1.5rem; //24px
+      line-height: 1.875rem; //30px
+      font-weight: $semibold;
+      color: $color-ETS-midnight;
+      @include viewport(tablet-desktop) {
+        font-size: 2.75rem; //44px
+        line-height: 3.5rem; //56px
+      }
+    }
+  }
+}
+.cmp-title--h2, .cmp-title--heading-2 {
+  .cmp-title {
+    &__text {
+      font-size: 1.3125rem; //21px
+      line-height: 2rem; //32px
+      font-weight: $light;
+      @include viewport(tablet-desktop) {
+        font-size: 1.625rem; //26px
+        line-height: 2.625rem; //42px
+      }
+    }
+  }
+}
+
+.cmp-title--h3, .cmp-title--heading-3 {
+  .cmp-title {
+    &__text {
+      font-size: 1.5rem; //24px
+      line-height: 1.875rem; //30px
+      font-weight: $bold;
+      @include viewport(tablet-desktop) {
+        font-size: 1.875rem; //30px
+        line-height: 2.625rem; //42px
+      }
+    }
+  }
+}
+
+.cmp-title--h4, .cmp-title--heading-4 {
+  .cmp-title {
+    &__text {
+      font-size: 1.3125rem; //21px
+      line-height: 1.75rem; //28px
+      font-weight: $normal;
+      @include viewport(tablet-desktop) {
+        font-size: 1.625rem; //26px
+        line-height: 2.375rem; //38px
+      }
+    }
+  }
+}
+
+.cmp-title--h5, .cmp-title--heading-5 {
+  .cmp-title {
+    &__text {
+      font-size: 1rem; //16px
+      line-height: 1.3125rem; //21px
+      font-weight: $bolder;
+      a {
+        text-decoration: none;
+      }
+      @include viewport(tablet-desktop) {
+        font-size: 1.3125rem; //21px
+        line-height: 1.75rem; //28px
+      }
+    }
+  }
+}
+.cmp-title--h6, .cmp-title--heading-6 {
+  .cmp-title {
+    &__text {
+      font-size: 0.875rem; //14px
+      line-height: 1.3125rem; //21px
+      font-weight: $bold;
+      letter-spacing: 0.2px;
+    }
+  }
+}
+.cmp-title--black {
+  .cmp-title {
+    &__text {
+      color: $color-font;
+    }
+  }
+}
+.cmp-title--white {
+  .cmp-title {
+    &__text {
+      color: #ffffff;
+    }
+  }
+}
+.cmp-title--blue {
+  .cmp-title {
+    &__text {
+      color: $color-ETS-midnight;
+    }
+  }
+}
+.cmp-title--left {
+  .cmp-title {
+    text-align: left;
+  }
+}
+.cmp-title--center {
+  .cmp-title {
+    text-align: center;
+  }
+}
+.cmp-title--centertd {
+  .cmp-title {
+    text-align: left;
+    @include viewport(tablet-desktop) {
+      text-align: center;
+    }
+  }
+}
+.cmp-title--right {
+  .cmp-title {
+    text-align: right;
+  }
+}
+/*
+.cmp-title--paddingbottom {
+  .cmp-title {
+    padding-bottom: 1.5rem;
+  }
+}
+.cmp-title--paddingtop {
+  .cmp-title {
+    padding-top: 3rem;
+  }
+}*/
+.cmp-title--padding-top-xs {
+  & > .cmp-title {
+      padding-top: 1.5%;
+      @include viewport(only-mobile) {
+          padding-top: 4.5%;
+      }
+      @include viewport(tablet-portrait) {
+          padding-top: 2.5%;
+      }
+      @include viewport(tablet-landscape) {
+          padding-top: 2%;
+      }
+      @include viewport(desktop-small) {
+          padding-top: 1.5%;
+      }
+      @include viewport(desktop-large) {
+          padding-top: 1.5%;
+      } 
+  }
+}
+.cmp-title--padding-top-sm {
+  & > .cmp-title {
+      padding-top: 2%;
+      @include viewport(only-mobile) {
+          padding-top: 5.5%;
+      }
+      @include viewport(tablet-portrait) {
+          padding-top: 4%;
+      }
+      @include viewport(tablet-landscape) {
+          padding-top: 3%;
+      }
+      @include viewport(desktop-small) {
+          padding-top: 2.5%;
+      }
+      @include viewport(desktop-large) {
+          padding-top: 2%;
+      } 
+  }
+}
+.cmp-title--padding-top-med {
+  & > .cmp-title {
+      padding-top: 2.5%;
+      @include viewport(only-mobile) {
+          padding-top: 6%;
+      }
+      @include viewport(tablet-portrait) {
+          padding-top: 5%;
+      }
+      @include viewport(tablet-landscape) {
+          padding-top: 4%;
+      }
+      @include viewport(desktop-small) {
+          padding-top: 3%;
+      }
+      @include viewport(desktop-large) {
+          padding-top: 2.5%;
+      } 
+  } 
+}
+.cmp-title--padding-top-lg {
+  & > .cmp-title {
+      padding-top: 3.5%;
+      @include viewport(only-mobile) {
+          padding-top: 12%;
+      }
+      @include viewport(tablet-portrait) {
+          padding-top: 9%;
+      }
+      @include viewport(tablet-landscape) {
+          padding-top: 7%;
+      }
+      @include viewport(desktop-small) {
+          padding-top: 5%;
+      }
+      @include viewport(desktop-large) {
+          padding-top: 3.5%;
+      }
+  }  
+}
+.cmp-title--padding-top-xl {
+  & > .cmp-title {
+      padding-top: 5.5%;
+      @include viewport(only-mobile) {
+          padding-top: 13%;
+      }
+      @include viewport(tablet-portrait) {
+          padding-top: 9.5%;
+      }
+      @include viewport(tablet-landscape) {
+          padding-top: 8.5%;
+      }
+      @include viewport(desktop-small) {
+          padding-top: 5.5%;
+      }
+      @include viewport(desktop-large) {
+          padding-top: 5.5%;
+      }  
+  }
+}
+.cmp-title--padding-bottom-xs {
+  & > .cmp-title {
+      padding-bottom: 1.5%;
+      @include viewport(only-mobile) {
+          padding-bottom: 4.5%;
+      }
+      @include viewport(tablet-portrait) {
+          padding-bottom: 2.5%;
+      }
+      @include viewport(tablet-landscape) {
+          padding-bottom: 2%;
+      }
+      @include viewport(desktop-small) {
+          padding-bottom: 1.5%;
+      }
+      @include viewport(desktop-large) {
+          padding-bottom: 1.5%;
+      }  
+  }
+}
+.cmp-title--padding-bottom-sm {
+  & > .cmp-title {
+      padding-bottom: 2%;
+      @include viewport(only-mobile) {
+          padding-bottom: 5.5%;
+      }
+      @include viewport(tablet-portrait) {
+          padding-bottom: 4%;
+      }
+      @include viewport(tablet-landscape) {
+          padding-bottom: 3%;
+      }
+      @include viewport(desktop-small) {
+          padding-bottom: 2.5%;
+      }
+      @include viewport(desktop-large) {
+          padding-bottom: 2%;
+      } 
+  } 
+}
+.cmp-title--padding-bottom-med {
+  & > .cmp-title {
+      padding-bottom: 2.5%;
+      @include viewport(only-mobile) {
+          padding-bottom: 6%;
+      }
+      @include viewport(tablet-portrait) {
+          padding-bottom: 5%;
+      }
+      @include viewport(tablet-landscape) {
+          padding-bottom: 4%;
+      }
+      @include viewport(desktop-small) {
+          padding-bottom: 3%;
+      }
+      @include viewport(desktop-large) {
+          padding-bottom: 2.5%;
+      }
+  }  
+}
+.cmp-title--padding-bottom-lg {
+  & > .cmp-title {
+      padding-bottom: 3.5%;
+      @include viewport(only-mobile) {
+          padding-bottom: 12%;
+      }
+      @include viewport(tablet-portrait) {
+          padding-bottom: 9%;
+      }
+      @include viewport(tablet-landscape) {
+          padding-bottom: 7%;
+      }
+      @include viewport(desktop-small) {
+          padding-bottom: 5%;
+      }
+      @include viewport(desktop-large) {
+          padding-bottom: 3.5%;
+      }
+  }  
+}
+.cmp-title--padding-bottom-xl {
+  & > .cmp-title {
+      padding-bottom: 5.5%;
+      @include viewport(only-mobile) {
+          padding-bottom: 13%;
+      }
+      @include viewport(tablet-portrait) {
+          padding-bottom: 9.5%;
+      }
+      @include viewport(tablet-landscape) {
+          padding-bottom: 8.5%;
+      }
+      @include viewport(desktop-small) {
+          padding-bottom: 5.5%;
+      }
+      @include viewport(desktop-large) {
+          padding-bottom: 5.5%;
+      }  
+  }
+}
+
+.text .cmp-text img{
+  max-width: 100%;
+}
+
+/*See Options
+Xtext-md-center - Center Tablet/Desktop
+side-nav-content-title
+side-nav-content-description
+m-b70x40*/
+
+    
+    
+

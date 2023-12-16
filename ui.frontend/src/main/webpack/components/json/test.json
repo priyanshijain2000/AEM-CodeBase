@@ -1,0 +1,801 @@
+{
+    "Test" : [ {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5701",
+      "testName" : "Agriculture (5701)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5162",
+      "testName" : "Algebra I (5162)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5135",
+      "testName" : "Art: Content and Analysis (5135)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5134",
+      "testName" : "Art: Content Knowledge (5134)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5343",
+      "testName" : "Audiology (5343)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5236",
+      "testName" : "Biology (5236)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5235",
+      "testName" : "Biology: Content Knowledge (5235)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5101",
+      "testName" : "Business Education: Content Knowledge (5101)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5246",
+      "testName" : "Chemistry (5246)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5245",
+      "testName" : "Chemistry: Content Knowledge (5245)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5665",
+      "testName" : "Chinese (Mandarin): World Language (5665)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5087",
+      "testName" : "Citizenship Education: Content Knowledge (5087)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5753",
+      "testName" : "Communication and Literacy (5753)",
+      "testDuration(in minutes)" : "185"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5714",
+      "testName" : "Communication and Literacy: Reading (5714)",
+      "testDuration(in minutes)" : "85"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5724",
+      "testName" : "Communication and Literacy: Writing (5724)",
+      "testDuration(in minutes)" : "100"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5652",
+      "testName" : "Computer Science (5652)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5752",
+      "testName" : "Core Academic Skills for Educators (5752)",
+      "testDuration(in minutes)" : "300"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5733",
+      "testName" : "Core Academic Skills for Educators—Mathematics (5733)",
+      "testDuration(in minutes)" : "90"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5713",
+      "testName" : "Core Academic Skills for Educators—Reading (5713)",
+      "testDuration(in minutes)" : "85"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5723",
+      "testName" : "Core Academic Skills for Educators—Writing (5723)",
+      "testDuration(in minutes)" : "100"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5026",
+      "testName" : "Early Childhood Assessment (5026)",
+      "testDuration(in minutes)" : "240"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5025",
+      "testName" : "Early Childhood Education (5025)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5028",
+      "testName" : "Early Childhood: Mathematics and Science (5028)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5027",
+      "testName" : "Early Childhood: Reading and Language Arts & Social Studies (5027)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5572",
+      "testName" : "Earth and Space Sciences (5572)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5571",
+      "testName" : "Earth and Space Sciences: Content Knowledge (5571)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5911",
+      "testName" : "Economics (5911)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5024",
+      "testName" : "Education of Young Children (5024)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5412",
+      "testName" : "Educational Leadership: Administration and Supervision (5412)",
+      "testDuration(in minutes)" : "165"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5006",
+      "testName" : "Elementary Education Assessment (5006)",
+      "testDuration(in minutes)" : "270"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5018",
+      "testName" : "Elementary Education: Content Knowledge (5018)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "7811",
+      "testName" : "Elementary Education: Content Knowledge for Teaching (7811)",
+      "testDuration(in minutes)" : "285"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5017",
+      "testName" : "Elementary Education: Curriculum, Instruction, and Assessment (5017)",
+      "testDuration(in minutes)" : "130"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5037",
+      "testName" : "Elementary Education: Math Specialist (5037)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5008",
+      "testName" : "Elementary Education: Mathematics and Science (5008)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "7813",
+      "testName" : "Elementary Education: Mathematics—CKT (7813)",
+      "testDuration(in minutes)" : "85"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5001",
+      "testName" : "Elementary Education: Multiple Subjects (5001)",
+      "testDuration(in minutes)" : "255"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5003",
+      "testName" : "Elementary Education: Multiple Subjects: Mathematics (5003)",
+      "testDuration(in minutes)" : "65"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5002",
+      "testName" : "Elementary Education: Multiple Subjects: Reading and Language Arts (5002)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5005",
+      "testName" : "Elementary Education: Multiple Subjects: Science (5005)",
+      "testDuration(in minutes)" : "60"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5004",
+      "testName" : "Elementary Education: Multiple Subjects: Social Studies (5004)",
+      "testDuration(in minutes)" : "60"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5007",
+      "testName" : "Elementary Education: Reading and Language Arts & Social Studies (5007)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "7812",
+      "testName" : "Elementary Education: Reading and Language Arts—CKT (7812)",
+      "testDuration(in minutes)" : "90"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "7814",
+      "testName" : "Elementary Education: Science—CKT (7814)",
+      "testDuration(in minutes)" : "60"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "7815",
+      "testName" : "Elementary Education: Social Studies—CKT (7815)",
+      "testDuration(in minutes)" : "50"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5903",
+      "testName" : "Elementary Education: Three Subject Bundle—Mathematics (5903)",
+      "testDuration(in minutes)" : "65"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5901",
+      "testName" : "Elementary Education: Three Subject Bundle—Mathematics, Social Studies & Science (5901)",
+      "testDuration(in minutes)" : "185"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5905",
+      "testName" : "Elementary Education: Three Subject Bundle—Science (5905)",
+      "testDuration(in minutes)" : "60"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5904",
+      "testName" : "Elementary Education: Three Subject Bundle—Social Studies (5904)",
+      "testDuration(in minutes)" : "60"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5039",
+      "testName" : "English Language Arts: Content and Analysis (5039)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5038",
+      "testName" : "English Language Arts: Content Knowledge (5038)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5362",
+      "testName" : "English to Speakers of Other Languages (5362)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5122",
+      "testName" : "Family and Consumer Sciences (5122)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5174",
+      "testName" : "French: World Language (5174)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5511",
+      "testName" : "Fundamental Subjects: Content Knowledge (5511)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5436",
+      "testName" : "General Science (5436)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5435",
+      "testName" : "General Science: Content Knowledge (5435)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5921",
+      "testName" : "Geography (5921)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5163",
+      "testName" : "Geometry (5163)",
+      "testDuration(in minutes)" : "130"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5183",
+      "testName" : "German: World Language (5183)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5358",
+      "testName" : "Gifted Education (5358)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5931",
+      "testName" : "Government/Political Science (5931)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5857",
+      "testName" : "Health and Physical Education: Content Knowledge (5857)",
+      "testDuration(in minutes)" : "130"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5551",
+      "testName" : "Health Education (5551)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5052",
+      "testName" : "Health Occupations (5052)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5023",
+      "testName" : "Interdisciplinary Early Childhood Education (5023)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5661",
+      "testName" : "Japanese: World Language (5661)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5224",
+      "testName" : "Journalism (5224)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5601",
+      "testName" : "Latin (5601)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5311",
+      "testName" : "Library Media Specialist (5311)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5561",
+      "testName" : "Marketing Education (5561)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5165",
+      "testName" : "Mathematics (5165)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5047",
+      "testName" : "Middle School English Language Arts (5047)",
+      "testDuration(in minutes)" : "160"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5164",
+      "testName" : "Middle School Mathematics (5164)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5442",
+      "testName" : "Middle School Science (5442)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5089",
+      "testName" : "Middle School Social Studies (5089)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5146",
+      "testName" : "Middle School: Content Knowledge (5146)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5114",
+      "testName" : "Music: Content and Instruction (5114)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5113",
+      "testName" : "Music: Content Knowledge (5113)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5115",
+      "testName" : "Music: Instrumental and General Knowledge (5115)",
+      "testDuration(in minutes)" : "125"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5116",
+      "testName" : "Music: Vocal and General Knowledge (5116)",
+      "testDuration(in minutes)" : "125"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5152",
+      "testName" : "PA Grades 4-8 Core Assessment (5152)",
+      "testDuration(in minutes)" : "210"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5154",
+      "testName" : "PA Grades 4-8 Core Assessment: English Language Arts & Social Studies (5154)",
+      "testDuration(in minutes)" : "70"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5155",
+      "testName" : "PA Grades 4-8 Core Assessment: Mathematics & Science (5155)",
+      "testDuration(in minutes)" : "70"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5153",
+      "testName" : "PA Grades 4-8 Core Assessment: Pedagogy (5153)",
+      "testDuration(in minutes)" : "70"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5156",
+      "testName" : "PA Grades 4-8 Subject Concentration: English Language Arts (5156)",
+      "testDuration(in minutes)" : "90"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5158",
+      "testName" : "PA Grades 4-8 Subject Concentration: Mathematics (5158)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5159",
+      "testName" : "PA Grades 4-8 Subject Concentration: Science (5159)",
+      "testDuration(in minutes)" : "90"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5157",
+      "testName" : "PA Grades 4-8 Subject Concentration: Social Studies (5157)",
+      "testDuration(in minutes)" : "90"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5095",
+      "testName" : "Physical Education: Content and Design (5095)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5091",
+      "testName" : "Physical Education: Content Knowledge (5091)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5485",
+      "testName" : "Physical Science (5485)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5266",
+      "testName" : "Physics (5266)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5265",
+      "testName" : "Physics: Content Knowledge (5265)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5531",
+      "testName" : "Pre-Kindergarten Education (5531)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5621",
+      "testName" : "Principles of Learning and Teaching: Early Childhood (5621)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5623",
+      "testName" : "Principles of Learning and Teaching: Grades 5-9 (5623)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5624",
+      "testName" : "Principles of Learning and Teaching: Grades 7-12 (5624)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5622",
+      "testName" : "Principles of Learning and Teaching: Grades K-6 (5622)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5625",
+      "testName" : "Principles of Learning and Teaching: PreK-12 (5625)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5421",
+      "testName" : "Professional School Counselor (5421)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5391",
+      "testName" : "Psychology (5391)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5306",
+      "testName" : "Reading for Virginia Educators: Elementary and Special Education (5306)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5304",
+      "testName" : "Reading for Virginia Educators: Reading Specialist (5304)",
+      "testDuration(in minutes)" : "210"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5302",
+      "testName" : "Reading Specialist (5302)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5671",
+      "testName" : "Russian: World Language (5671)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5422",
+      "testName" : "School Counselor (5422)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5312",
+      "testName" : "School Librarian (5312)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5402",
+      "testName" : "School Psychologist (5402)",
+      "testDuration(in minutes)" : "140"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5403",
+      "testName" : "School Psychologist (5403)",
+      "testDuration(in minutes)" : "125"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5086",
+      "testName" : "Social Studies: Content and Interpretation (5086)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5081",
+      "testName" : "Social Studies: Content Knowledge (5081)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5952",
+      "testName" : "Sociology (5952)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5195",
+      "testName" : "Spanish: World Language (5195)",
+      "testDuration(in minutes)" : "180"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5282",
+      "testName" : "Special Education: Teaching Students with Visual Impairments (5282)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5354",
+      "testName" : "Special Education: Core Knowledge and Applications (5354)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5543",
+      "testName" : "Special Education: Core Knowledge and Mild to Moderate  Applications (5543)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5545",
+      "testName" : "Special Education: Core Knowledge and Severe to Profound Applications (5545)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5692",
+      "testName" : "Special Education: Early Childhood/Early Intervention (5692)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5272",
+      "testName" : "Special Education: Education of Deaf and Hard of Hearing Students (5272)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5691",
+      "testName" : "Special Education: Preschool/Early Childhood (5691)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5881",
+      "testName" : "Special Education: Teaching Speech to Students with Language Impairments (5881)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5372",
+      "testName" : "Special Education: Teaching Students with Behavioral Disorders/Emotional Disturbances (5372)",
+      "testDuration(in minutes)" : "60"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5322",
+      "testName" : "Special Education: Teaching Students with Intellectual Disabilities (5322)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5383",
+      "testName" : "Special Education: Teaching Students with Learning Disabilities (5383)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5221",
+      "testName" : "Speech Communication: Content Knowledge (5221)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5331",
+      "testName" : "Speech-Language Pathology (5331)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5205",
+      "testName" : "Teaching Reading: Elementary (5205)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5206",
+      "testName" : "Teaching Reading: K–12 (5206)",
+      "testDuration(in minutes)" : "150"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5051",
+      "testName" : "Technology Education (5051)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5641",
+      "testName" : "Theatre (5641)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5941",
+      "testName" : "World and U.S. History: Content Knowledge (5941)",
+      "testDuration(in minutes)" : "120"
+    }, {
+      "programCode" : "PRX",
+      "programInfo" : "Praxis Program",
+      "examId" : "5841",
+      "testName" : "World Languages Pedagogy (5841)",
+      "testDuration(in minutes)" : "120"
+    } ]
+  }

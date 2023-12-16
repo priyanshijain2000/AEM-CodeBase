@@ -1,0 +1,35 @@
+<sly data-sly-use.coreValues="org.ets.core.models.CoreValuesModel"/>
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = multifieldMap.isEmpty,classAppend='cmp-text'}"></sly>
+<section class="cmp-container--body core-values">
+    <div class="row">
+        <div class="col-12 col-lg-10 mx-auto">
+            <h2 class="heading3">${coreValues.title}</h2>
+            <div class="row">
+                <sly data-sly-test="${!multifieldMap.isEmpty}">
+                    <figure class="col-12 col-xl-4 core-values-figure">
+                        <img class="d-none d-xl-block" src="${coreValues.image ? coreValues.image : '/content/dam/ets-org/general/placeholders/img-plchldr-thumbnail.jpg'}" style="object-position: ${coreValues.adjustLeftRight ? coreValues.adjustLeftRight : '0'@ context='styleString'}px ${coreValues.adjustTopBottom ? coreValues.adjustTopBottom : '0'@ context='styleString'}px" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" alt="${coreValues.altText || true}">
+                        <img class="d-none d-md-block d-xl-none" src="${coreValues.image ? coreValues.image : '/content/dam/ets-org/general/placeholders/img-plchldr-acrticle-card.jpg'}" style="object-position: ${coreValues.adjustLeftRightTab ? coreValues.adjustLeftRightTab : '0'@ context='styleString'}px ${coreValues.adjustTopBottomTab ? coreValues.adjustTopBottomTab : '0'@ context='styleString'}px" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" alt="${coreValues.altText || true}">
+                        <img class="d-block d-md-none" src="${coreValues.image ? coreValues.image : '/content/dam/ets-org/general/placeholders/img-plchldr-acrticle-card.jpg'}" style="object-position: ${coreValues.adjustLeftRightMobile ? coreValues.adjustLeftRightMobile : '0'@ context='styleString'}px ${coreValues.adjustTopBottomMobile ? coreValues.adjustTopBottomMobile : '0'@ context='styleString'}px" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" alt="${coreValues.altText || true}">
+                    </figure>
+                </sly>
+                <div class="col-12 col-xl-8 core-values-card-container">
+                    <div class = "core-values-card-wrap">
+                        <sly data-sly-list.card="${multifieldMap.cards.listChildren}">
+                            <div class="core-values-card">
+                                <h3 class="heading5">${card.cardtitle}</h3>
+                                <div class="card-heading-seperator"><span class="card-heading-seperator-stroke-big"></span><span class="card-heading-seperator-stroke-small"></span></div>
+                                <p class="core-values-card-content body-text">${card.description}</p>
+                                <sly data-sly-test="${card.linktext}">
+                                    <a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=card.link}"
+                                       href="${linkValidate.link}" class="cta-text-link text-start" target="${card.newTab ? '_blank' : ''}" rel="${card.newTab ? 'noopener noreferrer' : ''}" aria-label="${card.ctaLinkAriaLabel}">${card.linktext}</a>
+                                </sly>
+                            </div>
+                        </sly>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2023-02-09T12:43:20.071Z"
+        cq:lastModifiedBy="RCHOUDHARY@ets.org"
+        cq:lastReplicated="{Date}2022-10-28T12:31:05.026Z"
+        cq:lastReplicated_publish="{Date}2022-10-28T12:31:05.026Z"
+        cq:lastReplicatedBy="PREDDY002@ets.org"
+        cq:lastReplicatedBy_publish="PREDDY002@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:templateType="/conf/ets/settings/wcm/template-types/generic-page"
+        jcr:description="Generic Page with White Background - Used for landing pages, and misc pages"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Generic white page"
+        status="enabled"/>
+</jcr:root>

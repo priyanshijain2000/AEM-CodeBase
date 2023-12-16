@@ -1,0 +1,16 @@
+{
+	"video-details": {
+		"jcr:primaryType": "nt:unstructured",
+		"description": "ETS video taken from Kaltura.",
+		"newTab": "true",
+		"altText": "transcript",
+		"link": "/content/ets-org/language-master/en/home/demo/praxis_transcript",
+		"text": "View Transcript",
+		"videoid": "1_2uqsgtah",
+		"caption": "Play the video",
+		"sling:resourceType": "ets/components/video",
+		"thumbnail": "/content/dam/ets-org/brands/all-products/header.png",
+		"textIsRich": "true",
+		"layoutStyle": "col-lg-10 mx-auto"
+	}
+}

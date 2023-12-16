@@ -1,0 +1,141 @@
+.predictivescore{
+    background: #FFFFFF;
+    box-shadow: 10px 4px 170px rgba(75, 78, 78, 0.11);
+    border-radius: 16px;
+    padding:100px 105px;
+    @media (min-width: 768px) and (max-width: 992px){
+        padding:60px !important;
+    }
+    @include viewport(only-mobile){
+        padding: 40px 24px!important;
+        border-radius:0;
+        box-shadow: none;
+    }
+    .predictivescore-heading{
+        h2{
+            font-weight: bold;
+            font-size: 30px;
+            @include viewport(only-mobile){
+                font-size: 24px;
+                line-height: 30px;
+            }
+            sup{
+                top: -12px;
+                font-size: 16px;
+                @include viewport(only-mobile){
+                    top: -8px;
+                }
+            }
+        }
+        p{
+            padding:20px 0 40px 0;
+            @include viewport(only-mobile){
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+    }
+    .predictivescore-inputs{
+        display: flex;
+        justify-content: center;
+        @include viewport(only-mobile){
+           display: block;
+        }
+        .predictivescore-input-section{
+            width: 200px;
+            font-size: 18px;
+            font-weight: bold;
+            @include viewport (only-mobile){
+                padding: 15px 0;
+                width: 100%;
+                font-size: 16px;
+            }
+            label{
+                margin-bottom: 20px;
+                width: 160px;
+                @include viewport (only-mobile){
+                    line-height: 28px;
+                    margin-bottom: 10px;
+                    width: 100%;
+                }
+            }
+            input{
+                width: 200px;
+                height: 46px;
+                border:1px solid #D7D7D7;
+                background-color:#F8F8F8;
+                text-align: center;
+                font-weight: bold;
+                @include viewport(only-mobile){
+                    width:100%;
+                    padding: 0 10px;
+                    text-align: left;
+                    border-radius: 4px !important;
+                }
+            }
+            input[name="predictinputleft"]{
+                border-radius:4px 0px 0px 4px; 
+            }
+            input[name="predictinputright"]{
+                border-radius:0px 4px 4px 0px;  
+            }
+          
+            .error{
+                background: #F4DCDD;
+                border: 2px solid #A80005;
+                width: 195px;
+                padding: 8px;
+                color: #A80005;
+                border-radius: 8px;
+                font-size: 14px;
+                margin: 20px auto 0;
+                display:none;
+                @include viewport(only-mobile){
+                    width: 100%;
+                    margin: 20px auto 0;
+                }
+            }
+        }
+        
+    }
+   
+    
+    .down-arrow{
+        text-align: center;
+        padding: 40px 0;
+    }
+    .predictedscore-results{
+        margin: 0 auto;
+        .disclaimer{
+            @include viewport (only-mobile){
+                margin: 0;
+            }
+            .disclaimer-content{
+                @include viewport (only-mobile){
+                    padding: 75px 10px;
+                }
+            }
+        }
+        .predictedscore-value{
+            font-size: 75px;
+            font-weight: 100 !important;
+            color:#3072BE;
+            line-height:75px;
+            @include viewport (only-mobile){
+                font-size:48px;  
+            }
+			.predictedscore-total {
+			 font-weight: 100 !important;
+		}
+		}
+		
+        span{
+            font-weight: bold;
+        }
+    }
+}
+.lsat{
+    .predictedscore-section{
+        display: none;
+    }
+}

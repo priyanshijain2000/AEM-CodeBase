@@ -1,0 +1,223 @@
+@mixin popUpBackground($selected-color, $desc-color) {
+	@media (max-width: 767.5px) {
+		.toefl-modernization-dialog--container {
+			background: $selected-color;
+		}
+
+		.toefl-modernization-dialog--container--content {
+			& p {
+				color: $desc-color;
+			}
+		}
+	}
+}
+
+@mixin popUpTitle($selected-color) {
+	.toefl-modernization-dialog--container--content {
+			& .heading1 {
+				color: $selected-color;
+			}
+
+			& .heading2 {
+				color: $selected-color;
+			}
+
+			& .heading3 {
+				color: $selected-color;
+			}
+
+			& .heading4 {
+				color: $selected-color;
+			}
+
+			& .heading5 {
+				color: $selected-color;
+			}
+
+			& .heading6 {
+				color: $selected-color;
+			}
+	}
+}
+
+.popoverbanner {
+	&.bgcolor {
+		&-gre {
+			&-purple-dark {
+				@include popUpBackground(#38002E, #FFF);
+			}
+
+			&-purple {
+				@include popUpBackground(#630F54, #FFF);
+			}
+
+			&-purple-light {
+				@include popUpBackground(#C19FBB, #151515);
+			}
+		}
+
+		&-toefl-ibt {
+			&-teal {
+				@include popUpBackground(#077F83, #FFF);
+			}
+
+			&-teal-medium-dark {
+				@include popUpBackground(#066A6E, #FFF);
+			}
+
+			&-teal-dark {
+				@include popUpBackground(#00565D, #FFF);
+			}
+
+			&-orange-medium {
+				@include popUpBackground(#D96600, #fff);
+			}
+		}
+
+		&-toefl-essentials {
+			&-deep-gold {
+				@include popUpBackground(#E7A23E, #fff);
+			}
+
+			&-canary {
+				@include popUpBackground(#F9E070, #151515);
+			}
+
+			&-canary-light {
+				@include popUpBackground(#FDF3C6, #151515);
+			}
+		}
+
+		&-toeic {
+			&-dark-green {
+				@include popUpBackground(#165736, #fff);
+			}
+
+			&-white {
+				@include popUpBackground(#fff, #151515);
+			}
+
+			&-green {
+				@include popUpBackground(#B5BE0F, #fff);
+			}
+		}
+
+		&-praxis {
+			&-pep-red {
+				@include popUpBackground(#A03137, #fff);
+			}
+
+			&-ets-navy {
+				@include popUpBackground(#003082, #fff);
+			}
+
+			&-pep-gray-warm {
+				@include popUpBackground(#C1B7AF, #151515);
+			}
+
+			&-white {
+				@include popUpBackground(#fff, #151515);
+			}
+		}
+
+		&-psq {
+			&-dark-blue {
+				@include popUpBackground(#022841, #fff);
+			}
+
+			&-orange-sorbet {
+				@include popUpBackground(#FFA45E, #fff);
+			}
+		}
+	}
+
+	&.title {
+		&-gre {
+			&-ivory {
+				@include popUpTitle(#F4EAE6);
+			}
+
+			&-dark-orange {
+				@include popUpTitle(#B83A1E);
+			}
+
+			&-blue-light {
+				@include popUpTitle(#DEECFC);
+			}
+
+			&-white {
+				@include popUpTitle(#fff);
+			}
+		}
+
+		&-toefl-ibt {
+			&-white {
+				@include popUpTitle(#FFF);
+			}
+
+			&-teal-marigold {
+				@include popUpTitle(#F7B524);
+			}
+
+			&-teal-orange {
+				@include popUpTitle(#D96600);
+			}
+		}
+
+		&-toefl-essentials {
+			&-medium-dark {
+				@include popUpTitle(#066A6E);
+			}
+
+			&-dark {
+				@include popUpTitle(#00565D);
+			}
+		}
+
+		&-toeic {
+			&-dark-green {
+				@include popUpTitle(#165736);
+			}
+
+			&-white {
+				@include popUpTitle(#fff);
+			}
+
+			&-green {
+				@include popUpTitle(#B5BE0F);
+			}
+		}
+
+		&-praxis {
+			&-pep-red {
+				@include popUpTitle(#A03137);
+			}
+
+			&-ets-navy {
+				@include popUpTitle(#003082);
+			}
+
+			&-pep-gray-warm {
+				@include popUpTitle(#C1B7AF);
+			}
+
+			&-pep-gray-warm-light {
+				@include popUpTitle(#E9E6E4);
+			}
+
+			&-white {
+				@include popUpTitle(#fff);
+			}
+		}
+
+		&-psq {
+			&-dark-blue {
+				@include popUpTitle(#022841);
+			}
+
+			&-orange-sorbet {
+				@include popUpTitle(#FFA45E);
+			}
+		}
+	}
+}

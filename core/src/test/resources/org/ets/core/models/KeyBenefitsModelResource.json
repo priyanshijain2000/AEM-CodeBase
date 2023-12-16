@@ -1,0 +1,32 @@
+{
+	"benefits-panel": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"ctaButtonLink": "/content/ets-org/language-master/en/gre",
+		"jcr:lastModifiedBy": "admin",
+		"ctaButtonAriaLabel": "CTA Button Aria Label",
+		"ctaLinkAriaLabel": "CTA Link Aria Label 2",
+		"jcr:created": "Mon Sep 04 2023 04:33:16 GMT-0400",
+		"color": "#DEECFC",
+		"title": "Benefits Panel",
+		"variant": "withoutSeparator",
+		"jcr:lastModified": "Mon Sep 04 2023 05:10:56 GMT-0400",
+		"ctaLink": "/content/ets-org/language-master/en/home/2136_dre",
+		"ctaText": "CTA Text Label",
+		"sling:resourceType": "ets/components/key-benefits",
+		"ctaButtonLabel": "CTA Button Label",
+		"newTab1": "false",
+		"newTab2": "false",
+		"cq:styleIds": [
+			"1665669211965"
+		],
+		"benefits": {
+			"jcr:primaryType": "nt:unstructured",
+			"item0": {
+				"jcr:primaryType": "nt:unstructured",
+				"icon": "/content/dam/ets-org/icons/commons/cart-icon.svg",
+				"text": "Cart"
+			}
+		}
+	}
+}

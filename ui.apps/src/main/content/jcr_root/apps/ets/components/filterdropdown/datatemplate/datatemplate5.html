@@ -1,0 +1,33 @@
+
+<template data-sly-template.variation2="${@ inputData}">
+    <section class="gre-institution-filter cmp-container--body">
+        <div data-sly-test="${inputData.sectionTitle}" class="gre-institution-filter__title">${inputData.sectionTitle @context='html'}</div>
+        <div class="gre-institution-filter__container">
+            <div>
+                <div class="gre-institution-filter__title">
+                    ${inputData.primaryLabel}
+                </div>
+                <select class="gre-institution-dropdown"  id="gre-institution" data-gre-institution-path="${inputData.json}" data-placeholder="${inputData.placeholderText}" aria-label="${inputData.inputAriaLabel}">
+                    <option></option>
+                </select>
+            </div>
+            <div class="d-none">
+                <div class="gre-institution-filter__title">
+                    ${inputData.secondaryLabel}
+                </div>
+                <select class="js-example-basic-multiple js-states form-control gre-institution-states-dropdown d-none" id="gre-institution-states" multiple="multiple" data-placeholder="${inputData.secondaryPlaceholderText}">
+                    <option></option>
+                </select>
+            </div>
+        </div>
+        <table class="gre-institution-filter__table" role="table">
+            <tbody class="gre-institution-filter__table__content">
+                <tr>
+                    <th scope="col">Code</th>
+                    <th scope="col">Name</th>
+                </tr>
+            </tbody>
+        </table>
+        <div class="gre-institution-filter__footnote"></div>
+    </section>
+</template>

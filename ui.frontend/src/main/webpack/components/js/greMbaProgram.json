@@ -1,0 +1,6619 @@
+{
+    "GRE_MBA_programs": [
+      {
+        "School": "Auburn University Auburn",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Auburn University Montgomery (EMBA)",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Alabama A \u0026 M University",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Institute of Technology Redstone",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Samford University",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "South University Montgomery",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Dothan",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Montgomery",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Phenix City",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Troy",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Alabama Birmingham",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Alabama Huntsville (EMBA)",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Alabama Tuscaloosa",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Montevallo",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of North Alabama",
+        "State": "Alabama",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Alaska Pacific University",
+        "State": "Alaska",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Alaska Fairbanks",
+        "State": "Alaska",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wayland Baptist University Anchorage",
+        "State": "Alaska",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Phoenix",
+        "State": "Arizona",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Arizona State University",
+        "State": "Arizona",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Phoenix",
+        "State": "Arizona",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Luke",
+        "State": "Arizona",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Phoenix-Chandler",
+        "State": "Arizona",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Phoenix-Sky Harbor",
+        "State": "Arizona",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Northern Arizona University",
+        "State": "Arizona",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Thunderbird School of Graduate Management",
+        "State": "Arizona",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Davis Monthan AFB",
+        "State": "Arizona",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Arizona Scottsdale",
+        "State": "Arizona",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Arizona Tucson",
+        "State": "Arizona",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wayland Baptist University Tucson",
+        "State": "Arizona",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Arkansas State University",
+        "State": "Arkansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Harding University North Little Rock",
+        "State": "Arkansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Harding University Searcy",
+        "State": "Arkansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Henderson State University",
+        "State": "Arkansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southern Arkansas University",
+        "State": "Arkansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Central Arkansas",
+        "State": "Arkansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Arkansas Little Rock",
+        "State": "Arkansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Arkansas Fayetteville",
+        "State": "Arkansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "John Brown University",
+        "State": "Arkansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Alliant International University Fresno",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Alliant University Los Angeles",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Alliant International University Sacramento",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Alliant International University San Diego",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "American Jewish University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Los Angeles",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Ontario",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Orange County",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University San Diego",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University San Francisco",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Azusa Pacific University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Antelope Valley",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Fairfield",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Folsom",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Hanford",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Irvine",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Modesto",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Monterey",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Moreno Valley",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Ontario",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Palm Desert",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Roseville",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University San Diego",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Santa Maria",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Travis AFB",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Visalia",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Walnut Creek",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California Baptist University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California Polytechnic State University San Luis Obispo",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California South Bay University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University Bakersfield",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University Bakersfield, Antelope Valley",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University Channel Islands",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University Channel Islands at Thousand Oaks",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University Chico",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University Dominguez Hills (Online MBA)",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University East Bay",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University Fullerton",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University Long Beach",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University Los Angeles",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University Monterey Bay (EMBA)",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University Northridge",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University San Bernardino",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University San Marcos",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "California State University Stanislaus",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Central California Lutheran University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Claremont Graduate University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Chapman University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Anaheim",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Fremont",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Pomona",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University San Diego",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Dominican University of California",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Drexel University Sacramento",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Camp Pendleton",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Inland Empire",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Los Angeles",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University San Diego",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Travis",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Fresno Pacific University Bakersfield",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Fresno Pacific University North Fresno",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Fresno Pacific University Visalia",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Golden Gate University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Hult International Business School San Francisco",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Humboldt State University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "La Sierra University Chino Hills",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "La Sierra University Glendale",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "La Sierra University Los Angeles",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "La Sierra University Riverside",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Lincoln University Oakland",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Loma Linda University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Loyola Marymount University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Mills College",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Monterey Institute of International Studies",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Mount Saint Mary\u0027s College",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National University Carlsbad",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National University Costa Mesa",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National University Fresno",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National University La Mesa",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National University Los Angeles",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National University Marine Air Station Miramar",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National University Marine Recruit Depot",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National University Redding",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National University Sacramento",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National University San Jose",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National University Spectrum Business Park",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National University Woodland Hills",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Naval Postgraduate School",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pacific States University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pepperdine University Encino",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pepperdine University Irvine",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pepperdine University Los Angeles",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pepperdine University Westlake Village",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Presidio Graduate School",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "San Diego State University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "San Francisco State University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "San Jose State University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Santa Clara University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Silicon Valley University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Sonoma State University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St. Mary\u0027s College of California",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Stanford University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of California Berkeley",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of California Davis Main Campus",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of California Davis Sacramento",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of California Davis San Francisco Bay Area",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of California Irvine",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of California Los Angeles",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of California Riverside",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of California San Diego",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of La Verne Bakersfield",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of La Verne Burbank",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of La Verne College of the Canyons",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of La Verne Irvine",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of La Verne Main Campus",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of La Verne Oxnard",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of La Verne Rancho Cucamonga",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of La Verne San Luis Obispo",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of La Verne Vanenberg AFB",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of La Verne Victorville",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Redlands Burbank",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Redlands Orange County",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Redlands Rancho Cucamonga",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Redlands Redlands",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Redlands Riverside",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Redlands San Diego",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Redlands Temecula",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Redlands Torrance",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of San Diego",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of San Francisco",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Southern California",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of the Pacific",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Woodbury University",
+        "State": "California",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Adams State College",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Denver",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Colorado Christian University",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Colorado Mesa University",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Colorado State University Ft Collins",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Denver",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Westminster",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Colorado Springs",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Western Region",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Colorado Boulder",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Colorado Colorado Springs",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Colorado Denver",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Denver",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Northern Colorado",
+        "State": "Colorado",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Central Connecticut State University",
+        "State": "Connecticut",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Fairfield University",
+        "State": "Connecticut",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Quinnipiac University",
+        "State": "Connecticut",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rensselaer at Hartford",
+        "State": "Connecticut",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Sacred Heart University",
+        "State": "Connecticut",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southern Connecticut State University",
+        "State": "Connecticut",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Connecticut",
+        "State": "Connecticut",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Hartford",
+        "State": "Connecticut",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of New Haven",
+        "State": "Connecticut",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Western Connecticut State University",
+        "State": "Connecticut",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Yale University",
+        "State": "Connecticut",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Delaware State University",
+        "State": "Delaware",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Goldey Beacom College",
+        "State": "Delaware",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Delaware",
+        "State": "Delaware",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wilmington University Brandywine",
+        "State": "Delaware",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wilmington University Dover",
+        "State": "Delaware",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wilmington University Georgetown",
+        "State": "Delaware",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wilmington University Middletown",
+        "State": "Delaware",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wilmington University New Castle",
+        "State": "Delaware",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "American University",
+        "State": "District of Columbia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Georgetown University (Full Time MBA, EMBA \u0026 Evening MBA)",
+        "State": "District of Columbia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "George Washington University",
+        "State": "District of Columbia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Quantic School of Business and Technology",
+        "State": "District of Columbia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Strayer University",
+        "State": "District of Columbia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Maryland Ronald Reagan Building",
+        "State": "District of Columbia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of the Potomac",
+        "State": "District of Columbia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Sarasota",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Tampa",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Barry University",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Belhaven University Orlando",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Miami",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Orlando",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Tampa",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Daytona Beach",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Fort Lauderdale",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Orlando",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Space Coast",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Everglades University",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida A \u0026 M University",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Atlantic University Boca Raton",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Atlantic University Fort Lauderdale",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Gulf Coast University",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida International University",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Institute of Technology Melbourne",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Institute of Technology Orlando",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Institute of Technology Spaceport",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Institute of Technology, University Alliance (online)",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Memorial University",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Southern College",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida State University",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Inter American University, Orlando",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Jacksonville University",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University Daytona Beach",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University Fort Lauderdale",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University Fort Meyers",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University Jacksonville",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University Lakeland",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University Melbourne",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University Miami",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University Orlando",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University Pembroke Pines",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University Port St Lucie",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University Sarasota",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University Tallahassee",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University Tampa",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Keiser University West Palm Beach",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Miami Herbert Business School – Online",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National-Louis University",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Nova Southeastern University, Fort Myers",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Nova Southeastern University, Jacksonville",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Nova Southeastern University, Main Campus",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Nova Southeastern University, Miami",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Nova Southeastern University, Miramar",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Nova Southeastern University, Orlando",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Nova Southeastern University, Palm Beach",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Nova Southeastern University, Tampa",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rollins College",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "South University West Palm Beach",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "South University Tampa",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southeastern University",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St. Thomas University",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Stetson University Celebration",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Stetson University Main Campus",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Thunderbird University Miami",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Fort Walton Beach",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Orlando",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Pensacola",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Tampa",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Florida (Working Professional MBA)",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Miami",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of North Florida",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of South Florida Sarasota",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of South Florida St. Petersburg",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of South Florida Tampa",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Tampa",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of West Florida",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Warner University",
+        "State": "Florida",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Albany State University",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Atlanta",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Augusta State University",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Belhaven University Atlanta",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Berry College",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brenau University",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Columbus State University",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Atlanta",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Decatur",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Atlanta",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Savannah",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Emory University",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Georgia College and State University",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Georgia Institute of Technology",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Georgia Southwestern State University",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Georgia State University Alpharetta",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Georgia State University Buckhead",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Georgia State University Main Campus",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Georgia State University Peachtree-Dunwoody",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Mercer University Atlanta",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Mercer University Macon",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "North Georgia College and State University",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Piedmont College Athens",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Piedmont College Demorest",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Reinhardt University Main Campus",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Reinhardt University Woodstock",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Savannah State University",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southern Polytechnic State University",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "South University Savannah",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Albany",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Atlanta",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Augusta",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Brunswick",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University College Covington",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Fort Benning",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Georgia",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of West Georgia",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Valdosta State University",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wesleyan College",
+        "State": "Georgia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University",
+        "State": "Hawaii",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Hawaii Pacific University",
+        "State": "Hawaii",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Boise State University (part-time Professional MBA)",
+        "State": "Idaho",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Idaho State University",
+        "State": "Idaho",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Chicago",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Schaumburg",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Benedictine University",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Bradley University",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DePaul University",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Addison",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Chicago Loop",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Chicago O\u0027Hare",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Elgin",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Lincolnshire",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Naperville",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Schamburg",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Tinley Park",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Dominican University",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Eastern Illinois University",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Governors State University",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Illinois Institute of Technology",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Illinois State University",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Loyola University Chicago",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Millikin University",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National Louis University Chicago",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National Louis University Elgin",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National Louis University Lisle",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National Louis University Skokie",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "National Louis University Wheeling",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "North Park University",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Northeastern Illinois University",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Northwestern University",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Roosevelt University",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southern Illinois University Carbondale",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southern Illinois University Edwardsville",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St. Xavier University Main Campus",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St. Xavier University Orland Campus",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Chicago",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Illinois Chicago",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Illinois Springfield",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Illinois Urbana/Champaign",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Western Illinois University",
+        "State": "Illinois",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Anderson University",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Ball State University",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Indianapolis",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Merrillville",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana Institute of Technology Elkhart",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana Institute of Technology Fishers",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana Institute of Technology Fort Wayne",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana Institute of Technology Fort Wright",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana Institute of Technology Greenwood",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana Institute of Technology Huntington",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana Institute of Technology Indianapolis",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana Institute of Technology Kendalville",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana Institute of Technology Mishawaka",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana Institute of Technology Munster",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana Institute of Technology Plainfield",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana Institute of Technology Warsaw",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana State University (MBA in Educational Leadership)",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana University Bloomington",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana University Kokomo",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana University Purdue University Columbus",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana University Purdue University at Indiana",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana University South Bend",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Oakland City University",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Purdue University Calumet",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Purdue University Main Campus",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Evansville (EMBA Program)",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Indianapolis",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Notre Dame",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Southern Indiana",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Valparaiso University",
+        "State": "Indiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Drake University",
+        "State": "Iowa",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Iowa State University",
+        "State": "Iowa",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Maharishi University of Management",
+        "State": "Iowa",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St. Ambrose University",
+        "State": "Iowa",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Iowa",
+        "State": "Iowa",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Upper Iowa University",
+        "State": "Iowa",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Baker University Overland Park",
+        "State": "Kansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Baker University Topeka",
+        "State": "Kansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Baker University Wichita",
+        "State": "Kansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Benedictine College",
+        "State": "Kansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Emporia State University",
+        "State": "Kansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Fort Hays State University",
+        "State": "Kansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Kansas Wesleyan University",
+        "State": "Kansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Newman University",
+        "State": "Kansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pittsburg State University",
+        "State": "Kansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Washburn University",
+        "State": "Kansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wichita State University",
+        "State": "Kansas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Asbury University",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Bellarmine University",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brescia University",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Campbellsville University",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Eastern Kentucky University",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Louisville",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana Institute of Technology Louisville",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Kentucky State University",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Lindsey Wilson College",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Midway College",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Morehead State University",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Murray State University",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Northern Kentucky University",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Kentucky",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Louisville",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Xavier University Fort Mitchell",
+        "State": "Kentucky",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Louisiana State University Baton Rouge",
+        "State": "Louisiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Louisiana State University Shreveport",
+        "State": "Louisiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Louisiana Tech University",
+        "State": "Louisiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Loyola University New Orleans",
+        "State": "Louisiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "McNeese State University",
+        "State": "Louisiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Nicholls State University",
+        "State": "Louisiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southeastern Louisiana State University",
+        "State": "Louisiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southern University and A\u0026M College",
+        "State": "Louisiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Tulane University",
+        "State": "Louisiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Louisiana Monroe",
+        "State": "Louisiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of New Orleans",
+        "State": "Louisiana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Husson University Bangor",
+        "State": "Maine",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Husson University Presque Isle",
+        "State": "Maine",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Husson University South Portland",
+        "State": "Maine",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Thomas College",
+        "State": "Maine",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Maine",
+        "State": "Maine",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Southern Maine",
+        "State": "Maine",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Capitol College",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Bethesda",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Institute of Technology Aberdeen",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Institute of Technology Patuxent",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Frostburg State University",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Johns Hopkins University",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Loyola University Maryland",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Morgan State University",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Salisbury University",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Towson University",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Baltimore",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Maryland BioPark",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Maryland College Park",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Maryland Shady Grove",
+        "State": "Maryland",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "American International College",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Babson College Boston",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Babson College Main Campus",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Bay Path College",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Bentley University",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Boston College",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Boston University",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandeis University",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Bridgewater State University",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Clark University Southboro",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Clark University Worcester",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Fitchburg State College",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Framingham State University",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Harvard Business School",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Hult International Business School Boston",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Massachusetts College of Liberal Arts",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Massachusetts Institute of Technology",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Northeastern University",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Simmons College",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Springfield College",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Suffolk University Lawrence",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Suffolk University Main Campus",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Massachusetts Amherst Holyoke",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Massachusetts Amherst Main Campus",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Massachusetts Amherst Pittsfield",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Massachusetts Amherst Shrewsbury",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Massachusetts Boston",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Massachusetts Dartmouth",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Massachusetts Lowell (Online MBA)",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Western New England College",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Worcester Polytechnic Institute",
+        "State": "Massachusetts",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Baker College",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Davenport University",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Eastern Michigan University",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Ferris State University",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Michigan State University",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Michigan Technological University",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Northwood University Grand Rapids",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Northwood University Lansing",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Northwood University Midland",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Northwood University Troy",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Oakland University (EMBA)",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Saginaw Valley State University",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "South University Novi",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Detroit Mercy",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Michigan Ann Arbor",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Michigan Dearborn",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Michigan Flint",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Michigan Southfield",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wayne State University",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Western Michigan University",
+        "State": "Michigan",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Twin Cities",
+        "State": "Minnesota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Augsburg College",
+        "State": "Minnesota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "College of St. Scholastica",
+        "State": "Minnesota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Edina",
+        "State": "Minnesota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Metropolitan State University",
+        "State": "Minnesota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southwest Minnesota State University",
+        "State": "Minnesota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St. Catherine University Saint Paul",
+        "State": "Minnesota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Minnesota Duluth",
+        "State": "Minnesota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Minnesota Rochester",
+        "State": "Minnesota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Minnesota Twin Cities",
+        "State": "Minnesota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of St. Thomas Minneapolis",
+        "State": "Minnesota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of St. Thomas St. Paul",
+        "State": "Minnesota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Alcorn State University",
+        "State": "Mississippi",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Belhaven University Jackson",
+        "State": "Mississippi",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Keesler",
+        "State": "Mississippi",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Jackson State University",
+        "State": "Mississippi",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Millsaps College",
+        "State": "Mississippi",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Mississippi State University",
+        "State": "Mississippi",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Mississippi",
+        "State": "Mississippi",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Southern Mississippi",
+        "State": "Mississippi",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Baker University Kansas City",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Baker University Lee\u0027s Summit",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Kansas City",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Drury University",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Lindenwood University Belleville",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Lindenwood University Main Campus",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Missouri Southern State University",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Missouri State University",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Missouri University of Science and Technology",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Northwest Missouri State University",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Park University",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rockhurst University",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southeast Missouri State University (Spring 2014)",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southwest Baptist University Bolivar",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St Louis University",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Central Missouri",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Missouri Columbia",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Missouri Kansas City",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Washington University in St. Louis",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Washington University in St. Louis, Kansas City EMBA",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Webster University",
+        "State": "Missouri",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University",
+        "State": "Montana",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Creighton University",
+        "State": "Nebraska",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Midland University",
+        "State": "Nebraska",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Nebraska Kearney",
+        "State": "Nebraska",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Nebraska Lincoln",
+        "State": "Nebraska",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Nebraska Omaha",
+        "State": "Nebraska",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wayne State College",
+        "State": "Nebraska",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Henderson",
+        "State": "Nevada",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Fallon",
+        "State": "Nevada",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Nevada Reno",
+        "State": "Nevada",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Antioch University New England",
+        "State": "New Hampshire",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Dartmouth College",
+        "State": "New Hampshire",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of New Hampshire Durham",
+        "State": "New Hampshire",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of New Hampshire Manchester",
+        "State": "New Hampshire",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Fairleigh Dickinson University Madison",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Fairleigh Dickinson University Teaneck",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Institute of Technology Lakehurst",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Institute of Technology Picatinny",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Kean University",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Monmouth University",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Montclair State University",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "New Jersey Institute of Technology",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rider University",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Ramapo College",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rowan University",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rutgers University Camden",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rutgers University Jersey City",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rutgers University Madison",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rutgers University New Brunswick",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rutgers University Newark",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Seton Hall University",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St. Peters College",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Stevens Institute of Technology",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Thomas Edison State College",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "William Paterson University",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wilmington University McGuire Ft Dix",
+        "State": "New Jersey",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Eastern New Mexico University",
+        "State": "New Mexico",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Albuquerque",
+        "State": "New Mexico",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of New Mexico, Anderson School of Management",
+        "State": "New Mexico",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wayland Baptist University Clovis",
+        "State": "New Mexico",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Adelphi University",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Bard College",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Baruch College",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Canisius College",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Clarkson University",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "College of Mount Saint Vincent",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Columbia University",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Cornell University",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Manhattan",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Rego Park",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Dowling College",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Fordham University",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Hofstra University",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Le Moyne College",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "LIM College",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Long Island University Brooklyn",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Long Island University Post",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Marist College",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Medaille College",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "New York University",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "New York University Westchester",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pace University New York City",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pace University Westchester",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rensselaer Polytechnic Institute",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rochester Institute of Technology",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St. Bonaventure University",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "SUNY Albany",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "SUNY Binghamton",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "SUNY College Oswego",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "SUNY Institute of Technology",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "SUNY New Paltz",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "SUNY Polytechnic Institute",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "SUNY Stony Brook",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Syracuse University",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "TRIUM (Global EMBA)",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Union Graduate College",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University at Buffalo SUNY",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Rochester",
+        "State": "New York",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Appalachian State University",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Barton College",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Campbell University",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Devry University Charlotte",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Duke University",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "East Carolina University",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Elon University",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Fayetteville State University",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Gardner-Webb University Charlotte",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Gardner-Webb University Main Campus",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Gardner-Webb University Statesville",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Gardner-Webb University Winston Salem",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "High Point University",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Laurel University",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Meredith College",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "North Carolina A \u0026 T State University",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "North Carolina Central University",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "North Carolina State University Raleigh",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "North Carolina State University Research Triangle Park",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pfeiffer University Charlotte",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pfeiffer University Durham",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Queens University Charlotte",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Skema Business School Raleigh",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Touro College",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Mount Olive (Online MBA)",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of North Carolina Chapel Hill",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of North Carolina Charlotte",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of North Carolina Greensboro",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of North Carolina Pembroke",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of North Carolina Wilmington",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Western Carolina University",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wingate University",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wingate University Hendersonville",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Winston Salem State University",
+        "State": "North Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Minot",
+        "State": "North Dakota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "North Dakota State University",
+        "State": "North Dakota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of North Dakota",
+        "State": "North Dakota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Ashland University",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Baldwin Wallace College",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Capital University",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Case Western Reserve University",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Cedarville University",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Cleveland State University Cleveland Clinic",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Cleveland State University Main Campus",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Cleveland State University Mayfield Heights",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Cleveland State University Metrohealth Medical Center",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Cleveland State University Westlake",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Cleveland",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Columbus",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Dayton",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Franklin University Delaware",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Franklin University Dublin",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Franklin University Main Campus",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "John Carroll University",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Kent State University",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Lake Erie College",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Malone University",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Miami University",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Ohio State University",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Ohio University",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Akron (Part Time MBA)",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Cincinnati",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Dayton",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Findlay",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Ursuline College",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wright State University Lake Campus",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wright State University Main Campus",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Xavier University Cincinnati",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Youngstown State University",
+        "State": "Ohio",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Cameron University",
+        "State": "Oklahoma",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Oklahoma City",
+        "State": "Oklahoma",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Oklahoma Christian University",
+        "State": "Oklahoma",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Oklahoma City University",
+        "State": "Oklahoma",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Oral Roberts University",
+        "State": "Oklahoma",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rogers State University",
+        "State": "Oklahoma",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southeastern Oklahoma State University",
+        "State": "Oklahoma",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Central Oklahoma",
+        "State": "Oklahoma",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Oklahoma",
+        "State": "Oklahoma",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Concordia University Portland",
+        "State": "Oregon",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Portland",
+        "State": "Oregon",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "George Fox University",
+        "State": "Oregon",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Northwest Christian University",
+        "State": "Oregon",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Oregon Health \u0026 Science University (Healthcare MBA)",
+        "State": "Oregon",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Oregon State University",
+        "State": "Oregon",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Portland State University",
+        "State": "Oregon",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Oregon (Oregon MBA \u0026 EMBA)",
+        "State": "Oregon",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Portland (EMBA Program)",
+        "State": "Oregon",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Alvernia University",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Alvernia University Schuylkill Center",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Arcadia University",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Carnegie Mellon University",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Clarion University",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Delaware Valley College",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Fort Washington",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Pittsburgh",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Drexel University, LeBow",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Duquesne University",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Geneva College",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana University of Pennsylvania Johnstown (EMBA)",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana University of Pennsylvania Main Campus",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana University of Pennsylvania Monroeville (EMBA)",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Indiana University of Pennsylvania Northpointe (EMBA)",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Kutztown University",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "La Salle University Bucks County",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "La Salle University Main Campus",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "La Salle University Montgomery County",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Lehigh University",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Mercyhurst College",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Misericordia University",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Mount Aloysius College",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pennsylvania State University Erie (iMBA)",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pennsylvania State University Great Valley",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pennsylvania State University Harrisburg",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pennsylvania State University Park Smeal",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Point Park University",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Shippensburg University of Pennsylvania",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St. Josephs University Collegeville",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St. Josephs University Philadelphia",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Temple University Center City",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Temple University Fort Washington",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Temple University Main Campus",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Temple University Malvern",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Pennsylvania, Wharton School",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Pittsburgh",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Villanova University",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "West Chester University",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Widener University",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wilkes University (Engineering Management)",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "York College of Pennsylvania",
+        "State": "Pennsylvania",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Inter American University of Puerto Rico Metropolitan Campus",
+        "State": "Puerto Rico",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Inter American University of Puerto Rico San German",
+        "State": "Puerto Rico",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Polytechnic University of Puerto Rico",
+        "State": "Puerto Rico",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pontifical Catholic University of Puerto Rico",
+        "State": "Puerto Rico",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Johnson \u0026 Wales University",
+        "State": "Rhode Island",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Salve Regina University",
+        "State": "Rhode Island",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Rhode Island",
+        "State": "Rhode Island",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Bob Jones University",
+        "State": "South Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Charleston Southern University",
+        "State": "South Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Coastal Carolina University",
+        "State": "South Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "College of Charleston",
+        "State": "South Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Francis Marion University",
+        "State": "South Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Gardner-Webb University Spartanburg",
+        "State": "South Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Limestone College",
+        "State": "South Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southern Wesleyan University",
+        "State": "South Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "South University Columbia",
+        "State": "South Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "The Citadel",
+        "State": "South Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Shaw Center",
+        "State": "South Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of South Carolina",
+        "State": "South Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Winthrop University",
+        "State": "South Carolina",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Dakota State University",
+        "State": "South Dakota",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Nashville",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Belhaven University Chattanooga",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Belhaven University Memphis",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Belmont University",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Christian Brothers University",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Cumberland University",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Memphis",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Memphis",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Freed-Hardeman University",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Haslam College of Business, The University of Tennessee, Knoxville",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Lincoln Memorial University",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Lipscomb University",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Martin Methodist College",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Tennessee State University",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Tennessee Tech University",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Clarksville",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Tusculum College",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Union University Germantown",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Union University Jackson",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Memphis",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Tennessee Chattanooga",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Tennessee Knoxville",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Tennessee Martin",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Vanderbilt University",
+        "State": "Tennessee",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Amberton University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Angelo State University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Dallas",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Baylor University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Belhaven University Houston",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Houston",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Irving",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Devry University San Antonio",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Corpus Christi",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Fort Worth",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Houston Baptist University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "LeTourneau University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Midwestern State University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "North American University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Northwood University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Our Lady of the Lake University San Antonio",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Prairie View A\u0026M University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Rice University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Schreiner University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southern Methodist University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southwestern Adventist University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St. Edwards University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St. Mary\u0027s University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Stephen F Austin University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Sul Ross State University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Tarleton State University Stephenville",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Texas A\u0026M International University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Texas A\u0026M University Central Texas",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Texas A\u0026M University College Station",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Texas A\u0026M University Commerce",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Texas A\u0026M University Corpus Christi",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Texas A\u0026M University Kingsville (Online MBA)",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Texas Christian University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Texas Southern University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Texas State University McCoy College of Business",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Texas State University San Marcos",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Texas Tech University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Texas Wesleyan University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Texas Womans University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Dallas",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Houston Downtown",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Houston Main Campus",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Houston Northwest Campus",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Houston Victoria",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Mary Hardin-Baylor",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of St. Thomas Houston",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Texas Arlington Fort Worth",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Texas Arlington Frisco",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Texas Arlington Main Campus",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Texas Main Campus",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Texas Austin",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Texas Brownsville",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Texas Dallas",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Texas San Antonio",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of the Incarnate Word",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wayland Baptist University Amarillo",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wayland Baptist University Lubbock",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Wayland Baptist University Plainview",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "West Texas A\u0026M University",
+        "State": "Texas",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Salt Lake City",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brigham Young University Provo",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Devry University Sandy",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Northern Utah",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Southern Utah University",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Utah",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Utah State University Kaysville ",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Utah State University Main Campus",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Utah State University Orem",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Utah State University Salt Lake City",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Utah State University Thanksgiving Point",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Utah State University",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Utah Valley University",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Weber State University",
+        "State": "Utah",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Norwich University",
+        "State": "Vermont",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Vermont",
+        "State": "Vermont",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Arlington",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "College of William and Mary",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Arlington",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Manassas",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University South Hampton Roads",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Langley",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Norfolk",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Institute of Technology National Capitol Region",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Florida Institute of Technology Hampton Roads",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "George Mason University Arlington",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "George Mason University Fairfax",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "James Madison University",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Lynchburg College",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Marymount University",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Old Dominion University",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Radford University Main Campus",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Radford University Roanoke",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Regent University",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Shenandoah University",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "South University Richmond",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "South University Virginia Beach",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Atlantic Region",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Troy University Fort Myer",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Management \u0026 Technology",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Mary Washington",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Richmond",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Virginia",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Virginia Commonwealth University",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Virginia International University",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Virginia Polytechnic Institute and State University",
+        "State": "Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Argosy University Seattle",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Fort Lewis",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Brandman University Lacey",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "City University of Seattle Bellevue",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "City University of Seattle Everett",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "City University of Seattle Renton",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "City University of Seattle Tacoma",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Federal Way",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Seattle/Bellevue",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Eastern Washington University",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Everett",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Seattle",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Gonzaga University",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pacific Lutheran University",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Pinchot University",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Seattle Pacific University",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Seattle University",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "St. Martins University",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Washington Bothell",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Washington Seattle",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Washington Tacoma",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Washington State University (Online MBA)",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Western Washington University",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Whitworth University",
+        "State": "Washington",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Fairmont State University",
+        "State": "West Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Marshall University",
+        "State": "West Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Shepherd University",
+        "State": "West Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Charleston (EMBA Pharma Healthcare Management)",
+        "State": "West Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "West Virginia University",
+        "State": "West Virginia",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Carroll University",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Waukesha",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "DeVry University Wisconsin",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Edgewood College",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Herzing University Online",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Marquette University",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Milwaukee School of Engineering (MBA in Education Leadership)",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "Mount Mary College",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Wisconsin Eau Claire",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Wisconsin La Crosse",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Wisconsin Madison",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Wisconsin-Milwaukee Sheldon B. Lubar School of Business",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Wisconsin Oshkosh",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Wisconsin Parkside",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Wisconsin Stevens Point",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Wisconsin Whitewater",
+        "State": "Wisconsin",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "University of Wyoming",
+        "State": "Wyoming",
+        "Country": "United States and U.S. Territories"
+      },
+      {
+        "School": "IAE Business School Universidad Austral",
+        "State": "",
+        "Country": "Argentina"
+      },
+      {
+        "School": "Thunderbird University, Buenos Aires",
+        "State": "",
+        "Country": "Argentina"
+      },
+      {
+        "School": "American University of Armenia",
+        "State": "",
+        "Country": "Armenia"
+      },
+      {
+        "School": "AGSM @ UNSW Business School",
+        "State": "",
+        "Country": "Australia"
+      },
+      {
+        "School": "Deakin University",
+        "State": "",
+        "Country": "Australia"
+      },
+      {
+        "School": "Murdoch University",
+        "State": "",
+        "Country": "Australia"
+      },
+      {
+        "School": "S P Jain School of Global Management",
+        "State": "",
+        "Country": "Australia"
+      },
+      {
+        "School": "University of Melbourne (Melbourne Business School)",
+        "State": "",
+        "Country": "Australia"
+      },
+      {
+        "School": "University of Sydney",
+        "State": "",
+        "Country": "Australia"
+      },
+      {
+        "School": "Webster University Vienna",
+        "State": "",
+        "Country": "Austria"
+      },
+      {
+        "School": "ADA University",
+        "State": "",
+        "Country": "Azerbaijan"
+      },
+      {
+        "School": "Nova Southeastern University",
+        "State": "",
+        "Country": "Bahamas"
+      },
+      {
+        "School": "BRAC University",
+        "State": "",
+        "Country": "Bangladesh"
+      },
+      {
+        "School": "Independent University Bangladesh",
+        "State": "",
+        "Country": "Bangladesh"
+      },
+      {
+        "School": "North South University",
+        "State": "",
+        "Country": "Bangladesh"
+      },
+      {
+        "School": "Premier University",
+        "State": "",
+        "Country": "Bangladesh"
+      },
+      {
+        "School": "Katholieke Universiteit Leuven",
+        "State": "",
+        "Country": "Belgium"
+      },
+      {
+        "School": "Solvay Brussels School of Economics and Management",
+        "State": "",
+        "Country": "Belgium"
+      },
+      {
+        "School": "United International Business Schools — Antwerp International Business School",
+        "State": "",
+        "Country": "Belgium"
+      },
+      {
+        "School": "United International Business Schools — Brussels International Business School",
+        "State": "",
+        "Country": "Belgium"
+      },
+      {
+        "School": "Vlerick Business School",
+        "State": "",
+        "Country": "Belgium"
+      },
+      {
+        "School": "Hult International Business School – São Paulo",
+        "State": "",
+        "Country": "Brazil"
+      },
+      {
+        "School": "American University in Bulgaria",
+        "State": "",
+        "Country": "Bulgaria"
+      },
+      {
+        "School": "Fomic Polytechnic",
+        "State": "",
+        "Country": "Cameroon"
+      },
+      {
+        "School": "Brock University",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "Cape Breton University (Community Economic Development)",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "Carleton University",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "Concordia University",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "Dalhousie University (MBA in Financial Services)",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "HEC Montreal",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "Ivey Business School Toronto",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "Lakehead University",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "McGill University",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "McMaster University",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "Queens University School of Business",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "Simon Fraser University Beedie School of Business",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "St. Mary\u0027s University",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "Thompson Rivers University",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "University of Alberta",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "University of British Columbia",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "University of Calgary",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "University of New Brunswick – Fredericton",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "University of Quebec at Rimouski",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "University Canada West",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "University of Manitoba",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "University of New Brunswick — Saint John",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "University of Ontario Institute of Technology",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "University of Ottawa",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "University of Toronto",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "University of Victoria",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "University of Western Ontario",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "Wilfrid Laurier University",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "York University",
+        "State": "",
+        "Country": "Canada"
+      },
+      {
+        "School": "Antai College of Economics \u0026 Management at Shanghai Jiao Tong University",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Beijing Institute of Technology",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Cheung Kong Graduate School of Business Beijing",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Cheung Kong Graduate School of Business Shanghai",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Cheung Kong Graduate School of Business Shenzhen",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "China Europe International Business School",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Donghua University",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Fudan University International MBA",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Guangdong University of Foreign Studies",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Hult International Business School Shanghai",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Jinan University",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Keiser University Shanghai",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Nanjing University Sino-Dutch International Business Center",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Nankai University",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Peking University Beijing International MBA (BIMBA)",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Peking University Guanghua School of Management",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Peking University HSBC Business School",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Renmin University School Business",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Shanghai Advanced Institute of Finance (SAIF) at Shanghai Jiao Tong University",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Shanghai International Studies University",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Shanghai University Finance \u0026 Economics",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Sichuan University",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Skema Business School Suzhou",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Southwestern University Finance \u0026 Economics",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Sun Yat-Sen Business School",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Tianjin University",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Tsinghua University",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Tsinghua University PBC School of Finance",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "University of British Columbia International MBA",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "University of Hong Kong–Fudan University IMBA Programme",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "University of Macau",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "University Nottingham Ningbo",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Webster University Shanghai",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Wuhan University Economics and Management School",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Xi’an Jiaotong University School of Management",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Zhejiang University",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Zhejiang University International Business School",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Zhongnan University of Economics and Law",
+        "State": "",
+        "Country": "China"
+      },
+      {
+        "School": "Thunderbird University Bogota",
+        "State": "",
+        "Country": "Colombia"
+      },
+      {
+        "School": "University of the Andes",
+        "State": "",
+        "Country": "Colombia"
+      },
+      {
+        "School": "INCAE Business School",
+        "State": "",
+        "Country": "Costa Rica"
+      },
+      {
+        "School": "Thunderbird University San Jose",
+        "State": "",
+        "Country": "Costa Rica"
+      },
+      {
+        "School": "Zagreb School of Economics \u0026 Management",
+        "State": "",
+        "Country": "Croatia"
+      },
+      {
+        "School": "University of Cyprus",
+        "State": "",
+        "Country": "Cyprus"
+      },
+      {
+        "School": "Chapman University Prague",
+        "State": "",
+        "Country": "Czech Republic"
+      },
+      {
+        "School": "Copenhagen Business School",
+        "State": "",
+        "Country": "Denmark"
+      },
+      {
+        "School": "Universidad Iberoamericana UNIBE",
+        "State": "",
+        "Country": "Dominican Republic"
+      },
+      {
+        "School": "Thunderbird University San Salvador",
+        "State": "",
+        "Country": "El Salvador"
+      },
+      {
+        "School": "Aalto University",
+        "State": "",
+        "Country": "Finland"
+      },
+      {
+        "School": "Hanken School of Economics",
+        "State": "",
+        "Country": "Finland"
+      },
+      {
+        "School": "Audencia Nantes School of Management",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "Ecole des Pontes Business School",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "EDHEC Business School",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "EMLYON Business School",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "ESCP Europe",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "ESSEC Business School (MBA in International Luxury Brand Management)",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "HEC Paris",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "Horizons University",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "IAE Aix-en-Provence Graduate School of Management",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "IAE Paris Sorbonne Graduate Business School",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "IESEG School of Management",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "INSEAD",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "INSEAD Masters in Management Program",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "NEOMA Business School",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "Reims Management School",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "Skema Business School Lille",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "Skema Business School Paris",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "Skema Business School Sophia Antipolis",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "Toulouse Business School",
+        "State": "",
+        "Country": "France"
+      },
+      {
+        "School": "Caucasus University",
+        "State": "",
+        "Country": "Georgia"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University Berlin",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "ESCP Europe Business School",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "European Business School of Germany",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "European School of Management and Technology",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "European University Center for Management Studies — Munich",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "Frankfurt School of Finance \u0026 Management",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "GISMA Business School",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "HHL Graduate School of Management",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "Hochschule Esslingen",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "Hochschule Pforzheim",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "Mannheim Business School",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "Munich Business School",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "Reutlingen University ESB Business School",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "Troy University Heidelberg",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "TU Bergakademie Freiberg",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "WHU Beisheim",
+        "State": "",
+        "Country": "Germany"
+      },
+      {
+        "School": "ALBA Graduate Business School",
+        "State": "",
+        "Country": "Greece"
+      },
+      {
+        "School": "University of Kentucky MBA in Greece",
+        "State": "",
+        "Country": "Greece"
+      },
+      {
+        "School": "Troy University (EMBA)",
+        "State": "",
+        "Country": "Guam"
+      },
+      {
+        "School": "Central European University Business School",
+        "State": "",
+        "Country": "Hungary"
+      },
+      {
+        "School": "University of Pecs, Faculty of Business and Economics",
+        "State": "",
+        "Country": "Hungary"
+      },
+      {
+        "School": "Chinese University of Hong Kong",
+        "State": "",
+        "Country": "Hong Kong, China"
+      },
+      {
+        "School": "City University of Hong Kong",
+        "State": "",
+        "Country": "Hong Kong, China"
+      },
+      {
+        "School": "Hong Kong Baptist University",
+        "State": "",
+        "Country": "Hong Kong, China"
+      },
+      {
+        "School": "Hong Kong University of Science and Technology",
+        "State": "",
+        "Country": "Hong Kong, China"
+      },
+      {
+        "School": "Ivey Business School",
+        "State": "",
+        "Country": "Hong Kong, China"
+      },
+      {
+        "School": "University of Chicago-Booth School of Business",
+        "State": "",
+        "Country": "Hong Kong, China"
+      },
+      {
+        "School": "University of Hong Kong",
+        "State": "",
+        "Country": "Hong Kong, China"
+      },
+      {
+        "School": "Aegis School of Business",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Ahmedabad University",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Alliance University, School of Business",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Amrita School of Business Amritapuri",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Amrita School of Business Bengaluru",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Amrita School of Business Coimbatore",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Amrita School of Business Kochi",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Aryans Business School",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Asia Graduate School of Business",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Bharati Vidyapeeth (Deemed to be University) (Business Management)",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "BITS School of Management",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Galgotias University School of Business",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Global School of Management",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "IIKM Business School",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Indian Institute of Management Ahmedabad (ePGP)",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Indian Institute of Management Bangalore (ePGP)",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Indian Institute of Management Kashipur",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Indian Institute of Management Kozhikode",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Indian Institute of Management Lucknow IPMX - Noida Campus",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Indian Institute of Management Raipur (FPM)",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Indian Institute of Management Udaipur",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Indian Institute of Management Visakhapatnam (PGP-DGM/PGPEx)",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Indian School of Business",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Institute of Management Technology",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "International School of Management Excellence",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Jagdish Sheth School of Management",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "JECRC University",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Lovely Professional University \u0026 MBA",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Myra School of Business",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Peoples Education Society",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "S.P. Jain Institute of Management and Research",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Sharda University School of Business Studies",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Universal Business School",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Varanasi College of Management Science",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Woxsen School of Business",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Xavier Labour Relations Inst XLRI",
+        "State": "",
+        "Country": "India"
+      },
+      {
+        "School": "Prasetiya Mulya Business School",
+        "State": "",
+        "Country": "Indonesia"
+      },
+      {
+        "School": "University College Dublin",
+        "State": "",
+        "Country": "Ireland"
+      },
+      {
+        "School": "University of Limerick",
+        "State": "",
+        "Country": "Ireland"
+      },
+      {
+        "School": "Ben-Gurion University of the Negev",
+        "State": "",
+        "Country": "Israel"
+      },
+      {
+        "School": "Technion Israel Institute of Technology",
+        "State": "",
+        "Country": "Israel"
+      },
+      {
+        "School": "Tel Aviv University",
+        "State": "",
+        "Country": "Israel"
+      },
+      {
+        "School": "The Hebrew University of Jerusalem",
+        "State": "",
+        "Country": "Israel"
+      },
+      {
+        "School": "University of Haifa",
+        "State": "",
+        "Country": "Israel"
+      },
+      {
+        "School": "Bocconi University",
+        "State": "",
+        "Country": "Italy"
+      },
+      {
+        "School": "Bologna Business School",
+        "State": "",
+        "Country": "Italy"
+      },
+      {
+        "School": "European School of Economics",
+        "State": "",
+        "Country": "Italy"
+      },
+      {
+        "School": "Fondazione CUOA",
+        "State": "",
+        "Country": "Italy"
+      },
+      {
+        "School": "LUISS Guido Carli University",
+        "State": "",
+        "Country": "Italy"
+      },
+      {
+        "School": "MIP Politecnico di Milano",
+        "State": "",
+        "Country": "Italy"
+      },
+      {
+        "School": "Università Cattolica del Sacro Cuore",
+        "State": "",
+        "Country": "Italy"
+      },
+      {
+        "School": "University of Trento",
+        "State": "",
+        "Country": "Italy"
+      },
+      {
+        "School": "Florida International University (EMBA)",
+        "State": "",
+        "Country": "Jamaica"
+      },
+      {
+        "School": "Doshisha University",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "Globis",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "Hitotsubashi University ICS MBA",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "International University of Japan",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "Kobe University – Graduate School of Business Administration",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "Kyoto University",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "Nagoya University of Commerce and Business",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "Rikkyo University College of Business",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "Ritsumeikan Asia Pacific University",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "Sophia University",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "Tohoku University (GPEM)",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "Tokyo Business School UIBS",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "Troy University Pacific Region",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "Waseda University",
+        "State": "",
+        "Country": "Japan"
+      },
+      {
+        "School": "KIMEP University",
+        "State": "",
+        "Country": "Kazakhstan"
+      },
+      {
+        "School": "Nazarbayev University",
+        "State": "",
+        "Country": "Kazakhstan"
+      },
+      {
+        "School": "Chonnam National University",
+        "State": "",
+        "Country": "Korea"
+      },
+      {
+        "School": "Chung-Ang University",
+        "State": "",
+        "Country": "Korea"
+      },
+      {
+        "School": "Hongik University",
+        "State": "",
+        "Country": "Korea"
+      },
+      {
+        "School": "Inha University Graduate School of Logistics",
+        "State": "",
+        "Country": "Korea"
+      },
+      {
+        "School": "KAIST",
+        "State": "",
+        "Country": "Korea"
+      },
+      {
+        "School": "Korea University Business School",
+        "State": "",
+        "Country": "Korea"
+      },
+      {
+        "School": "Sejong University",
+        "State": "",
+        "Country": "Korea"
+      },
+      {
+        "School": "Seoul National University",
+        "State": "",
+        "Country": "Korea"
+      },
+      {
+        "School": "Sogang University",
+        "State": "",
+        "Country": "Korea"
+      },
+      {
+        "School": "Solbridge International School of Business",
+        "State": "",
+        "Country": "Korea"
+      },
+      {
+        "School": "Sungkyunkwan University",
+        "State": "",
+        "Country": "Korea"
+      },
+      {
+        "School": "Yonsei University",
+        "State": "",
+        "Country": "Korea"
+      },
+      {
+        "School": "American University of the Middle East",
+        "State": "",
+        "Country": "Kuwait"
+      },
+      {
+        "School": "Gulf University for Science and Technology",
+        "State": "",
+        "Country": "Kuwait"
+      },
+      {
+        "School": "American University of Central Asia",
+        "State": "",
+        "Country": "Kyrgyzstan"
+      },
+      {
+        "School": "Lebanese American University",
+        "State": "",
+        "Country": "Lebanon"
+      },
+      {
+        "School": "Notre Dame University Louaize",
+        "State": "",
+        "Country": "Lebanon"
+      },
+      {
+        "School": "Franklin University MBA, Bitola",
+        "State": "",
+        "Country": "Macedonia"
+      },
+      {
+        "School": "Asia School of Business",
+        "State": "",
+        "Country": "Malaysia"
+      },
+      {
+        "School": "Malaysia Institute for Supply Chain Innovation",
+        "State": "",
+        "Country": "Malaysia"
+      },
+      {
+        "School": "University of Malaya",
+        "State": "",
+        "Country": "Malaysia"
+      },
+      {
+        "School": "University Putra Malaysia",
+        "State": "",
+        "Country": "Malaysia"
+      },
+      {
+        "School": "EGADE Business School",
+        "State": "",
+        "Country": "Mexico"
+      },
+      {
+        "School": "Instituto Tecnológico Autónomo de México ITAM (EMBA)",
+        "State": "",
+        "Country": "Mexico"
+      },
+      {
+        "School": "IPADE Business School",
+        "State": "",
+        "Country": "Mexico"
+      },
+      {
+        "School": "Thunderbird University Guadalajara",
+        "State": "",
+        "Country": "Mexico"
+      },
+      {
+        "School": "Thunderbird University Leon",
+        "State": "",
+        "Country": "Mexico"
+      },
+      {
+        "School": "Thunderbird University Mexico City",
+        "State": "",
+        "Country": "Mexico"
+      },
+      {
+        "School": "Thunderbird University Mexico Santa Fe",
+        "State": "",
+        "Country": "Mexico"
+      },
+      {
+        "School": "Thunderbird University Mexico State",
+        "State": "",
+        "Country": "Mexico"
+      },
+      {
+        "School": "Thunderbird University Monterrey",
+        "State": "",
+        "Country": "Mexico"
+      },
+      {
+        "School": "International University of Monaco",
+        "State": "",
+        "Country": "Monaco"
+      },
+      {
+        "School": "Erasmus University Rotterdam School of Business",
+        "State": "",
+        "Country": "Netherlands"
+      },
+      {
+        "School": "Hotelschool the Hague",
+        "State": "",
+        "Country": "Netherlands"
+      },
+      {
+        "School": "Maastricht School of Management",
+        "State": "",
+        "Country": "Netherlands"
+      },
+      {
+        "School": "Nyenrode Business University",
+        "State": "",
+        "Country": "Netherlands"
+      },
+      {
+        "School": "Tilburg University (EMBA Program)",
+        "State": "",
+        "Country": "Netherlands"
+      },
+      {
+        "School": "U Amsterdam, Amsterdam Business School",
+        "State": "",
+        "Country": "Netherlands"
+      },
+      {
+        "School": "Webster University Leiden",
+        "State": "",
+        "Country": "Netherlands"
+      },
+      {
+        "School": "Incae University",
+        "State": "",
+        "Country": "Nicaragua"
+      },
+      {
+        "School": "Lagos Business School-Pan Atlantic University",
+        "State": "",
+        "Country": "Nigeria"
+      },
+      {
+        "School": "Franklin University MBA, Muscat",
+        "State": "",
+        "Country": "Oman"
+      },
+      {
+        "School": "Karachi School for Business \u0026 Leadership",
+        "State": "",
+        "Country": "Pakistan"
+      },
+      {
+        "School": "Lahore University of Management Science",
+        "State": "",
+        "Country": "Pakistan"
+      },
+      {
+        "School": "National University of Computer \u0026 Emerging Sciences",
+        "State": "",
+        "Country": "Pakistan"
+      },
+      {
+        "School": "Thunderbird University Panama City",
+        "State": "",
+        "Country": "Panama"
+      },
+      {
+        "School": "Thunderbird University Lima",
+        "State": "",
+        "Country": "Peru"
+      },
+      {
+        "School": "Asian Institute of Management",
+        "State": "",
+        "Country": "Philippines"
+      },
+      {
+        "School": "Ateneo Graduate School of Business",
+        "State": "",
+        "Country": "Philippines"
+      },
+      {
+        "School": "University of the Philippines",
+        "State": "",
+        "Country": "Philippines"
+      },
+      {
+        "School": "Franklin University MBA, Wroclaw",
+        "State": "",
+        "Country": "Poland"
+      },
+      {
+        "School": "AESE Escola de Direcçáo e Negócios",
+        "State": "",
+        "Country": "Portugal"
+      },
+      {
+        "School": "Faculdade de Economia da Universidade Nova de Lisboa",
+        "State": "",
+        "Country": "Portugal"
+      },
+      {
+        "School": "ISCTE Business School — Lisbon University Institute",
+        "State": "",
+        "Country": "Portugal"
+      },
+      {
+        "School": "Lisbon MBA",
+        "State": "",
+        "Country": "Portugal"
+      },
+      {
+        "School": "University of Porto",
+        "State": "",
+        "Country": "Portugal"
+      },
+      {
+        "School": "African Leadership U MBA Program",
+        "State": "",
+        "Country": "Rwanda"
+      },
+      {
+        "School": "Alfaisal University",
+        "State": "",
+        "Country": "Saudi Arabia"
+      },
+      {
+        "School": "Franklin University MBA, Belgrade",
+        "State": "",
+        "Country": "Serbia"
+      },
+      {
+        "School": "Embry-Riddle Aeronautical University, Singapore Aviation Academy",
+        "State": "",
+        "Country": "Singapore"
+      },
+      {
+        "School": "ESSEC Business School Asia Pacific",
+        "State": "",
+        "Country": "Singapore"
+      },
+      {
+        "School": "INSEAD",
+        "State": "",
+        "Country": "Singapore"
+      },
+      {
+        "School": "Nanyang Technological University",
+        "State": "",
+        "Country": "Singapore"
+      },
+      {
+        "School": "National University of Singapore",
+        "State": "",
+        "Country": "Singapore"
+      },
+      {
+        "School": "Singapore Management University",
+        "State": "",
+        "Country": "Singapore"
+      },
+      {
+        "School": "S P Jain School of Global Management",
+        "State": "",
+        "Country": "Singapore"
+      },
+      {
+        "School": "Franklin University MBA, Bratislava",
+        "State": "",
+        "Country": "Slovakia"
+      },
+      {
+        "School": "Rhodes University",
+        "State": "",
+        "Country": "South Africa"
+      },
+      {
+        "School": "University of Cape Town Graduate School of Business",
+        "State": "",
+        "Country": "South Africa"
+      },
+      {
+        "School": "Barcelona School of Economics",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "Barcelona School of Management Universitat Pompeu Fabra",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "Deusto Business School",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "EADA Business School Barcelona",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "ESADE Business School",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "Escuela de Alta Dirección y Administración (EADA)",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "ESIC Business and Marketing School",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "European University Barcelona",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "Fundacion San Telmo",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "IE Business School",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "IESE Business School",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "Instituto Europeo Campus Stellae",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "Instituto de Empresa",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "International University of Southern Europe — Barcelona Business School",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "International University of Southern Europe — Madrid Business School",
+        "State": "",
+        "Country": "Spain"
+      },
+      {
+        "School": "University of Khartoum",
+        "State": "",
+        "Country": "Sudan"
+      },
+      {
+        "School": "School of Business, Economics and Law, University of Gothenburg",
+        "State": "",
+        "Country": "Sweden"
+      },
+      {
+        "School": "Stockholm School of Economics (EMBA)",
+        "State": "",
+        "Country": "Sweden"
+      },
+      {
+        "School": "Business School Lausanne",
+        "State": "",
+        "Country": "Switzerland"
+      },
+      {
+        "School": "Ecole Hôtelière de Lausanne (EMBA)",
+        "State": "",
+        "Country": "Switzerland"
+      },
+      {
+        "School": "European University Geneva",
+        "State": "",
+        "Country": "Switzerland"
+      },
+      {
+        "School": "European University Montreaux",
+        "State": "",
+        "Country": "Switzerland"
+      },
+      {
+        "School": "IMD",
+        "State": "",
+        "Country": "Switzerland"
+      },
+      {
+        "School": "International University Geneva",
+        "State": "",
+        "Country": "Switzerland"
+      },
+      {
+        "School": "SBS Swiss Business School",
+        "State": "",
+        "Country": "Switzerland"
+      },
+      {
+        "School": "UBIS University",
+        "State": "",
+        "Country": "Switzerland"
+      },
+      {
+        "School": "University of Geneva",
+        "State": "",
+        "Country": "Switzerland"
+      },
+      {
+        "School": "University of St. Gallen",
+        "State": "",
+        "Country": "Switzerland"
+      },
+      {
+        "School": "Webster University Geneva",
+        "State": "",
+        "Country": "Switzerland"
+      },
+      {
+        "School": "Chang Gung University",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "CTBC Business School",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "Feng Chia University",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "I-Shou University",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "National Chengchi University",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "National Chiao Tung University",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "National Taipei University of Technology",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "National Taiwan Normal University",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "National Taiwan University",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "National Taiwan University of Science and Technology",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "National Tsing Hua University",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "National Sun Yat-Sen University",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "National University Kaohsiung",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "Providence University",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "Yuan Ze University",
+        "State": "",
+        "Country": "Taiwan, China"
+      },
+      {
+        "School": "Asian Institute of Technology",
+        "State": "",
+        "Country": "Thailand"
+      },
+      {
+        "School": "Assumption University",
+        "State": "",
+        "Country": "Thailand"
+      },
+      {
+        "School": "Bangkok University",
+        "State": "",
+        "Country": "Thailand"
+      },
+      {
+        "School": "Sasin Graduate Institute of Business Administration of Chulalongkorn University",
+        "State": "",
+        "Country": "Thailand"
+      },
+      {
+        "School": "Webster University Bangkok",
+        "State": "",
+        "Country": "Thailand"
+      },
+      {
+        "School": "Bahcesehir University",
+        "State": "",
+        "Country": "Turkey"
+      },
+      {
+        "School": "Bogazici University",
+        "State": "",
+        "Country": "Turkey"
+      },
+      {
+        "School": "Fatih University",
+        "State": "",
+        "Country": "Turkey"
+      },
+      {
+        "School": "Istanbul Bilgi University",
+        "State": "",
+        "Country": "Turkey"
+      },
+      {
+        "School": "Istanbul Sehir University",
+        "State": "",
+        "Country": "Turkey"
+      },
+      {
+        "School": "Istanbul Technical University",
+        "State": "",
+        "Country": "Turkey"
+      },
+      {
+        "School": "Izmir University of Economics",
+        "State": "",
+        "Country": "Turkey"
+      },
+      {
+        "School": "Kadir Has University",
+        "State": "",
+        "Country": "Turkey"
+      },
+      {
+        "School": "Koc University",
+        "State": "",
+        "Country": "Turkey"
+      },
+      {
+        "School": "Ozyegin University",
+        "State": "",
+        "Country": "Turkey"
+      },
+      {
+        "School": "Sabanci University",
+        "State": "",
+        "Country": "Turkey"
+      },
+      {
+        "School": "Franklin University MBA, Dnipropetrovski",
+        "State": "",
+        "Country": "Ukraine"
+      },
+      {
+        "School": "Hult International Business School Dubai",
+        "State": "",
+        "Country": "United Arab Emirates"
+      },
+      {
+        "School": "Rochester Institute of Technology Dubai",
+        "State": "",
+        "Country": "United Arab Emirates"
+      },
+      {
+        "School": "S P Jain School of Global Management",
+        "State": "",
+        "Country": "United Arab Emirates"
+      },
+      {
+        "School": "City University London",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "Cranfield University",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "Hult International Business School London",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "Imperial College Business School – London",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "Lancaster University Management School",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "Leeds University",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "London Business School",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "Oxford University",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "University of Cambridge",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "University of Chicago-Booth School of Business",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "University of Kent",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "University of Manchester",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "University of Reading",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "University of Warwick",
+        "State": "",
+        "Country": "United Kingdom"
+      },
+      {
+        "School": "",
+        "State": "",
+        "Country": ""
+      },
+      {
+        "School": "",
+        "State": "",
+        "Country": ""
+      },
+      {
+        "School": "",
+        "State": "",
+        "Country": ""
+      }
+    ]
+  }

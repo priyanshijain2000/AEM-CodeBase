@@ -1,0 +1,32 @@
+{
+	"acceptanceList": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"arrowAlt": "arrow",
+		"jcr:lastModifiedBy": "admin",
+		"inputPaginationAriaLabel": "enter page number",
+		"prevLabel": "Previous",
+		"searchLabel": "Search by Country or Institution",
+		"jcr:created": "Wed Aug 23 2023 01:57:48 GMT-0400",
+		"stateLabel": "State2",
+		"entriesLabel": "Entries",
+		"json": "/content/dam/ets-org/s/toefl/essential_acceptance.json",
+		"entriesAriaLabel": "Select the number of entries",
+		"footnote": "*Special conditions may apply. Updated on March 10, 2023",
+		"searchBoxPlaceholder": "Search",
+		"countTextLabel": "of",
+		"jcr:lastModified": "Wed Aug 23 2023 05:01:27 GMT-0400",
+		"nextAriaLabel": "next",
+		"nextLabel": "Next",
+		"sling:resourceType": "ets/components/acceptanceLists",
+		"programLabel": "Program",
+		"countryLabel": "Country",
+		"norecmsg": "No matching Records found",
+		"searchAriaLabel": "search here by country or institution",
+		"textIsRich": "true",
+		"prevAriaLabel": "previous",
+		"searchAlt": "search-icon",
+		"institutionLabel": "Institution",
+		"rightArrowAlt": "right-arrow"
+	}
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:template="/conf/ets/settings/wcm/templates/generic-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="ets/components/generic-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="responsiveGrid">
+            <alertmessage_71558018
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/alertmessage"
+                alertdesc="All services closed on July 28, 2021 &lt;a href=&quot;http://www.instagram.com&quot;>Sign up&lt;/a> for updates"
+                altText="Bell Icon"
+                icon="/content/dam/ets-org/icons/commons/bell.svg"
+                onoff="true"
+                textIsRich="true"/>
+            <productmenu_1560252911
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/productmenu"
+                cartlogo="/content/dam/ets/icons/cart.svg"
+                carttext="ETS STORE"
+                contacttext="CONTACT"
+                contacturl="#"
+                langlogo="/content/dam/ets/icons/language/us_flag.svg"
+                langname="ENGLISH"
+                logintext="Login / Register"
+                loginurl="#">
+                <products jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        color="#630F54"
+                        newTab="true"
+                        product="GRE"
+                        productlink="#"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        color="#377D82"
+                        newTab="true"
+                        product="TOEFL"
+                        productlink="#"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        color="#165736"
+                        newTab="true"
+                        product="TOEIC"
+                        productlink="#"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        color="#A03137"
+                        newTab="true"
+                        product="PRAXIS"
+                        productlink="#"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        color="#3B5686"
+                        newTab="true"
+                        product="ALL PRODUCTS"
+                        productlink="#"/>
+                </products>
+            </productmenu_1560252911>
+            <container_1448755308
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                layout="simple">
+                <experiencefragment
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/ets-org/language_master/en/site/header-nav/master"/>
+            </container_1448755308>
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
+            <container_758522293
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                roleAttribute="contentinfo">
+                <experiencefragment
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/ets-org/language_master/en/site/footer/master"
+                    text="GET THE LATEST FROM ETS Connect Follow Subscribe ETS About ETS Careers Contact Us Disabilities ETS Store News: Open Notes Research Solutions Educator Licensure English Language Learning ETS Accelerate Higher Education K-12 Student Programs Workplace &amp; Training Products GRE Praxis TOEFL TOEIC View All Follow ETS: Copyright © 2022 by ETS. All rights reserved. All trademarks are the property of their respective owners. Legal Privacy &amp; Security ETS Trademarks"/>
+            </container_758522293>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

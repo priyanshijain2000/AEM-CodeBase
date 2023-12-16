@@ -1,0 +1,16 @@
+
+<sly data-sly-use.pageproperty="org.ets.core.models.AuthorContentFragmentModel"></sly>
+
+<section class="article-contributor row">
+         <div class="article-contributor-card-container p-b70x40" data-sly-list.cfMap=${pageproperty.getCfLists}>
+            <div class="article-contributor-card card-width-50" tabindex="0" role="alert">
+                <figure class="article-contributor-card-image" >
+                    <img src="${cfMap.image ? cfMap.image : '/content/dam/ets-org/general/placeholders/img-plchldr-icon.jpg'}" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" alt="${cfMap.alternativeTextForAccessibility || true}">
+                </figure>
+                <div>
+                    <div class="article-contributor-card-title">${cfMap.name}</div>
+                    <div class="article-contributor-card-desc">${cfMap.profile}</div>
+                </div>
+        </div>
+    </div>
+</section>

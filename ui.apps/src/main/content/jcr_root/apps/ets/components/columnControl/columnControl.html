@@ -1,0 +1,29 @@
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !properties.columnSelect,classAppend='cmp-text'}"></sly>
+
+<section data-sly-test="${properties.columnSelect}">
+	<div class="container">
+		<div data-sly-test="${properties.columnSelect=='side-nav'}" class="row cmp-container--body">
+			<div class="col-md-4 col-lg-3">
+				<div data-sly-resource="${'column-one' @ resourceType='wcm/foundation/components/parsys'}"></div>
+			</div>
+			<div class="col-md-8 col-lg-9 side-nav-container">
+				<div data-sly-resource="${'column-two' @ resourceType='wcm/foundation/components/parsys'}"></div>
+			</div>
+		</div>
+		<div data-sly-test="${properties.columnSelect=='half-width'}" class="row cmp-container--body">
+			<div class="col-md-6">
+				<div data-sly-resource="${'column-one' @ resourceType='wcm/foundation/components/parsys'}"></div>
+			</div>
+			<div class="col-md-6">
+				<div data-sly-resource="${'column-two' @ resourceType='wcm/foundation/components/parsys'}"></div>
+			</div>
+		</div>
+		<div data-sly-test="${properties.columnSelect=='col-10'}" class="cmp-container--body">
+			<div class="col-lg-10 mx-auto">
+				<div data-sly-resource="${'column-one' @ resourceType='wcm/foundation/components/parsys'}"></div>
+			</div>
+		</div>
+	</div>
+</section>

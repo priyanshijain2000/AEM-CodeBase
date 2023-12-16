@@ -1,0 +1,1545 @@
+{
+    "essential_acceptance": [{
+            "Program": "English taught programs",
+            "Country": "Belgium",
+            "Institution": "UC Leuven Limburg",
+            "State/Province": ""
+        },
+        {
+            "Program": "",
+            "Country": "Brazil",
+            "Institution": "Federal University of Minas Gerais (Universidade Federal de Minas Gerais)",
+            "State/Province": "Minas Gerais"
+        },
+        {
+            "Program": "Private High School",
+            "Country": "Canada",
+            "Institution": "Fort Erie International Academy",
+            "State/Province": "Ontario"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "Canada",
+            "Institution": "University of Ottawa",
+            "State/Province": "Ontario"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "China",
+            "Institution": "China University of Petroleum",
+            "State/Province": "Beijing"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "China",
+            "Institution": "China University of Petroleum",
+            "State/Province": "Beijing"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "China",
+            "Institution": "Chongqing University of Posts and Telecommunications",
+            "State/Province": "Chongqing"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "China",
+            "Institution": "Chongqing University of Posts and Telecommunications",
+            "State/Province": "Chongqing"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "China",
+            "Institution": "Huazhong University of Science and Technology",
+            "State/Province": "Hubei"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "China",
+            "Institution": "Huazhong University of Science and Technology",
+            "State/Province": "Hubei"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "China",
+            "Institution": "Wuhan University of Technology",
+            "State/Province": "Hubei"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "China",
+            "Institution": "Wuhan University of Technology",
+            "State/Province": "Hubei"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "China",
+            "Institution": "Nanjing Agricultural University",
+            "State/Province": "Jiangsu"
+        },
+        {
+            "Program": "Undergraduate ",
+            "Country": "China",
+            "Institution": "Nanjing Agricultural University",
+            "State/Province": "Jiangsu"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "China",
+            "Institution": "Nanjing University",
+            "State/Province": "Jiangsu"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "China",
+            "Institution": "City University of Macau",
+            "State/Province": "Macau"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "China",
+            "Institution": "Nanjing University of Information Science and Techonology",
+            "State/Province": "Nanjing"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "China",
+            "Institution": "Nanjing University of Information Science and Techonology",
+            "State/Province": "Nanjing"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "China",
+            "Institution": "Northwestern Polytechnical University ",
+            "State/Province": "Shaanxi"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "China",
+            "Institution": "Northwestern Polytechnical University ",
+            "State/Province": "Shaanxi"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "China",
+            "Institution": "China University of Petroleum (East China)",
+            "State/Province": "Shandong"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "China",
+            "Institution": "China University of Petroleum (East China)",
+            "State/Province": "Shandong"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "China",
+            "Institution": "Shandong University",
+            "State/Province": "Shandong"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "China",
+            "Institution": "Shandong University",
+            "State/Province": "Shandong"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "China",
+            "Institution": "East China University of Science and Technology",
+            "State/Province": "Shanghai"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "China",
+            "Institution": "Shanghai University",
+            "State/Province": "Shanghai"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "China",
+            "Institution": "Shanghai University",
+            "State/Province": "Shanghai"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "China",
+            "Institution": "University of Michigan - Shanghai Jiao Tong University Joint Institute",
+            "State/Province": "Shanghai"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "China",
+            "Institution": "Wenzhou University",
+            "State/Province": "Zhejiang"
+        },
+        {
+            "Program": "Undergraduate ",
+            "Country": "China",
+            "Institution": "Wenzhou University",
+            "State/Province": "Zhejiang"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "China",
+            "Institution": "Wenzhou-Kean University",
+            "State/Province": "Zhejiang"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "China",
+            "Institution": "Zhejiang University of Science and Technology",
+            "State/Province": "Zhejiang"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "China",
+            "Institution": "Zhejiang University of Science and Technology",
+            "State/Province": "Zhejiang"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "Finland",
+            "Institution": "University of Eastern Finland",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Global MBA",
+            "Country": "France",
+            "Institution": "ESSEC Business School",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Artist Diploma",
+            "Country": "Germany",
+            "Institution": "Barenboim-Said Akademie",
+            "State/Province": "Berlin"
+        },
+        {
+            "Program": "Bachelor of Music",
+            "Country": "Germany",
+            "Institution": "Barenboim-Said Akademie",
+            "State/Province": "Berlin"
+        },
+        {
+            "Program": "Preparatory Program",
+            "Country": "Germany",
+            "Institution": "Barenboim-Said Akademie",
+            "State/Province": "Berlin"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "Germany",
+            "Institution": "Bard College Berlin ",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "IPADS",
+            "Country": "Japan",
+            "Institution": "The University of Tokyo - Graduate School of Agricultural and Life Sciences",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "Korea (ROK)",
+            "Institution": "SUNY Korea",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "Malaysia",
+            "Institution": "Malaysia Sabah University (Universiti Malaysia Sabah)",
+            "State/Province": "Sabah"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "Malaysia",
+            "Institution": "Malaysia Sabah University (Universiti Malaysia Sabah)",
+            "State/Province": "Sabah"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "Qatar",
+            "Institution": "Texas A\u0026M University at Qatar",
+            "State/Province": "Al Rayyan"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "Qatar",
+            "Institution": "Texas A\u0026M University at Qatar",
+            "State/Province": "Al Rayyan"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "Singapore",
+            "Institution": "ESSEC Business School MBA, Asia-Pacific",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Fulbright Spain Predoctoral Research Program",
+            "Country": "Spain",
+            "Institution": "Fulbright Espana",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Bridge Program",
+            "Country": "Spain",
+            "Institution": "Saint Louis University - Madrid",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Executive MBA Program ",
+            "Country": "Sweden",
+            "Institution": "Stockholm School of Economics",
+            "State/Province": "\nSödermanland and Uppland"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "Switzerland",
+            "Institution": "EU Business School",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "Switzerland",
+            "Institution": "EU Business School",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Graduate*",
+            "Country": "United Kingdom",
+            "Institution": "London School of Economics and Political Science",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Graduate*",
+            "Country": "United Kingdom",
+            "Institution": "University for the Creative Arts",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Undergraduate*",
+            "Country": "United Kingdom",
+            "Institution": "University for the Creative Arts",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United Kingdom",
+            "Institution": "University of Edinburgh",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United Kingdom",
+            "Institution": "University of Edinburgh",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "The University of Alabama at Birmingham - Graduate School",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "The University of Alabama in Huntsville",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "The University of Alabama in Huntsville",
+            "State/Province": "Alabama"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "University of Arizona",
+            "State/Province": "Arizona"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "University of Arizona",
+            "State/Province": "Arizona"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Arkansas Tech University",
+            "State/Province": "Arkansas"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Arkansas Tech University",
+            "State/Province": "Arkansas"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "California College of the Arts",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "California College of the Arts",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate ",
+            "Country": "United States",
+            "Institution": "California Institute of Technology",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "De Anza College",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Dominican University of California",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate ",
+            "Country": "United States",
+            "Institution": "Foothill College",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Fuller Theological Seminary",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Fuller Theological Seminary",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Los Angeles Pierce College",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Northwestern Polytechnic University ",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Pitzer College",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Pitzer College",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Sourthern California Institute of Architecture",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate ",
+            "Country": "United States",
+            "Institution": "Sourthern California Institute of Architecture",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Stanford University",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "University of La Verne",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "University of La Verne",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "University of San Francisco",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Westcliff University",
+            "State/Province": "California"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Colorado College",
+            "State/Province": "Colorado"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "Sacred Heart University",
+            "State/Province": "Connecticut"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Sacred Heart University",
+            "State/Province": "Connecticut"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "University of Hartford",
+            "State/Province": "Connecticut"
+        },
+        {
+            "Program": "Graduate (Master\u0027s Programs only)",
+            "Country": "United States",
+            "Institution": "Goldey-Beacom College",
+            "State/Province": "Delaware"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Goldey-Beacom College",
+            "State/Province": "Delaware"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "University of Delaware",
+            "State/Province": "Delaware"
+        },
+        {
+            "Program": "Undergraduate ",
+            "Country": "United States",
+            "Institution": "University of Delaware",
+            "State/Province": "Delaware"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Broward College",
+            "State/Province": "Florida"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Daytona State College",
+            "State/Province": "Florida"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Florida State College at Jacksonville",
+            "State/Province": "Florida"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Gulf Coast State College",
+            "State/Province": "Florida"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Miami Dade College",
+            "State/Province": "Florida"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Nova Southeastern",
+            "State/Province": "Florida"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Nova Southeastern",
+            "State/Province": "Florida"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Stetson University",
+            "State/Province": "Florida"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Stetson University",
+            "State/Province": "Florida"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "University of South Florida",
+            "State/Province": "Florida"
+        },
+        {
+            "Program": "Undergaduate",
+            "Country": "United States",
+            "Institution": "University of South Florida",
+            "State/Province": "Florida"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Augustana College",
+            "State/Province": "Illinois"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "De Paul University",
+            "State/Province": "Illinois"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Illinois State University",
+            "State/Province": "Illinois"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Illinois State University",
+            "State/Province": "Illinois"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Lewis University",
+            "State/Province": "Illinois"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Lewis University",
+            "State/Province": "Illinois"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "School of the Art Institute of Chicago",
+            "State/Province": "Illinois"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "School of the Art Institute of Chicago",
+            "State/Province": "Illinois"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Western Illinois University",
+            "State/Province": "Illinois"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Western Illinois University",
+            "State/Province": "Illinois"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Anderson University",
+            "State/Province": "Indiana"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Indiana University - Purdue University Indianapolis (IUPUI)",
+            "State/Province": "Indiana"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Purdue University",
+            "State/Province": "Indiana"
+        },
+        {
+            "Program": "Graduate*",
+            "Country": "United States",
+            "Institution": "Purdue University Northwest",
+            "State/Province": "Indiana"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "University of Notre Dame",
+            "State/Province": "Indiana"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Grinnell College",
+            "State/Province": "Iowa"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Luther College",
+            "State/Province": "Iowa"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "University of Iowa",
+            "State/Province": "Iowa"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "University of Northern Iowa ",
+            "State/Province": "Iowa"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Kansas State University",
+            "State/Province": "Kansas"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Kansas State University",
+            "State/Province": "Kansas"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Wichita State University",
+            "State/Province": "Kansas"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Wichita State University",
+            "State/Province": "Kansas"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Campbellsville University",
+            "State/Province": "Kentucky"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "University of Louisiana at Lafayette",
+            "State/Province": "Louisiana"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Bates College",
+            "State/Province": "Maine"
+        },
+        {
+            "Program": "Undergraduate ",
+            "Country": "United States",
+            "Institution": "University of Maine Orono",
+            "State/Province": "Maine"
+        },
+        {
+            "Program": "College-preparatory",
+            "Country": "United States",
+            "Institution": "Glenelg Country School",
+            "State/Province": "Maryland"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Loyola University Maryland",
+            "State/Province": "Maryland"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Loyola University Maryland",
+            "State/Province": "Maryland"
+        },
+        {
+            "Program": "9-12 Grades",
+            "Country": "United States",
+            "Institution": "Washington Christian Academy",
+            "State/Province": "Maryland"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Anna Maria College",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Boston University",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "Boston University College of Fine Arts",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Boston University Metropolitan College",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "Boston University Questrom School of Business",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Boston University School of Education and Human Development ",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Bunker Hill Community College",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Clark University",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Clark University",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "Massachusetts College of Art and Design",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Massachusetts College of Art and Design",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Massachusetts Institute of Technology",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Undergraduate*",
+            "Country": "United States",
+            "Institution": "Mount Holyoke College",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Suffolk University",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Suffolk University",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "University of Massachusetts-Dartmouth",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Wellesley College",
+            "State/Province": "Massachusetts"
+        },
+        {
+            "Program": "Undergraduate ",
+            "Country": "United States",
+            "Institution": "Kettering University ",
+            "State/Province": "Michigan"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "University of Michigan",
+            "State/Province": "Michigan"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Augsburg University",
+            "State/Province": "Minnesota"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Macalester College",
+            "State/Province": "Minnesota"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Saint Paul College",
+            "State/Province": "Minnesota"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "St. Catherine\u0027s University",
+            "State/Province": "Minnesota"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "St. Catherine\u0027s University",
+            "State/Province": "Minnesota"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Mississippi College",
+            "State/Province": "Mississippi"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Mississippi College",
+            "State/Province": "Mississippi"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Mississippi State University",
+            "State/Province": "Mississippi"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Mississippi State University",
+            "State/Province": "Mississippi"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "University of Mississippi",
+            "State/Province": "Mississippi"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "University of Mississippi",
+            "State/Province": "Mississippi"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "St. Louis University",
+            "State/Province": "Missouri"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "St. Louis University",
+            "State/Province": "Missouri"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Truman State University",
+            "State/Province": "Missouri"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Truman State University",
+            "State/Province": "Missouri"
+        },
+        {
+            "Program": "6-12 Grade",
+            "Country": "United States",
+            "Institution": "Faith Lutheran Middle School \u0026 High School",
+            "State/Province": "Nevada"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "University of New Hampshire, Graduate School",
+            "State/Province": "New Hampshire"
+        },
+        {
+            "Program": "9-12 Grade",
+            "Country": "United States",
+            "Institution": "Blair Academy",
+            "State/Province": "New Jersey"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Montclair State University",
+            "State/Province": "New Jersey"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "Stevens Institute of Technology",
+            "State/Province": "New Jersey"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Stevens Institute of Technology",
+            "State/Province": "New Jersey"
+        },
+        {
+            "Program": "J1 Visas",
+            "Country": "United States",
+            "Institution": "Eastern New Mexico University",
+            "State/Province": "New Mexico"
+        },
+        {
+            "Program": "Undergraduate ",
+            "Country": "United States",
+            "Institution": "Binghamton University",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "3+2 International Partnership Programs",
+            "Country": "United States",
+            "Institution": "Binghamton University - Thomas J. Watson College of Engineering and Applied Science",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "Binghamton University The Graduate School",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Cornell University",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Hofstra University",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Hofstra University",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Pace University New York City Campus",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Pace University Westchester Campus",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "English and Visual Arts Program",
+            "Country": "United States",
+            "Institution": "School of Visual Arts",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "School of Visual Arts",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Simon Graduate School of Business University of Rochester",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "State University of New York at Oswego",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Stony Brook University",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "High School",
+            "Country": "united States",
+            "Institution": "The Masters School",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "University at Buffalo",
+            "State/Province": "New York"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "North Carolina State University",
+            "State/Province": "North Carolina"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Wake Forest University Graduate School of Business",
+            "State/Province": "North Carolina"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Bowling Green State University",
+            "State/Province": "Ohio"
+        },
+        {
+            "Program": "Undgergraduate",
+            "Country": "United States",
+            "Institution": "College of Wooster",
+            "State/Province": "Ohio"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Denison University",
+            "State/Province": "Ohio"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Miami University ",
+            "State/Province": "Ohio"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Ohio Wesleyan University",
+            "State/Province": "Ohio"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Bryn Mawr College",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Bryn Mawr College",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Heinz College",
+            "Country": "United States",
+            "Institution": "Carnegie Mellon University",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Carnegie Mellon University",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Undergraduate*",
+            "Country": "United States",
+            "Institution": "Dickinson College",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Drexel University",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Lock Haven University",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Mercyhurst University",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Mercyhurst University",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "High School",
+            "Country": "United States",
+            "Institution": "Perkiomen School",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "Saint Joseph\u0027s University",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Undergraduate ",
+            "Country": "United States",
+            "Institution": "Saint Joseph\u0027s University",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "Temple University",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Temple University",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Law",
+            "Country": "United States",
+            "Institution": "Temple University Beasley School of Law",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "Trinity School for Ministry",
+            "State/Province": "Pennsylvania"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Bob Jones University",
+            "State/Province": "South Carolina"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Bob Jones University",
+            "State/Province": "South Carolina"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Clemson University ",
+            "State/Province": "South Carolina"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Clemson University ",
+            "State/Province": "South Carolina"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "South Dakota State University",
+            "State/Province": "South Dakota"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "South Dakota State University",
+            "State/Province": "South Dakota"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Lipscomb University",
+            "State/Province": "Tennessee"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Vanderbilt University",
+            "State/Province": "Tennessee"
+        },
+        {
+            "Program": "MBA",
+            "Country": "United States",
+            "Institution": "Vanderbilt University Owen Graduate School of Management",
+            "State/Province": "Tennessee"
+        },
+        {
+            "Program": "Master of Social Work - Online",
+            "Country": "United States",
+            "Institution": "Baylor University",
+            "State/Province": "Texas"
+        },
+        {
+            "Program": "Master of Social Work - Residential",
+            "Country": "United States",
+            "Institution": "Baylor University",
+            "State/Province": "Texas"
+        },
+        {
+            "Program": "9-12 Grade",
+            "Country": "United States",
+            "Institution": "First Baptist Christian Academy",
+            "State/Province": "Texas"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Tarleton State University-Stephenville",
+            "State/Province": "Texas"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Texas A\u0026M University",
+            "State/Province": "Texas"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Texas A\u0026M University",
+            "State/Province": "Texas"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Texas A\u0026M University - Galveston",
+            "State/Province": "Texas"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Texas A\u0026M University - Galveston",
+            "State/Province": "Texas"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "University of Texas-El Paso",
+            "State/Province": "Texas"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "University of Texas-El Paso",
+            "State/Province": "Texas"
+        },
+        {
+            "Program": "Master of Physician Assistant Studies",
+            "Country": "United States",
+            "Institution": "UT Southwestern Medical Center",
+            "State/Province": "Texas"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Southern Utah University",
+            "State/Province": "Utah"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Southern Utah University",
+            "State/Province": "Utah"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Weber State University",
+            "State/Province": "Utah"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Weber State University",
+            "State/Province": "Utah"
+        },
+        {
+            "Program": "High School",
+            "Country": "United States",
+            "Institution": "Episcopal High School",
+            "State/Province": "Virginia"
+        },
+        {
+            "Program": "INTO Pathway Programs",
+            "Country": "United States",
+            "Institution": "George Mason University",
+            "State/Province": "Virginia"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "Liberty University",
+            "State/Province": "Virginia"
+        },
+        {
+            "Program": "Undergraduate ",
+            "Country": "United States",
+            "Institution": "Liberty University",
+            "State/Province": "Virginia"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "Virginia Commonwealth University",
+            "State/Province": "Virginia"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Virginia Commonwealth University",
+            "State/Province": "Virginia"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Washington State University",
+            "State/Province": "Washington"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Cascadia College",
+            "State/Province": "Washington  "
+        },
+        {
+            "Program": "International Fellowships",
+            "Country": "United States",
+            "Institution": "American Association of University Women",
+            "State/Province": "Washington, DC"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "American University ",
+            "State/Province": "Washington, DC"
+        },
+        {
+            "Program": "Graduate ",
+            "Country": "United States",
+            "Institution": "Georgetown University",
+            "State/Province": "Washington, DC"
+        },
+        {
+            "Program": "McDonough School of Business",
+            "Country": "United States",
+            "Institution": "Georgetown University",
+            "State/Province": "Washington, DC"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Georgetown University",
+            "State/Province": "Washington, DC"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "The George Washington University",
+            "State/Province": "Washington, DC"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Appalachian Bible College",
+            "State/Province": "West Virginia"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Appalachian Bible College",
+            "State/Province": "West Virginia"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Beloit College",
+            "State/Province": "Wisconsin"
+        },
+        {
+            "Program": "Graduate",
+            "Country": "United States",
+            "Institution": "Carroll University",
+            "State/Province": "Wisconsin"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Carroll University",
+            "State/Province": "Wisconsin"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "Marquette University",
+            "State/Province": "Wisconsin"
+        },
+        {
+            "Program": "Doctor of Physical Therapy (DPT)",
+            "Country": "United States",
+            "Institution": "University of Wisconsin - Madison",
+            "State/Province": "Wisconsin"
+        },
+        {
+            "Program": "Undergraduate",
+            "Country": "United States",
+            "Institution": "University of Wyoming",
+            "State/Province": "Wyoming"
+        }
+    ]
+}

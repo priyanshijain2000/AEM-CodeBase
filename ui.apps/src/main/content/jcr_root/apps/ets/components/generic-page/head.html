@@ -1,0 +1,108 @@
+<!--/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright 2016 Adobe
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
+<template data-sly-template.head="${ @ page, pwa }" data-sly-use.headlibRenderer="headlibs.html"
+    data-sly-use.headResources="head.resources.html">
+    <meta charset="UTF-8">
+    <title>${page.title}${page.brandSlug ? ' | ' : ''}${page.brandSlug}</title>
+    <sly data-sly-use.metaProperties="org.ets.core.models.PageMetadataModel"></sly>
+    <meta data-sly-test.tags="${page.keywords}" name="tags" content="${tags}" />
+    <meta data-sly-test.keywords="${pageProperties.keywords}" name="keywords" content="${keywords}" />
+    <meta data-sly-test.description="${page.description || properties['jcr:description']}" name="description"
+        content="${description}" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta data-sly-test.templateName="${page.templateName}" name="template" content="${templateName}" />
+    <meta data-sly-test.category="${metaProperties.categoryLists}" name="category" content="${category}" />
+    <meta data-sly-test.shortTitle="${pageProperties.shortTitle}" name="shortTitle" content="${shortTitle}" />
+    <meta data-sly-test.shortDescription="${pageProperties.shortDescription}" name="shortDescription"
+        content="${shortDescription}" />
+    <meta data-sly-test.contentType="${metaProperties.contentType}" name="contentType" content="${contentType}" />
+    <meta data-sly-test.author="${pageProperties.author}" name="author" content="${metaProperties.cfLists}" />
+    <meta data-sly-test.articlePublishDate="${metaProperties.publishDate}" name="articlePublishDate"
+        content="${metaProperties.publishDate}" />
+    <meta data-sly-test="${page.robotsTags}" name="robots" content="${page.robotsTags @ join=', '}">
+    <sly data-sly-test="${pwa.enabled}">
+        <link rel="manifest" href="${pwa.manifestPath}" crossorigin="use-credentials" />
+        <meta name="theme-color" content="${pwa.themeColor}" />
+        <link rel="apple-touch-icon" href="${pwa.iconPath}" />
+        <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+            data-sly-call="${clientlib.css @ categories='core.wcm.components.page.v2.pwa'}"></sly>
+        <meta name="cq:sw_path" content="${pwa.serviceWorkerPath @ context ='text'}" />
+    </sly>
+    <sly data-sly-test.appResourcesPath=${page.appResourcesPath}
+        data-sly-call="${headResources.favicons @ path = appResourcesPath}"></sly>
+    <sly data-sly-include="head.links.html"></sly>
+    <sly data-sly-include="customheaderlibs.html"></sly>
+    <sly data-sly-include="head.socialmedia.html"></sly>
+    <script integrity="sha256-XfleWPSUCDliao4j9tYGhjM/3as+7MakQbdmfjYA0Go=">
+        !function (e, a, n, t) {
+            if (a) return;
+            var i = e.head; if (i) {
+                var o = e.createElement("style");
+                o.id = "alloy-prehiding", o.innerText = n, i.appendChild(o),
+                    setTimeout(function () { o.parentNode && o.parentNode.removeChild(o) }, t)
+            }
+        }
+            (document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, "body { opacity: 0 !important }", 3000);
+    </script>
+
+    <sly data-sly-call="${headlibRenderer.headlibs @
+                        designPath                = page.designPath,
+                        staticDesignPath          = page.staticDesignPath,
+                        clientLibCategories       = page.clientLibCategories,
+                        clientLibCategoriesJsHead = page.clientLibCategoriesJsHead,
+                        hasCloudconfigSupport     = page.hasCloudconfigSupport}"></sly>
+
+    <sly data-sly-list="${page.htmlPageItems}">
+        <script data-sly-test="${item.location.name == 'header'}"
+            data-sly-element="${item.element.name @ context='unsafe'}" data-sly-attribute="${item.attributes}"></script>
+    </sly>
+    <!-- Global Google Tag Manager Script start -->
+    <script>
+        window.adobeDataLayer = window.adobeDataLayer || [];
+        var geoLocationCookie = document.cookie.match('(^|;) ?' + 'geo_loc' + '=([^;]*)(;|$)');
+        var geoLocationCountry = '';
+        if (geoLocationCookie) {
+            var splitReadCookie = geoLocationCookie[2].split(",");
+            for (i = 0; i < splitReadCookie.length; i++) {
+                var value = splitReadCookie[i];
+                value = value.split("=");
+                if (value[0].trim() == "country") {
+                    geoLocationCountry = value[1];
+                    window.countryCode = geoLocationCountry;
+                }
+            }
+        }
+        var langCode = document.documentElement.lang;
+        const languageFormat = new Intl.DisplayNames(['en'], { type: 'language' });
+        var languageName = languageFormat.of(langCode);
+        window.adobeDataLayer.push({
+            pageData: {
+                pageDetail: {
+                    pagename: geoLocationCountry + ":" + languageName + ":" + "${currentPage.getName @ context='scriptString'}",
+                    language: languageName,
+                    category: "${metaProperties.category @ context='scriptString'}",
+                    category_level1: "${metaProperties.categoryLevel1 @ context='scriptString'}",
+                    category_level2: "${metaProperties.categoryLevel2 @ context='scriptString'}",
+                    category_level3: "${metaProperties.categoryLevel3 @ context='scriptString'}",
+                }
+            }
+        });
+    </script>
+    <!-- Global Google Tag Manager Script end -->
+</template>

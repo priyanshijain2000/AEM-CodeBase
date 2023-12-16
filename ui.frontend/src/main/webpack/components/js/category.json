@@ -1,0 +1,21 @@
+{
+    "collection": [
+      
+     
+      {
+        "title": "ETS Launches Business School Advisory Council in India",
+        "description": "ETS, the world?s largest, nonprofit educational assessment, measurement, research and learning organization .",
+        "image": "/src/main/webpack/resources/images/article_banner.png",
+        "path": "/content/ets-org/language-masters/en/home/basic-page",
+        "date": "2021-12-09T00:00:00.000+05:30"
+      },
+      {
+        "title": "ETS Launches Business School Advisory Council in India",
+        "description": "ETS, the world?s largest, nonprofit educational assessment, measurement, research and learning organization .",
+        "image": "/src/main/webpack/resources/images/subsidiaries-icon.svg",
+        "path": "/content/ets-org/language-masters/en/home/contact",
+        "date": "2021-12-09T00:00:00.000+05:30"
+      }
+     
+    ]
+  }

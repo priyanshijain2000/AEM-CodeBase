@@ -1,0 +1,66 @@
+<sly data-sly-use.researcherInfo="org.ets.core.models.ResearcherInfoDetailsModel"/>
+<section>
+    <div class="researcher-template">
+        <div class="cmp-container--body">
+            <h1 class="heading1">${researcherInfo.title}</h1>
+            <dl class="report-info">
+            	<sly data-sly-test="${researcherInfo.authors}">
+	                <dt>${currentStyle.authorsField}:</dt>
+	                <sly data-sly-use.researcherObj="org.ets.core.models.ResearcherAuthorLink"></sly>
+	                <dd class="last" data-sly-list.author=${researcherObj.getAuthorLinks}>
+	                    <a data-sly-unwrap="${!author.link}" href="${author.link @extension='html'}">
+	                		${author.name}${authorList.last?'':'; '}
+	                	</a>
+	                </dd>
+                </sly>
+                <sly data-sly-test="${researcherInfo.year}">
+                <dt>${currentStyle.yearField}:</dt>
+                <dd class="last">${researcherInfo.year}</dd>
+                </sly>
+                <sly data-sly-test="${researcherInfo.reportNumber}">
+                <dt>${currentStyle.reportNumberField}:</dt>
+                <dd class="last">
+                	<sly data-sly-list.reportItem="${researcherInfo.reportNumber}">${reportItem}${reportItemList.last?'':', '}</sly>
+                </dd>
+                </sly>
+                <sly data-sly-test="${researcherInfo.source}">
+                <dt>${currentStyle.sourceField}:</dt>
+                <dd class="last">
+                	<sly data-sly-list.multiItem="${researcherInfo.source}">${multiItem}${multiItemList.last?'':', '}</sly>
+                </dd>
+                </sly>
+                <sly data-sly-test="${researcherInfo.publicationType}">
+                <dt>${currentStyle.publicationTypeField}:</dt>
+                <dd class="last">${researcherInfo.publicationType}</dd>
+                </sly>
+                <sly data-sly-test="${researcherInfo.numPages}">
+                <dt>${currentStyle.numPagesField}:</dt>
+                <dd class="last">${researcherInfo.numPages}</dd>
+                </sly>
+                <sly data-sly-test="${researcherInfo.keywords}">
+                <dt>${currentStyle.keywordsField}:</dt>
+                <dd class="last" data-sly-list.keywordsItem=${researcherInfo.keywords}>
+                    <a href="${currentStyle.searchPage @extension='html'}?qt=${keywordsItem}">
+                    	${keywordsItem}${keywordsItemList.last?'':', '}
+                    </a>
+                </dd>
+                </sly>
+            </dl>
+			<sly data-sly-test="${researcherInfo.bodyDescription}">
+	            <h2 class="heading4">${currentStyle.bodyDescriptionField}</h2>
+	            <p>${researcherInfo.bodyDescription}</p>
+            </sly>
+            <sly data-sly-test="${researcherInfo.url || researcherInfo.publicationType=='Report'}">
+	            <h2 class="heading4">${currentStyle.urlField}</h2>
+	            <ul>
+	            	<li data-sly-test="${researcherInfo.publicationType=='Report'}">
+						${currentStyle.reportRequestCopy @context='html'}
+					</li>
+	                <li data-sly-test="${researcherInfo.url}">
+	                    <a href="${researcherInfo.url}" class="break-all" aria-label="${researcherInfo.arialabelURL}" target="_blank" rel="noopener noreferrer">${researcherInfo.url}</a>
+	                </li>
+	            </ul>
+			</sly>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,46 @@
+.loader {
+    display: none;
+    column-gap: 0.938rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, .2);
+    z-index: 4;
+    &--container {
+        display: flex;
+        flex-flow: column;
+        background-color: white;
+        align-items: center;
+        row-gap: 10px;
+        box-shadow: 4px 8px 25px rgb(0 0 0 / 40%);
+        padding: 40px 55px;
+        border-radius: 10px;
+    }
+    img {
+        width: 60px!important;
+        height: 60px!important;
+    }
+    @include viewport(only-mobile) {
+        flex-flow: column;
+        row-gap: 0.938rem;
+    }
+    label {
+        @include fontsize( 0.875rem, 1.313rem, $normal, $color-ETS-bodyblack, initial);
+    }
+    &+span.hiddenStatus{
+        height: 0;
+        width: 0;
+        overflow: hidden;
+        display: block;
+    }
+}
+.dropdownHiddenStatus {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    display: block;
+}

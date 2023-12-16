@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="Praxis">
+    <test-experience-fragment/>
+    <test2-experience-fragment/>
+    <preparation_material/>
+    <state/>
+    <header-navigation/>
+</jcr:root>

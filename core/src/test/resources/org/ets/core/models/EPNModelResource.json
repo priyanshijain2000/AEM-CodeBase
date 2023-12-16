@@ -1,0 +1,13 @@
+{
+	"epn": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"jcr:lastModifiedBy": "admin",
+		"jcr:created": "Wed Aug 23 2023 23:58:13 GMT-0400",
+		"path": "/content/dam/ets-org/s/epn/epn_directory.json",
+		"jcr:lastModified": "Wed Aug 23 2023 23:58:55 GMT-0400",
+		"sling:resourceType": "ets/components/epn",
+		"placeholder1": "Country",
+		"placeholder2": "Product"
+	}
+}

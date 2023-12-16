@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="/conf/ets/settings/wcm/templates/(?!xf-).*"
+        cq:conf="/conf/ets"
+        cq:lastModified="{Date}2022-04-20T10:38:20.558Z"
+        cq:lastModifiedBy="pselvam@ets.org"
+        cq:lastReplicated="{Date}2022-04-14T14:44:49.358Z"
+        cq:lastReplicated_preview="{Date}2022-03-14T04:44:48.822Z"
+        cq:lastReplicated_publish="{Date}2022-04-14T14:44:49.358Z"
+        cq:lastReplicatedBy="anand.a.bisht@avanade.com"
+        cq:lastReplicatedBy_preview="anand.a.bisht@avanade.com"
+        cq:lastReplicatedBy_publish="anand.a.bisht@avanade.com"
+        cq:lastReplicationAction="Deactivate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Deactivate"
+        cq:redirectTarget="/content/ets/us/en"
+        cq:template="/conf/ets/settings/wcm/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="EDUCATIONAL TESTING SERVICES"
+        jcr:uuid="8cb9387d-dbe8-4d4e-9e9e-f8fbd1d27b72"
+        sling:configRef="/conf/ets"
+        sling:redirect="true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="ets/components/page"
+        embedID="45010862"
+        partnerID="_1407311"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <language-master/>
+</jcr:root>

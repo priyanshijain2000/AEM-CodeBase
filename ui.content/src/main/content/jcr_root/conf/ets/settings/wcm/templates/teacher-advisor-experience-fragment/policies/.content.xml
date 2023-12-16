@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-12-01T12:08:08.988Z"
+        cq:lastModifiedBy="PJAIN003@ets.org"
+        cq:lastReplicated="{Date}2022-12-01T12:08:17.555Z"
+        cq:lastReplicated_preview="{Date}2023-02-13T10:23:09.841Z"
+        cq:lastReplicated_publish="{Date}2022-12-01T12:08:17.555Z"
+        cq:lastReplicatedBy="PJAIN003@ets.org"
+        cq:lastReplicatedBy_preview="RBOPPANA@ets.org"
+        cq:lastReplicatedBy_publish="PJAIN003@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:policy="ets/components/xfpage/policy_1649854452212"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="f6b0a120-0871-4c99-9b82-2d393d79a076"
+        sling:resourceType="wcm/core/components/policies/mappings">
+        <root
+            cq:policy="ets/components/container/policy_1575040440977"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <ets jcr:primaryType="nt:unstructured">
+                <components jcr:primaryType="nt:unstructured">
+                    <contactTable
+                        cq:policy="ets/components/contactTable/policy_1669896418199"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                </components>
+            </ets>
+        </root>
+    </jcr:content>
+</jcr:root>

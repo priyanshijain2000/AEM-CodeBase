@@ -1,0 +1,12 @@
+
+<template data-sly-template.variation1="${@ inputData}">
+    <section class="toefl-contactus-filter cmp-container--body">
+	<div data-sly-test="${inputData.sectionTitle}" class="toefl-contactus-filter__title">${inputData.sectionTitle @context='html'}</div>
+    <select class="toefl-contactus-dropdown" id="toefl-contactus" data-toefl-contactus-path="${inputData.json}" data-placeholder="${inputData.placeholderText}" aria-label="${inputData.inputAriaLabel}"><option></option></select>
+    <table class="toefl-contactus-filter__table">
+        <tbody class="toefl-contactus-filter__table__content" role="presentation">
+
+        </tbody>
+    </table>
+</section>
+</template>

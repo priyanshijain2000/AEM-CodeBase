@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Researcher Info Details"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    helpPath="https://www.adobe.com/go/aem_cmp_image_v3">
+    <content
+        granite:class="cmp-image__editor"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Main"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <content
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container"
+                                margin="{Boolean}false">
+                                <items jcr:primaryType="nt:unstructured">
+                                 <etsAuthor
+                                        cq:showOnCreate="{Boolean}true"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="ETS Patent"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/fieldset">
+                                        <items jcr:primaryType="nt:unstructured">
+                                           <searchPage
+		                                       jcr:primaryType="nt:unstructured"
+		                                       sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+		                                       fieldLabel="Choose search page"
+		                                       name="./searchPage"/>
+		                                   <authorsfield
+		                                       jcr:primaryType="nt:unstructured"
+		                                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+		                                       fieldLabel="Author(s)"
+		                                       value="Author(s)"
+		                                       name="./authorsField"/>
+		                                   <yearfield
+		                                       jcr:primaryType="nt:unstructured"
+		                                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+		                                       fieldLabel="Patent Issued"
+		                                       value="Patent Issued"
+		                                       name="./yearField"/>
+		                                   <reportnumberfield
+		                                       jcr:primaryType="nt:unstructured"
+		                                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+		                                       fieldLabel="Patent Number"
+		                                       value="Patent Number"
+		                                       name="./reportNumberField"/>
+		                                   <sourcefield
+		                                       jcr:primaryType="nt:unstructured"
+		                                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+		                                       fieldLabel="Source label"
+		                                       value="Source"
+		                                       name="./sourceField"/>
+		                                   <publicationtypefield
+		                                       jcr:primaryType="nt:unstructured"
+		                                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+		                                       fieldLabel="Document Type"
+		                                       value="Document Type"
+		                                       name="./publicationTypeField"/>
+		                                   <numpagesfield
+		                                       jcr:primaryType="nt:unstructured"
+		                                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+		                                       fieldLabel="Family ID"
+		                                       value="Family ID"
+		                                       name="./numPagesField"/>
+		                                   <keywordsListfield
+		                                       jcr:primaryType="nt:unstructured"
+		                                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+		                                       fieldLabel="Subject/Key Words"
+		                                       value="Subject/Key Words"
+		                                       name="./keywordsField"/>
+		                                   <bodydescriptionfield
+		                                       jcr:primaryType="nt:unstructured"
+		                                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+		                                       fieldLabel="Abstract"
+		                                       value="Abstract"
+		                                       name="./bodyDescriptionField"/>
+		                                   <urlfield
+		                                       jcr:primaryType="nt:unstructured"
+		                                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+		                                       fieldLabel="Read More"
+		                                       value="Read More"
+		                                       name="./urlField"/>
+		                                   <sourceValue
+		                                       jcr:primaryType="nt:unstructured"
+		                                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+		                                       fieldLabel="Source value"
+		                                       value="ETS Patent"
+		                                       name="./sourceValue"/>
+		                                   <docType
+		                                       jcr:primaryType="nt:unstructured"
+		                                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+		                                       fieldLabel="Document type for patent"
+		                                       value="Patent"
+		                                       name="./docType"/>
+		                                   </items>
+                                    </etsAuthor>
+                                </items>
+                            </content>
+                        </items>
+                    </properties>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

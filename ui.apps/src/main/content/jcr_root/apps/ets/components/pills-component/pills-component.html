@@ -1,0 +1,11 @@
+<sly data-sly-use.pills="org.ets.core.models.PillsModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = true, classAppend='cmp-text'}"></sly>
+
+<sly data-sly-test="${pills.pageType=='generic'}" data-sly-include="${pills.genericPill}"></sly>
+<sly data-sly-test="${pills.pageType=='praxis'}" data-sly-include="${pills.praxisPill}"></sly>
+<sly data-sly-test="${pills.pageType=='toefl'}" data-sly-include="${pills.toeflPill}"></sly>
+<sly data-sly-test="${pills.pageType=='toeic'}" data-sly-include="${pills.toeicPill}"></sly>
+<sly data-sly-test="${pills.pageType=='gre'}" data-sly-include="${pills.grePill}"></sly>
+<sly data-sly-test="${pills.pageType=='rnd'}" data-sly-include="${pills.rndPill}"></sly>
+<sly data-sly-test="${pills.pageType=='psq'}" data-sly-include="${pills.psqPill}"></sly>
+<sly data-sly-test="${pills.pageType=='eas'}" data-sly-include="${pills.easPill}"></sly>

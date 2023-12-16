@@ -1,0 +1,180 @@
+/*v2*/
+.cmp-disclaimer {
+    .cmp-text {
+        position: relative;
+        padding:75px 6.5%;
+        &::before {
+            content: '';
+            position: absolute;
+            border-radius: 8px 0px;
+            width: 50px;
+            height: 50px;
+            top: -1px;
+            left: -1px;
+            text-align: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            line-height: 50px;
+            font-size: 22px;
+            font-weight: bold;
+            
+        }
+        // p:first-child {
+        //     color: $color-font;
+        //     padding-bottom: 20px;
+        //     font-size: 16px;
+        //     line-height: 21px;
+        //     font-weight: 800;
+        //     @include viewport(tablet-desktop) {
+        //         font-size: 21px;
+        //         line-height: 28px;
+        //     }
+        // }
+     }
+    &--warning {
+        .cmp-text{
+            &::before {
+                content: '!';
+                background:$color-yellow;
+            }
+        }
+        background: $color-discalmer-yellow-background;
+        border-radius: 8px;
+        border: $border-discalmer-yellow;
+   }
+   &--warning-short-note {
+       .cmp-text{
+           &::before {
+               content: '!';
+               background:$color-darkYellow;
+               @include viewport(only-desktop) {
+                  border-radius: 8px 0 0 8px;
+               }
+               @include viewport(only-tablet) {
+                 border-radius: 8px;
+               }
+           }
+           padding:8px 20px 8px 60px;
+           @include viewport(only-mobile) {
+               padding:8px 20px 8px 60px;
+           }
+           @include viewport(only-tablet) {
+              padding:8px 20px 8px 60px;
+           }
+       }
+       background: $color-discalmer-lightYellow-background;
+       border-radius: 8px;
+       border: $border-discalmer-darkYellow;
+  }
+   &--error {
+    .cmp-text{
+        &::before {
+            content: '!';
+            background: $color-required-font;
+            color:$color-white;
+        }
+    }
+    background: $color-discalmer-red-background;
+    border-radius: 8px;
+    border: $border-discalmer-red;
+   }
+    &--info {
+        .cmp-text{
+            &::before {
+                content: 'i';
+                background: $color-discalmer-blue;
+                color:$color-white;
+            }
+        }
+        background: $color-discalmer-blue-background;
+        border-radius: 8px;
+        border: $border-discalmer-blue;
+    }
+    &--disabled {
+        .cmp-text{
+            &::before {
+                background: #949494;
+                color:$color-white;
+            }
+        }
+        background: #F8F8F8;
+        border-radius: 8px;
+        border: 2px solid #949494;
+    }
+}
+/*v1*/
+.disclaimer {
+    margin-bottom: 100px;
+    @include viewport(tablet-desktop) {
+        margin-bottom: 0px;
+    }
+    &--yellow {
+        .disclaimer-content {
+            background: #FFECBE;
+            border: 2px solid $color-yellow;
+        }
+        .disclaimer-exclamation {
+            background: $color-yellow;
+        }
+    }
+    &--blue {
+        .disclaimer-content {
+            background: #D8EAFF;
+            border: 2px solid #3072BE;
+        }
+        .disclaimer-exclamation {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3072BE;
+            background: #3072BE;
+        }
+    }
+    &--red {
+        .disclaimer-content {
+            background: #F4DCDD;
+            border: 2px solid #A80005;
+        }
+        .disclaimer-exclamation {
+            background: #A80005;
+        }
+    }
+    &--grey {
+        .disclaimer-content {
+            background: #F8F8F8;
+            border: 2px solid #949494;
+        }
+        .disclaimer-exclamation {
+            background: #949494;
+        }
+    }
+    &-content {
+        box-sizing: border-box;
+        border-radius: 8px;
+        position: relative;
+        padding: 75px 26px;
+        @include viewport(tablet-desktop) {
+            padding: 75px;
+            padding-bottom: 62px;
+        }
+        .heading5 {
+            color: $color-ETS-bodyblack;
+            padding-bottom: 20px;
+        }
+        p:last-child {
+            padding: 0;
+            margin: 0;
+        }
+    }
+    &-exclamation {
+        position: absolute;
+        border-radius: 8px 0px;
+        width: 50px;
+        height: 50px;
+        top: -1px;
+        left: -1px;
+        text-align: center;
+        justify-content: center;
+        line-height: 50px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+}

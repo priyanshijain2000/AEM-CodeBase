@@ -1,0 +1,33 @@
+{
+	"destination-search": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"institutionsRadioLabel": "Institution",
+		"initialContent": "Search by name or location to find institutions and programs that accept TOEFL® scores",
+		"placeholderAriaLabel": "TOEFL Search Destination",
+		"resultDisclaimer": "Note: ETS provides these search results as a guide. Please contact institutions directly to verify accuracy of your search results.",
+		"dropdownAriaLabel": "Intitutions",
+		"locations": "Locations",
+		"inputPaginationAriaLabel": "enter page number",
+		"ctaButtonAriaLabel": "Search",
+		"prevLabel": "before",
+		"ctaLabel": "Search",
+		"placeHolderText": "Find Institutions/Locations that accept TOEFL scores.",
+		"errormsg1": "Please provide a valid search criteria",
+		"errormsg2": "Please provide a valid search criteria",
+		"locationsRadioLabel": "Location",
+		"countTextLabel": "check",
+		"dropdownListAriaLabel": "Location",
+		"destinationAPI": "https://ccdi-pub.ets.org/ccdi-pub/destinations-search",
+		"nextAriaLabel": "next",
+		"nextLabel": "after",
+		"sling:resourceType": "ets/components/toefldestinationsearch",
+		"countText": "Out Of",
+		"textIsRich": [
+			"true",
+			"true"
+		],
+		"prevAriaLabel": "previous",
+		"institutions": "Institutions"
+	}
+}

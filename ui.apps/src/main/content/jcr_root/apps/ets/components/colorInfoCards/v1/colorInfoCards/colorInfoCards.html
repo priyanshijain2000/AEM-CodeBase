@@ -1,0 +1,28 @@
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+    data-sly-call="${templates.placeholder @ isEmpty = multifieldMap.isEmpty,classAppend='cmp-text'}"></sly>
+<section class="color-info-card row cmp-container--body">
+    <div class="col-12 col-md-12 col-lg-10 color-info-card-column">
+        <div class="card-group" data-sly-list.card="${multifieldMap.cards.listChildren}">
+            <div class="${card.background} card">
+                <div class="color-info-card-wrap">
+						<img loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" src="${card.icon ? card.icon : '/content/dam/ets-org/general/placeholders/img-plchldr-icon.jpg'}" alt="${card.altText}">
+                    <div class="color-info-card-content card-body">
+                        <p data-sly-test="${card.title}" class="body-text invert-text body-text-title card-title">
+                            ${card.title}
+                        </p>
+                        <p data-sly-test="${card.description}" class="body-text invert-text card-text">
+                            ${card.description @context='html'}
+                        </p>
+                    </div>
+                </div>
+                <div data-sly-test="${card.ctabutton}" class="article-banner-button-band card-footer">
+                    <a class="cta-btn-secondary" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=card.ctalink}"
+                       href="${linkValidate.link}"
+                        target="${card.newTab ? '_blank' : ''}" rel="${card.newTab ? 'noopener noreferrer' : ''}" aria-label="${card.ctaButtonAriaLabel}">${card.ctabutton}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,1443 @@
+.pills-component {
+  position: relative;
+  margin: 0 auto;
+  float: unset;
+}
+.pills {
+  position: relative;
+  img,
+  span {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+  }
+}
+.home-banner-pills {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 418px;
+  @include viewport(tablet) {
+    transform: scale(0.7);
+    top: -12px;
+    right: 246px;
+  }
+  @include viewport(only-mobile) {
+    transform: scale(0.55);
+    top: 213px;
+    right: 253px;
+  }
+  img,
+  span {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .img-pill {
+    z-index: 2;
+    top: 38px;
+    left: 16px;
+    animation: fadeIn;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s;
+    /* don't forget to set a duration! */
+  }
+  .rellax-1 {
+    z-index: 7;
+    top: 130px;
+    left: 450px;
+  }
+  .rellax-2 {
+    z-index: 6;
+    top: 75px;
+    left: 386px;
+  }
+  .rellax-3 {
+    z-index: 5;
+    top: 317px;
+    left: -52px;
+  }
+  .rellax-4 {
+    z-index: 4;
+    top: 592px;
+    left: 118px;
+  }
+  .rellax-5 {
+    z-index: 3;
+    top: 200px;
+    left: -166px;
+  }
+  .rellax-6 {
+    z-index: 1;
+    top: 94px;
+    left: -70px;
+  }
+  .rellax-7 {
+    z-index: 1;
+    top: 168px;
+    left: -238px;
+  }
+  .rellax-8 {
+    z-index: 0;
+    top: 136px;
+    left: -240px;
+  }
+}
+
+.productFamilyParallex {
+  position: absolute;
+  top: 130px;
+  z-index: 0;
+  right: -98px;
+  img {
+    float: right;
+  }
+  @include viewport(mobile-tab-portrait) {
+    position: absolute;
+    bottom: -245px;
+    top: auto;
+    z-index: 3;
+    right: -139px;
+  }
+}
+
+/*praxis-pills*/
+body {
+  &:not(.theme-generic) {
+    .spa-pills-left,
+    .spa-pills-right,
+    .article-pills,
+    .social-pills, .carousel-pills {
+      display: none;
+    }
+    .carousel-bg .pillsbg {
+      display: none;
+    }
+  }
+  &:not(.theme-toefl) {
+    .social-pills-toefl {
+      display: none;
+    }
+    .article-pills-toefl {
+      display: none;
+    }
+    .productfmly-toefl-pills{
+      display: none;
+    }
+  }
+  
+  &:not(.theme-praxis) {
+    .praxis-pills1,
+    .praxis-pills2,
+    .praxis-pills3,
+    .praxis-pills4,
+    .praxis-pills5 {
+      display: none;
+    }
+    .social-pills-praxis, .productfmly-praxis-pills {
+      display: none;
+    }
+  }
+  &:not(.theme-gre) {
+    .social-pills-gre, .productfmly-gre-pills {
+      display: none;
+    }
+  }
+  &:not(.theme-toeic) {
+    .social-pills-toeic, .productfmly-toeic-pills {
+      display: none;
+    }
+  }
+  &:not(.theme-rnd) {
+    .social-pills-rnd, .productfmly-rnd-pills {
+      display: none;
+    }
+  }
+  &.theme-rnd{
+    .about-infocard-pills{
+      display: block;
+      @include viewport(tablet-portrait) {
+        display: none;
+      }
+      @include viewport(only-mobile) {
+        display: none;
+      }
+    }
+  }
+  &:not(.theme-psq) {
+        .social-pills-psq {
+            display: none;
+        }
+    }
+}
+
+/*praxis-pills1*/
+.praxis-pills1 {
+  position: absolute;
+  right: 200px;
+  top: 100px;
+  z-index: -1;
+  &.sec-nav-pills{
+    top: 370px;
+  }
+  .rellax-1 {
+    z-index: 2;
+    top: -60px;
+    left: -26px;
+  }
+  .rellax-2 {
+    z-index: 1;
+  }
+  .rellax-3 {
+    z-index: 3;
+    top: 70px;
+    left: 35px;
+  }
+  .rellax-4 {
+    z-index: 2;
+    top: -16px;
+    left: 42px;
+  }
+  .rellax-5 {
+    z-index: 2;
+    top: 82px;
+    left: 82px;
+  }
+  @include viewport(only-mobile) {
+    display: block;
+    transform: scale(0.8);
+    right: 100px;
+    top: 50px;
+    &.sec-nav-pills{
+      top: 400px;
+      display: none;
+    }
+  }
+}
+
+/*praxis-pills2*/
+.praxis-pills2 {
+  top: 108px;
+  position: absolute;
+  left: 78%;
+  z-index: 2;
+  @include viewport(only-mobile) {
+    top: 57%;
+    left: 45%;
+  }
+  .rellax-1 {
+    z-index: 2;
+    top: 400px;
+    left: 210px;
+  }
+  .rellax-1-1 {
+    z-index: 4;
+    top: 376px;
+    left: 195px;
+  }
+  .rellax-2 {
+    z-index: 1;
+    top: -40px;
+    left: -92px;
+  }
+  .rellax-3 {
+    z-index: 3;
+  }
+  .rellax-4 {
+    z-index: 2;
+    top: -44px;
+    left: 10px;
+  }
+  .rellax-5 {
+    z-index: 2;
+    top: 100px;
+    left: 22px;
+  }
+  .rellax-6 {
+    z-index: 3;
+    top: 244px;
+    left: 68px;
+  }
+}
+
+/*praxis-pills3*/
+.praxis-pills3 {
+  position: absolute;
+  left: -101px;
+  top: -100px;
+  @include viewport(only-mobile) {
+    left: -80px;
+    top: -180px;
+    transform: scale(0.8);
+  }
+  .rellax-1 {
+    z-index: 2;
+    top: 92px;
+    left: 2px;
+  }
+  .rellax-2 {
+    z-index: 1;
+    top: 120px;
+    left: 0;
+  }
+  .rellax-3 {
+    z-index: 3;
+  }
+  .rellax-4 {
+    z-index: 2;
+    top: 24px;
+    left: 9px;
+  }
+}
+
+
+.praxis-pills4 {
+  position: absolute;
+  top: -160px;
+  z-index: -1;
+  right: 800px;
+  left: unset !important;
+  .rellax-1 {
+    z-index: 2;
+    top: 110px;
+    left: 20px;
+  }
+  .rellax-2 {
+    z-index: 1;
+    top: -30px;
+    left: -9px;
+  }
+  .rellax-3 {
+    z-index: 3;
+  }
+  .rellax-4 {
+    z-index: 2;
+    top: 30px;
+    left: 20px;
+  }
+  @include viewport(mobile-tab-portrait) {
+    display: none;
+  }
+}
+.praxis-pills5 {
+  position: absolute;
+  right: 8px;
+  top: -65px;
+  @include viewport(tablet) {
+    right: 223px;
+  }
+  @include viewport(only-mobile) {
+    display: none;
+  }
+}
+/*about pills*/
+.about-pills {
+  position: absolute;
+  top: 0;
+  right: 0;
+  @include viewport(tablet-portrait) {
+    height: 450px;
+    right: 10%;
+    top: 10px;
+    position: relative;
+  }
+  @include viewport(only-mobile) {
+    height: 380px;
+    top: 10px;
+    position: relative;
+  }
+  &--container {
+    position: absolute;
+    right: 420px;
+    top: -50px;
+    z-index: -1;
+    transform: scale(0.9);
+    @include viewport(tablet-landscape) {
+      transform: scale(0.85);
+      right: 350px;
+    }
+    @include viewport(tablet-portrait) {
+      transform: scale(0.8);
+      top: 0;
+      right: unset;
+      left: 30%;
+    }
+    @include viewport(only-mobile) {
+      transform: scale(0.55);
+      top: 0;
+      right: unset;
+      left: 4%;
+    }
+    img,
+    span {
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+    }
+    .img-pill {
+      z-index: 2;
+      top: 0;
+      left: 0;
+      width: 708px;
+      animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 3s; /* don't forget to set a duration! */
+    }
+    .rellax-1 {
+      z-index: 7;
+      top: 113px;
+      left: 450px;
+    }
+    .rellax-2 {
+      z-index: 6;
+      top: 57px;
+      left: 386px;
+    }
+    .rellax-3 {
+      z-index: 5;
+      top: 423px;
+      left: -48px;
+    }
+    .rellax-4 {
+      z-index: 4;
+      top: 600px;
+      left: 75px;
+    }
+    .rellax-5 {
+      z-index: 3;
+      top: 468px;
+      left: 18px;
+    }
+    .rellax-6 {
+      z-index: 1;
+      top: 125px;
+      left: -80px;
+    }
+    .rellax-7 {
+      z-index: 5;
+      top: 476px;
+      left: -30px;
+    }
+  }
+}
+
+.about-infocard-pills {
+  position: absolute;
+  top: 433px;
+  left: -178px;
+  height: 550px;
+  z-index: 0;
+  @include viewport(tablet-portrait) {
+    display: block;
+  }
+  @include viewport(only-mobile) {
+    display: none;
+  }
+  img,
+  span {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .img-pill {
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 708px;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+  }
+  .rellax-1 {
+    z-index: 7;
+    top: 172px;
+    left: 52px;
+  }
+  .rellax-2 {
+    z-index: 6;
+    top: 0px;
+    left: 0px;
+  }
+  .rellax-3 {
+    z-index: 5;
+    top: -100px;
+    left: -160px;
+  }
+  .rellax-4 {
+    z-index: 4;
+    top: -100px;
+    left: -98px;
+  }
+  .rellax-5 {
+    z-index: 3;
+    top: 296px;
+    left: 169px;
+  }
+}
+.about-infocard-leftpills{
+  top: 0px;
+  position: absolute;
+  left: -60px;
+  z-index: 0;
+  @include viewport(only-mobile) {
+    top: 0px;
+    left: -23%;
+    z-index: -1;
+  }
+  .rellax-1 {
+    z-index: 2;
+    top: -87px;
+    left: -10px;
+    opacity: 0.9;
+  }
+  .rellax-2 {
+    z-index: 1;
+    top: -150px;
+    left: -30px;
+    opacity: 0.9;
+  }
+  .rellax-3 {
+    z-index: 2;
+    top: -115px;
+    left: 22px;
+  }
+}
+.about-infocard-rightpills {
+  top: 0px;
+  position: absolute;
+  left: 65%;
+  //z-index: 0;
+ 
+  @include viewport(only-mobile) {
+    top: 480px;
+    left: 80%;
+    z-index: 1
+  }
+  .rellax-1 {
+    z-index: -1;
+    top: -50px;
+    left: 210px;
+  }
+  .rellax-2 {
+    z-index: -1;
+    top: 218px;
+    left: 400px;
+  }
+  .rellax-3 {
+    z-index: 1;
+    top: -120px;
+    left: 220px;
+    opacity: 0.9;
+  }
+  .rellax-4 {
+    z-index: -1;
+    top: 115px;
+    left: 365px;
+  }
+}
+
+.about-footer-pills {
+  position: absolute;
+  top: -184px;
+  right: 32px;
+  height: 100%;
+  z-index: -1;
+  @include viewport(tablet-portrait) {
+    height: 450px;
+    top: -120px;
+  }
+  @include viewport(only-mobile) {
+    display: none;
+  }
+  img,
+  span {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+  }
+
+  .rellax-1 {
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  .rellax-2 {
+    z-index: 2;
+    top: 70px;
+    left: 20px;
+  }
+}
+
+.social-pills,
+.social-pills-toefl, .social-pills-praxis, .social-pills-gre, .social-pills-psq {
+  position: absolute;
+  top: 80px;
+  left: -104px;
+  z-index: 0;
+  @include viewport(tablet-portrait) {
+    // height: 450px;
+    left: -58px;
+  }
+  @include viewport(only-mobile) {
+    //display: none;
+    top: -66px;
+    left: -72px;
+    transform: scale(0.75);
+  }
+  img,
+  span {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .rellax-1 {
+    z-index: 1;
+    top: -140px;
+    left: -24px;
+  }
+  .rellax-2 {
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+  }
+  .rellax-3 {
+    z-index: 2;
+    top: -118px;
+    left: -12px;
+  }
+  .rellax-4 {
+    z-index: 2;
+    top: -32px;
+    left: 0px;
+  }
+}
+
+.social-pills-toeic {
+  position: absolute;
+  top: 286px;
+  left: 80px;
+  z-index: 0;
+  @include viewport(tablet-portrait) {
+    // height: 450px;
+    left: -58px;
+  }
+  @include viewport(only-mobile) {
+    //display: none;
+    top: 295px;
+    left: -72px;
+    transform: scale(0.75);
+  }
+  img,
+  span {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .rellax-1 {
+    z-index: 1;
+    top: 132px;
+    left: 148px;
+  }
+  .rellax-2 {
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+  }
+  .rellax-3 {
+    z-index: 2;
+    top: -4px;
+    left: 31px;
+  }
+  .rellax-4 {
+    z-index: 2;
+    top: 16px;
+    left: 110px;
+  }
+}
+
+
+
+.article-pills {
+  position: relative;
+  &--left {
+    top: -90px;
+    left: -166px;
+    position: absolute;
+    z-index: 4;
+    @include viewport(tablet-portrait) {
+      // height: 450px;
+      top: -136px;
+      left: -160px;
+    }
+    @include viewport(only-mobile) {
+      //display: none;
+      top: -113px;
+      transform: scale(0.7);
+      left: -83px;
+    }
+    img,
+    span {
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+    }
+    .rellax-1 {
+      z-index: 1;
+      top: 0px;
+      left: 0px;
+    }
+    .rellax-2 {
+      z-index: 1;
+      top: 16px;
+      left: 60px;
+    }
+    .rellax-3 {
+      z-index: 0;
+      top: 100px;
+      left: 60px;
+    }
+  }
+  &--right {
+    position: absolute;
+    top: -17px;
+    right: 190px;
+    z-index: 2;
+    @include viewport(tablet-portrait) {
+      // height: 450px;
+      top: -136px;
+      right: -160px;
+      display: none;
+    }
+    @include viewport(only-mobile) {
+      display: none;
+    }
+    img,
+    span {
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+    }
+    .rellax-1 {
+      z-index: 1;
+      top: 0px;
+      left: 0px;
+    }
+    .rellax-2 {
+      z-index: 2;
+      top: 95px;
+      left: 60px;
+    }
+  }
+  &-toefl {
+    position: absolute;
+    right: 26px;
+    top: 40px;
+    z-index: 1;
+    @include viewport(tablet) {
+      right: 54px;
+      top: 162px;
+    }
+    @include viewport(only-mobile) {
+      display: none;
+    }
+  }
+}
+
+.spa-pills {
+  &-left {
+    position: absolute;
+    top: -53px;
+    left: -125px;
+    z-index: 0;
+    @include viewport(tablet-portrait) {
+      // height: 450px;
+      // top: -136px;
+      // left: -160px;
+    }
+    @include viewport(only-mobile) {
+      display: none;
+    }
+    img,
+    span {
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+    }
+    .rellax-1 {
+      z-index: 1;
+      top: 286px;
+      left: 330px;
+    }
+    .rellax-2 {
+      z-index: 1;
+      top: 56px;
+      left: 60px;
+    }
+    .rellax-3 {
+      z-index: 0;
+      top: 100px;
+      left: 60px;
+    }
+    .rellax-4 {
+      z-index: 0;
+      top: -10px;
+      left: -52px;
+    }
+    .rellax-5 {
+      z-index: 1;
+      top: 168px;
+      left: 154px;
+    }
+    .rellax-6 {
+      z-index: 0;
+      top: 110px;
+      left: 137px;
+    }
+  }
+  &-right {
+    position: absolute;
+    top: 271px;
+    right: 82px;
+    z-index: 0;
+    @include viewport(tablet-portrait) {
+      // height: 450px;
+      // top: 250px;
+      //right: 0;
+    }
+    @include viewport(only-mobile) {
+      display: none;
+    }
+    img,
+    span {
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+    }
+    .rellax-1 {
+      z-index: 2;
+      top: -62px;
+      left: 12px;
+    }
+    .rellax-2 {
+      z-index: 1;
+      top: 0px;
+      left: 0px;
+    }
+    .rellax-3 {
+      z-index: 1;
+      top: 14px;
+      left: -24px;
+    }
+    .rellax-4 {
+      z-index: 1;
+      top: 8px;
+      left: 25px;
+    }
+    .rellax-5 {
+      z-index: 1;
+      top: 26px;
+      left: 60px;
+    }
+  }
+}
+
+.error-pills {
+  &--left {
+    position: absolute;
+    top: 150px;
+    left: -165px;
+    z-index: 0;
+    @include viewport(tablet-portrait) {
+      // height: 450px;
+      // top: -136px;
+      // left: -160px;
+      display: none;
+    }
+    @include viewport(only-mobile) {
+      display: none;
+    }
+    img,
+    span {
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+    }
+    .rellax-1 {
+      z-index: 1;
+      top: 30px;
+      left: 72px;
+    }
+    .rellax-2 {
+      z-index: 1;
+      top: 0;
+      left: 0;
+    }
+    .rellax-3 {
+      z-index: 0;
+      top: 100px;
+      left: 60px;
+    }
+  }
+  &--right {
+    position: absolute;
+    top: 271px;
+    right: 72px;
+    z-index: 0;
+    @include viewport(tablet-portrait) {
+      // height: 450px;
+      transform: scale(0.7);
+      top: 480px;
+      right: 65px;
+    }
+    @include viewport(only-mobile) {
+      top: 527px;
+      transform: scale(0.5);
+      right: 50px;
+    }
+    img,
+    span {
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+    }
+    .rellax-1 {
+      z-index: 2;
+      top: -102px;
+      left: -106px;
+    }
+    .rellax-2 {
+      z-index: 1;
+      top: -128px;
+      left: -126px;
+    }
+    .rellax-3 {
+      z-index: 1;
+      top: 164px;
+      left: -90px;
+    }
+    .rellax-4 {
+      z-index: 2;
+      top: 358px;
+      left: 94px;
+    }
+    .rellax-5 {
+      z-index: 1;
+      top: 0px;
+      left: 0px;
+    }
+    .rellax-6 {
+      z-index: 1;
+      top: -159px;
+      left: 94px;
+    }
+    .rellax-7 {
+      z-index: 1;
+      top: -114px;
+      left: 150px;
+    }
+    .rellax-8 {
+      z-index: 1;
+      top: 260px;
+      left: 36px;
+    }
+    .rellax-9 {
+      z-index: 1;
+      top: 90px;
+      left: -4px;
+    }
+  }
+}
+
+.rnd-banner-pills {
+  position: absolute;
+  top: 323px;
+  right: 150px;
+  z-index: 0;
+  transform: scale(0.8);
+  @include viewport(tablet-portrait) {
+    // height: 450px;
+    transform: scale(0.7);
+    top: 260px;
+  }
+  @include viewport(only-mobile) {
+    //display: none;
+    top: 100px;
+    transform: scale(0.7);
+    //left: -110px;
+    display: none;
+  }
+  img,
+  span {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .rellax-1 {
+    z-index: 1;
+    top: 50px;
+    left: 180px;
+  }
+  .rellax-2 {
+    z-index: 1;
+    top: 310px;
+    left: 175px;
+  }
+  .rellax-3 {
+    z-index: 0;
+    top: 116px;
+    left: 130px;
+  }
+  .rellax-4 {
+    z-index: 2;
+    top: 163px;
+    left: 184px;
+  }
+  .rellax-5 {
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+  }
+}
+
+.rnd-footer-pills {
+  position: absolute;
+  top: -77px;
+  left: -146px;
+  z-index: 4;
+  transform: scale(0.8);
+  @include viewport(tablet-portrait) {
+    // transform: scale(0.8);
+    // top: -136px;
+  }
+  @include viewport(only-mobile) {
+    display: none;
+    //top: 100px;
+    // transform: scale(0.7);
+    //left: -110px;
+  }
+  img,
+  span {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .rellax-1 {
+    z-index: 1;
+    top: 50px;
+    left: 180px;
+  }
+}
+
+/*TOEFL pills*/
+.spa-pills-toefl {
+  &--left {
+    position: absolute;
+    top: -56px;
+    left: -156px;
+    z-index: 0;
+    @include viewport(tablet-portrait) {
+      top: -123px;
+    }
+    @include viewport(only-mobile) {
+      display: none;
+    }
+    img,
+    span {
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+    }
+    .rellax-1 {
+      z-index: 1;
+      top: 184px;
+      left: 182px;
+    }
+    .rellax-2 {
+      z-index: 0;
+      top: 86px;
+      left: 30px;
+    }
+    .rellax-3 {
+      z-index: 0;
+      top: 0px;
+      left: 0px;
+    }
+    .rellax-4 {
+      z-index: 0;
+      top: -10px;
+      left: -52px;
+    }
+    .rellax-5 {
+      z-index: 1;
+      top: 168px;
+      left: 154px;
+    }
+    .rellax-6 {
+      z-index: 0;
+      top: 110px;
+      left: 137px;
+    }
+  }
+  &--right {
+    position: absolute;
+    top: 250px;
+    right: 110px;
+    z-index: 0;
+    &.toefl-single{
+      top: 185px;
+    }
+    &.essentials{
+      top: -50px;
+      right: 80px;
+      @include viewport(only-mobile) {
+        display: none;
+      }
+      @include viewport(tablet) {
+        display: none;
+      }
+    }
+   // @include viewport(tablet-portrait) {
+      // height: 450px;
+      // top: 250px;
+      //right: 0;
+   // }
+    @include viewport(only-mobile) {
+      // display: none;
+      top: 135px;
+      right: 80px;
+    }
+    img,
+    span {
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+    }
+    .rellax-1 {
+      z-index: 2;
+      top: -56px;
+      left: -20px;
+    }
+    .rellax-2 {
+      z-index: 1;
+      top: 0px;
+      left: 0px;
+    }
+    .rellax-3 {
+      z-index: 2;
+      top: 62px;
+      left: 28px;
+    }
+    .rellax-4 {
+      z-index: 1;
+      top: -11px;
+      left: 46px;
+    }
+    .rellax-5 {
+      z-index: 1;
+      top: 85px;
+      left: 85px;
+    }
+  }
+}
+
+.productfmly-toefl-pills {
+  position: absolute;
+  top: 122px;
+  right: 310px;
+  z-index: 1;
+  @include viewport(tablet-portrait) {
+    top: 780px;
+    right: 201px;
+    z-index: 1;
+    transform: scale(0.7);
+  }
+  @include viewport(only-mobile) {
+    top: 663px;
+    right: 154px;
+    z-index: 1;
+    transform: scale(0.7);
+  }
+  img,
+  span {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .rellax-1 {
+    z-index: 1;
+    top: -37px;
+    left: -107px;
+  }
+  .rellax-2 {
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+  }
+  .rellax-3 {
+    z-index: 0;
+    top: 440px;
+    left: 228px;
+  }
+  .rellax-4 {
+    z-index: 0;
+    top: -46px;
+    left: -6px;
+  }
+  .rellax-5 {
+    z-index: 1;
+    top: 420px;
+    left: 210px;
+  }
+  .rellax-6 {
+    z-index: 0;
+    top: 135px;
+    left: 19px;
+  }
+  .rellax-7 {
+    z-index: 0;
+    top: 280px;
+    left: 80px;
+  }
+}
+
+/*Carousel pills*/
+.carousel-pills {
+  position: absolute;
+  top: 144px;
+  //right: 520px;
+  right: 40%;
+  z-index: 0;
+  @include for-size(tablet-landscape) {
+    top: 75px;
+    transform: scale(0.675);
+  }
+  @include viewport(tablet-portrait) {
+    top: 52px;
+    right: 60%;
+  }
+  @include viewport(only-mobile) {
+    top: 508px;
+    right: -46px;
+    transform: scale(0.7);
+  }
+  img,
+  span {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .img-pill {
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 708px;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+  }
+  .rellax-1 {
+    z-index: 7;
+    top: 190px;
+    left: 52px;
+  }
+  .rellax-2 {
+    z-index: 6;
+    top: 25px;
+    left: 25px;
+  }
+  .rellax-3 {
+    z-index: 5;
+    top: -132px;
+    left: -180px;
+  }
+  .rellax-4 {
+    z-index: 4;
+    top: -124px;
+    left: -124px;
+  }
+  .rellax-5 {
+    z-index: 3;
+    top: 330px;
+    left: 180px;
+  }
+}
+
+/*GRE*/
+/*GRE-pills-right*/
+.gre-pills-right {
+  top: 340px;
+  position: absolute;
+  left: 84%;
+  z-index: -1;
+ 
+  @include viewport(only-mobile) {
+    top: 480px;
+    left: 80%;
+    z-index: 1
+  }
+  &.productfmly-gre-pills{
+    top: -85px;
+    left: 89%;
+  }
+  .rellax-1 {
+    z-index: 2;
+    top: 400px;
+    left: 210px;
+  }
+  .rellax-1-1 {
+    z-index: 4;
+    top: 376px;
+    left: 195px;
+  }
+  .rellax-2 {
+    z-index: 1;
+    top: -40px;
+    left: -92px;
+  }
+  .rellax-3 {
+    z-index: 3;
+  }
+  .rellax-4 {
+    z-index: 2;
+    top: -44px;
+    left: 10px;
+  }
+  .rellax-5 {
+    z-index: 2;
+    top: 100px;
+    left: 22px;
+  }
+  .rellax-6 {
+    z-index: 3;
+    top: 244px;
+    left: 68px;
+  }
+}
+/*GRE-pills-left*/
+.gre-pills-left {
+  top: 0px;
+  position: absolute;
+  left: -60px;
+  z-index: 0;
+  @include viewport(only-mobile) {
+    top: 240px;
+    left: -16%;
+    z-index: -1;
+  }
+  .rellax-1 {
+    z-index: 2;
+    top: 31px;
+    left: 142px;
+  }
+  .rellax-2 {
+    z-index: 1;
+    top: -30px;
+    left: 60px;
+  }
+  .rellax-3 {
+    z-index: 3;
+    top: 138px;
+    left: 183px;
+  }
+  .rellax-4 {
+    z-index: 2;
+    top: 0px;
+    left: 10px;
+  }
+}
+
+
+/*TOEIC*/
+/*Toeic-pills-right*/
+.toeic-pills-right {
+  top: 17px;
+  position: absolute;
+  left: 88%;
+  z-index: 1;
+  @include viewport(only-mobile) {
+    top: 500px;
+    left: 80%;
+  }
+  .rellax-1 {
+    z-index: 2;
+    top: 0;
+    left: 0;
+  }
+ 
+  .rellax-2 {
+    z-index: 3;
+    top: 137px;
+    left: 139px;
+  }
+  .rellax-3 {
+    z-index: 3;
+    top: 96px;
+    left: 36px;
+  }
+  .rellax-4 {
+    z-index: 2;
+    top: -20px;
+    left: -56px;
+  }
+  .rellax-5 {
+    z-index: 4;
+    top: 113px;
+    left: -15px;
+  } 
+}
+/*Toeic-pills-left*/
+.toeic-pills-left {
+  top: 108px;
+  position: absolute;
+  left: 12%;
+  z-index: 0;
+  @include viewport(only-mobile) {
+    top: 205px;
+    left: -1%;
+    z-index: -1;
+  }
+  .rellax-1 {
+    z-index: 1;
+    top: 56px;
+    left: 56px;
+  }
+  .rellax-2 {
+    z-index: 2;
+    top: 0;
+    left: 0;
+  }
+  .rellax-3 {
+    z-index: 3;
+    top: 0px;
+    left: -50px;
+  }
+}
+/*PSQ-pills-left*/
+.psq-pills-left {
+  top: 28px;
+  position: absolute;
+  left: -73px;
+  z-index: -1;
+  @include viewport(only-mobile) {
+    top: 240px;
+    left: -16%;
+    z-index: -1;
+  }
+  .rellax-1 {
+    z-index: 2;
+    top: 31px;
+    left: 142px;
+  }
+  .rellax-2 {
+    z-index: 1;
+    top: -30px;
+    left: 60px;
+  }
+  .rellax-3 {
+    z-index: 3;
+    top: 138px;
+    left: 183px;
+  }
+  .rellax-4 {
+    z-index: 2;
+    top: 0px;
+    left: 10px;
+  }
+}

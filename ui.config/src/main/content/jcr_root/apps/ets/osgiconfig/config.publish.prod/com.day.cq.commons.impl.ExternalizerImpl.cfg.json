@@ -1,0 +1,8 @@
+{
+  "externalizer.domains":[
+    "author http://localhost:4502",
+    "publish $[env:AEM_EXTERNALIZER_PUBLISH;default=https://www.ets.org]",
+    "preview http://localhost:4503"
+  ]
+}
+

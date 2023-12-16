@@ -1,0 +1,9 @@
+<sly data-sly-test.editor="${wcmmode.edit}">
+	<p>
+        Please copy the one sociallink component for additional ones. The component is pre-authored with one only. Author should not need the title field, but its there in case of future need.
+	</p>
+</sly>
+<sly data-sly-use.socialLinkObj="org.ets.core.models.SocialLink"/>
+<div class="${socialLinkObj.bgStyle} cmp-sociallinks" style="${socialLinkObj.getBgcolor @context='styleString'}">
+    <div class="w-75 mx-auto" data-sly-include="${'container.html'}"></div>
+</div>

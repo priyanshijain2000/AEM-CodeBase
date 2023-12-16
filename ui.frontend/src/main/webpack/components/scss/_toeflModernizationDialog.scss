@@ -1,0 +1,271 @@
+.toefl-modernization-dialog {
+    width: 896px;
+    max-height: 480px;
+    border: 0;
+    border-radius: 16px;
+    outline: 0;
+    background-size: cover;
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.32);
+    @include viewport(only-mobile) {
+        background-image: none!important;
+        height: fit-content;
+        max-height: none;
+    }
+    &--container {
+        padding: 16px 34px 16px 59px;
+        max-width: 470px;
+        transform: skew(-13.5deg);
+        background: none;
+        height: 480px;
+        transform-origin: 100% 0;
+        @include viewport(only-mobile) {
+            transform: none;
+            padding: 48px 48px 48px 16px;
+            height: auto;
+            max-width: 767px;
+        }
+        &--content {
+            padding: 0 0 0 16px;
+            transform: skewX(13.5deg);
+            @include viewport(only-mobile) {
+                transform: none;
+                padding: 0 10px 0 20px;
+            }
+            .heading1 {
+                color: white;
+            }
+            p:first-child {
+                margin-top: 0;
+                padding-bottom: 0;
+            }
+            p {
+                @include viewport(only-mobile) {
+                    margin-top: 32px;
+                    padding-bottom: 10px;
+                }
+                margin-top: 24px;
+                color: white;
+                a {
+                    color: white;
+                }
+            }
+            .copy-link-container {
+                padding: 5px 10px;
+                border-radius: 8px;
+                position: relative;
+                max-width: 300px;
+                input[type=text] {
+                    background-color: transparent;
+                    border: 0;
+                    outline: 0;
+                    border-radius: 4px;
+                    pointer-events: none;
+                    font-size: 16px;
+                    color: white;
+                }
+                .copy-button {
+                    position: absolute;
+                    right: 0;
+                    background-color: transparent;
+                    border: 0;
+                    outline: 0;
+                    height: 35px;
+                    width: 35px;
+                    border-radius: 0px 8px 8px 0px;
+                    top: 0;
+                }
+            }
+            .cmp-button {
+                @include viewport(only-mobile) {
+                    margin-top: 10px;
+                }
+                margin-top: 20px;
+                width: fit-content;
+            }
+        }
+    }
+    .model-close-button {
+        display: flex;
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        height: auto;
+        width: auto;
+        border-radius: 0px 8px 8px 0px;
+        float: right;
+        margin-right: 16px;
+        margin-top: 5px;
+        img {
+            height: 26px;
+            width: 26px;
+            content: url('/content/dam/ets-org/icons/commons/circle-x.svg');
+        }
+        &:hover {
+            img {
+                height: 26px;
+                width: 26px;
+                content: url('/content/dam/ets-org/icons/commons/circle-x-hover.svg');
+            }
+        }
+        &:focus {
+            img {
+                outline: 1.5px solid black;
+                outline-offset: 2px;
+                border-radius: 75px;
+            }
+        }
+    }
+    .arrow-right {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 60px solid transparent;
+        border-bottom: 60px solid transparent;
+        border-left: 60px solid red;
+    }
+}
+.theme-toefl .toefl-modernization-dialog {
+	&--container {
+		background: linear-gradient(to left, rgb(39, 88, 91, .9), rgb(39, 88, 91, 1));
+	}
+}
+.theme-gre .toefl-modernization-dialog {
+	&--container {
+		@include viewport(only-mobile) {
+			background: linear-gradient(to left, rgba(56, 0, 46, .9), rgba(56, 0, 46, 1));
+		}
+	}
+}
+.root.dailog-light-box {
+    position: relative;
+    overflow: hidden;
+    &:before {
+        content: "";
+        background: rgba(0, 0, 0, 0.32);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 9;
+        top: 0;
+    }
+}
+
+.toefl-modernization-dialog--summer-save {
+    border-radius: 0px;
+    @include viewport(only-mobile) {
+        border-radius: 16px;
+    }
+    .model-close-button {
+        @include viewport(only-mobile) {
+            margin-right: 5px;
+        }
+        img {
+            content: url('/content/dam/ets-org/icons/commons/circle-x-black.svg');
+            // content: url('/src/main/webpack/resources/images/circle-x-black.svg');
+        }
+        &:hover {
+            img {
+                content: url('/content/dam/ets-org/icons/commons/circle-x-black-hover.svg');
+                // content: url('/src/main/webpack/resources/images/circle-x-black-hover.svg');
+            }
+        }
+        &:focus {
+            img {
+                outline: 1.5px solid black;
+                outline-offset: 2px;
+                border-radius: 75px;
+            }
+        }
+    }
+    .toefl-modernization-dialog--container {
+        transform: none;
+        padding: 25px 16px 16px 40px;
+        max-width: 545px;
+        background: #f4ebe6;
+        @include viewport(only-mobile) {
+            padding: 48px 16px 48px 16px;
+            height: auto;
+            max-width: 767px;
+        }
+        @media only screen and (max-width: 600px) {
+            padding: 25px 16px 16px 16px;
+        }
+        &--content {
+            transform: none;
+            padding: 0;
+            .heading1 {
+                color: #640f53;
+                font-weight: 700;
+                font-size: 2.5rem;
+                line-height: 1.2;
+                margin-bottom: 0.4em;
+                @media only screen and (max-width: 600px) {
+                    font-size: 1.5rem;
+                }
+                @media only screen and (max-width: 350px) {
+                    font-size: 1.4rem;
+                }
+            }
+            .heading2 {
+                font-weight: 700;
+                font-size: 1.34rem;
+                line-height: 1.25;
+                padding-bottom: 0;
+                margin-bottom: 0.6em;
+                @media only screen and (max-width: 600px) {
+                    font-size: 0.8rem;
+                }
+            }
+            .copy-link-container {
+                border-radius: 0;
+                background-color: transparent;
+                padding: 0;
+                display: inline-block;
+                input {
+                    color: #da4726;
+                    background-color: transparent;
+                    padding: 0;
+                    font-weight: 700;
+                    display: block;
+                    font-size: 1em;
+                    width: 7em;
+                }
+                button {
+                    height: 30px;
+                    top: -0.2em;
+                    padding: 0;
+                    width: 1.1em;
+                    height: auto;
+                }
+            }
+            .cmp-button {
+                background-color: #640f53;
+                color: #FFF;
+                padding: 0.45rem 1.625rem;
+                height: auto;
+                &:hover, &:focus {
+                    background-color: #000;
+                    color: #FFF;
+                }
+            }
+            p {
+                margin-top: 0px;
+                color: #640f53;
+            }
+            .note {
+                margin-top: 20px;
+                line-height: 1.3;
+                display: block;
+                font-size: 9px;
+                font-weight: 700;
+                @media only screen and (max-width: 600px) {
+                    margin-top: 10px;
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+}

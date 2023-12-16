@@ -1,0 +1,11 @@
+.kalturaAudioPlayer {
+    .kWidgetIframeContainer {
+        margin-bottom: 5px;
+        transform: scale(1.3);
+        transform-origin: left center;
+        @include viewport(only-mobile) {
+            width: 208px !important;
+            transform: scale(1.2);
+        }
+    }
+}

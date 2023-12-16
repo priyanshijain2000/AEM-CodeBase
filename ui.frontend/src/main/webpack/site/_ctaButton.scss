@@ -1,0 +1,288 @@
+.cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: var(--cta-container-aligment);
+}
+
+@mixin btn-link {
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    text-transform: capitalize;
+    font-weight: $bold;
+    padding: 0.75rem 1.625rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    //min-width: 8.125rem;
+    height: 2.875rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    &:hover {
+        text-decoration: none;
+        border-radius: 3rem;
+    }
+
+    &:disabled,
+    &[disabled],
+    &.disabled {
+        opacity: 0.5;
+        pointer-events: none;
+        cursor: default;
+    }
+
+    @include viewport(tablet-desktop) {
+        font-size: 1rem;
+        line-height: 1.375rem;
+    }
+}
+
+@mixin cta-btn {
+    @include btn-link;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+
+    &:focus-visible,
+    &:focus {
+        outline: 4px solid $btn-focus;
+        outline-offset: 2px;
+        border-radius: 3rem;
+    }
+
+    &:active {
+        color: $color-white;
+        background: $color-ETS-midnight;
+        box-shadow: 0px 4px 0px rgba(0, 51, 86, 0.25);
+        // transform:translateY(4px);
+    }
+}
+
+.cta-link {
+    // @include btn-link;
+    letter-spacing: 0px;
+    text-decoration: underline;
+    color: $ets-link;
+    font-weight: $bold;
+    padding: 2px;
+    white-space: nowrap;
+
+    &:hover,
+    &:focus {
+        color: $color-navy;
+        text-decoration: none;
+        background-color: $ets-link-hover;
+        border-radius: 4px;
+    }
+
+    &:focus {
+        outline: 2px solid $ets-link;
+        border-radius: 4px;
+    }
+}
+
+.cta-text-link {
+    // @include btn-link;
+    letter-spacing: 0px;
+    text-decoration: underline;
+    color: $ets-link;
+    font-weight: $semibold;
+    padding: 2px;
+    white-space: nowrap;
+
+    &:hover,
+    &:focus {
+        color: $color-navy;
+        text-decoration: none;
+        background-color: $ets-link-hover;
+        border: 0;
+        border-radius: 4px;
+    }
+
+    &:focus {
+        outline: 2px solid $ets-link;
+        border-radius: 4px;
+    }
+}
+
+.cta-text-link-light {
+    // @include btn-link;
+    letter-spacing: 0px;
+    text-decoration: underline;
+    color: $color-white;
+    font-weight: $semibold;
+    padding: 2px;
+    white-space: nowrap;
+
+    &:hover,
+    &:focus {
+        color: $color-navy;
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.65);
+        border: 0;
+        border-radius: 4px;
+    }
+
+    &:focus {
+        outline: 2px solid $color-white;
+        border-radius: 4px;
+    }
+}
+
+/*cta button primary*/
+
+.cta-btn-primary {
+    @include cta-btn;
+    color: $color-white;
+    background: #375B85;
+    text-align: center;
+
+    .cta-compare-icon,
+    .cta-btn-icon {
+        background-color: $color-white;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        background: $color-ETS-midnight;
+        color: $color-white;
+
+        .cta-compare-icon,
+        .cta-btn-icon {
+            background-color: $color-white;
+        }
+    }
+}
+
+/*cta button secondary*/
+.cta-btn-secondary {
+    @include cta-btn;
+    color: $color-ETS-midnight;
+    background: $color-white;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background: $color-ETS-midnight;
+        color: $color-white;
+
+        .cta-compare-icon,
+        .cta-btn-icon {
+            background-color: $color-white;
+        }
+    }
+}
+
+
+/*cta button tertiary*/
+
+.cta-btn-teritary {
+    @include cta-btn;
+    color: $color-ETS-midnight;
+    background: $color-white;
+    border: 2px solid $color-ETS-midnight;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background: $color-ETS-midnight;
+        color: $color-white;
+
+        .cta-compare-icon,
+        .cta-btn-icon {
+            background-color: $color-white;
+        }
+    }
+
+}
+
+
+/*cta button quartenary*/
+
+.cta-btn-quartenary {
+    @include cta-btn;
+    letter-spacing: 0.02em;
+    color: $color-ETS-midnight;
+    padding: 9px 20px;
+    background: $color-yellow;
+    height: 2.5rem;
+    font-weight: 600;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background: $color-ETS-midnight;
+        color: $color-yellow;
+
+        .cta-compare-icon,
+        .cta-btn-icon {
+            background-color: $color-white;
+        }
+    }
+
+}
+
+/*cta button quaternary for dark background*/
+
+.cta-btn-quaternary-darkbg {
+    @include cta-btn;
+    color: $color-white;
+    background-color: $color-ETS-midnight;
+    border: 2px solid $color-white;
+    box-shadow: 2px 2px 16px rgb(0, 0, 0, 0.32);
+
+    &:hover {
+        color: $color-ETS-midnight;
+        background-color: $color-white;
+        border: 2px solid $color-white;
+        box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.48);
+    }
+
+    &:focus {
+        color: $color-ETS-midnight;
+        background-color: $color-white;
+        border: 2px solid $color-white;
+        outline-offset: 2px;
+        outline: 3px solid $color-white;
+
+    }
+
+    &.disabled {
+        color: rgb(255, 255, 255, 0.48);
+        background-color: rgb(0, 51, 86, 0.48);
+        border: 2px solid rgb(255, 255, 255, 0.48);
+    }
+}
+
+.cta-compare-icon,
+.cta-btn-icon {
+    width: 16px;
+    height: 16px;
+    -webkit-mask: var(--cta-icon-url) no-repeat center;
+    mask: var(--cta-icon-url) no-repeat center;
+    cursor: pointer;
+    background: $color-ETS-midnight;
+    margin-right: 7px;
+
+    &.right {
+        margin-right: 0;
+        margin-left: 7px;
+    }
+
+    &:hover,
+    &:active {
+        background-color: $color-white;
+    }
+}
+
+button:focus-visible,
+select:focus-visible {
+    outline: 2px solid $color-ETS-midnight;
+}
+
+button:focus,
+select:focus {
+    border: 1px solid transparent !important;
+    box-shadow: none !important;
+}

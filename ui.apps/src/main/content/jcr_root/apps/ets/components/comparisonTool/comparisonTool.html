@@ -1,0 +1,24 @@
+<sly data-sly-use.comparisonToolObj="org.ets.core.models.ComparisonToolModel"/>
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = multifieldMap.isEmpty,classAppend='cmp-text'}"></sly>
+
+<div data-sly-test="${comparisonToolObj.header1 && comparisonToolObj.header2}" class="score-comparison">
+    <table class="score-comparison--table" id="scoreComparisonTable">
+        <thead>
+        <tr class="before-highlight">
+            <th scope="col">${comparisonToolObj.header1 @context = 'html'}</th>
+            <th scope="col">${comparisonToolObj.header2 @context = 'html'}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <sly data-sly-list.table="${multifieldMap.table.listChildren}">
+            <tr class="${table.greyshade ? 'shade' : ''}">
+                <td>${table.data1}</td>
+                <td>${table.data2}</td>
+            </tr>
+        </sly>
+        </tbody>
+    </table>
+    <div data-sly-test="${comparisonToolObj.infobox}" class="shaded-scores" id="comparison-shaded-scores">${comparisonToolObj.infobox}</div>
+</div>

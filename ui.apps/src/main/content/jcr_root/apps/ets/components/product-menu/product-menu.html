@@ -1,0 +1,39 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+     data-sly-call="${templates.placeholder @ isEmpty = !properties.fileReference, classAppend='cmp-text'}"></sly>
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+
+<div class="d-none d-xl-block top-nav">
+    <div class="cmp-container--body ">
+        <div class="header-top desktoponly">
+            <nav class="navbar p-0">
+                <div class="collapse show navbar-collapse " id="topnav">
+                    <ul class="navbar-nav me-auto topnav-list" data-sly-list.products="${multifieldMap.products.listChildren}">
+                        <li class="nav-item">
+                            <a class="nav-link ${products.isActive?'active':''}" aria-current="page"
+                               data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=products.productlink}"
+                               href="${linkValidate.link}" target="${products.newTab ? '_blank' : ''}" rel="${products.newTab ? 'noopener noreferrer' : ''}" aria-label="${products.ctaLinkAriaLabel}" style="--tab-hover-color:${products.color @context='styleToken'}">${products.product}</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="topnav-btns">
+                <button class="header-button" onclick="onProductTabClick(event)">
+                    <img src="${properties.cartlogo}" alt="cart">
+                    <span class="header-store-title">${properties.carttext}</span>
+                </button>
+                <button class="header-button separator-btn" onclick="onProductTabClick(event)">
+                    <span class="header-store-title">${properties.langname} </span>
+                    <img class="language-down-arrow" src="/content/dam/ets/icons/down_arrow.svg" alt="down arrow">
+                </button>
+                <a class="contactlink"
+                   data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=properties.contacturl}"
+                   href="${linkValidate.link}" aria-label="${properties.ctaLinkAriaLabel1}">${properties.contacttext}</a>
+                <div class="login-btn">
+                    <a class="cta-btn-quartenary"
+                       data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=properties.loginurl}"
+                       href="${linkValidate.link}" aria-label="${properties.ctaButtonAriaLabel}">${properties.logintext}</a></div>
+            </div>
+        </div>
+    </div>
+</div>

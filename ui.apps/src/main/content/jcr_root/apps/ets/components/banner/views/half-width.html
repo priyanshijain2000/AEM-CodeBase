@@ -1,0 +1,122 @@
+<sly data-sly-use.multifieldObj="org.ets.core.models.MultifieldListModel"></sly>
+<sly data-sly-test.multifieldMap=${multifieldObj.getMultifield}></sly>
+
+<sly data-sly-list.parentCss="${componentContext.getParent.getCssClassNames}">
+    <sly data-sly-test.isDark="${parentCss=='dark'}">
+    </sly>
+</sly>
+<div data-sly-test="${properties.title}" class="carousel-bg">
+    <div class="cmp-container--body mobile-no-margin position-relative">
+        <div class="pills carousel-pills">
+            <span class="rellax rellax-1" data-rellax-speed="1"><img src="/etc.clientlibs/ets/clientlibs/clientlib-site/resources/images/pills/about/Rectangle 108.svg" alt=""></span>
+            <span class="rellax rellax-2" data-rellax-speed="1.3"><img src="/etc.clientlibs/ets/clientlibs/clientlib-site/resources/images/pills/about/Rectangle 58.svg" alt=""></span>
+            <span class="rellax rellax-3" data-rellax-speed="1.6"><img src="/etc.clientlibs/ets/clientlibs/clientlib-site/resources/images/pills/about/Rectangle 104-white.svg" alt=""></span>
+            <span class="rellax rellax-4" data-rellax-speed="2.2"><img src="/etc.clientlibs/ets/clientlibs/clientlib-site/resources/images/pills/about/Group 1043.svg" alt=""></span>
+            <span class="rellax rellax-5" data-rellax-speed="2.5"><img src="/etc.clientlibs/ets/clientlibs/clientlib-site/resources/images/pills/about/Group 1042.svg" alt=""></span>
+        </div>
+        <div class="row align-items-center">
+            <div class="content col-12 col-sm-12 col-lg-5 order-2
+                        order-sm-2 order-lg-1 mobile-margin" data-inviewport="${wcmmode.edit?'':'fadeIn'}">
+                <h2 class="content-title mt-3 mt-md-5 mt-lg-0 animated bounceInRight"> ${properties.title} </h2>
+
+                <p class="content-desc">${properties.desc @context='html'}</p>
+
+<sly data-sly-list.card="${multifieldMap.links.listChildren}">
+<div data-sly-test.var="${card.ctaText}" class="banner-button-band m-0 pt-4">
+<a data-sly-test="${card.ctaText}" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=card.ctaLink}" class="${card.buttonType}" target="${card.newTab1 ? '_blank' : ''}" rel="${card.newTab1 ? 'noopener noreferrer' : ''}" href="${linkValidate.link}" aria-label="${card.textAriaLabel}">${card.ctaText}</a>
+</div>
+</sly>
+
+<div data-sly-test="${!var}">
+<div data-sly-test="${properties.ctaButtonLabel || properties.ctaText}" class="banner-button-band m-0 pt-4">
+<a data-sly-test="${properties.ctaButtonLabel}" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=properties.ctaButtonLink}" class="cmp-button" target="${properties.newTab ? '_blank' : ''}" rel="${properties.newTab ? 'noopener noreferrer' : ''}" href="${linkValidate.link}" aria-label="${properties.ctaAriaLabel}">${properties.ctaButtonLabel}</a>
+<a data-sly-test="${properties.ctaText}" data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=properties.ctaLink}" class="cta-text-link" target="${properties.newTab1 ? '_blank' : ''}" rel="${properties.newTab1 ? 'noopener noreferrer' : ''}" href="${linkValidate.link}" aria-label="${properties.textAriaLabel}">${properties.ctaText}</a>
+</div>
+                </div>
+            </div>
+            <sly data-sly-test="${properties.assettype=='video'}">
+                <div class="content-img carousel-video-container col-12 col-sm-12 col-lg-7 order-1
+                        order-sm-1 order-lg-2">
+                    <sly data-sly-test="${properties.videotype=='kalturavideo'}">
+                        <sly data-sly-test="${!inheritedPageProperties.partnerID || !inheritedPageProperties.embedID}">
+                            <p>KALTURA CONFIGURATIONS ARE MISSING. PLEASE CONFIGURE THEM TO VIEW THE VIDEO!!!</p>
+                        </sly>
+                        <div data-sly-test="${properties.videoid && inheritedPageProperties.partnerID && inheritedPageProperties.embedID}" class="cmp-container--body">
+                            <section class="video-container row ${properties.layoutStyle}">
+                                <div class="video-container__video ratio ratio-16x9">
+                                    <div id="kaltura_player_289769231_${currentNode.getName}"></div>
+                                </div>
+                            </section>
+                            <div data-sly-test="${properties.caption}" class="video-caption">${properties.caption}</div>
+                        </div>
+
+                        <sly data-sly-test="${properties.videoid && inheritedPageProperties.partnerID && inheritedPageProperties.embedID && properties.thumbnail}">
+                            <!--/* start embed */-->
+                            <!--/* kaltura api */-->
+                            <script>
+								try {
+                                    var kalturaPlayer = KalturaPlayer.setup({
+                                    targetId: "kaltura_player_289769231_${currentNode.getName @ context='scriptString'}",
+                                    provider: {
+                                      partnerId: ${inheritedPageProperties.partnerID @ context='scriptString'},
+                                      uiConfId: ${inheritedPageProperties.embedID @ context='scriptString'}
+                                    },
+									playback: {
+										autoplay: false
+									}
+                                    });
+                                  kalturaPlayer.loadMedia({entryId: "${properties.videoid @ context='scriptString'}"});
+                                  } catch (e) {
+                                  console.error(e.message);
+                                }
+						    </script>
+                        </sly>
+                        <sly data-sly-test="${properties.videoid && inheritedPageProperties.partnerID && inheritedPageProperties.embedID && !properties.thumbnail}">
+                            <!--/* start embed */-->
+                            <!--/* kaltura api */-->
+                            <script>
+								try {
+                                    var kalturaPlayer = KalturaPlayer.setup({
+                                    targetId: "kaltura_player_289769231_${currentNode.getName @ context='scriptString'}",
+                                    provider: {
+                                      partnerId: ${inheritedPageProperties.partnerID @ context='scriptString'},
+                                      uiConfId: ${inheritedPageProperties.embedID @ context='scriptString'}
+                                    },
+									playback: {
+										autoplay: false
+									}
+                                    });
+                                  kalturaPlayer.loadMedia({entryId: "${properties.videoid @ context='scriptString'}"});
+                                  } catch (e) {
+                                  console.error(e.message);
+                                }
+						    </script>
+                        </sly>
+                    </sly>
+                    <sly data-sly-test="${properties.videotype=='damvideo'}">
+                        <section class="videoText">
+                            <div class="videoText__container">
+                                <video controls id="video-element" poster="${properties.thumbnailpath}" src="${properties.videopath}" alt="${properties.altText2 || true}" preload="auto"></video>
+                            </div>
+                        </section>
+                    </sly>
+                    <sly data-sly-test="${properties.videotype=='external'}">
+                        <section class="videoText ratio ratio-16x9">
+                            <div class="videoText__container">
+                                <iframe id="video-element" src="${properties.videolink}" title="${properties.videoTitle}" data-placeholder="${properties.thumbnailpath_external}" alt="${properties.altText3 || true}" allow="fullscreen;autoplay" allowscriptaccess="always"></iframe>
+                            </div>
+                        </section>
+                    </sly>
+                    <div class="carousel-view-transcript mobile-margin" data-sly-test="${properties.link}">
+                            <a data-sly-use.linkValidate="${'org.ets.core.models.LinkValidatorModel' @link=properties.link}" class="view-transcript" target="${properties.newTab2 ? '_blank' : ''}" rel="${properties.newTab2 ? 'noopener noreferrer' : ''}" href="${linkValidate.link}">${properties.text}</a>
+                        </div>
+                </div></sly>
+            <sly data-sly-test="${properties.assettype=='image'}">
+                <div class="content-img carousel-video-container col-12 col-sm-12 col-lg-7 order-1 order-sm-1 order-lg-2">
+                    <sly data-sly-use.imgMetadata="${'org.ets.core.models.DamMetadataModel' @imgPath=properties.assetpath}"></sly>
+                    <img class="carousel-img" src="${properties.assetpath ? properties.assetpath : '/content/dam/ets-org/general/placeholders/img-plchldr-acrticle-card.jpg'}" loading="${currentStyle.disableLazyLoading ? '' : 'lazy'}" alt="${properties.altText1 || true}">
+                </div>
+            </sly>
+        </div>
+    </div>
+</div>

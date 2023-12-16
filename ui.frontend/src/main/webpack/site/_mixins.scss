@@ -1,0 +1,102 @@
+@mixin for-size($size) {
+    @if $size==only-mobile {
+        @media (max-width: 767.5px) {
+            @content;
+        }
+    }
+    @else if $size==tablet-portrait {
+        @media (min-width: 768px) and (max-width: 992px) {
+            @content;
+        }
+    }
+    @else if $size==tablet-landscape {
+        @media (min-width: 993px) and (max-width: 1024px) {
+            @content;
+        }
+    }
+    @else if $size==desktop {
+        @media (min-width: 1025px) and (max-width: 1440px) {
+            @content;
+        }
+    }
+    @else if $size==only-tablet {
+        @media (min-width: 768px) and (max-width: 1023px) {
+            @content;
+        }
+    }
+    @else if $size==only-desktop {
+        @media (min-width: 1024px) {
+            @content;
+        }
+    }
+    @else if $size==big-desktop {
+        @media (min-width: 1441px) {
+            @content;
+        }
+    }
+}
+
+@mixin viewport($size) {
+    @if $size==only-mobile {
+        @media (max-width: 767.5px) {
+            @content;
+        }
+    }
+    @if $size==mobile-tab-portrait {
+        @media (max-width: 992px) {
+            @content;
+        }
+    }
+    @if $size==only-desktop {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+    @else if $size==tablet-portrait {
+        @media (min-width: 768px) and (max-width: 992px) {
+            @content;
+        }
+    }
+    @else if $size==tablet-landscape {
+        @media (min-width: 993px) and (max-width: 1200px) {
+            @content;
+        }
+    }
+    @else if $size==tablet {
+        @media (min-width: 768px) and (max-width: 1200px) {
+            @content;
+        }
+    }
+    @else if $size==tablet-desktop {
+        @media (min-width: 768px) {
+            @content;
+        }
+    }
+    @else if $size==tablet-land-desktop {
+        @media (min-width: 992.5px) {
+            @content;
+        }
+    }
+    @else if $size==desktop-small {
+        @media (min-width: 1201px) and (max-width: 1400px) {
+            @content;
+        }
+    }
+    @else if $size==desktop-large {
+        @media (min-width: 1401px) and (max-width: 2000px) {
+            @content;
+        }
+    }
+}
+
+@mixin fontsize($size, $lineheight, $weight, $color, $case) {
+    font-size: $size;
+    line-height: $lineheight;
+    font-weight: $weight;
+    color: $color;
+    text-transform: $case;
+}
+
+@mixin borderbottom( $opacity) {
+    border-bottom: 1px solid rgba(46, 46, 46, $opacity);
+}

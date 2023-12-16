@@ -1,0 +1,43 @@
+{
+	"footernav": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "saravanan.a.ms@accenture.com",
+		"jcr:lastModifiedBy": "RCHOUDHARY@ets.org",
+		"jcr:created": "Mon Jan 10 2022 11:40:06 GMT+0000",
+		"logo": "/content/dam/ets-org/logo/ETS_LOGO.svg",
+		"jcr:lastModified": "Tue Apr 19 2022 12:17:29 GMT+0000",
+		"navtitle1": "ETS",
+		"navtitle2": "Solutions",
+		"navtitle3": "Products",
+		"logoAriaLabel": "logo",
+		"altText": "text",
+		"sling:resourceType": "ets/components/footernav",
+		"nav1": {
+			"jcr:primaryType": "nt:unstructured",
+			"item0": {
+				"jcr:primaryType": "nt:unstructured",
+				"newTab1": "false",
+				"navlink1": "/content/ets-org/language-master/en/home/about",
+				"navtext1": "About ETS"
+			}
+		},
+		"nav2": {
+			"jcr:primaryType": "nt:unstructured",
+			"item0": {
+				"jcr:primaryType": "nt:unstructured",
+				"newTab2": "false",
+				"navlink2": "#",
+				"navtext2": "Educator Licensure"
+			}
+		},
+		"nav3": {
+			"jcr:primaryType": "nt:unstructured",
+			"item0": {
+				"jcr:primaryType": "nt:unstructured",
+				"newTab3": "false",
+				"navlink3": "https://www.ets.org/",
+				"navtext3": "GRE"
+			}
+		}
+	}
+}

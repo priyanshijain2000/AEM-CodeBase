@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Info Cards"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[core.wcm.components.container.v1.editor]"
+    helpPath="https://www.adobe.com/go/aem_cmp_container_v1">
+    <content
+        granite:class="cmp-container__editor"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <documentation
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Documentation"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <container
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <notes
+                                        granite:class="coral-Form-fieldlabel"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/text"
+                                        text="Note: This is a child of the container component with a title/seperator/text/button (Author must use 2 or 3 column).  Author will not be able to use paint brush with title/seperator.  Author will be required to use paint brush to choose card amounts/color and button styles. If author needs to delete pre-authored content, please delete each item seperatly (title/separator, etc.) but do not delete the layout container."/>
+                                    <otheroptions
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:hideResource="true"
+                                        sling:resourceType="granite/ui/components/coral/foundation/well"/>
+                                    <secondoption
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:hideResource="true"
+                                        sling:resourceType="granite/ui/components/coral/foundation/well"/>
+                                    <thirdoption
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:hideResource="true"
+                                        sling:resourceType="granite/ui/components/coral/foundation/well"/>
+                                    <fourthoption
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/well">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <layout
+                                                granite:class="coral-Form-fieldlabel"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                text="Card Amount - To be used with Card Components and 2-col/3-col ONLY"/>
+                                                 <fourthinner
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/well">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <cardone
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-container--card-1"/>
+                                                        <cardtwo
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-container--card-2"/>
+                                                        <cardthree
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-container--card-3"/>
+                                                        <cardonesep
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-container--card-1-seperator"/>
+                                                        <cardtwosep
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-container--card-2-seperator"/>
+                                                        <cardthreesep
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-container--card-3-seperator"/>
+                                                    </items>
+                                                </fourthinner>
+                                        </items>
+                                    </fourthoption>
+                                    <fifthoption
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/well">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <layout
+                                                granite:class="coral-Form-fieldlabel"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                text="Card Colors - To be used with Card Components and 2-col/3-col ONLY. For Transparent, don't select card amount"/>
+                                                <fifthinner
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/well">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <cardwhite
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-container--card-opaque (White)"/>
+                                                        <cardtrans
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-container--card-translucent"/>
+                                                        <cardtransparent
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-container--card-transparent"/>
+                                                    </items>
+                                            </fifthinner>
+                                        </items>
+                                    </fifthoption>
+                                    <sixthoption
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/well">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <layout
+                                                granite:class="coral-Form-fieldlabel"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                text="Card Title/Separator Colors"/>
+                                                <sixthinner
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/well">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <darkblue
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-infocards--dark-blue"/>
+                                                        <purple
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-infocards--purple"/>
+                                                        <amber
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-infocards--amber"/>
+                                                        <gold
+                                                            granite:class="coral-Form-fieldlabel"
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                            text="cmp-infocards--gold"/>
+                                                    </items>
+                                            </sixthinner>
+                                        </items>
+                                    </sixthoption>
+                                </items>
+                            </container>
+                        </items>
+                    </documentation>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

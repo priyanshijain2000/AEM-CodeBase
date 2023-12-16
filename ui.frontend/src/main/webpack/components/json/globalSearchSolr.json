@@ -1,0 +1,74 @@
+{
+    "request":{
+       "searchCollection":"etsorg",
+       "text":"test",
+       "filterText":null,
+       "resultsPerPage":"10",
+       "resultsStart":"10"
+    },
+    "numberOfResults":612,
+    "quickLinks":[
+        {
+            "title":"Center for Research on Human Capital and Education: ETS R&D",
+            "description":"The ETS Center for Research on Human Capital and Education leverages data from large-scale assessments and other surveys to generate peer-reviewed policy research that explores the acquisition",
+            "url":"https://www.ets.org/research/policy/human-capital-education"
+         },
+         {
+            "title":"ETS Strategic Capital Equity Investments",
+            "description":"ETS Strategic Capital was formed to invest in, acquire  or partner with innovative companies and technologies to further enhance the ETS  strategy and mission. Learn more about our focus areas and opportunities.",
+            "url":"https://www.ets.capital/"
+         }
+    ],
+    "results":[
+       {
+          "url":"https://www-vantage-stg-publish.ets.org/content/ets-org/language-master/en/home/mft/about/test-content.html",
+          "title":"Test Content | ETS Major Field Tests",
+          "shortDescription":"Download a description of each test’s content along with sample questions, and learn about how you can customize content to get even better insight into your program."
+       },
+       {
+          "url":"https://www-vantage-stg-publish.ets.org/content/ets-org/language-master/en/home/mft/test-content.html",
+          "title":"Test Content | ETS Major Field Tests",
+          "shortDescription":"Download a description of each test’s content along with sample questions, and learn about how you can customize content to get even better insight into your program."
+       },
+       {
+          "url":"https://www-vantage-stg-publish.ets.org/content/ets-org/language-master/en/home/praxis/site/test-takers/schedule.html",
+          "title":"Schedule Your Praxis Test",
+          "shortDescription":"Ready to schedule your Praxis test? Let’s get started."
+       },
+       {
+          "url":"https://www-vantage-stg-publish.ets.org/content/ets-org/language-master/en/home/praxis/site/test-takers/schedule.html?testFromHome=true",
+          "title":"Schedule Your Praxis Test",
+          "shortDescription":"Ready to schedule your Praxis test? Let’s get started."
+       },
+       {
+          "url":"https://www-vantage-stg-publish.ets.org/content/ets-org/language-master/en/home/toefl/score-users/essentials/why.html",
+          "title":"Why Accept the TOEFL Essentials Test",
+          "shortDescription":"The TOEFL Essentials test expands your program’s range of applicants. Learn about the convenient test format, shorter testing time, ease of registration and score delivery, and more."
+       },
+       {
+          "url":"https://www-vantage-stg-publish.ets.org/content/ets-org/language-master/en/home/toefl/score-users/ibt/test-security.html",
+          "title":"Test Security of the TOEFL iBT Test",
+          "shortDescription":"The TOEFL iBT test offers the best security of any English-language assessment. We employ prevention, detection and communication to protect the integrity of TOEFL iBT scores."
+       },
+       {
+          "url":"https://www-vantage-stg-publish.ets.org/content/ets-org/language-master/en/home/parapro/test-takers/test-center-test-day.html",
+          "title":"ParaPro Test Center Testing",
+          "shortDescription":"Get ready for your ParaPro test day. Find out what you can expect before, during and after the test, and see a list of what to bring."
+       },
+       {
+          "url":"https://www-vantage-stg-publish.ets.org/content/ets-org/language-master/en/home/gre/test-takers/subject-tests/test-day.html",
+          "title":"On the Day of Your GRE Subject Test",
+          "shortDescription":"Learn about the policies and procedures, what to bring, and what to expect, so that you can feel more confident on the day of your GRE Subject Test."
+       },
+       {
+          "url":"https://www-vantage-stg-publish.ets.org/content/ets-org/language-master/en/home/gre/test-takers/general-test/test-day.html",
+          "title":"On Your GRE General Test Day",
+          "shortDescription":"Prepare for your GRE test day. Learn about the test center procedures and regulations on the day of the GRE General Test, as well as what to bring."
+       },
+       {
+          "url":"https://www-vantage-stg-publish.ets.org/content/ets-org/language-master/en/home/praxis/site/test-takers/register/how-to-register.html",
+          "title":"How to Register for Your Praxis Test",
+          "shortDescription":"Learn about Praxis registration, how to reschedule, cancel or retake a test, and how much your test costs, or find registration forms and code lists."
+       }
+    ]
+ }

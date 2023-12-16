@@ -1,0 +1,84 @@
+.test-fee-filter {
+   
+      
+    &__title {
+        @include fontsize(1.125rem, 1.5rem, $bold, $color-ETS-bodyblack, initial);
+        margin-bottom: 40px;
+    }
+    &__table {
+         margin-top: 40px;
+        border-top: 0.0625rem solid $color-ETS-bodyblack;
+        border-bottom: 0.0625rem solid $color-ETS-bodyblack;
+        margin-bottom: 1.25rem;
+        width:50%;
+        @include viewport(only-mobile) {
+            width:100%;
+        }
+        @include viewport(tablet) {
+            width:100%;
+        }
+        tbody td:nth-child(2) {
+            padding-left: 0.625rem;
+        }
+        tr {
+            th {
+                @include fontsize(1.125rem, 2rem, $bold, $color-ETS-bodyblack, initial);
+                border-bottom: 0.0625rem solid #D7D7D7;
+            }
+            th:first-child {
+                border-right: 0.0625rem solid #D7D7D7;
+                width: 30%;
+            }
+            th:nth-child(2) {
+                padding-left: 0.625rem;
+            }
+            td {
+                padding: 0;
+            }
+            &:last-child {
+                td {
+                    border-bottom: 0;
+                }
+            }
+            td:first-child {
+                border-right: 1px solid #D7D7D7;
+                width: 30%;
+            }
+        }
+        // thead {
+        //     padding: 0;
+        //     @include fontsize(1.125rem, 2rem, $bold, $color-ETS-bodyblack, initial);
+        //     th:first-child {
+        //         border-right: 0.0625rem solid #D7D7D7;
+        //         width: 30%;
+        //     }
+        //     th:nth-child(2) {
+        //         padding-left: 0.625rem;
+        //     }
+        // }
+        // &__content {
+        //     tr {
+        //         padding: 0;
+        //         td {
+        //             padding: 0;
+        //         }
+        //         td:first-child {
+        //             border-right: 1px solid #D7D7D7;
+        //             width: 30%;
+        //         }
+                
+        //     }
+        //     tr:first-child {
+        //         td {
+        //             border-top: 1px solid #D7D7D7;
+        //         }
+        //     }
+        //     tr:last-child {
+        //         border-bottom: 0;
+        //         td {
+        //             border-bottom: 0;
+        //         }
+        //     }
+        // }
+    }
+}

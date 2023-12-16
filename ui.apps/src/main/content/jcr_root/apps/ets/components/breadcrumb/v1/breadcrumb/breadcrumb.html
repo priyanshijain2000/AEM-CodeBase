@@ -1,0 +1,25 @@
+
+<sly data-sly-test="${!pageProperties.disableBreadcrumb}">
+<nav class="breadcrumb-nav" data-sly-use.breadcrumb="com.adobe.cq.wcm.core.components.models.Breadcrumb"
+     data-sly-use.component="com.adobe.cq.wcm.core.components.models.Component"
+     data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+     id="${component.id}">
+    <div data-sly-test="${breadcrumb.items.size > 1}" class="cmp-container--default">
+		
+        <div class="breadcrumb-container d-none d-md-flex" data-sly-list.navItem="${breadcrumb.items}">
+            <sly data-sly-test ="${!navItem.active}">
+                <a class="breadcrumb-parent-text" href="${navItem.URL}">${navItem.title}<i class="breadcrumb-right-arrow"></i></a></sly>
+            <sly data-sly-test ="${navItem.active}">
+                <span class="breadcrumb-lastchild-text">${navItem.title}</span></sly>
+        </div>
+        <!-- /*Mobile View*/ -->
+        <div data-sly-test="${breadcrumb.items.size > 1}" class="breadcrumb-container-mobile d-block d-md-none">
+            <a class="breadcrumb-parent-text" href="${currentPage.getParent.path}.html"><i class="breadcrumb-left-arrow"></i>${properties.prefixtext} ${currentPage.getParent.getTitle}</a>
+        </div>
+        <div class="breadcrumb-separator d-none d-md-block"></div>
+    </div>
+</nav>
+
+<sly data-sly-call="${template.placeholder @ isEmpty=true, classAppend='cmp-breadcrumb'}"></sly>
+
+</sly>

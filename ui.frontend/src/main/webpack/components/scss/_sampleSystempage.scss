@@ -1,0 +1,323 @@
+.system-messages{
+    display: flex;
+    height: auto;
+    align-items: center;
+    column-gap: 32px;
+    justify-content: center;
+    animation-duration: 0.15s;
+    transition:  0.15s ease;
+    .messages{
+        height: auto;
+    }
+    .message-scroll-btn,
+    .close-system-message{
+        border: none;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@keyframes slideDownWarnMessage {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes slideDownAlertMessage {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes slideDownInformMessage {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.system-messages.warn-message{
+    background-color: #A80005;
+    animation-name: slideDownWarnMessage;
+    transition: none;
+    p::before{
+        content: url("/content/dam/ets-org/icons/commons/circle-exclamation-white.svg");
+        position: relative;
+        top: 3px;
+        margin-right: 12px;
+    }
+    color: #FFFFFF;
+    a{
+        color: #FFFFFF;
+    }
+    a:hover, a:focus{
+        color: #003082;
+    }
+    .message-scroll-btn{
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-white-btn.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-button-white.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-white-btn.svg");
+        }
+        
+    }
+    .message-scroll-btn:hover{
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-hover-dark.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-hover-dark.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-hover-dark.svg");
+        }
+        
+    }
+    .message-scroll-btn:active{
+        outline: 1px solid #003082;
+        border-radius: 4px;
+        background: #FFF 20%;
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-hover-dark.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-hover-dark.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-hover-dark.svg");
+        }
+    }
+    .message-scroll-btn:focus-visible{
+        outline: 1px solid #003082;
+        border-radius: 4px;
+        background: #FFF 20%;
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-hover-dark.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-hover-dark.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-hover-dark.svg");
+        }
+    }
+    .message-scroll-btn:disabled{
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-disable-dark.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-disable-dark.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-disable-dark.svg");
+        }
+    }
+    .close-system-message{
+        content: url("/content/dam/ets-org/icons/commons/close-white.svg");
+    }
+    .close-system-message:hover{
+        content: url("/content/dam/ets-org/icons/commons/close-hover-white.svg");
+    }
+    .close-system-message:focus{
+        content: url("/content/dam/ets-org/icons/commons/close-hover-white.svg");
+        outline: 2px solid  #2AACE2;
+        border-radius: 50%;
+        padding: 0;
+    }
+    .close-system-message:disabled{
+        content: url("/content/dam/ets-org/icons/commons/close-disable-image.svg");
+    } 
+}
+.system-messages.alert-message{
+    background-color:  #D7A80E;
+    animation-name: slideDownAlertMessage;
+    transition: none;
+        p::before{
+        content: url("/content/dam/ets-org/icons/commons/bell-image-black.svg");
+        position: relative;
+        top: 5px;
+        margin-right: 12px;
+    }
+    color: #151515;
+    .message-scroll-btn{
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-black-btn.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-button-black.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-black-btn.svg");
+        }
+    }
+
+    .message-scroll-btn:hover{
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-hover-btn.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-hover-btn.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-hover-btn.svg");
+        }
+    }
+    .message-scroll-btn:active{
+        outline: 1px solid #003082;
+        border-radius: 4px;
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-hover-btn.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-hover-btn.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-hover-btn.svg");
+        }
+    }
+    .message-scroll-btn:focus-visible{
+        outline: 1px solid #003082;
+        border-radius: 4px;
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-hover-btn.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-hover-btn.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-hover-btn.svg");
+        }
+    }
+    
+        .message-scroll-btn:disabled{
+            .scroll-up-arrow{
+                content: url("/content/dam/ets-org/icons/commons/scroll-up-disable-btn.svg");
+            }
+            .scroll-dootedline-arrow{
+                content: url("/content/dam/ets-org/icons/commons/scroll-dotted-disable-btn.svg");
+            }
+            .scroll-down-arrow{
+                content: url("/content/dam/ets-org/icons/commons/scroll-down-disable-btn.svg");
+            }
+        }
+    
+    .close-system-message{
+        content: url("/content/dam/ets-org/icons/commons/close-black.svg");
+    }
+    .close-system-message:hover{
+        content: url("/content/dam/ets-org/icons/commons/close-button-hover.svg");
+    }
+    .close-system-message:focus{
+        content: url("/content/dam/ets-org/icons/commons/close-button-hover.svg");
+        outline: 2px solid #2AACE2;
+        border-radius: 50%;
+        padding: 0;
+    }
+    .close-system-message:disabled{
+        content: url("/content/dam/ets-org/icons/commons/close-disable-image.svg");
+    }
+}
+.system-messages.inform-message{
+    background-color: #3072BE;
+    animation-name: slideDownInformMessage;
+    transition: none;
+    p::before{
+        content: url("/content/dam/ets-org/icons/commons/circle-inform-white.svg");
+        position: relative;
+        top: 3px;
+        margin-right: 12px;
+    }
+    color: #FFFFFF;
+    a{
+        color: #FFFFFF;
+    }
+    a:hover, a:focus{
+        color: #003082;
+    }
+    .message-scroll-btn{
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-white-btn.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-button-white.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-white-btn.svg");
+        }
+    }
+    .message-scroll-btn:hover{
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-hover-dark.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-hover-dark.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-hover-dark.svg");
+        }    
+    }
+    .message-scroll-btn:active{
+        outline: 1px solid #003082;
+        border-radius: 4px;
+        background: #FFF 20%;
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-hover-dark.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-hover-dark.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-hover-dark.svg");
+        }
+    }
+    .message-scroll-btn:focus-visible{
+        outline: 1px solid #003082;
+        border-radius: 4px;
+        background: #FFF 20%;
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-hover-dark.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-hover-dark.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-hover-dark.svg");
+        }
+    }
+    .message-scroll-btn:disabled{
+        .scroll-up-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-up-disable-dark.svg");
+        }
+        .scroll-dootedline-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-dotted-disable-dark.svg");
+        }
+        .scroll-down-arrow{
+            content: url("/content/dam/ets-org/icons/commons/scroll-down-disable-dark.svg");
+        }
+    }
+    .close-system-message{
+        content: url("/content/dam/ets-org/icons/commons/close-white.svg");
+    }
+    .close-system-message:hover{
+        content: url("/content/dam/ets-org/icons/commons/close-hover-white.svg");
+    }
+    .close-system-message:focus{
+        content: url("/content/dam/ets-org/icons/commons/close-hover-white.svg");
+        outline: 2px solid  #2AACE2;
+        border-radius: 50%;
+        padding: 0;
+    }
+    .close-system-message:disabled{
+        content: url("/content/dam/ets-org/icons/commons/close-disable-image.svg");
+    }
+}

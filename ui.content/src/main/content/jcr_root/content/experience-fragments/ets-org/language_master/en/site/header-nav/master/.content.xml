@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-04-22T09:53:39.363Z"
+        cq:lastModifiedBy="kpichandi@ets.org"
+        cq:lastReplicated="{Date}2022-04-18T08:48:52.011Z"
+        cq:lastReplicated_preview="{Date}2022-04-25T07:04:57.792Z"
+        cq:lastReplicated_publish="{Date}2022-04-18T08:48:52.011Z"
+        cq:lastReplicatedBy="kpichandi@ets.org"
+        cq:lastReplicatedBy_preview="kpichandi@ets.org"
+        cq:lastReplicatedBy_publish="kpichandi@ets.org"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/ets/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:description="This is a main header"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Header"
+        jcr:uuid="bd385465-6785-4b9e-8c7f-1d5e8bcb9952"
+        sling:resourceType="ets/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="responsiveGrid">
+            <colctrl
+                jcr:created="{Date}2022-04-01T23:19:40.722Z"
+                jcr:createdBy="anand.a.bisht@avanade.com"
+                jcr:lastModified="{Date}2022-04-01T23:19:40.722Z"
+                jcr:lastModifiedBy="anand.a.bisht@avanade.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="start"
+                layout="2;cq-colctrl-lt0"/>
+            <col_break16488551807270
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <col_end16488551807271
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+            <colctrl_1814621005
+                jcr:created="{Date}2022-04-01T23:22:14.035Z"
+                jcr:createdBy="anand.a.bisht@avanade.com"
+                jcr:lastModified="{Date}2022-04-01T23:22:14.035Z"
+                jcr:lastModifiedBy="anand.a.bisht@avanade.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"/>
+            <col_end16488553340370
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+            <tableheader
+                jcr:created="{Date}2022-04-01T23:25:33.458Z"
+                jcr:createdBy="anand.a.bisht@avanade.com"
+                jcr:lastModified="{Date}2022-04-01T23:26:07.429Z"
+                jcr:lastModifiedBy="anand.a.bisht@avanade.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/tableHeader"
+                css="xzzz"
+                guideNodeClass="guideTableRow"
+                name="tableheader1648855535408"
+                visible="{Boolean}true">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/table/headerLayout"/>
+            </tableheader>
+            <mainheader_copy
+                jcr:created="{Date}2022-01-11T12:43:46.981Z"
+                jcr:createdBy="parthiban.selvam.p@accenture.com"
+                jcr:lastModified="{Date}2022-04-22T09:53:37.587Z"
+                jcr:lastModifiedBy="kpichandi@ets.org"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/mainheader"
+                cartlogo="/content/dam/ets-org/icons/cart.svg"
+                carttext="ETS STORE"
+                col1title1="I WANT TO:"
+                col1title2="I WANT TO:"
+                col1title3="I'M LOOKING FOR:"
+                col1title4="I WANT TO:"
+                col1title5="I WANT TO:"
+                col1title6="I'M LOOKING FOR:"
+                col2title3="I WANT TO:"
+                commonLinkCf="/content/dam/ets-org/ets-content-fragment/header/header-menu"
+                contacttext="CONTACT"
+                contacturl="/content/ets-org/language-master/en/home/contact.html"
+                fileReference="/content/dam/ets/commons/logo/ETS_LOGO.svg"
+                homePagePath="/content/ets-org/language-master/en/home"
+                langname="ENGLISH"
+                linkurl="/content/ets-org/en/home"
+                logintext="Login / Register"
+                loginurl="#"
+                navtitle1="TEST TAKERS"
+                navtitle2="EDUCATORS"
+                navtitle3="INSTITUTIONS"
+                navtitle4="BUSINESS"
+                navtitle5="GOVERNMENTS"
+                navtitle6="RESEARCH"
+                productMenuCf="/content/dam/ets-org/ets-content-fragment/header/product-list"
+                productName="Products">
+                <products jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        color="#630F54"
+                        isActive="false"
+                        newTab="false"
+                        product="GRE"
+                        productlink="/content/ets-org/language-master/en/home/GRE"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        color="#377D82"
+                        isActive="false"
+                        newTab="false"
+                        product="TOEFL"
+                        productlink="/content/ets-org/language-master/en/home/toefl"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        color="#165736"
+                        isActive="false"
+                        newTab="false"
+                        product="TOEIC"
+                        productlink="/content/ets-org/language-master/en/home/toeic"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        color="#A03137"
+                        isActive="false"
+                        newTab="false"
+                        product="PRAXIS"
+                        productlink="/content/ets-org/language-master/en/home/praxis"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        color="#3B5686"
+                        isActive="false"
+                        newTab="false"
+                        product="ALL PRODUCTS"
+                        productlink="#"/>
+                </products>
+                <logo jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        altText="alt"
+                        image="/content/dam/ets-org/logo/ETS_LOGO.svg"
+                        linkurl="/content/ets-org/language-master/en/home"/>
+                </logo>
+                <column11 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="All Assessments"
+                        newTab="false"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="K-12 Programs"
+                        newTab="false"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="higher education"
+                        newTab="true"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navlink="/content/ets-org/language-master/en/home/demo/show-your-english-ability---ets"
+                        navtext="show your english ability"
+                        newTab="false"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="workplace &amp; training"
+                        newTab="true"/>
+                    <item5
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="read research"
+                        newTab="true"/>
+                </column11>
+                <column21 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="gain teaching license"
+                        newTab="true"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="view test resource for students"
+                        newTab="true"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="attend conferences"
+                        newTab="true"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="read research"
+                        newTab="true"/>
+                </column21>
+                <column31 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="scoring services"
+                        newTab="true"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="k-12 programs"
+                        newTab="true"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="higher education"
+                        newTab="true"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="workplace &amp; training"
+                        newTab="true"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="read research"
+                        newTab="true"/>
+                </column31>
+                <column32 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="plan admissions"
+                        newTab="true"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="sign into ETS data manager"
+                        newTab="true"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="interpret scores"
+                        newTab="true"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="use scores"
+                        newTab="true"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="view score policies"
+                        newTab="true"/>
+                </column32>
+                <column41 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="find job candidates"
+                        newTab="true"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="interpret scores"
+                        newTab="true"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="use scores"
+                        newTab="true"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="collaborate with ETS"
+                        newTab="true"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="read research"
+                        newTab="true"/>
+                </column41>
+                <column51 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="sign into ETS data manager"
+                        newTab="true"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="read policy studies"
+                        newTab="true"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="view all research"
+                        newTab="true"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="view all solutions"
+                        newTab="true"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="view assessments tools"
+                        newTab="true"/>
+                    <item5
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="learn about test adoption"
+                        newTab="true"/>
+                    <item6
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="view praxis services &amp; tools"
+                        newTab="true"/>
+                    <item7
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="view praxis resources"
+                        newTab="true"/>
+                </column51>
+                <column61 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="all research"
+                        newTab="true"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="research centers"
+                        newTab="true"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="ETS AI labs"
+                        newTab="true"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="R&amp;D consulting services"
+                        newTab="true"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="partners &amp; projects"
+                        newTab="true"/>
+                    <item5
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="grants &amp; strategic alliances"
+                        newTab="true"/>
+                    <item6
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="fairness &amp; equity"
+                        newTab="true"/>
+                    <item7
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="internships, fellowships &amp; careers"
+                        newTab="true"/>
+                </column61>
+            </mainheader_copy>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,11 @@
+<sly
+	data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+	data-sly-call="${templates.placeholder @ isEmpty = !(properties.disctitle || properties.discdesc),classAppend='cmp-text'}"></sly>
+
+<section data-sly-test="${properties.disctitle || properties.discdesc}" class="cmp-container--body disclaimer disclaimer--yellow">
+	<div class="disclaimer-content" tabindex="0" role="alert">
+		<div class="disclaimer-exclamation">!</div>
+		<h2 class="heading5">${properties.disctitle}</h2>
+		<p>${properties.discdesc @context='html'}</p>
+	</div>
+</section>

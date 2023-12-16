@@ -1,0 +1,701 @@
+#page-container {
+  .accordion-section {
+    display: block;
+    margin: none;
+    padding: none;
+  }
+
+  .TestCenterOptions-form {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    align-self: flex-start;
+    align-items: center;
+    margin-top: 3em;
+    outline-offset: 5px;
+  }
+
+  .TestCenterOptions-form legend {
+    font-weight: 650;
+    font-size: 16px;
+    font-family: 'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans', sans-serif;
+    color: #333333;
+  }
+
+  .TestCenterOptions-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1em;
+  }
+
+  .TestCenterOption {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+    &.selected {
+      border-color: transparent;
+      outline: 2px solid var(--primary-calendar);
+    }
+  }
+
+  .TestCenterOption-summary {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex: 1;
+  }
+
+  .TestCenterOption-summary_left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+    flex: 1;
+    cursor: pointer;
+    padding: 0.75em;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    label {
+      cursor: inherit;
+    }
+
+    input[type='radio'] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: 1px solid #000;
+      cursor: inherit;
+      margin-right: 7px;
+      flex-shrink: 0;
+
+      &:checked {
+        background-color: var(--primary-calendar);
+        border-color: transparent;
+        color: #FFF;
+      }
+
+      &:focus-visible {
+        outline-color: var(--primary-calendar);
+        outline-offset: 4px;
+      }
+    }
+  }
+
+  .TestCenterOption-times_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    /* TODO: Should find a better way align this component with the above-- maybe this whole thing should be a grid */
+    padding: 1em 1em 1.5em 48px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+  .TestCenterOption-times {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    
+    .TestCenterOptions-time {
+      min-width: 5em;
+    }
+  }
+
+  .new-calendar-btn-tertiary.ConfirmLocationButton {
+    margin: 4em 0 3em 0;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  fieldset {
+    border: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  legend {
+    padding-bottom: 1.5em;
+  }
+
+  .AccordionContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    position: relative;
+  }
+
+  .AccordionSection {
+    --border-radius: 5px;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: var(--border-radius);
+  }
+
+  .AccordionSectionHeading {
+    background-color: rgb(242, 242, 242);
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    padding: 0.5em 1em;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-block-start: 0;
+    min-height: 50px;
+
+    &.rounded-borders {
+      background-color: rgb(242, 242, 242);
+      border-radius: var(--border-radius);
+      padding: 0.5em 1em;
+      margin-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      margin-block-start: 0;
+    }
+
+    &.completed {
+      @media screen and (max-width: 1000px) {
+        .AccordionSection-expander {
+          display: none;
+        }
+
+        .AccordionSectionState-collapsed {
+          width: 100%;
+        }
+
+        .AccordionSectionState-message {
+          flex: 1;
+          align-items: center;
+          border-radius: 0.5em;
+          --horizontal-offset: 1em;
+          transform: translateX(var(--horizontal-offset));
+          margin-left: calc(0em - var(--horizontal-offset));
+          padding: 0.5em calc(var(--horizontal-offset) + 0.5em) 0.5em 0.5em;
+          overflow: hidden;
+          max-width: 100%;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+
+  .AccordionSectionHeading-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+    margin-left: -30px;
+  }
+
+  .AccordionSectionHeading-step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: white;
+    // color: #5a7b9f;
+    color: #58789b;
+    outline: 1px solid #5a7b9f;
+    font-weight: 400;
+    font-size: 14px;
+
+    &.completed {
+      background-color: #307d61;
+      color: white;
+      outline: none;
+
+      .material-icons {
+        font-size: 18px;
+        font-weight: bolder;
+      }
+    }
+  }
+
+  .AccordionSectionState-collapsed {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .AccordionSectionState-message {
+    background-color: rgb(215, 215, 215);
+    border-radius: 2em 0 0 2em;
+    padding: 2px 1em;
+    transform: translateX(0.5em);
+    font-size: 14px;
+    outline: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .CalendarSectionContent {
+    display: flex;
+    width: 100%;
+    gap: 1em;
+
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+      align-items: center;
+
+      .TestCenterOptions-placeholder {
+        box-sizing: border-box;
+      }
+
+      .TestCenterOptions-form {
+        margin-top: 1em;
+      }
+
+      .CalendarSectionContent--right {
+        width: 100%;
+        max-width: 600px;
+      }
+
+    }
+  }
+
+  .CalendarSectionContent--left {
+    flex-shrink: 0;
+  }
+
+  .CalendarSectionContent--right {
+    flex-grow: 1;
+  }
+
+  .AccordionSection-expander {
+    background-color: inherit;
+    border: none !important;
+    display: inline;
+    color: var(--primary-text);
+    font-weight: 650;
+    font-size: 16px;
+    grid-column: 1;
+    text-align: left;
+  }
+
+  .AccordionSectionContent {
+    border-top: 1px solid rgb(215, 215, 215);
+    overflow: hidden;
+
+    &.active {
+      overflow: visible;
+    }
+  }
+
+  .AccordionSectionContent-body {
+    margin: 1rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .button-states {
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+
+    &:hover:enabled {
+      background-color: var(--primary-button);
+      color: white;
+    }
+
+    &:focus {
+      outline: 2px solid var(--primary-calendar);
+      outline-offset: 2px;
+    }
+
+    &:disabled {
+      cursor: auto;
+      // color: #5a7b9f;
+      color: #58789b;
+      border-color: #5a7b9f;
+      opacity: 0.8;
+    }
+  }
+
+  .TestSelector-container {
+    width: 100%;
+    display: flex;
+    --flex-gap: 1.5em;
+    gap: var(--flex-gap);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .TestSelector {
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+    box-sizing: border-box;
+    --padding: 1em;
+    padding: var(--padding);
+    width: calc(32.4% - calc(var(--flex-gap) / 3));
+    @media screen and (max-width: 1000px) {
+      width: calc(50% - calc(var(--flex-gap) / 2));
+    }
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+
+    label, .testLabel {
+      color: var(--primary-text);
+      font-weight: bold;
+      font-size: 21px;
+      display: block;
+    }
+
+    div {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    sup {
+      font-size: small;
+      position: relative;
+      top: 4px;
+    }
+  }
+
+  .FieldLabel {
+    margin-bottom: 0.5em;
+    font-size: 13px;
+
+    label.required {
+      color: rgb(168, 0, 5);
+    }
+  }
+
+  .LocationForm-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1.5em;
+    padding: 1em 0;
+    align-items: flex-end;
+    justify-content: center;
+
+    @media (max-width: 700px) {
+      flex-direction: column;
+      align-items: center;
+
+      .Select-container {
+        width: 100%;
+      }
+    }
+  }
+
+  .LocationForm-Inputs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    flex: 1;
+  }
+
+  .Select-container {
+    flex: 1;
+    min-width: 260px;
+  }
+
+  .DateInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+  }
+
+  .new-calendar-btn-tertiary {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-button);
+    height: 46px;
+    border-radius: 23px;
+    border: 2px solid var(--primary-button);
+    padding: 0 1.5em;
+    background: white;
+    white-space: nowrap;
+    z-index: 0;
+
+    &.SearchLocationsButton {
+      padding: 8px 20px;
+    }
+
+    &.secondary {
+      background: #375b85;
+      border: none !important;
+      color: white;
+
+      &:focus {
+        border: none !important;
+      }
+    }
+  }
+
+  .new-calendar-button-overrides:focus {
+    border: var(--button-border) !important;
+  }
+
+  .icon-button {
+    border-radius: 50%;
+    background-color: transparent;
+    border: none !important;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    transition: transform 0.3s;
+    color: black svg {
+      fill: black;
+    }
+
+    &.active {
+      transform: rotate(45deg);
+    }
+
+    &:hover {
+      border: 0 !important;
+    }
+  }
+
+  .calendar-caption-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+    .start-date-direction-button {
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      padding: 0;
+      border: 1px solid #333333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      font-size: 20px;
+      transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out, border-color 0.1s ease-in-out;
+
+      &:enabled {
+        cursor: pointer;
+
+        &:hover {
+          background-color: var(--primary-calendar);
+          border-color: transparent;
+          color: white;
+          font-weight: bolder;
+        }
+      }
+
+      &:disabled {
+        opacity: 0.5;
+      }
+
+      &:focus {
+        outline: 3px solid var(--primary-calendar);
+        outline-offset: 2px;
+        border-color: var(--primary-calendar);
+        color: var(--primary-calendar);
+      }
+
+      .material-icons {
+        font-size: inherit;
+        font-weight: inherit;
+      }
+    }
+  }
+
+  .TestCenterOption-summary_right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    padding: 0.75em;
+    cursor: pointer;
+
+    @media screen and (max-width: 500px) {
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    &:hover .icon-button {
+      background-color: #eaeaea;
+    }
+
+    .icon-button:focus {
+      outline: 1px solid var(--primary-calendar);
+      outline-offset: 1px;
+    }
+  }
+
+  .TestCenterOption-name {
+    font-weight: bold;
+    margin-top: 3px;
+  }
+
+  .TestCenterOption-distance {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .Legend {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding-bottom: 2.5em;
+  }
+
+  .LegendItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .date-legend {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .material-icons.date-available,
+  .material-icons.date-selected {
+    color: var(--primary-calendar);
+  }
+
+  .Summary-container-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .Summary-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 8px;
+    padding: 1em 2em 2em 2em;
+    align-self: center;
+    box-sizing: border-box;
+
+    h3 {
+      font-weight: 400;
+      font-size: 22px;
+      color: var(--primary-button);
+      margin: 0.75em 0;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 1em 0;
+      line-height: 20px;
+    }
+
+    .TestLocation {
+      p {
+        margin: 0;
+      }
+
+      .Address {
+        font-size: 14px;
+      }
+    }
+
+    .icon-labeled-info {
+      display: flex;
+      gap: 1.5em;
+
+      .icon-container {
+        display: flex;
+        justify-content: center;
+      }
+
+      svg {
+        flex-shrink: 0;
+        width: 1.25em;
+      }
+    }
+  }
+
+  .RegisterLink {
+    align-self: center;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 1em;
+
+    &:focus {
+      outline: none;
+
+      button {
+        outline: 2px solid var(--primary-calendar);
+        outline-offset: 2px;
+      }
+    }
+  }
+  .buttonLink {
+    color: #003082;
+    background: none;
+    border: none;
+    font-size: 1em;
+    font-weight: normal;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    line-height: 1.8em;
+    &:focus, &:hover {
+        text-decoration: none;
+        background-color: #d8eaff;
+        border: 0;
+        border-radius: 4px;
+    }
+    &:hover {
+        color: #0a58ca;
+    }
+    a:focus {
+        outline: 2px solid #003082;
+        border-radius: 4px;
+    }
+  }
+  .css-vbvrjr-placeholder {
+    color: #757575;
+  }
+  .visible-hide {
+    position: absolute;
+    text-indent: 50px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+}

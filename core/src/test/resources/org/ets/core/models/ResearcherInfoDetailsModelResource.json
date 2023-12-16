@@ -1,0 +1,23 @@
+{
+	"researcher-info": {
+		"jcr:primaryType": "nt:unstructured",
+		"numPages": "20",
+		"source": "Peters, Herman J.; Aubrey, Roger F. (eds.) Guidance: Strategies & Techniques. Denver, CO: Love Publishing Co.,1975, p491-511",
+		"authors": [
+			"Katz, Martin R.",
+			"David"
+		],
+		"url": "https://www.ets.org/",
+		"year": "1975",
+		"title": "Accountability of Counselors and Evaluation of Guidance",
+		"reportNumber": "21",
+		"keywords": [
+			"Guidance",
+			"Test"
+		],
+		"bodyDescription": "Program EvaluationProgram EvaluationProgram EvaluationProgram Evaluation",
+		"arialabelURL": "test",
+		"sling:resourceType": "ets/components/researcher-info-details",
+		"publicationType": "Chapter"
+	}
+}

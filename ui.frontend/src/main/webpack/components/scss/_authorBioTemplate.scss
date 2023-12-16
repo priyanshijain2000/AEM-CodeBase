@@ -1,0 +1,48 @@
+.research-results-template.author-bio-template {
+    h2 {
+        @include fontsize(1.875rem, 2.625rem, $bold, $color-ETS-bodyblack, initial);
+        @include viewport(only-mobile) {
+            @include fontsize(1.125rem, 1.5rem, $bold, $color-ETS-bodyblack, initial);
+        }
+        margin-bottom: 0;
+    }
+    .results-list--body {
+        .result {
+            .doc-type {
+                text-transform: uppercase;
+                font-size: 0.875em;
+                margin-bottom: 10px;
+                color: $color-Praxis-red;
+                font-weight: $bold;
+                line-height: 21px;
+            }
+            h3 {
+                font-size: 1rem;
+                margin-bottom: 20px;
+                color: $color-navy;
+                line-height: 1.375rem;
+                @include viewport(tablet-desktop) {
+                    font-size: 1.313rem;
+                    line-height: 1.333rem;
+                    margin-bottom: 10px;
+                }
+                a {
+                    color: inherit;
+                    text-decoration: none;
+                    padding: 0;
+                    &:hover {
+                        background-color: transparent;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .author-bio-template-load-more {
+        text-align: center;
+        padding-top: 2rem;
+        .cta-btn-primary {
+            display: inline-block;
+        }
+    }
+}

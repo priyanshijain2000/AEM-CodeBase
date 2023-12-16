@@ -1,0 +1,372 @@
+{
+    "category-list": [
+        "Higher Education",
+        "English-language Learning",
+        "Learning Solutions",
+        "Workplace \u0026 Training",
+        "K\u0026ndash;12 Student Programs",
+        "ETS Investments",
+        "Scoring Services",
+        "Educator Licensure",
+        "xyz"
+    ],
+    "ets-products": [
+        {
+            "productLink": "/pipplet.html",
+            "categories": "ETS Investments, Learning Solutions",
+            "searchTitle": "Pipplet",
+            "productName": "Pipplet",
+            "productDescription": "An innovative language assessment based on real-life scenarios and used by corporations. The assessment asks candidates to express themselves orally and in writing, making it possible to identify all of a person\u0027s language skills in 30 minutes, without an appointment."
+        },
+        {
+            "productLink": "/toefl/score-users/ibt/search-service.html",
+            "categories": "English-language Learning, Higher Education",
+            "searchTitle": "TOEFL Search Service",
+            "productName": "TOEFL Search Service",
+            "productDescription": "A database of over a million individuals from around the world who recently took or plan to take the TOEFL iBT test. Institutions search the database using criteria such as TOEFL score band, country and field of study to create targeted mailing lists to make their recruitment campaigns more effective."
+        },
+        {
+            "productLink": "/proficiency-profile.html",
+            "categories": "Higher Education",
+            "searchTitle": "ETS Proficiency Profile",
+            "productName": "ETS Proficiency Profile",
+            "productDescription": "A general education outcomes assessment of core skills \u0026mdash; critical thinking, reading, writing and mathematics \u0026mdash; in a single, efficient test. Higher education institutions use the results to demonstrate program effectiveness for accreditation and funding, inform teaching, and analyze trends."
+        },
+        {
+            "productLink": "/mft.html",
+            "categories": "Higher Education",
+            "searchTitle": "ETS Major Field Tests (MFTs)",
+            "productName": "ETS\u003csup\u003e\u0026reg;\u003c/sup\u003e Major Field Tests (MFTs)",
+            "productDescription": "Outcomes assessments that measure students\u0027 critical knowledge and understanding of a field of study. MFTs are offered in a dozen undergraduate fields and for business programs at the associate, bachelor\u0027s and master\u0027s levels. Institutions reference national comparative data to assess and demonstrate the effectiveness of their programs and improve curricula."
+        },
+        {
+            "productLink": "/gre/test-takers/general-test/prepare/powerprep.html",
+            "categories": "Higher Education",
+            "searchTitle": "POWERPREP PLUS Online",
+            "productName": "POWERPREP PLUS\u003csup\u003e\u0026reg;\u003c/sup\u003e Online",
+            "productDescription": "Online practice tests that contain never-before-published, real GRE General Test questions and provide scores within minutes on all three measures and explanations for correct answers. Students use the product \u0026mdash; the closest simulation to taking the real test \u0026mdash; to become familiar with the test and sharpen their skills before test day."
+        },
+        {
+            "productLink": "/toefl/test-takers/essentials.html",
+            "categories": "English-language Learning, Higher Education",
+            "searchTitle": "TOEFL Essentials Test",
+            "productName": "TOEFL\u003csup\u003e\u0026reg;\u003c/sup\u003e Essentials\u003csup\u003e\u0026trade;\u003c/sup\u003e Test",
+            "productDescription": "A friendly and convenient English-language test that measures the four core language skills \u0026mdash; listening, reading, writing and speaking \u0026mdash; in about 1\u003csup\u003e1\u003c/sup\u003e\u0026frasl;\u003csub\u003e2\u003c/sub\u003e hours. The test measures both academic and general English using a multistage adaptive design. The unscored Personal Video Statement allows students to share additional insights about themselves while showcasing their unique personalities."
+        },
+        {
+            "productLink": "/vericant.html",
+            "categories": "ETS Investments, English-language Learning, Higher Education",
+            "searchTitle": "Vericant",
+            "productName": "Vericant\u003csup\u003e\u0026reg;\u003c/sup\u003e",
+            "productDescription": "A widely trusted, third-party, in-person and remote interview service. Vericant supports international applicants who wish to stand out through a personal expression of their unique interests and exceptional experiences."
+        },
+        {
+            "productLink": "/carnegie.html",
+            "categories": "K\u0026ndash;12 Student Programs, Learning Solutions",
+            "searchTitle": "Carnegie Foundation",
+            "productName": "Carnegie Foundation",
+            "productDescription": "ETS is joining forces with The Carnegie Foundation, pioneers of the Carnegie Unit, to create a robust, scalable suite of assessment and analytic tools that captures the full range of skills required for American students to succeed in K\u0026ndash;12, post-secondary education and beyond."
+        },
+        {
+            "productLink": "/toeic.html",
+            "categories": "English-language Learning, Workplace \u0026 Training",
+            "searchTitle": "TOEIC Tests",
+            "productName": "TOEIC\u003csup\u003e\u0026reg;\u003c/sup\u003e Tests",
+            "productDescription": "Tests that measure the ability of nonnative English speakers to listen, read, speak and write in English. Over 14,000 organizations in 160 countries use TOEIC scores to identify individuals with the English-language skills needed to succeed in the global workplace and to inform their hiring, placement and promotion decisions."
+        },
+        {
+            "productLink": "http://toeflpractice.ets.org/",
+            "categories": "English-language Learning",
+            "searchTitle": "TOEFL Practice Online",
+            "productName": "TOEFL\u003csup\u003e\u0026reg;\u003c/sup\u003e Practice Online",
+            "productDescription": "An online practice test that uses authentic past TOEFL iBT questions and provides scoring and performance feedback for all skills \u0026mdash; reading, listening, speaking and writing \u0026mdash; within 24 hours. Students use the product \u0026mdash; the closest simulation to taking the real test \u0026mdash; to become familiar with the test and sharpen their skills."
+        },
+        {
+            "productLink": "/harver.html",
+            "categories": "ETS Investments, Workplace \u0026 Training",
+            "searchTitle": "Harver",
+            "productName": "Harver\u003csup\u003e\u0026trade;\u003c/sup\u003e",
+            "productDescription": "Hiring software that helps companies overcome the challenges attributed to volume hiring."
+        },
+        {
+            "productLink": "https://www.planwise.org/",
+            "categories": "K\u0026ndash;12 Student Programs",
+            "searchTitle": "PlanWise Tool",
+            "productName": "PlanWise\u003csup\u003e\u0026trade;\u003c/sup\u003e Tool",
+            "productDescription": "A Chrome\u003csup\u003e\u0026trade;\u003c/sup\u003e Extension for Google Docs\u003csup\u003e\u0026trade;\u003c/sup\u003e that improves formative assessment practices by delivering formative assessment strategies and teacher professional learning focused on these practices. Our goal is to meet teachers where they already are \u0026mdash; right in their lesson plans \u0026mdash; to bring formative assessment practices and strategies right to them."
+        },
+        {
+            "productLink": "/psq.html",
+            "categories": "Higher Education",
+            "searchTitle": "ETS Personal Skills and Qualities (PSQ) Tool",
+            "productName": "ETS\u003csup\u003e\u0026reg;\u003c/sup\u003e Personal Skills and Qualities (PSQ) Tool",
+            "productDescription": "An indicator of interpersonal and intrapersonal skills essential for higher education and career success, such as perseverance, leadership, creativity, curiosity and more. Higher education institutions use PSQ tool to better inform pre- and post-admissions decisions and improve learner development by using gathered data to better direct resources."
+        },
+        {
+            "productLink": "/parapro.html",
+            "categories": "Educator Licensure",
+            "searchTitle": "ParaPro Assessment",
+            "productName": "ParaPro Assessment",
+            "productDescription": "A general aptitude test that measures the reading, writing and math competencies of prospective and practicing paraprofessionals. The test also measures their ability to apply these competencies during classroom instruction. School districts use the test, which many states require for paraprofessional certification, to inform their hiring, placement and development decisions."
+        },
+        {
+            "productLink": "/toefl/primary.html",
+            "categories": "English-language Learning",
+            "searchTitle": "TOEFL Primary Tests",
+            "productName": "TOEFL\u003csup\u003e\u0026reg;\u003c/sup\u003e Primary Tests",
+            "productDescription": "Tests that measure listening comprehension, reading comprehension and the speaking ability of students ages 8+ for whom English is a foreign language. Teachers and schools use scores for placement and to measure progress as students learn the English language."
+        },
+        {
+            "productLink": "https://www.gradschoolmatch.com/",
+            "categories": "Higher Education, Workplace \u0026 Training, ETS Investments",
+            "searchTitle": "GradSchoolMatch",
+            "productName": "GradSchoolMatch\u003csup\u003e\u0026trade;\u003c/sup\u003e",
+            "productDescription": "A one-stop resource for prospective graduate students and program staff. Students can search and receive customized program recommendations matched to their experience and goals. Program staff can more effectively recruit top candidates, receive customized student matches and cultivate personal connections with students."
+        },
+        {
+            "productLink": "/toefl/teachers-advisors-agents/ibt/teaching/teacher-development.html",
+            "categories": "English-language Learning, Workplace \u0026 Training",
+            "searchTitle": "Teaching TOEFL iBT Skills Workshop",
+            "productName": "Teaching TOEFL iBT\u003csup\u003e\u0026reg;\u003c/sup\u003e Skills Workshop",
+            "productDescription": "A professional development program (formerly the Propell\u003csup\u003e\u0026reg;\u003c/sup\u003e Workshop for the TOEFL iBT\u003csup\u003e\u0026reg;\u003c/sup\u003e test) designed to empower English-language teachers with a deeper understanding of the TOEFL iBT test and the academic language skills it assesses."
+        },
+        {
+            "productLink": "/applyboard.html",
+            "categories": "ETS Investments, Higher Education",
+            "searchTitle": "ApplyBoard",
+            "productName": "ApplyBoard\u003csup\u003e\u0026trade;\u003c/sup\u003e",
+            "productDescription": "An online platform that empowers students around the world to access the best education. ApplyBoard connects international students and recruitment partners to educational opportunities at institutions around the world."
+        },
+        {
+            "productLink": "/k12.html",
+            "categories": "K\u0026ndash;12 Student Programs",
+            "searchTitle": "K12 Assessments",
+            "productName": "K\u0026ndash;12 Assessments",
+            "productDescription": "Large-scale summative assessments developed in collaboration with educators to provide a comprehensive measure of student learning. States use these assessment programs to understand student achievement, evaluate programs, demonstrate accountability, and develop positive teaching and learning environments."
+        },
+        {
+            "productLink": "/openclassrooms.html",
+            "categories": "ETS Investments, Workplace \u0026 Training",
+            "searchTitle": "OpenClassrooms",
+            "productName": "OpenClassrooms",
+            "productDescription": "An online platform offering top quality, education-to-employment programs and career-coaching services for students worldwide. If you\u0027re looking for the next steps in your career, OpenClassrooms will get you there."
+        },
+        {
+            "productLink": "/class.html",
+            "categories": "ETS Investments, Learning Solutions",
+            "searchTitle": "Class",
+            "productName": "Class",
+            "productDescription": "Software that adds teaching and learning tools to Zoom\u003csup\u003e\u0026reg;\u003c/sup\u003e and was founded by education software pioneer Michael Chasen."
+        },
+        {
+            "productLink": "/patl.html",
+            "categories": "Educator Licensure",
+            "searchTitle": "PATL Assessment",
+            "productName": "PATL Assessment",
+            "productDescription": "An assessment that identifies the readiness and ability of teacher leader candidates to provide effective instructional leadership. The PATL assessment measures the critical roles that teachers play in contributing to student and school success."
+        },
+        {
+            "productLink": "/praxis/site.html",
+            "categories": "Educator Licensure",
+            "searchTitle": "Praxis Tests",
+            "productName": "Praxis\u003csup\u003e\u0026reg;\u003c/sup\u003e Tests",
+            "productDescription": "Tests that measure prospective teachers\u0027 basic academic skills for program admission, subject-specific knowledge and teaching skills. State and professional licensing organizations use the Praxis\u003csup\u003e\u0026reg;\u003c/sup\u003e tests in their licensure and certification process to identify which candidates are prepared to enter the teaching profession."
+        },
+        {
+            "productLink": "/criterion.html",
+            "categories": "Scoring Services, English-language Learning, K\u0026ndash;12 Student Programs, Higher Education",
+            "searchTitle": "Criterion Service",
+            "productName": "Criterion\u003csup\u003e\u0026reg;\u003c/sup\u003e Service",
+            "productDescription": "An online, instructor-led writing development tool through which students receive a holistic score with feedback on grammar, usage and mechanics to help guide their writing revision process. Educators and instructors use the tool to help K\u0026ndash;12, college and English-language learning students develop critical writing skills."
+        },
+        {
+            "productLink": "/accelerate.html",
+            "categories": "English-language Learning, Higher Education, Workplace \u0026 Training, Scoring Services",
+            "searchTitle": "ETS Accelerate",
+            "productName": "ETS Accelerate",
+            "productDescription": "A business development venture in which ETS seeks to partner with organizations, start-ups, venture capitalists, tech entrepreneurs and others to grow their business, improve their offerings, or add our products, services, capabilities and research to their offerings. Gain access to our intellectual property through licensing, research and development, partnerships, and general business development opportunities."
+        },
+        {
+            "productLink": "/k12/classroom-solutions.html",
+            "categories": "K\u0026ndash;12 Student Programs",
+            "searchTitle": "ReadBasix Assessment",
+            "productName": "ReadBasix\u003csup\u003e\u0026trade;\u003c/sup\u003e Assessment",
+            "productDescription": "An assessment that helps identify students in grades 3\u0026ndash;12 who struggle with basic reading skills and provides teachers with detailed information to target the specific areas in which students are struggling."
+        },
+        {
+            "productLink": "/sls.html",
+            "categories": "Educator Licensure",
+            "searchTitle": "School Leadership Series (SLS)",
+            "productName": "School Leadership Series (SLS)",
+            "productDescription": "Assessments that measure whether education leaders have the knowledge necessary for competent professional practice, based on both national job analysis studies and a set of standards identified by the Interstate School Leaders Licensure Consortium. States use the assessments in the licensure process for principals, superintendents and school leaders."
+        },
+        {
+            "productLink": "/assessment-insights.html",
+            "categories": "Higher Education, Workplace \u0026 Training",
+            "searchTitle": "Assessment Insights Workshops",
+            "productName": "Assessment Insights Workshops",
+            "productDescription": "Practical, hands-on training for institutions and academic programs to create effective assessment processes to achieve institutional goals. Participants work with their own data \u0026mdash; regardless of the assessment used \u0026mdash; to create \"real-life\" plans that optimize their institutional resources. Participants attend the workshops to advance their continuous improvement and accreditation initiatives."
+        },
+        {
+            "productLink": "/tfi.html",
+            "categories": "Workplace \u0026 Training",
+            "searchTitle": "TFI Test",
+            "productName": "TFI\u003csup\u003e\u0026trade;\u003c/sup\u003e Test",
+            "productDescription": "A test that evaluates the French-language listening and reading proficiency levels of people whose native language is not French. Individuals take the test to show how well they can communicate in French in workplace environments. Companies and organizations use results to inform their hiring, selection and promotion decisions."
+        },
+        {
+            "productLink": "/degreed.html",
+            "categories": "ETS Investments, Workplace \u0026 Training",
+            "searchTitle": "Degreed",
+            "productName": "Degreed\u003csup\u003e\u0026reg;\u003c/sup\u003e",
+            "productDescription": "A workforce upskilling platform for one in three Fortune 50\u003csup\u003e\u0026reg;\u003c/sup\u003e companies. Degreed connects learning and career growth to business opportunities through a simple, fluid skill-development experience so organizations are always ready to clear the next big obstacle."
+        },
+        {
+            "productLink": "/mpower-financing.html",
+            "categories": "ETS Investments",
+            "searchTitle": "MPower Financing",
+            "productName": "MPower\u003csup\u003e\u0026reg;\u003c/sup\u003e Financing",
+            "productDescription": "A Washington, D.C. and Bangalore, India based FinTech lender focused on increasing access for the international and DACA (Deferred Action for Childhood Arrivals) student communities currently underserved by conventional banks."
+        },
+        {
+            "productLink": "/toefl/test-takers/ibt.html",
+            "categories": "English-language Learning, Higher Education",
+            "searchTitle": "TOEFL iBT Test",
+            "productName": "TOEFL iBT\u003csup\u003e\u0026reg;\u003c/sup\u003e Test",
+            "productDescription": "The flagship test of the TOEFL\u003csup\u003e\u0026reg;\u003c/sup\u003e family measures English-language proficiency at the university level in reading, listening, speaking, and writing. More than 11,500 institutions worldwide use TOEFL iBT\u003csup\u003e\u0026reg;\u003c/sup\u003e scores to identify applicants who can communicate in English."
+        },
+        {
+            "productLink": "/pymetrics.html",
+            "categories": "ETS Investments, Workplace \u0026 Training",
+            "searchTitle": "pymetrics",
+            "productName": "pymetrics",
+            "productDescription": "An AI-based and data-driven assessment company that leverages a talent matching platform focused on employment matching and talent success prediction. A Harver company, pymetrics helps companies build the workforce of the future, using behavioral science and audited Al technology, resulting in more diverse teams and more efficient processes."
+        },
+        {
+            "productLink": "/gre.html",
+            "categories": "Higher Education",
+            "searchTitle": "GRE General Test",
+            "productName": "GRE\u003csup\u003e\u0026reg;\u003c/sup\u003e General Test",
+            "productDescription": "An admissions exam that measures the verbal reasoning, quantitative reasoning, critical thinking and analytical writing skills of candidates applying to graduate and business schools. Institutions use scores, along with other measures, to identify the best candidates for their programs, and for placement, program evaluation and selection of fellowship recipients."
+        },
+        {
+            "productLink": "/toeic/organizations/resources/propell.html",
+            "categories": "English-language Learning, Workplace \u0026 Training",
+            "searchTitle": "Propell Workshops for the TOEIC Tests",
+            "productName": "Propell\u003csup\u003e\u0026reg;\u003c/sup\u003e Workshops for the TOEIC\u003csup\u003e\u0026reg;\u003c/sup\u003e Tests",
+            "productDescription": "A comprehensive, professional development program, led by ETS-approved facilitators, that provides English-language teachers with instructional techniques and strategies that help prepare students for the TOEIC tests. Teachers attend to explore different approaches to language teaching and learning that produce effective results in both testing and real-life settings."
+        },
+        {
+            "productLink": "https://www.studentachievement.org/",
+            "categories": "K\u0026ndash;12 Student Programs",
+            "searchTitle": "Institute for Student Achievement (ISA)",
+            "productName": "Institute for Student Achievement (ISA)",
+            "productDescription": "A school support consultancy approved by the What Works Clearinghouse that addresses the academic, social and emotional needs of traditionally underserved and underperforming high school students. Schools partner with ISA to transform practices and create a culture of success so that students graduate prepared for college and careers."
+        },
+        {
+            "productLink": "/toefl/junior.html",
+            "categories": "English-language Learning",
+            "searchTitle": "TOEFL Junior Tests",
+            "productName": "TOEFL\u003csup\u003e\u0026reg;\u003c/sup\u003e Junior Tests",
+            "productDescription": "The TOEFL Junior\u003csup\u003e\u0026reg;\u003c/sup\u003e Standard Test measures listening comprehension, language form and meaning, and reading comprehension, and the TOEFL Junior Speaking Test measures English speaking ability. Designed for middle-school students (ages 11+), the tests are used for placement and to measure progress as students learn the English language."
+        },
+        {
+            "productLink": "/benchprep.html",
+            "categories": "ETS Investments, K\u0026ndash;12 Student Programs, Learning Solutions",
+            "searchTitle": "BenchPrep",
+            "productName": "BenchPrep\u003csup\u003e\u0026reg;\u003c/sup\u003e",
+            "productDescription": "An advanced white-label online learning platform for education and training organizations. BenchPrep provides cloud-based study guides for standardized tests, professional certifications and K\u0026ndash;12 classroom learning."
+        },
+        {
+            "productLink": "/toeic/test-takers/prepare.html",
+            "categories": "English-language Learning, Workplace \u0026 Training",
+            "searchTitle": "TOEIC Official Learning and Preparation Course",
+            "productName": "TOEIC\u003csup\u003e\u0026reg;\u003c/sup\u003e Official Learning and Preparation Course",
+            "productDescription": "An online, self-paced course created by the makers of the TOEIC tests that uses real-life workplace scenarios and authentic TOEIC\u003csup\u003e\u0026reg;\u003c/sup\u003e test questions, and provides score and performance feedback. The course helps individuals build the English skills needed for everyday workplace situations and prepare for the TOEIC Listening and Reading test."
+        },
+        {
+            "productLink": "/erater.html",
+            "categories": "Scoring Services",
+            "searchTitle": "e-rater Scoring Engine",
+            "productName": "e-rater\u003csup\u003e\u0026reg;\u003c/sup\u003e Scoring Engine",
+            "productDescription": "An artificial intelligence engine that uses natural language processing to score an essay and provide diagnostic feedback about grammar, usage, mechanics, style, and organization and development. Companies and institutions use this patented technology to power their custom applications. It also powers ETS\u0027s Criterion and ScoreItNow!\u003csup\u003e\u0026trade;\u003c/sup\u003e services."
+        },
+        {
+            "productLink": "/gre.html",
+            "categories": "Higher Education",
+            "searchTitle": "GRE Subject Tests",
+            "productName": "GRE Subject Tests",
+            "productDescription": "Admissions exams that assess graduate school candidates\u0027 knowledge of subject matter needed to pursue graduate study in their desired field. Institutions use scores, along with other measures, to identify the best candidates for their programs, and for placement, program evaluation and selection of fellowship recipients."
+        },
+        {
+            "productLink": "/ppat.html",
+            "categories": "Educator Licensure",
+            "searchTitle": "PPAT Assessment",
+            "productName": "PPAT\u003csup\u003e\u0026reg;\u003c/sup\u003e Assessment",
+            "productDescription": "An assessment, designed by educators for educators, that seamlessly integrates into clinical practice and effectively measures how teacher candidates apply content knowledge and teaching skills in the classroom."
+        },
+        {
+            "productLink": "/apds.html",
+            "categories": "ETS Investments, Workplace \u0026 Training",
+            "searchTitle": "APDS",
+            "productName": "APDS",
+            "productDescription": "A career-readiness platform that empowers justice-impacted individuals in their pursuit to improve their lives and attain a living wage job."
+        },
+        {
+            "productLink": "/collegedekho.html",
+            "categories": "ETS Investments, Higher Education",
+            "searchTitle": "CollegeDekho",
+            "productName": "CollegeDekho",
+            "productDescription": " India\u0027s largest global admissions and education-services platform for higher education institutions in-country. The platform provides colleges with relevant candidates, and allows students to explore courses and institutions, get matched with relevant academic programs, and apply through a centralized application platform."
+        },
+        {
+            "productLink": "https://www.ets.capital/",
+            "categories": "English-language Learning, Higher Education, Workplace \u0026 Training, Scoring Services",
+            "searchTitle": "ETS Strategic Capital",
+            "productName": "ETS Strategic Capital",
+            "productDescription": "Mission-driven and strategic, ETS Strategic Capital was formed to invest in, acquire or partner with innovative companies and technologies to further enhance the ETS strategy and mission \u0026mdash; to advance quality and equity in education for learners worldwide."
+        },
+        {
+            "productLink": "/pasl.html",
+            "categories": "Educator Licensure",
+            "searchTitle": "PASL Assessment",
+            "productName": "PASL Assessment",
+            "productDescription": "A reliable, evidence-based assessment that measures a school leader candidate\u0027s application of knowledge and skills identified as relevant and important for instructional leaders to drive student achievement and learning."
+        },
+        {
+            "productLink": "/ciee.html",
+            "categories": "ETS Investments, English-language Learning",
+            "searchTitle": "CIEE (Japan TOEFL assets)",
+            "productName": "CIEE\u003csup\u003e\u0026reg;\u003c/sup\u003e (Japan TOEFL\u003csup\u003e\u0026reg;\u003c/sup\u003e assets)",
+            "productDescription": "TOEFL\u003csup\u003e\u0026reg;\u003c/sup\u003e assets of the Council on International Educational Exchange (CIEE)-Japan."
+        },
+        {
+            "productLink": "/gre/score-users/recruitment/search-service.html",
+            "categories": "Higher Education",
+            "searchTitle": "GRE Search Service",
+            "productName": "GRE Search Service",
+            "productDescription": "A database of individuals from around the world who are planning to pursue graduate-level study; most have recently taken or plan to take a GRE test. Institutions search the database using more than 30 criteria and create targeted mailing lists of qualified prospects to incorporate into their ongoing recruitment campaigns."
+        },
+        {
+            "productLink": "/toefl/itp.html",
+            "categories": "English-language Learning",
+            "searchTitle": "TOEFL ITP Assessment Series",
+            "productName": "TOEFL ITP\u003csup\u003e\u0026reg;\u003c/sup\u003e Assessment Series",
+            "productDescription": "Tests that schools administer to measure their own students\u0027 English-language abilities in listening comprehension, structure and written expression, and reading comprehension. Educators use scores to make decisions \u0026mdash; such as placement and progress evaluation \u0026mdash; that do not require a secure testing environment. Scores are not used for university admissions."
+        },
+        {
+            "productLink": "/kira-talent.html",
+            "categories": "ETS Investments, Higher Education",
+            "searchTitle": "Kira Talent",
+            "productName": "Kira Talent",
+            "productDescription": "A holistic admissions solution designed for higher education. Kira transforms the admissions process by combining on-demand, timed video, timed written assessments and structured live interview technology with existing admissions requirements."
+        },
+        {
+            "productLink": "/toeic.html",
+            "categories": "English-language Learning, Workplace \u0026 Training",
+            "searchTitle": "TOEIC Bridge Test",
+            "productName": "TOEIC Bridge\u003csup\u003e\u0026reg;\u003c/sup\u003e Test",
+            "productDescription": "A test that measures the ability of nonnative English speakers to listen to and read everyday English. Designed for beginner to intermediate learners, the test helps test takers set goals and track their progress. Institutions, organizations and language schools worldwide use the test to inform placement, development and other decisions."
+        }
+    ]
+}

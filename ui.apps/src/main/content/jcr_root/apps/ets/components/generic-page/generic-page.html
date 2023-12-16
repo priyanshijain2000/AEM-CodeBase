@@ -1,0 +1,444 @@
+<!--/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright 2016 Adobe
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
+<!DOCTYPE HTML><!-- HTML5 -->
+<html data-sly-use.page="com.adobe.cq.wcm.core.components.models.Page" lang="${page.language}"
+    data-sly-use.pwa="com.adobe.cq.wcm.core.components.models.PWA" data-sly-use.head="head.html"
+    data-sly-use.footer="footer.html" data-sly-use.redirect="redirect.html">
+
+<head data-sly-call="${head.head @ page = page, pwa = pwa}"></head>
+
+<body class="${page.cssClassNames} ${pageProperties.pageBackground} ${pageProperties.headingStyle}" id="${page.id}"
+    data-cmp-data-layer-enabled="${page.data ? true : false}">
+    <sly data-sly-use.metaProperties="org.ets.core.models.PageMetadataModel"></sly>
+    <span class="d-none ets-brand" data-brand="${metaProperties.productName}"></span>
+    <!-- Start Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${metaProperties.getGtmScriptId}" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <script>
+        //*********************************************************************//
+        //                      ANALYTICS HELPER CLASSES                       //
+        //*********************************************************************// 
+        
+        function getCookie(name) {
+            var value = "; " + document.cookie;
+            var parts = value.split("; " + name + "=");
+            if (parts.length == 2) return parts.pop().split(";").shift();
+        }
+        
+        function getOnetrustCookie(consentCookieName) {
+            let decodedCookie = decodeURIComponent(document.cookie);
+            if (decodedCookie.length !== 0) {
+                let cookies;
+                decodedCookie.split(';').forEach(function (cookieValue) {
+                    while (cookieValue.charAt(0) == ' ') {
+                        cookieValue = cookieValue.substring(1);
+                    }
+                    if (cookieValue.indexOf(consentCookieName) == 0) {
+                        cookies = cookieValue.substring(consentCookieName.length, cookieValue.length);
+                    }
+                });
+                return cookies;
+            }
+        }
+        
+        //By using an IIF function with the class inside it we isolate the scope
+        (function initEtsAL(w, d, s, l, i) {
+
+            class EtsAnalyticsLayerGA4 {
+                constructor(w, d, s, l, i) {
+                    this.queue = [];
+                    this.gtmReady = false;
+                    this.gaSessionIdPayloadIndicator = 'ga_session_id';
+                    this.gaClientIdPayloadIndicator = 'ga_client_id';
+                    this.gaSessionIdSuffix = 'SID';
+                    this.gaClientIdSuffix = 'CID';
+                    this.ga4CookieData = [];
+                    this.gtmId = i;
+                    this.maxRetries = 100; // Number of times we will check the dom for GTM
+                    this.delay = 10; //Amount of time in between checking the dom for GTM
+
+                    //bind the methods to this scope
+                    this.checkForGTM = this.checkForGTM.bind(this);
+                    this.trackClick = this.trackClick.bind(this);
+                    this.setGa4CookieData = this.setGa4CookieData.bind(this);
+                    this.push = this.push.bind(this);
+                    this.load = this.load.bind(this);
+
+                    //Attach an event listener to the document that waits for the load method to
+                    //trigger the gtm_loaded event.  This way we ensure GTM is loading before
+                    //we force update the values in etsAL in the window.
+                    d.addEventListener('gtm_downloaded', function () {
+                        //we create a promise that checks to see if all the things we need in the window
+                        //are loaded and available.
+                        etsAL.checkForGTM().then((gtmFullyLoaded) => {
+                            //update the window
+                            etsAL.gtmReady = gtmFullyLoaded;
+                            if (etsAL.gtmReady) {
+                                //This could be used for holding events until consent is given.
+                                if (etsAL.queue.length > 0) {
+                                    console.warn('Processing Queue: Some events may have fired out of order');
+                                    etsAL.processQueue();
+                                }
+
+                                //once we update the etsAL we fire an event, this can be listened to if
+                                //we think everything is in place and ready to push
+                                let _ge = new CustomEvent('gtm_loaded', { bubbles: true });
+                                d.dispatchEvent(_ge);
+                            }
+                        }).catch(e => {
+                            console.error(e);
+                        });
+
+                    });
+					const currentDomain = window.location.origin;
+					var onetrustCookie = getCookie("OptanonConsent");
+                    // This will trigger the gtm_downloaded event (listener above) once the gtm file has been downloaded
+                    // and that is triggered by the load event sent when the window downloads the <script> element
+                    // for the GTM library.
+                    if (!onetrustCookie &&(window.countryCode == "US" || currentDomain.includes("www-vantage-qa-publish") || currentDomain.includes("www-vantage-dev-publish"))) {
+                    	this.load(w, d, s, l, i);
+		            }
+                    else{
+			            if (onetrustCookie.includes("C0002%3A1")){
+			                this.load(w, d, s, l, i);
+			            }
+			            if(onetrustCookie != null){
+							var adobeDataLayer = window.adobeDataLayer || [];
+			            	let values = onetrustCookie;
+							let consentCheck, consentAllowed="";
+							values.split('&').forEach(function(consentValue){
+								let propertyName = "groups=";
+	   							if(consentValue.indexOf(propertyName) == 0){
+	   								consentCheck = consentValue.substring(propertyName.length, consentValue.length).split('%2C');
+	   							}
+	   						});
+							if(consentCheck != null){
+								consentCheck.forEach(function(item){
+									 if( item.includes("%3A1")){
+										 consentAllowed = consentAllowed+","+item.replace('%3A1','');
+									 }
+								});
+							}
+				        	adobeDataLayer.push({
+				        		"event": "OneTrustLoaded",
+				        		"GAData": {
+				        			"OneTrustLoaded": {
+				        				"OnetrustActiveGroups": consentAllowed
+				        			}
+				        		}
+				        	});
+			            }
+                    }
+                }
+
+                load(w, d, s, l, i) {
+                    // Here we are mimicking the IIF from gtm, but now it is in this IIF's scope
+                    w[l] = w[l] || [];
+                    w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+
+                    let f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l !== 'dataLayer' ? '&l=' + l : '';
+                    j.async = true;
+                    j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+
+                    // Fires when google tag manager is downloaded
+                    j.addEventListener('load', function () {
+                        let _ge = new CustomEvent('gtm_downloaded', { bubbles: true });
+                        d.dispatchEvent(_ge);
+                    });
+
+                    f.parentNode.insertBefore(j, f);
+                }
+
+                async checkForGTM() {
+                    // The gtm_downloaded event is waiting for this promise to complete,
+                    // then it updates the global variable etsAL. The gtm_loaded event will
+                    // fire everytime checkForGTM is run
+                    return new Promise((resolve, reject) => {
+                        //we should be able to add tracking the consent approval here
+                        //and not let it pass until consent has been given.
+                        //stop checking for the variables if it times out
+                        let maxRetries = this.maxRetries;
+                        const checkVar = () => {
+                            let gtmStarted = window.hasOwnProperty('dataLayer') && !!window.dataLayer.find(element => element['gtm.start']);
+                            let gtmSet = window.hasOwnProperty('google_tag_manager') && window.google_tag_manager.hasOwnProperty(this.gtmId);
+                            let ga4CookieData = this.ga4CookieData.length > 0;
+                            if (gtmStarted && ga4CookieData && gtmSet) {
+                                console.log('GTM Found')
+                                clearTimeout(checkVar);
+                                resolve(true);
+                            } else if (maxRetries > 0) {
+                                console.log('GTM Not Found Checking for GTM elements Again');
+                                maxRetries--
+                                setTimeout(() => checkVar(maxRetries = maxRetries), this.delay);
+                            } else {
+                                reject('GTM Not Loaded')
+                            }
+                        }
+
+                        this.setGa4CookieData();
+                        console.log('Checking for GTM elements');
+                        checkVar();
+
+                    }).catch(e => {
+                        console.warn(e);
+                    });
+
+                }
+
+                setGa4CookieData(maxRetries = 3, delay = 200) {
+                    // The cookies with _ga_XXXXXX are session cookies for each GA4 account we have connected
+                    // There is only 1 _ga cookie and that contains the clientId
+                    // We use the additional fields added here to pass the session ids to the correct GA4 accounts via GTM.
+                    // Since we need this cookie data we use this as one of the checks for checkForGTM
+                    let cookies = []
+                    let sessionGaPattern = /_ga_[^; ]+/g;
+                    let gaSessionCookies = document.cookie.match(sessionGaPattern);
+                    let clientIdCookie = getCookie('_ga');
+                    let gaClientId = !!clientIdCookie ? clientIdCookie.substring(6) : false;
+                    let cookiesReady = !!gaSessionCookies && !!gaClientId && !!gaSessionCookies.length > 0;
+
+                    if (!cookiesReady) {
+                        window.setTimeout(() => this.setGa4CookieData(maxRetries--, delay));
+                    } else {
+                        for (let i = 0; i < gaSessionCookies.length; i++) {
+                            let parts = gaSessionCookies[i].split(".");
+                            cookies.push({ ga4AccountId: parts[0].slice(4, -4), sessionId: parts[2], clientId: gaClientId })
+                        }
+                    }
+
+                    this.ga4CookieData = cookies;
+                }
+
+
+                supplementWithCookieInfo(payload) {
+                    // To invoke this feature you must put the value of: this.gaSessionIdPayloadIndicator = 'ga_session_id';
+                    // and this.gaClientIdPayloadIndicator = 'ga_client_id' in the push {payload};
+                    // It will then add the sessionId and clientId to the payload before we update the dataLayer
+                    let cookieData = this.ga4CookieData;
+                    let replaceSIndicator = payload.hasOwnProperty(this.gaSessionIdPayloadIndicator);
+                    let replaceCIndicator = payload.hasOwnProperty(this.gaClientIdPayloadIndicator);
+
+                    //For every GA4 account connected create the dLV variable mappings
+                    for (let i = 0; i < cookieData.length; i++) {
+                        let cookie = cookieData[i];
+                        if (replaceSIndicator) {
+                            let cookieSessionIdName = "_ga_" + cookie.ga4AccountId + "_" + this.gaSessionIdSuffix;
+                            payload[cookieSessionIdName] = cookie.sessionId;
+                        }
+
+                        if (replaceCIndicator) {
+                            let cookieClientIdName = "_ga_" + cookie.ga4AccountId + "_" + this.gaClientIdSuffix;
+                            payload[cookieClientIdName] = cookie.clientId;
+                        }
+                    }
+
+                    // Remove the placeholders in our original payload
+                    if (replaceCIndicator) {
+                        delete payload[this.gaClientIdPayloadIndicator];
+                    }
+
+                    if (replaceSIndicator) {
+                        delete payload[this.gaSessionIdPayloadIndicator];
+                    }
+
+                    // return the updated payload
+                    return payload;
+                }
+
+
+                push(payload) {
+
+                    //if this.gaSessionIdPayloadIndicator or this.gaClientIdPayloadIndicator are in
+                    //the payload that means we need to supplement the payload with a class method
+                    let sid = !!payload.hasOwnProperty(this.gaSessionIdPayloadIndicator);
+                    let cid = !!payload.hasOwnProperty(this.gaClientIdPayloadIndicator);
+                    let supplementCookieData = !!sid || !!cid;
+
+                    //if we have passed our checks before pushing.. a.k.a waitng for the gtm_loaded event
+                    //our events will fire rigt away, otherwise they will be put in a queue until the check
+                    ///checkForGTM is run again, which will trigger the gtm_loaded event if everything
+                    //is in place and process the queue of events pushed prior to either consent approval
+                    //or a loading issue etc.
+                    if (this.gtmReady && supplementCookieData) {
+                        const p = this.supplementWithCookieInfo(payload);
+                        return window.dataLayer.push(p);
+                    } else if (this.gtmReady) {
+                        return window.dataLayer.push(payload);
+                    } else {
+                        this.queue.push(payload)
+                    }
+                }
+
+
+                processQueue() {
+                    //if we enable add "consent tracking" we can pool events in the queue and
+                    //only send them when we get consent by running checkForGTM on this class instance again
+                    while (this.queue.length > 0) {
+                        const event = this.queue.shift();
+                        console.warn(event);
+                        console.warn(event.payload);
+                        this.push(event);
+                    }
+                }
+
+                trackClick(e) {
+                    let ds = JSON.parse(JSON.stringify(e.target.dataset));
+                    this.push(ds);
+                }
+                trackLearnMoreClick(e) {
+                    let learnMoreLinkElement = e.target;
+                    var adobeDataLayer = window.adobeDataLayer || [];
+                    if (learnMoreLinkElement.nodeName == 'SPAN') {
+                    	learnMoreLinkElement = learnMoreLinkElement.parentNode;
+                    }
+                    let ds = {
+                        event: "learn_more_click",
+                        topic_name: "Learn More - "+learnMoreLinkElement.ariaLabel,
+                        brand: "${metaProperties.productName @ context='scriptString'}",
+                        custom_timestamp: Date.now()
+                    };
+                    window.dataLayer.push(ds);
+                	adobeDataLayer.push({
+                		"event": "learn_more_click",
+                		"GAData": {
+                			"learn_more_click": {
+                				"brand": "${metaProperties.productName @ context='scriptString'}",
+                				"topic_name": "Learn More - "+learnMoreLinkElement.ariaLabel
+                			}
+                		}
+                	});
+                }
+            }
+
+            w.etsAL = new EtsAnalyticsLayerGA4(w, d, s, l, i);
+
+        })(window, document, 'script', 'dataLayer', '${metaProperties.getGtmScriptId @context="scriptString"}'); 
+    </script>
+    <div id="adobe-data-layer" data-sly-test.dataLayerEnabled="${page.data}" data-adobe-json='${page.data.json}'
+        data-adobe-page-id="${page.id}"></div>
+    <sly data-sly-test.isRedirectPage="${page.redirectTarget && (wcmmode.edit || wcmmode.preview)}"
+        data-sly-call="${redirect.redirect @ redirectTarget = page.redirectTarget}"></sly>
+    <sly data-sly-test="${!isRedirectPage}">
+        <sly data-sly-include="body.skiptomaincontent.html"></sly>
+        <sly data-sly-include="body.socialmedia_begin.html"></sly>
+        <sly data-sly-include="body.html"></sly>
+        <div data-sly-test="${inheritedPageProperties.enableChatBot}" class="chatbot-dynamic-data"
+            data-chatbot-program-name="${inheritedPageProperties.programCode}"
+            data-chatbot-is-enable="${inheritedPageProperties.enableChatBot}"></div>
+        <sly data-sly-call="${footer.footer @ page = page, pwa = pwa}"></sly>
+        <sly data-sly-include="body.socialmedia_end.html"></sly>
+    </sly>
+    <script>
+        function setConsentDataLayer(performanceCookie, targetingCookie, functionalCookie) {
+            window.dataLayer.push({
+                event: "consent_status",
+                consent_type: "OneTrust",
+                performance: performanceCookie,
+                targeting: targetingCookie,
+                functional: functionalCookie,
+                necessary: 1,
+            });
+        }
+        function OptanonWrapper() {
+
+            console.log("OptanonWrapper called");
+            var OABCcookieName = "OptanonAlertBoxClosed";
+            var bannerAcceptBtn = document.getElementById("onetrust-accept-btn-handler");
+            var pcAllowAllBtn = document.getElementById("accept-recommended-btn-handler");
+            var pcSaveBtn = document.getElementsByClassName("save-preference-btn-handler onetrust-close-btn-handler")[0];
+            var declineBtn = document.getElementsByClassName("ot-pc-refuse-all-handler")[0];
+            var OABCcookie = getCookie(OABCcookieName);
+
+            // IF logic needed here because ot-banner-sdk DIV is not injected on page loads if banner is not exposed
+            if (!OABCcookie && bannerAcceptBtn) {
+                bannerAcceptBtn.addEventListener('click', function () {
+                    setConsentDataLayer(1, 1, 1);
+                    console.log("Allowed all via Banner");
+                    location.reload();
+                });
+            }
+            if (pcAllowAllBtn)
+                pcAllowAllBtn.addEventListener('click', function () {
+                    setConsentDataLayer(1, 1, 1);
+                    console.log("Allowed all via Preference Center");
+                    location.reload();
+                });
+            if (pcSaveBtn) {
+                pcSaveBtn.addEventListener('click', function () {
+                    setTimeout(() => {
+                        var pCookie = document.getElementById("ot-group-id-C0002").checked ? 1 : 0;
+                        var fCookie = document.getElementById("ot-group-id-C0003").checked ? 1 : 0;
+                        var tCookie = document.getElementById("ot-group-id-C0004").checked ? 1 : 0;
+                        setConsentDataLayer(pCookie, tCookie, fCookie);
+                        console.log("Set custom settings via Preference Center");
+                        location.reload();
+                    }, 1000) //quick timeout so that the consent receipt can be sent and the cookie can be updated
+                });
+            }
+            if (declineBtn) {
+                declineBtn.addEventListener('click', function () {
+                    setTimeout(() => {
+                        setConsentDataLayer(0, 0, 0);
+                        location.reload();
+                    }, 1000) //quick timeout so that the consent receipt can be sent and the cookie can be updated
+                });
+            }
+        }
+    </script>
+    <script>
+        function setPageViewDatalayer() {
+            var pageUrl = window.location.href;
+            var gaCookieData = window.etsAL.ga4CookieData;
+            var pageViewDataMap = {};
+            pageViewDataMap["event"]="pageview";
+            pageViewDataMap["ga_session_id"]="";
+            pageViewDataMap["ga_client_id"]="";
+            pageViewDataMap["page_title"]="${currentPage.getNavigationTitle @ context='scriptString'}";
+            pageViewDataMap["page_url"]=pageUrl;
+            pageViewDataMap["brand"]="${metaProperties.productName @ context='scriptString'}";
+            pageViewDataMap["page_category"]="${metaProperties.pageCategory @ context='scriptString'}";
+            pageViewDataMap["custom_timestamp"]=Date.now();
+            window.etsAL.push(pageViewDataMap);
+        }
+        $(document).ready(function () {
+            let etsAlClickElements = document.getElementsByClassName("etsALTrigger");
+            for (let i = 0; i < etsAlClickElements.length; i++) {
+                etsAlClickElements[i].addEventListener('click', etsAL.trackClick, true);
+            }
+            let etsAlBtnClickElements = document.getElementsByClassName("etsALLearnMoreTrigger");
+            for (let i = 0; i < etsAlBtnClickElements.length; i++) {
+                etsAlBtnClickElements[i].addEventListener('click', etsAL.trackLearnMoreClick, true);
+            }
+        });
+        $(document).ready(function () {
+            setPageViewDatalayer();
+            var adobeDataLayer = window.adobeDataLayer || [];
+        	adobeDataLayer.push({
+        		"event": "pageview",
+        		"GAData": {
+        			"pageview": {
+        				"brand": "${metaProperties.productName @ context='scriptString'}"
+        			}
+        		}
+        	});
+        });
+    </script>
+</body>
+
+</html>

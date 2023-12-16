@@ -1,0 +1,11 @@
+{
+	"embedHtml": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"embedopenhtml": "<h2>Embed Open HTML</h2>\r\n  <p>This is some text in a html element.</p>",
+		"jcr:lastModifiedBy": "admin",
+		"jcr:created": "Thu Aug 24 2023 00:00:51 GMT-0400",
+		"jcr:lastModified": "Thu Aug 24 2023 02:48:25 GMT-0400",
+		"sling:resourceType": "ets/components/embedOpenHtml"
+	}
+}

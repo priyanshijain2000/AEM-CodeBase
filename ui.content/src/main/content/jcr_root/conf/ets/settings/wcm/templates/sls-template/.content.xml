@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2022-04-22T20:24:17.421Z"
+        cq:lastModifiedBy="anand.a.bisht@avanade.com"
+        cq:templateType="/conf/ets/settings/wcm/template-types/generic-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="SLS template"
+        status="draft"/>
+</jcr:root>

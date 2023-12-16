@@ -1,0 +1,60 @@
+<sly data-sly-use.researcherPatent="org.ets.core.models.ResearcherPatentModel"/>
+<section>
+    <div class="researcher-template">
+        <div class="cmp-container--body" tabindex="0" role="alert">
+
+            <h1 class="heading1">${researcherPatent.title}</h1>
+            <dl class="report-info">
+            	<sly data-sly-test="${researcherPatent.authors}">
+	                <dt>${currentStyle.authorsField}:</dt>
+	                <sly data-sly-use.researcherObj="org.ets.core.models.ResearcherAuthorLink"></sly>
+	                <dd class="last" data-sly-list.author=${researcherObj.getAuthorLinks}>
+	                    <a data-sly-unwrap="${!author.link}" href="${author.link @extension='html'}">
+	                		${author.name}${authorList.last?'':'; '}
+	                	</a>
+	                </dd>
+                </sly>
+                <sly data-sly-test="${researcherPatent.year}">
+                <dt>${currentStyle.yearField}:</dt>
+                <dd class="last">${researcherPatent.year}</dd>
+                </sly>
+                <sly data-sly-test="${researcherPatent.reportNumber}">
+                <dt>${currentStyle.reportNumberField}:</dt>
+                <dd class="last">${researcherPatent.reportNumber}</dd>
+                </sly>
+                <sly data-sly-test="${currentStyle.sourceValue}">
+                <dt>${currentStyle.sourceField}:</dt>
+                <dd class="last">${currentStyle.sourceValue}</dd>
+                </sly>
+                <sly data-sly-test="${currentStyle.docType}">
+                <dt>${currentStyle.publicationTypeField}:</dt>
+                <dd class="last">${currentStyle.docType}</dd>
+                </sly>
+                <sly data-sly-test="${researcherPatent.familyId}">
+                <dt>${currentStyle.numPagesField}:</dt>
+                <dd class="last">${researcherPatent.familyId}</dd>
+                </sly>
+                <sly data-sly-test="${researcherPatent.keywords}">
+                <dt>${currentStyle.keywordsField}:</dt>
+                <dd class="last" data-sly-list.keywordsItem=${researcherPatent.keywords}>
+                   <a href="${currentStyle.searchPage @extension='html'}?qt=${keywordsItem}">
+                    	${keywordsItem}${keywordsItemList.last?'':', '}
+                    </a>
+                </dd>
+                </sly>
+            </dl>
+			<sly data-sly-test="${researcherPatent.bodyDescription}">
+	            <h2 class="heading4">${currentStyle.bodyDescriptionField}</h2>
+	            <p>${researcherPatent.bodyDescription}</p>
+            </sly>
+            <sly data-sly-test="${researcherPatent.url}">
+	            <h2 class="heading4">${currentStyle.urlField}</h2>
+	            <ul>
+	                <li>
+	                    <a href="${researcherPatent.url}" class="break-all" alt="${researcherPatent.altText}" target="_blank" rel="noopener noreferrer">${researcherPatent.url}</a>
+	                </li>
+	            </ul>
+			</sly>
+        </div>
+    </div>
+</section>

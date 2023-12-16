@@ -1,0 +1,61 @@
+.litePagination {
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.2rem;
+
+    .page-result-text {
+        font-size: 1.125em;
+        white-space: nowrap;
+    }
+
+    input {
+        width: 42px;
+        height: 46px;
+        font-size: 1.125em;
+        color: #151515;
+        border-radius: 8px;
+        padding: 2px;
+        border: 1px solid $color-ETS-bodyblack;
+        text-align: center;
+        background-color: $color--body-bg;
+
+        &:hover {
+            border: 3px solid $input-hover;
+        }
+
+        &:focus {
+            background-color: $input-focus;
+            border: 3px solid $input-hover;
+            outline: none;
+        }
+    }
+
+    .button {
+        padding: 0.75rem 1.025rem;
+    }
+
+    @media only screen and (max-width: 450px) {
+        column-gap: 0.7rem;
+
+        .button {
+            padding: 0.75rem 0.825rem;
+        }
+    }
+
+    @media only screen and (max-width: 360px) {
+        column-gap: 0.5rem;
+        input {
+            width: 35px;
+            height: 42px;
+            font-size: 0.825em;
+        }
+        .button {
+            padding: 0.75rem 0.6rem;
+        }
+        .page-result-text {
+            font-size: 1rem;
+        }
+    }
+}

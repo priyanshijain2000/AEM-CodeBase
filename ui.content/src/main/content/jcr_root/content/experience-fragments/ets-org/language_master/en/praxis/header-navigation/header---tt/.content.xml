@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-04-22T16:35:50.555Z"
+        cq:lastModifiedBy="anand.a.bisht@avanade.com"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/ets/settings/wcm/templates/xf-web-variation"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Header - TT"
+        sling:resourceType="ets/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ets/components/container"
+            layout="responsiveGrid">
+            <mainheader_copy
+                jcr:created="{Date}2022-01-11T12:43:46.981Z"
+                jcr:createdBy="parthiban.selvam.p@accenture.com"
+                jcr:lastModified="{Date}2022-04-22T16:35:50.172Z"
+                jcr:lastModifiedBy="anand.a.bisht@avanade.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/mainheader"
+                cartlogo="/content/dam/ets-org/icons/cart.svg"
+                carttext="ETS STORE"
+                col1title1="I WANT TO:"
+                col1title2="I WANT TO:"
+                col1title3="I'M LOOKING FOR:"
+                col1title4="I WANT TO:"
+                col1title5="I WANT TO:"
+                col1title6="I'M LOOKING FOR:"
+                col2title3="I WANT TO:"
+                commonLinkCf="/content/dam/ets-org/ets-content-fragment/header/header-menu"
+                contacttext="CONTACT"
+                contacturl="/content/ets-org/language-master/en/home/contact.html"
+                fileReference="/content/dam/ets/commons/logo/ETS_LOGO.svg"
+                homePagePath="/content/ets-org/language-master/en/home"
+                langname="ENGLISH"
+                linkurl="/content/ets-org/en/home"
+                logintext="Login / Register"
+                loginurl="#"
+                navtitle1="Resources"
+                navtitle2="Registration"
+                navtitle3="Test Day"
+                navtitle4="Scores"
+                productMenuCf="/content/dam/ets-org/ets-content-fragment/header/product-list"
+                productName="Products">
+                <products jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        color="#3B5686"
+                        isActive="false"
+                        newTab="false"
+                        product="HOME"
+                        productlink="/content/ets-org/language-master/en/home"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        color="#630F54"
+                        isActive="false"
+                        newTab="false"
+                        product="GRE"
+                        productlink="/content/ets-org/language-master/en/home/GRE"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        color="#377D82"
+                        isActive="false"
+                        newTab="false"
+                        product="TOEFL"
+                        productlink="/content/ets-org/language-master/en/home/toefl"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        color="#165736"
+                        isActive="false"
+                        newTab="false"
+                        product="TOEIC"
+                        productlink="/content/ets-org/language-master/en/home/toeic"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        color="#A03137"
+                        isActive="true"
+                        newTab="false"
+                        product="PRAXIS"
+                        productlink="/content/ets-org/language-master/en/home/praxis"/>
+                    <item5
+                        jcr:primaryType="nt:unstructured"
+                        color="#3B5686"
+                        isActive="false"
+                        newTab="false"
+                        product="ALL PRODUCTS"
+                        productlink="#"/>
+                </products>
+                <logo jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        altText="ETS home"
+                        image="/content/dam/ets-org/logo/ETS.svg"
+                        linkurl="/content/ets-org/language-master/en/home"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        altText="Praxis"
+                        image="/content/dam/ets-org/logo/ETS-PRAXIS.svg"
+                        linkurl="/content/ets-org/language-master/en/home/praxis"/>
+                </logo>
+                <column11 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="About the Tests"
+                        newTab="false"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="Test Prep Materials"
+                        newTab="false"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="Khan Academy Official Praxis Core Test Prep"
+                        newTab="true"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="Praxis Learning Paths Program"
+                        newTab="true"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="Videos and Webinars"
+                        newTab="true"/>
+                </column11>
+                <column21 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="Plan Your Test"
+                        newTab="true"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="Where to Test"
+                        newTab="true"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="How to Register"
+                        newTab="true"/>
+                </column21>
+                <column31 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="At Home Testing"
+                        newTab="true"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="Test Center Testing"
+                        newTab="true"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="Calculator Use"
+                        newTab="true"/>
+                </column31>
+                <column32 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="plan admissions"
+                        newTab="true"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="sign into ETS data manager"
+                        newTab="true"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="interpret scores"
+                        newTab="true"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="use scores"
+                        newTab="true"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="view score policies"
+                        newTab="true"/>
+                </column32>
+                <column41 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="Getting Your Scores"
+                        newTab="true"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="Sending Your Scores"
+                        newTab="true"/>
+                </column41>
+                <column51 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="sign into ETS data manager"
+                        newTab="true"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="read policy studies"
+                        newTab="true"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="view all research"
+                        newTab="true"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="view all solutions"
+                        newTab="true"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="view assessments tools"
+                        newTab="true"/>
+                    <item5
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="learn about test adoption"
+                        newTab="true"/>
+                    <item6
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="view praxis services &amp; tools"
+                        newTab="true"/>
+                    <item7
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="view praxis resources"
+                        newTab="true"/>
+                </column51>
+                <column61 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="all research"
+                        newTab="false"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="ETS AI labs"
+                        newTab="false"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navlink="#"
+                        navtext="R&amp;D consulting services"
+                        newTab="false"/>
+                </column61>
+            </mainheader_copy>
+        </root>
+    </jcr:content>
+</jcr:root>

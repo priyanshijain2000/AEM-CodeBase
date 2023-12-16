@@ -1,0 +1,167 @@
+#page-container {
+  // Hacky solution to override the ETS styles, with the downside that it also overrides
+  // the styles of some of our dependencies like Material Icons and react-select.
+  *:where(:not(.material-icons, svg *, .LocationForm-container *:not(button))) {
+    all: revert;
+  }
+
+  /* weekdays */
+  abbr {
+    text-decoration: none;
+  }
+
+  .calendar-months {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    --calendar-cell-width: 44px;
+
+    @media screen and (max-width: 500px) {
+      --calendar-cell-width: 30px;
+    }
+
+    .calendar.loading {
+      opacity: 0.5;
+    }
+
+    .spinner-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .dates-loading {
+      background-color: rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      left: -5px;
+      bottom: -5px;
+      z-index: 1;
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* year */
+  .calendar-month {
+    i {
+      font-style: normal;
+    }
+
+    @media screen and (max-width: 500px) {
+      --calendar-cell-width: 38px;
+    }
+
+    table {
+      table-layout: fixed;
+      border-collapse: collapse;
+      margin-top: 6px;
+
+      th {
+        width: var(--calendar-cell-width);
+        height: var(--calendar-cell-width);
+        font-size: 13px;
+        font-weight: 400;
+      }
+
+      > tbody > tr > td {
+        width: var(--calendar-cell-width);
+        height: var(--calendar-cell-width);
+        text-align: center;
+        font-size: 13px;
+        padding: 4px;
+
+        @media screen and (max-width: 500px) {
+          padding: 0;
+        }
+
+        & > button {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          background: none;
+          border: none;
+
+          &:disabled {
+            color: inherit;
+          }
+        }
+
+        &[data-available='true'] {
+          button {
+            --outline-width: 2px;
+            outline: var(--outline-width) solid var(--primary-calendar);
+            outline-offset: calc(0px - var(--outline-width));
+            cursor: pointer;
+            user-select: none;
+          }
+
+          &:focus button,
+          &:hover button {
+            outline-width: 3px;
+            background-color: var(--primary-calendar-background);
+          }
+        }
+
+        &[data-selected='true'] button {
+          background-color: var(--primary-button);
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  [data-today] {
+    --calendar-day-bdrs: 50%;
+    --calendar-day-bg: hsl(0, 86%, 40%);
+    --calendar-day-hover-bgc: hsl(0, 86%, 70%);
+    --calendar-day-c: #fff;
+  }
+
+  .TestCenterOptions-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+    padding: 2em;
+    padding-top: 8em;
+    border: 2px dashed #eaeaea;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    width: 100%;
+
+    @media screen and (max-width: 900px) {
+      padding-top: 4em;
+      padding-bottom: 4em;
+    }
+  }
+
+  font-family: OpenSans-Regular, 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #333333;
+  --primary-text: #003082;
+  --primary-button: #003356;
+  --primary-calendar: #3072be;
+  --primary-calendar-background: #3072be50;
+  --button-border: 2px solid #003356;
+
+  max-width: 1200px;
+  margin: 2em auto;
+  box-sizing: border-box;
+}

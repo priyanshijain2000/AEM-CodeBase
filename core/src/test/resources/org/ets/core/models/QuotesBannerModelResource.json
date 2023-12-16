@@ -1,0 +1,21 @@
+{
+	"quotes-banner": {
+		"jcr:primaryType": "nt:unstructured",
+		"fileReference": "/content/dam/ets-org/general/quote-banner.png",
+		"authorinfo": "Application Development Associate",
+		"authorname": "Dikshyant",
+		"quotedesc": "Quote Description",
+		"ctaButtonLink": "/content/ets-org/language-master/en/home/about",
+		"ctaButtonAriaLabel": "CTA Button Aria Label",
+		"altText": "Quotes Banner",
+		"fileName": "full-width-1920x740.jpg",
+		"ctaLinkAriaLabel": "CTA Link Aria Label",
+		"ctaLink": "/content/ets-org/language-master/en/home/about",
+		"ctaText": "About ETS",
+		"sling:resourceType": "ets/components/quotesbanner",
+		"ctaButtonLabel": "Read More",
+		"textIsRich": "true",
+		"newTab1": "true",
+		"newTab2": "true"
+	}
+}

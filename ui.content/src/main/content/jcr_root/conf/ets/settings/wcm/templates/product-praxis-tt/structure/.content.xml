@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2022-04-25T13:02:49.411Z"
+        cq:lastModifiedBy="pselvam@ets.org"
+        cq:lastReplicated="{Date}2022-04-07T14:02:27.011Z"
+        cq:lastReplicated_preview="{Date}2022-05-10T08:12:37.714Z"
+        cq:lastReplicated_publish="{Date}2022-04-07T14:02:27.011Z"
+        cq:lastReplicatedBy="karthika.pichandi@accenture.com"
+        cq:lastReplicatedBy_preview="PJAIN003@ets.org"
+        cq:lastReplicatedBy_publish="karthika.pichandi@accenture.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/conf/ets/settings/wcm/templates/product-praxis-tt"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:uuid="7cfd048c-42cb-48b5-8e90-122884e719e2"
+        sling:resourceType="ets/structure/praxis-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <container
+                jcr:lastModified="{Date}2022-03-30T05:27:06.662-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container">
+                <experiencefragment
+                    jcr:lastModified="{Date}2022-04-22T16:52:01.668Z"
+                    jcr:lastModifiedBy="anand.a.bisht@avanade.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/ets-org/language_master/en/praxis/header-navigation/header---tt"
+                    text="Home GRE PRAXIS TOEIC TOEFL ALL PRODUCTS CONTACT Login / Register Close Products GRE PRAXIS TOEIC TOEFL ALL PRODUCTS Resources I WANT TO: About the Tests Test Prep Materials Khan Academy Official Praxis Core Test Prep Praxis Learning Paths Program Videos and Webinars Registration I WANT TO: Plan Your Test Where to Test How to Register Test Day I'M LOOKING FOR: At Home Testing Test Center Testing Calculator Use I WANT TO: plan admissions sign into ETS data manager interpret scores use scores view score policies Scores I WANT TO: Getting Your Scores Sending Your Scores Login / Register CONTACT"/>
+            </container>
+            <container_546141936
+                jcr:lastModified="{Date}2022-03-30T05:40:01.206-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
+            <container_1520739429
+                jcr:lastModified="{Date}2022-03-30T05:32:53.472-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ets/components/container">
+                <experiencefragment_c
+                    jcr:lastModified="{Date}2022-04-13T12:49:08.024Z"
+                    jcr:lastModifiedBy="saravanan.a.ms@accenture.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ets/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/ets-org/language_master/en/site/footer/master"
+                    text="ETS About ETS Careers Contact Us Disabilities News &amp; Insights Research Solutions Educator Licensure ETS Accelerate Higher Education K–12 Student Programs Products GRE Praxis TOEFL TOEIC View All Follow ETS: Copyright © 2023 by ETS. All rights reserved. All trademarks are property of their respective owners. Legal Privacy &amp; Security ETS Trademarks Cookie Settings"/>
+            </container_1520739429>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

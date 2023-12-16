@@ -1,0 +1,6 @@
+<sly data-sly-use.gridModel="org.ets.core.models.GridModel"></sly>
+<div class="card-group new-info-card infocard-${gridModel.numberOfColumns || 'three'}-column ${gridModel.alignment || 'card-align-center'}">
+    <div class="card new-info-card-container new-info-card-white new-info-card-shadow" data-sly-repeat.itemNumber="${gridModel.numberOfItems}">
+		<sly data-sly-resource="${itemNumber @ resourceType='ets/components/container'}"></sly>
+	</div>
+</div>

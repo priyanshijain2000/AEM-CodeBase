@@ -1,0 +1,20 @@
+{
+	"researcher-patent": {
+		"jcr:primaryType": "nt:unstructured",
+		"altText": "image-text",
+		"source": "Sam",
+		"authors": "Test",
+		"url": "https://www.ets.org/",
+		"year": "2023",
+		"title": "Our Location",
+		"reportNumber": "78",
+		"keywords": [
+			"Test",
+			"Guidance3"
+		],
+		"bodyDescription": "Body Description",
+		"familyId": "73648",
+		"sling:resourceType": "ets/components/researcher-patent",
+		"publicationType": "Chapter"
+	}
+}

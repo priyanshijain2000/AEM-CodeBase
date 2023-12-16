@@ -1,0 +1,291 @@
+{
+   "numberOfResults":124,
+   "request":{
+      "pageNumber":1,
+      "pageSize":10,
+      "name":"California",
+      "loc":null
+   },
+   "result":[
+      {
+         "institutionCode":"7457",
+         "institutionName":"California Miramar University",
+         "institutionAKA":" CA",
+         "institutionCity":"San Diego",
+         "institutionState":"California",
+         "institutionCountry":"United States",
+         "institutionWebsite":"www.calmu.edu",
+         "institutionFinancialAidFlag":"No",
+         "institutionFieldsOfStudy":null,
+         "institutionScoreInfo":[
+            
+         ]
+      },
+      {
+         "institutionCode":"3685",
+         "institutionName":"Southern California Institute of Technology",
+         "institutionAKA":"SCIT",
+         "institutionCity":"Anaheim",
+         "institutionState":"California",
+         "institutionCountry":"United States",
+         "institutionWebsite":"www.scitech.edu",
+         "institutionFinancialAidFlag":"Yes",
+         "institutionFieldsOfStudy":[
+            "Accounting",
+            "Computer Science",
+            "Engineering"
+         ],
+         "institutionScoreInfo":[
+            {
+               "programName":"Degree Programs",
+               "programLevel":"Undergraduate",
+               "minimumScoreIBT":"65",
+               "minimumScorePBT":"550",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            }
+         ]
+      },
+      {
+         "institutionCode":"2647",
+         "institutionName":"California University-Pennsylvania",
+         "institutionAKA":" PA",
+         "institutionCity":"California",
+         "institutionState":"Pennsylvania",
+         "institutionCountry":"United States",
+         "institutionWebsite":"www.cup.edu/index.jsp",
+         "institutionFinancialAidFlag":"No",
+         "institutionFieldsOfStudy":null,
+         "institutionScoreInfo":[
+            {
+               "programName":"General",
+               "programLevel":"Graduate",
+               "minimumScoreIBT":"",
+               "minimumScorePBT":"",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            },
+            {
+               "programName":"General",
+               "programLevel":"Professional/Other",
+               "minimumScoreIBT":"",
+               "minimumScorePBT":"",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            },
+            {
+               "programName":"General",
+               "programLevel":"Undergraduate",
+               "minimumScoreIBT":"",
+               "minimumScorePBT":"550",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            }
+         ]
+      },
+      {
+         "institutionCode":"B414",
+         "institutionName":"California Jazz Conservatory",
+         "institutionAKA":null,
+         "institutionCity":"Berkeley",
+         "institutionState":"California",
+         "institutionCountry":"United States",
+         "institutionWebsite":"www.cjc.org",
+         "institutionFinancialAidFlag":"Yes",
+         "institutionFieldsOfStudy":null,
+         "institutionScoreInfo":[
+            {
+               "programName":"BA in Jazz Studies",
+               "programLevel":"Undergraduate",
+               "minimumScoreIBT":"75",
+               "minimumScorePBT":"",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"Yes",
+               "additionalInfo":" "
+            }
+         ]
+      },
+      {
+         "institutionCode":"5694",
+         "institutionName":"California International Business University",
+         "institutionAKA":"CA",
+         "institutionCity":"San Diego",
+         "institutionState":"California",
+         "institutionCountry":"United States",
+         "institutionWebsite":"N/A",
+         "institutionFinancialAidFlag":"No",
+         "institutionFieldsOfStudy":null,
+         "institutionScoreInfo":[
+            
+         ]
+      },
+      {
+         "institutionCode":"4011",
+         "institutionName":"California State University East Bay",
+         "institutionAKA":"Cal State East Bay",
+         "institutionCity":"Hayward",
+         "institutionState":"California",
+         "institutionCountry":"United States",
+         "institutionWebsite":"www.csueastbay.edu",
+         "institutionFinancialAidFlag":"No",
+         "institutionFieldsOfStudy":null,
+         "institutionScoreInfo":[
+            {
+               "programName":"International Programs",
+               "programLevel":"Professional/Other",
+               "minimumScoreIBT":"",
+               "minimumScorePBT":"",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            }
+         ]
+      },
+      {
+         "institutionCode":"4980",
+         "institutionName":"Westminster Theological Seminary-California",
+         "institutionAKA":" CA",
+         "institutionCity":"Escondido",
+         "institutionState":"California",
+         "institutionCountry":"United States",
+         "institutionWebsite":"www.wscal.edu/",
+         "institutionFinancialAidFlag":"No",
+         "institutionFieldsOfStudy":null,
+         "institutionScoreInfo":[
+            {
+               "programName":"General",
+               "programLevel":"Graduate",
+               "minimumScoreIBT":"89",
+               "minimumScorePBT":"570",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            },
+            {
+               "programName":"General",
+               "programLevel":"Professional/Other",
+               "minimumScoreIBT":"",
+               "minimumScorePBT":"",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            },
+            {
+               "programName":"General",
+               "programLevel":"Undergraduate",
+               "minimumScoreIBT":"",
+               "minimumScorePBT":"",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            }
+         ]
+      },
+      {
+         "institutionCode":"4701",
+         "institutionName":"Vanguard University of Southern California",
+         "institutionAKA":" CA",
+         "institutionCity":"Costa Mesa",
+         "institutionState":"California",
+         "institutionCountry":"United States",
+         "institutionWebsite":"www.vanguard.edu/",
+         "institutionFinancialAidFlag":"No",
+         "institutionFieldsOfStudy":null,
+         "institutionScoreInfo":[
+            {
+               "programName":"General",
+               "programLevel":"Graduate",
+               "minimumScoreIBT":"79",
+               "minimumScorePBT":"550",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            },
+            {
+               "programName":"General",
+               "programLevel":"Professional/Other",
+               "minimumScoreIBT":"",
+               "minimumScorePBT":"",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            },
+            {
+               "programName":"General",
+               "programLevel":"Undergraduate",
+               "minimumScoreIBT":"",
+               "minimumScorePBT":"550",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            }
+         ]
+      },
+      {
+         "institutionCode":"4793",
+         "institutionName":"University of Southern California Ostrow School of Dentistry",
+         "institutionAKA":" CA",
+         "institutionCity":"Los Angeles",
+         "institutionState":"California",
+         "institutionCountry":"United States",
+         "institutionWebsite":"www.dentistry.usc.edu",
+         "institutionFinancialAidFlag":"Yes",
+         "institutionFieldsOfStudy":null,
+         "institutionScoreInfo":[
+            {
+               "programName":"Ostrow School of Dentistry",
+               "programLevel":"Graduate",
+               "minimumScoreIBT":"100",
+               "minimumScorePBT":"",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"Yes",
+               "additionalInfo":"If you are not a US Citizen and you have not received an Internet Based TOEFL (IBT)  score  of 100 or higher, with no less than 20 on each sub-score, or an IELTS score of 7 or higher, with no less than 6 on each band score, taken within the past 2 years, we highly recommend that you re-take the TOEFL or IELTS to obtain one of these minimum scores. If you do not achieve the minimum score listed above, you will be required to take the International Student English (ISE) Exam through our American Language Inst"
+            }
+         ]
+      },
+      {
+         "institutionCode":"4852",
+         "institutionName":"University of Southern California-Los Angeles",
+         "institutionAKA":" CA",
+         "institutionCity":"Los Angeles",
+         "institutionState":"California",
+         "institutionCountry":"United States",
+         "institutionWebsite":"www.usc.edu/",
+         "institutionFinancialAidFlag":"No",
+         "institutionFieldsOfStudy":null,
+         "institutionScoreInfo":[
+            {
+               "programName":"General",
+               "programLevel":"Graduate",
+               "minimumScoreIBT":"100",
+               "minimumScorePBT":"600",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            },
+            {
+               "programName":"General",
+               "programLevel":"Professional/Other",
+               "minimumScoreIBT":"",
+               "minimumScorePBT":"",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            },
+            {
+               "programName":"General",
+               "programLevel":"Undergraduate",
+               "minimumScoreIBT":"100",
+               "minimumScorePBT":"600",
+               "minimumScoreESE":"",
+               "contactForScoreFlag":"No",
+               "additionalInfo":" "
+            }
+         ]
+      }
+   ]
+}

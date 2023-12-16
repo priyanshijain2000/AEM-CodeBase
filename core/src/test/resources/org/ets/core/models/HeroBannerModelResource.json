@@ -1,0 +1,42 @@
+{
+	"heroBanner": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "saravanan.a.ms@accenture.com",
+		"description": "<a id=\"content\"></a>We’re with you on the journey to <b><i>what’s possible</i></b>",
+		"fileReference": "/content/dam/ets/background-image/hero-banner-large.png",
+		"animationimage": "/content/dam/ets/rellax-images/homepage/hero-banner-large.png",
+		"animationimagelarge": "/content/dam/ets/background-image/hero-banner-large.png",
+		"jcr:lastModifiedBy": "admin",
+		"altText": "Logo",
+		"jcr:created": "Thu Jan 13 2022 04:47:10 GMT+0000",
+		"moreinfo": "<p>Not one of these? <a title=\"internal\" href=\"#\">View More</a></p>\r\n",
+		"title": "Select a path to begin your journey",
+		"jcr:lastModified": "Wed Aug 30 2023 09:32:06 GMT-0400",
+		"sling:resourceType": "ets/components/heroBanner",
+		"textIsRich": [
+			"true",
+			"true"
+		],
+		"cardcategory": {
+			"jcr:primaryType": "nt:unstructured",
+			"item0": {
+				"jcr:primaryType": "nt:unstructured",
+				"alticon": "test",
+				"target": "true",
+				"cardtitle": "FIND THE RIGHT TEST FOR YOU",
+				"spa": "false",
+				"url": "#",
+				"icon": "/content/dam/ets-org/icons/brands/Test.svg",
+				"linkAriaLabel": "test aria"
+			},
+			"item1": {
+				"jcr:primaryType": "nt:unstructured",
+				"target": "true",
+				"cardtitle": "PROVE YOUR ENGLISH ABILITY",
+				"spa": "false",
+				"url": "#",
+				"icon": "/content/dam/ets/custom-icons/english_test_icon.svg"
+			}
+		}
+	}
+}

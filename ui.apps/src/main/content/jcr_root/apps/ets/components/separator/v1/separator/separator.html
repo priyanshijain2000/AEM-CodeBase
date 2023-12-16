@@ -1,0 +1,13 @@
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = true, classAppend='cmp-text'}"></sly>
+
+<div class="cmp-container--body" data-sly-test=${!properties.smallSeparator}>
+	<div class="${properties.style || 'separator-black'} d-block mt-${properties.marginTop} mb-${properties.marginBottom}"></div>
+</div>
+
+<div class="cmp-container--body" data-sly-test=${properties.smallSeparator}>
+	<div class="row">
+	    <div class="col-lg-10 mx-auto mt-${properties.marginTop} mb-${properties.marginBottom}">
+	        <div class="${properties.style || 'separator-black'} d-block m-t70x40"></div>
+	    </div>
+    </div>
+</div>

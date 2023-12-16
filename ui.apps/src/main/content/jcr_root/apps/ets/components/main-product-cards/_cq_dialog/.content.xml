@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Main Product Cards"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[ets.dropdownshowhide]">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <productlist
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Products"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+	                        <buttonContainer
+								jcr:primaryType="nt:unstructured"
+								sling:resourceType="granite/ui/components/coral/foundation/container">
+								<items jcr:primaryType="nt:unstructured">
+									<elementStyle
+										jcr:primaryType="nt:unstructured"
+										sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+										name="./elementStyle"
+										text="Check if button/text links are applicable for the cards"
+										uncheckedValue="{Boolean}false"
+										value="{Boolean}true"/>
+									 <buttonStyle
+		                                jcr:primaryType="nt:unstructured"
+		                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+		                                emptyText="Choose button style"
+		                                fieldLabel="Button Style"
+		                                name="./buttonStyle">
+		                                <items jcr:primaryType="nt:unstructured">
+		                                    <option1
+		                                        jcr:primaryType="nt:unstructured"
+		                                        text="Primary"
+		                                        value="cmp-button--primary"/>
+		                                    <option2
+		                                        jcr:primaryType="nt:unstructured"
+		                                        text="Secondary"
+		                                        value="cmp-button--secondary"/>
+		                                    <option3
+		                                        jcr:primaryType="nt:unstructured"
+		                                        text="Tertiary"
+		                                        value="cmp-button--tertiary"/>
+		                                </items>
+		                            </buttonStyle>
+								</items>
+							</buttonContainer>
+                            <products
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                composite="{Boolean}true"
+                                fieldLabel="Products List">
+                                <field
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                    name="./products">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <heading
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Heading"
+                                            name="./heading"/>
+                                        <productname
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Product Name"
+                                            name="./productname"/>
+                                        <color-picker
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/colorfield"
+                                            fieldLabel="Color Theme"
+                                            name="./color"
+                                            showDefaultColors="{Boolean}false"
+                                            showProperties="{Boolean}false"
+                                            showSwatches="{Boolean}true">
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <color1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    value="#630F54"/>
+                                                <color2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    value="#377D82"/>
+                                                <color3
+                                                    jcr:primaryType="nt:unstructured"
+                                                    value="#165736"/>
+                                                <color4
+                                                    jcr:primaryType="nt:unstructured"
+                                                    value="#A03137"/>
+                                                <color5
+													jcr:primaryType="nt:unstructured"
+													value="#3B5686"/>
+                                            </items>
+                                        </color-picker>
+																				<description
+											jcr:primaryType="nt:unstructured"
+											sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+											fieldLabel="Links Description"
+											name="./description"
+											removeSingleParagraphContainer="{Boolean}true"
+											useFixedInlineToolbar="{Boolean}true">
+											<rtePlugins jcr:primaryType="nt:unstructured">
+												<format
+													jcr:primaryType="nt:unstructured"
+													features="bold,italic,underline"/>
+												<justify
+													jcr:primaryType="nt:unstructured"
+													features="*"/>
+												<links
+													jcr:primaryType="nt:unstructured"
+													features="modifylink,unlink,anchor"/>
+												<lists
+													jcr:primaryType="nt:unstructured"
+													features="*"/>
+												<misctools
+													jcr:primaryType="nt:unstructured"
+													features="*">
+													<specialCharsConfig jcr:primaryType="nt:unstructured">
+														<chars jcr:primaryType="nt:unstructured">
+															<default_copyright
+																jcr:primaryType="nt:unstructured"
+																entity="&amp;copy;"
+																name="copyright"/>
+															<default_euro
+																jcr:primaryType="nt:unstructured"
+																entity="&amp;euro;"
+																name="euro"/>
+															<default_registered
+																jcr:primaryType="nt:unstructured"
+																entity="&amp;reg;"
+																name="registered"/>
+															<default_trademark
+																jcr:primaryType="nt:unstructured"
+																entity="&amp;trade;"
+																name="trademark"/>
+														</chars>
+													</specialCharsConfig>
+												</misctools>
+												<styles
+													jcr:primaryType="nt:unstructured"
+													features="*">
+													<styles jcr:primaryType="cq:WidgetCollection">
+														<datevalue
+															jcr:primaryType="nt:unstructured"
+															cssName="cta-text-link"
+															text="Text Link"/>
+														<bodytext
+															jcr:primaryType="nt:unstructured"
+															cssName="body-text"
+															text="Body Text"/>
+														<cmpbuttontext
+															jcr:primaryType="nt:unstructured"
+															cssName="cmp-button cmp-button__text"
+															text="Button Text"/>
+													</styles>
+												</styles>
+												<tracklinks
+													jcr:primaryType="nt:unstructured"
+													features="*"/>
+												<subsuperscript
+													jcr:primaryType="nt:unstructured"
+													features="*"/>
+											</rtePlugins>
+											<uiSettings jcr:primaryType="nt:unstructured">
+												<cui jcr:primaryType="nt:unstructured">
+													<inline
+														jcr:primaryType="nt:unstructured"
+														toolbar="[format#bold,format#italic,format#underline,links#modifylink,links#unlink,#paraformat,subsuperscript#subscript,subsuperscript#superscript,justify#justifyleft,justify#justifycenter,justify#justifyright,justify#justifyjustify,lists#ordered,lists#unordered,lists#outdent,lists#indent,links#anchor,misctools#sourceedit,#styles,findreplace#find,misctools#specialchars]">
+														<popovers jcr:primaryType="nt:unstructured">
+															<justify
+																jcr:primaryType="nt:unstructured"
+																items="[justify#justifyleft,justify#justifycenter,justify#justifyright,justify#justifyjustify]"
+																ref="justify"/>
+															<lists
+																jcr:primaryType="nt:unstructured"
+																items="[lists#unordered,lists#ordered,lists#outdent,lists#indent]"
+																ref="lists"/>
+															<paraformat
+																jcr:primaryType="nt:unstructured"
+																items="paraformat:getFormats:paraformat-pulldown"
+																ref="paraformat"/>
+															<styles
+																jcr:primaryType="nt:unstructured"
+																items="styles:getStyles:styles-pulldown"
+																ref="styles"/>
+														</popovers>
+													</inline>
+													<dialogFullScreen
+															jcr:primaryType="nt:unstructured"
+															toolbar="[format#bold,format#italic,format#underline,justify#justifyleft,justify#justifycenter,justify#justifyright,justify#justifyjustify,lists#unordered,lists#ordered,lists#outdent,lists#indent,links#modifylink,links#unlink,links#anchor,subsuperscript#subscript,subsuperscript#superscript,misctools#sourceedit,#styles,misctools#specialchars]">
+														<popovers jcr:primaryType="nt:unstructured">
+															<paraformat
+																jcr:primaryType="nt:unstructured"
+																items="paraformat:getFormats:paraformat-pulldown"
+																ref="paraformat"/>
+															<styles
+																jcr:primaryType="nt:unstructured"
+																items="styles:getStyles:styles-pulldown"
+																ref="styles"/>
+														</popovers>
+													</dialogFullScreen>
+													<tableEditOptions
+														jcr:primaryType="nt:unstructured"
+														toolbar="[table#insertcolumn-before,table#insertcolumn-after,table#removecolumn,-,table#insertrow-before,table#insertrow-after,table#removerow,-,table#mergecells-right,table#mergecells-down,table#mergecells,table#splitcell-horizontal,table#splitcell-vertical,-,table#selectrow,table#selectcolumn,-,table#ensureparagraph,-,table#modifytableandcell,table#removetable,-,undo#undo,undo#redo,-,table#exitTableEditing,-]"/>
+												</cui>
+											</uiSettings>
+										</description>
+
+                                        <productlink
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                            fieldLabel="Link"
+                                            name="./productlink"
+                                            rootPath="/content/ets-org"/>
+										<ctalinkarialabel
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="CTA Link Aria Label"
+                                            name="./ctaLinkAriaLabel"/>
+                                        <target
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                            name="./newTab"
+                                            text="Link target to new window"
+                                            uncheckedValue="{Boolean}false"
+                                            value="{Boolean}true"/>
+										<ctabuttontext
+											jcr:primaryType="nt:unstructured"
+											sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+											fieldLabel="CTA Button Text"
+											name="./ctaText"/>
+										<ctabuttonlink
+											jcr:primaryType="nt:unstructured"
+											sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+											fieldLabel="CTA Button Link"
+											name="./ctaLink"
+											rootPath="/content/ets-org"/>
+										<ctabuttonarialabel
+											jcr:primaryType="nt:unstructured"
+											sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+											fieldLabel="CTA Button Aria Label"
+											name="./ctaAriaLabel"/>
+										<ctatarget
+											jcr:primaryType="nt:unstructured"
+											sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+											name="./ctaNewTab"
+											text="Link target to new window"
+											uncheckedValue="{Boolean}false"
+											value="{Boolean}true"/>
+										<linktext
+											jcr:primaryType="nt:unstructured"
+											sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+											fieldLabel="Link Text"
+											name="./linkText"/>
+										<textlink
+											jcr:primaryType="nt:unstructured"
+											sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+											fieldLabel="Text Link"
+											name="./textLink"
+											rootPath="/content/ets-org"/>
+										<textlinkarialabel
+											jcr:primaryType="nt:unstructured"
+											sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+											fieldLabel="Text Link Aria Label"
+											name="./textLinkAriaLabel"/>
+										<texttarget
+											jcr:primaryType="nt:unstructured"
+											sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+											name="./textNewTab"
+											text="Link target to new window"
+											uncheckedValue="{Boolean}false"
+											value="{Boolean}true"/>
+                                    </items>
+                                </field>
+                            </products>
+                        </items>
+                    </productlist>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

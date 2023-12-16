@@ -1,0 +1,86 @@
+<sly data-sly-use.contactTable="org.ets.core.models.ContactTableModel"/>
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html" data-sly-call="${templates.placeholder @ isEmpty = !contactTable.title || !contactTable.subtitle, classAppend='cmp-text'}"></sly>
+<h3 data-sly-test="${contactTable.title || contactTable.fetchTitle}" data-sly-element="${currentStyle.titleType}" class="${contactTable.fetchTitle?'preparationMaterial_preparation_material':''}">${contactTable.title}</h3>
+<h4 data-sly-test="${contactTable.subtitle}" data-sly-element="${currentStyle.subtitleType}">${contactTable.subtitle}</h4>
+<p data-sly-test="${contactTable.note}">${contactTable.note @context='html'}</p>
+<div class="table-scroll-enable">
+    <table class="toefl-contactus-filter__table" role="presentation">
+        <tbody class="toefl-contactus-filter__table__content">
+            <tr data-sly-test="${contactTable.clo}">
+                <th>CLO:</th>
+                <td>${contactTable.clo}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.hours}">
+                <th>Hours:</th>
+                <td>${contactTable.hours @context='html'}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.officeHours}">
+                <th>Office hours:</th>
+                <td>${contactTable.officeHours @context='html'}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.email || contactTable.emailNote}">
+                <th>Email:</th>
+                <td>
+                	<a data-sly-test="${contactTable.email}" href="mailto:${contactTable.email}">${contactTable.email}</a>
+                	${contactTable.emailNote @context='html'}
+                </td>
+            </tr>
+            <tr data-sly-test="${contactTable.bureauOfCredentialing}">
+                <th>Bureau Of Credentialing:</th>
+                <td>${contactTable.bureauOfCredentialing}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.tddAccess}">
+                <th>TDD Access:</th>
+                <td>${contactTable.tddAccess}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.phone}">
+                <th>Phone:</th>
+                <td>${contactTable.phone @context='html'}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.tollFreePhone}">
+                <th>Toll free phone:</th>
+                <td>${contactTable.tollFreePhone @context='html'}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.tty}">
+                <th>TTY:</th>
+                <td>${contactTable.tty}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.candidateCares}">
+                <th>Candidate Cares:</th>
+                <td>${contactTable.candidateCares}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.fax}">
+                <th>Fax:</th>
+                <td>${contactTable.fax}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.websiteTitle}">
+                <th>Website:</th>
+                <td><a data-sly-unwrap="${!contactTable.websiteURL}" href="${contactTable.websiteURL}" target="_blank" rel="noopener noreferrer">${contactTable.websiteTitle @context='html'}</a></td>
+            </tr>
+            <tr data-sly-test="${contactTable.nationalOffice}">
+                <th>National office:</th>
+                <td>${contactTable.nationalOffice @context='html'}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.department}">
+                <th>Department:</th>
+                <td><a href="${contactTable.departmentURL}" target="_blank" rel="noopener noreferrer">${contactTable.department}</a></td>
+            </tr>
+            <tr data-sly-test="${contactTable.center}">
+                <th>Center:</th>
+                <td>${contactTable.center}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.address}">
+                <th>Address:</th>
+                <td>${contactTable.address @context='html'}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.mail}">
+                <th>Mailing Address:</th>
+                <td>${contactTable.mail @context='html'}</td>
+            </tr>
+            <tr data-sly-test="${contactTable.physicalAddress}">
+                <th>Physical address:</th>
+                <td>${contactTable.physicalAddress @context='html'}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
