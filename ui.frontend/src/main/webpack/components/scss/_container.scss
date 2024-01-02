@@ -1151,3 +1151,15 @@
         max-width:90% !important;
     }
 }
+
+.cmp-container--bg-white {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0 100vmax #FFFFFF;
+    clip-path: inset(0 -100vmax);
+}
+
+.cmp-container--bg-grey {
+    background-color: #F7F7F7;
+    box-shadow: 0 0 0 100vmax #F7F7F7;
+    clip-path: inset(0 -100vmax);
+}
